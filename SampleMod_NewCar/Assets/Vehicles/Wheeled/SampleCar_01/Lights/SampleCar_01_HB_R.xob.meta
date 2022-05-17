@@ -1,0 +1,27 @@
+MetaFileClass {
+ Name "{294A75E515033ACA}Assets/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_HB_R.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5554B1560DAA9EC7}" {
+     SourceMaterial "SampleCar_01_body"
+     AssignedMaterial "{210FA04A30B00FB7}Assets/Vehicles/Wheeled/SampleCar_01/Lights/data/SampleCar_01_body_emissive.emat"
+    }
+   }
+   Common TXOCommonClass "{5554B1560DB7CC83}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5554B1560DB7D30C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5554B1560DB7D362}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5554B1560DB7D342}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

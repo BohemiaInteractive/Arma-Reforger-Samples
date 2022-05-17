@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{11E203D1743130CC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_SampleFactionREDFOR.et.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

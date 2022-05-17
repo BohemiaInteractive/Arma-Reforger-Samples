@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{94D1F1456F1DB631}UI/Textures/EditorPreviews/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_AT.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

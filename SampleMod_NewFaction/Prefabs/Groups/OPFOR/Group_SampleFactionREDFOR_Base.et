@@ -1,0 +1,23 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Icon "{0F4B6077ACB2FC1D}UI/Textures/Editor/EditableEntities/Groups/EditableEntity_Group_Opfor_Infantry.edds"
+    m_sFaction "SampleFactionREDFOR"
+    m_aAuthoredLabels {
+     4 14 1001
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity OPFOR
+     m_Icons INFANTRY
+    }
+   }
+  }
+ }
+ coords 2862.637 71.782 1674.651
+ m_faction "SampleFactionREDFOR"
+ m_aUnitPrefabSlots {
+  "{F3F7765A0E0EB010}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_SL.et" "{CC68595F52C506E0}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_MG.et" "{46D7EE8445030C5F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_AT.et" "{1F7482D373D4DE6D}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Medic.et" "{93AAF964CB3D7B29}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_GL.et" "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et"
+ }
+}

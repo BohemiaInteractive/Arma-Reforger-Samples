@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{382E2BA33D94204C}UI/Textures/EditorPreviews/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_AT.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

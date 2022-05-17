@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3A20018E5B4EAF20}Configs/Arsenal/ArsenalConfig_SampleMod.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

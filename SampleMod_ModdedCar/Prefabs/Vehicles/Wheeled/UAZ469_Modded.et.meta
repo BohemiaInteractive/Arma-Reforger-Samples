@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{602B59AB3DF39462}Entities/Vehicles/Wheeled/UAZ469.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass LINUX : PC {
+  }
+ }
+}

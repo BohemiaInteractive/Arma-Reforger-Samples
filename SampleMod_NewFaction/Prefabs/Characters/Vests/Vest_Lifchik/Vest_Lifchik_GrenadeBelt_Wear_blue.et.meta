@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{49C6423D8ABD818F}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GrenadeBelt_Wear_blue.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

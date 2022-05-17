@@ -1,0 +1,78 @@
+MatPBRMulti {
+ SpecularIBL 0.198 0.198 0.198 1
+ CastShadow 1
+ ReceiveShadow 1
+ SurfaceProperties "{6ADE4EF6A8AD9019}Common/Materials/Game/gravel.gamemat"
+ Specular 0.072 0.072 0.072 1
+ DielectricReflectance 0.12
+ GlobalMCRMap "{BA07E1E42534B08A}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_MCR.edds"
+ OverlayBlackPower 0.8
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{08C3579FEEE8BC94}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_GLOBAL_MASK.edds"
+ VFXMap "{7FCD52BCEEDB792A}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_VFX.edds"
+ GlobalNMOMap "{7EB4D0E78EBD72CA}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_NMO.edds"
+ MudOpacity 0.99
+ MudColor 0.072 0.065 0.056 1
+ MudRoughness 2
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{701A672F59B06FCA}" {
+  TilingU 4
+  TilingV 4
+ }
+ DirtOpacity 0.083
+ DirtLayerSharpness 6.867
+ DirtColor 0.095 0.087 0.072 1
+ DirtRoughness 2.5
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{701A672F58031231}" {
+  TilingU 14
+  TilingV 14
+ }
+ Enabled_4 1
+ Color_4 0.091 0.084 0.073 1
+ BCR_4 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_4 "{FD3614E7F90495C2}Assets/_SharedData/Metal/ST_Metal_Rust_Coarse01_1m_NMO.edds"
+ MaskSharpness_4 1.349
+ MaskOffset_4 0.156
+ Mask_4 "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ MaskUVScale_4 2
+ UVTransform_4 MatUVTransform "{701A672F5E7091D7}" {
+  TilingU 4
+  TilingV 4
+ }
+ DetNormal_4 0.2
+ Roughness_4 2
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.584 0.584 0.584 1
+ BCR_3 "{FA742FE6A11B2766}Assets/_SharedData/Metal/ST_Steel_Base_01_BCR.edds"
+ NMO_3 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ UVTransform_3 MatUVTransform "{529F4ACCF9103FF6}" {
+  TilingU 4
+  TilingV 4
+ }
+ Metalness_3 0.7
+ Enabled_2 1
+ Color_2 0.014 0.014 0.014 1
+ BCR_2 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_2 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ Mask_2 "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ UVTransform_2 MatUVTransform "{701A672F69E0CB35}" {
+  TilingU 6
+  TilingV 6
+ }
+ Roughness_2 0.7
+ Color_1 0.617 0.039 0.017 1
+ BCR_1 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{701A672F6E40A08B}" {
+  TilingU 4
+  TilingV 4
+  OffsetU 0.3
+ }
+ DetNormal_1 0.5
+ Roughness_1 0.8
+}

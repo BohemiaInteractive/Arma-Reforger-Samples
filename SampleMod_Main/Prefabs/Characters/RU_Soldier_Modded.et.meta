@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5728DF90DB5CEC95}Prefabs/Characters/OPFOR/RU_Army/RU_Soldier_Modded.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

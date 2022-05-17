@@ -1,0 +1,20 @@
+GameProject {
+ ID "SampleMod_ModdedScript"
+ GUID "5614E482B37103E5"
+ TITLE "Sample Mod - Modded Script"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

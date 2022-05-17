@@ -1,0 +1,23 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "55BCC8E35BF54427"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   m_fBaseHealth 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{55BCC8E3535A3AEE}" {
+     m_ModelPrefabs {
+      "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 10.315 0.721 -0.152
+}

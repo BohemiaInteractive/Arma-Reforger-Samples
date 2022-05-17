@@ -1,0 +1,16 @@
+GenericEntity : "{C8516078375CBE45}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{5312D798A817A294}" {
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo GrenadeBelt {
+     Prefab "{0D224CC315F9B654}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GrenadeBelt_blue.et"
+    }
+   }
+   WornModel "{3C6D19A0E5ECAA1B}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Wear_blue.et"
+   ItemModel "{62DF8C9D3056CD2F}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_item_blue.et"
+  }
+ }
+}

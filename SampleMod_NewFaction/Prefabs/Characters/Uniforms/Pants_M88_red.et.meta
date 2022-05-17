@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{34D2A44A7A76BEEB}Prefabs/Characters/Uniforms/Pants_M88_white.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

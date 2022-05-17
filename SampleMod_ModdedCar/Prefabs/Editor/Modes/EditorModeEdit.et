@@ -1,0 +1,11 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{55289952E1F1594E}" : "{6DB115703B951505}Configs/Editor/PlaceableEntities/ModdedCar_Vehicles.conf" {
+    }
+   }
+  }
+ }
+}

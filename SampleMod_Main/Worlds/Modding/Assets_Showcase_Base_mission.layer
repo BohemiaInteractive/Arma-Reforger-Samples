@@ -1,0 +1,30 @@
+SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
+ coords 11.307 0 -17.266
+ Factions {
+  SCR_FreeForAllFaction "{56B491183BEFD56B}" {
+   m_ArsenalConfig SCR_ArsenalItemListConfig "{5948BC68B248D8DD}" : "{3A20018E5B4EAF20}Configs/Arsenal/ArsenalConfig_SampleMod.conf" {
+   }
+  }
+ }
+}
+SCR_BaseGameMode GameMode_Deathmatch_Automatic1 : "{B00D51315A1C7150}Prefabs/MP/Modes/Deathmatch/GameMode_Deathmatch_Automatic.et" {
+ components {
+  SCR_RespawnTimerComponent "{56B2B4662AF6CCED}" {
+   m_fRespawnTime 1
+  }
+ }
+ coords 9.598 0 -18.608
+}
+SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
+ coords -3.405 0 -1.962
+ angleY 120.713
+}
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ coords 7.151 0 -11.924
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{571AEEE48823548E}" {
+   m_sLoadoutResource "{98EB9CDD85B8C92C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed.et"
+   m_sAffiliatedFaction "FFA"
+  }
+ }
+}

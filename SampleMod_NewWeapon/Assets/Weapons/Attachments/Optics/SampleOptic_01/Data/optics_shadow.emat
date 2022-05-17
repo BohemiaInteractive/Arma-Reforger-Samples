@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.056 0.056 0.056 1
+ ZWrite 0
+}

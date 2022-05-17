@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A3912B557E87A5FC}Assets/Weapons/Rifles/Workspaces/sampleweapon_01_player.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

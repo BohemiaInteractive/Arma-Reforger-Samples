@@ -1,0 +1,634 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 19469
+   name "Signal 19"
+   tl 303 -297
+   res "{63CE53388AF9EF01}Sounds/_SharedData/Signals/OneSignal/animSelector.sig"
+   inputsport {
+    3
+   }
+   outputsport {
+    4
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+  }
+  SignalClass {
+   id 28685
+   name "Signal 28"
+   tl 802.406 306.653
+   res "{FC5C9C507476D6B9}Sounds/_SharedData/Signals/Vehicles/Vehicles_InsideVehicleSourceAttenuation.sig"
+   inputsport {
+    1 2 3
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 1
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 1
+   }
+  }
+ }
+ filters {
+  FilterClass : "{F2D014B87636D6C8}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Actions_Interior.conf" {
+   id 27670
+   name "Filter 27"
+   tl 802.594 441.347
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 28685
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{F2D014B87636D6C8}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Actions_Interior.conf"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 1033
+   name "SOUND_VEHICLE"
+   tl 787.705 -205.227
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 11282
+       port 65
+      }
+     }
+    }
+   }
+   outState 20491
+   outStatePort 17415
+   transformation Bone
+  }
+  SoundClass {
+   id 22537
+   name "SOUND_VEHICLE_HANDBRAKE"
+   tl 805 558.75
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 23570
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 27670
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   outState 20491
+   outStatePort 17415
+  }
+ }
+ selectors {
+  SelectorClass {
+   id 4102
+   name "Selector 4"
+   tl 299 -209.227
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 19469
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   ports {
+    PortClass port {
+     max 1
+    }
+    PortClass port {
+     min 1
+     max 2
+    }
+    PortClass port {
+     min 2
+     max 3
+    }
+    PortClass port {
+     min 3
+     max 4
+    }
+   }
+   iopPorts {
+    IOPConnectionClass iopConnection {
+     port 5829429
+     conn {
+      ConnectionsClass connections {
+       id 20
+       links {
+        ConnectionClass connection {
+         id 18456
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 5829429
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 15364
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 5829429
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 14340
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 5829429
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 8196
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SelectorClass : "{C108E8A69EE275FA}Sounds/_SharedData/Configs/Selector/Vehicles/Selector_Vehicles_HandBrakeOnOff.conf" {
+   id 24582
+   name "Selector 24"
+   tl 285.778 540.667
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 19469
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{C108E8A69EE275FA}Sounds/_SharedData/Configs/Selector/Vehicles/Selector_Vehicles_HandBrakeOnOff.conf"
+   ports {
+    PortClass handbrakeOn {
+     default 1
+    }
+    PortClass handbrakeOff {
+     max 10
+    }
+   }
+   iopPorts {
+    IOPConnectionClass iopConnection {
+     port 427888577
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 25604
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 799491619
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 26628
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 20491
+   name "OutputState 20"
+   tl 1035.667 -299.333
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   iops {
+    IOPConnectionClass iopConnection {
+     port 17415
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 1033
+         port 65
+        }
+        ConnectionClass connection {
+         id 22537
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "ENV_Ambient_NoAtt" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 11282
+   name "Shader 1"
+   tl 548 -207.227
+   conns {
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 4102
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 12307
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 13333
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 21532
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ShaderClass {
+   id 23570
+   name "SOUND_VEHICLE_HANDBRAKE"
+   tl 548 553.556
+   conns {
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 24582
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 12307
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 21532
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{A653A58933CFA18E}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Animations.conf" {
+   id 12307
+   tl 548 -385.75
+   parent "{A653A58933CFA18E}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Animations.conf"
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 13333
+   name "Frequency 13"
+   tl 548 -298.75
+   enableDistanceAtt 1
+   filterStrength 2
+  }
+ }
+ playlist {
+  PlaylistClass {
+   id 18456
+   name "Playlist 18"
+   tl 94.5 -209.227
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 17412
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 16388
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 8196
+   name "Door Squeak"
+   tl 97.932 142.909
+   Volume -3
+   "Volume variance" 2
+   "Pitch variance" 2
+   "Fade out time" 0
+   "Disable updating" 1
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{386ED03B362531FA}Sounds/Vehicles/Wheeled/UAZ469/Samples/UAZ_Door_Squeak_1.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{A17069A22BC2006A}Sounds/Vehicles/Wheeled/UAZ469/Samples/UAZ_Door_Squeak_2.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 14340
+   name "SampleCar_01_Door_Close"
+   tl 100.25 27.5
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{2AD1E13A5BBF2958}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Close_1.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{B3CF58A3465818C8}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Close_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{C4C5302BB2FAF7B8}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Close_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Sample(4)" {
+     Filename "{C302CA7AD47C4D7B}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Close_4.wav"
+     Index 3
+    }
+   }
+  }
+  BankLocalClass {
+   id 15364
+   name "SampleCar_01_Door_Open_End"
+   tl 97.639 -81.25
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{5E7C3AEE8359511D}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_1.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{C76283779EBE608D}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_2.wav"
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{B068EBFF6A1C8FFD}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_3.wav"
+    }
+    AudioBankSampleClass "Sample(4)" {
+     Filename "{5E7C3AEE8359511D}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_1.wav"
+     Index 3
+    }
+    AudioBankSampleClass "Sample(5)" {
+     Filename "{C76283779EBE608D}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_2.wav"
+     Index 4
+    }
+    AudioBankSampleClass "Sample(6)" {
+     Filename "{B068EBFF6A1C8FFD}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_End_3.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass {
+   id 16388
+   name "SampleCar_01_Door_Creak"
+   tl -111.111 -131.583
+   Volume -3
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{1E734D6EA2CAB8EA}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Creak_1.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{876DF4F7BF2D897A}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Creak_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{F0679C7F4B8F660A}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Creak_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Sample(4)" {
+     Filename "{F7A0662E2D09DCC9}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Creak_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass "Sample(5)" {
+     Filename "{80AA0EA6D9AB33B9}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Creak_5.wav"
+     Index 4
+    }
+   }
+  }
+  BankLocalClass {
+   id 17412
+   name "SampleCar_01_Door_Open_Start"
+   tl -112.222 -240.472
+   ctl -3767.262 0
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{2D16A47D07293F33}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_Start_1.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{B4081DE41ACE0EA3}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_Start_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{C302756CEE6CE1D3}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Door_Open_Start_3.wav"
+     Index 2
+    }
+   }
+  }
+  BankLocalClass {
+   id 25604
+   name "handBrake on"
+   tl -98 500
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{8D2C0D348CA22256}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_handBrakeOn_01.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{1432B4AD914513C6}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_handBrakeOn_02.wav"
+     Index 1
+    }
+   }
+  }
+  BankLocalClass {
+   id 26628
+   name "handbrake Off"
+   tl -104.306 597.5
+   Volume -2
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{7C0534975355E790}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_handBrakeOff_01.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{E51B8D0E4EB2D600}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_handBrakeOff_02.wav"
+     Index 1
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 21532
+   name "Spatiality 21"
+   tl 548 -469
+   spatialFactor 1
+  }
+ }
+ version 1
+}

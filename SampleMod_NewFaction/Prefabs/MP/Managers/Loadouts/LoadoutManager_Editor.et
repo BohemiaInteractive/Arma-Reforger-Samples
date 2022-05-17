@@ -1,0 +1,35 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5928D9F060C9EAAC}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{8D3A55BAF6CD0FCF}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionBLUFOR"
+  }
+  SCR_PlayerArsenalLoadout "{5928D9F054FBE00A}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{8D3A55BAF6CD0FCF}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionBLUFOR"
+  }
+  SCR_FactionPlayerLoadout "{5928D9F1DF0144B0}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionREDFOR"
+  }
+  SCR_PlayerArsenalLoadout "{5928D9F1DE1EAED9}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionREDFOR"
+  }
+  SCR_FactionPlayerLoadout "{5928D9F1DEFFDD72}" {
+   m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
+   m_sLoadoutResource "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionGREENFOR"
+  }
+  SCR_PlayerArsenalLoadout "{5928D9F1D9D65276}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et"
+   m_sAffiliatedFaction "SampleFactionGREENFOR"
+  }
+ }
+}

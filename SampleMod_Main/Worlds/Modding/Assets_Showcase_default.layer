@@ -1,0 +1,92 @@
+SCR_PlayerController DefaultPlayerControllerMP1 : "{225E51284CC95CFA}Prefabs/Characters/Core/DefaultPlayerControllerMP.et" {
+ coords 1216.248 51.001 1329.951
+ SelfRegister 1
+}
+Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
+ coords 1225.29 51.001 1324.695
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 1224.071 51.001 1370.054
+}
+GenericEntity : "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et" {
+ coords 1218.191 51.953 1325.539
+ angleX -0.673
+ angleY 82.958
+ angleZ -90.175
+}
+GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_Full.et" {
+ coords 1218.353 51.001 1325.704
+}
+Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modded.et" {
+ coords 1214.283 51.001 1324.802
+}
+Projectile : "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" {
+ coords 5.561 0 13.349
+}
+GenericEntity : "{6DD8E59406070672}Assets/Tests/Weapons/Rifle_M16A2_Camo.et" {
+ coords 1218.217 51.946 1325.919
+ angleY 85.857
+ angleZ -91.477
+}
+Vehicle Mi8MT_Modded1 : "{8DFEDC35C0BBB097}Prefabs/Vehicles/Helicopters/Mi8MT_Modded.et" {
+ coords 1206.892 51.001 1325.289
+}
+GenericEntity : "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01.et" {
+ coords 1219.92 52.826 1325.912
+}
+$grp GenericEntity : "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_30rnd_Modded.et" {
+ {
+  coords 1218.598 51.943 1325.53
+  angleX -1.812
+  angleY 77.796
+  angleZ -86.004
+ }
+ {
+  coords 1218.765 51.938 1325.566
+  angleX -1.812
+  angleY 77.796
+  angleZ -86.004
+ }
+}
+$grp Projectile : "{A8422FD60F6F6E00}Prefabs/Weapons/Ammo/Ammo_545x39_ball_Modded.et" {
+ {
+  coords 1216.793 51.001 1326.174
+ }
+ {
+  coords 1219.762 51.001 1363.98
+ }
+}
+$grp SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
+ PlayerCharacter {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et"
+   }
+  }
+  coords 1218.183 51.001 1324.075
+ }
+ PlayerCharacter2 {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et"
+   }
+  }
+  coords 1218.183 51.001 1369.252
+ }
+ PlayerCharacter3 {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et"
+   }
+  }
+  coords 1219.968 51.001 1369.252
+ }
+ PlayerCharacter4 {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+    WeaponTemplate "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et"
+   }
+  }
+  coords 1216.446 51.001 1369.252
+ }
+}

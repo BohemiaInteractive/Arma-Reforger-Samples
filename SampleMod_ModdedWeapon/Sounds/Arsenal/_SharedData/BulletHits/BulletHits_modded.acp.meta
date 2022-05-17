@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{7C7B05A4A4637553}Sounds/Arsenal/_SharedData/BulletHits/BulletHits_modded.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

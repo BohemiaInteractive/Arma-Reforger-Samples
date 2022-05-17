@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4C55679D20C45B47}UI/Textures/EditorPreviews/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Unarmed.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

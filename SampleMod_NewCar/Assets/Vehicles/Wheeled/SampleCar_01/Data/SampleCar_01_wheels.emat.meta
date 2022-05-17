@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{A768C6F716F53C7E}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_wheels.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

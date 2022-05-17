@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{4CE4CE55DB406F0C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Unarmed.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,33 @@
+GameProject {
+ ID "SampleMod_NewWeapon"
+ GUID "5614E481506D2979"
+ TITLE "Sample Mod - New Weapon"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{55DED7005E151D1E}" {
+      StringTableSource "{55DEE1D8C98F4BF7}Language/localization.st"
+      Languages {
+       LanguageDefinition "{55DED70063028817}" {
+        Code "en_us"
+        StringTableRuntime "{55DEE1D8CDFFFBE4}Language/localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

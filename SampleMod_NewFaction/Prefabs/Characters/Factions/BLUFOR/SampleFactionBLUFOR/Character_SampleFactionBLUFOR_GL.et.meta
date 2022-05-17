@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{E0AF46F3B19DB3DB}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_GL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

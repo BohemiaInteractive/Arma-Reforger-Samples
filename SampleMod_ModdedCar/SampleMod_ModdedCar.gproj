@@ -1,0 +1,33 @@
+GameProject {
+ ID "SampleMod_ModdedCar"
+ GUID "5614E4829EAE4BB1"
+ TITLE "Sample Mod - Modded Car"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{55DED7007C4DD898}" {
+      StringTableSource "{55DEE1D8EA9C884A}Language/localization.st"
+      Languages {
+       LanguageDefinition "{55DED700043851AE}" {
+        Code "en_us"
+        StringTableRuntime "{55DEE1D8D7267BD2}Language/localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

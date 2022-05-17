@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5B7CAF01F9E4B1F8}Configs/Editor/PlaceableEntities/Groups_SampleFactionREDFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

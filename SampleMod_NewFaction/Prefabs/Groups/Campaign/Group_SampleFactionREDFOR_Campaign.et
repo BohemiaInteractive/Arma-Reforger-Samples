@@ -1,0 +1,7 @@
+SCR_AIGroup : "{AC15E546F770B6B3}Prefabs/Groups/Campaign/Group_SampleFactionREDFOR_Campaign_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots + {
+  "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et" "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et" "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et" "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et"
+ }
+ m_bSpawnImmediately 0
+}

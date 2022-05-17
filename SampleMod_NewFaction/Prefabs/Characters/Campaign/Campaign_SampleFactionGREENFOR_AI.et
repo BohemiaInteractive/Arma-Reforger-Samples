@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignInteractionsComponent "{56BAC7C16ADD0374}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  }
+ }
+}

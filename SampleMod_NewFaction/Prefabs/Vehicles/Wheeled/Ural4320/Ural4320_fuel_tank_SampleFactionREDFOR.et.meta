@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{432AF126B56A1BC6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_fuel_tank_SampleFactionREDFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

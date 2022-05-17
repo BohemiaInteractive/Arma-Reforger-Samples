@@ -1,0 +1,12 @@
+MatPBRCamo {
+ Color 1 1 1 1
+ SurfaceProperties "{13581C35484F3000}Common/Materials/Game/fabric.gamemat"
+ CavityFromAO 1
+ BCRMap "{77A59BA476FDDF3A}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/T_CombatBoots_Soviet_01_BCR.edds" 
+ NMOMap "{4F7D2036AF8A8DA4}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/T_CombatBoots_Soviet_01_NMO.edds" 
+ CamoColor 0 0.5 0.125 1
+ CamoOpacity 0.308
+ CammNormalOpacity 0.166
+ CamoRoughnessOpacity 0.571
+ CamoMetalnessOpacity 0.156
+}

@@ -1,0 +1,10 @@
+MatPBRBasic {
+ SpecularMul 0.515
+ RoughnessScale 2.663
+ MetalnessScale 1.066
+ AOScale 0.441
+ DielectricReflectance 0.064
+ BCRMap "{E7E924DE1C2B1A23}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_body_BCR.edds" 
+ NormalPower 0.446
+ NMOMap "{DF319F4CC55C48BD}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_body_NMO.edds" 
+}

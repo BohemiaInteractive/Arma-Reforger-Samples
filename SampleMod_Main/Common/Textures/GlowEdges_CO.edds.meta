@@ -1,0 +1,21 @@
+MetaFileClass {
+ Name "{A52A1B7C080CF34E}Common/Textures/GlowEdges_CO.edds"
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "GlowEdges_CO.tga"
+   CompressTreshold 100
+   Conversion ColorHQCompression
+   ColorSpace ToSRGB
+   MipMapFilter Triangle
+   MipAlphaFadeStart 0.055
+   MipAlphaFadeEnd 0.042
+   MipAlphaFadeValue 0.071
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

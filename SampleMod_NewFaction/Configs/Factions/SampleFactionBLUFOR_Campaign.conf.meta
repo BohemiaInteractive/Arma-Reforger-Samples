@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{7B47FE85B7F966F7}Configs/Factions/SampleFactionBLUFOR_Campaign.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

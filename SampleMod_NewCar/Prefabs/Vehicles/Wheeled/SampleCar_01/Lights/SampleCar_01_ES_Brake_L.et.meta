@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{9109C128D1E88D57}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Brake_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

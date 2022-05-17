@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{72D2C69B1F7464B8}Configs/Editor/PlaceableEntities/Characters_SampleFactionGREENFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,94 @@
+MetaFileClass {
+ Name "{00D04EEBDF065BB6}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_wing.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "PortableDesk_01_wing.fbx"
+   MaterialAssigns {
+    MaterialAssignClass "{5236AD9CAA085718}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{453947F3D7B3C60C}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_FG_Component02_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component11_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component12_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component13_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component14_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component15_LODFire_Geometry {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Component02_LODGeometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Component05_LODGeometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5236AD9CAA1EAED2}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5236AD9CAA1EADFF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5236AD9CAA1EADD6}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5236AD9CAA1EAC10}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

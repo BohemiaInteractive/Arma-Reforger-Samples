@@ -1,0 +1,12 @@
+MatPBRBasic {
+ Emissive 0.973 0.973 0.973 0
+ EmissiveLV 8.405
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ Sort translucent
+ AlphaMul 0.412
+ BlendMode AlphaBlend
+ BCRMap "{3892E8EF8687FEC4}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_BCR.edds" 
+ OpacityMap "{07F6601CF048F331}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_Alpha.edds" 
+ NMOMap "{004A537D5FF0AC5A}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_NMO.edds" 
+}

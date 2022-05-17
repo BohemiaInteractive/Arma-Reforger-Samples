@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{CAA9A3268F6EFB1F}UI/Textures/EditorPreviews/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_GL.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

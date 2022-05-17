@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Emissive 0.105 0.081 0.081 0
+ EmissiveLV 4.48
+ ApplyAlbedoToEmissive 1
+ RoughnessScale 2.868
+ MetalnessScale 3.493
+ AOScale 0.665
+ DielectricReflectance 0.02
+ EmissiveMap "{82E3BCE667170541}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interier2_EM.edds" 
+ BCRMap "{DB57005F12FF2453}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_02_BCR.edds" 
+ NormalPower 0.059
+ NMOMap "{DB57005F12FF2453}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_02_BCR.edds" 
+}

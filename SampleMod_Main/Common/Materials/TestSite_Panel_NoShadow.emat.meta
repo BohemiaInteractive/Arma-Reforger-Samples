@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

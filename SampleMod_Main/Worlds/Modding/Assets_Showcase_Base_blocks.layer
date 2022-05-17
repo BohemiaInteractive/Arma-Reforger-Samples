@@ -1,0 +1,189 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEADF64BD8AE}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -1.417 -0.053 -3.107
+ }
+ {
+  components {
+   MeshObject "{3B42A652AB430D4F}" {
+    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+    Materials {
+     MaterialAssignClass "{517664EDE2CE661E}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+     }
+    }
+   }
+   RigidBody "{3B42A6529393DAE5}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 1.21 -20.027 -38.912
+  angleY -90
+  angleZ 90
+ }
+ {
+  components {
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEADF64BD8AE}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -1.417 -0.053 -1.122
+ }
+ {
+  components {
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEADF64BD8AE}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -1.417 -0.053 -2.112
+ }
+ {
+  components {
+   MeshObject "{5176FEAB1FFE319C}" {
+    Object "{1C6F50CC78DFD6EB}Assets/Tests/Metrics/manual_on_200x150.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAAFBF17454}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEAD786B5AD9}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -5.789 -0.053 0.025
+ }
+ {
+  components {
+   MeshObject "{5176FEAB1FFE319C}" {
+    Object "{1C6F50CC78DFD6EB}Assets/Tests/Metrics/manual_on_200x150.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAAFBF17454}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEADA1422B95}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -5.789 -0.053 -0.975
+ }
+ {
+  components {
+   MeshObject "{3B42A652AB430D4F}" {
+    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+    Materials {
+     MaterialAssignClass "{517664EDE2CE669E}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+     }
+    }
+   }
+   RigidBody "{3B42A6529393DAE5}" {
+    LayerPreset "Terrain"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 0.177 0 0
+ }
+ {
+  components {
+   MeshObject "{3B42A652AB430D4F}" {
+    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+    Materials {
+     MaterialAssignClass "{517664EDE2CE6356}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+     }
+    }
+   }
+   RigidBody "{3B42A6529393DAE5}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -39.743 -17.471 0.01
+  angleZ 90
+ }
+ {
+  components {
+   MeshObject "{3B42A652AB430D4F}" {
+    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+    Materials {
+     MaterialAssignClass "{517664EDE2CE60C9}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+     }
+    }
+   }
+   RigidBody "{3B42A6529393DAE5}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 41.207 -17.521 -0.518
+  angleZ 90
+ }
+ {
+  components {
+   MeshObject "{3B42A652AB430D4F}" {
+    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+    Materials {
+     MaterialAssignClass "{517664EDE2CE67B8}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+     }
+    }
+   }
+   RigidBody "{3B42A6529393DAE5}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords -0.83 -17.491 42.106
+  angleY -90
+  angleZ 90
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{2A2684B5F52E8003}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine_EngineRPM.sig"
+ Configurations {
+  AudioSignalResourceClass PC {
+  }
+  AudioSignalResourceClass XBOX_ONE : PC {
+  }
+  AudioSignalResourceClass PS4 : PC {
+  }
+  AudioSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

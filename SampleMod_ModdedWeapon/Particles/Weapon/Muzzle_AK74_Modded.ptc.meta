@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{341A531B05220D74}Particles/Weapon/Muzzle_AK74_Modded.ptc"
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

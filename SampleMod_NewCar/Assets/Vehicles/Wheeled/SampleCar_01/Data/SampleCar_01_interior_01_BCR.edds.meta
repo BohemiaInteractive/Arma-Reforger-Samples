@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9BA7217AA4E3A614}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   SourceFile "SampleCar_01_interior_01_BCR.tif"
+  }
+  TIFFResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+   SourceFile "SampleCar_01_interior_01_BCR.tif"
+  }
+  TIFFResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+   SourceFile "SampleCar_01_interior_01_BCR.tif"
+  }
+  TIFFResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+   SourceFile "SampleCar_01_interior_01_BCR.tif"
+  }
+ }
+}

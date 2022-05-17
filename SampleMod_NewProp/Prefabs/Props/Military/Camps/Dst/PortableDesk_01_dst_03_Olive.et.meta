@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{06124432529B0FB0}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_dst_03_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

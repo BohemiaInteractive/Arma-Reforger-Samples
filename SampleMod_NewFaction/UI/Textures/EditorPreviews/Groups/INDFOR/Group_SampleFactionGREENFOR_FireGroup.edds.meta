@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8C5E5A3AE69E1E50}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_FireGroup.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{23FC9DFF19A54CD4}Prefabs/Weapons/Ammo/Ammo_545x39_ball_green_Modded.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

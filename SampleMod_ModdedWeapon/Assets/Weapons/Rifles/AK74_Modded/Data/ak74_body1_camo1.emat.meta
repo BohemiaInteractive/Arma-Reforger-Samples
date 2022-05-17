@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3E541D2699281235}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body1_camo1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,55 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryItemComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "6.5x39mm 30rnd STANAG Caseless Mag"
+     Description "Magazine loaded with caseless NATO rounds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52D0FA2677E2A46A}" {
+     Weight 0.23
+     SizeSetupStrategy Volume
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{594A65371BB8A5E1}" {
+      CameraPreset Left
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell65x39C_SampleWeapon "{52D0FA2677E2A45D}" {
+   }
+   UIInfo MagazineUIInfo "{52D0FA2677E2A45F}" {
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{594A65349B1DEF85}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
+    }
+   }
+   ItemModel "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
+   AmmoConfig "{3D41E1B0D6EEC0AF}Configs/Weapons/Ammo/Ammo_545x39.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
+  }
+  SimpleSoundComponent "{571B038258CD6886}" {
+   Filenames {
+    "{732E79E70E9548B0}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Magazine.acp"
+   }
+  }
+  ActionsManagerComponent "{F092E6B0537754FD}" {
+   ActionContexts {
+    UserActionContext "{5086F9AB010868CE}" {
+     Position PointInfo "{5086F9AC96DB9752}" {
+      Offset 0 -0.0389 -0.0383
+     }
+    }
+   }
+  }
+ }
+ coords 9.405 0 2.239
+ Flags 4194307
+}

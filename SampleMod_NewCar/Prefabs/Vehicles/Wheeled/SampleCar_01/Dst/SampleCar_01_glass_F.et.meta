@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{35063E41D3F9A106}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_F.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

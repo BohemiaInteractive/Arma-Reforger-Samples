@@ -1,0 +1,147 @@
+GenericEntity : "{0C51231142DD368C}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Full.et" {
+ coords -6.585 0 5.723
+ angleY 132.594
+}
+$grp GenericEntity : "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et" {
+ {
+  coords -1.62 0.977 -1.465
+  angleX -0.005
+  angleY -179.755
+  angleZ -91.936
+ }
+ {
+  coords -1.374 0.969 -1.466
+  angleX -0.005
+  angleY -179.755
+  angleZ -91.936
+ }
+ {
+  coords -1.106 0.96 -1.467
+  angleX -0.005
+  angleY -179.755
+  angleZ -91.936
+ }
+}
+GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_Base.et" {
+ coords 1.694 0.023 2.226
+ angleY -78.901
+}
+GenericEntity : "{3CFE9B97C44C1671}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Lid.et" {
+ coords 0.941 0.9 -0.595
+ angleX 87.642
+}
+GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Full.et" {
+ coords -0.23 0 7.182
+ angleY -140.776
+}
+GenericEntity : "{568AEB65B0B08514}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Wing.et" {
+ coords -0.037 0.059 -1.785
+ angleY -90.879
+ angleZ -46.44
+}
+Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modded.et" {
+ components {
+  FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     FuelType Diesel
+     MaxFuel 69
+    }
+    SCR_FuelNode "{5628CA85F51FEF87}" {
+     FuelType Diesel
+     MaxFuel 69
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5224B5F1923C76BB}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{62B42B998E960AD7}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Modded.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#SampleMod-EditableEntity_UAZ469_Modded_Name"
+    m_Image "{B22FE30F1EAD4009}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469_Modded.edds"
+    m_sFaction "USSR"
+    m_aAutoLabels +{
+    }
+   }
+  }
+  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
+   m_fFuelConsumption 145
+  }
+  SCR_MotorExhaustEffectGeneralComponent "{2122A74B00AC1C3A}" {
+   ParticleEffect "{804290CEC6889C3F}Particles/Vehicle/Vehicle_smoke_car_exhaust_normal_modded.ptc"
+   EffectPosition EntitySlotInfo "{2122A7485A2AD09C}" {
+    Offset 0 0 0
+   }
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fHeight 2.4
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11880.1
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     PivotID "v_root"
+     Offset 0 1.0213 0
+     Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxPower 255
+     MaxTorque 172
+    }
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Suspension Suspension "{4D8B26DFF8859A7B}" {
+       MaxSteeringAngle 48
+      }
+     }
+    }
+   }
+  }
+ }
+ coords -4.02 0.023 -9.398
+ angleY 97.369
+}
+GenericEntity : "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Full.et" {
+ coords 1.094 0 0.01
+ angleY -67.198
+}
+$grp GenericEntity : "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_30rnd_Modded.et" {
+ {
+  coords -1.722 0.952 -0.733
+  angleX -0.005
+  angleY -179.755
+  angleZ -88.741
+ }
+ {
+  coords -1.723 0.952 -0.983
+  angleX -0.005
+  angleY -179.755
+  angleZ -88.741
+ }
+ {
+  coords -1.723 0.952 -0.865
+  angleX -0.005
+  angleY -179.755
+  angleZ -88.741
+ }
+}
+Projectile : "{A8422FD60F6F6E00}Prefabs/Weapons/Ammo/Ammo_545x39_ball_Modded.et" {
+ coords -30.358 -12.343 -38.912
+}

@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{DCB6E3830663FD18}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    m_Image "{4C55679D20C45B47}UI/Textures/EditorPreviews/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Unarmed.edds"
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     2 122 22
+    }
+   }
+  }
+ }
+}

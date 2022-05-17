@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{0D9CD83243D8F6A1}Assets/Weapons/Ammo/Data/Orb2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

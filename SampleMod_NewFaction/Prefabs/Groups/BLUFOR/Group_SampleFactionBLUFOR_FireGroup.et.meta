@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{8115B8354F10C596}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR_FireGroup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

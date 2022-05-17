@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{B22FE30F1EAD4009}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469_Modded.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

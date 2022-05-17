@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{A632886A05F3F2CA}Prefabs/MP/Campaign/CampaignFactionManager_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

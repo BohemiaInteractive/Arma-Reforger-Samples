@@ -1,0 +1,17 @@
+GenericEntity : "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5848EDCA8A09E6F7}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot optic {
+      Offset 0 0 0
+      ChildPivotID "snap_optics"
+      Prefab "{63DDF1EFECD7F988}Prefabs/Attachments/Optics/Optic_SampleOptic_01.et"
+     }
+    }
+   }
+  }
+ }
+}

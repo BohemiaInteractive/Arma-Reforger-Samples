@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A8422FD60F6F6E00}Entities/Weapons/Ammo/Ammo_545x39_ball_Modded.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+ }
+}

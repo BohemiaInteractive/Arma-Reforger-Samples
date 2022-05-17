@@ -1,0 +1,41 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{BA5449C606206A19}Assets/Weapons/Rifles/AK74/ak74_body.xob"
+   Materials {
+    MaterialAssignClass "{5272DD4522040024}" {
+     SourceMaterial "ak74_body1"
+     AssignedMaterial "{3E541D2699281235}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body1_camo1.emat"
+    }
+    MaterialAssignClass "{5272DD4522040019}" {
+     SourceMaterial "ak74_body2"
+     AssignedMaterial "{C18E407219DC8273}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body2_camo1.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 200
+       UIName "Single"
+      }
+      BaseFireMode "{506B20D150DD8534}" {
+       MaxBurst -1
+       RoundsPerMinute 200
+       UIName "Auto"
+      }
+     }
+    }
+   }
+  }
+  WeaponSoundComponent "{517ADD2CF89903DE}" {
+   Filenames {
+    "{C9ABB3C0C4666930}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Rifles_AK-74_modded.acp" "{1A15B9A1B0C17E1B}Sounds/Arsenal/Weapons/Rifles/AK-74/Handling/Rifles_AK-74_Handling.acp" "{5071D9019D052481}Sounds/Arsenal/Weapons/Rifles/Rifles_Impacts.acp" "{BFD8C39A140E182E}Sounds/Arsenal/Weapons/_SharedData/Weapon_Bullet_Casings_5_56mm.acp" "{95CB724DC0A9400C}Sounds/Character/Movement/Equipment/PickUp/PickUp_Weapon_Rifle.acp" "{ACC1EC54B479B616}Sounds/Character/Damage/Melee_Impact_Rifle.acp"
+   }
+  }
+ }
+ coords -0.77 1 8.86
+}

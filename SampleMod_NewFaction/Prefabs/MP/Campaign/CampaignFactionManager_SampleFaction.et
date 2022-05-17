@@ -1,0 +1,11 @@
+SCR_CampaignFactionManager : "{A632886A05F3F2CA}Prefabs/MP/Campaign/CampaignFactionManager_Base.et" {
+ ID "56BA973B66768ABC"
+ Factions {
+  SCR_CampaignFaction "{56BAC54F97627733}" {
+  }
+  SCR_CampaignFaction "{56BAC54F95B74BC0}" {
+  }
+  SCR_CampaignFaction "{56BAC54F908414FD}" {
+  }
+ }
+}

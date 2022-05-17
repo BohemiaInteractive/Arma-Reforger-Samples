@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{306D7467339A1577}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Animations.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

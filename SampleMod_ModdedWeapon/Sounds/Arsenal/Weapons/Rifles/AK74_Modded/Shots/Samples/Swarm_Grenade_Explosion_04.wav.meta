@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{826BD53C05DA258E}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_04.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass LINUX : PC {
+  }
+ }
+}

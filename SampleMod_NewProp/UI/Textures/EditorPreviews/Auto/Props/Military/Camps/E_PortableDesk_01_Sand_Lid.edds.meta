@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3F66085EFC6F9A49}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Sand_Lid.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

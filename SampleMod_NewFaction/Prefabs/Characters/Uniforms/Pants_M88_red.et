@@ -1,0 +1,26 @@
+GameEntity : "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{56B8D2BA18CB03EB}" {
+     SourceMaterial "pants_M88_01"
+     AssignedMaterial "{F40F5C9723F87D44}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_red_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{170C14CBE5EA801B}Prefabs/Characters/Uniforms/Pants_M88_Wear_red.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{170C14CBE5EA801B}Prefabs/Characters/Uniforms/Pants_M88_Wear_red.et"
+   ItemModel "{91688E1E8A1F9E89}Prefabs/Characters/Uniforms/Pants_M88_Item_red.et"
+  }
+ }
+}

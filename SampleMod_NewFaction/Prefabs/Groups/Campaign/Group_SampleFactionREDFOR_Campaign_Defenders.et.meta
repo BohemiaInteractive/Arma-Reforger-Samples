@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{75D9E5BA9FB3B532}Prefabs/Groups/Campaign/Group_SampleFactionREDFOR_Campaign_Defenders.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

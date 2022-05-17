@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1432B4AD914513C6}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_handBrakeOn_02.wav"
+ Configurations {
+  WAVResourceClass PC : "{F72B05D02F3F135E}Configs/System/ResourceTypes/PC/Sound.conf" {
+  }
+  WAVResourceClass XBOX_ONE : "{A0776163143143AC}Configs/System/ResourceTypes/XBOX_ONE/Sound.conf" {
+  }
+  WAVResourceClass XBOX_SERIES : "{382981CA1FC1C8DB}Configs/System/ResourceTypes/XBOX_SERIES/Sound.conf" {
+  }
+  WAVResourceClass PS4 : "{89EB939911B4C093}Configs/System/ResourceTypes/PS4/Sound.conf" {
+  }
+  WAVResourceClass HEADLESS : "{D63592CA950AF3A8}Configs/System/ResourceTypes/HEADLESS/Sound.conf" {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{B6C0398C8880CB6A}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Indicator_RL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

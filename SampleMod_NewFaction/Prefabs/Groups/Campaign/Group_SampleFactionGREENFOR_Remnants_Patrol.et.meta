@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{95EB86B56C445CB4}Prefabs/Groups/Campaign/Group_SampleFactionGREENFOR_Remnants_Patrol.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

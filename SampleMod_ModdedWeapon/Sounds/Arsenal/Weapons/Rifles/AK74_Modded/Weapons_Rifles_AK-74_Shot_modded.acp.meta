@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C9ABB3C0C4666930}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Rifles_AK-74_modded.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

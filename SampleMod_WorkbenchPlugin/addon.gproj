@@ -1,0 +1,20 @@
+GameProject {
+ ID "SampleMod_WorkbenchPlugin"
+ GUID "5614E4816F653D1A"
+ TITLE "Sample Mod - Workbench Plugin"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

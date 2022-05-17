@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{95F6679C0A93945E}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_MG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

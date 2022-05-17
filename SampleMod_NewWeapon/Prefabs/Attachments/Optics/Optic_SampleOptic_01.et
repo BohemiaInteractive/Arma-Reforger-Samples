@@ -1,0 +1,114 @@
+GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  SoundComponent "{52D2CE655E5287E4}" {
+   Filenames {
+    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
+   }
+   OnFrameUpdate 0
+  }
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5270B214A77D22C4}" {
+     Name "Sample Carryhandle Optic"
+     Description "Optic with 4x magnification designed to be used together with Sample Weapon"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.58
+     SizeSetupStrategy Volume
+     ItemVolume 400
+     RestingUP Right
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRail1913 "{5962E49CEEB3B0B5}" {
+      }
+     }
+     CharacterModifierAttributes "{52A87A377BE3739F}" {
+      ADSSpeedLimit 1.5
+      SpeedLimitHighready 1.7
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      CameraDistanceToItem 1
+      ItemRenderRotation 0 0 0
+      FOV 20
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{52D2CE655E5287E8}" {
+   Object "{1EF2AF6CF820972F}Assets/Weapons/Attachments/Optics/SampleOptic_01/SampleOptic_01.xob"
+  }
+  RigidBody "{52D2CE655E5287E5}" {
+   LayerPreset "ItemFireView"
+   ModelGeometry 1
+  }
+  SCR_2DPIPSightsComponent "{584E83B41BD95B7D}" {
+   SightsPosition PointInfo "{584E83B41FD2B6D5}" {
+    PivotID "eye"
+    Offset 0 0 0
+   }
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{584E83B41719648C}" {
+    m_fBaseZoom 4
+    m_fZoomMax 4
+    m_fInterpolationSpeed 50
+   }
+   SightsPointFront PointInfo "{584E83BC7A32CEE7}" {
+    PivotID "optic_front"
+    Offset 0 0 0
+   }
+   SightsPointRear PointInfo "{584E83BC7F8BAFF3}" {
+    PivotID "optic_rear"
+   }
+   ADSTime 0.5
+   ADSUpdateOwnerActivateState 1
+   CameraRecoilAmount -0.4
+   SoundInt 10001
+   m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
+   m_sReticleTexture "{7185970FDF1B1051}UI/Textures/Sights/SampleOptic-black_blur1024_UI.edds"
+   m_sReticleGlowTexture "{365562D923ECF9C0}UI/Textures/Sights/SampleOptic-black_glow1024_UI.edds"
+   m_bHasIllumination 1
+   m_cReticleTextureIllumination 0.804 0.02 0.02 1
+   m_fMagnification 4
+   m_iReticleTextureWidth 308
+   m_fReticleWidthRange 20.944
+   m_fVignetteTextureMultiplier 2.387
+   m_iHudDeactivationDelay 0
+   m_iAnimationEnterDelay 0
+   m_fAnimationEnter 5
+   m_fAnimationSpeedBlur 3
+   m_fVignetteMoveSpeed 2
+   m_fObjectiveMoveSpeed 10
+   m_fMotionBlurScale 10
+   m_eZeroingType EPZ_NONE
+   m_fReticleOffsetX 0.001
+   m_fReticleOffsetY 0
+   m_fReticleOffsetInterpSpeed 40
+   m_bShouldHideParentParentObject 1
+   m_vCameraPoint 0.01 0.076 0.144
+   m_fRecoilScaleMax 1.5
+   m_iCameraIndex 8
+   m_fMainCameraFOV 27.5
+   m_fResolutionScale 1
+   m_rScopeHDRMatrial "{49BE214ED0192C5E}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/Optic_SampleOptic_HDR.emat"
+   m_fProjectionDifferenceScale 150
+   m_fCenterDistance 0.017
+   m_fDistanceMoveNear 0.6
+   m_fDistanceMoveFar 0.45
+   m_fBasicParallax 0.8
+   m_fMaxParallax 1.9
+   m_fCenterOffsetY 0
+   m_fScopeRadius 0.0147
+  }
+  SimpleSoundComponent "{59072B56487AFA9E}" {
+   Filenames {
+    "{92CB09CB84872CB4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Optics_LongGeneric.acp"
+   }
+   DistanceManagement 0
+  }
+ }
+ coords 8.685 0.282 -2.43
+ Flags 4194307
+}

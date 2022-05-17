@@ -1,0 +1,21 @@
+MatPBRBasicGlass {
+ Color 0.152 0.167 0.168 1
+ Sort translucent
+ SpecularMul 1.622
+ AlphaMul 1.334
+ BlendMode AlphaBlend
+ RoughnessScale 4.713
+ MetalnessScale 3.53
+ AOScale 1.436
+ DielectricReflectance 0.02
+ BCRMap "{3892E8EF8687FEC4}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_BCR.edds" 
+ OpacityMap "{07F6601CF048F331}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_Alpha.edds" 
+ NormalPower 2
+ NMOMap "{004A537D5FF0AC5A}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_NMO.edds" 
+ DetailNormalPower 1
+ DetailNormalMap "{72652CC42E29D9B8}Assets/_SharedData/Glass/ST_Glass_Wired_01_NMO.edds" 
+ DetailNormalMapUVTransform MatUVTransform "{55F6ADAFE5971176}" {
+  TilingU 10
+  TilingV 10
+ }
+}

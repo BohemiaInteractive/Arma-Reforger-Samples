@@ -1,0 +1,63 @@
+GenericEntity : "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Full.et" {
+ ID "54928BB79430CE1A"
+ components {
+  SCR_EditableEntityComponent "{592C963BEB0CA822}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Sand Rugged Desk - Full"
+    m_Image "{4FE6DF6C2FD75D94}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Sand_Full.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{592C963BEB0D8E5B}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{592C963BEB0D8016}" {
+     m_iParentID -1
+     m_Mesh "{411A617924FC3D61}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{592C963BEB0D6B22}" {
+     m_iParentID 0
+     m_Mesh "{00D04EEBDF065BB6}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_wing.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "socket_wing_01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 180 0
+    }
+    SCR_BasePreviewEntry "{592C963BEB0D3681}" {
+     m_iParentID 0
+     m_Mesh "{00D04EEBDF065BB6}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_wing.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "socket_wing_02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{592C963BEB0A9CF7}" {
+     m_iParentID 0
+     m_Mesh "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "socket_lid_02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 2.251 4.916 -8.434
+}

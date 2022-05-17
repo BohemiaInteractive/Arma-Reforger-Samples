@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "56B8D2BF488254B9"
+ components {
+  MeshObject "{56B8D2BF7A89EA7C}" {
+   Object "{99CB3E6D66287E9C}Assets/Characters/Vests/Vest_Lifchik/Vest_Lifchik_item.xob"
+   Materials {
+    MaterialAssignClass "{56B8D2BF50B78C92}" {
+     SourceMaterial "Vest_Lifchik"
+     AssignedMaterial "{D7FD77E85F338831}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_blue.emat"
+    }
+   }
+  }
+ }
+ coords 0.689 16.632 -4.951
+}

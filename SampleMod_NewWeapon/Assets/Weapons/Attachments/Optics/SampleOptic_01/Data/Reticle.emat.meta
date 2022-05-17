@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{12F652FCA7334EE3}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/Reticle.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

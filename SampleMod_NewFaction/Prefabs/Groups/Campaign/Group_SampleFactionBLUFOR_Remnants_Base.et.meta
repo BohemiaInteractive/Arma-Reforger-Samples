@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{AD57AB1B8BF1F05D}Prefabs/Groups/Campaign/Group_SampleFactionBLUFOR_Remnants_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

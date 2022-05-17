@@ -1,0 +1,375 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 6148
+   name "Signal"
+   tl -519.541 -176.204
+   ctl 0 0.05
+   res "{DF423BDC6B163BC8}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_dashboard.siga"
+   inputsport {
+    51 55 62 66
+   }
+   outputsport {
+    52 56 63 67
+   }
+   inputvalues {
+    0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    260 7000 1 1
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 23558
+   name "Bone 23558"
+   version 0
+   tl -281.429 -174
+   outs {
+    25606
+   }
+   bone "v_dashboard_speed"
+  }
+  RotationMakeClass {
+   id 24582
+   name "RotationMake 24582"
+   tl -281.429 -86
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 6148
+         port 52
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    25606
+   }
+  }
+  RotationSetClass {
+   id 25606
+   name "RotationSet 25606"
+   tl -70.429 -175
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 24582
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 23558
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  BoneClass {
+   id 26630
+   name "Bone 26630"
+   version 0
+   tl -275.556 55.556
+   outs {
+    28678
+   }
+   bone "v_dashboard_rpm"
+  }
+  RotationMakeClass {
+   id 27654
+   name "RotationMake 27654"
+   tl -273.333 142.222
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 6148
+         port 56
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    28678
+   }
+  }
+  RotationSetClass {
+   id 28678
+   name "RotationSet 28678"
+   tl -76.667 55.556
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 26630
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 27654
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 29702
+   name "RotationSet 29702"
+   tl -80 285.556
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 31750
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 30726
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 30726
+   name "RotationMake 30726"
+   tl -275.556 373.333
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 6148
+         port 63
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    29702
+   }
+  }
+  BoneClass {
+   id 31750
+   name "Bone 31750"
+   version 0
+   tl -272.222 285.556
+   outs {
+    29702
+   }
+   bone "v_dashboard_fuel"
+  }
+  BoneClass {
+   id 33798
+   name "Bone 33798"
+   version 0
+   tl -274.444 515.556
+   outs {
+    35846
+   }
+   bone "v_dashboard_coolant_temp"
+  }
+  RotationSetClass {
+   id 35846
+   name "RotationSet 35846"
+   tl -75.556 515.556
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 33798
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 36870
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 36870
+   name "RotationMake 36870"
+   tl -275.556 613.333
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 6148
+         port 67
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    35846
+   }
+  }
+ }
+ model "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1409 1153 1281 1025 897 769 513 385 641 129 1 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 196608 0 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 524288 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 589824 0 720896 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 655360 0
+    }
+   }
+  }
+  version 2
+  argsize 20
+ }
+}

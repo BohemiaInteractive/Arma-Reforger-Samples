@@ -1,0 +1,329 @@
+EffectDef {
+ MinFPS 1
+ Emitters {
+  EmitterDef glows {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 1
+   Material "{73B9016942BA1998}Particles/_Materials/Fire/Explosion_Base_01.emat"
+   ScaleX 0.5
+   ScaleY 0.5
+   StretchMultiplier 1
+   SizeMultiplier 1.5
+   SizeRND 0.4
+   RotMultiplier 1
+   RandomRotDir 0
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 0.05
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0 0.911 0 1 0 0.456 1
+   }
+   Alpha {
+    0 0.171 1 0
+   }
+   RotationSpeed {
+    0 0
+   }
+   Size {
+    0 0 0.005 0.25 1 0.6
+   }
+   EmittingTime 1
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef glowcore {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   MaxNum 1
+   BirthRate 1
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 1
+   Material "{2D51282AFD379797}Particles/_Materials/Fire/Explosion_Base_02.emat"
+   ScaleX 0.5
+   ScaleY 0.5
+   StretchMultiplier 1
+   SizeMultiplier 0.7
+   SizeRND 0.3
+   RotMultiplier 0
+   RandomRotDir 0
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 0
+   Lifetime 0.05
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0 0.804 0.316 1 0.392 1 1
+   }
+   Alpha {
+    0 0.176 1 0
+   }
+   RotationSpeed {
+    0 1
+   }
+   Size {
+    0 0 0.013 0.179 1 1
+   }
+   EmittingTime 1
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef flame_up_vert {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   MaxNum 1
+   BirthRate 30
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 -90 90
+   LocalTransform 1
+   Material "{3B35B86B17D97127}Particles/_Materials/Fire/Muzzle_Side.emat"
+   CenterX 0.101
+   CenterY -1
+   ScaleX 0.3
+   ScaleY 1
+   StretchMultiplier 1
+   SizeMultiplier 10.7
+   SizeRND 1
+   RotMultiplier 0
+   RandomRotDir 0
+   BillboardingType None
+   VelAngle 0
+   RandomAngle 0
+   Velocity 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.1
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.272 0.804 0.089 1 0.259 1 0
+   }
+   Alpha {
+    0 0.365 1 0
+   }
+   RotationSpeed {
+    0 1
+   }
+   Size {
+    0 0 0.013 0.179 1 0.513
+   }
+   EmittingTime 0.05
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef flame_up_horiz {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   MaxNum 1
+   BirthRate 30
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 90 -90 90
+   LocalTransform 1
+   Material "{3B35B86B17D97127}Particles/_Materials/Fire/Muzzle_Side.emat"
+   CenterX 0.101
+   CenterY -1
+   ScaleX 0.3
+   ScaleY 1
+   StretchMultiplier 1
+   SizeMultiplier 6.5
+   SizeRND 1
+   RotMultiplier 0
+   RandomRotDir 0
+   BillboardingType None
+   VelAngle 0
+   RandomAngle 0
+   Velocity 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution -1
+   Spring 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 0.1
+   LifetimeRND 0
+   LifetimeShortening 0
+   Color {
+    0 0.203 0.665 0.114 1 0.633 0 0
+   }
+   Alpha {
+    0 0.341 1 0
+   }
+   RotationSpeed {
+    0 1
+   }
+   Size {
+    0 0 0.013 0.179 1 0.513
+   }
+   EmittingTime 0.05
+   Repeat 0
+   ColorMast {
+    0 1 1 1
+   }
+   AlphaMast {
+    0 1
+   }
+   RotationSpeedMast {
+    0 0
+   }
+   SizeMast {
+    0 1
+   }
+   BRateMast {
+    0 1
+   }
+  }
+  EmitterDef sparks_front {
+   MaxNum 5
+   BirthRate 0
+   Angles 0 -90 90
+   LocalTransform 1
+   Material "{0B22CDEBF6A47216}Particles/_Materials/Fire/Base_Sparks_04.emat"
+   ScaleX 0.127
+   SizeMultiplier 5.41
+   SizeRND 0.08
+   BillboardingType Full
+   VelAngle 1
+   Velocity 5
+   VelocityRND 3
+   RandomFrame 1
+   Lifetime 0.01
+   LifetimeRND 0.1
+   Color {
+    0 0 0.709 0 1 1 1 1
+   }
+   Alpha {
+    0 0.176 1 0
+   }
+   Size {
+    0 1 1 0
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef flame_up_rose {
+   ConeAngle 360 0 120
+   MaxNum 10
+   BirthRate 600
+   Angles 0 -90 90
+   LocalTransform 1
+   Material "{3B35B86B17D97127}Particles/_Materials/Fire/Muzzle_Side.emat"
+   CenterX 0
+   CenterY -1
+   ScaleX 0.723
+   SizeMultiplier 0.05
+   SizeRND 0.15
+   VelAngle 1
+   Velocity 1
+   RandomFrame 1
+   Lifetime 0.05
+   LifetimeRND 0
+   Color {
+    0 0 0.665 0 1 1 1 1
+   }
+   Alpha {
+    0 0.229 1 0
+   }
+   Size {
+    0 0.25 1 1
+   }
+   EmittingTime 0.05
+   Repeat 0
+  }
+ }
+}

@@ -1,0 +1,50 @@
+GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{55349E9229B55E08}" {
+   Filenames {
+    "{C9ABB3C0C4666930}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Rifles_AK-74_modded.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{5071D9019D052481}Sounds/Impacts/Impact_Weapons_Rifles_Impacts.acp" "{BFD8C39A140E182E}Sounds/Weapons/_SharedData/Weapon_Bullet_Casings_5_56mm.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Zeroing.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{50C8940AC171861B}" {
+     SourceMaterial "ak74_body1"
+     AssignedMaterial "{3E541D2699281235}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body1_camo1.emat"
+    }
+    MaterialAssignClass "{50C8940AC171860C}" {
+     SourceMaterial "ak74_body2"
+     AssignedMaterial "{C18E407219DC8273}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body2_camo1.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#SampleMod-Uniform_Rifle_AK74_Modded_Name"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     FireModes {
+      BaseFireMode "{506B20D1476BA99E}" {
+       RoundsPerMinute 200
+      }
+      BaseFireMode "{55349E9229B55D93}" {
+       MaxBurst 2
+       RoundsPerMinute 200
+       UIName "Burst"
+      }
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 200
+      }
+     }
+     MagazineTemplate "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_30rnd_Modded.et"
+    }
+   }
+  }
+ }
+ coords 2.954 3.83 0.175
+}

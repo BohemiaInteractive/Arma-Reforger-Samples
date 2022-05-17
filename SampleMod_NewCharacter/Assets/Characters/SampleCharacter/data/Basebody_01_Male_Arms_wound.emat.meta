@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{955B7D9C4A6F268B}Assets/Characters/SampleCharacter/data/Basebody_01_Male_Arms_wound.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

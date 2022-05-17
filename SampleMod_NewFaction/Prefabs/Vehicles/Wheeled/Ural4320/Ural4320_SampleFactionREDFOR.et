@@ -1,0 +1,134 @@
+Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{56C6CEEB4A969F6D}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{FC8C86FE85CFCAA4}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Red.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Ural4320_Name"
+    m_Image "{154E1AD4F84D5551}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ural4320_SampleFactionREDFOR.edds"
+    m_sFaction "SampleFactionREDFOR"
+    m_aAuthoredLabels + {
+     14
+    }
+    m_aAutoLabels {
+     122 54
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{56C6DD44A31B7C00}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{56C6DD44A31728D9}" {
+     m_iParentID -1
+     m_Mesh "{06C865EC0B9277E5}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A368E98D}" {
+     m_iParentID 0
+     m_Mesh "{A25F28B1C7E3AB02}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A37A266E}" {
+     m_iParentID 0
+     m_Mesh "{3B419128DA049A92}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_l01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A34C54BE}" {
+     m_iParentID 0
+     m_Mesh "{4C4BF9A02EA675E2}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_03.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_l01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A35DC162}" {
+     m_iParentID 0
+     m_Mesh "{4B8C03F14820CF21}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_04.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A3AF1C21}" {
+     m_iParentID 0
+     m_Mesh "{3C866B79BC822051}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_05.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A3A09650}" {
+     m_iParentID 0
+     m_Mesh "{29F85CB88D55707A}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_06.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A3B27599}" {
+     m_iParentID 0
+     m_Mesh "{5EF2343079F79F0A}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_07.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A383CA79}" {
+     m_iParentID 0
+     m_Mesh "{AA1726426C686447}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_08.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_r01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44A395496A}" {
+     m_iParentID 0
+     m_Mesh "{DD1D4ECA98CA8B37}Assets/Vehicles/Wheeled/Ural4320/Dst/Ural4320_window_09.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_r01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{CCE0258D402E2293}Configs/Editor/PlaceableEntities/Characters_SampleFactionREDFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

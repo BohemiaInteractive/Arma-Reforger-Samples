@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{00EE6E4DDE6EEE1B}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_01_BCR.edds"
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "MSBS_01_BCR.tga"
+   Conversion ColorHQCompression
+   ColorSpace ToSRGB
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

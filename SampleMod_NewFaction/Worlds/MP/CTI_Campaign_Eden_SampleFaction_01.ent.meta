@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{9DF143A76F5C6460}worlds/MP/CTI_Campaign_Eden.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

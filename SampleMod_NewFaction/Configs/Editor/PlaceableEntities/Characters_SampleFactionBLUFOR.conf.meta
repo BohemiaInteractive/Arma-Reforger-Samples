@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{CC9616325EDCF51C}Configs/Editor/PlaceableEntities/Characters_SampleFactionBLUFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

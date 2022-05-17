@@ -1,0 +1,18 @@
+GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et" {
+ ID "51EEB2C2B64FA646"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{830655916951B1B5}Assets/Characters/HeadGear/Helmet_SSh68/Helmet_SSh68_01_cover_item.xob"
+   Materials {
+    MaterialAssignClass "{56B8D2B80B10DAAF}" {
+     SourceMaterial "Helmet_SSh68_01_cover"
+     AssignedMaterial "{A149183AB0A071AA}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSH68_red.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{32EF930B05CA9996}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_wear_red.et"
+   ItemModel "{B48B09DE6A3F8704}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_item_red.et"
+  }
+ }
+}

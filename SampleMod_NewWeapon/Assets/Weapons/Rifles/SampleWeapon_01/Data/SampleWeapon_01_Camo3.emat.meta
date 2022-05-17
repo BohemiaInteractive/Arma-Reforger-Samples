@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CD836BB9B6F81F3B}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo3.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

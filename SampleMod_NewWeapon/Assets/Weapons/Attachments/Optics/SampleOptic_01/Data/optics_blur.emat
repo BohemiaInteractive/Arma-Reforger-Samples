@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BlendMode AlphaBlend
+ BCRMap "{6B11A8E9090ABDDD}Assets/Items/Equipment/Watches/Watch_Vostok/Data/Watch_Vostok_Glass_BCR.edds" 
+ OpacityMap "{1354CB8A16B86FBB}Assets/Items/Equipment/Watches/Watch_Vostok/Data/Watch_Vostok_Glass_A.edds" 
+}

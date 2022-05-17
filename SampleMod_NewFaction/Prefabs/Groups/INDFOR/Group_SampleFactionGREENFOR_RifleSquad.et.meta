@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{6BFCF1604F886553}Prefabs/Groups/INDFOR/Group_SampleFactionGREENFOR_RifleSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

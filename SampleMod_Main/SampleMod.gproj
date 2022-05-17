@@ -1,0 +1,20 @@
+GameProject {
+ ID "SampleMod"
+ GUID "5614E48162D7B84F"
+ TITLE "Sample Mod - Main Addon"
+ Dependencies {
+  "5614E4829EAE4BB1" "5614E482B628B28D" "5614E482B37103E5" "5614E48153A5B50D" "5614E482BF83E310" "5614E481506D2979" "58D0FB3206B6F859" "5614E4816F653D1A" "5614E48126E3ADF2"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

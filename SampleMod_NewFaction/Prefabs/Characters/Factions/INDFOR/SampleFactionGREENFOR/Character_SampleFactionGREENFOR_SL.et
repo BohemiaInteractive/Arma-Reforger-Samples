@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{1A37F1DF9BC3EB37}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{CC63E0E6DB53F2EE}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL_green.et"
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    m_Image "{B516607DE7AAA93B}UI/Textures/EditorPreviews/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_SL.edds"
+    m_sFaction "SampleFactionGREENFOR"
+    m_aAutoLabels {
+     2 122 41
+    }
+   }
+  }
+ }
+}

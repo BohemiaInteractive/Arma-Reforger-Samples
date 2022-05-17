@@ -1,0 +1,11 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{56F0B239B2FCA579}" : "{2F1CD67B16BC0567}Configs/Factions/SampleFactionBLUFOR.conf" {
+  }
+  SCR_Faction "{56F0B239B1007A80}" : "{EB13E2A026EC25BF}Configs/Factions/SampleFactionGREENFOR.conf" {
+  }
+  SCR_Faction "{56F0B239B04E3E34}" : "{C93D9F19E9F3CD97}Configs/Factions/SampleFactionREDFOR.conf" {
+  }
+ }
+}

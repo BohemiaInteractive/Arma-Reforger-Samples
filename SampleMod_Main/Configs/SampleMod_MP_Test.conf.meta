@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{EEE0D0D39D6C3789}Configs/SampleMod_MP_Test.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,62 @@
+SCR_CampaignFactionManager {
+ ID "56BA973B66768ABC"
+ components {
+  SCR_DelegateFactionManagerComponent "{54B4843460DE0C54}" : "{8C46A3AEFF308223}Prefabs/MP/Components/DelegateFactionManagerComponent.ct" {
+  }
+ }
+ coords 0 0 0
+ editorData {
+  RandomizationEditorData "{56BA973B66768AAB}" {
+  }
+ }
+ m_bCanChangeFactionsPlayable 0
+ m_aRanks {
+  SCR_RankIDCampaign "{56BA973B66768AFF}" {
+   m_iRank RENEGADE
+   m_bIsRenegade 1
+   m_iXP -51
+   m_iRequestCD -1
+  }
+  SCR_RankIDCampaign "{56BA973B66768AFA}" {
+   m_iXP -50
+   m_iRequestCD 105
+  }
+  SCR_RankIDCampaign "{56BA973B66768AE7}" {
+   m_iRank CORPORAL
+   m_iXP 250
+   m_iRequestCD 75
+   m_iRadioRespawnCooldown 28
+  }
+  SCR_RankIDCampaign "{56BA973B66768AE2}" {
+   m_iRank SERGEANT
+   m_iXP 650
+   m_iRequestCD 50
+   m_iRadioRespawnCooldown 26
+  }
+  SCR_RankIDCampaign "{56BA973B66768AEF}" {
+   m_iRank LIEUTENANT
+   m_iXP 1200
+   m_iRequestCD 30
+   m_iRadioRespawnCooldown 24
+  }
+  SCR_RankIDCampaign "{56BA973B66768AE8}" {
+   m_iRank CAPTAIN
+   m_iXP 1900
+   m_iRequestCD 15
+   m_iRadioRespawnCooldown 22
+  }
+  SCR_RankIDCampaign "{56BA973B66768A14}" {
+   m_iRank MAJOR
+   m_iXP 2750
+   m_iRequestCD 5
+   m_iRadioRespawnCooldown 20
+  }
+ }
+ m_VehicleAssetList "{6F6A5B76C7F75ED3}Configs/Campaign/VehicleAssetList.conf"
+ m_SlotFlatSmall "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et"
+ m_SlotFlatMedium "{4B1C4BDDF6683101}PrefabsEditable/Slots/Flat/E_SlotFlatMedium.et"
+ m_SlotFlatLarge "{055DDE93F47A6A1D}PrefabsEditable/Slots/Flat/E_SlotFlatLarge.et"
+ m_SlotCheckpointSmall "{66265A506DF1FE2B}PrefabsEditable/Slots/Road/E_SlotRoadSmall.et"
+ m_SlotCheckpointMedium "{F4066B8425BEC47C}PrefabsEditable/Slots/Road/E_SlotRoadMedium.et"
+ m_SlotCheckpointLarge "{881CE7B0098504C2}PrefabsEditable/Slots/Road/E_SlotRoadLarge.et"
+}

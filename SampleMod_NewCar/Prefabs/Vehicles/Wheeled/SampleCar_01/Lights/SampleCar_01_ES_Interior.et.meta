@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{340822BCFB845F16}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Interior.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

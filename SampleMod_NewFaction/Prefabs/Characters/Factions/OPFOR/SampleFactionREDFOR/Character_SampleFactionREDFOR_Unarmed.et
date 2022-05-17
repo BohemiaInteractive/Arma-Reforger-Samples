@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{DBB90D549BDAC937}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    m_Image "{33FB08B1F9A8E28C}UI/Textures/EditorPreviews/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Unarmed.edds"
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     2 122 22
+    }
+   }
+  }
+ }
+}

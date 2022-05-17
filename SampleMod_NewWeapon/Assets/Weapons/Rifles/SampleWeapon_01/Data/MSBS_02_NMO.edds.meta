@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{78C6F4FAB1053EC2}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_02_NMO.edds"
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "MSBS_02_NMO.tga"
+   Conversion ColorHQCompression
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

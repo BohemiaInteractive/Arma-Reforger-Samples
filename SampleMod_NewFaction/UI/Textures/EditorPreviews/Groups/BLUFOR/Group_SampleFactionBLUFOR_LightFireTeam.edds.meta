@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7B432BCDCC177539}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_SampleFactionBLUFOR_LightFireTeam.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

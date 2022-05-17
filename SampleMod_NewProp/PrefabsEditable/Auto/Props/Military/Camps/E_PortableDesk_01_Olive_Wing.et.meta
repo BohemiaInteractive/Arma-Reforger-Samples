@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C8C6B63FA1A43AF2}PrefabsEditable/Auto/Props/Military/Camps/E_PortableDesk_01_Olive_Wing.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

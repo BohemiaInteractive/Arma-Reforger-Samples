@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{950F7FA8E622A07B}Worlds/Modding/Assets_Showcase_Base.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass LINUX : PC {
+  }
+ }
+}

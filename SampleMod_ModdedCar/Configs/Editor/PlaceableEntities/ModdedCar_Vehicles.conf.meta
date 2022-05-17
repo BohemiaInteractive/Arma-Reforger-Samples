@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{6DB115703B951505}Configs/Editor/PlaceableEntities/ModdedCar_Vehicles.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

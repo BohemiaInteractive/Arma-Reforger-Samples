@@ -1,0 +1,23 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Icon "{BAC8DDD536E23946}UI/Textures/Editor/EditableEntities/Groups/EditableEntity_Group_Blufor_Infantry.edds"
+    m_sFaction "SampleFactionGREENFOR"
+    m_aAuthoredLabels {
+     4 16 1001
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity INDFOR
+     m_Icons INFANTRY
+    }
+   }
+  }
+ }
+ coords 2855.93 71.908 1663.599
+ m_faction "SampleFactionGREENFOR"
+ m_aUnitPrefabSlots {
+  "{AA694899565822AE}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_SL.et" "{95F6679C0A93945E}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_MG.et" "{1F49D0471D559EE1}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_AT.et" "{85DCA6D5396281FA}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.et" "{CA34C7A7936BE997}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_GL.et" "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et"
+ }
+}

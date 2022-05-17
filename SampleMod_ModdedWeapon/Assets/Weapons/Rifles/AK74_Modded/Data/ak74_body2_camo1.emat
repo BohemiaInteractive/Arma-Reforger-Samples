@@ -1,0 +1,11 @@
+MatPBRCamo {
+ BCRMap "{04E1B339D10B9190}Assets/Weapons/Rifles/AK74/Data/Rifle_ak74_body2_BCR.edds" 
+ NMOMap "{3C3908AB087CC30E}Assets/Weapons/Rifles/AK74/Data/Rifle_ak74_body2_NMO.edds" 
+ CamoAlbedoMap "{8B5F4592F48AFE98}Common/Textures/Camouflage/T_CamoSpray_07_BC.edds" 
+ CamoAlbedoMapUVTransform MatUVTransform "{50F2C394B0B71AE2}" {
+ }
+ CamoCRMMap "{EC39E0D699A7B87C}Assets/Weapons/Rifles/AK74_Modded/Data/Rifle_ak74_body2_camo1_MASK.edds" 
+ CamoOpacity 0.988
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0.247
+}

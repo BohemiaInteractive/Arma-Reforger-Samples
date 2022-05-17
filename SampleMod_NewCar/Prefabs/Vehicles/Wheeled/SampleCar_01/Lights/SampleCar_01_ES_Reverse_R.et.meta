@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{D01C8ACEA668BF30}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Reverse_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

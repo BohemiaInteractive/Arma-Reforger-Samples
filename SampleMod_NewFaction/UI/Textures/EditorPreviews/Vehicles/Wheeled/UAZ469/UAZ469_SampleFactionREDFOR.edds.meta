@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{DD975490784B1B41}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469/UAZ469_SampleFactionREDFOR.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

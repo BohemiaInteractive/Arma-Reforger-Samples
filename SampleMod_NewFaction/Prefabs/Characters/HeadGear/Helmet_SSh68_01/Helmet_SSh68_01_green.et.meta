@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{7A8DA2BED4C320F5}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_green.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

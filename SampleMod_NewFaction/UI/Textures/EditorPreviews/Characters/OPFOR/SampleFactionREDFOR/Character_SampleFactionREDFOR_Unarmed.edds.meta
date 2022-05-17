@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{33FB08B1F9A8E28C}UI/Textures/EditorPreviews/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Unarmed.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

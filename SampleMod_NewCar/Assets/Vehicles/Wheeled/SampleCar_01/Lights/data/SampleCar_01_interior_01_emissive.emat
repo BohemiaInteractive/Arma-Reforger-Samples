@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 0.527 0.546 0.318 0
+ EmissiveLV 9.297
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ BCRMap "{9BA7217AA4E3A614}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_BCR.edds" 
+}

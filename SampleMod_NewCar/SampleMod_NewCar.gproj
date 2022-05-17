@@ -1,0 +1,33 @@
+GameProject {
+ ID "SampleMod_NewCar"
+ GUID "5614E482BF83E310"
+ TITLE "Sample Mod - New Car"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{55DECC6223880801}" {
+      StringTableSource "{55DEE1D91E66B80F}Language/localization.st"
+      Languages {
+       LanguageDefinition "{55DECC6225226592}" {
+        Code "en_us"
+        StringTableRuntime "{55DEE1D92E81F4BA}Language/localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

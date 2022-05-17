@@ -1,0 +1,30 @@
+GenericEntity : "{5C3C9FE480E417D7}Prefabs/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    CustomAttributes {
+     CharacterModifierAttributes "{52D0FA29000C2398}" {
+      ADSSpeedLimit 1.5
+     }
+    }
+   }
+  }
+  MeshObject "{52D0FA29000C2394}" {
+   Object "{FE1AD43E4574C5D8}Assets/Weapons/Attachments/Optics/SampleIronSights_01/SampleIronSights_01_Rear.xob"
+  }
+  SightsComponent "{52D12AF10E9DE4CA}" {
+   SightsPosition PointInfo "{52D2CE640BD6D62E}" {
+    PivotID "eye"
+    Offset 0 0 0
+   }
+   SightsFOVInfo SCR_FixedFOVInfo "{5848EDCB400A6244}" {
+   }
+   SightsPointFront PointInfo "{5848EDCB595E5536}" {
+   }
+   SightsPointRear PointInfo "{5848EDCB5FF26B20}" {
+   }
+  }
+ }
+ coords 2253.313 51.001 2156.983
+}

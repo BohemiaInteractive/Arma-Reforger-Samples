@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{453947F3D7B3C60C}Assets/Military/Camps/PortableDesk_01/portabledesk_01_olive_co.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

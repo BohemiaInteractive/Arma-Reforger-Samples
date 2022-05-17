@@ -1,0 +1,141 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 20489
+   name "SOUND_HIT"
+   tl 369.686 -399.325
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 30738
+       port 65
+      }
+     }
+    }
+   }
+   volume 0.501
+   volume_dB -6
+   outState 29707
+   outStatePort 9223
+  }
+ }
+ mixers {
+  MixerClass {
+   id 29707
+   name "OutputState 29"
+   tl 627.833 -530.5
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   iops {
+    IOPConnectionClass iopConnection {
+     port 9223
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 20489
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR_Footsteps" "CHAR_Movement" "CHAR_Gear" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "WPN_Shot_Tail" "WPN_Explosion_Tail"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 30738
+   name "Shader_1 30"
+   tl 164 -251.75
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 37892
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 32787
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 32787
+   name "Amplitude 32"
+   tl 139.25 -375
+   curve "1/r"
+   innerRange 5
+   slopeFactor 5
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 37892
+   name "Bank 37"
+   tl -83 -212
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{6BB8FE7C8A1941AD}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_01.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{826BD53C05DA258E}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_04.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{F2A647E597FE703D}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(4)" {
+     Filename "{826BD53C05DA258E}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_04.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Sample(5)" {
+     Filename "{F561BDB4F178CAFE}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_05.wav"
+     Index 4
+    }
+    AudioBankSampleClass "Sample(6)" {
+     Filename "{6C7F042DEC9FFB6E}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_06.wav"
+     Index 5
+    }
+    AudioBankSampleClass "Sample(7)" {
+     Filename "{1B756CA5183D141E}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_07.wav"
+     Index 6
+    }
+    AudioBankSampleClass "Sample(8)" {
+     Filename "{63F0F08F21928EE8}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_08.wav"
+     Index 7
+    }
+    AudioBankSampleClass "Sample(9)" {
+     Filename "{14FA9807D5306198}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Swarm_Grenade_Explosion_09.wav"
+     Index 8
+    }
+   }
+  }
+ }
+ version 1
+}

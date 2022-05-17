@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{D6FA58614EED464A}Particles/Weapon/Explosion_AK74_Modded.ptc"
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

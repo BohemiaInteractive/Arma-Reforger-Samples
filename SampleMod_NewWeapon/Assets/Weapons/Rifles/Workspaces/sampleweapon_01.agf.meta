@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{614F7AC27A084F5B}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.agf"
+ Configurations {
+  AnimGraphFileResourceClass PC {
+  }
+  AnimGraphFileResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphFileResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphFileResourceClass PS4 : PC {
+  }
+  AnimGraphFileResourceClass HEADLESS : PC {
+  }
+ }
+}

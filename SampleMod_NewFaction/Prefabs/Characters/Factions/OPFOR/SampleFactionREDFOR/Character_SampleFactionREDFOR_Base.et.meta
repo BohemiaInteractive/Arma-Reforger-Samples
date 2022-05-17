@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{DBB90D549BDAC937}Prefabs/Characters/Core/Character_SampleFactionREDFOR_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

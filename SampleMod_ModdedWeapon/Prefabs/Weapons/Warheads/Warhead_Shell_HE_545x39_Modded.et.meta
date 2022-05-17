@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C207A6BA934F5200}Prefabs/Weapons/Warheads/Warhead_Shell_HE_545x39_Modded.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

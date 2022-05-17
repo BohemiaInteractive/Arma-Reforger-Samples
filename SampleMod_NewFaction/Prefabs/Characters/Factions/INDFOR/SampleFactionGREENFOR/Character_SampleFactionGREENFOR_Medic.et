@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{1A37F1DF9BC3EB37}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{6726C63F4F56F12F}Prefabs/Characters/Vests/Vest_SovietHarness/New/Vest_SovietHarness_medic.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+    Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+    m_Image "{D8649AE52569B1D4}UI/Textures/EditorPreviews/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.edds"
+    m_sFaction "SampleFactionGREENFOR"
+    m_aAutoLabels {
+     2 122 44
+    }
+   }
+  }
+ }
+}

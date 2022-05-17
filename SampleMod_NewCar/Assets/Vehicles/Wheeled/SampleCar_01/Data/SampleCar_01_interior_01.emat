@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ Diffuse 0.059 0.059 0.059 1
+ RoughnessScale 2.801
+ MetalnessScale 2.647
+ AOScale 0.993
+ DielectricReflectance 0.07
+ BCRMap "{9BA7217AA4E3A614}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_BCR.edds" 
+ NMOMap "{A37F9AE87D94F48A}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_NMO.edds" 
+}

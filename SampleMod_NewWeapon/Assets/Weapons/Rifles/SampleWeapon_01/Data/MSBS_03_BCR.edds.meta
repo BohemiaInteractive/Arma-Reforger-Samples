@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BE1E0F2D9D200010}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_03_BCR.edds"
+ Configurations {
+  TGAResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+  }
+  TGAResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+  }
+  TGAResourceClass XBOX_SERIES : "{5FEAED1642ECE679}Configs/System/ResourceTypes/XBOX_SERIES/TextureColorMap.conf" {
+  }
+  TGAResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+  }
+  TGAResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+  }
+ }
+}

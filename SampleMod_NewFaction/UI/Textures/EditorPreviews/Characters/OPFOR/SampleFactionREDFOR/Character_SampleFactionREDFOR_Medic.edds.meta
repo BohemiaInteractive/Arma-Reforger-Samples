@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7558871539C83A67}UI/Textures/EditorPreviews/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Medic.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

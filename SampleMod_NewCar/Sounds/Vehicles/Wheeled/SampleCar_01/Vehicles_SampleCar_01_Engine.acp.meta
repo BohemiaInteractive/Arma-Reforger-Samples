@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{EF8CA6FF5BA35046}Sounds\Vehicles\Wheeled\SampleCar_01\Vehicles_SampleCar_01_Engine.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{1A37F1DF9BC3EB37}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Unarmed"
+    m_Image "{87D71A3BAB4D9C7A}UI/Textures/EditorPreviews/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Unarmed.edds"
+    m_sFaction "SampleFactionGREENFOR"
+    m_aAutoLabels {
+     2 122 22
+    }
+   }
+  }
+ }
+}

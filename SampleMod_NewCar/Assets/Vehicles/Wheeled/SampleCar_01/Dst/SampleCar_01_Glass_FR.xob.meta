@@ -1,0 +1,37 @@
+MetaFileClass {
+ Name "{4A6BB1DE8EE453E9}Assets/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_Glass_FR.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{555320C6ED4A06B1}" {
+     SourceMaterial "SampleCar_01_Glass"
+     AssignedMaterial "{FA986144D94A3970}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Glass {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{9CF9352E79A84A2A}Common/Materials/Game/Glass/glass_laminated_4mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{555320C6D8A5C8D5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{555320C6D8A5CF6B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{555320C6D8A5CF42}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{555320C6D8A5CF9C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

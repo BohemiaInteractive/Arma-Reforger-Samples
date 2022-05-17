@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C6A7ECBB400FF506}Prefabs/Groups/INDFOR/Group_SampleFactionGREENFOR_FireGroup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

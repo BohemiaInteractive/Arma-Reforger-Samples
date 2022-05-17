@@ -1,0 +1,38 @@
+SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENFOR_Base.et" {
+ ID "1"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_Squad"
+    m_Image "{DAA1F3E9ECAB8A33}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_RifleSquad.edds"
+    m_aAutoLabels {
+     72
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{56ACDE6F0E1E3111}" {
+      m_BudgetType AI
+      m_Value 6
+     }
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier SQUAD
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{56ACDE6F0E651E87}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{56ACDE6F0E7BD95E}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

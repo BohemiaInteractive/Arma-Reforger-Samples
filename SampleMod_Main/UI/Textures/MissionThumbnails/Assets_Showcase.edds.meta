@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{134CFE678A529DEB}UI/Textures/MissionThumbnails/Assets_Showcase.edds"
+ Configurations {
+  PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
+   ColorSpace ToSRGB
+   GenerateMips 0
+   TiledTexture 0
+  }
+  PNGResourceClass XBOX_ONE : "{8F13AE697AE60784}Configs/System/ResourceTypes/XBOX_ONE/TextureUnspecified.conf" {
+  }
+  PNGResourceClass PS4 : "{C6CD3D8752652D2A}Configs/System/ResourceTypes/PS4/TextureUnspecified.conf" {
+  }
+  PNGResourceClass HEADLESS : "{699C82A6807668A7}Configs/System/ResourceTypes/HEADLESS/TextureUnspecified.conf" {
+  }
+ }
+}

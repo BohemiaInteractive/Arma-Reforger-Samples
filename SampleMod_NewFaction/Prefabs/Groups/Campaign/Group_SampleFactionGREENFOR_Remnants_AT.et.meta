@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{76B730C8F8098585}Prefabs/Groups/Campaign/Group_SampleFactionGREENFOR_Remnants_AT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

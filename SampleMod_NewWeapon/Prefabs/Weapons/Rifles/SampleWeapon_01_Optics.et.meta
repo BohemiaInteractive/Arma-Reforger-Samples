@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{E4162F9AFD96951C}Prefabs/Weapons/Rifles/SampleWeapon_01_Optics.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

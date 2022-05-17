@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{9256EEC04F541A8F}Terrains/Common/Sky/Skybox/HDRi_EnJam2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

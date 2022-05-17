@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C291479E3895912E}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Olive_Lid.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

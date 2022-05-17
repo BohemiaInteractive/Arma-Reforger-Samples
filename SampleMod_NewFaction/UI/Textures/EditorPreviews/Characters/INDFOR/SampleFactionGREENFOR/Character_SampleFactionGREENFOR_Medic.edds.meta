@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D8649AE52569B1D4}UI/Textures/EditorPreviews/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

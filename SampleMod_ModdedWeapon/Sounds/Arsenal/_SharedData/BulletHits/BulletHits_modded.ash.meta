@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{513ACC4D83AE72C9}Sounds/Arsenal/_SharedDAta/BulletHits/BulletHits_modded.ash"
+ Configurations {
+  AudioShaderResourceClass PC {
+  }
+  AudioShaderResourceClass XBOX_ONE : PC {
+  }
+  AudioShaderResourceClass PS4 : PC {
+  }
+ }
+}

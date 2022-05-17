@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{433E143A888156C9}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Lid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

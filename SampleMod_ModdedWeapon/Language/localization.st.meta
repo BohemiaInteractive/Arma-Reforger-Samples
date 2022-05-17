@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{55E061A696C0BF12}Language/localization.st"
+ Configurations {
+  StringTableResourceClass PC {
+  }
+  StringTableResourceClass XBOX_ONE : PC {
+  }
+  StringTableResourceClass PS4 : PC {
+  }
+  StringTableResourceClass HEADLESS : PC {
+  }
+ }
+}

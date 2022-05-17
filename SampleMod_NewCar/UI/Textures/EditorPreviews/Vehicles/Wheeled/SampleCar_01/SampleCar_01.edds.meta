@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{2B7A318E99BC6411}UI/Textures/EditorPreviews/Vehicles/Wheeled/SampleCar_01/SampleCar_01.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

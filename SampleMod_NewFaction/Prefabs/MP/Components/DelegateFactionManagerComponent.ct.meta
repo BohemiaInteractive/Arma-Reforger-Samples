@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{8C46A3AEFF308223}Prefabs/MP/Components/DelegateFactionManagerComponent.ct"
+ Configurations {
+  ComponentTemplateResourceClass PC {
+  }
+  ComponentTemplateResourceClass XBOX_ONE : PC {
+  }
+  ComponentTemplateResourceClass PS4 : PC {
+  }
+  ComponentTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

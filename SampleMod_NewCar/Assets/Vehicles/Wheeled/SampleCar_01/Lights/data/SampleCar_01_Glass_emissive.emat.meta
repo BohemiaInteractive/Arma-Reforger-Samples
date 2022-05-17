@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{9DCAF1875344FC51}Assets/Vehicles/Wheeled/SampleCar_01/Lights/data/SampleCar_01_Glass_emissive.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+Vehicle : "{4E8595C9A8254222}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01_Base.et" {
+ ID "51C2C0913C9BBE3D"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#SampleMod-EditableEntity_SampleCar_01_Name"
+    m_Image "{2B7A318E99BC6411}UI/Textures/EditorPreviews/Vehicles/Wheeled/SampleCar_01/SampleCar_01.edds"
+    m_aAutoLabels + {
+    }
+   }
+  }
+ }
+ coords 1293.345 50.97 1315.015
+}

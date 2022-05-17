@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CDC75F8427FD5592}Common/Textures/metrics_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "metrics_NMO.tif"
+   Conversion ColorHQCompression
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass LINUX : PC {
+  }
+ }
+}

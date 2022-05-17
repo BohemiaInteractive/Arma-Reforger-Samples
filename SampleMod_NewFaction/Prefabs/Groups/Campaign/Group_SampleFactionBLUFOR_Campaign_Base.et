@@ -1,0 +1,22 @@
+SCR_AIGroup : "{8DE0C0830FE0C33D}Prefabs/Groups/OPFOR/Group_USSR_Base.et" {
+ ID "1"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Icon "{BAC8DDD536E23946}UI/Textures/Editor/EditableEntities/Groups/EditableEntity_Group_Blufor_Infantry.edds"
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAuthoredLabels {
+     4 15
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Identity BLUFOR
+     m_Icons INFANTRY
+    }
+   }
+  }
+ }
+ m_faction "SampleFactionBLUFOR"
+ m_aUnitPrefabSlots {
+  "{80F2C9CD74AE78E2}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_SL.et" "{BF6DE6C82865CE12}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_MG.et" "{35D251133FA3C4AD}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_AT.et" "{DC0C9A5AA7625010}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Medic.et" "{E0AF46F3B19DB3DB}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_GL.et" "{8D3A55BAF6CD0FCF}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Rifleman.et"
+ }
+}

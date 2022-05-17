@@ -1,0 +1,23 @@
+GenericEntity : "{810568CB19D91B51}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Lid.et" {
+ ID "55BCC8E35BF54427"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{592C85768D75DF3D}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{B99A38534DECBF62}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_olive.emat"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{55BCC8E3535A3AEE}" {
+     m_ModelPrefabs {
+      "{0854D4D2150321FC}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_lid_dst_01_Olive.et"
+     }
+    }
+   }
+  }
+ }
+ coords 2.563 3.274 0.387
+}

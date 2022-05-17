@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{EB13E2A026EC25BF}Configs/Factions/SampleFactionGREENFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

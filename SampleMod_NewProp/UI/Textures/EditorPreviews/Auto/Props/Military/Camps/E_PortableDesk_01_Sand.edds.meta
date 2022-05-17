@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{08423421EE7E9325}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Sand.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

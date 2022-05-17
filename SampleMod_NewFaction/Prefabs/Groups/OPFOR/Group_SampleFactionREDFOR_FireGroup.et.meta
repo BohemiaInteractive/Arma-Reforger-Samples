@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{792ED960904543B2}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_FireGroup.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

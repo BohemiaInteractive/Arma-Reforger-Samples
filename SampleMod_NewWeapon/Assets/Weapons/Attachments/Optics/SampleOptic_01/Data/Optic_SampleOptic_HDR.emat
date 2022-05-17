@@ -1,0 +1,27 @@
+HDREffect {
+ TargetBrightness 0.18
+ SpeedDarkToBright 20
+ SpeedBrightToDark 20
+ ToneMapping Linear
+ HDR 0
+ BloomDownsampleHalfRes 1
+ BloomDownsampleQuality "Low (4-tap)"
+ BloomStrength0 0.612
+ BloomStrength1 0.454
+ BloomStrength2 0.239
+ BloomStrength3 0.147
+ BloomStrength4 0.13
+ BloomStrength5 0.108
+ BloomStrength6 0.079
+ DesaturationWeights 0.299 0.587 0.114 0
+ VignetteMode Scope
+ VignetteColor 0 0 0 0
+ ReticleMap "{7BF17A31FB368EE8}UI/Textures/Sights/SampleOptic-black_PIP.edds"
+ ReticleColor 0.361 0 0 0
+ ReticleMove 0
+ ReticleScale 2.483
+ LensDistort 0.125
+ MaxChromAbberation 1
+ LensFlaresEnabled 1
+ LensFlaresHalfRes 1
+}

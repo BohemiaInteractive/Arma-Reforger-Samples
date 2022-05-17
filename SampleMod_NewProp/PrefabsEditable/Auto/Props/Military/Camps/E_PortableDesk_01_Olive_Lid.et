@@ -1,0 +1,33 @@
+GenericEntity : "{3CFE9B97C44C1671}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Lid.et" {
+ ID "55BCC8E35BF54427"
+ components {
+  SCR_EditableEntityComponent "{592C963BEB2BB41C}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Olive Rugged Desk Lid"
+    m_Image "{C291479E3895912E}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Olive_Lid.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{592C963BEB28EFAC}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{592C963BEB28EBED}" {
+     m_iParentID -1
+     m_Mesh "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 3.241 3.326 -11.571
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{6861905C52805C1A}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Wing.et" {
+ ID "55BCC8E2D5481330"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{592C85769C5A6C0E}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{B99A38534DECBF62}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_olive.emat"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{55BCC8E2FBEE2061}" {
+     m_ModelPrefabs {
+      "{3E05F95420D172F9}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_wing_dst_02_Olive.et" "{AC94B308020270EC}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_wing_dst_01_Olive.et"
+     }
+    }
+   }
+  }
+ }
+ coords 3.771 4.597 0.858
+}

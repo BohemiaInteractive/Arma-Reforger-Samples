@@ -1,0 +1,21 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{569E74CDF51280F6}" : "{CCE0258D402E2293}Configs/Editor/PlaceableEntities/Characters_SampleFactionREDFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{56A8AC28625E1A8D}" : "{5B7CAF01F9E4B1F8}Configs/Editor/PlaceableEntities/Groups_SampleFaction.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{56A8CB475A7325D0}" : "{CC9616325EDCF51C}Configs/Editor/PlaceableEntities/Characters_SampleFactionBLUFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{56A8CB475F0D8A73}" : "{72D2C69B1F7464B8}Configs/Editor/PlaceableEntities/Characters_SampleFactionGREENFOR.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{56B8F1D62E989DA7}" : "{FE0586391D6DDABB}Configs/Editor/PlaceableEntities/Vehicles_SampleFaction.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{56B8F0B831E7C940}" {
+    }
+   }
+  }
+ }
+}

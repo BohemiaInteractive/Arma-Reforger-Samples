@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{12C8010A29D5B7CF}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Campaign_SampleFactionREDFOR_AI.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

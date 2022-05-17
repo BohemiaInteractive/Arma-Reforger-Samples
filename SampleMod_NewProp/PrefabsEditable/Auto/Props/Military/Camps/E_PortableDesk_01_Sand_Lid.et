@@ -1,0 +1,33 @@
+GenericEntity : "{433E143A888156C9}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Lid.et" {
+ ID "55BCC8E35BF54427"
+ components {
+  SCR_EditableEntityComponent "{592C963BEB127D2D}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Sand Rugged Desk Lid"
+    m_Image "{3F66085EFC6F9A49}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Sand_Lid.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{592C963BEB139FD5}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{592C963BEB139BCD}" {
+     m_iParentID -1
+     m_Mesh "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 2.402 3.786 -11.588
+}

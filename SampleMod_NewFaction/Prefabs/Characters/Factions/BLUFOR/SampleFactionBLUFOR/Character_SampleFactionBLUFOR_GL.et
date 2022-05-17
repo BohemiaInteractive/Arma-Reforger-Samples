@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{DCB6E3830663FD18}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{0015CC40D90BDB47}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL_blue.et"
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Grenadier"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_Image "{5FC402F2FE0DDA1C}UI/Textures/EditorPreviews/Characters/BLUFOR/SampleFactionBLUFOR/Character_SampleFactionBLUFOR_GL.edds"
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     2 122 41
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{921D7E4B53C9896A}PrefabsEditable/Auto/Props/Military/Camps/E_PortableDesk_01_Black_Full.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

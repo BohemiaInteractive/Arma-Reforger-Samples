@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DABCD0D11EDFED4A}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_LightFireTeam.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

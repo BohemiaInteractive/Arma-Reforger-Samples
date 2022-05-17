@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1FC728F3FBA7555B}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_sampleweapon_trigger.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

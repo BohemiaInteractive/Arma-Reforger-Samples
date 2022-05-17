@@ -1,0 +1,11 @@
+MatPBRCamo {
+ SurfaceProperties "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
+ CavityFromAO 1
+ BCRMap "{4FA34DAA35A6AC75}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_BCR.edds" 
+ NMOMap "{777BF638ECD1FEEB}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_NMO.edds" 
+ CamoColor 1 0 0 1
+ CamoOpacity 0.288
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0
+ CamoMetalnessOpacity 0
+}

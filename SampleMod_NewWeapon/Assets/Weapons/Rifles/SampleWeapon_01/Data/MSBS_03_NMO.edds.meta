@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{86C6B4BF4457528E}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_03_NMO.edds"
+ Configurations {
+  TGAResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+  }
+  TGAResourceClass XBOX_ONE : "{7F6A4D372443A88D}Configs/System/ResourceTypes/XBOX_ONE/TextureNType.conf" {
+  }
+  TGAResourceClass XBOX_SERIES : "{065D289C7FF8B20D}Configs/System/ResourceTypes/XBOX_SERIES/TextureNType.conf" {
+  }
+  TGAResourceClass PS4 : "{29DF4A6CBBABE916}Configs/System/ResourceTypes/PS4/TextureNType.conf" {
+  }
+  TGAResourceClass HEADLESS : "{AFD658E4D0EB5FBC}Configs/System/ResourceTypes/HEADLESS/TextureNType.conf" {
+  }
+ }
+}

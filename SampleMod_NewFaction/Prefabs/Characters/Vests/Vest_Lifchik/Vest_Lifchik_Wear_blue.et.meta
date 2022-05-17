@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3C6D19A0E5ECAA1B}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Wear_blue.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

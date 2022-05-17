@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{804290CEC6889C3F}Particles/Vehicle/Vehicle_smoke_car_exhaust_normal_modded.ptc"
+ Configurations {
+  PTCResourceClass PC {
+  }
+  PTCResourceClass XBOX_ONE : PC {
+  }
+  PTCResourceClass PS4 : PC {
+  }
+  PTCResourceClass LINUX : PC {
+  }
+ }
+}

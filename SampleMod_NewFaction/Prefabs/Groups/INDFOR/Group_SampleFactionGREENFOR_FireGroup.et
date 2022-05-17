@@ -1,0 +1,41 @@
+SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENFOR_Base.et" {
+ ID "1"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#AR-Group_FireTeamLight"
+    m_Image "{8C5E5A3AE69E1E50}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_FireGroup.edds"
+    m_aAutoLabels {
+     71
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{56ACDE6F1238C479}" {
+      m_BudgetType AI
+      m_Value 6
+     }
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{563682D06ED5ACD9}" {
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{56ACDE6F0CD09E71}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{56ACDE6F0D2568A8}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{AA694899565822AE}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_SL.et" "{95F6679C0A93945E}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_MG.et" "{1F49D0471D559EE1}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_AT.et" "{85DCA6D5396281FA}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.et"
+ }
+}

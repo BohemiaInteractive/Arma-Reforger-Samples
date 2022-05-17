@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{55DEE1D8CDFFFBE4}Language/localization.en_us.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

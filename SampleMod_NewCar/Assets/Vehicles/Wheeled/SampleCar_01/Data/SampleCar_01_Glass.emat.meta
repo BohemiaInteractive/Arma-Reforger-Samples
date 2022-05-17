@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{FA986144D94A3970}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

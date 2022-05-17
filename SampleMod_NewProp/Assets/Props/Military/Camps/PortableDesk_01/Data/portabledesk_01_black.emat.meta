@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9811B466E0093AA8}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_black.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

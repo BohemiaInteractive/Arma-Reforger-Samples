@@ -1,0 +1,26 @@
+SCR_ChimeraCharacter : "{DBB90D549BDAC937}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{63E8322E2ADD4AA7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74_GP25.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{026B159011A2958D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_GL_red.et"
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_SquadLeader"
+    Icon "{A26C465A6AE2AA17}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Leader.edds"
+    m_Image "{8C841B4FC4401E45}UI/Textures/EditorPreviews/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_SL.edds"
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     2 122 41
+    }
+   }
+  }
+ }
+}

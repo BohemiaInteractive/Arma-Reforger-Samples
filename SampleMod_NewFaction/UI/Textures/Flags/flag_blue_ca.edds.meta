@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{75B5B2FCB3A63474}UI/Textures/Flags/flag_blue_ca.edds"
+ Configurations {
+  PNGResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+  }
+  PNGResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+  }
+  PNGResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+  }
+  PNGResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

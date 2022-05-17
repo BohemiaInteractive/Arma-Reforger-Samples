@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_SampleMod.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

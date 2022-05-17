@@ -1,0 +1,8 @@
+GenericEntity : "{474FBF7F46802ACD}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{BB60898AFDBB6605}Assets/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_Glass_FL.xob"
+  }
+ }
+}

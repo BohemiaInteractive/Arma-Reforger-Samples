@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{4317836564299B70}Prefabs/Groups/Campaign/Group_SampleFactionGREENFOR_Remnants_Fireteam.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

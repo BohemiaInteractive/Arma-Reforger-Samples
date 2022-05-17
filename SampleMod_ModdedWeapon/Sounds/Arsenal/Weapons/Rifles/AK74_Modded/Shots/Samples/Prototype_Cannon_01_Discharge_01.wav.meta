@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{AA567312B4708BE1}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Prototype_Cannon_01_Discharge_01.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass LINUX : PC {
+  }
+ }
+}

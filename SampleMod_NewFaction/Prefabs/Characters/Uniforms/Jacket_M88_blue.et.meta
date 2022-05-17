@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{59DC01B2E69974DF}Prefabs/Characters/Uniforms/Jacket_M88_blue.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

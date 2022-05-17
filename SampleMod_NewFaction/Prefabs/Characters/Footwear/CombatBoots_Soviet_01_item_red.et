@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "56B8D2B949C4E812"
+ components {
+  MeshObject "{56B8D2BA7FF879B7}" {
+   Object "{D5447CC93DF5ACE3}Assets/Characters/Footwear/CombatBoots_Soviet_01/CombatBoots_Soviet_01_item.xob"
+   Materials {
+    MaterialAssignClass "{56B8D2B950B74CF1}" {
+     SourceMaterial "M_Soviet_combat_boots"
+     AssignedMaterial "{38593421561DC4C3}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/CombatBoots_Soviet_01_red.emat"
+    }
+   }
+  }
+ }
+ coords 3.872 13.085 -8.417
+}

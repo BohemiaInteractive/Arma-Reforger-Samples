@@ -1,0 +1,33 @@
+GameProject {
+ ID "SampleMod_ModdedWeapon"
+ GUID "5614E482B628B28D"
+ TITLE "Sample Mod - Modded Weapon"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{55E061A6E9FC14AF}" {
+      StringTableSource "{55E061A696C0BF12}Language/localization.st"
+      Languages {
+       LanguageDefinition "{55E061A6E2096332}" {
+        Code "en_us"
+        StringTableRuntime "{55E061A69A2596D3}Language/localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

@@ -1,0 +1,32 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 3
+ $node "w_slide" {
+  $keys t s {
+   $frame 0 3 {
+    #q 0 0 0 1
+   }
+  }
+  $node "w_hammer" {
+   $keys q s {
+    $frame 0 3 {
+     #t 0 0 0
+    }
+   }
+  }
+  $node "w_slide_release" {
+   $keys t s {
+    $frame 0 3 {
+     #q 0 0 0 1
+    }
+   }
+  }
+  $node "w_trigger" {
+   $keys t q s {
+    $frame 0 3 {
+    }
+   }
+  }
+ }
+}

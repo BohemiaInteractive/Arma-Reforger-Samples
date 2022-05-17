@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{810568CB19D91B51}Prefabs/Military/Camps/PortableDesk_01_Lid.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

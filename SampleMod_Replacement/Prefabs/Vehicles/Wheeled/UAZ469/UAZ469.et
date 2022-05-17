@@ -1,0 +1,40 @@
+Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  BaseSlotComponent "{517917F0BAF19CBC}" {
+   Enabled 1
+   AttachType RegisteringComponentSlotInfo "{1E91A710C1F2DBBC}" {
+    PivotID "scene_root"
+    Offset 0 0.25 -0.1
+    RegisterActions 1
+    RegisterDamage 1
+    RegisterControllers 1
+    RegisterWeapons 1
+    RegisterCompartments 1
+   }
+   EntityPrefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{B80903BACFCDCCB6}Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob"
+   Materials {
+    MaterialAssignClass "{5272DD4426DFFB75}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{62B42B998E960AD7}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Modded.emat"
+    }
+   }
+  }
+  SCR_EngineSimulationComponent "{512CC5B0F07DA8F9}" {
+   m_iFuelConsumption 15
+  }
+  SCR_MotorExhaustEffectGeneralComponent "{2122A74B00AC1C3A}" {
+   ParticleEffect "{804290CEC6889C3F}Particles/Vehicle/Vehicle_smoke_car_exhaust_black_02_modded.ptc"
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     MaxPower 255
+    }
+   }
+  }
+ }
+}

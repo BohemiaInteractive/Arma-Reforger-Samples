@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{004A537D5FF0AC5A}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+   SourceFile "SampleCar_01_Glass_NMO.tif"
+  }
+  TIFFResourceClass XBOX_ONE : "{7F6A4D372443A88D}Configs/System/ResourceTypes/XBOX_ONE/TextureNType.conf" {
+   SourceFile "SampleCar_01_Glass_NMO.tif"
+  }
+  TIFFResourceClass PS4 : "{29DF4A6CBBABE916}Configs/System/ResourceTypes/PS4/TextureNType.conf" {
+   SourceFile "SampleCar_01_Glass_NMO.tif"
+  }
+  TIFFResourceClass HEADLESS : "{AFD658E4D0EB5FBC}Configs/System/ResourceTypes/HEADLESS/TextureNType.conf" {
+   SourceFile "SampleCar_01_Glass_NMO.tif"
+  }
+ }
+}

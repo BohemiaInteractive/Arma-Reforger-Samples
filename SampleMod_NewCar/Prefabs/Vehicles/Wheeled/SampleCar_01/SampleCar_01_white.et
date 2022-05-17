@@ -1,0 +1,21 @@
+Vehicle : "{4E8595C9A8254222}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01_Base.et" {
+ ID "51C2C0913C9BBE3D"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{55FCB1B306066AB1}" {
+     SourceMaterial "SampleCar_01_body"
+     AssignedMaterial "{7DCE864E76B96E8E}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_body_white.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#SampleMod-EditableEntity_SampleCar_01_white_Name"
+    m_Image "{AF71BC7D7677DD8B}UI/Textures/EditorPreviews/Vehicles/Wheeled/SampleCar_01/SampleCar_01_white.edds"
+    m_aAutoLabels + {
+    }
+   }
+  }
+ }
+}

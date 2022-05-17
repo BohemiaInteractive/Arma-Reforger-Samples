@@ -1,0 +1,35 @@
+GenericEntity : "{9713FE6DDCC9510D}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Enabled 1
+   Materials {
+    MaterialAssignClass "{56B8D2BE8F9C9A3D}" {
+     SourceMaterial "Vest_Lifchik"
+     AssignedMaterial "{E78EFAB1BCF53040}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_red.emat"
+    }
+   }
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03D1147687}" {
+   Enabled 1
+   components {
+    SCR_EquipmentStorageComponent "{56628A71C36992CD}" {
+     Enabled 1
+    }
+   }
+  }
+  SimpleSoundComponent "{567C833AACDF80C7}" {
+   Enabled 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Enabled 1
+   WornModel "{532D2C3B04A0DFA5}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Wear_red.et"
+   ItemModel "{D549B6EE6B55C137}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_item_red.et"
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{82E3BCE667170541}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interier2_EM.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "SampleCar_01_interier2_EM.tif"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   SourceFile "SampleCar_01_interier2_EM.tif"
+  }
+  TIFFResourceClass PS4 : PC {
+   SourceFile "SampleCar_01_interier2_EM.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   SourceFile "SampleCar_01_interier2_EM.tif"
+  }
+ }
+}

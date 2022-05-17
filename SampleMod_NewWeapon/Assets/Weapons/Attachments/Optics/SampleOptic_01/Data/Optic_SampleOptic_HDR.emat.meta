@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{49BE214ED0192C5E}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/Optic_SampleOptic_HDR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{626A59F8E7E01E2F}Terrains/Common/Sky/SkyBox/HDRi_TestSite.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

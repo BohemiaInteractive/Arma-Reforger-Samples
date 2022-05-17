@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{07F6601CF048F331}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass_Alpha.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   SourceFile "SampleCar_01_Glass_Alpha.tif"
+   Conversion RedHQCompression
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   SourceFile "SampleCar_01_Glass_Alpha.tif"
+  }
+  TIFFResourceClass PS4 : PC {
+   SourceFile "SampleCar_01_Glass_Alpha.tif"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   SourceFile "SampleCar_01_Glass_Alpha.tif"
+  }
+ }
+}

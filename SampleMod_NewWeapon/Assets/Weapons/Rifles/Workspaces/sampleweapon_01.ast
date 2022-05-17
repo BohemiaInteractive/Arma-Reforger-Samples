@@ -1,0 +1,28 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{51929D50BF59CBCC}" {
+   Name "Reload"
+   Animations {
+    "BoltPose"
+    "Finger_trigger_in"
+    "Finger_trigger_out"
+    "Fire"
+    "Idle"
+    "Idle_finger"
+    "IKOffset"
+    "Reload_InsertMag"
+    "Reload_RemoveMag"
+    "ReloadActionBolt"
+    "Safety"
+    "Sight"
+    "Switch_Mode_Off"
+    "Switch_Mode_On"
+    "Trigger"
+   }
+   Columns {
+    "Erc"
+    "Pne"
+   }
+  }
+ }
+}

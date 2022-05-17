@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A8A4D02BA97FB1A8}PrefabsEditable/Auto/Props/Military/Camps/E_PortableDesk_01_Sand_Wing.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

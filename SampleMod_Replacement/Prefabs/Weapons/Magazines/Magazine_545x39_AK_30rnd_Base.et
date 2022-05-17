@@ -1,0 +1,59 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryItemComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#AR-Magazine_AK74_Name"
+     Description "#AR-Magazine_AK74_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.23
+     SizeSetupStrategy Volume
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D343CFC27DE5}" {
+      CameraPreset Left
+      CameraDistanceToItem 0.2
+     }
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellAK545 "{A5AAA6B6ACF001DF}" {
+   }
+   UIInfo MagazineUIInfo "{74AAA72E04A6249F}" {
+   }
+   AmmoConfig "{91A3208022732A9A}Configs/Ammo/Ammo_545x39_Modded.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{989AC4DCA8C432AC}Assets/Weapons/Magazines/AK74/Magazine_30rnd_AK74.xob"
+  }
+  RigidBody "{0F2AA6AE071B0376}" {
+   LayerPreset "ItemFireView"
+   ModelGeometry 1
+  }
+  SCR_InventoryItemComponent "{0953A76E5A0FF5D6}" {
+   Enabled 0
+   ItemDisplayName UIInfo "{43CBA77DE5EDAC3C}" {
+    Name "AK74 30rnd"
+    Description "Ammo for AK-74."
+   }
+   m_sIconName "magazine_AK74"
+   m_fWeight 0.34
+   m_Size S
+  }
+  SoundComponent "{52927C13D05A247F}" {
+   Filenames {
+    "{05C531878B760FC2}Sounds/Character/Movement/Equipment/PickUp/PickUp_Rifle_Mag.acp"
+   }
+   OnFrameUpdate 0
+  }
+ }
+ coords 2631.639 390.043 5198.697
+ Flags 4194307
+}

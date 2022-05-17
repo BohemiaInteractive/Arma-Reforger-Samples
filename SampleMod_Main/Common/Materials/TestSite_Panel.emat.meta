@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{941AF8FAAE5FD83E}Assets/Tests/Metrics/TestSite_Panel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

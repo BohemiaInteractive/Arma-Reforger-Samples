@@ -1,0 +1,10 @@
+MatPBRCamo {
+ CavityFromAO 1
+ BCRMap "{F339444378B87C85}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_item_BCR.edds" 
+ NMOMap "{CBE1FFD1A1CF2E1B}Assets/Characters/Uniforms/Pants_M88/Data/Pants_M88_01_item_NMO.edds" 
+ CamoColor 0 0.502 0.125 1
+ CamoOpacity 0.288
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0
+ CamoMetalnessOpacity 0
+}

@@ -1,0 +1,137 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "5244BAE9DBC0BBF7"
+ components {
+  SignalsManagerComponent "{5244BAE8D3D28D2A}" {
+  }
+  SoundComponent "{5494CE5D15F35C61}" {
+   Filenames {
+    "{DE134251C26FD1EA}Sounds/Props/RuggedDesk/RuggedDesk_01.acp"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{411A617924FC3D61}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01.xob"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{55CEAE5A72183394}" {
+     m_ModelPrefabs {
+      "{0CBAB384D9DC0D84}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_dst_01.xob" "{95A40A1DC43B3C14}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_dst_02.xob" "{E2AE62953099D364}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_dst_03.xob" "{E56998C4561F69A7}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_dst_04.xob"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCB445DA7D6E35}" {
+  }
+  ProcAnimComponent "{5244BAE8D4FF7760}" {
+   Parameters {
+    ProcAnimParams "{5244C1C214832121}" {
+     ResourceName "{A4A629323849328C}Assets/Props/Military/Camps/PortableDesk_01/drawer_move.pap"
+     BoneNames {
+      "drawer_1" "drawer_2" "drawer_3" "drawer_4" "drawer_5" "drawer_6"
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5244BAE9EE937579}" {
+   ActionContexts {
+    UserActionContext "{5244BAE9ED14AC3E}" {
+     ContextName "drawer_1"
+     Position PointInfo "{5244BAE8AAF6DC26}" {
+      PivotID "drawer_1"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+    UserActionContext "{5244BAE84E7BB125}" {
+     ContextName "drawer_2"
+     Position PointInfo "{5244BAE843ED67FD}" {
+      PivotID "drawer_2"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+    UserActionContext "{5244BAE84DF1AB86}" {
+     ContextName "drawer_3"
+     Position PointInfo "{5244BAE8585D906B}" {
+      PivotID "drawer_3"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+    UserActionContext "{5244BAE8508126A4}" {
+     ContextName "drawer_4"
+     Position PointInfo "{5244BAE818EE22BC}" {
+      PivotID "drawer_4"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+    UserActionContext "{5244BAE850FDA8F4}" {
+     ContextName "drawer_5"
+     Position PointInfo "{5244BAE812E419CD}" {
+      PivotID "drawer_5"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+    UserActionContext "{5244BAE8502ED346}" {
+     ContextName "drawer_6"
+     Position PointInfo "{5244BAEBDB8BADAB}" {
+      PivotID "drawer_6"
+      Offset 0 0 0.35
+     }
+     Radius 0.2
+    }
+   }
+   additionalActions {
+    SCR_DrawerUserAction "{5244C1C3EA5F3856}" {
+     ParentContextList {
+      "drawer_1"
+     }
+     UIInfo UIInfo "{5244C1C7FC3EFBEF}" {
+      Name "Interact"
+     }
+     VisibilityRange -1
+    }
+    SCR_DrawerUserAction "{5262F35BA87D3209}" {
+     ParentContextList {
+      "drawer_2"
+     }
+     VisibilityRange -1
+     m_sSignalName "Drawer 2"
+    }
+    SCR_DrawerUserAction "{526306A3955A3B78}" {
+     ParentContextList {
+      "drawer_3"
+     }
+     m_sSignalName "Drawer 3"
+    }
+    SCR_DrawerUserAction "{526306A3AB27D606}" {
+     ParentContextList {
+      "drawer_4"
+     }
+     m_sSignalName "Drawer 4"
+    }
+    SCR_DrawerUserAction "{526306A3AA53B84A}" {
+     ParentContextList {
+      "drawer_5"
+     }
+     m_sSignalName "Drawer 5"
+    }
+    SCR_DrawerUserAction "{526306A3BFB5BDDF}" {
+     ParentContextList {
+      "drawer_6"
+     }
+     m_sSignalName "Drawer 6"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 9.563 6.016 2.712
+ Flags 3
+}

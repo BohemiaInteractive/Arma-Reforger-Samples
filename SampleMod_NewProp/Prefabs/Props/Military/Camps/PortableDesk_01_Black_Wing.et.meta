@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2911634A540ACAE6}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Wing.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

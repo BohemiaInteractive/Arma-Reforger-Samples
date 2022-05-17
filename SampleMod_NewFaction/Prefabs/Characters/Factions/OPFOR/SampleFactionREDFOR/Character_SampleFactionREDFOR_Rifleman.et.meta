@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

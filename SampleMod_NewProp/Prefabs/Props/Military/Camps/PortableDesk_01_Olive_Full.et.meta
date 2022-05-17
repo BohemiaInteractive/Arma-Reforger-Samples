@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Full.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

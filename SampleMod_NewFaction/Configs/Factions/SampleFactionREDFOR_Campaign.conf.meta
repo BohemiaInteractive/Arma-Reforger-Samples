@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{A777B5723BB27A84}Configs/Factions/SampleFactionREDFOR_Campaign.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

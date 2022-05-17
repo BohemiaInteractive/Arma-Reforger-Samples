@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{2F3F1DB909FF1B95}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_BCR.edds" 
+ NMOMap "{17E7A62BD088490B}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_NMO.edds" 
+}

@@ -1,0 +1,275 @@
+AudioClass {
+ sounds {
+  SoundClass {
+   id 6153
+   name "SOUND_DRAWER_CLOSE"
+   tl 198.861 253.389
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   outState 8203
+   outStatePort 24583
+  }
+  SoundClass {
+   id 12297
+   name "SOUND_DRAWER_OPEN"
+   tl 198.861 510
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 11282
+       port 65
+      }
+     }
+    }
+   }
+   outState 8203
+   outStatePort 24583
+  }
+ }
+ mixers {
+  MixerClass {
+   id 8203
+   name "OutputState"
+   tl 421.75 89.773
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   iops {
+    IOPConnectionClass iopConnection {
+     port 24583
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 6153
+         port 65
+        }
+        ConnectionClass connection {
+         id 12297
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "ENV_Ambient_NoAtt" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT"
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Shader Close"
+   tl -5.556 254
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 4115
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 5141
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 13340
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  ShaderClass {
+   id 11282
+   name "Shader Open"
+   tl -5.556 512.222
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 2052
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 5141
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 4115
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 13340
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 4115
+   name "Amplitude"
+   tl -219.833 326
+   curve Logarithm
+   outerRange 5
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 5141
+   name "Frequency"
+   tl -219.833 406.167
+   enableDistanceAtt 1
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 1028
+   name "Close"
+   tl -427.333 253.333
+   Volume -3
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{F836100794B99815}Sounds/Props/RuggedDesk/Samples/Sfx_RuggedDesk_Drawer_Close_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 2052
+   name "Open"
+   tl -427.333 517.667
+   Volume -3
+   "Fade out time" 0
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{1CC8F958F5598625}Sounds/Props/RuggedDesk/Samples/Sfx_RuggedDesk_Drawer_Open_01.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 13340
+   name "Spatiality"
+   tl -219.833 486.333
+   spatialFactor 1
+  }
+ }
+ groups {
+  GroupClass {
+   id 14339
+   name "Audio Banks"
+   children {
+    2052 1028
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 15363
+   name "Shaders"
+   children {
+    3090 11282
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+  GroupClass {
+   id 16387
+   name "Sounds"
+   children {
+    12297 6153
+   }
+   parent -1
+   Color 0.6 0.6 0.6 0.251
+  }
+ }
+ version 1
+}

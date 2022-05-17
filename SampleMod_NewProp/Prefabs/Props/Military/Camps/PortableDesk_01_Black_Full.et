@@ -1,0 +1,36 @@
+GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Full.et" {
+ ID "54928BB79430CE1A"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{592C8576A462F571}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{9811B466E0093AA8}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_black.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCB445DA7D6E35}" {
+   Slots {
+    EntitySlotInfo Wing_L {
+     Prefab "{2911634A540ACAE6}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Wing.et"
+    }
+    EntitySlotInfo Wing_R {
+     Prefab "{2911634A540ACAE6}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Wing.et"
+    }
+    EntitySlotInfo Lid_1 {
+     Prefab "{3118A554CF13813D}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Lid.et"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{55CEAE5A72183394}" {
+     m_ModelPrefabs {
+      "{4A3DE114A9C240D1}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_dst_01_Black.et" "{F2032AA6DBD6A0A7}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_dst_02_Black.et" "{CD9C44C4CDDA0E5A}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_dst_03_Black.et" "{73404FEAAFFD46A9}Prefabs/Props/Military/Camps/Dst/PortableDesk_01_dst_04_Black.et"
+     }
+    }
+   }
+  }
+ }
+ coords 4.694 0 -0.48
+}

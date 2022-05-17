@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{F836100794B99815}Sounds/Props/RuggedDesk/Samples/Sfx_RuggedDesk_Drawer_Close_01.wav"
+ Configurations {
+  WAVResourceClass PC : "{F72B05D02F3F135E}Configs/System/ResourceTypes/PC/Sound.conf" {
+  }
+  WAVResourceClass XBOX_ONE : "{A0776163143143AC}Configs/System/ResourceTypes/XBOX_ONE/Sound.conf" {
+  }
+  WAVResourceClass PS4 : "{89EB939911B4C093}Configs/System/ResourceTypes/PS4/Sound.conf" {
+  }
+  WAVResourceClass HEADLESS : "{D63592CA950AF3A8}Configs/System/ResourceTypes/HEADLESS/Sound.conf" {
+  }
+ }
+}

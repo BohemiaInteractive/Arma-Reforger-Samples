@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{1563F6168060810D}Terrains/Common/Sky/Skybox/test_skies_hdri.edds"
+ Configurations {
+  HDRResourceClass PC {
+   SourceFile "test_skies_hdri.hdr"
+  }
+  HDRResourceClass XBOX_ONE : PC {
+  }
+  HDRResourceClass PS4 : PC {
+  }
+  HDRResourceClass LINUX : PC {
+  }
+ }
+}

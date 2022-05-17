@@ -1,0 +1,1301 @@
+$grp GenericEntity : "{79BB6C3D824A6AFC}Prefabs/Compositions/Slotted/SlotRoadLarge/CheckpointUnderConstruction_L_US_02.et" {
+ {
+  coords 7608.917 163.548 4531.676
+  angleY 50.189
+ }
+ {
+  coords 8841.549 94.853 2683.688
+  angleY 151.56
+ }
+}
+GenericEntity : "{81041DCD151F5A1D}Prefabs/Compositions/Slotted/SlotRoadLarge/CheckpointUnderConstruction_L_US_01.et" {
+ coords 4931.654 36.215 9176.382
+ angleY 69.448
+}
+$grp GenericEntity : "{CBCF4383E3652F6D}Prefabs/Compositions/Slotted/SlotRoadSmall/CheckpointUnderConstruction_S_US_02.et" {
+ {
+  coords 4960.654 28.67 10641.889
+  angleY 168.301
+ }
+ {
+  coords 5366.218 20.16 9970.313
+  angleY -68.996
+ }
+ {
+  coords 5679.301 218.78 7085.395
+  angleY -73.839
+ }
+ {
+  coords 8657.3 180.908 3684.193
+  angleY -134.912
+ }
+ {
+  coords 7074.076 116.868 5416.005
+  angleY -46.567
+ }
+ {
+  coords 5408.811 77.472 5661.476
+  angleY 14.173
+ }
+}
+$grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+ {
+  coords 9159.376 73.048 2240.518
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -23.151 5.982 86.903
+    }
+    {
+     coords -73.431 5.771 114.007
+     m_iWaypointIndex 1
+    }
+    {
+     coords -69.203 3.105 33.262
+     m_iWaypointIndex 2
+    }
+    {
+     coords -39.679 0.59 4.976
+     m_iWaypointIndex 3
+    }
+   }
+  }
+ }
+ {
+  coords 7491.055 6.604 6714.259
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -59.512 3.049 44.787
+    }
+    {
+     coords -99.864 3.085 -11.197
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 1071.705 2.72 6028.615
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 22.771 0.094 69.908
+    }
+    {
+     coords -81.023 0.125 2.023
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 4926.943 2.188 3873.303
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 97.905 0 -39.758
+    }
+    {
+     coords 54.617 0.539 29.38
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 4907.886 28.845 11730.102
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 2.185 -0.25 143.548
+   }
+  }
+ }
+ {
+  coords 7446.37 162.753 4365.29
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -28.771 0.216 -66.311
+    }
+    {
+     coords 99.872 4.101 -95.327
+     m_iWaypointIndex 1
+    }
+    {
+     coords 109.396 4.101 -36.961
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 3494.726 180.43 5845.588
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -53.679 -5.009 -45.063
+    }
+    {
+     coords 45.234 -6.53 -90.322
+     m_iWaypointIndex 1
+    }
+    {
+     coords 62.537 -2.069 -15.676
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 3945.5 15.704 8492.848
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -23.032 -0.484 -92.482
+    }
+    {
+     coords -104.723 -3.609 -84.213
+     m_iWaypointIndex 1
+    }
+    {
+     coords -119.559 -4.007 -1.938
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 6907.698 70.137 8616.323
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -65.381 -4.162 25.206
+     m_iWaypointIndex 1
+    }
+    {
+     coords -51.409 0.605 -45.764
+     m_iWaypointIndex 2
+    }
+    {
+     coords -6.928 3.183 -48.776
+     m_iWaypointIndex 3
+    }
+   }
+  }
+ }
+ {
+  coords 9480.683 208.064 2955.976
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -51.866 6.826 -67.839
+    }
+    {
+     coords -75.153 2.447 13.147
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 10641.063 145 2253.312
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -13.948 4.268 69.376
+   }
+  }
+ }
+ {
+  coords 5392.643 22.972 8363.817
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -99.407 9.766 -49.84
+    }
+    {
+     coords 23.601 -7.352 60.973
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 4462.601 57.705 6193.609
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -6.887 2.193 75.281
+    }
+    {
+     coords -89.812 -0.851 41.862
+     m_iWaypointIndex 1
+    }
+    {
+     coords -70.353 -1.515 -14.079
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 5231.962 35.414 10665.516
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 74.184 -1.313 59.79
+   }
+  }
+ }
+ {
+  coords 8779.365 195.889 3878.717
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 108.968 8.068 44.03
+    }
+    {
+     coords 92.394 9.115 98.881
+     m_iWaypointIndex 1
+    }
+    {
+     coords -1.008 3.863 91.983
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 5876.413 13.582 9951.999
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 68.02 -2.758 -84.772
+   }
+  }
+ }
+ {
+  coords 4522.592 64.04 4975.829
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -86.263 -0.033 27.913
+    }
+    {
+     coords 15.016 -0.92 63.5
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 3273.08 118.48 4476.205
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 36.546 -2.069 -76.366
+   }
+  }
+ }
+ {
+  coords 6558.713 81.404 5123.084
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -30.599 5.479 162.201
+   }
+  }
+ }
+ {
+  coords 3833.603 59.782 7025.681
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -100.656 -2.475 6.99
+   }
+  }
+ }
+ {
+  coords 7048.031 121.322 6149.193
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 64.479 -5.584 -4.481
+    }
+    {
+     coords 57.308 -7.134 53.874
+     m_iWaypointIndex 1
+    }
+    {
+     coords 1.553 -2.76 56.89
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 8878.892 95.167 2751.491
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 65.781 2.427 24.312
+    }
+    {
+     coords 65.422 4.387 -61.653
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 6002.392 217.051 7160.021
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -62.245 4.973 64.528
+   }
+  }
+ }
+ {
+  coords 5110.324 54.409 5446.952
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 51.221 -1.783 49.867
+   }
+  }
+ }
+ {
+  coords 4019.232 33.11 7892.792
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -54.379 -3.466 20.832
+    }
+    {
+     coords -77.494 -9.202 -44.326
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 7397.794 114.952 5308.631
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -23.426 6.561 -111.353
+    }
+    {
+     coords 55.401 -5.039 0.743
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 2450.555 103.929 5443.816
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 98.904 -11.71 -57.319
+   }
+  }
+ }
+ {
+  coords 7446.359 128.291 4855.596
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 70.926 1.07 7.336
+   }
+  }
+ }
+ {
+  coords 4553.578 20.763 9787.813
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -88.255 -2.993 -19.36
+   }
+  }
+ }
+ {
+  coords 5098.493 175.872 6968.684
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -33.708 1.729 48.952
+    }
+    {
+     coords 24.417 -3.418 -49.791
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 5570.258 89.291 5908.852
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 17.225 1.543 22.625
+    }
+    {
+     coords -33.41 -0.041 33.784
+     m_iWaypointIndex 1
+    }
+    {
+     coords -37.519 -2.342 -35.687
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 7283.65 137.284 2189.59
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 42.517 0.85 47.931
+    }
+    {
+     coords -54.135 -0.899 35.426
+     m_iWaypointIndex 1
+    }
+    {
+     coords -30.853 -0.123 5.246
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 5172.765 32.238 9250.8
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 3.217 0.751 -124.231
+   }
+  }
+ }
+ {
+  coords 2849.468 75.988 6575.615
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -68.255 1.088 -32.795
+   }
+  }
+ }
+ {
+  coords 7420.184 7.936 6689.893
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 1292.724 37.716 6038.14
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5142.827 14.499 4002.729
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4943.656 28.38 11979.468
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7569.671 166.845 4310.344
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 3349.928 159.932 5765.312
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 3901.461 15.323 8434.833
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 6877.277 67.435 8640.186
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 9419.836 210.981 2965.537
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 10630.322 149.47 2330.155
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5329.865 26.626 8396.682
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4452.47 57.421 6188.292
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5258.191 34.665 10691.117
+ }
+ {
+  coords 8809.412 195.613 3871.846
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5838.166 4.563 9795.078
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4428.603 63.179 4963.927
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 3308.521 115.634 4395
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 6526.527 87.024 5278.794
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 3860.645 68.938 6935.138
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7095.316 117.36 5991
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 8823.362 95.452 2781.796
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5758.888 216.846 7054.987
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5263.642 64.215 5323.333
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4143.957 39.876 7758.793
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7555.822 82.782 5501.334
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 2676.637 94.645 5383.615
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7464.57 137.327 4737.099
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4505.9 13.907 9476.059
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5171.431 171.676 6974.958
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5630.542 90.868 5885.674
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7250.788 136.869 2199.42
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4909.136 36.158 9094.53
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 9247.894 58.821 2067.012
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 2831.793 86.518 6329.278
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5848.268 235.303 7253.672
+ }
+ {
+  coords 7692.978 341.214 3085.818
+ }
+ {
+  coords 8542.327 131.824 3372.792
+ }
+ {
+  coords 8472.346 132.964 3358.617
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 7978.982 209.75 4277.095
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 228.157 7.764 89.431
+   }
+  }
+ }
+ {
+  coords 10817.626 10.921 1532.585
+ }
+ {
+  coords 11666.426 4.726 2106.56
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 22.229 2.833 177.186
+   }
+  }
+ }
+ {
+  coords 10057.213 308.903 2634.99
+ }
+ {
+  coords 9959.055 314.956 2284.564
+ }
+ {
+  coords 9338.792 5.532 5052.158
+ }
+ {
+  coords 9407.499 22.63 5045.581
+ }
+ {
+  coords 9340.747 196.696 1146.245
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 80.271 -6.308 25.054
+   }
+  }
+ }
+ {
+  coords 10364.765 34.596 382.235
+ }
+ {
+  coords 8713.173 120.067 3191.352
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 71.217 10.123 37.559
+    }
+    {
+     coords 107.429 17.598 106.306
+     m_iWaypointIndex 1
+    }
+   }
+  }
+ }
+ {
+  coords 8489.262 153.322 3631.787
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 6651.46 110.324 5888.353
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -86.08 7.666 105.658
+   }
+  }
+ }
+ {
+  coords 6786.572 91.304 5686.415
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 5222.404 78.114 5040.941
+ }
+ {
+  coords 4827.589 83.839 4449.083
+ }
+ {
+  coords 5235.947 78.946 6380.913
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 113.414 1.816 -78.282
+   }
+  }
+ }
+ {
+  coords 4644.67 56.282 6236.194
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 63.05 4.756 36.04
+   }
+  }
+ }
+ {
+  coords 4274.564 59.563 5854.209
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -49.841 7.911 -74.182
+   }
+  }
+ }
+ {
+  coords 4893.536 52.799 5894.75
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -11.438 -0.211 -246.334
+   }
+  }
+ }
+ {
+  coords 3351.892 120.277 5111.351
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -103.075 -5.464 77.759
+   }
+  }
+ }
+ {
+  coords 3029.328 114.132 5189.776
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 98.541 5.09 37.885
+   }
+  }
+ }
+ {
+  coords 2179.648 21.141 7418.659
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 67.199 -1.241 73.222
+   }
+  }
+ }
+ {
+  coords 6331.948 5.38 9642.329
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 375.848 -0.868 3.104
+   }
+  }
+ }
+ {
+  coords 5751.276 29.497 10215.265
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 7.926 5.158 218.609
+   }
+  }
+ }
+ {
+  coords 5299.637 21.313 9818.148
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 69.098 -3.911 216.016
+   }
+  }
+ }
+ {
+  coords 5222.957 38.268 11359.311
+  m_eGroupType FIRETEAM
+ }
+ {
+  coords 4318.524 11.075 12213.433
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords 102.898 9.968 -95.056
+   }
+  }
+ }
+ {
+  coords 4869.346 111.136 8133.268
+ }
+ {
+  coords 5021.211 26.283 9991.598
+  {
+   SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    coords -11.629 0.66 -116.534
+   }
+  }
+ }
+ {
+  coords 4960.369 28.579 10644.671
+  angleY 161.644
+  m_eGroupType AT
+ }
+ {
+  coords 5370.196 20.39 9975.506
+  angleY -95.47
+  m_eGroupType AT
+ }
+ {
+  coords 4923.489 36.132 9174.081
+  angleY 70.931
+  m_eGroupType AT
+ }
+ {
+  coords 5682.204 218.827 7084.228
+  angleY -76.887
+  m_eGroupType AT
+ }
+ {
+  coords 7615.053 164.386 4529.625
+  angleY -64.039
+  m_eGroupType AT
+ }
+ {
+  coords 8844.063 94.926 2686.275
+  angleY 161.644
+  m_eGroupType AT
+ }
+ {
+  coords 8659.207 181.026 3685.722
+  angleY -141.719
+  m_eGroupType AT
+ }
+ {
+  coords 7071.78 116.658 5409.05
+  angleY -20.38
+  m_eGroupType AT
+ }
+ {
+  coords 5408.005 77.416 5659.9
+  angleY 1.078
+  m_eGroupType AT
+ }
+ {
+  coords 4562.376 16.233 10028.805
+  angleY -20.38
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 48.449 1.855 124.561
+    }
+    {
+     coords 100.463 -0.643 87.649
+     m_iWaypointIndex 1
+    }
+    {
+     coords 78.326 -1.932 -22.381
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 4987.004 30.868 10593.056
+  angleY -20.38
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -141.294 1.406 -2.704
+    }
+    {
+     coords -122.074 11.584 -127.057
+     m_iWaypointIndex 1
+    }
+    {
+     coords 38.714 5.934 -80.465
+     m_iWaypointIndex 2
+    }
+    {
+     coords 109.867 7.052 -51.219
+     m_iWaypointIndex 3
+    }
+   }
+  }
+ }
+ {
+  coords 4755.201 23.422 12051.16
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 6.095 4.802 -288.776
+    }
+    {
+     coords 121.462 5.173 -222.959
+     m_iWaypointIndex 1
+    }
+    {
+     coords 82.739 0.792 -2.907
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 5261.388 26.051 9378.153
+ }
+ {
+  coords 5382.052 10.532 8732.01
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -208.425 30.726 85.978
+    }
+    {
+     coords -328.108 29.626 305.955
+     m_iWaypointIndex 1
+    }
+    {
+     coords -153.032 25.559 285.924
+     m_iWaypointIndex 2
+    }
+    {
+     coords 36.427 7.366 77.143
+     m_iWaypointIndex 3
+    }
+   }
+  }
+ }
+ {
+  coords 4632.682 119.405 8161.375
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -150.109 0.505 -3.189
+    }
+    {
+     coords -339.125 -24.034 -6.591
+     m_iWaypointIndex 1
+    }
+    {
+     coords -466.556 -56.297 -31.163
+     m_iWaypointIndex 2
+    }
+    {
+     coords -465.749 -64.803 -158.194
+     m_iWaypointIndex 3
+    }
+    {
+     coords -200.322 -23.458 -229.334
+     m_iWaypointIndex 4
+    }
+    {
+     coords -115.973 -11.682 -217.737
+     m_iWaypointIndex 5
+    }
+    {
+     coords -33.083 0.971 -78.336
+     m_iWaypointIndex 6
+    }
+   }
+  }
+ }
+ {
+  coords 9329.498 84.486 2225.195
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -69.105 -0.087 57.577
+    }
+    {
+     coords -119.449 6.826 112.156
+     m_iWaypointIndex 1
+    }
+    {
+     coords -152.427 -0.067 116.294
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 9107.287 73.552 2073.585
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -48.23 7.03 31.025
+    }
+    {
+     coords -87.049 7.495 57.486
+     m_iWaypointIndex 1
+    }
+    {
+     coords -134.539 11.624 103.169
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 8781.365 95.488 2759.348
+ }
+ {
+  coords 8104.546 205.583 3870.904
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 44.917 -1.955 66.818
+    }
+    {
+     coords 110.532 -9.257 111.902
+     m_iWaypointIndex 1
+    }
+    {
+     coords 191.37 -3.053 132.613
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+ {
+  coords 7891.401 256.247 4046.83
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -124.433 -3.91 -109.818
+    }
+    {
+     coords -190.989 -20.979 -23.326
+     m_iWaypointIndex 1
+    }
+    {
+     coords -131.391 -10.379 22.79
+     m_iWaypointIndex 2
+    }
+    {
+     coords -84.101 -15.28 96.49
+     m_iWaypointIndex 3
+    }
+    {
+     coords 27.777 -11.685 86.851
+     m_iWaypointIndex 4
+    }
+   }
+  }
+ }
+ {
+  coords 7065.706 99.583 4617.745
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -78.341 -18.386 -42.895
+    }
+    {
+     coords -157.865 -42.604 -129.026
+     m_iWaypointIndex 1
+    }
+    {
+     coords -202.575 -65.051 -232.148
+     m_iWaypointIndex 2
+    }
+    {
+     coords -169.186 -26.223 22.3
+     m_iWaypointIndex 3
+    }
+    {
+     coords -33.123 -3.192 28.2
+     m_iWaypointIndex 4
+    }
+   }
+  }
+ }
+ {
+  coords 5556.698 50.979 4215.269
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 84.542 -5.743 61.202
+    }
+    {
+     coords 98.875 -3.3 100.549
+     m_iWaypointIndex 1
+    }
+    {
+     coords 111.361 7.123 189.853
+     m_iWaypointIndex 2
+    }
+    {
+     coords 109.517 17.686 258.52
+     m_iWaypointIndex 3
+    }
+    {
+     coords 112.512 17.378 321.827
+     m_iWaypointIndex 4
+    }
+   }
+  }
+ }
+ {
+  coords 3767.135 115.44 5009.376
+ }
+ {
+  coords 3429.321 119.313 4987.384
+ }
+ {
+  coords 2863.048 90.536 4851.73
+ }
+ {
+  coords 2392.061 113.944 5487.462
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -42.083 -22.88 -90.88
+    }
+    {
+     coords -54.898 -34.903 -146.16
+     m_iWaypointIndex 1
+    }
+    {
+     coords 9.815 -9.475 -95.264
+     m_iWaypointIndex 2
+    }
+    {
+     coords 60.615 -15.162 16.558
+     m_iWaypointIndex 3
+    }
+    {
+     coords 9.541 -3.051 43.41
+     m_iWaypointIndex 4
+    }
+   }
+  }
+ }
+ {
+  coords 2547.969 87.993 5172.618
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 42.772 22.275 -11.77
+    }
+    {
+     coords 129.284 30.269 -11.1
+     m_iWaypointIndex 1
+    }
+    {
+     coords 215.087 30.603 17.986
+     m_iWaypointIndex 2
+    }
+    {
+     coords 254.541 33.01 53.368
+     m_iWaypointIndex 3
+    }
+    {
+     coords 87.821 0.459 64.869
+     m_iWaypointIndex 4
+    }
+    {
+     coords -31.058 -6.293 13.71
+     m_iWaypointIndex 5
+    }
+   }
+  }
+ }
+ {
+  coords 3000.55 121.982 5495.358
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -79.157 -6.126 94.102
+    }
+    {
+     coords -160.355 -13.74 123.701
+     m_iWaypointIndex 1
+    }
+    {
+     coords -270.273 -4.242 128.952
+     m_iWaypointIndex 2
+    }
+    {
+     coords -331.022 -3.404 157.694
+     m_iWaypointIndex 3
+    }
+    {
+     coords -386.539 -2.696 232.709
+     m_iWaypointIndex 4
+    }
+    {
+     coords -153.194 9.229 241.542
+     m_iWaypointIndex 5
+    }
+    {
+     coords -39.635 -7.329 162.546
+     m_iWaypointIndex 6
+    }
+   }
+  }
+ }
+ {
+  coords 3444.778 118.827 4978.456
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -20.879 -1.413 -83.461
+    }
+    {
+     coords -56.762 21.881 -112.724
+     m_iWaypointIndex 1
+    }
+    {
+     coords -137.799 -0.15 -96.62
+     m_iWaypointIndex 2
+    }
+    {
+     coords -170.91 -4.11 -38.449
+     m_iWaypointIndex 3
+    }
+    {
+     coords -111.012 2.881 36.81
+     m_iWaypointIndex 4
+    }
+   }
+  }
+ }
+ {
+  coords 3860.922 101.734 6326.346
+ }
+ {
+  coords 3905.345 103.454 6265.487
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 103.783 -1.6 -12.314
+    }
+    {
+     coords 161.835 -6.633 -41.529
+     m_iWaypointIndex 1
+    }
+    {
+     coords 213.207 -22.027 -91.199
+     m_iWaypointIndex 2
+    }
+    {
+     coords 239.985 -30.665 -169.807
+     m_iWaypointIndex 3
+    }
+    {
+     coords 224.871 -21.785 -209.624
+     m_iWaypointIndex 4
+    }
+    {
+     coords 217.774 -23.106 -283.794
+     m_iWaypointIndex 5
+    }
+   }
+  }
+ }
+ {
+  coords 4638.017 160.411 6915.8
+ }
+ {
+  coords 4733.842 162.499 6998.693
+ }
+ {
+  coords 4751.167 160.967 7153.148
+ }
+ {
+  coords 4787.12 167.871 6912.293
+ }
+ {
+  coords 4849.31 167.196 6917.554
+ }
+ {
+  coords 4879.684 170.98 7036.141
+ }
+ {
+  coords 7653.53 126.257 5022.182
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 6.206 0.373 -69.993
+    }
+    {
+     coords 56.828 4.356 -49.828
+     m_iWaypointIndex 1
+    }
+    {
+     coords 50.956 26.298 -28.731
+     m_iWaypointIndex 2
+    }
+   }
+  }
+ }
+}

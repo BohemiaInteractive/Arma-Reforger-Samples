@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{90A15A7283B23F3C}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_blue_item.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,20 @@
+GameProject {
+ ID "SampleMod_Replacement"
+ GUID "5614E4816B1D0820"
+ TITLE "Sample Mod - Replacement"
+ Dependencies {
+  "5614E48162D7B84F"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C113F3E1E2810FCC}Configs/Campaign/VehicleAssetList_SampleNewFaction.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

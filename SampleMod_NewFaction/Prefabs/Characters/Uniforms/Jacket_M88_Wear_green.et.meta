@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{4DECC7968CBF8253}Prefabs/Characters/Uniforms/Jacket_M88_Wear_green.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

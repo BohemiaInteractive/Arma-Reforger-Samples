@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B6C69C2ED80BB498}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_sampleweapon_bolt_pose.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

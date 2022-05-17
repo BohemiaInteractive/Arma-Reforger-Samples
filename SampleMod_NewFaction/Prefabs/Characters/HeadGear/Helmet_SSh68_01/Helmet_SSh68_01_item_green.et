@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "56B8D2B8CB2C9B71"
+ components {
+  MeshObject "{56B8D2BA7FF879B7}" {
+   Object "{830655916951B1B5}Assets/Characters/HeadGear/Helmet_SSh68/Helmet_SSh68_01_cover_item.xob"
+   Materials {
+    MaterialAssignClass "{56B8D2B8C8B09F9E}" {
+     SourceMaterial "Helmet_SSh68_01_cover"
+     AssignedMaterial "{78749B558ED1CF2C}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSH68_green.emat"
+    }
+   }
+  }
+ }
+ coords 3.872 13.085 -8.417
+}

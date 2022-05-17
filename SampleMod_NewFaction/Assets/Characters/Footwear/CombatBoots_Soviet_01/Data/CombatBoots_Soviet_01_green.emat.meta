@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{E164B74E686C7A45}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/CombatBoots_Soviet_01_green.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

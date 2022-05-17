@@ -1,0 +1,6 @@
+SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_Base.et" {
+ ID "1"
+ m_aUnitPrefabSlots {
+  "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et" "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et" "{12C8010A29D5B7CF}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_AI.et"
+ }
+}

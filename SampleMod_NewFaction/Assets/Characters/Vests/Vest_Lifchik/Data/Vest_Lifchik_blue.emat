@@ -1,0 +1,10 @@
+MatPBRCamo {
+ CavityFromAO 1
+ BCRMap "{8A8B1D06F3AA5FF6}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_BCR.edds" 
+ NMOMap "{B253A6942ADD0D68}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_NMO.edds" 
+ CamoColor 0 0.125 0.502 1
+ CamoOpacity 0.26
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0
+ CamoMetalnessOpacity 0
+}

@@ -1,0 +1,12 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 2
+ $node "w_topcover" {
+  $keys q s {
+   $frame 0 2 {
+    #t 0 0 0
+   }
+  }
+ }
+}

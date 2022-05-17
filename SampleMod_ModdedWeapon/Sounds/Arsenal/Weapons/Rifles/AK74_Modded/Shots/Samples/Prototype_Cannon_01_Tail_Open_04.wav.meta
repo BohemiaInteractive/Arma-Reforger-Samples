@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{929F3D2DCE814007}Sounds/Arsenal/Weapons/Rifles/AK74_Modded/Shots/Samples/Prototype_Cannon_01_Tail_Open_04.wav"
+ Configurations {
+  WAVResourceClass PC {
+  }
+  WAVResourceClass XBOX_ONE : PC {
+  }
+  WAVResourceClass PS4 : PC {
+  }
+  WAVResourceClass LINUX : PC {
+  }
+ }
+}

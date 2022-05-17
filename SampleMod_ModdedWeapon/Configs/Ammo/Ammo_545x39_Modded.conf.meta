@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{91A3208022732A9A}Configs/Weapons/Ammo/Ammo_545x39_Modded.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass LINUX : PC {
+  }
+ }
+}

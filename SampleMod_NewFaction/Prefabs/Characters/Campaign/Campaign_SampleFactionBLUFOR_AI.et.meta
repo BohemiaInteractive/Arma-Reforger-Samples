@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{FE8A1A51F2234C70}Prefabs/Characters/BLUFOR/SampleFactionBLUFOR/Campaign_SampleFactionBLUFOR_AI.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

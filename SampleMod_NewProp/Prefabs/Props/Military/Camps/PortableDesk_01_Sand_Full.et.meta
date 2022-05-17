@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Full_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

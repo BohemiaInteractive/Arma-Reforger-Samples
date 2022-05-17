@@ -1,0 +1,14 @@
+MetaFileClass {
+ Name "{75F02460B37C89A0}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Full.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+GenericEntity : "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et" {
+ ID "521A80AC387D2829"
+ components {
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Materials {
+    MaterialAssignClass "{56B8D2B86A859C61}" {
+     SourceMaterial "M_Soviet_combat_boots"
+     AssignedMaterial "{1BD50A6BD55CF9A5}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/CombatBoots_Soviet_01_blue.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   WornModel "{3850B7632679A624}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_wear_blue.et"
+   ItemModel "{66E2225EF3C3C110}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_item_blue.et"
+  }
+ }
+}

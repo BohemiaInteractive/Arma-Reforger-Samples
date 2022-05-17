@@ -1,0 +1,15 @@
+GenericEntity : "{823A4F104743F718}Prefabs/Vehicles/Core/DestructibleVehicleGlass_Base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  SCR_DamageManagerComponent "{54ACA4E7F4367947}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Window {
+     MaxHealth 110
+     DamageReduction 4
+     DamageThreshold 7
+    }
+   }
+  }
+ }
+ coords 2.336 3.864 1.599
+}

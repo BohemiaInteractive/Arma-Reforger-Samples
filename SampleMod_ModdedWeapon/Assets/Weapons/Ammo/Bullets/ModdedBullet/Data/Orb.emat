@@ -1,0 +1,17 @@
+MatPBRBasic {
+ Diffuse 0 1 0 1
+ Ambient 0 0 0 1
+ Emissive 0.251 0 0 0
+ EmissiveLV 20
+ ZWrite 0
+ Sort overlay
+ CastShadow 0
+ ReceiveShadow 0
+ Specular 0.251 0.502 0 1
+ SpecularMul 5
+ AlphaMul 0.15
+ BlendMode Additive
+ DiffuseIBL 0.784 0.784 0.784 1
+ SpecularIBL 0.784 0.784 0.784 1
+ EmissiveMap "{E56F860110E9EE50}Assets/Tests/Soft/MRAP_01/Data/MRAP_01_int_emit_ca.edds" 
+}

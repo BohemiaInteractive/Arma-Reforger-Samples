@@ -1,0 +1,19 @@
+GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CC40E8BDB9602}" {
+     ExplosionDamageEffects {
+      ExplosionImpulseEffect "{567CC40E81AEBC71}" {
+       DamageValue 25
+      }
+      ExplosionFragmentationEffect "{567CC40E852E24FB}" {
+       DamageValue 5
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/ModdedTurret_M2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

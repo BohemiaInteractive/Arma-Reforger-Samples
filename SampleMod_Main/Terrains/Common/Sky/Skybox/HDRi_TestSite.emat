@@ -1,0 +1,12 @@
+MatSkyBox {
+ Diffuse 0.09 0.086 0.078 1
+ Ambient 0.133 0.133 0.133 1
+ Cull none
+ CastShadow 0
+ ReceiveShadow 0
+ AlbedoMap "{1DE91B43B44409E5}graphics/textures/sky/sky_gradient.edds" 
+ ColorBottom 0 0 0 1
+ ColorZenith 0 0 0 1
+ ColorUp 0 0 0 1
+ SkyTexture1 "{1563F6168060810D}Terrains/Common/Sky/Skybox/test_skies_hdri.edds" 
+}

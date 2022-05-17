@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8DE49070BFA84DC2}PrefabsEditable/Auto/Props/Military/Camps/E_PortableDesk_01_Sand_Full.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

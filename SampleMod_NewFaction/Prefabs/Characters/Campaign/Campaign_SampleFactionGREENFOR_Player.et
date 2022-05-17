@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_MapDescriptorComponent "{5902A44E904E5B68}" {
+   DescriptorVisible 0
+  }
+  SCR_CampaignBuildingComponent "{56BAC7C146009D8E}" {
+   m_fBuildingRadius 500
+   m_PreviewEntityPrefab "{4FF075A21D258ABE}Prefabs/MP/Campaign/BuildPreview.et"
+   m_PreviewMaterial "{58F07022C12D0CF5}Assets/Editor/PlacingPreview/Preview.emat"
+   m_BuildingEntityPrefab "{15BEE7092B88B67D}Prefabs/MP/Campaign/BuildEntity.et"
+  }
+  SCR_CampaignInteractionsComponent "{56BAC7C16ADD0374}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  }
+ }
+}

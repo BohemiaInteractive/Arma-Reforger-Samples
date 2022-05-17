@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{62AEF8C28AD3555D}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine_Damaged.sig"
+ Configurations {
+  AudioSignalResourceClass PC {
+  }
+  AudioSignalResourceClass XBOX_ONE : PC {
+  }
+  AudioSignalResourceClass PS4 : PC {
+  }
+  AudioSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{957129A4CFBB0621}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR_LightFireTeam.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

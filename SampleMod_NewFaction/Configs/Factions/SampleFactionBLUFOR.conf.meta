@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{2F1CD67B16BC0567}Configs/Factions/SampleFactionBLUFO.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

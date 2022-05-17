@@ -1,0 +1,20 @@
+GameProject {
+ ID "SampleMod_NewFaction"
+ GUID "5614E48126E3ADF2"
+ TITLE "Sample Mod - New Faction"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

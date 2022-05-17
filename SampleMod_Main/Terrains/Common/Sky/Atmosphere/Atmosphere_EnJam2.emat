@@ -1,0 +1,32 @@
+MatAtmosphere {
+ SkyIntensityLV 3
+ GroundIntensityLV 1
+ GroundColorInfluence 1
+ GroundColor 0.627 0.484 0.132 0
+ Dither 0
+ Temporal 0
+ IrradianceIntensity 0.21
+ InScatterStart 0.25
+ DistanceFogEnd 0.142
+ GroundDensity 0
+ Rayleigh 0.01
+ RayleighScaleHeight 16000
+ MieDensity 0.247
+ MieScaleHeight 4386.42
+ MieAngstromAlpha 0.82
+ MieAngstromBeta 0.95
+ MiePhaseFunctionG 0.475
+ BackScattering 0.664
+ FogLV 6.148
+ SolarIrradianceTint 0.045 0.045 0.063 1
+ RayleighScatteringTint 0.953 0.522 0.273 1
+ MieScatteringTint 0.294 0.237 0.231 1
+ ShaftsOcclusionPower 10
+ ShaftsMaxOcclusion 0.521
+ ShaftsWindVec 1 1 0 0
+ ShaftsWindSpeed 78.131
+ ShaftsWindScale 7.963
+ ShaftsWindNoiseThreshold 1
+ ShaftsWindNoiseBias -1
+ ShaftsHorizontalFadeStart 0
+}

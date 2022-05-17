@@ -1,0 +1,8 @@
+MatPBRBasic {
+ SpecularMul 1.073
+ AOScale 0.635
+ DielectricReflectance 0.033
+ BCRMap "{169FB78757FAAEC9}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_wheels_BCR.edds" 
+ NormalPower 1.305
+ NMOMap "{2E470C158E8DFC57}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_wheels_NMO.edds" 
+}

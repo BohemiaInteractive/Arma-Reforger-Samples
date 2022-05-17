@@ -1,0 +1,17 @@
+Projectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/Ammo_545x39_Ball_7N6.et" {
+ ID "526D0E8692607B9F"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{7C7B05A4A4637553}Sounds/Arsenal/_SharedData/BulletHits/BulletHits_modded.acp"
+    }
+   }
+  }
+ }
+ coords 1216.793 51.001 1326.174
+ SpawnAsCartridge 1
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{1317D703422E0F4F}Assets/Weapons/Ammo/Bullets/ModdedBullet/Orb2.xob"
+ CartridgeModel "{D8CED69DEFA8B3B9}Assets/Weapons/Ammo/Bullets/545x39/Cartridge_545x39.xob"
+}

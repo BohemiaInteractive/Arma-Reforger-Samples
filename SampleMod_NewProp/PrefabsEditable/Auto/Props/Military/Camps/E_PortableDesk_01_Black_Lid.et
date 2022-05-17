@@ -1,0 +1,33 @@
+GenericEntity : "{3118A554CF13813D}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Lid.et" {
+ ID "55BCC8E35BF54427"
+ components {
+  SCR_EditableEntityComponent "{592C963BEB409C62}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Black Rugged Desk Lid"
+    m_Image "{351F6B9C316DA2E4}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Black_Lid.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{592C963BEB403D9E}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{592C963BEB4039FE}" {
+     m_iParentID -1
+     m_Mesh "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 3.295 3.425 -2.559
+}

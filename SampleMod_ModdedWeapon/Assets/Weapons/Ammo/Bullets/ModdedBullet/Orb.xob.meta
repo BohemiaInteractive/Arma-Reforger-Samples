@@ -1,0 +1,28 @@
+MetaFileClass {
+ Name "{26B0DFBDA9291C06}Assets/Weapons/Ammo/Orb.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "Orb.fbx"
+   MaterialAssigns {
+    MaterialAssignClass "{5110F020D77037D4}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{9277A336E18F1298}Assets/Weapons/Ammo/Data/Orb.emat"
+    }
+   }
+   Common TXOCommonClass "{520AE0474C58142C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{520AE0474C5815AC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{520AE0474C5815F8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{520AE0474C581524}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

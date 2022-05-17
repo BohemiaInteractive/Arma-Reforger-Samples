@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F6339ED24FA7FB01}Assets/Weapons/Magazines/SampleWeapon_01/Data/Bullets.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

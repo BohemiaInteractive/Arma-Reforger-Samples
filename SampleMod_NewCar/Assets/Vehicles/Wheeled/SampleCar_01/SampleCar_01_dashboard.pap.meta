@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{AAAC40105001092F}Assets/Vehicles/Wheeled/SampleCar_01_dashboard.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

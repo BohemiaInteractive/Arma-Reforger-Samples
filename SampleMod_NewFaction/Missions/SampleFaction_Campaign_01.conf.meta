@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{A809C1A9AC62E272}Missions/SampleFaction_Campaign_01.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

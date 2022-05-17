@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{13E0B66886AC6B12}Prefabs/Vehicles/Wheeled/Ural4320/Lights/SampleCar_01_ES_Front_Indicator_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

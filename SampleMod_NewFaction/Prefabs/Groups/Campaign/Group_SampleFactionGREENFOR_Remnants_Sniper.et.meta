@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{6BF50F9E28546F36}Prefabs/Groups/Campaign/Group_SampleFactionGREENFOR_Remnants_Sniper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

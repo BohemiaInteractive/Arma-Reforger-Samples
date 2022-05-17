@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{7A5D78E3381DF66D}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Horn.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

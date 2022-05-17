@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{18E4A0EE45C47165}Prefabs/Characters/OPFOR/USSR_Army/Character_SampleWeapon.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

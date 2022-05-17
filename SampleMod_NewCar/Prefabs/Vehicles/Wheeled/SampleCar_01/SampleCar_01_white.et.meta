@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{EA4402E038B96F6C}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

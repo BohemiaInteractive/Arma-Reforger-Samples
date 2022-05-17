@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C891F7344300791B}UI/Textures/EditorPreviews/Groups/OPFOR/Group_SampleFactionREDFOR_LightFireTeam.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

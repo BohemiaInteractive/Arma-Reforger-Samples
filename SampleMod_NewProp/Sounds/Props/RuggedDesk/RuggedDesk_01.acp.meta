@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{DE134251C26FD1EA}Sounds/Props/RuggedDesk/RuggedDesk_01.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

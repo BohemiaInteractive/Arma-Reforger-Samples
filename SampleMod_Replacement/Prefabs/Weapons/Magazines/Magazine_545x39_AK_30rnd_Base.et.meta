@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_AK74_30rnd.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

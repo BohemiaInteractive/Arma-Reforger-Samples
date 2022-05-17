@@ -1,0 +1,22 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ Emissive 0.502 0.376 0 1
+ EmissiveLV 5.978
+ EmissiveAbsoluteLV 0
+ CastShadow 0
+ SurfaceProperties "{7898C33735EFBBB0}Common/Materials/Game/Core/default.gamemat"
+ SpecularMul 1.717
+ RoughnessScale 0.708
+ MetalnessScale 1.76
+ AOScale 3.476
+ DielectricReflectance 0.039
+ CavityFromAO 0.064
+ EmissiveMap "{A52A1B7C080CF34E}Common/Textures/GlowEdges_CO.edds" nofilter noresize 
+ BCRMap "{F51FE416FE8A070C}Common/Textures/metrics_BCR.edds" 
+ NormalPower 4
+ NMOMap "{3F131D394091DDA3}Assets/_SharedData/Plastic/ST_TarpaulinCanvas_NMO.edds" 
+ GlobalMapsUVTransform MatUVTransform "{5174C147CC2C5839}" {
+  TilingU 0.1
+  TilingV 0.1
+ }
+}

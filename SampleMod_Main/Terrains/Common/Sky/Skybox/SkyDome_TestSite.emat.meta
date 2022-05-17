@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{79564D37798387D0}Terrains/Common/Sky/SkyBox/SkyDome_EnJam2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

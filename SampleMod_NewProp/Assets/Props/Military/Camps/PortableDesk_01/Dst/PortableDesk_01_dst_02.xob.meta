@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{95A40A1DC43B3C14}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_dst_02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{55CEAE5A915A8CB0}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{453947F3D7B3C60C}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Geom1 {
+     LayerPreset "PropView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Geom2 {
+     LayerPreset "PropView"
+     SurfaceProperties {
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{55CEAE5A8E5FA89C}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{55CEAE5A8E5FAF60}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{55CEAE5A8E5FAFB6}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{55CEAE5A8E5FAF89}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

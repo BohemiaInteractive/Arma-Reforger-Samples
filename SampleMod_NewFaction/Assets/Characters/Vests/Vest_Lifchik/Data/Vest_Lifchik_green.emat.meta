@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3EB379DE82848EC6}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_green.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

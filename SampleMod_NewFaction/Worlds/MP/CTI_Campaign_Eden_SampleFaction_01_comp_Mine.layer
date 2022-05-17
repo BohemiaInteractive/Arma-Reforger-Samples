@@ -1,0 +1,5 @@
+SCR_PrefabDeleterEntity {
+ coords 10629.566 143.871 2251.74
+ angleY 5.859
+ m_ResourceToDelete "{6761B2CC21C9C7CD}PrefabLibrary/Rocks/Granite/Granite_Cluster_06.et"
+}

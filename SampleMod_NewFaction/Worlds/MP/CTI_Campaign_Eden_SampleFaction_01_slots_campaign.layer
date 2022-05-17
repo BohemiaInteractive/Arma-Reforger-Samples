@@ -1,0 +1,2708 @@
+$grp GenericEntity {
+ CampaignSlots_Airfield {
+  coords 4889.263 28.597 12098.878
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Airfield_HQ {
+     coords -5.248 -0.505 -91.646
+     angleY -175.27
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.148 0
+       angleX 3.265
+       angleZ 1.251
+      }
+     }
+    }
+    Airfield_Fuel {
+     coords 18.612 -1.215 -79.588
+     angleY -162.859
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.099 0
+       angleX 0.999
+       angleZ 2.28
+      }
+     }
+    }
+    Airfield_Supply {
+     coords 14.638 -2.199 -62.046
+     angleY -153.856
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.001 0
+       angleX 2.694
+       angleZ 4.285
+      }
+     }
+    }
+    Airfield_Armory {
+     coords -3.51 -0.105 -142.481
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.035 0
+       angleX -0.507
+       angleZ -1.038
+      }
+     }
+    }
+    Airfield_Repair {
+     coords -18.786 -0.456 -141.152
+     angleY -94.281
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.04 0
+       angleX -1.005
+       angleZ 1.308
+      }
+     }
+    }
+    Airfield_Antenna {
+     coords -1.646 -1.926 -71.541
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.03 0
+       angleX -4.493
+       angleZ -0.823
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_AndresBeacon {
+  coords 6857.864 91.762 8190.438
+  angleY -176.054
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    AndresBeacon_HQ {
+     coords 5.801 -8.681 -9.051
+     angleY -17.58
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.034 0
+       angleX 4.056
+       angleZ -0.23
+      }
+     }
+    }
+    AndresBeacon_Antenna {
+     coords 17.819 -8.266 -20.636
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.304 0
+       angleX 3.053
+       angleZ 2.23
+      }
+     }
+    }
+    AndresBeacon_Supply {
+     coords 31.468 -6.438 8.066
+     angleY 59.261
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.103 0
+       angleX 6.717
+       angleZ 5.49
+      }
+     }
+    }
+    AndresBeacon_Armory {
+     coords -10.359 -8.301 -3.756
+     angleY 61.193
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.112 0
+       angleX 0.723
+       angleZ 1.501
+      }
+     }
+    }
+    AndresBeacon_Fuel {
+     coords 53.64 -3.277 18.745
+     angleY -68.536
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.174 0
+       angleX 0.026
+       angleZ -13.474
+      }
+     }
+    }
+    AndresBeacon_Repair {
+     coords 26.727 -8.733 -6.785
+     angleY 97.95
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.208 0
+       angleX 0.616
+       angleZ 7.094
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_BlackLake {
+  coords 9466.952 208.753 2952.312
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    BlackLake_Antenna {
+     coords -8.001 -0.45 13.607
+     angleY 99.822
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.126 0
+       angleX -3.914
+       angleY 24.875
+       angleZ -2.169
+      }
+     }
+    }
+    BlackLake_HQ {
+     coords -11.935 0.401 -2.493
+     angleY 21.846
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.061 0
+       angleX -4.272
+       angleZ -0.527
+      }
+     }
+    }
+    BlackLake_Supply {
+     coords -13.579 1.604 -15.786
+     angleY -179.875
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.003 0
+       angleX 5.289
+       angleZ -0.764
+      }
+     }
+    }
+    BlackLake_Fuel {
+     coords -27.592 5.408 -53.263
+     angleY 49.965
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.096 0
+       angleX -2.707
+       angleZ -7.147
+      }
+     }
+    }
+    BlackLake_Armory {
+     coords -39.642 1.883 -1.827
+     angleY -121.035
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.038 0
+       angleX 3.345
+       angleZ -0.472
+      }
+     }
+    }
+    BlackLake_Repair {
+     coords -44.325 2.969 -28.859
+     angleY 61.283
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.001 0
+       angleX -0.081
+       angleZ -2.786
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_PennantsPass {
+  coords 8242.315 224.777 2166.506
+  angleY 146.111
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    PennantsPass_Armory {
+     coords 10.741 -3.202 18.836
+     angleY -157.005
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.104 0
+       angleX 9.986
+       angleY 17.69
+       angleZ -1.788
+      }
+     }
+    }
+    PennantsPass_Fuel {
+     coords 43.19 -3.246 -40.604
+     angleY -72.447
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.015 0
+       angleX 1.801
+       angleY -169.458
+       angleZ 1.229
+      }
+     }
+    }
+    PennantsPass_Supply {
+     coords 12.267 -1.546 -41.111
+     angleY 38.982
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.031 0
+       angleX -3.951
+       angleY 131.963
+       angleZ -2.065
+      }
+     }
+    }
+    PennantsPass_Antenna {
+     coords -14.584 -2.315 16.647
+     angleY 98.826
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.323 0
+      }
+     }
+    }
+    PennantsPass_HQ {
+     coords -0.569 -1.652 0.412
+     angleY 143.399
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.015 0.348 0.017
+       angleX -0.004
+       angleY 131.811
+       angleZ -3.662
+      }
+     }
+    }
+    PennantsPass_Repair {
+     coords 11.759 -1.64 -15.663
+     angleY -18.717
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.003 0
+       angleX 0.082
+       angleY 90.701
+       angleZ 0.109
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_GoatBay {
+  coords 6650.474 7.95 3089.504
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    GoatBaySlot_Armory {
+     coords 8.348 1.177 -7.732
+     angleY -111.111
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.074 0
+       angleX -7.413
+       angleZ 0.775
+      }
+     }
+    }
+    GoatBaySlot_Repair {
+     coords -19.651 -2.677 52.626
+     angleY 148.214
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.173 0
+       angleX 3.905
+       angleZ 6.649
+      }
+     }
+    }
+    GoatBaySlot_Fuel {
+     coords 2.282 0.504 7.718
+     angleY 73.422
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.071 0
+       angleX 7.549
+       angleY -7.354
+       angleZ -1.683
+      }
+     }
+    }
+    GoatBaySlot_Supply {
+     coords -1.543 0.189 22.497
+     angleY -122.994
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.144 0
+       angleX -6.983
+       angleZ 6.211
+      }
+     }
+    }
+    GoatBaySlot_HQ {
+     coords -14.391 -2.22 30.548
+     angleY 177.519
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.082 0
+       angleX 1.669
+       angleZ 8.538
+      }
+     }
+    }
+    GoatBaySlot_Antenna {
+     coords -26.168 -3.635 22.635
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.106 0
+       angleX -0.481
+       angleZ -6.133
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_HornbeamValley {
+  coords 5565.063 39.868 8307.724
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    HornbeamValley_Fuel {
+     coords -174.197 -15.914 38.572
+     angleY 8.532
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.075 0
+       angleX -2.929
+       angleZ 7.635
+      }
+     }
+    }
+    HornbeamValley_Repair {
+     coords -219.414 -13.765 59.35
+     angleY 48.368
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.111 0
+       angleX -7.307
+       angleZ -2.898
+      }
+     }
+    }
+    HornbeamValley_HQ {
+     coords -188.145 -14.403 26.704
+     angleY -56.67
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.081 0
+       angleX 6.698
+       angleZ 4.655
+      }
+     }
+    }
+    HornbeamValley_Antenna {
+     coords -214.718 -11.822 30.852
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.091 0
+       angleX -4.93
+       angleZ 2.591
+      }
+     }
+    }
+    HornbeamValley_Armory {
+     coords -195.702 -16.703 70.857
+     angleY -146.304
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.181 0
+       angleX 8.421
+       angleZ -0.668
+      }
+     }
+    }
+    HornbeamValley_Supply {
+     coords -201.542 -12.338 18.229
+     angleY 1.946
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.01 0
+       angleX -2.436
+       angleZ 7.628
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_TillersFind {
+  coords 3783.711 59.782 7005.457
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    TillersFind_HQ {
+     coords 5.866 -0.001 -10.462
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.043 0
+       angleX -0.332
+      }
+     }
+    }
+    TillersFind_Antenna {
+     coords 20.324 -0.001 -0.576
+     angleY -39.25
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.272 0
+       angleX -2.08
+      }
+     }
+    }
+    TillersFind_Armory {
+     coords 33.596 -0.001 12.741
+     angleY -45.12
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.034 0
+       angleX -0.26
+      }
+     }
+    }
+    TillersFind_Supply {
+     coords -5.574 -0.001 1.938
+     angleY 40.324
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
+    TillersFind_Repair {
+     coords -19.052 -0.274 11.238
+     angleY -46.594
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.171 0
+       angleX -3.386
+       angleZ 1.085
+      }
+     }
+    }
+    TillersFind_Fuel {
+     coords 10.86 -0.145 36.375
+     angleY 141.938
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.01 0
+       angleX 5.084
+       angleY -0.546
+       angleZ -0.166
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Shepherds {
+  coords 3301.041 119.757 4430.17
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Shepherds_HQ {
+     coords -11.737 0.27 38.054
+     angleY -107.055
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.049 0
+       angleX -5.513
+       angleZ -0.28
+      }
+     }
+    }
+    Shepherds_Repair {
+     coords 0.177 0.541 6.426
+     angleY -109.585
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.06 0
+       angleX -10.177
+       angleY -24.654
+       angleZ -0.646
+      }
+     }
+    }
+    Shepherds_Fuel {
+     coords -25.837 -2.173 14.909
+     angleY 70.406
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.133 0
+       angleX 7.003
+       angleZ 1.137
+      }
+     }
+    }
+    Shepherds_Armory {
+     coords -19.032 -2.226 -3.521
+     angleY 62.225
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.231 0
+       angleX 6.867
+       angleZ -0.264
+      }
+     }
+    }
+    Shepherds_Supply {
+     coords -17.11 -0.436 52.708
+     angleY -113.34
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.064 0
+       angleX -4.544
+       angleZ 6.418
+      }
+     }
+    }
+    Shepherds_Antenna {
+     coords -7.072 0.301 21.548
+     angleY 170.35
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.026 0
+       angleX -0.64
+       angleZ 8.638
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StPhillipe {
+  coords 4849.073 26.641 10871.397
+  {
+   SCR_SiteSlotEntity SaintPhilip_LivingArea : "{4B1C4BDDF6683101}PrefabsEditable/Slots/Flat/E_SlotFlatMedium.et" {
+    coords -374.582 -25.11 254.402
+    angleY 29.451
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 0.02 0
+      angleX -0.075
+      angleZ -0.017
+     }
+    }
+   }
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    SaintPhilip_Supply {
+     coords -423.545 -25.054 208.14
+     angleY 167.156
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.002 0
+       angleX -0.127
+       angleZ -0.549
+      }
+     }
+    }
+    SaintPhilip_Repair {
+     coords -429.499 -25.016 233.382
+     angleY -94.357
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+       angleX 0.119
+      }
+     }
+    }
+    SaintPhilip_Fuel {
+     coords -453.923 -25.047 205.36
+     angleY 107.709
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.016 0
+       angleX 0.119
+       angleZ -0.239
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StPierre {
+  coords 10152.744 2.532 1530.952
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    SaintPierre_Fuel {
+     coords -23.314 -0.001 -11.097
+     angleY -79.416
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.027 0
+       angleX -0.477
+       angleZ -0.207
+      }
+     }
+    }
+    SaintPierre_Repair {
+     coords -23.072 0.039 15.568
+     angleY -80.466
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.083 0
+       angleX -0.22
+       angleZ -0.935
+      }
+     }
+    }
+    SaintPierre_Supply {
+     coords -94.677 0.332 52.275
+     angleY -165.352
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.019 0
+       angleX -1.693
+       angleZ 0.708
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_MilHospital {
+  coords 3901.6 15.345 8457.88
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    BaseHospital_HQ {
+     coords 35.101 0.413 -1.709
+     angleY -88.135
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.06 0
+       angleX -1.719
+       angleZ 0.678
+      }
+     }
+    }
+    BaseHospital_Armory {
+     coords -15.776 -0.004 -33.003
+     angleY 45.786
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.021 0
+       angleX 0.185
+       angleZ 0.009
+      }
+     }
+    }
+    BaseHospital_Repair {
+     coords -14.924 -0.095 2.132
+     angleY 8.061
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+       angleZ 0.119
+      }
+     }
+    }
+    BaseHospital_Fuel {
+     coords 23.53 -0.582 27.706
+     angleY -83.552
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.151 0
+       angleX -1.321
+       angleZ 1.447
+      }
+     }
+    }
+    BaseHospital_Supply {
+     coords 34.149 0.259 -14.083
+     angleY -83.601
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.026 0
+       angleX -1.673
+       angleZ -1.751
+      }
+     }
+    }
+    BaseHospital_Antenna {
+     coords 6.312 -0.095 -29.19
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.016 0
+       angleX 0.358
+       angleZ -0.119
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Lake {
+  coords 4418.762 57.277 6231.407
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Lake_HQ {
+     coords 21.18 1.498 7.502
+     angleY 175.876
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.039 0
+       angleX -1.467
+       angleZ 2.791
+      }
+     }
+    }
+    Lake_Armory {
+     coords -9.11 -0.047 10.49
+     angleY 152.369
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.029 0
+       angleX -0.557
+       angleZ 2.997
+      }
+     }
+    }
+    Lake_Antenna {
+     coords 6.065 0.554 10.162
+     angleY -6.57
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.123 0
+       angleX 1.798
+       angleZ -3.453
+      }
+     }
+    }
+    Lake_Repair {
+     coords -9.201 -0.384 -27.845
+     angleY 161.542
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.075 0
+       angleX 0.351
+       angleZ 1.43
+      }
+     }
+    }
+    Lake_Fuel {
+     coords 12.585 0.554 -20.888
+     angleY -22.607
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.014 0
+       angleX 0.334
+       angleZ -2.312
+      }
+     }
+    }
+    Lake_Supply {
+     coords -15.617 -0.587 -9.487
+     angleY 93.307
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.086 0
+       angleX 0.911
+       angleZ 0.204
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Kermovan {
+  coords 6422.116 7.044 9635.142
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Kermovan_HQ {
+     coords 35.365 2.113 17.112
+     angleY 88.418
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.043 0
+       angleX -0.63
+       angleY 122.026
+       angleZ 1.856
+      }
+     }
+    }
+    Kermovan_Armory {
+     coords 52.009 2.522 32.576
+     angleY -115.824
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.034 0
+       angleX -0.584
+       angleY -41.858
+       angleZ 1.294
+      }
+     }
+    }
+    Kermovan_Repair {
+     coords 59.152 3.026 18.942
+     angleY 63.392
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.002 0
+       angleX -1.331
+       angleY -36.017
+       angleZ -2.302
+      }
+     }
+    }
+    Kermovan_Fuel {
+     coords 17.13 -0.113 -9.992
+     angleY 16.958
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.303 0
+       angleX 4.071
+       angleZ -1.198
+      }
+     }
+    }
+    Kermovan_Supply {
+     coords 52.056 2.18 5.349
+     angleY -5.327
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.232 0
+       angleX 1.234
+       angleY -145.575
+       angleZ -3.611
+      }
+     }
+    }
+    Kermovan_Antenna {
+     coords 36.289 2.44 31.869
+     angleY -140.875
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.04 0
+       angleX -0.196
+       angleY -179.324
+       angleZ -0.666
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Richemont {
+  coords 4463.785 63.035 4984.193
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Richmond_Fuel {
+     coords 71.752 -0.025 67.827
+     angleY -167.855
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.04 0
+       angleX -0.232
+       angleZ 2.419
+      }
+     }
+    }
+    Richmond_Antenna {
+     coords 77.128 0.28 24.97
+     angleY -90.461
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.206 0
+       angleX -1.551
+       angleZ 3.213
+      }
+     }
+    }
+    Richmond_Supply {
+     coords 74.041 1.241 -6.335
+     angleY -85.08
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.012 0
+       angleX -1.892
+       angleY -0.07
+       angleZ 0.574
+      }
+     }
+    }
+    Richmond_HQ {
+     coords 75.483 1.066 9.471
+     angleY -90.261
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.149 0
+       angleX -2.881
+       angleZ 1.783
+      }
+     }
+    }
+    Richmond_Repair {
+     coords 57.873 0.92 49.021
+     angleY -173.022
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.928 0
+       angleX 1.377
+       angleZ 0.474
+      }
+     }
+    }
+    Richmond_Armory {
+     coords 84.088 -0.168 42.32
+     angleY -87.319
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.322 0
+       angleX -2.103
+       angleZ 0.806
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Lamentin {
+  coords 1273.881 36.929 6057.25
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Lamentin_Supply {
+     coords -187.135 -34.148 -22.583
+     angleY -87.256
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.007 0
+       angleX -0.028
+       angleZ 0.049
+      }
+     }
+    }
+    Lamentin_Fuel {
+     coords -205.344 -34.116 123.165
+     angleY -112.712
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.001 0
+       angleX -0.051
+      }
+     }
+    }
+    Lamentin_Repair {
+     coords -231.535 -34.116 152.208
+     angleY 154.676
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.001 0
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_MaidensBay {
+  coords 5312.448 36.873 10668.739
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    MaidensBay_Fuel {
+     coords -18.305 -2.252 51.969
+     angleY 141.162
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.081 0
+       angleX -0.647
+       angleZ -1.067
+      }
+     }
+    }
+    MaidensBay_Repair {
+     coords -35.353 -2.324 57.287
+     angleY 158.801
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.017 0
+       angleX -0.642
+       angleZ 0.996
+      }
+     }
+    }
+    MaidensBay_Supply {
+     coords -55.734 -2.54 54.288
+     angleY 140.391
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.096 0
+       angleX -0.888
+       angleZ -0.072
+      }
+     }
+    }
+    MaidensBay_HQ {
+     coords -78.274 -2.384 20.426
+     angleY 137.664
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.125 0
+       angleX 0.349
+       angleZ -2.777
+      }
+     }
+    }
+    MaidensBay_Armory {
+     coords -87.424 -2.322 37.538
+     angleY 141.223
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.034 0
+       angleX -0.819
+       angleZ -0.162
+      }
+     }
+    }
+    MaidensBay_Antenna {
+     coords -64.303 -2.717 38.61
+     angleY 137.685
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.173 0
+       angleX -0.538
+       angleZ 0.203
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_SimonsWood {
+  coords 6564.229 82.915 5129.676
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    SimonsWood_HQ {
+     coords 15.123 -0.903 6.178
+     angleY -71.471
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.167 0
+       angleX 0.207
+       angleZ -3.76
+      }
+     }
+    }
+    SimonsWood_Supply {
+     coords 10.342 -1.911 -8.031
+     angleY -67.219
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.089 0
+       angleX 1.547
+       angleZ -3.265
+      }
+     }
+    }
+    SimonsWood_Armory {
+     coords -17.957 -1.477 -15.246
+     angleY 16.163
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.063 0
+       angleX 1.735
+       angleZ 3.383
+      }
+     }
+    }
+    SimonsWood_Fuel {
+     coords 5.492 1.162 37.599
+     angleY -149.855
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.166 0
+       angleX -3.139
+       angleZ -2.904
+      }
+     }
+    }
+    SimonsWood_Antenna {
+     coords 5.806 -2.773 -22.669
+     angleY -160.859
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.007 0
+       angleX -3.212
+       angleZ -3.443
+      }
+     }
+    }
+    SimonsWood_Repair {
+     coords -10.41 2.11 46.015
+     angleY -148.907
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.086 0
+       angleX -3.116
+       angleZ -2.835
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_VilleneuveHill {
+  coords 3476.602 180.906 5825.371
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    BaseVilleneuveHill_Antenna {
+     coords 47.08 0.493 5.217
+     angleY 7.558
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.062 0
+       angleX -2.708
+       angleZ 2.775
+      }
+     }
+    }
+    BaseVilleneuveHill_Armory {
+     coords -15.544 -2.057 -24.681
+     angleY 103.112
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.346 0
+       angleX 8.217
+       angleZ 4.325
+      }
+     }
+    }
+    BaseVilleneuveHill_Fuel {
+     coords 20.704 -1.218 -32.964
+     angleY -158.226
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.262 0
+       angleX -1.769
+       angleZ 0.882
+      }
+     }
+    }
+    BaseVilleneuveHill_HQ {
+     coords 30.538 0.741 -8.633
+     angleY -156.294
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.02 0
+       angleX -5.319
+       angleZ 1.047
+      }
+     }
+    }
+    BaseVilleneuveHill_Repair {
+     coords -2.645 -0.389 -8.056
+     angleY 177.064
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.297 0
+       angleX -2.061
+       angleZ 5.251
+      }
+     }
+    }
+    BaseVilleneuveHill_Supply {
+     coords 15.931 -0.017 -8.593
+     angleY -68.523
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.16 0
+       angleX 1.966
+       angleZ -5.689
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Villeneuve {
+  coords 2867.512 81.498 6467.346
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Villeneuve_Antenna {
+     coords -10.319 -3.191 40.617
+     angleY -136.087
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.021 0
+       angleX 1.815
+       angleZ -1.101
+      }
+     }
+    }
+    Villeneuve_Armory {
+     coords 13.136 -1.623 8.671
+     angleY -32.065
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -2.322 0
+       angleX -0.29
+       angleZ 4.169
+      }
+     }
+    }
+    Villeneuve_Fuel {
+     coords -5.962 0.5 -6.741
+     angleY 140.031
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.999 0
+       angleX -0.974
+       angleZ -7.162
+      }
+     }
+    }
+    Villeneuve_HQ {
+     coords 11.408 -0.54 27.145
+     angleY 146.616
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -3.674 0
+       angleX -1.985
+       angleZ -3.499
+      }
+     }
+    }
+    Villeneuve_Repair {
+     coords -26.292 -1.602 18.584
+     angleY -127.342
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.048 0
+       angleX 6.145
+       angleZ 1.009
+      }
+     }
+    }
+    Villeneuve_Supply {
+     coords -16.35 -1.753 6.923
+     angleY 144.332
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.148 0
+       angleX 0.733
+       angleZ -7.366
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Vernon {
+  coords 9239.469 68.295 2183.241
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Vernon_Antenna {
+     coords -95.215 7.47 95.435
+     angleY -134.504
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.011 0
+       angleX -4.111
+       angleZ -2.807
+      }
+     }
+    }
+    Vernon_Armory {
+     coords -105.666 9.834 112.933
+     angleY 160.667
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.527 0
+       angleX -5.928
+       angleY -4.215
+       angleZ 0.193
+      }
+     }
+    }
+    Vernon_Fuel {
+     coords -108.649 5.245 53.102
+     angleY -14.917
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.026 0
+       angleX 2.683
+       angleZ 0.928
+      }
+     }
+    }
+    Vernon_HQ {
+     coords -115.061 7.542 96.723
+     angleY 149.731
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.168 0
+       angleX -7.991
+       angleZ 0.715
+      }
+     }
+    }
+    Vernon_Repair {
+     coords -91.522 6.069 71.193
+     angleY -135.32
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.076 0
+       angleX -6.273
+       angleZ -2.27
+      }
+     }
+    }
+    Vernon_Supply {
+     coords -119.929 6.447 76.259
+     angleY 167.034
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.069 0
+       angleX -5.175
+       angleZ 0.053
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Tyrone {
+  coords 5011.847 46.671 8958.855
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Tyrone_Antenna {
+     coords -4.085 1.38 -25.015
+     angleY 0.025
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.086 0
+       angleX -6.211
+       angleZ 0.978
+      }
+     }
+    }
+    Tyrone_Armory {
+     coords -13.873 -1.295 -9.508
+     angleY 103.624
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 1.15 0
+       angleX 0.723
+       angleY -1.255
+       angleZ -6.171
+      }
+     }
+    }
+    Tyrone_Fuel {
+     coords 10.258 -0.574 -7.145
+     angleY -49.483
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.061 0
+       angleX 0.041
+       angleY 71.33
+       angleZ 5.075
+      }
+     }
+    }
+    Tyrone_HQ {
+     coords -11.184 -1.841 6.995
+     angleY 77.745
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.228 0
+       angleX -0.115
+       angleY 177.624
+       angleZ -4.263
+      }
+     }
+    }
+    Tyrone_Repair {
+     coords 14.773 0.057 13.959
+     angleY -77.903
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -2.472 0
+       angleX 0.606
+       angleY 0.022
+       angleZ 6.703
+      }
+     }
+    }
+    Tyrone_Supply {
+     coords -5.518 -2.85 25.482
+     angleY 119.258
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.033 0
+       angleX 1.487
+       angleZ -3.978
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Regina {
+  coords 7222.708 138.522 2443.886
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Regina_Antenna {
+     coords 64.272 -1.678 -229.837
+     angleY 84.869
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.088 0
+       angleX 0.679
+       angleZ -0.129
+      }
+     }
+    }
+    Regina_Armory {
+     coords 95.722 -0.31 -253.779
+     angleY -71.849
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.073 0
+       angleX -1.21
+       angleZ 3.099
+      }
+     }
+    }
+    Regina_Fuel {
+     coords 100.876 -0.985 -219.251
+     angleY -117.85
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.175 0
+       angleX -3.102
+       angleZ -1.947
+      }
+     }
+    }
+    Regina_HQ {
+     coords 70.479 0.21 -266.926
+     angleY -9.158
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.113 0
+       angleX -6.218
+       angleZ -1.194
+      }
+     }
+    }
+    Regina_Repair {
+     coords 105.324 -0.963 -235.152
+     angleY -82.672
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.026 0
+       angleX -0.674
+       angleZ 1.083
+      }
+     }
+    }
+    Regina_Supply {
+     coords 82.934 0.339 -264.459
+     angleY -17.356
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.029 0
+       angleX -5.153
+       angleZ 0.407
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Provins {
+  coords 5587.998 96.456 6033.861
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Provins_Antenna {
+     coords -28.806 -7.256 -135.046
+     angleY 11.012
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.007 0
+       angleX 0.087
+       angleZ 0.085
+      }
+     }
+    }
+    Provins_Armory {
+     coords -18.526 -6.367 -98.091
+     angleY -168.514
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.137 0
+       angleX -3.973
+       angleY 2.355
+       angleZ 1.459
+      }
+     }
+    }
+    Provins_Fuel {
+     coords -56.537 -7.206 -112.75
+     angleY 91.892
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.016 0
+       angleX -0.179
+       angleZ -0.119
+      }
+     }
+    }
+    Provins_HQ {
+     coords -13.169 -7.381 -139.077
+     angleY 14.332
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.059 0
+       angleX 0.658
+       angleZ 0.059
+      }
+     }
+    }
+    Provins_Repair {
+     coords -59.32 -7.273 -132.124
+     angleY 87.961
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.023 0
+       angleX -0.987
+       angleZ 1.114
+      }
+     }
+    }
+    Provins_Supply {
+     coords 1.038 -7.157 -143.536
+     angleY 8.219
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.247 0
+       angleX -0.307
+       angleZ -3.265
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Morton {
+  coords 5131.457 21.106 4122.833
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Morton_Antenna {
+     coords -134.521 -18.919 -290.052
+     angleY -56.319
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
+    Morton_HQ {
+     coords -147.436 -18.919 -280.565
+     angleY 33.19
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
+    Morton_Supply {
+     coords -163.103 -18.919 -271.471
+     angleY 33.19
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
+    Morton_Fuel {
+     coords -100.526 -18.919 -298.384
+     angleY -39.225
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.009 0
+       angleX 0.406
+       angleZ 0.071
+      }
+     }
+    }
+    Morton_Repair {
+     coords -179.729 -18.919 -261.616
+     angleY 31.573
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.001 0
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Montignac {
+  coords 4797.691 168.025 7021.4
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Montignac_Antenna {
+     coords 274.007 8.253 -61.882
+     angleY 136.462
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.016 0
+       angleX -3.631
+       angleZ -0.632
+      }
+     }
+    }
+    Montignac_Armory {
+     coords 319.387 8.495 -29.934
+     angleY -137.606
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.084 0
+       angleX 0.941
+       angleY 175.377
+       angleZ -4.721
+      }
+     }
+    }
+    Montignac_Fuel {
+     coords 323.653 4.671 -80.93
+     angleY 37.986
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.326 0
+       angleX 3.273
+       angleZ 0.315
+      }
+     }
+    }
+    Montignac_HQ {
+     coords 308.763 8.438 -42.354
+     angleY -135.933
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.095 0
+       angleX -1.194
+       angleZ -4.678
+      }
+     }
+    }
+    Montignac_Repair {
+     coords 343.713 3.998 -89.442
+     angleY -11.411
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.126 0
+       angleX 2.06
+       angleZ 4.54
+      }
+     }
+    }
+    Montignac_Supply {
+     coords 284.491 8.237 -51.018
+     angleY 37.937
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.043 0
+       angleX 1
+       angleZ 3.858
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Mine {
+  coords 8781.147 197.141 3908.45
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    MineSlotAntenna {
+     coords 20.384 1.065 9.262
+     angleY -104.265
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.018 0
+       angleX -3.227
+       angleY 104.265
+       angleZ -3.914
+      }
+     }
+    }
+    MineSlotArmory {
+     coords -9.388 -0.199 -6.159
+     angleY 90.447
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.048 0
+       angleX -0.569
+       angleY -90.447
+       angleZ 1.465
+      }
+     }
+    }
+    MineSlotFuel {
+     coords 6.852 2.887 73.515
+     angleY -170.302
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.283 0
+       angleX -6.215
+       angleZ -2.902
+      }
+     }
+    }
+    MineSlotHQ {
+     coords 11.317 -0.547 -12.973
+     angleY -93.752
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.047 0
+       angleX 0.358
+       angleY -162.727
+       angleZ -0.002
+      }
+     }
+    }
+    MineSlotRepair {
+     coords 12.454 1.127 25.432
+     angleY -138.825
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.35 0
+       angleX 1.177
+       angleY -148.13
+       angleZ 0.212
+      }
+     }
+    }
+    MineSlotSupply {
+     coords -9.186 2.141 61.475
+     angleY 85.508
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.174 0
+       angleX 2.832
+       angleY 150.83
+       angleZ 1.097
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Meaux {
+  coords 4538.375 14.779 9454.654
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Meaux_Antenna {
+     coords -13 5.322 348.203
+     angleY 178.577
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.055 0
+       angleX 4.391
+       angleZ 1.988
+      }
+     }
+    }
+    Meaux_Armory {
+     coords -59.436 4.215 307.739
+     angleY 2.31
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.008 0
+       angleX 0.282
+       angleY 0.024
+       angleZ -4.903
+      }
+     }
+    }
+    Meaux_Fuel {
+     coords 12.398 6.069 347.612
+     angleY -88.493
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.054 0
+       angleX -1.333
+       angleZ 0.342
+      }
+     }
+    }
+    Meaux_HQ {
+     coords -27.057 6.221 314.767
+     angleY -10.384
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.045 0
+       angleX -0.574
+       angleZ -0.776
+      }
+     }
+    }
+    Meaux_Repair {
+     coords 6.486 6.467 323.301
+     angleY -0.171
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.054 0
+       angleX -1.146
+       angleZ -0.509
+      }
+     }
+    }
+    Meaux_Supply {
+     coords -12.246 6.283 317.977
+     angleY -11.854
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.027 0
+       angleX 0.273
+       angleZ -0.423
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Levie {
+  coords 7445.582 130.762 4828.078
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Levie_Antenna {
+     coords 46.764 2.129 -29.012
+     angleY -10.406
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.379 0
+       angleX -9.033
+       angleZ 1.228
+      }
+     }
+    }
+    Levie_Armory {
+     coords 28.952 2.361 -28.792
+     angleY -0.758
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.27 0
+       angleX -7.666
+       angleZ -0.147
+      }
+     }
+    }
+    Levie_Fuel {
+     coords 53.08 0.634 -8.188
+     angleY -122.694
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.041 0
+       angleX 1.85
+       angleZ 1.69
+      }
+     }
+    }
+    Levie_HQ {
+     coords 15.98 1.049 -12.769
+     angleY 94.712
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.353 0
+       angleX 2.51
+       angleZ -3.289
+      }
+     }
+    }
+    Levie_Repair {
+     coords 36.294 -1.045 7.08
+     angleY 170.992
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.409 0
+       angleX 6.758
+       angleZ -3.259
+      }
+     }
+    }
+    Levie_Supply {
+     coords 63.405 1.395 -20.757
+     angleY -104.139
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.151 0
+       angleX 0.821
+       angleZ 5.589
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_LeMoule {
+  coords 2543.349 91.958 5382.63
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    LeMoule_Antenna {
+     coords -101.982 10.16 38.105
+     angleY 81.918
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.032 0
+       angleX -5.587
+       angleZ 7.275
+      }
+     }
+    }
+    LeMoule_Armory {
+     coords -82.005 7.706 34.115
+     angleY 69.837
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.033 0
+       angleX -2.25
+       angleZ 7.682
+      }
+     }
+    }
+    LeMoule_Fuel {
+     coords -26.378 5.862 45.033
+     angleY -113.842
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.004 0
+       angleX 1.414
+       angleZ -8.141
+      }
+     }
+    }
+    LeMoule_HQ {
+     coords -86.733 9.756 49
+     angleY 77.122
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.062 0
+       angleX -3.694
+       angleZ 7.825
+      }
+     }
+    }
+    LeMoule_Repair {
+     coords -47.645 6.007 35.789
+     angleY 61.765
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.002 0
+       angleX 1.058
+       angleZ 6.762
+      }
+     }
+    }
+    LeMoule_Supply {
+     coords -68.057 11.158 67.085
+     angleY 174.852
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.196 0
+       angleX -11.32
+       angleZ -3.458
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Laruns {
+  coords 7429.93 113.354 5303.865
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Laruns_Antenna {
+     coords -1.513 0.403 -12.936
+     angleY 29.459
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.089 0
+       angleX -1.986
+       angleZ 1.76
+      }
+     }
+    }
+    Laruns_Armory {
+     coords -36.488 1.866 -31.463
+     angleY 40.603
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.232 0
+       angleX -5.708
+       angleZ 4.313
+      }
+     }
+    }
+    Laruns_Fuel {
+     coords 17.828 -1.5 -13.369
+     angleY -24.212
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.064 0
+       angleX 0.525
+       angleZ 8.738
+      }
+     }
+    }
+    Laruns_HQ {
+     coords -13.695 0.753 -26.951
+     angleY -18.921
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.032 0
+       angleX -0.56
+       angleZ 1.137
+      }
+     }
+    }
+    Laruns_Repair {
+     coords -1.938 0.649 25.869
+     angleY 52.965
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.849 0
+       angleX -3.793
+       angleZ 6.172
+      }
+     }
+    }
+    Laruns_Supply {
+     coords -19.675 0.705 8.681
+     angleY 132.242
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.076 0
+       angleX -3.058
+       angleZ -1.083
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Gravette {
+  coords 4032.076 32.542 7859.115
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Gravette_Antenna {
+     coords -54.156 -2.524 21.438
+     angleY 21.926
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.122 0
+       angleX 4.893
+       angleZ -6.185
+      }
+     }
+    }
+    Gravette_Armory {
+     coords -50.34 -3.253 -3.72
+     angleY -56.846
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.213 0
+       angleX -4.583
+       angleZ -5.65
+      }
+     }
+    }
+    Gravette_Fuel {
+     coords -66.678 -5.681 -5.444
+     angleY 17.8
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.06 0
+       angleX 3.778
+       angleZ -6.376
+      }
+     }
+    }
+    Gravette_HQ {
+     coords -39.651 -1.275 17.152
+     angleY -121.984
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.131 0
+       angleX -3.721
+       angleY -0.091
+       angleZ -1.133
+      }
+     }
+    }
+    Gravette_Repair {
+     coords -81.92 -5.221 39.447
+     angleY 129.979
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.102 0
+       angleX 5.67
+       angleZ 5.355
+      }
+     }
+    }
+    Gravette_Supply {
+     coords -26.19 -0.507 24.172
+     angleY -55.326
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.006 0
+       angleX -1.721
+       angleZ -3.075
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Figari {
+  coords 5328.881 66.291 5328.055
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Figari_Antenna {
+     coords -187.011 -13.614 167.225
+     angleY 43.427
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.017 0
+       angleX -1.522
+       angleZ -1.854
+      }
+     }
+    }
+    Figari_Armory {
+     coords -221.658 -13.026 161.894
+     angleY 110.356
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.178 0
+       angleX -1.777
+       angleY -57.161
+       angleZ -2.499
+      }
+     }
+    }
+    Figari_Fuel {
+     coords -226.848 -11.947 128.043
+     angleY 147.073
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.037 0
+       angleX 0.335
+       angleZ -0.518
+      }
+     }
+    }
+    Figari_HQ {
+     coords -203.743 -13.682 168.961
+     angleY -174.323
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.049 0
+       angleX 2.519
+       angleY -13.423
+       angleZ -0.351
+      }
+     }
+    }
+    Figari_Repair {
+     coords -195.222 -12.381 129.015
+     angleY -139.539
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.288 0
+       angleX 4.119
+       angleZ 3.376
+      }
+     }
+    }
+    Figari_Supply {
+     coords -184.806 -13.166 143.033
+     angleY -56.513
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.064 0
+       angleX -2.109
+       angleZ 0.196
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_EntreDeux {
+  coords 5857.351 216.079 7077.752
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    EntreDeux_Antenna {
+     coords 151.187 0.865 110.064
+     angleY -126.34
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.07 0
+       angleX 2.528
+       angleZ -1.706
+      }
+     }
+    }
+    EntreDeux_Armory {
+     coords 106.794 3.484 81.877
+     angleY 74.241
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.233 0
+       angleX -4.016
+       angleY -171.738
+       angleZ -0.133
+      }
+     }
+    }
+    EntreDeux_Fuel {
+     coords 135.052 1.268 73.765
+     angleY -42.215
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.135 0
+       angleX 5.912
+       angleZ 2.568
+      }
+     }
+    }
+    EntreDeux_HQ {
+     coords 151.604 0.678 94.632
+     angleY -78.404
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.074 0
+       angleX 2.945
+       angleY -0.446
+       angleZ -0.16
+      }
+     }
+    }
+    EntreDeux_Repair {
+     coords 104.487 3.985 101.731
+     angleY 91.542
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.253 0
+       angleX -4.751
+       angleZ 3.243
+      }
+     }
+    }
+    EntreDeux_Supply {
+     coords 142.065 1.386 122.553
+     angleY -136.007
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.036 0
+       angleX 0.881
+       angleZ -2.445
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Duras {
+  coords 8908.401 96.523 2729.387
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Duras_Antenna {
+     coords 19.151 1.668 -32.932
+     angleY -15.209
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.101 0
+       angleX -0.394
+       angleZ -4.216
+      }
+     }
+    }
+    Duras_Armory {
+     coords -22.841 -1.141 10.438
+     angleY 106.716
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.066 0
+       angleX 2.206
+       angleY -179.615
+       angleZ -1.489
+      }
+     }
+    }
+    Duras_Fuel {
+     coords -2.352 -0.558 10.057
+     angleY 155.569
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.055 0
+       angleX 2.795
+       angleY -175.889
+       angleZ -0.373
+      }
+     }
+    }
+    Duras_HQ {
+     coords -9.823 -0.09 -19.225
+     angleY 70.502
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.038 0
+       angleX 4.178
+       angleZ -0.841
+      }
+     }
+    }
+    Duras_Repair {
+     coords 3.028 0.745 -25.837
+     angleY 29.82
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.053 0
+       angleX 1.543
+       angleZ -3.353
+      }
+     }
+    }
+    Duras_Supply {
+     coords -14.767 -0.353 -5.719
+     angleY 67.779
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.04 0
+       angleX 4.035
+       angleZ -1.326
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_Chotain {
+  coords 7095.731 118.629 6006.377
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    Chotain_Antenna {
+     coords -135.108 4.544 77.927
+     angleY 6.935
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.107 0
+       angleX 3.781
+       angleY 0.464
+       angleZ 5.582
+      }
+     }
+    }
+    Chotain_Armory {
+     coords -107.682 2.634 69.089
+     angleY 51.899
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.044 0
+       angleX 0.906
+       angleZ 3.061
+      }
+     }
+    }
+    Chotain_Fuel {
+     coords -153.967 4.622 72.432
+     angleY -121.685
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.93 0
+       angleX 1.874
+       angleY 0.019
+       angleZ -8.293
+      }
+     }
+    }
+    Chotain_HQ {
+     coords -108.577 2.114 52.426
+     angleY -33.891
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.309 0
+       angleX 3.032
+       angleZ -1.097
+      }
+     }
+    }
+    Chotain_Repair {
+     coords -140.374 6.171 93.185
+     angleY -30.082
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.046 0
+       angleX 5.714
+       angleY -95.062
+       angleZ 4.217
+      }
+     }
+    }
+    Chotain_Supply {
+     coords -123.466 2.36 59.67
+     angleY -27.111
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.187 0
+       angleX 4.281
+       angleZ 0.035
+      }
+     }
+    }
+    ChotainHarbor_Fuel {
+     coords 378.035 -110.883 694.13
+     angleY -19.923
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.014 0
+       angleX -0.882
+       angleZ 1.463
+      }
+     }
+    }
+    ChotainHarbor_Repair {
+     coords 432.645 -112.749 758.086
+     angleY -146.56
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.009 0
+       angleX 1.806
+       angleZ -0.133
+      }
+     }
+    }
+    ChotainHarbor_Supply {
+     coords 283.334 -108.927 703.521
+     angleY 100.668
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.033 0
+       angleX -0.164
+       angleZ -0.358
+      }
+     }
+    }
+   }
+  }
+ }
+}

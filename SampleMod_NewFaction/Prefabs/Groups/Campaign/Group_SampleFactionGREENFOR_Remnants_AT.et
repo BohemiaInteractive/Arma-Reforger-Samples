@@ -1,0 +1,6 @@
+SCR_AIGroup : "{8CA69E29BE50FCDE}Prefabs/Groups/Campaign/Group_SampleFactionGREENFOR_Remnants_Base.et" {
+ ID "1"
+ m_aUnitPrefabSlots {
+  "{1F49D0471D559EE1}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_AT.et" "{D0176A06B7A6CD6C}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Rifleman.et"
+ }
+}

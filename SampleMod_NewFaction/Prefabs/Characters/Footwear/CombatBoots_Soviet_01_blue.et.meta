@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3A63855CA00B0486}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_blue.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

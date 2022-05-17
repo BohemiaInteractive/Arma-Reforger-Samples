@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{6AB03E990A8E32CF}Terrains/Common/Sky/Atmosphere/Atmosphere_EnJam2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+ }
+}

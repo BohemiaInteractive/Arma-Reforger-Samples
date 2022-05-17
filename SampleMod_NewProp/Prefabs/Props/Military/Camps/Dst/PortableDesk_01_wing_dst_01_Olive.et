@@ -1,0 +1,15 @@
+GenericEntity : "{A100E1906B9DA07E}Prefabs/Props/Core/PropsPart_Base.et" {
+ ID "2492A7540334DE6C"
+ components {
+  MeshObject "{2492A7540C70C91A}" {
+   Object "{5B652C61750A763F}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_wing_dst_01.xob"
+   Materials {
+    MaterialAssignClass "{594A8876BE3D29FD}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{B99A38534DECBF62}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_olive.emat"
+    }
+   }
+  }
+ }
+ coords 3.556 4.316 3.142
+}

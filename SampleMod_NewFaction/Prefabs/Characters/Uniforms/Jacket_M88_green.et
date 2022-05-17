@@ -1,0 +1,26 @@
+GameEntity : "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{56B8D2BA33036B38}" {
+     SourceMaterial "Jacket_M88_01_Item"
+     AssignedMaterial "{A54EE059255F5C68}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_green_item.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{4DECC7968CBF8253}Prefabs/Characters/Uniforms/Jacket_M88_Wear_green.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{4DECC7968CBF8253}Prefabs/Characters/Uniforms/Jacket_M88_Wear_green.et"
+   ItemModel "{1DF5E9B10D464AD4}Prefabs/Characters/Uniforms/Jacket_M88_item_green.et"
+  }
+ }
+}

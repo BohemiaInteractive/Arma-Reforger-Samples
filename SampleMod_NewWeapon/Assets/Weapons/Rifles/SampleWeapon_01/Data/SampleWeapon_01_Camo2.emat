@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Diffuse 0.314 0.314 0.314 1
+ SpecularMul 1.437
+ AlphaMul 1.049
+ RoughnessScale 1.309
+ MetalnessScale 0.252
+ AOScale 2.5
+ BCRMap "{401E4F6868726C5C}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_02_BCR.edds"
+ NMOMap "{78C6F4FAB1053EC2}Assets/Weapons/Rifles/SampleWeapon_01/Data/MSBS_02_NMO.edds"
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A29559DFB22589EE}Configs/Arsenal/WeaponRackDisplayConfig_SampleMod.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

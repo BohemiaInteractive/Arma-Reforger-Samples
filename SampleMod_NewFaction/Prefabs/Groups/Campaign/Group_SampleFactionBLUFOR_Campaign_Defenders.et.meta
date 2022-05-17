@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{D9DA573E1A9018A7}Prefabs/Groups/Campaign/Group_SampleFactionBLUFOR_Campaign_Defenders.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

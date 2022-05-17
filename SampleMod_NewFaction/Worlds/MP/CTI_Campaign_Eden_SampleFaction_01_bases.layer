@@ -1,0 +1,3824 @@
+$grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSmallBaseEntityFinal.et" {
+ MilitaryBaseAirfield {
+  coords 4884.692 29.274 12006.445
+  m_sBaseName "#AR-Campaign_MapLocation_Airbase"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationAirport"
+  m_sSlotNameHQ "Airfield_HQ"
+  m_sSlotNameSupplies "Airfield_Supply"
+  m_sSlotNameArmory "Airfield_Armory"
+  m_sSlotNameRepair "Airfield_Repair"
+  m_sSlotNameRadioAntenna "Airfield_Antenna"
+  m_iFreqWest 40
+  m_iFreqEast 52
+  m_iBaseID 6
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 19.006 -2.813 29.466
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 23.07 -1.891 12.496
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 1.681 -0.768 -51.53
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -13.061 -1.08 -49.804
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords -20.137 -1.794 -9.599
+   }
+  }
+ }
+ MilitaryBaseLevie {
+  coords 7468.177 168.901 4270.253
+  angleY -78.209
+  m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationLevie_MilitaryBase"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 44
+  m_iBaseID 7
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 42.022 -2.057 -63.768
+    angleY -174.719
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -10.693 -2.057 -59.215
+    angleY 3.024
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 77.505 -2.057 -90.264
+    angleY 95.04
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 8.25 -1.916 -85.966
+    angleY 95.167
+   }
+   $grp SCR_CampaignDeliveryPoint {
+    {
+     components {
+      Hierarchy "{5588D5406A5DD722}" {
+      }
+     }
+     coords -3.949 3.184 -5.277
+     angleY 2.049
+     m_eType RADIO_ANTENNA
+    }
+    {
+     components {
+      Hierarchy "{55929C57549137BB}" {
+      }
+     }
+     coords 40.661 -4.338 -8.601
+     angleY -87.219
+     m_eType BARRACKS
+    }
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -4.468 11.999
+   }
+   $grp SCR_DoorOpenerEntity {
+    {
+     coords -4.618 -4.309 -7.466
+     angleY -0.58
+     m_fRadius 1
+    }
+    {
+     coords 0.449 -3.216 -7.543
+     angleY -0.58
+     m_fRadius 1
+    }
+    {
+     coords 0.285 -0.021 -5.273
+     angleY -0.58
+     m_fRadius 1
+    }
+    {
+     coords 40.667 -3.546 92.749
+     angleY -0.58
+     m_fRadius 1
+    }
+    {
+     coords 7.638 -1.916 -89.152
+     angleY 0.834
+     m_fRadius 1
+    }
+   }
+   SCR_PrefabDeleterEntity {
+    coords -8.244 -2.02 -59.39
+    angleY 5.859
+    m_ResourceToDelete "{A5439DD9F4F5400C}PrefabLibrary/Structures/Industrial/FuelTank_02_green.et"
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 26.832 -4.339 -1.58
+   }
+   $grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+    {
+     coords 5.028 -4.211 -6.8
+     angleY 87.995
+    }
+    {
+     coords -4.63 -4.346 5.795
+     angleY -93.208
+    }
+   }
+   $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+    {
+     coords -7.886 -3.499 -14.633
+     angleY 0.259
+    }
+    {
+     coords -4.563 -3.499 -14.648
+     angleY 0.259
+    }
+    {
+     coords -1.189 -3.499 -14.664
+     angleY 0.259
+    }
+    {
+     coords 2.109 -3.499 -14.678
+     angleY 0.259
+    }
+    {
+     coords 9.29 -4.338 3.912
+     angleY 86.709
+    }
+   }
+   GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_01_long_base.et" {
+    coords -5.196 -4.417 8.196
+    angleY 78.209
+   }
+   GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
+    coords -5.651 -4.359 5.692
+    angleY -92.579
+   }
+   $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+    {
+     coords 5.043 -4.209 -4.404
+     angleY 88.518
+    }
+    {
+     coords -2.583 -4.209 -7.274
+     angleY 179.503
+    }
+    {
+     coords 0.204 -4.209 -7.249
+     angleY 179.503
+    }
+    {
+     coords 3.024 -4.209 -7.225
+     angleY 179.503
+    }
+    {
+     coords 4.912 -4.209 0.692
+     angleY 88.518
+    }
+    {
+     coords 4.839 -4.209 3.465
+     angleY 88.518
+    }
+    {
+     coords 2.913 -4.209 5.589
+     angleY 179.503
+    }
+    {
+     coords 0.093 -4.209 5.565
+     angleY 179.503
+    }
+    {
+     coords -2.694 -4.209 5.539
+     angleY 179.503
+    }
+   }
+   GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+    coords -8.533 -4.338 -10.322
+    angleY 93.754
+   }
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+    components {
+     SCR_CampaignFlagComponent "{58F0B74AC4B248DF}" {
+      m_iBaseSearchRange 100
+     }
+    }
+    coords 3.387 3.593 0.676
+    angleY -167.756
+   }
+  }
+ }
+ MilitaryBaseVilleneuf {
+  coords 3507.2 181.955 5816.927
+  m_sBaseName "#AR-Campaign_MapLocation_Villeneuf_Base"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf_Base-UC"
+  m_sMapLocationName "LocationMilitaryBase_AA"
+  m_sSlotNameHQ "BaseVilleneuveHill_HQ"
+  m_sSlotNameSupplies "BaseVilleneuveHill_Supply"
+  m_sSlotNameArmory "BaseVilleneuveHill_Armory"
+  m_sSlotNameRepair "BaseVilleneuveHill_Repair"
+  m_sSlotNameRadioAntenna "BaseVilleneuveHill_Antenna"
+  m_iFreqWest 60
+  m_iFreqEast 44
+  m_iBaseID 8
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -14.427 -1.077 -0.224
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -9.883 -2.266 -24.521
+    angleY -102.404
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -46.316 -2.865 -16.38
+    angleY -86.968
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -33.152 -1.423 0.493
+    angleY -4.606
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 0.154 12
+   }
+  }
+ }
+ MilitaryHospital {
+  coords 3936.191 15.916 8455.892
+  m_sBaseName "#AR-MapLocation_MilitaryHospital"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationTyrone_MilitaryHospital"
+  m_sSlotNameHQ "BaseHospital_HQ"
+  m_sSlotNameSupplies "BaseHospital_Supply"
+  m_sSlotNameArmory "BaseHospital_Armory"
+  m_sSlotNameRepair "BaseHospital_Repair"
+  m_sSlotNameRadioAntenna "BaseHospital_Antenna"
+  m_iFreqEast 46
+  m_iBaseID 9
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 2.681 -0.659 -9.599
+    angleY -32.578
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -11.114 -1.161 29.935
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -50.401 0 -30.87
+    angleY -84.96
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -49.483 -0.286 3.948
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -0.375 12
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords -15.868 -0.594 0
+   }
+  }
+ }
+ TownBaseChotain {
+  coords 6987.958 120.754 6056.035
+  angleY -124.762
+  m_sBaseName "#AR-MapLocation_Chotain"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Chotain-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationChotain"
+  m_sSlotNameHQ "Chotain_HQ"
+  m_sSlotNameSupplies "Chotain_Supply"
+  m_sSlotNameArmory "Chotain_Armory"
+  m_sSlotNameRepair "Chotain_Repair"
+  m_sSlotNameRadioAntenna "Chotain_Antenna"
+  m_iFreqWest 64
+  m_iFreqEast 54
+  m_iBaseID 10
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 17.173 0.233 7.182
+    angleY 16.104
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 44.848 3.333 24.803
+    angleY -91.295
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 16.062 0.543 -11.359
+    angleY -10.044
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 53.683 3.999 2.301
+    angleY 73.885
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 11.98 -0.27 2.448
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords -0.003 0.001 0.006
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords -0.003 0.001 0.006
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 23.219 0.903 -1.777
+    angleY 124.762
+   }
+  }
+ }
+ TownBaseDuras {
+  coords 8898.725 96.553 2710.525
+  angleY -10.699
+  m_sBaseName "#AR-MapLocation_Durras"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationDurras"
+  m_sSlotNameHQ "Duras_HQ"
+  m_sSlotNameSupplies "Duras_Supply"
+  m_sSlotNameArmory "Duras_Armory"
+  m_sSlotNameRepair "Duras_Repair"
+  m_sSlotNameRadioAntenna "Duras_Antenna"
+  m_iFreqWest 60
+  m_iFreqEast 44
+  m_iBaseID 11
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -2.477 -0.406 14.182
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 12.339 -0.619 27.27
+    angleY -16.555
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -7.614 -1.18 31.364
+    angleY -179.925
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 10.466 0.655 -9.401
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 7.759 0.036 7.778
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 9.641 0.181 4.633
+    angleY 10.699
+   }
+  }
+ }
+ TownBaseEntre_Deux {
+  coords 6008.774 217.279 7172.529
+  angleY -69.9
+  m_sBaseName "#AR-MapLocation_EntreDeux"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+  m_sMapLocationName "LocationEntreDeux"
+  m_sSlotNameHQ "EntreDeux_HQ"
+  m_sSlotNameSupplies "EntreDeux_Supply"
+  m_sSlotNameArmory "EntreDeux_Armory"
+  m_sSlotNameRepair "EntreDeux_Repair"
+  m_sSlotNameRadioAntenna "EntreDeux_Antenna"
+  m_iFreqWest 36
+  m_iFreqEast 40
+  m_iBaseID 12
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 22.648 0.769 18.378
+    angleY -75.786
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -25.107 0.653 8.478
+    angleY 29.66
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -28.139 3.313 36.956
+    angleY -125.96
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -9.262 3.781 46.036
+    angleY -77.509
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 0.294 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 4.22 0.116 9.667
+    angleY 69.9
+   }
+  }
+ }
+ TownBaseFigari {
+  coords 5125.89 52.666 5495.677
+  m_sBaseName "#AR-MapLocation_Figari"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+  m_sMapLocationName "LocationFigari"
+  m_sSlotNameHQ "Figari_HQ"
+  m_sSlotNameSupplies "Figari_Supply"
+  m_sSlotNameArmory "Figari_Armory"
+  m_sSlotNameRepair "Figari_Repair"
+  m_sSlotNameRadioAntenna "Figari_Antenna"
+  m_iFreqWest 56
+  m_iFreqEast 50
+  m_iBaseID 13
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 17.442 0.5 -21.369
+    angleY 47
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -23.604 2.271 -39.399
+    angleY 35.287
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -18.375 1.864 -5.798
+    angleY -102.018
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 6.543 1.271 -36.321
+    angleY -134.388
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -0.56 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 2.479 0.267 -14.549
+   }
+  }
+ }
+ TownBaseLaruns {
+  coords 7416.537 115.789 5276.968
+  angleY 161.96
+  m_sBaseName "#AR-MapLocation_Laruns"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationLaruns"
+  m_sSlotNameHQ "Laruns_HQ"
+  m_sSlotNameSupplies "Laruns_Supply"
+  m_sSlotNameArmory "Laruns_Armory"
+  m_sSlotNameRepair "Laruns_Repair"
+  m_sSlotNameRadioAntenna "Laruns_Antenna"
+  m_iFreqWest 52
+  m_iFreqEast 42
+  m_iBaseID 14
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -5.807 -1.767 -35.521
+    angleY 88.156
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -34.499 -4.639 -2.701
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 23.239 3.277 -2.905
+    angleY -56.537
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -27.612 -1.766 -46.523
+    angleY -107.549
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.001 -1.819 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -0.64 -1.735 -14.726
+    angleY -161.96
+   }
+  }
+ }
+ TownBaseLe_Moule {
+  coords 2456.641 103.026 5431.745
+  angleY 169.936
+  m_sBaseName "#AR-MapLocation_LeMoule"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+  m_sMapLocationName "LocationLeMoule"
+  m_sSlotNameHQ "LeMoule_HQ"
+  m_sSlotNameSupplies "LeMoule_Supply"
+  m_sSlotNameArmory "LeMoule_Armory"
+  m_sSlotNameRepair "LeMoule_Repair"
+  m_sSlotNameRadioAntenna "LeMoule_Antenna"
+  m_iFreqWest 44
+  m_iBaseID 15
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -19.558 0.15 -15.295
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -58.737 -5.109 14.285
+    angleY -96.004
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -2.477 -2.664 15.146
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -35.916 -5.09 20.139
+    angleY 93.221
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 6.31 -1.838 8.303
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -14.778 -2.489 3.183
+    angleY -169.936
+   }
+  }
+ }
+ TownBaseLevie {
+  coords 7460.785 132.32 4816.134
+  angleY 91.197
+  m_sBaseName "#AR-MapLocation_Levie"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationLevie"
+  m_sSlotNameHQ "Levie_HQ"
+  m_sSlotNameSupplies "Levie_Supply"
+  m_sSlotNameArmory "Levie_Armory"
+  m_sSlotNameRepair "Levie_Repair"
+  m_sSlotNameRadioAntenna "Levie_Antenna"
+  m_iFreqWest 36
+  m_iFreqEast 40
+  m_iBaseID 16
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 7.529 -0.174 48.178
+    angleY -102.401
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -4.897 -0.893 37.163
+    angleY 75.314
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 16.241 0.762 13.81
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -19.295 -2.539 20.432
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -0.926 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -0.205 -0.588 10.454
+    angleY -91.197
+   }
+  }
+ }
+ TownBaseMeaux {
+  coords 4511.358 20.993 9770.459
+  angleY -94.777
+  m_sBaseName "#AR-MapLocation_Meaux"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Meaux-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationMeaux"
+  m_sSlotNameHQ "Meaux_HQ"
+  m_sSlotNameSupplies "Meaux_Supply"
+  m_sSlotNameArmory "Meaux_Armory"
+  m_sSlotNameRepair "Meaux_Repair"
+  m_sSlotNameRadioAntenna "Meaux_Antenna"
+  m_iFreqWest 64
+  m_iFreqEast 54
+  m_iBaseID 17
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 0.788 0.069 -15.068
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 28.504 -0.167 -41.94
+    angleY 11.706
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -5.321 -2.088 33.015
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 5.369 0.238 -33.918
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -0.459 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 9.005 0.026 -6.998
+    angleY 94.777
+   }
+  }
+ }
+ TownBaseMontignac {
+  coords 5107.138 176.115 6978.783
+  angleY 55.095
+  m_sBaseName "#AR-MapLocation_Montignac"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationMontignac"
+  m_sSlotNameHQ "Montignac_HQ"
+  m_sSlotNameSupplies "Montignac_Supply"
+  m_sSlotNameArmory "Montignac_Armory"
+  m_sSlotNameRepair "Montignac_Repair"
+  m_sSlotNameRadioAntenna "Montignac_Antenna"
+  m_iFreqWest 52
+  m_iFreqEast 42
+  m_iBaseID 18
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -7.861 0.613 -25.235
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 37.252 -4.773 -8.84
+    angleY -86.858
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -4.705 0.963 15.224
+    angleY -173.443
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 58.13 -4.826 2.155
+    angleY 70.429
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 0.132 12.001
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    SphereRadius 250
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -9.207 0.692 3.404
+    angleY -55.095
+   }
+  }
+ }
+ TownBaseProvins {
+  coords 5573.917 89.33 5895.074
+  angleY -65.438
+  m_sBaseName "#AR-MapLocation_Provins"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+  m_sMapLocationName "LocationProvins"
+  m_sSlotNameHQ "Provins_HQ"
+  m_sSlotNameSupplies "Provins_Supply"
+  m_sSlotNameArmory "Provins_Armory"
+  m_sSlotNameRepair "Provins_Repair"
+  m_sSlotNameRadioAntenna "Provins_Antenna"
+  m_iFreqEast 46
+  m_iBaseID 19
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 1.978 0.635 -15.738
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 6.725 -0.468 48.398
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 35.347 1.22 20.943
+    angleY 81.096
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -11.75 -0.893 41.916
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 5.473 -0.093 12.316
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 9.245 -0.163 2.65
+    angleY 65.438
+   }
+  }
+ }
+ TownBaseRegina {
+  coords 7290.716 138.744 2175.788
+  angleY -102.454
+  m_sBaseName "#AR-MapLocation_Regina"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationRegina"
+  m_sSlotNameHQ "Regina_HQ"
+  m_sSlotNameSupplies "Regina_Supply"
+  m_sSlotNameArmory "Regina_Armory"
+  m_sSlotNameRepair "Regina_Repair"
+  m_sSlotNameRadioAntenna "Regina_Antenna"
+  m_iFreqWest 56
+  m_iFreqEast 50
+  m_iBaseID 20
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 0.644 0.041 -15.171
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 40.629 -1.076 -42.705
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 7.951 -0.531 -30.3
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 23.752 -1.169 -44.146
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 -0.269 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 11.473 -0.112 -8.645
+    angleY 102.454
+   }
+  }
+ }
+ TownBaseTyrone {
+  coords 5000.736 44.956 8969.061
+  angleY 63.956
+  m_sBaseName "#AR-MapLocation_Tyrone"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationTyrone"
+  m_sSlotNameHQ "Tyrone_HQ"
+  m_sSlotNameSupplies "Tyrone_Supply"
+  m_sSlotNameArmory "Tyrone_Armory"
+  m_sSlotNameRepair "Tyrone_Repair"
+  m_sSlotNameRadioAntenna "Tyrone_Antenna"
+  m_iFreqWest 60
+  m_iFreqEast 44
+  m_iBaseID 21
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -10.99 -1.172 12.282
+    angleY -144.2
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 17.017 0.769 14.846
+    angleY 65.491
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 16.502 0.424 -11.089
+    angleX 1.574
+    angleY -175.609
+    angleZ -0.852
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 6.604 2.03 24.424
+    angleY -61.33
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 3.05 0.498 17.353
+    angleY 177.624
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords -11.374 -0.005 9.416
+    angleY -144.2
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 10.508 0.754 8.123
+    angleY -144.2
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -0.014 -0.335 9.646
+    angleY -63.956
+   }
+  }
+ }
+ TownBaseVernon {
+  coords 9124.488 76.184 2279.959
+  angleY -78.508
+  m_sBaseName "#AR-MapLocation_Vernon"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationVernon"
+  m_sSlotNameHQ "Vernon_HQ"
+  m_sSlotNameSupplies "Vernon_Supply"
+  m_sSlotNameArmory "Vernon_Armory"
+  m_sSlotNameRepair "Vernon_Repair"
+  m_sSlotNameRadioAntenna "Vernon_Antenna"
+  m_iFreqWest 40
+  m_iFreqEast 52
+  m_iBaseID 22
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    components {
+     Hierarchy "{5474D9D097CF79AF}" {
+     }
+    }
+    coords -21.626 -0.044 0.196
+    angleY -126.572
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -40.447 -3.896 -16.088
+    angleY 112.019
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+     }
+    }
+    coords 22.581 1.619 2.092
+    angleY 112.019
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+     }
+    }
+    coords -20.13 -1.631 -28.64
+    angleY 112.019
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords -5.033 -0.148 9.375
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    components {
+     Hierarchy "{52D8C7C341E5515C}" {
+     }
+    }
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords -10.602 -1.372 -12.991
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -5.898 -1.199 -9.092
+    angleY 78.508
+   }
+  }
+ }
+ TownBaseVileneuf {
+  coords 2879.096 83.012 6493.427
+  angleY -20.171
+  m_sBaseName "#AR-MapLocation_Villeneuf"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationVilleneuf"
+  m_sSlotNameHQ "Villeneuve_HQ"
+  m_sSlotNameSupplies "Villeneuve_Supply"
+  m_sSlotNameArmory "Villeneuve_Armory"
+  m_sSlotNameRepair "Villeneuve_Repair"
+  m_sSlotNameRadioAntenna "Villeneuve_Antenna"
+  m_iFreqWest 36
+  m_iFreqEast 40
+  m_iBaseID 23
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -32.827 -3.262 -8.452
+    angleY -11.814
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -25.537 -3.181 -24.26
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -8.046 -4.272 -13.775
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -38.104 -3.151 5.515
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords -15.185 -4.772 5.462
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0.692 -4.723 0.976
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords -1.332 0 7.177
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -16.783 -4.757 -7.252
+    angleY 20.171
+   }
+  }
+ }
+ TownBaseGravette {
+  coords 3992.149 31.97 7876.639
+  angleY -40.15
+  m_sBaseName "#AR-MapLocation_Gravette"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationGravette"
+  m_sSlotNameHQ "Gravette_HQ"
+  m_sSlotNameSupplies "Gravette_Supply"
+  m_sSlotNameArmory "Gravette_Armory"
+  m_sSlotNameRepair "Gravette_Repair"
+  m_sSlotNameRadioAntenna "Gravette_Antenna"
+  m_iBaseID 3
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 14.312 -1.736 -6.709
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -35.392 -4.495 -0.528
+    angleY -54.088
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -21.219 -2.616 -9.593
+    angleY -92.908
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -18.059 -4.005 44.253
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 2.689 -0.761 12.196
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 7.905 -0.364 2.636
+    angleY 40.15
+   }
+  }
+ }
+ SmallBaseMine {
+  coords 8790.147 197.099 3895.101
+  angleY 162.727
+  m_sBaseName "#AR-Campaign_MapLocation_Quarry"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Quarry-UC"
+  m_sMapLocationName "LocationMine"
+  m_sSlotNameHQ "MineSlotHQ"
+  m_sSlotNameSupplies "MineSlotSupply"
+  m_sSlotNameArmory "MineSlotArmory"
+  m_sSlotNameRepair "MineSlotRepair"
+  m_sSlotNameRadioAntenna "MineSlotAntenna"
+  m_iBaseID 39
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -3.997 2.165 -77.713
+    angleY 123.344
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -23.523 3.034 -84.544
+    angleY -149.946
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 15.292 -1.387 -15.561
+    angleY -162.727
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -15.558 2.467 -35.56
+    angleY -76.33
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 7.815 -0.336 -6.237
+    angleY -162.727
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0.582 0.523 -0.75
+    angleY -162.727
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 10.502 -0.07 -3.911
+    angleY -162.727
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 9.821 -0.575 1.117
+    angleY -162.727
+   }
+  }
+ }
+ SmallBaseBlackLake {
+  coords 9453.143 209.122 2950.767
+  angleY 16.517
+  m_sBaseName "#AR-MapLocation_BlackLake"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_BlackLake-UC"
+  m_sSlotNameHQ "BlackLake_HQ"
+  m_sSlotNameSupplies "BlackLake_Supply"
+  m_sSlotNameArmory "BlackLake_Armory"
+  m_sSlotNameRepair "BlackLake_Repair"
+  m_sSlotNameRadioAntenna "BlackLake_Antenna"
+  m_iBaseID 27
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 3.894 -1.399 -13.875
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 1.545 2.451 -54.057
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -24.629 -1.164 -7.815
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -21.502 -0.059 -34.717
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 11.169 -0.57 7.879
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 13.669 0.001 1.012
+    angleY -16.517
+   }
+  }
+ }
+ SmallBasePennantsPass {
+  coords 8242.425 223.125 2166.514
+  angleY 146.111
+  m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
+  m_sSlotNameHQ "PennantsPass_HQ"
+  m_sSlotNameSupplies "PennantsPass_Supply"
+  m_sSlotNameArmory "PennantsPass_Armory"
+  m_sSlotNameRepair "PennantsPass_Repair"
+  m_sSlotNameRadioAntenna "PennantsPass_Antenna"
+  m_iBaseID 28
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 12.387 0.104 -41.206
+    angleY 47.427
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 43.158 -1.59 -40.679
+    angleY 23.347
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 10.456 -1.397 18.63
+    angleY -163.801
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 11.873 -0.203 -15.48
+    angleY 123.188
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 17.927 0 -11.697
+    angleY -146.111
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 2.456 1.357 -1.464
+    angleY -146.111
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
+    angleY -146.111
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 4.769 0.001 -8.636
+    angleY -146.111
+   }
+  }
+ }
+ SmallBaseSimonsWood {
+  coords 6579.463 81.998 5135.611
+  angleY 18.504
+  m_sBaseName "#AR-MapLocation_SimonsWood"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+  m_sSlotNameHQ "SimonsWood_HQ"
+  m_sSlotNameSupplies "SimonsWood_Supply"
+  m_sSlotNameArmory "SimonsWood_Armory"
+  m_sSlotNameRepair "SimonsWood_Repair"
+  m_sSlotNameRadioAntenna "SimonsWood_Antenna"
+  m_iBaseID 29
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -0.001 -0.995 -14.749
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -19.448 2.033 26.005
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -24.559 -0.571 -30.641
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -34.604 2.922 29.716
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.001 0.721 11.999
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -10.691 -0.336 -8.044
+    angleY -18.504
+   }
+  }
+ }
+ SmallBaseRichemont {
+  coords 4539.218 64.1 4993.633
+  m_sBaseName "#AR-Campaign_MapLocation_Richemont"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
+  m_sSlotNameHQ "Richmond_HQ"
+  m_sSlotNameSupplies "Richmond_Supply"
+  m_sSlotNameArmory "Richmond_Armory"
+  m_sSlotNameRepair "Richmond_Repair"
+  m_sSlotNameRadioAntenna "Richmond_Antenna"
+  m_iBaseID 30
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -1.699 0 -16.671
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -3.626 -1.078 57.74
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 8.181 -1.234 32.871
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -17.205 -0.11 39.184
+    angleY 85.804
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords -7.029 -0.527 8.805
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -9.528 -0.465 6.179
+   }
+  }
+ }
+ SmallBaseShepherds {
+  coords 3288.781 119.33 4467.846
+  m_sBaseName "#AR-MapLocation_ShepherdsPond"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_ShepherdsPond-UC"
+  m_sSlotNameHQ "Shepherds_HQ"
+  m_sSlotNameSupplies "Shepherds_Supply"
+  m_sSlotNameArmory "Shepherds_Armory"
+  m_sSlotNameRepair "Shepherds_Repair"
+  m_sSlotNameRadioAntenna "Shepherds_Antenna"
+  m_iBaseID 31
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -4.519 -0.624 14.865
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -13.858 -1.717 -22.583
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -6.754 -1.797 -41.195
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 12.454 0.97 -31.237
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 3.538 0.592 12.053
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -14.009 -0.859 -8.37
+   }
+  }
+ }
+ SmallBaseLake {
+  coords 4440.033 58.831 6240.32
+  angleY 145.199
+  m_sBaseName "#AR-MapLocation_PinewoodLake"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+  m_sSlotNameHQ "Lake_HQ"
+  m_sSlotNameSupplies "Lake_Supply"
+  m_sSlotNameArmory "Lake_Armory"
+  m_sSlotNameRepair "Lake_Repair"
+  m_sSlotNameRadioAntenna "Lake_Antenna"
+  m_iBaseID 32
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 40.794 -2.141 -6.074
+    angleY 93.307
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 24.152 -1 19.511
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 23.758 -1.587 -20.165
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 45.968 -1.937 12.826
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 2.605 -0.151 11.342
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 13.16 0.342 4.973
+    angleY -145.199
+   }
+  }
+ }
+ SmallBaseTillersFind {
+  coords 3789.583 59.781 6997.688
+  m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+  m_sSlotNameHQ "TillersFind_HQ"
+  m_sSlotNameSupplies "TillersFind_Supply"
+  m_sSlotNameArmory "TillersFind_Armory"
+  m_sSlotNameRepair "TillersFind_Repair"
+  m_sSlotNameRadioAntenna "TillersFind_Antenna"
+  m_iBaseID 33
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -11.49 0 9.674
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 6.141 -0.159 45.16
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 27.794 0 20.417
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -24.329 -0.298 19.931
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 0 12
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 0.61 0.001 12.82
+   }
+  }
+ }
+ TownBaseKermovan {
+  coords 6458.134 9.157 9652.447
+  angleY -101.598
+  m_sBaseName "#AR-MapLocation_Kermovan"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Kermovan-UC"
+  m_sSlotNameHQ "Kermovan_HQ"
+  m_sSlotNameSupplies "Kermovan_Supply"
+  m_sSlotNameArmory "Kermovan_Armory"
+  m_sSlotNameRepair "Kermovan_Repair"
+  m_sSlotNameRadioAntenna "Kermovan_Antenna"
+  m_iBaseID 34
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -15.139 0.117 -13.019
+    angleY -92.399
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords -22.847 -2.125 24.116
+    angleY 122.026
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 13.917 -1.691 -18.271
+    angleY 78.89
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -3.082 1.018 -22.88
+    angleY 158.043
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 1.452 0.204 -8.475
+    angleY 122.026
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords -1.499 0.157 -5.151
+    angleY 122.026
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 4.148 0.306 -11.71
+    angleY 122.026
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 0.081 0.263 -8.125
+    angleY 101.598
+   }
+  }
+ }
+ SmallBaseMaidensBay {
+  coords 5234.311 34.347 10689.157
+  angleY -37.377
+  m_sBaseName "#AR-MapLocation_MaidensBay"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
+  m_sSlotNameHQ "MaidensBay_HQ"
+  m_sSlotNameSupplies "MaidensBay_Supply"
+  m_sSlotNameArmory "MaidensBay_Armory"
+  m_sSlotNameRepair "MaidensBay_Repair"
+  m_sSlotNameRadioAntenna "MaidensBay_Antenna"
+  m_iBaseID 35
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 38.377 0 13.244
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 66.771 0.278 -10.937
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 2.74 0.228 19.815
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 56.408 0.204 3.568
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.033 0.14 10.329
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 8.5 -0.037 7.987
+    angleY 37.377
+   }
+  }
+ }
+ SmallBaseHornbeamValley {
+  coords 5376.893 25.468 8334.043
+  m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+  m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+  m_sSlotNameHQ "HornbeamValley_HQ"
+  m_sSlotNameSupplies "HornbeamValley_Supply"
+  m_sSlotNameArmory "HornbeamValley_Armory"
+  m_sSlotNameRepair "HornbeamValley_Repair"
+  m_sSlotNameRadioAntenna "HornbeamValley_Antenna"
+  m_iBaseID 36
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords -13.233 2.056 -8.425
+    angleY -40.112
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 13.877 -1.254 12.175
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -8.079 -2.173 44.26
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords -31.376 0.658 32.858
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0 0.185 12
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 0 -1.308 23.952
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -10.336 1.035 14.177
+   }
+  }
+ }
+ SmallBaseAndresBeacon {
+  coords 6852.692 83.067 8200.103
+  angleY -149.943
+  m_sBaseName "#AR-MapLocation_AndresBeacon"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_AndresBeacon-UC"
+  m_sSlotNameHQ "AndresBeacon_HQ"
+  m_sSlotNameSupplies "AndresBeacon_Supply"
+  m_sSlotNameArmory "AndresBeacon_Armory"
+  m_sSlotNameRepair "AndresBeacon_Repair"
+  m_sSlotNameRadioAntenna "AndresBeacon_Antenna"
+  m_iBaseID 37
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 16.83 2.897 23.891
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 30.368 5.395 46.09
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords -16.798 0.397 -2.06
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 17.333 -0.173 11.564
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords -3.066 -0.646 9.921
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 0 0
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords 9.438 -0.312 4.112
+   }
+  }
+ }
+ SmallBaseGoatbay {
+  coords 6635.657 5.643 3122.448
+  angleY -24.751
+  m_sBaseName "#AR-MapLocation_GoatBay"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_GoatBay"
+  m_sSlotNameHQ "GoatBaySlot_HQ"
+  m_sSlotNameSupplies "GoatBaySlot_Supply"
+  m_sSlotNameArmory "GoatBaySlot_Armory"
+  m_sSlotNameRepair "GoatBaySlot_Repair"
+  m_sSlotNameRadioAntenna "GoatBaySlot_Antenna"
+  m_iBaseID 38
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E96E951451"
+    coords 7.163 2.348 -14.748
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EDCA1496"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
+      Enabled 0
+     }
+    }
+    coords 4.856 2.769 -29.771
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EC813EF1"
+    coords 3.936 3.474 -46.808
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "54A10785EFC28B60"
+    coords 3.677 -0.427 20.466
+    angleY -179.197
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.001 -0.512 12
+   }
+   SCR_SpawnPoint {
+    ID "56E085ABA7D45CE8"
+    coords -7.343 0.343 -19.636
+   }
+   GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    components {
+     SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+     }
+    }
+    coords -6.55 0.505 -17.98
+    angleY 24.751
+   }
+  }
+ }
+}
+$grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMajorBaseEntityFinal.et" {
+ MajorBaseChotain {
+  coords 7445.592 12.154 6686.761
+  angleY -25.279
+  m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationChotain_MilitaryBase"
+  m_sSlotNameSupplies "ChotainHarbor_Supply"
+  m_sSlotNameRepair "ChotainHarbor_Repair"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 60
+  m_iFreqEast 44
+  m_iBaseID 2
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "524ED87DCD09FF64"
+    components {
+     MeshObject "{524EBE6BCFDADD79}" {
+      Enabled 0
+     }
+     RigidBody "{524EBE6BCFDADD62}" {
+      Enabled 0
+     }
+    }
+    coords -12.173 -2.467 76.576
+    angleY 154.712
+    {
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F05A"
+      components {
+       Hierarchy "{524EBE6BCFDAAF21}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 0
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F193"
+      components {
+       Hierarchy "{524EBE6BCFDAD122}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 0
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3E7"
+      components {
+       Hierarchy "{524EBE6BCFDAA8D9}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 0
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3F0"
+      components {
+       Hierarchy "{524EBE6BCFDAA66C}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 0
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F07C"
+      components {
+       Hierarchy "{524EBE6BCFDAAD29}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 0
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F099"
+      coords -20.455 0.19 -1.544
+      angleY -2.492
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F30C"
+      coords -13.726 0.213 -1.284
+      angleY -4.16
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F326"
+      coords -7.198 0.171 -1.058
+      angleY -3.399
+     }
+     GenericEntity {
+      ID "524ED87DCD09FCD3"
+      coords -0.215 0.002 0.168
+      angleY -2.43
+      {
+       GenericEntity {
+        ID "524ED87DCD09FCD5"
+        coords -0.001 1.1 -0.49
+       }
+       GenericEntity {
+        ID "5614CBDBA3BC8E8D"
+        coords 0.008 0.906 0.303
+       }
+       GenericEntity {
+        ID "5614CC2D888A60CF"
+        coords 0.88 0.906 0.273
+       }
+       GenericEntity {
+        ID "5614CA3594C1D51A"
+        coords 0.734 0.906 -0.174
+       }
+       GenericEntity {
+        ID "5614CCA99EF38DF8"
+        coords -0.027 0.906 -0.147
+       }
+       GenericEntity {
+        ID "5614CB20F0718A65"
+        coords -0.895 0.906 -0.242
+       }
+      }
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E95B395C8F"
+    components {
+     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
+     }
+    }
+    coords -51.457 -2.425 48.76
+    angleY 155.496
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5490F720B549DDF4"
+    coords 21.744 -2.457 94.509
+    angleY -27.434
+   }
+   SCR_CampaignDeliveryPoint {
+    components {
+     Hierarchy "{5586ED5F1DDEE00B}" {
+     }
+    }
+    coords -4.289 3.188 -5.185
+    angleY -0.731
+    m_eType RADIO_ANTENNA
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AA180FA5C"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
+      Enabled 0
+     }
+    }
+    coords 31.252 -4.268 0.529
+    angleY 0.293
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4902CFCAA7"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B494E9F1A0D"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AFF7F0D47"
+    coords 107.901 -6.226 34.87
+    angleY -27.354
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE2F28160"
+    coords -47.469 -2.436 38.959
+    m_iWaypointIndex 1
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE443E13E"
+    coords 14.248 -5.455 8.786
+    m_iWaypointIndex 0
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE7B7DCFF"
+    coords 57.308 -4.217 91.78
+    m_iWaypointIndex 2
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "58EA81AA3EEAEE82"
+    coords 97.582 0 23.859
+    m_iWaypointIndex 3
+   }
+   $grp SCR_DoorOpenerEntity {
+    {
+     coords -9.905 -2.466 67.867
+     angleY 84.559
+     m_fRadius 1
+    }
+    {
+     coords -4.4 -2.466 70.707
+     angleY 84.559
+     m_fRadius 1
+    }
+    {
+     coords 1.381 -2.466 73.654
+     angleY 84.559
+     m_fRadius 1
+    }
+    {
+     coords 6.865 -2.466 76.722
+     angleY 84.559
+     m_fRadius 1
+    }
+    {
+     coords 12.666 -2.465 79.568
+     angleY 84.559
+     m_fRadius 1
+    }
+    {
+     coords -7.605 -3.211 -0.21
+     angleY 0.192
+     m_fRadius 1
+    }
+    {
+     coords -0.956 -0.012 -0.295
+     angleY -1.506
+     m_fRadius 1
+    }
+    {
+     coords -40.211 -2.388 52.034
+     angleY -29.017
+     m_fRadius 1
+    }
+    {
+     coords -7.582 -4.278 4.701
+     angleY -1.506
+     m_fRadius 1
+    }
+    {
+     coords -54.036 -2.326 29.405
+     angleY -32.842
+     m_fRadius 1
+    }
+   }
+   SCR_SpawnPoint {
+    ID "56DEEDF0B121F0E8"
+    coords 14.654 -4.28 14.175
+   }
+   $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+    {
+     coords -5.882 -4.278 9.426
+     angleY 91.946
+    }
+    {
+     coords 8.915 -4.303 -2.857
+     angleY 92
+    }
+   }
+   GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+    coords 4.973 -4.166 3.738
+    angleY 90.937
+   }
+   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+    {
+     coords 2.685 -4.271 5.404
+     angleY 2.564
+    }
+    {
+     coords -0.071 -4.271 5.464
+     angleY 0.802
+    }
+    {
+     coords -2.984 -4.271 5.506
+     angleY 0.802
+    }
+    {
+     coords 4.762 -4.309 -4.145
+     angleY 93.088
+    }
+   }
+   GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+    coords -11.712 -4.278 9.541
+    angleY -53.143
+   }
+   $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    {
+     coords 4.72 -4.311 -6.398
+     angleY 96.356
+    }
+    {
+     coords -4.355 3.188 4.055
+     angleY 2.483
+    }
+    {
+     coords -6.416 3.188 4.096
+     angleY -176.488
+    }
+   }
+   GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+    coords -12.273 -4.278 6.807
+    angleY 89.772
+   }
+   GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+    coords -4.72 -4.278 9.842
+    angleY 134.417
+   }
+   GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+    coords -5.936 -4.278 6.771
+    angleY 90.176
+   }
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+    components {
+     SCR_CampaignFlagComponent "{58F0B75377FDE34E}" {
+      m_iBaseSearchRange 100
+     }
+    }
+    coords -5.387 3.78 4.076
+    angleY 91.788
+   }
+  }
+ }
+ MajorBaseLamentin {
+  coords 1081.803 7.191 6013.407
+  angleY 0
+  m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationLamentin_Harbour"
+  m_sSlotNameSupplies "Lamentin_Supply"
+  m_sSlotNameRepair "Lamentin_Repair"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 52
+  m_iFreqEast 42
+  m_iBaseID 4
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "524ED87DCD09FF64"
+    components {
+     MeshObject "{524EBE6BCFDADD79}" {
+      Enabled 0
+     }
+     RigidBody "{524EBE6BCFDADD62}" {
+      Enabled 0
+     }
+    }
+    coords -66.412 -4.357 -2.868
+    angleY 5.029
+    {
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F05A"
+      coords -30.623 0.009 17.483
+      angleY 59.525
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F07C"
+      coords 23.897 -0.085 26.062
+      angleY 173.126
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F099"
+      coords -0.86 -0.01 27.121
+      angleY 89.976
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F193"
+      coords -12.528 0.009 26.592
+      angleY 90.799
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F30C"
+      coords -24.029 0.009 26.39
+      angleY 89.493
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F326"
+      coords -20.305 -0.043 -1.368
+      angleY -2.379
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3E7"
+      coords -13.425 -0.043 -1.154
+      angleY 0.03
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3F0"
+      coords -6.919 -0.043 -1.053
+      angleY 1.322
+     }
+     GenericEntity {
+      ID "524ED87DCD09FCD3"
+      coords -0.042 0.004 -0.205
+      angleY -1.279
+      {
+       GenericEntity {
+        ID "524ED87DCD09FCD5"
+        coords 0 1.1 -0.489
+       }
+       GenericEntity {
+        ID "5614CBDBA3BC8E8D"
+        coords 0.007 0.906 0.305
+       }
+       GenericEntity {
+        ID "5614CC2D888A60CF"
+        coords 0.881 0.906 0.273
+       }
+       GenericEntity {
+        ID "5614CA3594C1D51A"
+        coords 0.733 0.906 -0.173
+       }
+       GenericEntity {
+        ID "5614CCA99EF38DF8"
+        coords -0.029 0.906 -0.146
+       }
+       GenericEntity {
+        ID "5614CB20F0718A65"
+        coords -0.895 0.906 -0.241
+       }
+      }
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E95B395C8F"
+    coords 4.813 -4.401 21.604
+    angleY -114.987
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5490F720B549DDF4"
+    coords -13.725 -4.379 1.565
+    angleY 179.877
+   }
+   SCR_CampaignDeliveryPoint {
+    components {
+     Hierarchy "{558894C5074114BE}" {
+     }
+    }
+    coords -4.014 3.099 -5.218
+    m_eType RADIO_ANTENNA
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AA180FA5C"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
+      Enabled 0
+     }
+    }
+    coords -13.309 -4.368 166.888
+    angleY -23.828
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4902CFCAA7"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
+      Enabled 0
+     }
+    }
+    coords -19.632 -4.4 169.759
+    angleY 152.151
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B494E9F1A0D"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AFF7F0D47"
+    coords -39.438 -4.4 195.953
+    angleY -177.16
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE2F28160"
+    coords -10.931 -4.441 11.879
+    m_iWaypointIndex 0
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE443E13E"
+    coords 4.211 -4.38 103.897
+    m_iWaypointIndex 1
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE7B7DCFF"
+    coords -27.953 -4.352 175.722
+    m_iWaypointIndex 2
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "58EA81AA3EEAEE82"
+    coords -66.784 0 15.386
+    m_iWaypointIndex 3
+   }
+   $grp SCR_DoorOpenerEntity {
+    {
+     coords 3302.909 -5.586 5019.965
+     angleY 59.28
+     m_fRadius 2
+    }
+    {
+     coords -66.852 -4.41 5.483
+     angleY 3.824
+     m_fRadius 1
+    }
+    {
+     coords -69.863 -4.503 5.498
+     angleY 165.2
+     m_fRadius 1
+    }
+    {
+     coords -76.336 -4.503 6.048
+     angleY 165.2
+     m_fRadius 1
+    }
+    {
+     coords -82.716 -4.503 6.394
+     angleY 165.2
+     m_fRadius 1
+    }
+    {
+     coords -88.717 -4.503 6.889
+     angleY 165.2
+     m_fRadius 1
+    }
+    {
+     coords -3.863 -4.378 121.288
+     m_fRadius 5
+    }
+   }
+   SCR_SpawnPoint {
+    ID "56DEEDF0B121F0E8"
+    coords -14.847 -3.407 23.849
+   }
+   GenericEntity : "{3E4C223A92230572}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_base.et" {
+    coords 6389.378 157.373 -1733.899
+    angleY 3.728
+   }
+   GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+    coords 6392.61 157.404 -1734.142
+    angleY 5.289
+   }
+   $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+    {
+     coords 8.782 -4.5 -2.199
+     angleX 0.008
+     angleY 83.318
+     angleZ -0.895
+    }
+    {
+     coords 7.854 -4.395 8.033
+     angleX -0.681
+     angleY 33.218
+     angleZ -0.58
+    }
+   }
+   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+    {
+     coords 2.51 -4.46 5.501
+    }
+    {
+     coords -0.302 -4.46 5.497
+    }
+    {
+     coords -3.107 -4.46 5.521
+    }
+   }
+   $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    {
+     coords -5.425 -4.44 5.555
+     angleY -177.403
+    }
+    {
+     coords -9.811 -4.471 5.854
+     angleY -87.435
+    }
+    {
+     coords 8.913 -4.511 6.078
+     angleY 89.378
+    }
+    {
+     coords 5.602 -4.539 8.508
+     angleY -177.509
+    }
+    {
+     coords -9.249 -4.5 9.281
+     angleY 177.132
+    }
+    {
+     coords -4.037 -4.565 9.398
+     angleY -0.049
+    }
+    {
+     coords -5.391 2.983 3.93
+     angleY 179.111
+    }
+    {
+     coords -3.423 2.944 3.985
+     angleY 1.93
+    }
+   }
+   GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+    coords -6.704 -4.477 9.394
+   }
+   GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+    coords 6378.319 157.311 -1751.686
+    angleY -161.082
+   }
+   $grp GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+    {
+     coords 6387.375 164.845 -1739.904
+     angleY 13.943
+    }
+    {
+     coords 6385.423 164.814 -1739.5
+     angleY -167.996
+    }
+    {
+     coords 6386.771 157.371 -1733.577
+     angleY -171.141
+    }
+   }
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+    components {
+     SCR_CampaignFlagComponent "{58F0B74DDB6D1C2E}" {
+      m_iBaseSearchRange 100
+     }
+    }
+    coords -4.425 3.44 3.975
+    angleY 98.633
+   }
+  }
+ }
+ MajorBaseMorton {
+  components {
+   SCR_MapDescriptorComponent "{524EBE6BCFD9511E}" {
+   }
+  }
+  coords 4983.488 2.187 3841.923
+  angleY 32.894
+  m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationMorton"
+  m_sSlotNameHQ "Morton_HQ"
+  m_sSlotNameSupplies "Morton_Supply"
+  m_sSlotNameRepair "Morton_Repair"
+  m_sSlotNameRadioAntenna "Morton_Antenna"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 52
+  m_iFreqEast 42
+  m_iBaseID 5
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "524ED87DCD09FF64"
+    components {
+     MeshObject "{524EBE6BCFDADD79}" {
+      Enabled 0
+     }
+     RigidBody "{524EBE6BCFDADD62}" {
+      Enabled 0
+     }
+    }
+    coords -70.343 -0.053 44.665
+    angleY -175.46
+    {
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F05A"
+      components {
+       Hierarchy "{524EBE6BCFDAAF21}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 -0.001
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F07C"
+      components {
+       Hierarchy "{524EBE6BCFDAAD29}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 -0.001
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F099"
+      components {
+       Hierarchy "{524EBE6BCFDABB8A}" {
+        Enabled 0
+       }
+      }
+      coords 0 0 -0.001
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F193"
+      coords -14.947 0.022 4.914
+      angleY -6.209
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F30C"
+      coords -9.975 0.026 5.376
+      angleY -7
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F326"
+      coords -5.392 0.022 5.765
+      angleY -2.631
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3E7"
+      coords -0.357 0.025 6.135
+      angleY -3.783
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3F0"
+      coords 4.646 0.054 6.698
+      angleY -6.19
+     }
+     GenericEntity {
+      ID "524ED87DCD09FCD3"
+      coords 0.085 -0.004 0.231
+      angleY -3.054
+      {
+       GenericEntity {
+        ID "524ED87DCD09FCD5"
+        coords -0.026 1.264 -0.576
+       }
+       GenericEntity {
+        ID "5614CBDBA3BC8E8D"
+        coords 0.006 0.906 0.303
+       }
+       GenericEntity {
+        ID "5614CC2D888A60CF"
+        coords 0.881 0.906 0.273
+       }
+       GenericEntity {
+        ID "5614CA3594C1D51A"
+        coords 0.733 0.906 -0.175
+       }
+       GenericEntity {
+        ID "5614CCA99EF38DF8"
+        coords -0.031 0.906 -0.147
+       }
+       GenericEntity {
+        ID "5614CB20F0718A65"
+        coords -0.895 0.906 -0.241
+       }
+      }
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E95B395C8F"
+    coords -17.87 0 -0.24
+    angleY -169.068
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5490F720B549DDF4"
+    coords 9.93 0.001 -9.165
+    angleY 88.856
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AA180FA5C"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
+      Enabled 0
+     }
+    }
+    coords 49.627 -0.037 10.898
+    angleY -80.83
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B494E9F1A0D"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AFF7F0D47"
+    coords -36.881 -0.059 -1.229
+    angleY -2.318
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4902CFCAA7"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
+      Enabled 0
+     }
+    }
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    coords 35.053 0.001 7.336
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE2F28160"
+    coords -11.312 0.001 8.403
+    m_iWaypointIndex 0
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE443E13E"
+    coords -70.244 -0.016 25.928
+    m_iWaypointIndex 1
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE7B7DCFF"
+    coords -23.508 -0.022 38.716
+    m_iWaypointIndex 2
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "58EA81AA3EEAEE82"
+    coords 35.369 0 15.412
+    m_iWaypointIndex 3
+   }
+   SCR_SpawnPoint {
+    ID "56DEEDF0B121F0E8"
+    coords -11.555 0 17.272
+   }
+  }
+ }
+}
+$grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMainBaseEntityFinal.et" {
+ MainBaseNorth {
+  components {
+   BaseRadioComponent "{524EBE6BCFD951EB}" {
+    "Is relay" 1
+   }
+  }
+  coords 4430.563 6.314 11028.385
+  angleY -59.28
+  m_sBaseName "#AR-Campaign_MapLocation_HQ_North"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+  m_eStartingBaseOwner BLUFOR
+  m_sMapLocationName "LocationStPhillipe_Harbour"
+  m_sSlotNameSupplies "SaintPhilip_Supply"
+  m_sSlotNameRepair "SaintPhilip_Repair"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 48
+  m_iFreqEast 48
+  m_iBaseID 26
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "524ED87DCD09FF64"
+    components {
+     MeshObject "{524EBE6BCFDADD79}" {
+      Enabled 0
+     }
+     RigidBody "{524EBE6BCFDADD62}" {
+      Enabled 0
+     }
+    }
+    coords 172.079 -0.527 55.645
+    angleY 68.421
+    {
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F05A"
+      coords -22.86 0.025 10.366
+      angleY -129.029
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F07C"
+      coords -33.938 0.025 7.981
+      angleY 80.16
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F099"
+      coords -24.31 -0.007 -9.435
+      angleY 170
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F193"
+      coords -17.365 -0.045 -20.696
+      angleY 170
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F30C"
+      coords -14.266 -0.001 8.811
+      angleY -164.48
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F326"
+      coords 5.024 0.068 -20.029
+      angleY -104.511
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3E7"
+      coords 3.444 0.068 -13.398
+      angleY -105.8
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3F0"
+      coords 2.064 0.068 -6.804
+      angleY -101.561
+     }
+     GenericEntity {
+      ID "524ED87DCD09FCD3"
+      coords -0.198 0 -0.267
+      angleY -102.245
+      {
+       GenericEntity {
+        ID "524ED87DCD09FCD5"
+        coords 0.001 1.1 -0.49
+        {
+         GenericEntity {
+          ID "56EEE9F9F28F9B8D"
+          coords 0 0 0.001
+         }
+        }
+       }
+       GenericEntity {
+        ID "5614CBDBA3BC8E8D"
+        coords 0.008 0.906 0.305
+       }
+       GenericEntity {
+        ID "5614CC2D888A60CF"
+        coords 0.884 0.906 0.276
+       }
+       GenericEntity {
+        ID "5614CA3594C1D51A"
+        coords 0.74 0.906 -0.175
+       }
+       GenericEntity {
+        ID "5614CCA99EF38DF8"
+        coords -0.027 0.906 -0.147
+       }
+       GenericEntity {
+        ID "5614CB20F0718A65"
+        coords -0.889 0.906 -0.238
+       }
+      }
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E95B395C8F"
+    components {
+     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
+     }
+    }
+    coords 41.514 -4.729 30.109
+    angleY 148.428
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5490F720B549DDF4"
+    coords 135.649 -0.555 72.417
+    angleY -34.229
+   }
+   SCR_CampaignDeliveryPoint {
+    components {
+     Hierarchy "{556A9B0BF126BC17}" {
+     }
+    }
+    coords -3.81 3.21 -5.471
+    angleY -0.592
+    m_eType RADIO_ANTENNA
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4902CFCAA7"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
+      Enabled 0
+     }
+    }
+    coords -31.878 -4.72 36.452
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B494E9F1A0D"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
+      Enabled 0
+     }
+    }
+    coords 106.48 -4.773 12.208
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AA180FA5C"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
+      Enabled 0
+     }
+    }
+    coords 23.643 -4.711 54.941
+    angleY 59.523
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AFF7F0D47"
+    coords 59.727 -4.689 48.168
+    angleY 56.766
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE443E13E"
+    coords 94.892 -4.721 81.439
+    m_iWaypointIndex 2
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE7B7DCFF"
+    coords 37.066 -4.689 50.856
+    m_iWaypointIndex 1
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE2F28160"
+    coords 17.475 -4.739 8.127
+    m_iWaypointIndex 0
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "58EA81AA3EEAEE82"
+    coords 111.384 -3.569 35.531
+    m_iWaypointIndex 3
+   }
+   $grp SCR_DoorOpenerEntity {
+    {
+     coords 119.966 -0.587 56.162
+     angleY 61.755
+     m_fRadius 5
+    }
+    {
+     coords -7.486 -4.168 2.275
+     angleY 86.506
+     m_fRadius 1
+    }
+    {
+     coords -7.502 -3.071 -2.657
+     angleY 86.506
+     m_fRadius 1
+    }
+    {
+     coords -0.932 0.131 -2.619
+     angleY 86.506
+     m_fRadius 1
+    }
+    {
+     coords 22.152 -4.272 7.495
+     angleY 85.264
+     m_fRadius 1
+    }
+    {
+     coords 4.334 -3.221 -4.004
+     angleY 59.28
+     m_fRadius 1
+    }
+    {
+     coords 174.672 -0.219 90.602
+     angleY 59.28
+     m_fRadius 2
+    }
+    {
+     coords 163.778 -0.501 60.492
+     angleY 59.28
+     m_fRadius 1
+    }
+    {
+     coords 158.443 -0.501 56.903
+     angleY 59.28
+     m_fRadius 1
+    }
+    {
+     coords 153.098 -0.501 53.543
+     angleY 59.28
+     m_fRadius 1
+    }
+    {
+     coords 147.466 -0.475 49.943
+     angleY 59.28
+     m_fRadius 1
+    }
+    {
+     coords 33.372 -4.248 -8.677
+     angleY 59.28
+     m_fRadius 1
+    }
+   }
+   SCR_SpawnPoint {
+    ID "56DEEDF0B121F0E8"
+    coords 167.436 -0.519 75.786
+    angleY -125.618
+   }
+   $grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02_base.et" {
+    {
+     components {
+      SCR_CampaignFlagComponent "{58F0B75DD9BB3EE3}" {
+       m_iBaseSearchRange 100
+      }
+     }
+     coords -13.023 -4.774 19.613
+     angleY -179.315
+    }
+    {
+     components {
+      SCR_CampaignFlagComponent "{58F0B75D85908D08}" {
+       m_iBaseSearchRange 100
+      }
+     }
+     coords 3.431 3.827 -1.075
+     angleY 178.055
+    }
+   }
+   $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+    {
+     coords -9.354 -4.719 7.796
+     angleY -60.189
+    }
+    {
+     coords 5.66 -4.657 8.518
+     angleY 27.617
+    }
+    {
+     coords -5.911 -4.622 -13.704
+     angleY 176.683
+    }
+   }
+   $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+    {
+     coords 6.843 -4.728 2.157
+     angleY 88.406
+    }
+    {
+     coords 4.389 -4.657 -7.863
+     angleY 59.28
+    }
+    {
+     coords -9.785 -4.645 5.697
+     angleY 88.052
+    }
+   }
+   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+    {
+     coords -1.847 -4.611 5.309
+     angleY -0.367
+    }
+    {
+     coords 0.894 -4.611 5.328
+     angleY -0.367
+    }
+    {
+     coords -3.341 -4.657 -7.372
+     angleY 2.211
+    }
+    {
+     coords -0.55 -4.657 -7.374
+     angleY -179.926
+    }
+    {
+     coords 2.251 -4.657 -7.364
+     angleY -0.911
+    }
+   }
+   $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+    {
+     coords -7.337 -4.762 9.03
+     angleY -2.955
+    }
+    {
+     coords 3.434 3.153 -0.044
+     angleY -90.12
+    }
+    {
+     coords 3.53 3.153 -2.102
+     angleY 89.431
+    }
+    {
+     coords -3.146 -4.785 9.189
+     angleY -177.587
+     angleZ 1.412
+    }
+   }
+   $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+    {
+     coords -4.957 -4.583 5.271
+     angleY -0.168
+    }
+    {
+     coords 2.697 -4.657 8.981
+     angleY 2.621
+    }
+    {
+     coords -0.565 -4.685 9.13
+     angleY 2.621
+    }
+   }
+   StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+    coords 7.26 -4.586 0.37
+    angleY 59.28
+   }
+  }
+ }
+ MainBaseSouth {
+  components {
+   BaseRadioComponent "{524EBE6BCFD951EB}" {
+    "Is relay" 1
+   }
+  }
+  coords 10004.859 6.784 1551.675
+  angleY 105.312
+  m_sBaseName "#AR-Campaign_MapLocation_HQ_South"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+  m_eStartingBaseOwner OPFOR
+  m_sMapLocationName "LocationStPierre_Harbour"
+  m_sSlotNameSupplies "SaintPierre_Supply"
+  m_sSlotNameRepair "SaintPierre_Repair"
+  m_bSpawnNoSlotComposition 1
+  m_iFreqWest 48
+  m_iFreqEast 48
+  m_iBaseID 1
+  {
+   SCR_CampaignDeliveryPoint {
+    ID "524ED87DCD09FF64"
+    components {
+     MeshObject "{524EBE6BCFDADD79}" {
+      Enabled 0
+     }
+     RigidBody "{524EBE6BCFDADD62}" {
+      Enabled 0
+     }
+    }
+    coords -12.603 -4.242 53.792
+    angleY -90.376
+    {
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F05A"
+      coords 20.316 -0.007 9.288
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F07C"
+      coords 17.021 -0.008 17.512
+      angleY -90
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F099"
+      coords 34.198 -0.008 16.161
+      angleY -84.669
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F193"
+      coords 14.271 0 9.297
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F30C"
+      coords 3.415 -0.008 17.619
+      angleY -89.785
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F326"
+      coords -20.362 0.039 -0.833
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3E7"
+      coords -13.721 0.039 -1
+     }
+     BaseGameTriggerEntity {
+      ID "524ED87DCD09F3F0"
+      coords -7.066 0.039 -0.855
+     }
+     GenericEntity {
+      ID "524ED87DCD09FCD3"
+      coords -0.001 0 0
+      {
+       GenericEntity {
+        ID "524ED87DCD09FCD5"
+        coords -0.003 1.1 -0.49
+        {
+         GenericEntity {
+          ID "56EEE9F9F28F9B8D"
+          coords -0.002 0 0
+         }
+        }
+       }
+       GenericEntity {
+        ID "5614CBDBA3BC8E8D"
+        coords 0.004 0.906 0.304
+        angleY -180
+       }
+       GenericEntity {
+        ID "5614CC2D888A60CF"
+        coords 0.881 0.906 0.273
+        angleY 160
+       }
+       GenericEntity {
+        ID "5614CA3594C1D51A"
+        coords 0.73 0.906 -0.175
+        angleY -39
+       }
+       GenericEntity {
+        ID "5614CCA99EF38DF8"
+        coords -0.03 0.906 -0.146
+        angleY -120
+       }
+       GenericEntity {
+        ID "5614CB20F0718A65"
+        coords -0.896 0.906 -0.24
+        angleY -180
+       }
+      }
+     }
+    }
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5474B1E95B395C8F"
+    components {
+     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
+      m_fOperationalRadius 80
+     }
+    }
+    coords -44.388 -3.991 43.023
+    angleY 89.488
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "5490F720B549DDF4"
+    coords -40.172 -4.103 14.231
+    angleY -179.91
+   }
+   SCR_CampaignDeliveryPoint {
+    components {
+     Hierarchy "{556A9B0BF126BC17}" {
+     }
+    }
+    coords -3.766 3.221 -5.521
+    angleY -1.056
+    m_eType RADIO_ANTENNA
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4902CFCAA7"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
+      Enabled 0
+     }
+    }
+    coords -43.04 -4.009 149.319
+    angleY 89.488
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B494E9F1A0D"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
+      Enabled 0
+     }
+    }
+    coords -11.907 -4.259 154.492
+    angleY 89.488
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AA180FA5C"
+    components {
+     Hierarchy "{5498F18766675F7A}" {
+      Enabled 0
+     }
+     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
+      Enabled 0
+     }
+    }
+    coords -2.139 -4.259 128.613
+    angleY 175.351
+   }
+   SCR_CampaignDeliveryPoint {
+    ID "56367B4AFF7F0D47"
+    coords -27.838 -4.221 121.852
+    angleY -48.546
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE443E13E"
+    coords -23.12 -4.259 22.372
+    angleY 89.488
+    m_iWaypointIndex 0
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE7B7DCFF"
+    coords -17.911 -4.249 116.409
+    angleY 89.488
+    m_iWaypointIndex 1
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55A0956AE2F28160"
+    coords 22.673 -2.847 177.908
+    angleY 89.488
+    m_iWaypointIndex 2
+   }
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "58EA81AA3EEAEE82"
+    coords 47.991 -4.682 -88.055
+    angleY 89.488
+    m_iWaypointIndex 3
+   }
+   SCR_CampaignTriggerEntity {
+    ID "524ED87DCD09FE54"
+    coords 2.434 0.031 -3.247
+    angleY 89.488
+   }
+   $grp SCR_DoorOpenerEntity {
+    {
+     coords -20.759 -4.227 49.526
+     angleY -105.312
+     m_fRadius 1
+    }
+    {
+     coords -21.144 -4.245 43.308
+     angleY -105.312
+     m_fRadius 1
+    }
+    {
+     coords -21.107 -4.227 36.961
+     angleY -105.312
+     m_fRadius 1
+    }
+    {
+     coords -20.948 -4.232 31.045
+     angleY -105.312
+     m_fRadius 1
+    }
+   }
+   SCR_SlotDisablerEntity {
+    ID "56FCD95108C3414B"
+    coords 2.434 0.031 -3.247
+    angleY 89.488
+   }
+   SCR_SpawnPoint {
+    ID "56DEEDF0B121F0E8"
+    coords -44.495 -4.103 26.919
+    angleY 91.142
+   }
+   GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
+    coords -3.558 -4.203 45.614
+    angleY -142.723
+    {
+     GenericEntity {
+      ID "5712BD04A4D9CDAD"
+      coords 0.003 0.928 0.125
+      angleY -155.901
+      {
+       GenericEntity {
+        ID "55DECB3EB6F939C5"
+        coords -0.101 0.014 0.088
+        angleY 43.728
+       }
+       GenericEntity {
+        ID "55DECB3EB6F939C7"
+        coords 0.019 0 0.085
+        angleY -155.911
+       }
+       GenericEntity {
+        ID "55DECB3EB6F939D8"
+        coords -0.123 0.015 -0.055
+        angleY -92.18
+       }
+       GenericEntity {
+        ID "55DECB3EB6F939D9"
+        coords 0.017 0.039 -0.051
+        angleX 89.96
+        angleY -162.544
+        angleZ -33.571
+       }
+       GenericEntity {
+        ID "55DECB3EB6F939DB"
+        coords 0.143 0.004 -0.089
+        angleY -121.853
+       }
+      }
+     }
+     GenericEntity {
+      ID "552A7733B8B30470"
+      coords 0.062 -0.062 -0.375
+      angleY -80.757
+     }
+     GenericEntity {
+      ID "552A7733B8B30471"
+      coords 0.299 -0.062 0.231
+      angleY -88.298
+     }
+     GenericEntity {
+      ID "552A7733B8B30474"
+      coords -0.353 -0.062 0.165
+      angleY -2.333
+     }
+    }
+   }
+   $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+    {
+     coords -3.004 -3.862 5.329
+     angleY 0.287
+    }
+    {
+     coords -1.515 -4.368 -13.723
+     angleX -0.069
+     angleY -0.25
+     angleZ 1.171
+    }
+    {
+     coords -4.693 -4.339 -13.761
+     angleX -0.092
+     angleY 178.459
+     angleZ 0.3
+    }
+   }
+   $grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+    {
+     coords 7.158 -4.623 -14.418
+     angleY 173.373
+    }
+    {
+     coords 7.659 -3.929 -2.691
+     angleY 90.775
+    }
+    {
+     coords 7.631 -3.934 -0.644
+     angleY -91.128
+    }
+    {
+     coords -7.372 -4.315 -13.716
+     angleY -178.905
+    }
+    {
+     coords 1.132 -4.464 -13.762
+     angleX -0.078
+     angleY 1.614
+     angleZ 0.856
+    }
+    {
+     coords 9.558 -4.727 -10.947
+     angleY -88.688
+    }
+   }
+   GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+    coords -3.715 -4.184 43.216
+    angleY -69.75
+    {
+     GenericEntity {
+      ID "552CE6992B779765"
+      coords 0.958 0 0.077
+      angleY -83.324
+     }
+     GenericEntity {
+      ID "552CE6992B779767"
+      coords 0.529 0.333 0.562
+      angleY -1.625
+      angleZ -90
+     }
+     GenericEntity {
+      ID "552CE6992B779778"
+      coords 0.091 0 -0.277
+      angleY 124.376
+     }
+     GenericEntity {
+      ID "552CE6992B779779"
+      coords -1.045 0 -0.318
+      angleY 82.24
+     }
+    }
+   }
+   GenericEntity : "{37303CD6D6B5B42D}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbageTireStack_01.et" {
+    coords -4.722 -4.203 42.004
+    angleY -105.312
+    {
+     GenericEntity {
+      ID "551ED4204EBD40E4"
+      coords 0.165 0.645 -0.048
+      angleY -0.02
+     }
+     GenericEntity {
+      ID "551ED4204EBD40E6"
+      coords 0.165 0.432 -0.048
+      angleY 1.546
+     }
+     GenericEntity {
+      ID "551ED4204EBD40E7"
+      coords 0.165 0.199 -0.048
+      angleY -88.174
+     }
+     GenericEntity {
+      ID "551ED4204EBD40F8"
+      coords 0.165 -0.027 -0.048
+      angleY 89.583
+     }
+    }
+   }
+   $grp GenericEntity : "{5040D5BB29F06E43}Prefabs/Props/Military/Sandbags/Sandbag_01_single_plastic.et" {
+    {
+     coords 4.909 -3.399 2.492
+     angleX -4.846
+     angleY -86.006
+     angleZ 1.258
+    }
+    {
+     coords 4.647 -3.889 1.261
+     angleX 4.823
+     angleY 124.129
+     angleZ 1.343
+    }
+    {
+     coords -6.295 -3.118 -13.849
+     angleY 91.618
+    }
+    {
+     coords 8.117 -3.512 -14.134
+     angleX -8.504
+     angleY 175.662
+     angleZ -16.149
+    }
+   }
+   GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
+    coords 4.856 -3.889 0.101
+    angleX 1.325
+    angleY -90.302
+   }
+   GenericEntity : "{5BD7E085DFB4DB35}Prefabs/Compositions/Misc/SubCompositions/CrateClutteredCombined_US_04.et" {
+    coords -3.543 -4.203 54.874
+    angleY 179.423
+    {
+     DecalEntity {
+      ID "552A7A1DAF88B958"
+      coords 0.577 0.1 0.742
+      angleX -89.941
+      angleY 0
+      angleZ 0
+     }
+     DecalEntity {
+      ID "552A73090EF56F04"
+      coords 0.477 0 -0.845
+      angleX -89.944
+      angleY -33.645
+      angleZ 180
+     }
+     GenericEntity {
+      ID "552A73090EF56F19"
+      coords 0 0 0.007
+     }
+     GenericEntity {
+      ID "552A73090EF56F07"
+      coords -0.117 0.036 -1.055
+      angleX -5.944
+      angleY -8.983
+      angleZ 92.128
+     }
+     StaticModelEntity {
+      ID "5712BD0472910F43"
+      coords 0.744 -0.001 1.072
+      angleY -127.784
+     }
+    }
+   }
+   GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
+    coords -8.638 -4.302 -12.624
+    angleX -0.475
+    angleY 89.957
+    angleZ 0.77
+   }
+   GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
+    coords -11.094 3.185 -8.552
+    angleY -2.161
+   }
+   GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+    coords -4.562 -4.203 56.186
+    angleY -105.312
+   }
+   GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+    coords -3.557 -4.203 30.454
+    angleY -105.312
+    {
+     GenericEntity {
+      ID "552C739767950670"
+      coords -0.001 0 0
+     }
+     GenericEntity {
+      ID "552C73976795067A"
+      coords -0.019 0.375 -0.016
+      angleX 0.009
+      angleY 64.095
+      angleZ 0.13
+     }
+     GenericEntity {
+      ID "552C73976795067D"
+      coords -0.002 0.749 -0.009
+      angleX -0.026
+      angleY 89.361
+      angleZ 0.17
+     }
+     GenericEntity {
+      ID "552C73976795067E"
+      coords 0.009 1.115 -0.004
+      angleX 0.013
+      angleY 59.333
+      angleZ 0.12
+     }
+     GenericEntity {
+      ID "552C73976795067F"
+      coords 0.018 1.491 -0.016
+      angleX 0.023
+      angleY 41.895
+      angleZ 0.084
+     }
+    }
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords -3.89 -4.203 51.74
+    angleY -93.311
+    {
+     GenericEntity {
+      ID "552AED9AEC288649"
+      coords -0.149 1.623 -0.162
+      angleY -83.108
+     }
+     GenericEntity {
+      ID "5712BD0752454519"
+      coords 0.439 0.807 -0.063
+      angleY 5.787
+     }
+     GenericEntity {
+      ID "5712BD07524545A6"
+      coords 0.439 0 -0.063
+      angleY 4.885
+     }
+     GenericEntity {
+      ID "5712BD07524545D5"
+      coords -0.478 0 0
+     }
+     GenericEntity {
+      ID "5712BD07524545E5"
+      coords -0.478 0.807 0
+      angleY 0.902
+     }
+    }
+   }
+   GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+    coords 9.024 -4.691 -13.228
+    angleY 117.246
+    angleZ -1.399
+   }
+   GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+    coords -7.916 -4.203 53.521
+    angleY -90.605
+    {
+     GenericEntity {
+      ID "5528CD7A6CD9646B"
+      coords -0.011 0.807 0
+      angleY 0.902
+     }
+     GenericEntity {
+      ID "5528CD7A6CD9646D"
+      coords -0.011 0 0
+     }
+    }
+   }
+   GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+    coords -3.441 -4.203 40.117
+    angleY -93.674
+    {
+     GenericEntity {
+      ID "552C7390253853C9"
+      coords -0.323 -0.099 -0.042
+      angleY 8.681
+     }
+     GenericEntity {
+      ID "552C7390253853CA"
+      coords 0.044 0.864 0.051
+      angleX -0.058
+      angleY 17.186
+      angleZ 0.055
+     }
+     GenericEntity {
+      ID "552C7390253853F6"
+      coords 0.515 0.077 0.578
+      angleX -47.082
+      angleY 13.094
+      angleZ 0.081
+     }
+     GenericEntity {
+      ID "552C7390253853CB"
+      coords -0.156 -0.1 0.418
+      angleY -97.59
+     }
+     GenericEntity {
+      ID "552C7390253853C8"
+      coords 0.354 -0.1 0.046
+      angleY -46.484
+     }
+    }
+   }
+   $grp GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+    {
+     coords -9.282 -4.322 5.717
+     angleY -90.206
+    }
+    {
+     coords -9.263 -4.332 11.032
+     angleX 1.647
+     angleY -178.743
+     angleZ 0.232
+    }
+    {
+     coords -7.267 -4.34 11.015
+     angleX -1.651
+     angleY 0.385
+     angleZ 1.456
+    }
+   }
+   $grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+    {
+     coords 2.417 -4.258 -7.252
+     angleY 178.815
+    }
+    {
+     coords 4.95 -3.944 -4.252
+     angleY -88.847
+    }
+    {
+     coords -0.384 -4.326 -7.4
+     angleY 1.103
+    }
+    {
+     coords -3.153 -4.326 -7.24
+     angleY -178.234
+    }
+    {
+     coords 2.71 -3.905 5.435
+     angleY 0.773
+     angleZ 0.356
+    }
+    {
+     coords -0.028 -3.888 5.362
+     angleX 0.011
+     angleY -1.02
+     angleZ 0.355
+    }
+   }
+   $grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+    {
+     components {
+      SCR_CampaignFlagComponent "{58EED7AD7F32A393}" {
+       m_iBaseSearchRange 100
+      }
+     }
+     coords 12.521 -4.657 -17.217
+     angleY -98.797
+    }
+    {
+     components {
+      SCR_CampaignFlagComponent "{58EED7AD7F32A393}" {
+       m_iBaseSearchRange 100
+      }
+     }
+     coords -11.385 3.659 -8.598
+     angleY -80.065
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A4317E2621586AE3}Entities/Weapons/Magazines/Magazine_AK74_30rnd_Modded.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+ }
+}

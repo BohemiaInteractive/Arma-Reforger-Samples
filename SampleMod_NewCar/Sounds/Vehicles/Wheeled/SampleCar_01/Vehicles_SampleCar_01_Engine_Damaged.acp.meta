@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{1972F097506C1D85}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine_Damaged.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,49 @@
+MetaFileClass {
+ Name "{1EF2AF6CF820972F}Assets/Weapons/Attachments/Optics/SampleOptic_01/SampleOptic_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "SampleOptic_01.fbx"
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{584EC1101EB4CF06}" {
+     SourceMaterial "msbs_02_co"
+     AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
+    }
+    MaterialAssignClass "{584EC1101EB4CF65}" {
+     SourceMaterial "Optic_PSO1_pip"
+     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
+    }
+    MaterialAssignClass "{584EC1101EB4CF5D}" {
+     SourceMaterial "Optic_PSO1_lensglass"
+     AssignedMaterial "{EBDDC6F376995E88}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_lensglass.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_Component1 {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{52D2AD2379B083A9}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{52D2AD2379B08769}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{52D2AD2379B087BC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{52D2AD2379B0879D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

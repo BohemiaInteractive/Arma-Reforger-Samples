@@ -1,0 +1,18 @@
+MatSkyDomeSimple {
+ Diffuse 0.09 0.086 0.078 1
+ Ambient 0.133 0.133 0.133 1
+ Cull none
+ CastShadow 0
+ ReceiveShadow 0
+ AlbedoMap "{7AB5F5B3DCBDC9C3}Terrains/Common/Sky/SkyBox/Data/sky_gradient.edds" 
+ AlbedoMap2 "{B888CADB9299DD3E}Assets/_SharedData/Plastic/ST_Plastic_Leather01_1m_BCR.edds" 
+ SkyTexLerp 0.483
+ Overcast 0.088
+ SkyObject Sky
+ SunSpotSize 0.685
+ DiffuseIntensityLV 8.936
+ AmbientIntensityLV 7.079
+ IntensityAbsoluteLV 1
+ SkyIntensityLV 3.241
+ SunSpotIntensityLV 5.063
+}

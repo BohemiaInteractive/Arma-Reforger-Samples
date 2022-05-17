@@ -1,0 +1,158 @@
+Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{56C6934DCA456B59}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{3F350E0513208E84}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Red.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_UAZ469_Name"
+    m_Image "{DD975490784B1B41}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469/UAZ469_SampleFactionREDFOR.edds"
+    m_sFaction "SampleFactionREDFOR"
+    m_aAuthoredLabels + {
+     14 1001
+    }
+    m_aAutoLabels {
+     122 50
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{56C6DD44B59BCF0A}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{56C6DD44B59757C8}" {
+     m_iParentID -1
+     m_Mesh "{B80903BACFCDCCB6}Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B5CF202F}" {
+     m_iParentID 0
+     m_Mesh "{FD58A22B0D70B57F}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_RR_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_R02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B62738EF}" {
+     m_iParentID 0
+     m_Mesh "{64461BB2109784EF}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_RR_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_R02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B61E722B}" {
+     m_iParentID 0
+     m_Mesh "{2E9DFAA57A9550B5}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_RF_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_R01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B67645C0}" {
+     m_iParentID 0
+     m_Mesh "{B783433C67726125}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_RF_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_R01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B6AF13A9}" {
+     m_iParentID 0
+     m_Mesh "{919608FA9926D41B}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_LR_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_L02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B686D986}" {
+     m_iParentID 0
+     m_Mesh "{0888B16384C1E58B}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_LR_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_L02"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B6FDC33D}" {
+     m_iParentID 0
+     m_Mesh "{42535074EEC331D1}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_LF_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_L01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B6D5A4D7}" {
+     m_iParentID 0
+     m_Mesh "{DB4DE9EDF3240041}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_LF_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "v_door_L01"
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B70CB019}" {
+     m_iParentID 0
+     m_Mesh "{24AED6083551AB0A}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_Back.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B76408AD}" {
+     m_iParentID 0
+     m_Mesh "{F0598B2986D522D8}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_Front_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{56C6DD44B75BF939}" {
+     m_iParentID 0
+     m_Mesh "{694732B09B321348}Assets/Vehicles/Wheeled/UAZ469/Dst/UAZ469_base_glass_Front_02.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11880.1
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+ }
+ coords 2863.72 71.745 1667.009
+}

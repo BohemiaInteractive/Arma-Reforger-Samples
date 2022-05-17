@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{126C3DAC71707264}Prefabs/Characters/Uniforms/Pants_M88_Wear_green.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,21 @@
+GameEntity : "{8BBB4EEDF8E30C32}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0 2.2 -0.5
+     }
+     Radius 1.3
+    }
+   }
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Enabled 1
+   LayerPreset "Interaction"
+   SimState None
+   ModelGeometry 1
+  }
+ }
+}

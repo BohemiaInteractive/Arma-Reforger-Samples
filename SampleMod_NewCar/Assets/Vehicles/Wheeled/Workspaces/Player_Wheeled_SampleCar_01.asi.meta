@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Player_Wheeled_SampleCar_01.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

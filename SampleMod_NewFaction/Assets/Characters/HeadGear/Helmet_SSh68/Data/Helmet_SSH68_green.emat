@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.418 0.418 0.418 1
+ AlphaTest 0.019
+ CavityFromAO 0.875
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{23619DF5356E6C44}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSh68_01_cover_green_BCR.edds" 
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds" 
+ NMOMap "{E9AB2D41E2742F24}Assets/Characters/HeadGear/Helmet_SSh68/Data/Helmet_SSH68_01_cover_NMO.edds" 
+ Refs {
+  "AlphaTest"
+ }
+}

@@ -1,0 +1,317 @@
+$grp GenericEntity {
+ {
+  coords 4151.181 40.845 7882.323
+  angleY -73.612
+ }
+ {
+  coords 4083.907 37.424 7921.46
+  angleY -136.177
+ }
+}
+GenericEntity : "{026714237FB820CB}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_07.et" {
+ coords 4159.205 40.101 7762.411
+}
+$grp StaticModelEntity : "{0F507793FF034E1D}PrefabLibrary/Props/Military/Dragonsteeth_01_new.et" {
+ {
+  coords 4168.625 -0.005 7765.25
+  angleX -5.963
+  angleY -64.696
+  angleZ 0.57
+ }
+ {
+  coords 4174.293 0.001 7767.974
+  angleZ -6.44
+ }
+ {
+  coords 4157.804 -0.055 7764.66
+  angleX 2.652
+  angleY 61.336
+  angleZ -3.529
+ }
+ {
+  coords 4158.89 -0.105 7761.884
+  angleZ -2.009
+ }
+ {
+  coords 4154.167 -0.041 7760.46
+  angleX -0.779
+  angleY 54.313
+  angleZ -3.607
+ }
+ {
+  coords 4152.833 -0.002 7755.534
+  angleX -0.779
+  angleY 54.313
+  angleZ -3.607
+ }
+}
+GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+ coords 4148.781 39.398 7763.254
+ angleY 38.544
+}
+StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Long.et" {
+ coords 4155.01 0 7765.625
+ angleX -1.398
+ angleY 7.723
+ angleZ -0.19
+}
+$grp GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
+ {
+  coords 4153.269 39.711 7762.47
+  angleY 2.399
+ }
+ {
+  coords 4171.412 40.989 7767.146
+  angleY 80.901
+ }
+}
+$grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
+ {
+  coords 4144.342 37.682 7782.843
+  angleY 124.396
+ }
+ {
+  coords 4152.516 39.197 7767.731
+  angleY -147.064
+  scale 0.76
+ }
+ {
+  coords 4172.041 40.542 7769.729
+  angleY -54.407
+ }
+ {
+  coords 4145.113 39.845 7751.101
+  angleY -53.141
+ }
+ {
+  coords 4148.843 39.661 7761.927
+  angleY 135.525
+  scale 0.78
+ }
+ {
+  coords 4151.701 40.337 7750.834
+  angleY 130.413
+  scale 0.8
+ }
+ {
+  coords 4130.115 39.757 7764.972
+  angleY 116.262
+ }
+ {
+  coords 4126.406 39.487 7772.935
+  angleY 29.314
+ }
+ {
+  coords 4124.875 39.48 7773.824
+  angleY -148.659
+ }
+ {
+  coords 4140.726 38.889 7766.527
+  angleY 131.628
+ }
+}
+GenericEntity : "{37E1D83754A9B58D}Prefabs/Props/Garbage/Cardboard/Cardboard_03.et" {
+ coords 4160.271 40.04 7765.161
+}
+GenericEntity : "{3E4C223A92230572}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_base.et" {
+ coords 4139.501 37.056 7787.249
+ angleY -145.417
+}
+GenericEntity : "{3F2D1FB239682B87}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_plastic.et" {
+ coords 4131.283 39.597 7767.886
+ angleY 117.346
+}
+$grp GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+ {
+  coords 4147.449 39.906 7749.948
+ }
+ {
+  coords 4141.427 38.385 7769.69
+  angleY 38.825
+ }
+}
+$grp GenericEntity : "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et" {
+ {
+  coords 4161.406 40.154 7764.615
+  angleX -3.943
+  angleZ -4.027
+ }
+ {
+  coords 4153.072 39.519 7764.817
+  angleX -3.522
+  angleY 0.218
+  angleZ -3.548
+ }
+}
+$grp GenericEntity : "{53EB8BF116A99F3B}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_base.et" {
+ {
+  coords 4145.322 37.726 7784.209
+  angleY 128.197
+ }
+ {
+  coords 4144.021 39.907 7749.65
+  angleY -52.578
+ }
+}
+GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
+ coords 4145.534 37.927 7781.108
+ angleY -35.17
+}
+GenericEntity : "{6E6CBE3556D6E381}Prefabs/Props/Industrial/Pallets/MarsBox_01_Base.et" {
+ coords 4140.484 38.048 7773.637
+ angleY -52.028
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 4142.583 38.068 7771.166
+ angleY 127.896
+}
+GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ coords 4141.757 38.344 7770.833
+}
+GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+ coords 4172.666 41.107 7768.274
+ angleY 41.028
+ angleZ -5.547
+}
+$grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ {
+  coords 4146.56 37.966 7785.921
+  angleY -55.849
+ }
+ {
+  coords 4143.458 38.188 7770.176
+  angleY -52.558
+ }
+ {
+  coords 4141.98 38.103 7768.247
+  angleY -52.558
+ }
+}
+$grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Triple.et" {
+ {
+  coords 4151.37 0.145 7762.434
+  angleY 89.99
+ }
+ {
+  coords 4147.574 0.126 7784.707
+  angleY 37.119
+ }
+}
+GenericEntity : "{973C34124FC7DB39}PrefabLibrary/Infrastructure/Sings/SignMaxSpeed30.et" {
+ coords 4172.721 39.325 7766.515
+ angleX 19.198
+ angleY 125.512
+ angleZ 1.283
+}
+$grp StaticModelEntity : "{9834AC906ADB48F5}PrefabLibrary/Props/Military/Dragonsteeth_01_old.et" {
+ {
+  coords 4146.738 -0.038 7778.789
+ }
+ {
+  coords 4171.94 -0.219 7766.155
+  angleX -2.76
+  angleY -0.339
+  angleZ -13.538
+ }
+ {
+  coords 4156.401 -0.021 7768.875
+  angleX -0.723
+  angleY 0.092
+  angleZ -7.241
+ }
+}
+GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+ coords 4139.188 37.029 7788.742
+ angleY -54.894
+}
+$grp GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+ {
+  coords 4152.816 40.198 7752.562
+  angleY 107.388
+ }
+ {
+  coords 4170.434 40.649 7768.222
+  angleY 151.009
+  angleZ 2.709
+ }
+ {
+  coords 4152.039 40.153 7754.529
+  angleY 28.028
+ }
+}
+StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+ coords 4151.63 -0.02 7768.611
+}
+$grp StaticModelEntity : "{C289F5D866F0E46E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Base.et" {
+ {
+  coords 4154.297 -0.088 7763.271
+  angleY 41.433
+ }
+ {
+  coords 4145.752 0.004 7782.686
+  angleY 35.122
+ }
+}
+$grp GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
+ {
+  coords 4149.542 39.636 7761.306
+  angleX -4.555
+ }
+ {
+  coords 4142.469 38.236 7770.249
+  angleY -140.756
+ }
+}
+GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+ coords 4147.439 40.059 7752.39
+ angleY 0
+}
+GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+ coords 4148.821 39.64 7761.059
+}
+GenericEntity : "{DACF7DE206313E97}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_01.et" {
+ coords 4156.614 39.813 7764.108
+ angleX -2.792
+ angleY 0.228
+ angleZ -4.671
+}
+GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+ coords 4139.697 38.051 7772.65
+ angleX 0.048
+ angleY 128.471
+ angleZ 0.272
+}
+$grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+ {
+  coords 4153.836 39.297 7766.255
+  angleY 68.345
+ }
+ {
+  coords 4153.166 39.297 7764
+  angleY 142.501
+ }
+ {
+  coords 4150.498 39.512 7763.252
+  angleY -20.521
+ }
+ {
+  coords 4142.555 37.45 7782.59
+  angleY -166.65
+ }
+ {
+  coords 4143.948 37.762 7772.092
+  angleY 85.712
+  scale 1.36
+ }
+}
+$grp StaticModelEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+ {
+  coords 4153.563 -0.501 7750.885
+  angleX -3.644
+  angleY 8.624
+ }
+ {
+  coords 4154.092 -0.522 7754.375
+  angleY 8.624
+ }
+}

@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{C6CE4F7F230E7175}Configs/Editor/PlaceableEntities/NewProp_Props.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

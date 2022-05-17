@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{F3F7765A0E0EB010}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_SL.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

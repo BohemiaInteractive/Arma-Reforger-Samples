@@ -1,0 +1,46 @@
+MetaFileClass {
+ Name "{CEF64051BB82B9EB}Assets/Weapons/Rifles/SampleWeapon_01/SampleWeapon_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "SampleWeapon_01.fbx"
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{513ACCCE012E532D}" {
+     SourceMaterial "msbs_01_co"
+     AssignedMaterial "{6763056204A8F940}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo1.emat"
+    }
+    MaterialAssignClass "{513ACCCE012E530D}" {
+     SourceMaterial "msbs_02_co"
+     AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Weapon {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat" "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{520AE0474C576D5D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{520AE0474C576EA4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{520AE0474C576ECC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{520AE0474C576E19}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

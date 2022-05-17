@@ -1,0 +1,33 @@
+GameProject {
+ ID "SampleMod_NewProp"
+ GUID "5614E48153A5B50D"
+ TITLE "Sample Mod - New Prop"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{55DECC63C9D2AC79}" {
+      StringTableSource "{55DEE1D93B519EF6}Language/localization.st"
+      Languages {
+       LanguageDefinition "{55DECC63CC20CD3E}" {
+        Code "en_us"
+        StringTableRuntime "{55DEE1D93FD8BFA3}Language/localization.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

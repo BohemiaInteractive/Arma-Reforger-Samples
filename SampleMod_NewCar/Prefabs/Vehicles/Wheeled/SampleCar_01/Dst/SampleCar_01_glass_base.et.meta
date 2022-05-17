@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{474FBF7F46802ACD}Prefabs/Vehicles/Wheeled/M998/Dst/SampleCar_window_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

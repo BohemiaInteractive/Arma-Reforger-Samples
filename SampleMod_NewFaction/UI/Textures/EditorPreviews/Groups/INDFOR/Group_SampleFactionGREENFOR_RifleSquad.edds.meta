@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DAA1F3E9ECAB8A33}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_RifleSquad.edds"
+ Configurations {
+  PNGResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass HEADLESS : PC {
+  }
+  PNGResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

@@ -1,0 +1,41 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  FactionAffiliationComponent "{56A8BD34079D5293}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAuthoredLabels {
+     15 1001
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C6430F40C6CE8341}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_blue.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{59DC01B2E69974DF}Prefabs/Characters/Uniforms/Jacket_M88_blue.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{F362DCBDEABC4DEC}Prefabs/Characters/Uniforms/Pants_M88_blue.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{3A63855CA00B0486}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_blue.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+ }
+ coords 2869.477 71.909 1668.522
+}

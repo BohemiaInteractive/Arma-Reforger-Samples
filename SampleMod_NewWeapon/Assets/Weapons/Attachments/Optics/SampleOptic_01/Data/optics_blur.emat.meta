@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{77FE898596928E4B}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/optics_blur.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

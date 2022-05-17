@@ -1,0 +1,19 @@
+GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Full.et" {
+ ID "54928BB79430CE1A"
+ components {
+  SlotManagerComponent "{55BCB445DA7D6E35}" {
+   Slots {
+    EntitySlotInfo Wing_L {
+     Prefab "{FA0345CFCE47FCDE}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Wing.et"
+    }
+    EntitySlotInfo Wing_R {
+     Prefab "{FA0345CFCE47FCDE}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Wing.et"
+    }
+    EntitySlotInfo Lid_1 {
+     Prefab "{433E143A888156C9}Prefabs/Props/Military/Camps/PortableDesk_01_Sand_Lid.et"
+    }
+   }
+  }
+ }
+ coords 3.499 3.247 3.682
+}
