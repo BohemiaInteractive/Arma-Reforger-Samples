@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{3308AFB8143AD36E}Configs/Arsenal/ArsenalConfig_OPFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

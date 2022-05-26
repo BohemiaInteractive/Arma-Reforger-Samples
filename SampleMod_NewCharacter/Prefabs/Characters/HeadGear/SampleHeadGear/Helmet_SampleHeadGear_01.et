@@ -9,10 +9,11 @@ GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helm
    }
   }
   MeshObject "{5112706CD4157AE0}" {
-   Object "{2486133257F3E4F3}Assets/Characters/SampleCharacter/Headgear_Example.xob"
+   Object "{233CB9BFBCDD11A7}Assets/Characters/SampleCharacter/Headgear_Example_item.xob"
   }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    WornModel "{2486133257F3E4F3}Assets/Characters/SampleCharacter/Headgear_Example.xob"
+   ItemModel "{233CB9BFBCDD11A7}Assets/Characters/SampleCharacter/Headgear_Example_item.xob"
   }
  }
 }

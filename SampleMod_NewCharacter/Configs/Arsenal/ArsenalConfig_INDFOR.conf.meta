@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{E2AFCD446759CC8C}Configs/Arsenal/ArsenalConfig_INDFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
