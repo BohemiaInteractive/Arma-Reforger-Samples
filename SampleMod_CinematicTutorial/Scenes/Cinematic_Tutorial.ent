@@ -1,0 +1,6 @@
+SubScene {
+ Parent "{92F0C6A77A34E712}worlds/TestMaps/TestWorld/TestWorld.ent"
+}
+Layer default {
+ Index 0
+}

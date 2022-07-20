@@ -1,0 +1,225 @@
+CinematicEntity Cinematic_Tutorial {
+ coords 0 0 0
+ Scene CinematicScene "{59DCD5CC7FB6D811}" {
+  Tracks {
+   CameraCinematicTrack "{59DCD5CC7DB8C117}" {
+    TrackName "Camera"
+    Position Vector3CinematicTrack "{59DCD5CC7DB8C14D}" {
+     TrackName "Position"
+     X FloatCinematicTrack "{59DCD5CC7DB8C15A}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A6189A}" {
+        FrameNumber 0
+        Value 1257.222
+       }
+       FloatCinematicKeyframe "{59DCD5CCE87548CF}" {
+        FrameNumber 350
+        Value 1256.795
+       }
+      }
+     }
+     Y FloatCinematicTrack "{59DCD5CC7DB8C15D}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A61613}" {
+        FrameNumber 0
+        Value 52.39
+       }
+       FloatCinematicKeyframe "{59DCD5CCE875B435}" {
+        FrameNumber 350
+        Value 51.774
+       }
+      }
+     }
+     Z FloatCinematicTrack "{59DCD5CC7DB8C151}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A60ED5}" {
+        FrameNumber 0
+        Value 1313.55
+       }
+       FloatCinematicKeyframe "{59DCD5CCE8759200}" {
+        FrameNumber 350
+        Value 1315.094
+       }
+      }
+     }
+    }
+    Angles Vector3CinematicTrack "{59DCD5CC7DB8C16B}" {
+     TrackName "Angles"
+     X FloatCinematicTrack "{59DCD5CC7DB8C16C}" {
+      TrackName "X"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A6078C}" {
+        FrameNumber 0
+        Value -5.1
+       }
+       FloatCinematicKeyframe "{59DCD5CCE875FBC7}" {
+        FrameNumber 350
+        Value -1.2
+       }
+      }
+     }
+     Y FloatCinematicTrack "{59DCD5CC7DB8C160}" {
+      TrackName "Y"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A67C16}" {
+        FrameNumber 0
+        Value 9.6
+       }
+       FloatCinematicKeyframe "{59DCD5CCE875E1BF}" {
+        FrameNumber 350
+        Value 7.5
+       }
+      }
+     }
+     Z FloatCinematicTrack "{59DCD5CC7DB8C167}" {
+      TrackName "Z"
+      Keyframes {
+       FloatCinematicKeyframe "{59DCD5CC69A674E3}" {
+        FrameNumber 0
+        Value 0
+       }
+       FloatCinematicKeyframe "{59DCD5CCE875CFDF}" {
+        FrameNumber 350
+        Value 0
+       }
+      }
+     }
+    }
+    FOV FloatCinematicTrack "{59DCD5CC7DB8C17A}" {
+     TrackName "FOV"
+    }
+    DOF DOFCinematicTrack "{59DCD5CC7DB8C17F}" {
+     TrackName "DOF"
+     Enabled BooleanCinematicTrack "{59DCD5CC7DB8C174}" {
+      TrackName "Enabled"
+     }
+     FocusDistance FloatCinematicTrack "{59DCD5CC7DB8C18E}" {
+      TrackName "FocusDistance"
+     }
+     LengthNear FloatCinematicTrack "{59DCD5CC7DB8C183}" {
+      TrackName "LengthNear"
+     }
+     LengthFar FloatCinematicTrack "{59DCD5CC7DB8C185}" {
+      TrackName "LengthFar"
+     }
+    }
+    HDR HDRCinematicTrack "{59DCD5CC7DB8C199}" {
+     TrackName "HDR"
+     ManualExposition BooleanCinematicTrack "{59DCD5CC7DB8C192}" {
+      TrackName "ManualExposition"
+     }
+     ExpositionLV FloatCinematicTrack "{59DCD5CC7DB8C191}" {
+      TrackName "ExpositionLV"
+     }
+    }
+   }
+   AnimationCinematicTrack "{59DCD5CC5E2E80D2}" {
+    TrackName "soldier_A"
+    Play BooleanCinematicTrack "{59DCD5CC5E2E80F0}" {
+     TrackName "Play"
+     Keyframes {
+      BooleanCinematicKeyframe "{59DCD5CC5C4B9CF0}" {
+       FrameNumber 0
+       Value 1
+      }
+     }
+    }
+   }
+   ScriptEventsCinematicTrack "{59DCD5CC334E32D3}" {
+    TrackName "ScriptEvents"
+    Keyframes {
+     ScriptEventCinematicKeyframe "{59DCD5CC33DA4A2B}" {
+      FrameNumber 0
+      Script ""\
+      "		PlayCameraAnimation(\"{0459F35ED65AD470}Animations/Camera/camera_natural_shake.anm\", \"root\", 0.0);"\
+      "				"\
+      "		//SOLDIER - CHANGE STANCE"\
+      "		/*GenericEntity soldier = GenericEntity.Cast(GetWorld().FindEntityByName(\"soldier_scripted\"));"\
+      "		CharacterControllerComponent soldier_c = CharacterControllerComponent.Cast(soldier.FindComponent(CharacterControllerComponent));"\
+      "		soldier_c.SetStanceChange(ECharacterStanceChange.STANCECHANGE_TOCROUCH);*/"\
+      "		"\
+      "		//SOLDIER - MOVE"\
+      "		/*GenericEntity soldier = GenericEntity.Cast(GetWorld().FindEntityByName(\"soldier_scripted\"));"\
+      "		CharacterControllerComponent soldier_c = CharacterControllerComponent.Cast(soldier.FindComponent(CharacterControllerComponent));"\
+      "		vector direction = {0,0,1};"\
+      "		soldier_c.SetMovement(2, direction);*/"\
+      "		"\
+      "		//SOLDIER - RELOAD"\
+      "		/*GenericEntity soldier = GenericEntity.Cast(GetWorld().FindEntityByName(\"soldier_scripted\"));"\
+      "		CharacterControllerComponent soldier_c = CharacterControllerComponent.Cast(soldier.FindComponent(CharacterControllerComponent));"\
+      "		soldier_c.ReloadWeapon();*/"\
+      "		"\
+      "		//SOLDIER - SHOOT PHASE 1"\
+      "		GenericEntity soldier = GenericEntity.Cast(GetWorld().FindEntityByName(\"soldier_scripted\"));"\
+      "		CharacterControllerComponent soldier_c = CharacterControllerComponent.Cast(soldier.FindComponent(CharacterControllerComponent));"\
+      "		soldier_c.SetWeaponRaised(true);"\
+      "		soldier_c.SetSafety(false, true);"\
+      "		"\
+      "		//VEHICLE - GO"\
+      "		vehicleGO(\"BTR1\",-0.5);"\
+      "		"\
+      "		//CAMERA ATTACH TO VEHICLE"\
+      "		/*GenericEntity vehicle = GenericEntity.Cast(GetWorld().FindEntityByName(\"BTR1\"));"\
+      "		int boneIndex = vehicle.GetBoneIndex(\"v_root\");"\
+      "		vector positionOffset = Vector(-2.5, 1.5, 6.0);"\
+      "		vector anglesOffset = Vector(0, 180, 0);		"\
+      "		AttachCameraToEntity(vehicle, boneIndex, positionOffset, anglesOffset);*/"\
+      "	"
+     }
+     ScriptEventCinematicKeyframe "{59DCD5CF398E5C6A}" {
+      FrameNumber 100
+      Script ""\
+      "		//SOLIER - SHOOT PHASE 2"\
+      "		GenericEntity soldier = GenericEntity.Cast(GetWorld().FindEntityByName(\"soldier_scripted\"));"\
+      "		CharacterControllerComponent soldier_c = CharacterControllerComponent.Cast(soldier.FindComponent(CharacterControllerComponent));"\
+      "		soldier_c.SetFireMode(2);"\
+      "		soldier_c.SetFireWeaponWanted(1);"\
+      "	}"\
+      "	"\
+      "	void vehicleGO(string entityName, float steering = 0) {"\
+      "		GenericEntity vehicle = GenericEntity.Cast(GetWorld().FindEntityByName(entityName));"\
+      "		CarControllerComponent vehicle_c = CarControllerComponent.Cast(vehicle.FindComponent(CarControllerComponent));"\
+      "		vehicle_c.StartEngine();"\
+      "		VehicleWheeledSimulation vehicle_s = VehicleWheeledSimulation.Cast(vehicle.FindComponent(VehicleWheeledSimulation));"\
+      "		vehicle_s.SetBreak(0,false);"\
+      "		vehicle_s.SetGear(2);"\
+      "		vehicle_s.SetThrottle(0.5);"\
+      "		vehicle_s.SetSteering(steering);"\
+      "	"
+     }
+    }
+   }
+  }
+ }
+}
+SCR_ChimeraCharacter soldier_scripted : "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et" {
+ coords 1255.992 50.98 1319.968
+ angleY 21.781
+}
+GenericEntity soldier_A : "{82A728A8736626EB}Prefabs/Character/CINEMATIC_RU_soldier_with_animation.et" {
+ components {
+  BaseSlotComponent "{5670AB5CB11668B0}" {
+   Enabled 0
+  }
+  AnimationPlayerComponent "{5670AB5CB11668D8}" {
+   Animation "{5E16196A8D26CDD1}Animations/Character/cine_pushups.anm"
+  }
+ }
+ coords 1257.759 50.98 1318.167
+ angleY -108.769
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
+   Enabled 0
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 22624.699
+  }
+ }
+ coords 1260.068 50.984 1326.252
+ angleY 163.076
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{10AEA3921BAEFE0F}Animations/Camera/camera_natural_shake_heavy.anm"
+ Configurations {
+  FBXAnimResourceClass PC {
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass XBOX_SERIES : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass HEADLESS : PC {
+  }
+ }
+}

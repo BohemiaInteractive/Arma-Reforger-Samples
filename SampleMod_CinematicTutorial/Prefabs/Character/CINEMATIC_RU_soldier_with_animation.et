@@ -1,0 +1,147 @@
+GenericEntity {
+ ID "5670AB5CB11668B7"
+ components {
+  BaseSlotComponent "{5670AB5CB11668B0}" {
+   AttachType EntitySlotInfo primary_weapon {
+    PivotID "RightHandProp"
+   }
+   EntityPrefab "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
+  }
+  CharacterIdentityComponent "{5670AB5CB11668BB}" {
+   Identity Identity "{5670AB5CB11668A6}" {
+    VisualIdentity VisualIdentity "{56F11047ADAB064B}" {
+     Head "{0F6C19B0574DCBCA}Prefabs/Characters/Heads/Head_White_03.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+     BodyMeshesConfig MeshConfig "{56F11138B0CA5585}" {
+      SubmeshesOfBody {
+       IdentityBodyMesh "{5584CBC7983D908C}" {
+        PartType "Arm_L"
+        HealthyVersion "Basebody_Arm_L"
+        WoundVersion "Basebody_Arm_L_wound"
+       }
+       IdentityBodyMesh "{5594A187B7350302}" {
+        PartType "Arm_R"
+        HealthyVersion "Basebody_Arm_R"
+        WoundVersion "Basebody_Arm_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC798F6E9F4}" {
+        PartType "ArmUpper_L"
+        HealthyVersion "Basebody_ArmUpper_L"
+        WoundVersion "Basebody_ArmUpper_L_wound"
+       }
+       IdentityBodyMesh "{5594A187A1415184}" {
+        PartType "ArmUpper_R"
+        HealthyVersion "Basebody_ArmUpper_R"
+        WoundVersion "Basebody_ArmUpper_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC798D23CB9}" {
+        PartType "Calf_L"
+        HealthyVersion "Basebody_Calf_L"
+        WoundVersion "Basebody_Calf_L_wound"
+       }
+       IdentityBodyMesh "{5594A1879DBEE58D}" {
+        PartType "Calf_R"
+        HealthyVersion "Basebody_Calf_R"
+        WoundVersion "Basebody_Calf_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC79B2E35C0}" {
+        PartType "Foot_L"
+        HealthyVersion "Basebody_Foot_L"
+        WoundVersion "Basebody_Foot_L_wound"
+       }
+       IdentityBodyMesh "{5594A187880A1390}" {
+        PartType "Foot_R"
+        HealthyVersion "Basebody_Foot_R"
+        WoundVersion "Basebody_Foot_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC79B1F07EF}" {
+        PartType "Groin"
+        HealthyVersion "Basebody_Groin"
+        WoundVersion "Basebody_Groin_wound"
+       }
+       IdentityBodyMesh "{5584CBC79B7D8296}" {
+        PartType "Hand_L"
+        HealthyVersion "Basebody_Hand_L"
+        WoundVersion "Basebody_Hand_L_wound"
+       }
+       IdentityBodyMesh "{5594A187E3BB44A4}" {
+        PartType "Hand_R"
+        HealthyVersion "Basebody_Hand_R"
+        WoundVersion "Basebody_Hand_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC79B5B6879}" {
+        PartType "Leg_L"
+        HealthyVersion "Basebody_Leg_L"
+        WoundVersion "Basebody_Leg_L_wound"
+       }
+       IdentityBodyMesh "{5594A187DD1DCF47}" {
+        PartType "Leg_R"
+        HealthyVersion "Basebody_Leg_R"
+        WoundVersion "Basebody_Leg_R_wound"
+       }
+       IdentityBodyMesh "{5584CBC79BB8432B}" {
+        PartType "Torso"
+        HealthyVersion "Basebody_Torso"
+        WoundVersion "Basebody_Torso_wound"
+       }
+       IdentityBodyMesh "{5584CBC774E4D721}" {
+        PartType "Head"
+        HealthyVersion "Basebody_Head"
+        WoundVersion "Basebody_Head_wound"
+       }
+      }
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{5670AB5CB11668D5}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BFCE7FE311985683}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_base.et"
+     Name "Helmet"
+     Area HeadCover
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E44990162EBC47B7}Prefabs/Characters/Uniforms/Jacket_M88_base.et"
+     Name "Jacket"
+     Area Jacket
+     MeshesToHide {
+      "Torso" "Arm_L" "Arm_R" "ArmUpper_L" "ArmUpper_R"
+     }
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+     Name "Pants"
+     Area Pants
+     MeshesToHide {
+      "Leg_L" "Leg_R" "Groin"
+     }
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+     Name "Boots"
+     Area Boots
+     MeshesToHide {
+      "Foot_L" "Foot_R"
+     }
+    }
+    LoadoutSlotInfo Back {
+     PivotID "scene_root"
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     Name "Backpack"
+     Area Backpack
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{5E42FE68FA744D8B}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Rifleman.et"
+     Name "Vest"
+     Area Vest
+    }
+   }
+  }
+  AnimationPlayerComponent "{5670AB5CB11668D8}" {
+   Animation "{5E16196A8D26CDD1}Animations/Character/cine_pushups.anm"
+   Loop 1
+  }
+ }
+ coords 1272.731 51.011 1397.296
+}

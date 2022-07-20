@@ -1,0 +1,8 @@
+GameProject {
+ ID "SampleModCinematicTutorial"
+ GUID "59DCD5CD64E87386"
+ TITLE "Sample Mod - Cinematic Tutorial"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

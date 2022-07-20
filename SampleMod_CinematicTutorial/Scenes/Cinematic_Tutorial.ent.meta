@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BDE23CF1123C2E3B}Scenes/Cinematic_Tutorial.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
