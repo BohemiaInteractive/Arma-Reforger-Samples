@@ -646,14 +646,14 @@ $grp GenericEntity {
    }
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     SaintPhilip_Supply {
-     coords -423.545 -25.054 208.14
-     angleY 167.156
+     coords -386.168 -20.922 345.768
+     angleY -97.247
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.002 0
-       angleX -0.127
-       angleZ -0.549
+       coords 0 0.078 0
+       angleX 0.239
+       angleZ 0.119
       }
      }
     }
@@ -1487,37 +1487,35 @@ $grp GenericEntity {
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Tyrone_Antenna {
-     coords -4.085 1.38 -25.015
+     coords -4.085 1.252 -25.015
      angleY 0.025
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.086 0
+       coords 0 0.042 0
        angleX -6.211
        angleZ 0.978
       }
      }
     }
     Tyrone_Armory {
-     coords -13.873 -1.295 -9.508
+     coords -13.873 -0.193 -9.508
      angleY 103.624
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 1.15 0
-       angleX 0.723
+       coords 0 0.048 0
        angleY -1.255
-       angleZ -6.171
       }
      }
     }
     Tyrone_Fuel {
-     coords 10.258 -0.574 -7.145
+     coords 10.258 -0.563 -7.145
      angleY -49.483
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.061 0
+       coords 0 -0.072 0
        angleX 0.041
        angleY 71.33
        angleZ 5.075
@@ -1525,25 +1523,23 @@ $grp GenericEntity {
      }
     }
     Tyrone_HQ {
-     coords -11.184 -1.841 6.995
+     coords -11.184 -0.285 6.995
      angleY 77.745
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.228 0
-       angleX -0.115
+       coords 0 -1.328 0
        angleY 177.624
-       angleZ -4.263
       }
      }
     }
     Tyrone_Repair {
-     coords 14.773 0.057 13.959
+     coords 14.773 -1.268 13.959
      angleY -77.903
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -2.472 0
+       coords 0 -1.147 0
        angleX 0.606
        angleY 0.022
        angleZ 6.703
@@ -1551,12 +1547,12 @@ $grp GenericEntity {
      }
     }
     Tyrone_Supply {
-     coords -5.518 -2.85 25.482
+     coords -5.518 -2.827 25.482
      angleY 119.258
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.033 0
+       coords 0 -0.056 0
        angleX 1.487
        angleZ -3.978
       }
@@ -1729,12 +1725,12 @@ $grp GenericEntity {
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Morton_Antenna {
-     coords -134.521 -18.919 -290.052
-     angleY -56.319
+     coords -130.135 -18.887 -307.095
+     angleY 58.763
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0 0
+       coords 0 -0.032 0
       }
      }
     }
@@ -1759,14 +1755,14 @@ $grp GenericEntity {
      }
     }
     Morton_Fuel {
-     coords -100.526 -18.919 -298.384
+     coords -102.696 -18.919 -299.549
      angleY -39.225
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.009 0
-       angleX 0.406
-       angleZ 0.071
+       coords 0 -0.011 0
+       angleX 0.157
+       angleZ 0.085
       }
      }
     }
@@ -2699,6 +2695,45 @@ $grp GenericEntity {
        coords 0 0.033 0
        angleX -0.164
        angleZ -0.358
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_LevieMilitary {
+  coords 7464.537 165.569 4306.333
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    LevieMilitary_Supply {
+     coords 20.61 -0.069 -86.657
+     angleY 14.036
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.007 0
+       angleX 0.057
+       angleZ -0.017
+      }
+     }
+    }
+    LevieMilitary_Armory {
+     coords 0.486 -0.069 -82.777
+     angleY 15.101
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
+    LevieMilitary_Repair {
+     coords 74.728 1.275 -106.277
+     angleY 109.044
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
       }
      }
     }

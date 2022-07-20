@@ -1,41 +1,151 @@
-$grp GenericEntity : "{79BB6C3D824A6AFC}Prefabs/Compositions/Slotted/SlotRoadLarge/CheckpointUnderConstruction_L_US_02.et" {
+$grp GenericEntity : "{9483333BFD9E2D0E}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
-  coords 7608.917 163.548 4531.676
-  angleY 50.189
+  coords 9344.007 49.697 1953.085
+  angleX -0.624
+  angleY 135.799
+  angleZ -0.642
  }
  {
-  coords 8841.549 94.853 2683.688
-  angleY 151.56
- }
-}
-GenericEntity : "{81041DCD151F5A1D}Prefabs/Compositions/Slotted/SlotRoadLarge/CheckpointUnderConstruction_L_US_01.et" {
- coords 4931.654 36.215 9176.382
- angleY 69.448
-}
-$grp GenericEntity : "{CBCF4383E3652F6D}Prefabs/Compositions/Slotted/SlotRoadSmall/CheckpointUnderConstruction_S_US_02.et" {
- {
-  coords 4960.654 28.67 10641.889
-  angleY 168.301
+  coords 8589.953 124.723 3292.752
+  angleX -0.803
+  angleY 116.164
+  angleZ -0.395
  }
  {
-  coords 5366.218 20.16 9970.313
-  angleY -68.996
+  coords 8111.853 222.608 4144.008
+  angleX -0.386
+  angleY 154.472
+  angleZ -0.808
  }
  {
-  coords 5679.301 218.78 7085.395
-  angleY -73.839
+  coords 5841.248 101.719 5924.945
+  angleX -0.823
+  angleY 113.17
+  angleZ -0.352
  }
  {
-  coords 8657.3 180.908 3684.193
-  angleY -134.912
+  coords 4641.927 110.334 8245.408
+  angleX -7.1
+  angleY -4.873
+  angleZ 0.604
  }
  {
-  coords 7074.076 116.868 5416.005
-  angleY -46.567
+  coords 4557.934 22.005 9720.282
+  angleX -0.869
+  angleY 13.867
+  angleZ -0.214
  }
  {
-  coords 5408.811 77.472 5661.476
-  angleY 14.173
+  coords 4928.815 27.666 11484.216
+  angleY -177.74
+ }
+ {
+  coords 6832.992 73.523 4800.578
+  angleX 2.53
+  angleY 135.801
+  angleZ 0.035
+ }
+ {
+  coords 5905.148 12.206 4365.862
+  angleX -2.678
+  angleY 86.288
+  angleZ 0.174
+ }
+ {
+  coords 5224.425 74.593 5090.39
+  angleX -3.904
+  angleY -38.999
+  angleZ 0.86
+ }
+ {
+  coords 3796.89 115.652 4968.864
+  angleX -0.323
+  angleY -68.851
+  angleZ 0.835
+ }
+ {
+  coords 6744.807 146.242 7124.338
+  angleX -5.429
+  angleY 79.633
+  angleZ 0.086
+ }
+ {
+  coords 5612.271 212.485 7099.749
+  angleX -6.409
+  angleY -83.142
+  angleZ 1.023
+ }
+ {
+  coords 2988.943 27.426 6963.982
+  angleX -4.489
+  angleY 68.066
+  angleZ -3.961
+ }
+ {
+  coords 4027.976 110.273 6707.115
+  angleX 8.91
+  angleY 87.509
+  angleZ 0.499
+ }
+ {
+  coords 1514.19 53.575 5970.156
+  angleX 0.893
+  angleY 94.306
+  angleZ 0.067
+ }
+ {
+  coords 2106.1 109.343 5424.283
+  angleX -2.964
+  angleY -56.885
+  angleZ 1.269
+ }
+ {
+  coords 7602.307 163.644 4525.29
+  angleX 1.253
+  angleY 44.432
+  angleZ -1.278
+ }
+ {
+  coords 8820.058 94.725 2755.747
+  angleX -0.844
+  angleY 160.571
+  angleZ 0.298
+ }
+ {
+  coords 4925.357 36.267 9186.44
+  angleX 0.815
+  angleY -24.386
+  angleZ -0.37
+ }
+ {
+  coords 4960.236 28.665 10644.108
+  angleX 2.825
+  angleY 158.541
+  angleZ -0.149
+ }
+ {
+  coords 5366.766 19.518 9969.808
+  angleX -2.826
+  angleY -74.278
+  angleZ 0.134
+ }
+ {
+  coords 8657.147 180.99 3683.57
+  angleX -1.236
+  angleY -147.474
+  angleZ 0.273
+ }
+ {
+  coords 7084.141 117.015 5419.804
+  angleX 0.214
+  angleY -144.753
+  angleZ 1.248
+ }
+ {
+  coords 5408.749 77.475 5661.784
+  angleX 0.892
+  angleY 4.414
+  angleZ 0.069
  }
 }
 $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
@@ -806,48 +916,8 @@ $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bas
   }
  }
  {
-  coords 4960.369 28.579 10644.671
-  angleY 161.644
-  m_eGroupType AT
- }
- {
-  coords 5370.196 20.39 9975.506
-  angleY -95.47
-  m_eGroupType AT
- }
- {
   coords 4923.489 36.132 9174.081
   angleY 70.931
-  m_eGroupType AT
- }
- {
-  coords 5682.204 218.827 7084.228
-  angleY -76.887
-  m_eGroupType AT
- }
- {
-  coords 7615.053 164.386 4529.625
-  angleY -64.039
-  m_eGroupType AT
- }
- {
-  coords 8844.063 94.926 2686.275
-  angleY 161.644
-  m_eGroupType AT
- }
- {
-  coords 8659.207 181.026 3685.722
-  angleY -141.719
-  m_eGroupType AT
- }
- {
-  coords 7071.78 116.658 5409.05
-  angleY -20.38
-  m_eGroupType AT
- }
- {
-  coords 5408.005 77.416 5659.9
-  angleY 1.078
   m_eGroupType AT
  }
  {
@@ -1297,5 +1367,172 @@ $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bas
     }
    }
   }
+ }
+ {
+  coords 9339.403 49.697 1959.836
+  angleY 139.609
+  m_eGroupType AT
+ }
+ {
+  coords 8583.349 125.142 3297.564
+  angleX -0.196
+  angleY 119.977
+  angleZ 0.235
+  m_eGroupType AT
+ }
+ {
+  coords 8109.655 223.074 4151.877
+  angleX 0.249
+  angleY 158.28
+  angleZ -0.15
+  m_eGroupType AT
+ }
+ {
+  coords 5834.401 102.05 5929.406
+  angleX -0.218
+  angleY 116.983
+  angleZ 0.276
+  m_eGroupType AT
+ }
+ {
+  coords 4641.198 111.319 8237.273
+  angleX -7.124
+  angleY -0.989
+  angleZ 0.123
+  m_eGroupType AT
+ }
+ {
+  coords 4554.637 21.92 9712.805
+  angleX 1.977
+  angleY 17.681
+  angleZ -0.309
+  m_eGroupType AT
+ }
+ {
+  coords 4930.538 27.697 11492.204
+  angleY -173.933
+  m_eGroupType AT
+ }
+ {
+  coords 6828.388 73.158 4807.329
+  angleX 2.522
+  angleY 139.618
+  angleZ 0.204
+  m_eGroupType AT
+ }
+ {
+  coords 5897.025 12.665 4366.746
+  angleX -3.576
+  angleY 90.111
+  angleZ -0.007
+  m_eGroupType AT
+ }
+ {
+  coords 5228.399 75.174 5083.251
+  angleX -4.68
+  angleY -35.194
+  angleZ 1.113
+  m_eGroupType AT
+ }
+ {
+  coords 3803.886 115.758 4964.645
+  angleX -0.811
+  angleY -64.998
+  angleZ -0.378
+  m_eGroupType AT
+ }
+ {
+  coords 6736.636 146.872 7124.276
+  angleX -3.655
+  angleY 83.486
+  angleZ -0.482
+  m_eGroupType AT
+ }
+ {
+  coords 5620.087 213.436 7097.372
+  angleX -7.165
+  angleY -79.122
+  angleZ -0.469
+  m_eGroupType AT
+ }
+ {
+  coords 2980.958 28.649 6962.246
+  angleX -11.18
+  angleY 71.636
+  angleZ -0.014
+  m_eGroupType AT
+ }
+ {
+  coords 4019.873 109.055 6708.16
+  angleX 8.856
+  angleY 91.417
+  angleZ 1.103
+  m_eGroupType AT
+ }
+ {
+  coords 1506.269 53.386 5972.164
+  angleX 1.012
+  angleY 98.103
+  angleZ -0.76
+  m_eGroupType AT
+ }
+ {
+  coords 2112.063 109.72 5418.698
+  angleX -1.968
+  angleY -52.959
+  angleZ -0.364
+  m_eGroupType AT
+ }
+ {
+  coords 7595.665 163.294 4520.532
+  angleX 1.264
+  angleY 48.298
+  angleZ 0.073
+  m_eGroupType AT
+ }
+ {
+  coords 8818.705 94.961 2763.805
+  angleX -1.964
+  angleY 164.397
+  angleZ -0.38
+  m_eGroupType AT
+ }
+ {
+  coords 4927.395 36.36 9178.528
+  angleX 0.361
+  angleY -20.559
+  angleZ 0.047
+  m_eGroupType AT
+ }
+ {
+  coords 4958.602 28.423 10652.115
+  angleX 1.124
+  angleY 162.366
+  angleZ 0.582
+  m_eGroupType AT
+ }
+ {
+  coords 5374.129 19.822 9966.272
+  angleX -1.986
+  angleY -70.464
+  angleZ 0.245
+  m_eGroupType AT
+ }
+ {
+  coords 8662.661 181.104 3689.598
+  angleY -143.656
+  m_eGroupType AT
+ }
+ {
+  coords 7089.934 117.072 5425.566
+  angleY -140.936
+  m_eGroupType AT
+ }
+ {
+  coords 5406.725 77.289 5653.866
+  angleX 0.886
+  angleY 8.239
+  angleZ 0.128
+  m_eGroupType AT
  }
 }

@@ -1,0 +1,54 @@
+SubScene {
+ Parent "{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+}
+Layer logic {
+ Index 0
+}
+Layer AI {
+ Index 4
+}
+Layer relays {
+ Index 2
+}
+Layer bases {
+ Index 3
+}
+Layer preload {
+ Index 5
+}
+Layer comp_Gravette {
+ Index 1
+}
+Layer comp_Provins {
+ Index 6
+}
+Layer comp_Figary {
+ Index 7
+}
+Layer comp_Morton {
+ Index 8
+}
+Layer comp_Montignac {
+ Index 9
+}
+Layer comp_Meaux {
+ Index 10
+}
+Layer comp_Lamentin {
+ Index 11
+}
+Layer comp_Mine {
+ Index 12
+}
+Layer comp_SimonsWood {
+ Index 13
+}
+Layer remnants {
+ Index 14
+}
+Layer slots_campaign {
+ Index 15
+}
+Layer evacuation_posters {
+ Index 16
+}

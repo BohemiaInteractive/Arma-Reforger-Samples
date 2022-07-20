@@ -1,11 +1,9 @@
 MetaFileClass {
- Name "{A1750C30B41E4E77}Worlds/MP/CTI_Campaign_Eden_SampleFaction_01_true.ent"
+ Name "{597E75E2D375DC70}worlds/MP/CTI_Campaign_Eden_SampleFaction_01.ent"
  Configurations {
   ENTResourceClass PC {
   }
   ENTResourceClass XBOX_ONE : PC {
-  }
-  ENTResourceClass XBOX_SERIES : PC {
   }
   ENTResourceClass PS4 : PC {
   }

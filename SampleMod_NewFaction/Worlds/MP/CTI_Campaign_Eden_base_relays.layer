@@ -1,6 +1,6 @@
 $grp SCR_CampaignBase : "{3E788ADC8534C604}Prefabs/MP/Campaign/Bases/CampaignRelayBaseEntityNew.et" {
  Relay15 {
-  coords 5856.311 235.96 7260.668
+  coords 5856.373 235.656 7260.68
   angleY 19.175
   m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
@@ -9,51 +9,41 @@ $grp SCR_CampaignBase : "{3E788ADC8534C604}Prefabs/MP/Campaign/Bases/CampaignRel
   {
    GenericEntity {
     ID "51D4F0B2DE2E4847"
-    coords 2.668 1.549 0.015
     angleY 90.013
    }
    StaticModelEntity {
     ID "51D4F0B2DE2E4885"
     components {
      MeshObject "{51D4B7EA3CE923BB}" {
-      Enabled 0
      }
      Hierarchy "{51D4B7EA2FC8A29F}" {
-      Enabled 0
      }
      RigidBody "{51D4B7EA191771C1}" {
-      Enabled 0
      }
     }
+    Flags 1048579
    }
   }
  }
  Relay4 {
-  coords 7681.975 341.732 3073.163
-  angleY -0.378
+  coords 7689.43 340.318 3058.403
+  angleY 80.079
   m_sBaseName "#AR-Campaign_MapLocation_Tower_Regina"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_Regina-UC"
   m_eStartingBaseOwner OPFOR
   m_iBaseID 25
   {
-   GenericEntity {
-    ID "51D4F0B2DE2E4847"
-    coords -2.599 0.492 -8.441
-    angleY -172.552
-   }
    StaticModelEntity {
     ID "51D4F0B2DE2E4885"
     components {
      MeshObject "{51D4B7EA3CE923BB}" {
-      Enabled 0
      }
      Hierarchy "{51D4B7EA2FC8A29F}" {
-      Enabled 0
      }
      RigidBody "{51D4B7EA191771C1}" {
-      Enabled 0
      }
     }
+    Flags 1048579
    }
   }
  }
