@@ -6,13 +6,35 @@ MetaFileClass {
    ExportSceneHierarchy 1
    Rotate 0 180 0
    MaterialAssigns {
-    MaterialAssignClass "{59626C61AEA62616}" {
-     SourceMaterial "Default_Material"
-     AssignedMaterial "{5E5A5D73A0195DD6}Assets/Characters/SampleCharacter/data/Default_Material.emat"
+    MaterialAssignClass "{5936B1F737DC1662}" {
+     SourceMaterial "Assets/Characters/Basebody/Data/Basebody_01_Male_Head"
+     AssignedMaterial "{2ABF1A7A74E02B82}Assets/Characters/Basebody/Data/Basebody_01_Male_Head.emat"
     }
-    MaterialAssignClass "{59626C61AEA62626}" {
-     SourceMaterial "lambert1"
-     AssignedMaterial "{97B08192E1C0A1AA}Assets/Characters/SampleCharacter/data/lambert1.emat"
+    MaterialAssignClass "{5936B1F737DC162C}" {
+     SourceMaterial "Common/Materials/Default"
+     AssignedMaterial "{3F4BEF609A08A3A4}Assets/Characters/Basebody/Data/Basebody_01_Male_Head_wound.emat"
+    }
+    MaterialAssignClass "{5936B1F737DC1622}" {
+     SourceMaterial "Assets/Characters/OPFOR/RU_Soldier_01/Data/Eyes"
+     AssignedMaterial "{D9B152E7762AA523}Assets/Characters/Basebody/Data/Eyes.emat"
+    }
+    MaterialAssignClass "{5936B1F737DC1638}" {
+     SourceMaterial "Neck"
+     AssignedMaterial "{9C523F9CA419041D}Assets/Characters/Basebody/Data/Basebody_01_Male_Neck.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Head {
+    }
+    MeshParam Head_neck {
+    }
+    MeshParam Head_wound {
+    }
+    MeshParam Head_wound_neck {
+    }
+    MeshParam eyeLeft {
+    }
+    MeshParam eyeRight {
     }
    }
    Common TXOCommonClass "{59626C67EA144A83}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
