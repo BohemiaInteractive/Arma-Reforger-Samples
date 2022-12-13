@@ -1,0 +1,28 @@
+GenericEntity : "{C31DC02F6CD4E72E}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{92498277B2548A95}Assets/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L02_2.xob"
+   Materials {
+    MaterialAssignClass "{5AF095D825A4A83F}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{62B42B998E960AD7}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Modded.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5AD4FD050A086870}" {
+   Slots {
+    RegisteringComponentSlotInfo Glass01 {
+     PivotID "v_door_L02"
+     Prefab "{C046EFD6ED63D109}Prefabs/Vehicles/Wheeled/UAZ469/dst/UAZ469_window_LR_01.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Glass02 {
+     PivotID "v_door_L02"
+     Prefab "{6BFF214EC1882CDA}Prefabs/Vehicles/Wheeled/UAZ469/dst/UAZ469_window_LR_02.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

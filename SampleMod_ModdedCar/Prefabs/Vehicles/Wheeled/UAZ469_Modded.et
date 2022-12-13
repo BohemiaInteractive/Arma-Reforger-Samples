@@ -53,20 +53,6 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
    CollisionVelocityThreshold 1
    m_fVehicleDestroyDamage 11880.1
   }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Turret {
-     PivotID "v_root"
-     Offset 0 1.0213 0
-     Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
-     RegisterActions 1
-     RegisterDamage 1
-     RegisterControllers 1
-     RegisterWeapons 1
-     RegisterCompartments 1
-    }
-   }
-  }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     Engine Engine Engine {
@@ -79,6 +65,32 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
        MaxSteeringAngle 48
       }
      }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{B01FEE74D46741D5}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L01_modded.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{B1B0DDDE233752C5}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_R01_Modded.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{9A3BC9D7228927FA}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L02_Modded.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{9B94FA7DD5D934EA}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_R02_Modded.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     PivotID "v_root"
+     Offset 0 1.0213 0
+     Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
     }
    }
   }
