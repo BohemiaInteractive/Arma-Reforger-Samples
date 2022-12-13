@@ -3,6 +3,7 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    SourceFile "PortableDesk_01_lid.fbx"
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{5236AD9CA8FD329C}" {
      SourceMaterial "portabledesk_01_olive_co"
@@ -13,7 +14,7 @@ MetaFileClass {
     GeometryParam UBX_Lid_1_LODFire_Geometry {
      LayerPreset "PropFireView"
      SurfaceProperties {
-      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -33,6 +34,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{5236AD9CA8C7421F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

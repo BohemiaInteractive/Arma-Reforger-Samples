@@ -12,7 +12,7 @@ MetaFileClass {
     GeometryParam UCX_Geo1 {
      LayerPreset "PropFireView"
      SurfaceProperties {
-      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -20,7 +20,7 @@ MetaFileClass {
     GeometryParam UCX_Geo2 {
      LayerPreset "PropFireView"
      SurfaceProperties {
-      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -28,7 +28,7 @@ MetaFileClass {
     GeometryParam UCX_Geo3 {
      LayerPreset "PropFireView"
      SurfaceProperties {
-      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm_min.gamemat"
+      "{C17486F3DA1510F6}Common/Materials/Game/Plastic/plastic_3mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -48,6 +48,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{55CEAE5A8E4AC2AC}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

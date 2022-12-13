@@ -1,9 +1,9 @@
 GenericEntity : "{7F58353D370BAF5E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive.et" {
  ID "5244BAE9DBC0BBF7"
  components {
-  SCR_EditableEntityComponent "{592C963BEB511BA4}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+  SCR_EditableEntityComponent "{5A10BE66F2767D14}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Olive Rugged Desk"
+    Name "#SampleMod-EditableEntity_PortableDesk_01_Olive_Name"
     m_Image "{8683600246EBBD4F}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Olive.edds"
     m_aAuthoredLabels {
      1001
@@ -13,10 +13,10 @@ GenericEntity : "{7F58353D370BAF5E}Prefabs/Props/Military/Camps/PortableDesk_01_
     }
    }
   }
-  SCR_PreviewEntityComponent "{592C963BEB5E47E9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+  SCR_PreviewEntityComponent "{5A10BE66F277F184}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{592C963BEB5E5E38}" {
+    SCR_BasePreviewEntry "{5A10BE66F2778B0E}" {
      m_iParentID -1
      m_Mesh "{411A617924FC3D61}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01.xob"
      m_Flags 0
@@ -29,5 +29,4 @@ GenericEntity : "{7F58353D370BAF5E}Prefabs/Props/Military/Camps/PortableDesk_01_
    }
   }
  }
- coords 2.644 4.664 -2.035
 }

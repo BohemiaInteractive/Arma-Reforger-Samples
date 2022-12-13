@@ -1,7 +1,7 @@
 GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
  ID "5244BAE9DBC0BBF7"
  components {
-  SignalsManagerComponent "{5244BAE8D3D28D2A}" {
+  SignalsManagerComponent "{59E8A030A0CDBFE6}" {
   }
   SoundComponent "{5494CE5D15F35C61}" {
    Filenames {
@@ -10,6 +10,9 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   }
   MeshObject "{5872F0EB7FA40561}" {
    Object "{411A617924FC3D61}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
   }
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
    Enabled 1
@@ -24,10 +27,10 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   }
   SlotManagerComponent "{55BCB445DA7D6E35}" {
   }
-  ProcAnimComponent "{5244BAE8D4FF7760}" {
+  ProcAnimComponent "{59E8A0309D56DA29}" {
    Parameters {
-    ProcAnimParams "{5244C1C214832121}" {
-     ResourceName "{A4A629323849328C}Assets/Props/Military/Camps/PortableDesk_01/drawer_move.pap"
+    ProcAnimParams "{59E8A0309C50E51C}" {
+     ResourceName "{A4A629323849328C}Assets/Props/Military/Camps/PortableDesk_01/Anims/drawer_move.pap"
      BoneNames {
       "drawer_1" "drawer_2" "drawer_3" "drawer_4" "drawer_5" "drawer_6"
      }
@@ -42,7 +45,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       PivotID "drawer_1"
       Offset 0 0 0.35
      }
-     Radius 0.2
+     Radius 0.15
     }
     UserActionContext "{5244BAE84E7BB125}" {
      ContextName "drawer_2"
@@ -58,7 +61,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       PivotID "drawer_3"
       Offset 0 0 0.35
      }
-     Radius 0.2
+     Radius 0.15
     }
     UserActionContext "{5244BAE8508126A4}" {
      ContextName "drawer_4"
@@ -74,7 +77,7 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
       PivotID "drawer_5"
       Offset 0 0 0.35
      }
-     Radius 0.2
+     Radius 0.15
     }
     UserActionContext "{5244BAE8502ED346}" {
      ContextName "drawer_6"

@@ -1,9 +1,11 @@
 MetaFileClass {
- Name "{8B9F70AC623EC08F}Assets/drawer_move.siga"
+ Name "{FB92C9BAB6E27FF9}Assets/Props/Military/Camps/PortableDesk_01/Anims/drawer_move.siga"
  Configurations {
   ProcAnimSignalResourceClass PC {
   }
   ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
   }
   ProcAnimSignalResourceClass PS4 : PC {
   }

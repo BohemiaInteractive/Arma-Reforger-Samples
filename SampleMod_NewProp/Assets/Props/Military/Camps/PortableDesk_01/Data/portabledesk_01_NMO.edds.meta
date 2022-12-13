@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{B9C0D06F8364C03F}Assets/Military/Camps/PortableDesk_01/Data/portabledesk_01_NMO.edds"
+ Name "{B9C0D06F8364C03F}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_NMO.edds"
  Configurations {
   TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
    SourceFile "portabledesk_01_NMO.tif"
@@ -12,6 +12,8 @@ MetaFileClass {
   }
   TIFFResourceClass HEADLESS : "{AFD658E4D0EB5FBC}Configs/System/ResourceTypes/HEADLESS/TextureNType.conf" {
    SourceFile "portabledesk_01_sand_NMO.tif"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
   }
  }
 }

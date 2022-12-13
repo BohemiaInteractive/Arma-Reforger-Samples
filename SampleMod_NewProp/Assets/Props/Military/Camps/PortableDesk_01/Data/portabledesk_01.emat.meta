@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{453947F3D7B3C60C}Assets/Military/Camps/PortableDesk_01/portabledesk_01_olive_co.emat"
+ Name "{453947F3D7B3C60C}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01.emat"
  Configurations {
   EMATResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EMATResourceClass PS4 : PC {
   }
   EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
   }
  }
 }

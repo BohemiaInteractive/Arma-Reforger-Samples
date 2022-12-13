@@ -8,6 +8,50 @@ MetaFileClass {
      AssignedMaterial "{453947F3D7B3C60C}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01.emat"
     }
    }
+   MeshParams {
+    MeshParam object_NNN256 {
+    }
+    MeshParam object_NNN369 {
+    }
+    MeshParam object_NNN370 {
+    }
+    MeshParam object_NNN371 {
+    }
+    MeshParam object_NNN372 {
+    }
+    MeshParam object_NNN373 {
+    }
+    MeshParam object_NNN374 {
+    }
+    MeshParam object_NNN375 {
+    }
+    MeshParam object_NNN376 {
+    }
+    MeshParam object_NNN377 {
+    }
+    MeshParam object_NNN378 {
+    }
+    MeshParam object_NNN397 {
+    }
+    MeshParam object_NNN434 {
+    }
+    MeshParam object_NNN435 {
+    }
+    MeshParam object_NNN436 {
+    }
+    MeshParam object_NNN444 {
+    }
+    MeshParam object_NNN445 {
+    }
+    MeshParam object_NNN475 {
+    }
+    MeshParam object_NNN496 {
+    }
+    MeshParam object_NNN507 {
+    }
+    MeshParam object_NNN508 {
+    }
+   }
    GeometryParams {
     GeometryParam UBX_Component02_LODGeometry {
      SurfaceProperties {
@@ -38,6 +82,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{55BCB4472C0AADD5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

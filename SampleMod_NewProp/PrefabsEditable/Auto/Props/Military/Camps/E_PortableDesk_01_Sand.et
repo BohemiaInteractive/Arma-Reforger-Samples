@@ -1,9 +1,9 @@
 GenericEntity : "{6B70EE3B746B966C}Prefabs/Props/Military/Camps/PortableDesk_01_Sand.et" {
  ID "5244BAE9DBC0BBF7"
  components {
-  SCR_EditableEntityComponent "{592C963BEB06C521}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+  SCR_EditableEntityComponent "{5A10BE66F27EDD92}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Sand Rugged Desk"
+    Name "#SampleMod-EditableEntity_PortableDesk_01_Sand_Name"
     m_Image "{08423421EE7E9325}UI/Textures/EditorPreviews/Auto/Props/Military/Camps/E_PortableDesk_01_Sand.edds"
     m_aAuthoredLabels {
      1001
@@ -13,10 +13,10 @@ GenericEntity : "{6B70EE3B746B966C}Prefabs/Props/Military/Camps/PortableDesk_01_
     }
    }
   }
-  SCR_PreviewEntityComponent "{592C963BEB060E8E}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+  SCR_PreviewEntityComponent "{5A10BE66F27E67EE}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{592C963BEB060682}" {
+    SCR_BasePreviewEntry "{5A10BE66F27E6148}" {
      m_iParentID -1
      m_Mesh "{411A617924FC3D61}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01.xob"
      m_Flags 0
@@ -29,5 +29,4 @@ GenericEntity : "{6B70EE3B746B966C}Prefabs/Props/Military/Camps/PortableDesk_01_
    }
   }
  }
- coords 3.366 4.604 -11.018
 }

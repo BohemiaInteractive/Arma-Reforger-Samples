@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8B47A41FF9495381}Assets/Military/Camps/PortableDesk_01/Data/portabledesk_01_A.edds"
+ Name "{8B47A41FF9495381}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_A.edds"
  Configurations {
   TIFFResourceClass PC : "{6B149ECE3A72EF45}Configs/System/ResourceTypes/PC/TextureOneChannel.conf" {
    SourceFile "portabledesk_01_A.tif"
@@ -12,6 +12,8 @@ MetaFileClass {
   }
   TIFFResourceClass HEADLESS : "{6866463573917E52}Configs/System/ResourceTypes/HEADLESS/TextureOneChannel.conf" {
    SourceFile "portabledesk_01_sand_A.tif"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
   }
  }
 }
