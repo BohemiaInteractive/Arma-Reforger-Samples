@@ -1,5 +1,5 @@
-AnimSetInstanceSource "{FD177FE07D433CEA}Assets/Vehicles/Wheeled/Workspaces/Vehicles_Wheeled_SampleCar_01.asi" {
- Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/Workspaces/Vehicles_Wheeled_Template.ast"
+AnimSetInstanceSource {
+ Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Template.ast"
  Lines {
   AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
    Resource "{34E068B33B86BF50}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_steering_poses_main.anm"
@@ -7,5 +7,7 @@ AnimSetInstanceSource "{FD177FE07D433CEA}Assets/Vehicles/Wheeled/Workspaces/Vehi
   AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
    Resource "{34E068B33B86BF50}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_steering_poses_main.anm"
   }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5B047917FF9426E5}" {
  }
 }

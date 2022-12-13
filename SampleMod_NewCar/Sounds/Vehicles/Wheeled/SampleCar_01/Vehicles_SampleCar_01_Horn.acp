@@ -25,21 +25,21 @@ AudioClass {
    id 18445
    name "Signal 18"
    tl 87.463 -283.547
-   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_OutsideVehicleSourceAttenuation.sig"
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
    inputsport {
-    30 32 45
+    30 32 45 55 57
    }
    outputsport {
     2 40 43 47 50
    }
    inputvalues {
-    0 1 1
+    0 1 1 0 0
    }
    inputvaluesmin {
-    0 0 0
+    0 0 0 0 0
    }
    inputvaluesmax {
-    1 1 1
+    1 1 1 1 1
    }
   }
  }
@@ -65,7 +65,6 @@ AudioClass {
     }
    }
    parent "{F7147E886D6CD57F}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Engine_Interior.conf"
-   volume 1.259
   }
  }
  sounds {
@@ -197,7 +196,7 @@ AudioClass {
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "ENV_Ambient_NoAtt" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb"
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior"
    }
   }
  }
@@ -251,10 +250,11 @@ AudioClass {
   }
  }
  amplitudes {
-  AmplitudeClass : "{CA1800B8CFD285CF}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Horn_base.conf" {
+  AmplitudeClass : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_0-5.conf" {
    id 4115
+   name "Amplitude"
    tl -97.727 -117.182
-   parent "{CA1800B8CFD285CF}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Horn_base.conf"
+   parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_0-5.conf"
   }
  }
  banks_local {

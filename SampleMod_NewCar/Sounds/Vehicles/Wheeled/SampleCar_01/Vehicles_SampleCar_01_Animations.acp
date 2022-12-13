@@ -25,21 +25,21 @@ AudioClass {
    id 28685
    name "Signal 28"
    tl 802.406 306.653
-   res "{FC5C9C507476D6B9}Sounds/_SharedData/Signals/Vehicles/Vehicles_InsideVehicleSourceAttenuation.sig"
+   res "{FC5C9C507476D6B9}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_InsideVehicleSource.sig"
    inputsport {
-    1 2 3
+    1 2 3 15
    }
    outputsport {
     7
    }
    inputvalues {
-    0 1 1
+    0 1 1 0.5
    }
    inputvaluesmin {
-    0 0 0
+    0 0 0 0
    }
    inputvaluesmax {
-    1 1 1
+    1 1 1 1
    }
   }
  }
@@ -308,7 +308,7 @@ AudioClass {
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "ENV_Ambient_NoAtt" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb"
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior"
    }
   }
  }
@@ -421,10 +421,11 @@ AudioClass {
   }
  }
  amplitudes {
-  AmplitudeClass : "{A653A58933CFA18E}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Animations.conf" {
+  AmplitudeClass : "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_15-10.conf" {
    id 12307
+   name "Amplitude"
    tl 548 -385.75
-   parent "{A653A58933CFA18E}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Animations.conf"
+   parent "{F1CC7B4D741028C3}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_15-10.conf"
   }
  }
  frequency {

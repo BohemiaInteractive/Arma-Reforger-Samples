@@ -745,29 +745,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
     }
    }
-   m_fVehicleDestroyDamage 7792.96
-  }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    EntitySlotInfo glass_f {
-     Prefab "{35063E41D3F9A106}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_F.et"
-    }
-    EntitySlotInfo glass_fl {
-     Prefab "{7EF462082F070F4F}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FL.et"
-    }
-    EntitySlotInfo glass_fr {
-     Prefab "{03EC8EF04A9433D6}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FR.et"
-    }
-    EntitySlotInfo glass_r {
-     Prefab "{63168911951B89E8}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_R.et"
-    }
-    EntitySlotInfo glass_rl {
-     Prefab "{1EA9ED36EA34C476}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RL.et"
-    }
-    EntitySlotInfo glass_rr {
-     Prefab "{63B101CE8FA7F8EF}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RR.et"
-    }
-   }
+   m_fVehicleDestroyDamage 6364.39
   }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
@@ -900,16 +878,40 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
    }
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo glass_f {
+     Prefab "{35063E41D3F9A106}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_F.et"
+    }
+    EntitySlotInfo glass_fl {
+     Prefab "{7EF462082F070F4F}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FL.et"
+    }
+    EntitySlotInfo glass_fr {
+     Prefab "{03EC8EF04A9433D6}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FR.et"
+    }
+    EntitySlotInfo glass_r {
+     Prefab "{63168911951B89E8}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_R.et"
+    }
+    EntitySlotInfo glass_rl {
+     Prefab "{1EA9ED36EA34C476}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RL.et"
+    }
+    EntitySlotInfo glass_rr {
+     Prefab "{63B101CE8FA7F8EF}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RR.et"
+    }
+   }
+  }
   ActionsManagerComponent "{C97BE5489221AE18}" {
    ActionContexts {
     UserActionContext "{51C2C0909B3BDE64}" {
      ContextName "door_l01"
      Position PointInfo "{51C2C0909D425D58}" {
       PivotID "v_door_l01"
-      Offset 0 0.3 -0.9
+      Offset 0.0417 0.3 -0.9
+      Angles 0 -90 0
      }
      Radius 0.5
      Omnidirectional 0
+     VisibilityAngle 102.251
     }
     UserActionContext "{51C2C090B9F2F621}" {
      ContextName "driver_idle"
@@ -923,6 +925,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{522A809DD91F0139}" {
       PivotID "v_door_r01"
       Offset 0 0.3 -0.9
+      Angles 0 90 0
      }
      Radius 0.5
      Omnidirectional 1
@@ -932,6 +935,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{522AA2C104FC1169}" {
       PivotID "v_door_l02"
       Offset 0 0.3 -0.65
+      Angles 0 -90 0
      }
      Radius 0.5
      Omnidirectional 0
@@ -941,6 +945,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{522AA2C101C2B9FE}" {
       PivotID "v_door_r02"
       Offset 0 0.3 -0.65
+      Angles 0 90 0
      }
      Radius 0.5
      Omnidirectional 0
@@ -985,6 +990,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{51C2C0909D425D58}" {
       PivotID "v_door_l01"
       Offset 0.1 0.32 -0.48
+      Angles 0 90 0
      }
      Omnidirectional 0
     }
@@ -993,6 +999,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{51C2C0909D425D58}" {
       PivotID "v_door_l02"
       Offset 0.1 0.35 -0.25
+      Angles 0 90 0
      }
      Omnidirectional 0
     }
@@ -1001,6 +1008,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{51C2C0909D425D58}" {
       PivotID "v_door_r01"
       Offset -0.1 0.32 -0.48
+      Angles 0 -90 0
      }
      Omnidirectional 0
     }
@@ -1009,6 +1017,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Position PointInfo "{51C2C0909D425D58}" {
       PivotID "v_door_r02"
       Offset -0.1 0.35 -0.25
+      Angles 0 -90 0
      }
      Omnidirectional 0
     }

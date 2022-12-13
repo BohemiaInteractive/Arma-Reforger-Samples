@@ -1,5 +1,5 @@
-AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Player_Wheeled_SampleCar_01.asi" {
- Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/Workspaces/Vehicles_Wheeled_Template.ast"
+AnimSetInstanceSource {
+ Template "{7F633C1C12A72901}Assets/Vehicles/Wheeled/workspaces/Vehicles_Wheeled_Template.ast"
  Lines {
   AnimSetInstanceSource_Line "Vehicle.CoDriver.AccelerationSpine" {
    Resource "{B689A116D1AA0FA9}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_acceleration_spine.anm"
@@ -7,11 +7,11 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "Vehicle.CoDriver.Death" {
    Resource "{30F901ADF717E91F}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_death.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
-   Resource "{67C176F4AA782D11}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_getIn.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
+   Resource "{35D935709FD665A1}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_turn_on_engine_out_on.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
-   Resource "{DD7B2B6339A7B345}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_getOut.anm"
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchIn" {
+   Resource "{9491B806C31825C7}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_switch_in.anm"
   }
   AnimSetInstanceSource_Line "Vehicle.CoDriver.HeadLook" {
    Resource "{718EBF2EA775222C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_codriver_aimspace.anm"
@@ -31,11 +31,11 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "Vehicle.Driver.Death" {
    Resource "{34319AB4F1E67EB0}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_death.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
-   Resource "{6309EDEDAC89BABE}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_getIn.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
+   Resource "{0AC402C28D36DBE6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_light_out.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
-   Resource "{5CD35420C672F09A}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_getOut.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{D42FD39CACEF2001}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_steering_poses_main.anm"
   }
   AnimSetInstanceSource_Line "Vehicle.Driver.HeadLook" {
    Resource "{B9A1B91FBECECCA2}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_aimspace.anm"
@@ -61,11 +61,11 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "Vehicle.PassengerL.Death" {
    Resource "{880B8AB9A3BD1FD6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_dead.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
-   Resource "{6AA5843271BE28E0}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerL_getIn.anm"
+  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
+   Resource "{880B8AB9A3BD1FD6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_dead.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
-   Resource "{202CA69C448F41B7}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerL_getOut.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
+   Resource "{418B1233C9F1AEAF}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_shift_gear.anm"
   }
   AnimSetInstanceSource_Line "Vehicle.PassengerL.HeadLook" {
    Resource "{E42E391B9D590B10}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_aimspace.anm"
@@ -85,11 +85,11 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "Vehicle.UniqueSeat.Death" {
    Resource "{880B8AB9A3BD1FD6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_dead.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
-   Resource "{0C0E6796C115C804}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerM_getInL.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
+   Resource "{F8EBD847B5FC6C6C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_in.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
-   Resource "{FD055FC2B24AFDE8}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerM_getInR.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
+   Resource "{56EF5E44B4DED2BD}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_loop.anm"
   }
   AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
    Resource "{E3D7C11C5BB839FD}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerM_getOutL.anm"
@@ -115,11 +115,11 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "Vehicle.PassengerR.Death" {
    Resource "{880B8AB9A3BD1FD6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_dead.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
-   Resource "{2D3C178182FBE355}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerR_getIn.anm"
+  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchOut" {
+   Resource "{CC1C95E385EDE523}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_switch_out.anm"
   }
-  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
-   Resource "{ED9853031F5462F2}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passengerR_getOut.anm"
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
+   Resource "{7B568DB0B8CC51B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_out.anm"
   }
   AnimSetInstanceSource_Line "Vehicle.PassengerR.HeadLook" {
    Resource "{E42E391B9D590B10}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_aimspace.anm"
@@ -151,35 +151,7 @@ AnimSetInstanceSource "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Play
   AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStop" {
    Resource "{CB19854F33DAE415}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_turn_turn_off.anm"
   }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornIn" {
-   Resource "{F8EBD847B5FC6C6C}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_in.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornLoop" {
-   Resource "{56EF5E44B4DED2BD}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_loop.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.HornOut" {
-   Resource "{7B568DB0B8CC51B3}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_horn_out.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.ShiftGear" {
-   Resource "{418B1233C9F1AEAF}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_shift_gear.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
-   Resource "{D42FD39CACEF2001}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_steering_poses_main.anm"
-  }
-  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchIn" {
-   Resource "{9491B806C31825C7}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_switch_in.anm"
-  }
-  AnimSetInstanceSource_Line "Vehicle.Driver.SwitchOut" {
-   Resource "{CC1C95E385EDE523}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_switch_out.anm"
-  }
-  AnimSetInstanceSource_Line "Vehicle.Gunner.Death" {
-   Resource "{880B8AB9A3BD1FD6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_passenger_dead.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.LightsOff" {
-   Resource "{0AC402C28D36DBE6}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_light_out.anm"
-  }
-  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.EngineStartOut" {
-   Resource "{35D935709FD665A1}Assets/Vehicles/Wheeled/UAZ469/anm/p_UAZ469_driver_turn_on_engine_out_on.anm"
-  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5B047917FF92172F}" {
  }
 }

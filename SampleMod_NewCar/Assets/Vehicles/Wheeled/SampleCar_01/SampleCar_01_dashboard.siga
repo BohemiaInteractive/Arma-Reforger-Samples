@@ -92,7 +92,9 @@ ProcAnimSignalResClass {
      port 0
     }
    }
-   "Fade Out Time" 120000
+   "Fade Out Time" 3000
+   "Fade In Type" "S-curve"
+   "Fade Out Type" "S-curve"
   }
   IOPItemOpDivClass {
    id 64
@@ -161,8 +163,8 @@ ProcAnimSignalResClass {
     }
    }
    "X max" 7000
-   "Y min" -10
-   "Y max" 26
+   "Y min" -16
+   "Y max" 260
   }
  }
  Outputs {

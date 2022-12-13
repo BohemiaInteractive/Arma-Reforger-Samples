@@ -4,21 +4,21 @@ AudioClass {
    id 97293
    name "Signal 4"
    tl -30.111 896.107
-   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_OutsideVehicleSourceAttenuation.sig"
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
    inputsport {
-    30 32 45
+    30 32 45 55 57
    }
    outputsport {
     2 40 43 47 50
    }
    inputvalues {
-    1 1 0
+    1 1 0 0 0
    }
    inputvaluesmin {
-    0 0 0
+    0 0 0 0 0
    }
    inputvaluesmax {
-    1 1 1
+    1 1 1 1 1
    }
   }
   SignalClass {
@@ -500,7 +500,7 @@ AudioClass {
    id 179213
    name "Signal 445"
    tl 373.325 -1856.261
-   res "{344D46115C26D7FF}Sounds/_SharedData/Signals/Weapons/Weapons_DynamicRange_Shot.sig"
+   res "{344D46115C26D7FF}Sounds/_SharedData/Signals/Weapons/Weapons_DynamicRange_Shot_OBSOLETE.sig"
    conns {
     IOPConnectionClass iopConnection {
      port 3
@@ -606,9 +606,8 @@ AudioClass {
      }
     }
    }
-   volume 0.708
    volume_dB -3
-   DSPObject BiquadDSPTypeClass {
+   DSPObject BiquadDSPTypeClass dsp {
     biquadType PeakingEQ
     fc 987
     Q 1
@@ -635,7 +634,7 @@ AudioClass {
      }
     }
    }
-   DSPObject BiquadDSPTypeClass {
+   DSPObject BiquadDSPTypeClass dsp {
     biquadType PeakingEQ
     fc 3951
     Q 0.1
@@ -662,7 +661,6 @@ AudioClass {
     }
    }
    parent "{F7147E886D6CD57F}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Engine_Interior.conf"
-   volume 1.259
   }
  }
  filter_chain {
@@ -1216,7 +1214,7 @@ AudioClass {
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_Ambients" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Objects" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "ENV_Ambient_NoAtt" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb"
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "UI" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior"
    }
   }
  }
@@ -2018,10 +2016,11 @@ AudioClass {
   }
  }
  amplitudes {
-  AmplitudeClass : "{8D209AAEE2066758}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Engine_Car_UAZ469.conf" {
+  AmplitudeClass : "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_5-10.conf" {
    id 76819
+   name "Amplitude"
    tl 157.485 -1501.333
-   parent "{8D209AAEE2066758}Sounds/_SharedData/Configs/Amplitude/Vehicles/Amplitude_Vehicles_Engine_Car_UAZ469.conf"
+   parent "{6AF012E167B3F145}Sounds/_SharedData/Configs/Amplitude/_SharedFolder/Amplitude_5-10.conf"
   }
  }
  frequency {
