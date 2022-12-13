@@ -4,12 +4,12 @@ $grp GenericEntity {
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Airfield_HQ {
-     coords -5.248 -0.505 -91.646
+     coords -5.248 0.137 -91.646
      angleY -175.27
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.148 0
+       coords 0 -0.791 0
        angleX 3.265
        angleZ 1.251
       }
@@ -21,7 +21,7 @@ $grp GenericEntity {
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.099 0
+       coords 0 0 0
        angleX 0.999
        angleZ 2.28
       }
@@ -44,7 +44,7 @@ $grp GenericEntity {
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.035 0
+       coords 0 1.116 0
        angleX -0.507
        angleZ -1.038
       }
@@ -67,9 +67,21 @@ $grp GenericEntity {
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.03 0
+       coords 0 0 0
        angleX -4.493
        angleZ -0.823
+      }
+     }
+    }
+    Airfield_Barracks {
+     coords 15.58 0.812 -97.455
+     angleY -162.859
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.005 0
+       angleX 3.25
+       angleZ 1.453
       }
      }
     }
@@ -149,6 +161,18 @@ $grp GenericEntity {
        coords 0 0.208 0
        angleX 0.616
        angleZ 7.094
+      }
+     }
+    }
+    AndresBeacon_Barracks {
+     coords 30.796 -2.116 34.334
+     angleY -122.753
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.042 0
+       angleX -7.771
+       angleZ -5.325
       }
      }
     }
@@ -232,11 +256,24 @@ $grp GenericEntity {
       }
      }
     }
+    BlackLake_Barracks {
+     coords 12.042 -0.673 4.408
+     angleY -157.449
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.03 0
+       angleX 4.233
+       angleY 24.875
+       angleZ -0.538
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_PennantsPass {
-  coords 8242.315 224.777 2166.506
+  coords 8242.314 224.777 2166.506
   angleY 146.111
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
@@ -312,6 +349,19 @@ $grp GenericEntity {
        angleX 0.082
        angleY 90.701
        angleZ 0.109
+      }
+     }
+    }
+    PennantsPass_Barracks {
+     coords -2.933 -3.829 30.796
+     angleY 112.061
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.015 0
+       angleX -0.823
+       angleY 17.69
+       angleZ -7.521
       }
      }
     }
@@ -394,6 +444,18 @@ $grp GenericEntity {
       }
      }
     }
+    GoatBaySlot_Barracks {
+     coords -5.369 -1.7 -16.692
+     angleY -21.912
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.418 0
+       angleX -2.136
+       angleZ -7.203
+      }
+     }
+    }
    }
   }
  }
@@ -472,6 +534,18 @@ $grp GenericEntity {
       }
      }
     }
+    HornbeamValley_Barracks {
+     coords -224.321 -12.213 44.064
+     angleY 62.396
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.045 0
+       angleX -3.332
+       angleZ -1.283
+      }
+     }
+    }
    }
   }
  }
@@ -543,6 +617,18 @@ $grp GenericEntity {
        angleX 5.084
        angleY -0.546
        angleZ -0.166
+      }
+     }
+    }
+    TillersFind_Barracks {
+     coords 32.078 -0.081 33.097
+     angleY -135.518
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.03 0
+       angleX 0.739
+       angleZ 0.384
       }
      }
     }
@@ -626,11 +712,23 @@ $grp GenericEntity {
       }
      }
     }
+    Shepherds_Barracks {
+     coords 5.392 1.155 31.466
+     angleY -107.055
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.041 0
+       angleX -2.542
+       angleZ 2.621
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_StPhillipe {
-  coords 4849.073 26.641 10871.397
+  coords 4849.073 26.641 10871.396
   {
    SCR_SiteSlotEntity SaintPhilip_LivingArea : "{4B1C4BDDF6683101}PrefabsEditable/Slots/Flat/E_SlotFlatMedium.et" {
     coords -374.582 -25.11 254.402
@@ -680,6 +778,18 @@ $grp GenericEntity {
       }
      }
     }
+    SaintPhilip_Armory {
+     coords -390.959 -25.165 237.362
+     angleY -142.92
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.048 0
+       angleX -1.074
+       angleZ 1.69
+      }
+     }
+    }
    }
   }
  }
@@ -720,6 +830,18 @@ $grp GenericEntity {
        coords 0 -0.019 0
        angleX -1.693
        angleZ 0.708
+      }
+     }
+    }
+    SaintPierre_Armory {
+     coords -110.232 1.157 55.249
+     angleY -164.767
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.988 0
+       angleX -0.206
+       angleZ 0.104
       }
      }
     }
@@ -800,6 +922,18 @@ $grp GenericEntity {
       }
      }
     }
+    BaseHospital_Barracks {
+     coords 22.803 -0.009 -26.737
+     angleY -50.708
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.007 0
+       angleX -0.006
+       angleZ -0.299
+      }
+     }
+    }
    }
   }
  }
@@ -868,14 +1002,26 @@ $grp GenericEntity {
      }
     }
     Lake_Supply {
-     coords -15.617 -0.587 -9.487
+     coords -18.496 -0.636 -14.402
      angleY 93.307
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.086 0
-       angleX 0.911
-       angleZ 0.204
+       coords 0 0.068 0
+       angleX 0.495
+       angleZ -0.216
+      }
+     }
+    }
+    Lake_Barracks {
+     coords -23.621 -0.528 2.014
+     angleY 110.787
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.033 0
+       angleX -0.468
+       angleZ 0.624
       }
      }
     }
@@ -963,6 +1109,19 @@ $grp GenericEntity {
       }
      }
     }
+    Kermovan_Barracks {
+     coords 18.387 2.81 27.521
+     angleY 169.828
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.009 0
+       angleX -2.142
+       angleY -41.858
+       angleZ -2.031
+      }
+     }
+    }
    }
   }
  }
@@ -1043,6 +1202,18 @@ $grp GenericEntity {
       }
      }
     }
+    Richmond_Barracks {
+     coords 47.259 0.685 -3.866
+     angleY 24.282
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.125 0
+       angleX -2.267
+       angleZ -1.821
+      }
+     }
+    }
    }
   }
  }
@@ -1076,6 +1247,16 @@ $grp GenericEntity {
     Lamentin_Repair {
      coords -231.535 -34.116 152.208
      angleY 154.676
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.001 0
+      }
+     }
+    }
+    Lamentin_Armory {
+     coords -216.775 -34.209 -31.337
+     angleY -3.267
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
@@ -1162,6 +1343,19 @@ $grp GenericEntity {
       }
      }
     }
+    MaidensBay_Barracks {
+     coords -44.223 -1.408 41.333
+     angleY -130.757
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.03 0
+       angleX 0.136
+       angleY 0.024
+       angleZ 0.967
+      }
+     }
+    }
    }
   }
  }
@@ -1238,6 +1432,18 @@ $grp GenericEntity {
        coords 0 0.086 0
        angleX -3.116
        angleZ -2.835
+      }
+     }
+    }
+    SimonsWood_Barracks {
+     coords -35.24 -0.01 -5.226
+     angleY 38.211
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.02 0
+       angleX -0.841
+       angleZ 4.331
       }
      }
     }
@@ -1320,6 +1526,18 @@ $grp GenericEntity {
       }
      }
     }
+    BaseVilleneuveHill_Barracks {
+     coords -4.108 -3.232 -46.7
+     angleY -16.115
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.098 0
+       angleX 7.455
+       angleZ -7.824
+      }
+     }
+    }
    }
   }
  }
@@ -1396,6 +1614,18 @@ $grp GenericEntity {
        coords 0 0.148 0
        angleX 0.733
        angleZ -7.366
+      }
+     }
+    }
+    Villeneuve_Barracks {
+     coords 26.701 -5.068 18.75
+     angleY -32.065
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.083 0
+       angleX -0.223
+       angleZ 2.572
       }
      }
     }
@@ -1479,11 +1709,24 @@ $grp GenericEntity {
       }
      }
     }
+    Vernon_Barracks {
+     coords -73.894 7.426 90.559
+     angleY -109.457
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.14 0
+       angleX -1.832
+       angleY -4.215
+       angleZ -5.444
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_Tyrone {
-  coords 5011.847 46.671 8958.855
+  coords 5011.847 46.671 8958.854
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Tyrone_Antenna {
@@ -1510,15 +1753,15 @@ $grp GenericEntity {
      }
     }
     Tyrone_Fuel {
-     coords 10.258 -0.563 -7.145
+     coords 29.857 -1.565 1.06
      angleY -49.483
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 -0.072 0
-       angleX 0.041
+       coords 0 0.032 0
+       angleX -4.127
        angleY 71.33
-       angleZ 5.075
+       angleZ 1.055
       }
      }
     }
@@ -1555,6 +1798,19 @@ $grp GenericEntity {
        coords 0 -0.056 0
        angleX 1.487
        angleZ -3.978
+      }
+     }
+    }
+    Tyrone_Barracks {
+     coords 10.258 -0.563 -7.145
+     angleY -49.483
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.072 0
+       angleX 0.041
+       angleY 71.33
+       angleZ 5.075
       }
      }
     }
@@ -1634,6 +1890,18 @@ $grp GenericEntity {
        coords 0 0.029 0
        angleX -5.153
        angleZ 0.407
+      }
+     }
+    }
+    Regina_Barracks {
+     coords 79.161 -0.753 -224.956
+     angleY 174.893
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.029 0
+       angleX 2.325
+       angleZ -1.323
       }
      }
     }
@@ -1717,6 +1985,19 @@ $grp GenericEntity {
       }
      }
     }
+    Provins_Barracks {
+     coords -37.261 -6.727 -100.643
+     angleY 170.03
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.283 0
+       angleX -0.59
+       angleY 2.355
+       angleZ 1.345
+      }
+     }
+    }
    }
   }
  }
@@ -1773,6 +2054,18 @@ $grp GenericEntity {
       StaticModelEntity {
        ID "52E8C3643526D54D"
        coords 0 0.001 0
+      }
+     }
+    }
+    Morton_Armory {
+     coords -137.649 -18.918 -239.13
+     angleY -147.301
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.029 0
+       angleX -0.015
+       angleZ -0.224
       }
      }
     }
@@ -1856,11 +2149,23 @@ $grp GenericEntity {
       }
      }
     }
+    Montignac_Barracks {
+     coords 296.571 7.077 -71.727
+     angleY 36.162
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.052 0
+       angleX 1.001
+       angleZ 3.743
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_Mine {
-  coords 8781.147 197.141 3908.45
+  coords 8781.146 197.141 3908.45
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     MineSlotAntenna {
@@ -1890,14 +2195,14 @@ $grp GenericEntity {
      }
     }
     MineSlotFuel {
-     coords 6.852 2.887 73.515
+     coords -11.945 3.064 77.3
      angleY -170.302
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.283 0
-       angleX -6.215
-       angleZ -2.902
+       coords 0 -0.061 0
+       angleX -2.288
+       angleZ 2.233
       }
      }
     }
@@ -1940,11 +2245,24 @@ $grp GenericEntity {
       }
      }
     }
+    MineSlotBarracks {
+     coords 5.979 2.987 74.307
+     angleY 170.474
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.218 0
+       angleX -6.924
+       angleY 150.83
+       angleZ -0.605
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_Meaux {
-  coords 4538.375 14.779 9454.654
+  coords 4538.375 14.779 9454.653
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Meaux_Antenna {
@@ -2020,6 +2338,19 @@ $grp GenericEntity {
       }
      }
     }
+    Meaux_Barracks {
+     coords -30.011 4.917 343.061
+     angleY -179.663
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.019 0
+       angleX 4.214
+       angleY 0.024
+       angleZ 3.053
+      }
+     }
+    }
    }
   }
  }
@@ -2076,14 +2407,14 @@ $grp GenericEntity {
      }
     }
     Levie_Repair {
-     coords 36.294 -1.045 7.08
+     coords 38.262 -1.459 12.521
      angleY 170.992
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.409 0
-       angleX 6.758
-       angleZ -3.259
+       coords 0 0.321 0
+       angleX 5.908
+       angleZ -0.837
       }
      }
     }
@@ -2096,6 +2427,18 @@ $grp GenericEntity {
        coords 0 0.151 0
        angleX 0.821
        angleZ 5.589
+      }
+     }
+    }
+    Levie_Barracks {
+     coords 11.992 -1.698 13.224
+     angleY 90.125
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.142 0
+       angleX 0.757
+       angleZ -4.11
       }
      }
     }
@@ -2178,6 +2521,18 @@ $grp GenericEntity {
       }
      }
     }
+    LeMoule_Barracks {
+     coords -71.917 5.507 22.202
+     angleY 11.933
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.076 0
+       angleX 6.013
+       angleZ 5.263
+      }
+     }
+    }
    }
   }
  }
@@ -2246,14 +2601,26 @@ $grp GenericEntity {
      }
     }
     Laruns_Supply {
-     coords -19.675 0.705 8.681
+     coords -11.667 0.319 13.479
      angleY 132.242
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.076 0
-       angleX -3.058
-       angleZ -1.083
+       coords 0 0.049 0
+       angleX -4.256
+       angleZ -1.884
+      }
+     }
+    }
+    Laruns_Barracks {
+     coords -23.533 0.815 2.921
+     angleY 132.242
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.144 0
+       angleX -2.591
+       angleZ -2.141
       }
      }
     }
@@ -2334,6 +2701,18 @@ $grp GenericEntity {
        coords 0 -0.006 0
        angleX -1.721
        angleZ -3.075
+      }
+     }
+    }
+    Gravette_Barracks {
+     coords -86.749 -6.602 11.196
+     angleY 129.979
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.001 0
+       angleX -0.798
+       angleZ 6.551
       }
      }
     }
@@ -2418,6 +2797,18 @@ $grp GenericEntity {
       }
      }
     }
+    Figari_Barracks {
+     coords -205.185 -11.36 115.521
+     angleY -48.723
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.188 0
+       angleX -5.102
+       angleZ 2.083
+      }
+     }
+    }
    }
   }
  }
@@ -2499,6 +2890,18 @@ $grp GenericEntity {
       }
      }
     }
+    EntreDeux_Barracks {
+     coords 129.901 2.098 132.78
+     angleY -136.007
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.008 0
+       angleX 0.852
+       angleZ -2.686
+      }
+     }
+    }
    }
   }
  }
@@ -2519,15 +2922,15 @@ $grp GenericEntity {
      }
     }
     Duras_Armory {
-     coords -22.841 -1.141 10.438
+     coords -20.331 -1.019 9.889
      angleY 106.716
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords 0 0.066 0
-       angleX 2.206
+       coords 0 0.136 0
+       angleX 1.706
        angleY -179.615
-       angleZ -1.489
+       angleZ -2.095
       }
      }
     }
@@ -2580,11 +2983,23 @@ $grp GenericEntity {
       }
      }
     }
+    Duras_Barracks {
+     coords 26.753 2.001 -9.102
+     angleY -113.12
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.049 0
+       angleX -4.845
+       angleZ 3.755
+      }
+     }
+    }
    }
   }
  }
  CampaignSlots_Chotain {
-  coords 7095.731 118.629 6006.377
+  coords 7095.731 118.629 6006.376
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
     Chotain_Antenna {
@@ -2698,6 +3113,28 @@ $grp GenericEntity {
       }
      }
     }
+    Chotain_Barracks {
+     coords -118.32 3.813 81.138
+     angleY -161.889
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.079 0
+       angleX -2.412
+       angleZ -3.676
+      }
+     }
+    }
+    ChotainHarbor_Armory {
+     coords 342.369 -108.941 774.761
+     angleY -146.56
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+      }
+     }
+    }
    }
   }
  }
@@ -2734,6 +3171,386 @@ $grp GenericEntity {
       StaticModelEntity {
        ID "52E8C3643526D54D"
        coords 0 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos01 {
+  coords 5441.337 18.047 10010.738
+  angleX -3.576
+  angleY 0.056
+  angleZ -0.004
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    StartingPos01_Antenna {
+     coords -10.4 0.557 24.092
+     angleY -178.177
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.078 0.005
+       angleX 1.69
+       angleZ 0.355
+      }
+     }
+    }
+    StartingPos01_Armory {
+     coords -26.647 -0.093 8.373
+     angleY 92.262
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.001 0.01 0
+       angleX 1.492
+       angleY -179.615
+       angleZ -1.058
+      }
+     }
+    }
+    StartingPos01_HQ {
+     coords -0.169 -0.001 0.06
+     angleY -155.805
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.002 0.096 0.005
+       angleX 2.191
+       angleZ 2.211
+      }
+     }
+    }
+    StartingPos01_Repair {
+     coords 2.031 -0.382 -22.347
+     angleY -87.428
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.002 0.037 0
+       angleX -2.395
+       angleZ 2.126
+      }
+     }
+    }
+    StartingPos01_Supply {
+     coords -29.323 -0.986 -14.363
+     angleY 88.902
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.002 0.027 0
+       angleX 0.654
+       angleZ -2.034
+      }
+     }
+    }
+    StartingPos01_Barracks {
+     coords 11.056 1.173 19.072
+     angleY 173.532
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.002 0
+       angleX 1.558
+       angleZ 3.602
+      }
+     }
+    }
+    StartingPos01_HeavyDepot {
+     coords -1.169 -0.851 -42.676
+     angleY -87.489
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.004 -0.058 0
+       angleX -2.287
+       angleZ 2.274
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos02 {
+  coords 2949.099 90.756 4838.929
+  angleX 2.317
+  angleY 143.468
+  angleZ 1.623
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    StartingPos02_Antenna {
+     coords -10.376 0.209 24.07
+     angleY -178.046
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.002 0.063 -0.002
+       angleX -4.234
+       angleZ -2.81
+      }
+     }
+    }
+    StartingPos02_Armory {
+     coords -26.637 0.044 8.359
+     angleY 92.34
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.004 0.099 -0.003
+       angleX -2.332
+       angleY -179.615
+       angleZ 1.89
+      }
+     }
+    }
+    StartingPos02_HQ {
+     coords -0.169 0 0.057
+     angleY -155.796
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.002 0.053 -0.001
+       angleX -0.226
+       angleZ -2.295
+      }
+     }
+    }
+    StartingPos02_Repair {
+     coords 1.985 0.976 -22.292
+     angleY -87.693
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.003 0.065 0.002
+       angleX 0.459
+       angleZ 1.465
+      }
+     }
+    }
+    StartingPos02_Supply {
+     coords -29.368 0.648 -14.317
+     angleY 88.926
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.001 -0.012 0
+       angleX -1.682
+       angleZ 0.342
+      }
+     }
+    }
+    StartingPos02_Barracks {
+     coords 11.104 -0.14 19.025
+     angleY 173.746
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.001 0.06 -0.003
+       angleX -3.546
+       angleZ -2.139
+      }
+     }
+    }
+    StartingPos02_HeavyDepot {
+     coords -1.621 2.292 -41.159
+     angleY 128.853
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.001 0.051 -0.002
+       angleX 1.822
+       angleZ -1.234
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos03 {
+  coords 6071.524 96.998 5389.343
+  angleX -1.192
+  angleY 45.835
+  angleZ -5.068
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    StartingPos03_Antenna {
+     coords -10.486 0.163 24.054
+     angleY -178.056
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.002 0
+       angleX 0.987
+       angleZ 4.634
+      }
+     }
+    }
+    StartingPos03_Armory {
+     coords -26.724 0.252 8.335
+     angleY 92.284
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.001 0.029 0.003
+       angleX 4.626
+       angleY -179.615
+       angleZ -1.03
+      }
+     }
+    }
+    StartingPos03_HQ {
+     coords -0.169 0 0.057
+     angleY -155.808
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.007 0.074 -0.001
+       angleX -0.992
+       angleZ 5.453
+      }
+     }
+    }
+    StartingPos03_Repair {
+     coords 2.023 -0.036 -22.311
+     angleY -87.692
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.001 0.08 -0.007
+       angleX -5.957
+       angleZ 0.163
+      }
+     }
+    }
+    StartingPos03_Supply {
+     coords -29.407 0.291 -14.356
+     angleY 88.884
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.01 0.001
+       angleX 4.058
+       angleZ -0.776
+      }
+     }
+    }
+    StartingPos03_Barracks {
+     coords 11.082 0.051 19.034
+     angleY 173.85
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.01 0.121 0.004
+       angleX 2.119
+       angleZ 6.178
+      }
+     }
+    }
+    StartingPos03_HeavyDepot {
+     coords 6.445 -0.454 -42.19
+     angleY -133.583
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.002 0.032 -0.002
+       angleX -4.861
+       angleZ 3.692
+      }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos04 {
+  coords 7844.72 151.761 4674.154
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    StartingPos04_Antenna {
+     coords -10.443 -0.735 24.034
+     angleY -177.984
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.002 -0.039 0.001
+       angleX 2.002
+       angleZ 6.875
+      }
+     }
+    }
+    StartingPos04_Armory {
+     coords -26.726 -1.256 8.283
+     angleY 92.164
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.008 0.233 0.012
+       angleX 6.173
+       angleY -179.615
+       angleZ -2.479
+      }
+     }
+    }
+    StartingPos04_HQ {
+     coords -0.168 0.001 0.058
+     angleY -155.806
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.001 0.03 -0.002
+       angleX -2.672
+       angleZ 2.46
+      }
+     }
+    }
+    StartingPos04_Repair {
+     coords 1.996 0.753 -22.293
+     angleY -87.731
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0.002 0.064 -0.003
+       angleX -3.697
+       angleZ 0.966
+      }
+     }
+    }
+    StartingPos04_Supply {
+     coords -29.402 0.048 -14.373
+     angleY 88.739
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.005 0.164 0.009
+       angleX 3.497
+       angleZ 0.966
+      }
+     }
+    }
+    StartingPos04_Barracks {
+     coords 11.103 -0.086 19.047
+     angleY 173.817
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.002 0.037 -0.001
+       angleX -1.134
+       angleZ 3.23
+      }
+     }
+    }
+    StartingPos04_HeavyDepot {
+     coords 26.755 1.016 -18.041
+     angleY -133.472
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords -0.001 0.039 -0.002
+       angleX -2.693
+       angleZ 3.975
       }
      }
     }

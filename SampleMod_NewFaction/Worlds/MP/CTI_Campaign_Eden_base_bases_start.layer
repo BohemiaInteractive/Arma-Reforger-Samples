@@ -1,0 +1,180 @@
+$grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSmallBaseEntityFinal.et" {
+ StartingPos01 {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5984B61CD4EC92A7}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+  }
+  coords 5441.343 18.051 10010.688
+  angleX 3.13
+  angleY -151.046
+  angleZ 1.73
+  m_sBaseName "#AR-Campaign_MapLocation_MOB"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  m_bCanBeHQ 1
+  m_sSlotNameHQ "StartingPos01_HQ"
+  m_sSlotNameSupplies "StartingPos01_Supply"
+  m_sSlotNameArmory "StartingPos01_Armory"
+  m_sSlotNameLightVehicleDepot "StartingPos01_Repair"
+  m_sSlotNameHeavyVehicleDepot "StartingPos01_HeavyDepot"
+  m_sSlotNameBarracks "StartingPos01_Barracks"
+  m_sSlotNameRadioAntenna "StartingPos01_Antenna"
+  m_eType MAIN
+  m_iBaseID 40
+  {
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.01 -0.319 11.982
+    angleX -2.428
+    angleY -0.03
+    angleZ 0.704
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 0 0
+   }
+  }
+ }
+ StartingPos02 {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5984B61CD4EC92A7}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+  }
+  coords 2949.188 90.764 4838.723
+  angleX -1.302
+  angleY -8.96
+  angleZ -2.511
+  m_sBaseName "#AR-Campaign_MapLocation_MOB"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  m_bCanBeHQ 1
+  m_sSlotNameHQ "StartingPos02_HQ"
+  m_sSlotNameSupplies "StartingPos02_Supply"
+  m_sSlotNameArmory "StartingPos02_Armory"
+  m_sSlotNameLightVehicleDepot "StartingPos02_Repair"
+  m_sSlotNameHeavyVehicleDepot "StartingPos02_HeavyDepot"
+  m_sSlotNameBarracks "StartingPos02_Barracks"
+  m_sSlotNameRadioAntenna "StartingPos02_Antenna"
+  m_eType MAIN
+  m_iBaseID 41
+  {
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.016 0.371 11.992
+    angleX 1.907
+    angleY 0.02
+    angleZ 0.603
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 0 0
+   }
+  }
+ }
+ StartingPos03 {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5984B61CD4EC92A7}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+  }
+  coords 6071.808 97.013 5389.322
+  angleX -1.285
+  angleY -106.714
+  angleZ 5.045
+  m_sBaseName "#AR-Campaign_MapLocation_MOB"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  m_bCanBeHQ 1
+  m_sSlotNameHQ "StartingPos03_HQ"
+  m_sSlotNameSupplies "StartingPos03_Supply"
+  m_sSlotNameArmory "StartingPos03_Armory"
+  m_sSlotNameLightVehicleDepot "StartingPos03_Repair"
+  m_sSlotNameHeavyVehicleDepot "StartingPos03_HeavyDepot"
+  m_sSlotNameBarracks "StartingPos03_Barracks"
+  m_sSlotNameRadioAntenna "StartingPos03_Antenna"
+  m_eType MAIN
+  m_iBaseID 42
+  {
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.01 0.001 11.999
+    angleY -0.025
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 -0.001
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 0 -0.001
+   }
+  }
+ }
+ StartingPos04 {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5984B61CD4EC92A7}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 3000
+    m_fOperationalRadius 50
+   }
+  }
+  coords 7845.081 151.781 4674.333
+  angleX -3.167
+  angleY -106.784
+  angleZ 1.888
+  m_sBaseName "#AR-Campaign_MapLocation_MOB"
+  m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
+  m_bCanBeHQ 1
+  m_sSlotNameHQ "StartingPos04_HQ"
+  m_sSlotNameSupplies "StartingPos04_Supply"
+  m_sSlotNameArmory "StartingPos04_Armory"
+  m_sSlotNameLightVehicleDepot "StartingPos04_Repair"
+  m_sSlotNameHeavyVehicleDepot "StartingPos04_HeavyDepot"
+  m_sSlotNameBarracks "StartingPos04_Barracks"
+  m_sSlotNameRadioAntenna "StartingPos04_Antenna"
+  m_eType MAIN
+  m_iBaseID 43
+  {
+   SCR_CampaignRemnantsSpawnPoint {
+    ID "55AE8A0D75B9C25F"
+    coords 0.014 0.182 11.989
+    angleX 1.631
+    angleY -0.117
+    angleZ 2.305
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 -0.001
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 0 -0.001
+   }
+  }
+ }
+}

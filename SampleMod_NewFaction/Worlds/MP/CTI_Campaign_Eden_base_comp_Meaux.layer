@@ -1,4 +1,4 @@
-GenericEntity : "{2BC1606244F9F491}Prefabs/Compositions/Misc/SandbagCover_US_05.et" {
+GenericEntity : "{2BC1606244F9F491}Prefabs/Compositions/Misc/SubCompositions/SandbagCover_US_05.et" {
  coords 4485.216 19.371 9747.1
  angleX 1.741
  angleY 162.111
@@ -10,7 +10,7 @@ GenericEntity : "{2BC1606244F9F491}Prefabs/Compositions/Misc/SandbagCover_US_05.
   }
  }
 }
-$grp StaticModelEntity : "{5608B9078BF2AC5A}Prefabs/Structures/Military/Fortifications/Dragonsteeth_01_old.et" {
+$grp StaticModelEntity : "{5608B9078BF2AC5A}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragonsteeth_01_old_V1.et" {
  {
   coords 4557.06 0 9829.179
   angleY -22.006
@@ -20,11 +20,11 @@ $grp StaticModelEntity : "{5608B9078BF2AC5A}Prefabs/Structures/Military/Fortific
   angleY -23.345
  }
 }
-GenericEntity : "{5CCB08EAB05B1BE1}Prefabs/Compositions/Misc/SandbagCover_US_15.et" {
+GenericEntity : "{5CCB08EAB05B1BE1}Prefabs/Compositions/Misc/SubCompositions/SandbagCover_US_15.et" {
  coords 4556.369 19.46 9825.509
  angleY -9.792
 }
-$grp StaticModelEntity : "{C289F5D866F0E46E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Base.et" {
+$grp SCR_DestructibleEntity : "{C289F5D866F0E46E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_base.et" {
  {
   coords 4557.609 0.091 9828.273
   angleY -98.523

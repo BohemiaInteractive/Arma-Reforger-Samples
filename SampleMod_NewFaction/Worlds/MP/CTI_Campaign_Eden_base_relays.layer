@@ -4,7 +4,6 @@ $grp SCR_CampaignBase : "{3E788ADC8534C604}Prefabs/MP/Campaign/Bases/CampaignRel
   angleY 19.175
   m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
-  m_eStartingBaseOwner BLUFOR
   m_iBaseID 24
   {
    GenericEntity {
@@ -30,7 +29,6 @@ $grp SCR_CampaignBase : "{3E788ADC8534C604}Prefabs/MP/Campaign/Bases/CampaignRel
   angleY 80.079
   m_sBaseName "#AR-Campaign_MapLocation_Tower_Regina"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_Regina-UC"
-  m_eStartingBaseOwner OPFOR
   m_iBaseID 25
   {
    StaticModelEntity {

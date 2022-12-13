@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B2B3E601CACBB43E}Configs/Spawner/Vehicles_SampleFactionREDFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

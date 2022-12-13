@@ -29,12 +29,12 @@ SCR_GameModeCampaignMP CampaignMPGameMode1 : "{59121DD52FF62112}Prefabs/MP/Campa
    }
    m_aWinConditions {
     SCR_BriefingVictoryCondition "{5908E3D907485BF4}" {
-     victoryCondition ATTACK
+     victoryCondition CUSTOM
      name "Condition_01"
      description "#AR-BriefingCampaign_VictoryCondition_01"
     }
     SCR_BriefingVictoryCondition "{5908E3D907365DA3}" {
-     victoryCondition DEFEND
+     victoryCondition CUSTOM
      name "Condition_02"
      description "#AR-BriefingCampaign_VictoryCondition_02"
     }
@@ -65,7 +65,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_sFactionRadioEncryptionKey "freedomSauce"
   }
  }
- m_VehicleAssetList "{C113F3E1E2810FCC}Configs/Campaign/VehicleAssetList_SampleNewFaction.conf"
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
  coords -0.018 0 0.077
@@ -85,7 +84,7 @@ SCR_CampaignBuildingManagerEntity : "{1722294208A98906}Prefabs/MP/Campaign/Campa
  coords 38.754 0 45.321
  m_fCostMultiplier 1
 }
-SCR_CampaignTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
 }
 SCR_CampaignGarbageManager : "{38018ED573ED2316}Prefabs/MP/Campaign/CampaignGarbageManager.et" {
 }
@@ -100,6 +99,4 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
    m_sAffiliatedFaction "SampleFactionREDFOR"
   }
  }
-}
-SCR_MusicManager : "{B5B2E6CEB8DC1CBB}Prefabs/Sounds/Music/MusicManager_Everon_Campaign.et" {
 }

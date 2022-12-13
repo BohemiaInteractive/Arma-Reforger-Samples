@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{755B770CD41AA61C}Configs/Spawner/Vehicles_SampleFactionBLUFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

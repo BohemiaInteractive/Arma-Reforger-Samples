@@ -600,15 +600,6 @@ $grp GenericEntity : "{3828F18C8638E553}Prefabs/Props/Commercial/Posters/PosterS
   angleZ 3.118
  }
  {
-  coords 4477.738 14.989 10731.885
-  angleY 169.595
- }
- {
-  coords 4477.458 15.022 10731.83
-  angleY 169.595
-  angleZ 2.707
- }
- {
   coords 4501.813 15.782 10716.277
   angleY -8.508
  }
@@ -641,6 +632,12 @@ $grp GenericEntity : "{3828F18C8638E553}Prefabs/Props/Commercial/Posters/PosterS
   angleY 178.861
   angleZ 5.318
  }
+ {
+  coords 5515.819 95.595 6093.452
+ }
+}
+GenericEntity : "{3828F18C8638E554}Prefabs/Props/Commercial/Posters/PosterSingle_01.et" {
+ coords 5514.059 95.595 6094.286
 }
 $grp DecalEntity : "{70B3637ACDFDB51F}PrefabLibrary/Decals/Garbage/CigarButts_01.et" {
  {
@@ -692,7 +689,7 @@ $grp GenericEntity : "{8AD76C341BFCF8C5}Prefabs/Props/Commercial/Posters/Posters
   angleY -47
  }
 }
-$grp GenericEntity : "{96B440F2A3D3A33E}Prefabs/Props/Commercial/Posters/PosterSet_01_Eden_V1.et" {
+$grp GenericEntity : "{96B440F2A3D3A33E}Prefabs/Props/Commercial/Posters/PosterSet_E_01_Eden_V1.et" {
  {
   coords 5511.345 97.756 6098.042
   angleY -148.472
@@ -718,6 +715,156 @@ $grp GenericEntity : "{96B440F2A3D3A33E}Prefabs/Props/Commercial/Posters/PosterS
  {
   coords 4482.063 15.142 9459.153
   angleY 87.267
+ }
+ {
+  coords 4814.468 169.346 7057.554
+  angleY -118
+ }
+ {
+  coords 4814.702 168.922 7057.114
+  angleY -118
+  angleZ -2.348
+ }
+ {
+  coords 5514.817 97.584 6095.912
+  angleY -148.472
+ }
+ {
+  coords 5279.883 66.883 5300.79
+  angleY -64.715
+  angleZ 2.133
+ }
+ {
+  coords 5279.729 66.457 5300.46
+  angleY -64.715
+  angleZ 1.376
+ }
+ {
+  coords 5056.653 17.464 3960.435
+  angleY -76.72
+  angleZ 1.761
+ }
+ {
+  coords 5056.777 17.018 3960.96
+  angleY -76.72
+  angleZ -0.631
+ }
+ {
+  coords 5109.535 16.678 4031.42
+  angleY 165.096
+ }
+ {
+  coords 5109.834 16.249 4031.501
+  angleY 165.096
+  angleZ -2.473
+ }
+ {
+  coords 5106.608 15.604 4030.646
+  angleX -0.018
+  angleY 164.681
+  angleZ -2.473
+ }
+ {
+  coords 5104.688 178.308 7049.885
+  angleY 31.037
+  angleZ 2.123
+ }
+ {
+  coords 5104.35 177.9 7050.088
+  angleY 31.037
+  angleZ 2.123
+ }
+ {
+  coords 5107.737 177.924 7048.05
+  angleY 31.037
+  angleZ 2.123
+ }
+ {
+  coords 4808.347 171.227 6956.795
+  angleY 73
+  angleZ 1.404
+ }
+ {
+  coords 4808.588 170.786 6956.009
+  angleY 73
+  angleZ 1.404
+ }
+ {
+  coords 4808.188 170.784 6957.402
+  angleY 73
+  angleZ 1.404
+ }
+ {
+  coords 4806.946 171.228 6961.382
+  angleY 73
+  angleZ -3.221
+ }
+ {
+  coords 4837.063 171.859 6987.433
+  angleX -0.142
+  angleY -34.889
+  angleZ 0.198
+ }
+ {
+  coords 4836.577 171.423 6987.094
+  angleX -0.142
+  angleY -34.889
+  angleZ 0.198
+ }
+ {
+  coords 4832.398 171.674 6984.17
+  angleX -0.142
+  angleY -34.889
+  angleZ 0.198
+ }
+ {
+  coords 4829.678 171.675 6982.274
+  angleX -0.142
+  angleY -34.889
+  angleZ -4.427
+ }
+ {
+  coords 7023.372 119.651 6010.136
+  angleX 0.317
+  angleY 139.397
+  angleZ 0.772
+ }
+ {
+  coords 7025.244 119.553 6011.739
+  angleX 0.317
+  angleY 139.397
+  angleZ -3.853
+ }
+ {
+  coords 7544.032 84.428 5500.427
+  angleY 146.79
+  angleZ 1.023
+ }
+ {
+  coords 5511.39 97.287 6098.014
+  angleY -148.472
+  angleZ -3.134
+ }
+ {
+  coords 8797.429 98.549 2785.648
+  angleY 67.749
+ }
+ {
+  coords 8796.792 98.217 2787.205
+  angleY 67.749
+  angleZ 3.443
+ }
+ {
+  coords 4482.253 15.385 9455.523
+  angleY 86.338
+ }
+ {
+  coords 4908.429 37.722 9094.938
+  angleY 39.406
+ }
+ {
+  coords 1291.332 40.765 5903.099
+  angleY -38.033
  }
 }
 $grp GenericEntity : "{9D3B20E76DC77E41}PrefabLibrary/Props/Garbage/PostersGround_01_Eden.et" {
@@ -1198,21 +1345,6 @@ $grp GenericEntity : "{B657FAF316AAC342}Prefabs/Props/Commercial/Posters/PosterS
   scale 0.911
  }
  {
-  coords 4477.14 14.885 10731.781
-  angleY 169.595
- }
- {
-  coords 4480.017 14.787 10732.309
-  angleY 169.595
-  scale 1.2
- }
- {
-  coords 4486.948 14.922 10733.582
-  angleY 169.595
-  angleZ 5.886
-  scale 1.2
- }
- {
   coords 4502.368 15.674 10716.343
   angleY -8
  }
@@ -1592,163 +1724,6 @@ $grp GenericEntity : "{B93C7A4A43696971}PrefabLibrary/Props/Garbage/PostersGroun
   angleZ -0.796
  }
 }
-$grp GenericEntity : "{DA03CE13AA6E4C6D}Prefabs/Props/Commercial/Posters/PosterSet_01_Eden.et" {
- {
-  coords 4814.468 169.346 7057.554
-  angleY -118
- }
- {
-  coords 4814.702 168.922 7057.114
-  angleY -118
-  angleZ -2.348
- }
- {
-  coords 5514.817 97.584 6095.912
-  angleY -148.472
- }
- {
-  coords 5279.883 66.883 5300.79
-  angleY -64.715
-  angleZ 2.133
- }
- {
-  coords 5279.729 66.457 5300.46
-  angleY -64.715
-  angleZ 1.376
- }
- {
-  coords 5056.653 17.464 3960.435
-  angleY -76.72
-  angleZ 1.761
- }
- {
-  coords 5056.777 17.018 3960.96
-  angleY -76.72
-  angleZ -0.631
- }
- {
-  coords 5109.535 16.678 4031.42
-  angleY 165.096
- }
- {
-  coords 5109.834 16.249 4031.501
-  angleY 165.096
-  angleZ -2.473
- }
- {
-  coords 5106.608 15.604 4030.646
-  angleX -0.018
-  angleY 164.681
-  angleZ -2.473
- }
- {
-  coords 5104.688 178.308 7049.885
-  angleY 31.037
-  angleZ 2.123
- }
- {
-  coords 5104.35 177.9 7050.088
-  angleY 31.037
-  angleZ 2.123
- }
- {
-  coords 5107.737 177.924 7048.05
-  angleY 31.037
-  angleZ 2.123
- }
- {
-  coords 4808.347 171.227 6956.795
-  angleY 73
-  angleZ 1.404
- }
- {
-  coords 4808.588 170.786 6956.009
-  angleY 73
-  angleZ 1.404
- }
- {
-  coords 4808.188 170.784 6957.402
-  angleY 73
-  angleZ 1.404
- }
- {
-  coords 4806.946 171.228 6961.382
-  angleY 73
-  angleZ -3.221
- }
- {
-  coords 4837.063 171.859 6987.433
-  angleX -0.142
-  angleY -34.889
-  angleZ 0.198
- }
- {
-  coords 4836.577 171.423 6987.094
-  angleX -0.142
-  angleY -34.889
-  angleZ 0.198
- }
- {
-  coords 4832.398 171.674 6984.17
-  angleX -0.142
-  angleY -34.889
-  angleZ 0.198
- }
- {
-  coords 4829.678 171.675 6982.274
-  angleX -0.142
-  angleY -34.889
-  angleZ -4.427
- }
- {
-  coords 7023.372 119.651 6010.136
-  angleX 0.317
-  angleY 139.397
-  angleZ 0.772
- }
- {
-  coords 7025.244 119.553 6011.739
-  angleX 0.317
-  angleY 139.397
-  angleZ -3.853
- }
- {
-  coords 7544.032 84.428 5500.427
-  angleY 146.79
-  angleZ 1.023
- }
- {
-  coords 5511.39 97.287 6098.014
-  angleY -148.472
-  angleZ -3.134
- }
- {
-  coords 8797.429 98.549 2785.648
-  angleY 67.749
- }
- {
-  coords 8796.792 98.217 2787.205
-  angleY 67.749
-  angleZ 3.443
- }
- {
-  coords 4482.253 15.385 9455.523
-  angleY 86.338
- }
- {
-  coords 4908.429 37.722 9094.938
-  angleY 39.406
- }
- {
-  coords 4480.222 14.86 10732.334
-  angleY 169.595
-  angleZ 1.608
- }
- {
-  coords 1291.332 40.765 5903.099
-  angleY -38.033
- }
-}
 $grp GenericEntity : "{DB166ED7FC9F713A}Prefabs/Props/Commercial/Posters/PosterSet_02_V1.et" {
  {
   coords 7018.379 120.006 6005.887
@@ -1892,16 +1867,6 @@ $grp GenericEntity : "{DB166ED7FC9F713A}Prefabs/Props/Commercial/Posters/PosterS
   angleY 86.402
  }
  {
-  coords 4478.255 14.161 10731.986
-  angleY 169.595
-  scale 1.2
- }
- {
-  coords 4482.384 14.802 10732.744
-  angleY 169.595
-  scale 1.2
- }
- {
   coords 4500.354 15.443 10716.06
   angleY -8
   scale 1.151
@@ -1916,12 +1881,6 @@ $grp GenericEntity : "{DB166ED7FC9F713A}Prefabs/Props/Commercial/Posters/PosterS
   angleY -8
   angleZ 5.313
   scale 1.151
- }
- {
-  coords 4489.116 14.948 10733.981
-  angleY 169.595
-  angleZ -6.727
-  scale 1.056
  }
  {
   coords 4564.446 19.417 10719.821

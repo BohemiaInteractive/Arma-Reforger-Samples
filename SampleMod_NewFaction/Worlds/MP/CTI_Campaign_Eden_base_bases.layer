@@ -1,114 +1,61 @@
 $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSmallBaseEntityFinal.et" {
  MilitaryBaseAirfield {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 4884.692 29.274 12006.445
   m_sBaseName "#AR-Campaign_MapLocation_Airbase"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationAirport"
   m_sSlotNameHQ "Airfield_HQ"
   m_sSlotNameSupplies "Airfield_Supply"
   m_sSlotNameArmory "Airfield_Armory"
-  m_sSlotNameRepair "Airfield_Repair"
+  m_sSlotNameLightVehicleDepot "Airfield_Repair"
+  m_sSlotNameBarracks "Airfield_Barracks"
   m_sSlotNameRadioAntenna "Airfield_Antenna"
   m_iFreqWest 40
   m_iFreqEast 52
   m_iBaseID 6
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 19.006 -2.813 29.466
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 23.07 -1.891 12.496
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 1.681 -0.768 -51.53
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -13.061 -1.08 -49.804
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords -20.137 -1.794 -9.599
+    coords -19.27 -1.641 -18.058
    }
   }
  }
  MilitaryBaseLevie {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+    m_iMaximumSeizingCharacters 10
+   }
+  }
   coords 7468.177 168.901 4270.253
   angleY -78.209
   m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
-  m_eStartingBaseOwner OPFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationLevie_MilitaryBase"
   m_sSlotNameSupplies "LevieMilitary_Supply"
   m_sSlotNameArmory "LevieMilitary_Armory"
-  m_sSlotNameRepair "LevieMilitary_Repair"
+  m_sSlotNameLightVehicleDepot "LevieMilitary_Repair"
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 44
   m_iBaseID 7
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -45.951 -3.401 -26.86
-    angleY -174.719
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -10.693 -2.057 -59.215
-    angleY 3.024
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -46.23 -3.401 -6.835
-    angleY 95.04
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -55.138 -2.057 -84.465
-    angleY 95.167
-   }
-   $grp SCR_CampaignDeliveryPoint {
-    {
-     components {
-      Hierarchy "{5588D5406A5DD722}" {
-      }
-     }
-     coords -3.949 3.184 -5.277
-     angleY 2.049
-     m_eType RADIO_ANTENNA
-    }
-    {
-     components {
-      Hierarchy "{55929C57549137BB}" {
-      }
-     }
-     coords 40.661 -4.338 -8.601
-     angleY -87.219
-     m_eType BARRACKS
-    }
+   SCR_CampaignRemnantsSpawnPoint {
+    coords 0 -4.468 11.999
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55AE8A0D75B9C25F"
-    coords 0 -4.468 11.999
+    coords 4.467 -4.468 11.999
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 26.832 -4.339 -1.58
    }
    $grp SCR_DoorOpenerEntity {
     {
@@ -137,9 +84,9 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
      m_fRadius 1
     }
    }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords 26.832 -4.339 -1.58
+   GenericEntity : "{1AF9E0A02075CBB0}Prefabs/MP/Campaign/Bases/Campaign_Antenna_US.et" {
+    coords -3.64 3.184 -5.311
+    angleY -1.512
    }
    $grp GenericEntity : "{35F2A674E602198F}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_plastic.et" {
     {
@@ -223,7 +170,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
     coords -8.533 -4.338 -10.322
     angleY 93.754
    }
-   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
     components {
      SCR_CampaignFlagComponent "{58F0B74AC4B248DF}" {
       m_iBaseSearchRange 100
@@ -235,6 +182,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  MilitaryBaseVilleneuf {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 3507.2 181.955 5816.927
   m_sBaseName "#AR-Campaign_MapLocation_Villeneuf_Base"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf_Base-UC"
@@ -242,149 +195,80 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "BaseVilleneuveHill_HQ"
   m_sSlotNameSupplies "BaseVilleneuveHill_Supply"
   m_sSlotNameArmory "BaseVilleneuveHill_Armory"
-  m_sSlotNameRepair "BaseVilleneuveHill_Repair"
+  m_sSlotNameLightVehicleDepot "BaseVilleneuveHill_Repair"
+  m_sSlotNameBarracks "BaseVilleneuveHill_Barracks"
   m_sSlotNameRadioAntenna "BaseVilleneuveHill_Antenna"
   m_iFreqWest 60
   m_iFreqEast 44
   m_iBaseID 8
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -14.427 -1.077 -0.224
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -9.883 -2.266 -24.521
-    angleY -102.404
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -46.316 -2.865 -16.38
-    angleY -86.968
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -33.152 -1.423 0.493
-    angleY -4.606
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 0.154 12
+    coords -3.297 -0.084 17.79
    }
   }
  }
  MilitaryHospital {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+    m_iMaximumSeizingCharacters 10
+   }
+  }
   coords 3936.191 15.916 8455.892
   m_sBaseName "#AR-MapLocation_MilitaryHospital"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
-  m_eStartingBaseOwner BLUFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationTyrone_MilitaryHospital"
   m_sSlotNameHQ "BaseHospital_HQ"
   m_sSlotNameSupplies "BaseHospital_Supply"
   m_sSlotNameArmory "BaseHospital_Armory"
-  m_sSlotNameRepair "BaseHospital_Repair"
+  m_sSlotNameLightVehicleDepot "BaseHospital_Repair"
+  m_sSlotNameBarracks "BaseHospital_Barracks"
   m_sSlotNameRadioAntenna "BaseHospital_Antenna"
   m_iFreqEast 46
   m_iBaseID 9
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 2.681 -0.659 -9.599
-    angleY -32.578
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -11.114 -1.161 29.935
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -50.401 0 -30.87
-    angleY -84.96
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -49.483 -0.286 3.948
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 -0.375 12
+    coords -16.854 -0.677 9.449
    }
-   SCR_SpawnPoint {
+   SCR_CampaignSpawnPointGroup {
     ID "56E085ABA7D45CE8"
     coords -15.868 -0.594 0
    }
   }
  }
  TownBaseChotain {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6987.958 120.754 6056.035
   angleY -124.762
   m_sBaseName "#AR-MapLocation_Chotain"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Chotain-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationChotain"
   m_sSlotNameHQ "Chotain_HQ"
   m_sSlotNameSupplies "Chotain_Supply"
   m_sSlotNameArmory "Chotain_Armory"
-  m_sSlotNameRepair "Chotain_Repair"
+  m_sSlotNameLightVehicleDepot "Chotain_Repair"
+  m_sSlotNameBarracks "Chotain_Barracks"
   m_sSlotNameRadioAntenna "Chotain_Antenna"
   m_iFreqWest 64
   m_iFreqEast 54
   m_iBaseID 10
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 17.173 0.233 7.182
-    angleY 16.104
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 44.848 3.333 24.803
-    angleY -91.295
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 16.062 0.543 -11.359
-    angleY -10.044
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 53.683 3.999 2.301
-    angleY 73.885
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 11.98 -0.27 2.448
+    coords 0.609 -0.864 19.825
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords -0.003 0.001 0.006
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
-    coords -0.003 0.001 0.006
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
     coords -0.003 0.001 0.006
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -399,50 +283,29 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseDuras {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 8898.725 96.553 2710.525
   angleY -10.699
   m_sBaseName "#AR-MapLocation_Durras"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationDurras"
   m_sSlotNameHQ "Duras_HQ"
   m_sSlotNameSupplies "Duras_Supply"
   m_sSlotNameArmory "Duras_Armory"
-  m_sSlotNameRepair "Duras_Repair"
+  m_sSlotNameLightVehicleDepot "Duras_Repair"
+  m_sSlotNameBarracks "Duras_Barracks"
   m_sSlotNameRadioAntenna "Duras_Antenna"
   m_iFreqWest 60
   m_iFreqEast 44
   m_iBaseID 11
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -2.477 -0.406 14.182
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 12.339 -0.619 27.27
-    angleY -16.555
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -7.614 -1.18 31.364
-    angleY -179.925
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 10.466 0.655 -9.401
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 7.759 0.036 7.778
+    coords 11.914 0.189 7.198
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -456,6 +319,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseEntre_Deux {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6008.774 217.279 7172.529
   angleY -69.9
   m_sBaseName "#AR-MapLocation_EntreDeux"
@@ -464,43 +333,15 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "EntreDeux_HQ"
   m_sSlotNameSupplies "EntreDeux_Supply"
   m_sSlotNameArmory "EntreDeux_Armory"
-  m_sSlotNameRepair "EntreDeux_Repair"
+  m_sSlotNameLightVehicleDepot "EntreDeux_Repair"
+  m_sSlotNameBarracks "EntreDeux_Barracks"
   m_sSlotNameRadioAntenna "EntreDeux_Antenna"
   m_iFreqWest 36
   m_iFreqEast 40
   m_iBaseID 12
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 22.648 0.769 18.378
-    angleY -75.786
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -25.107 0.653 8.478
-    angleY 29.66
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -28.139 3.313 36.956
-    angleY -125.96
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -9.262 3.781 46.036
-    angleY -77.509
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 0.294 12
+    coords 2.909 0.449 15.343
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -514,6 +355,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseFigari {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 5125.89 52.666 5495.677
   m_sBaseName "#AR-MapLocation_Figari"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
@@ -521,43 +368,15 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "Figari_HQ"
   m_sSlotNameSupplies "Figari_Supply"
   m_sSlotNameArmory "Figari_Armory"
-  m_sSlotNameRepair "Figari_Repair"
+  m_sSlotNameLightVehicleDepot "Figari_Repair"
+  m_sSlotNameBarracks "Figari_Barracks"
   m_sSlotNameRadioAntenna "Figari_Antenna"
   m_iFreqWest 56
   m_iFreqEast 50
   m_iBaseID 13
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 17.442 0.5 -21.369
-    angleY 47
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -23.604 2.271 -39.399
-    angleY 35.287
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -18.375 1.864 -5.798
-    angleY -102.018
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 6.543 1.271 -36.321
-    angleY -134.388
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 -0.56 12
+    coords -4.108 0.59 -19.557
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -570,50 +389,28 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseLaruns {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 7416.537 115.789 5276.968
   angleY 161.96
   m_sBaseName "#AR-MapLocation_Laruns"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationLaruns"
   m_sSlotNameHQ "Laruns_HQ"
   m_sSlotNameSupplies "Laruns_Supply"
   m_sSlotNameArmory "Laruns_Armory"
-  m_sSlotNameRepair "Laruns_Repair"
+  m_sSlotNameLightVehicleDepot "Laruns_Repair"
+  m_sSlotNameBarracks "Laruns_Barracks"
   m_sSlotNameRadioAntenna "Laruns_Antenna"
   m_iFreqWest 52
   m_iFreqEast 42
   m_iBaseID 14
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -5.807 -1.767 -35.521
-    angleY 88.156
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -34.499 -4.639 -2.701
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 23.239 3.277 -2.905
-    angleY -56.537
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -27.612 -1.766 -46.523
-    angleY -107.549
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
     coords 0.001 -1.819 12
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -628,6 +425,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseLe_Moule {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 2456.641 103.026 5431.745
   angleY 169.936
   m_sBaseName "#AR-MapLocation_LeMoule"
@@ -636,40 +439,14 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "LeMoule_HQ"
   m_sSlotNameSupplies "LeMoule_Supply"
   m_sSlotNameArmory "LeMoule_Armory"
-  m_sSlotNameRepair "LeMoule_Repair"
+  m_sSlotNameLightVehicleDepot "LeMoule_Repair"
+  m_sSlotNameBarracks "LeMoule_Barracks"
   m_sSlotNameRadioAntenna "LeMoule_Antenna"
   m_iFreqWest 44
   m_iBaseID 15
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -19.558 0.15 -15.295
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -58.737 -5.109 14.285
-    angleY -96.004
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -2.477 -2.664 15.146
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -35.916 -5.09 20.139
-    angleY 93.221
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 6.31 -1.838 8.303
+    coords -15.726 -3.354 9.593
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -683,50 +460,29 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseLevie {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 7460.785 132.32 4816.134
   angleY 91.197
   m_sBaseName "#AR-MapLocation_Levie"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationLevie"
   m_sSlotNameHQ "Levie_HQ"
   m_sSlotNameSupplies "Levie_Supply"
   m_sSlotNameArmory "Levie_Armory"
-  m_sSlotNameRepair "Levie_Repair"
+  m_sSlotNameLightVehicleDepot "Levie_Repair"
+  m_sSlotNameBarracks "Levie_Barracks"
   m_sSlotNameRadioAntenna "Levie_Antenna"
   m_iFreqWest 36
   m_iFreqEast 40
   m_iBaseID 16
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 7.529 -0.174 48.178
-    angleY -102.401
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -4.897 -0.893 37.163
-    angleY 75.314
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 16.241 0.762 13.81
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -19.295 -2.539 20.432
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 -0.926 12
+    coords -0.002 -0.495 16.425
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -740,49 +496,29 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseMeaux {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 4511.358 20.993 9770.459
   angleY -94.777
   m_sBaseName "#AR-MapLocation_Meaux"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Meaux-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationMeaux"
   m_sSlotNameHQ "Meaux_HQ"
   m_sSlotNameSupplies "Meaux_Supply"
   m_sSlotNameArmory "Meaux_Armory"
-  m_sSlotNameRepair "Meaux_Repair"
+  m_sSlotNameLightVehicleDepot "Meaux_Repair"
+  m_sSlotNameBarracks "Meaux_Barracks"
   m_sSlotNameRadioAntenna "Meaux_Antenna"
   m_iFreqWest 64
   m_iFreqEast 54
   m_iBaseID 17
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 0.788 0.069 -15.068
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 28.504 -0.167 -41.94
-    angleY 11.706
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -5.321 -2.088 33.015
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 5.369 0.238 -33.918
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 -0.459 12
+    coords 19.437 -1.067 7.762
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -796,51 +532,29 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseMontignac {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 5107.138 176.115 6978.783
   angleY 55.095
   m_sBaseName "#AR-MapLocation_Montignac"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationMontignac"
   m_sSlotNameHQ "Montignac_HQ"
   m_sSlotNameSupplies "Montignac_Supply"
   m_sSlotNameArmory "Montignac_Armory"
-  m_sSlotNameRepair "Montignac_Repair"
+  m_sSlotNameLightVehicleDepot "Montignac_Repair"
+  m_sSlotNameBarracks "Montignac_Barracks"
   m_sSlotNameRadioAntenna "Montignac_Antenna"
   m_iFreqWest 52
   m_iFreqEast 42
   m_iBaseID 18
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -7.861 0.613 -25.235
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 37.252 -4.773 -8.84
-    angleY -86.858
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -4.705 0.963 15.224
-    angleY -173.443
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 58.13 -4.826 2.155
-    angleY 70.429
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 0.132 12.001
+    coords -17.296 0.795 -8.513
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
@@ -858,6 +572,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseProvins {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 5573.917 89.33 5895.074
   angleY -65.438
   m_sBaseName "#AR-MapLocation_Provins"
@@ -866,39 +586,14 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "Provins_HQ"
   m_sSlotNameSupplies "Provins_Supply"
   m_sSlotNameArmory "Provins_Armory"
-  m_sSlotNameRepair "Provins_Repair"
+  m_sSlotNameLightVehicleDepot "Provins_Repair"
+  m_sSlotNameBarracks "Provins_Barracks"
   m_sSlotNameRadioAntenna "Provins_Antenna"
   m_iFreqEast 46
   m_iBaseID 19
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 1.978 0.635 -15.738
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 6.725 -0.468 48.398
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 35.347 1.22 20.943
-    angleY 81.096
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -11.75 -0.893 41.916
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 5.473 -0.093 12.316
+    coords 15.496 0.139 7.127
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -912,48 +607,41 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseRegina {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 7290.716 138.744 2175.788
   angleY -102.454
   m_sBaseName "#AR-MapLocation_Regina"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationRegina"
   m_sSlotNameHQ "Regina_HQ"
   m_sSlotNameSupplies "Regina_Supply"
   m_sSlotNameArmory "Regina_Armory"
-  m_sSlotNameRepair "Regina_Repair"
+  m_sSlotNameLightVehicleDepot "Regina_Repair"
+  m_sSlotNameBarracks "Regina_Barracks"
   m_sSlotNameRadioAntenna "Regina_Antenna"
   m_iFreqWest 56
   m_iFreqEast 50
   m_iBaseID 20
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 0.644 0.041 -15.171
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 40.629 -1.076 -42.705
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 7.951 -0.531 -30.3
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 23.752 -1.169 -44.146
+   SCR_CampaignRemnantsSpawnPoint {
+    coords 21.169 -0.605 -17.36
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55AE8A0D75B9C25F"
     coords 0 -0.269 12
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 1.134 0
+   }
+   SCR_CampaignTriggerEntity {
+    ID "52D8C7C2C1A51972"
+    coords 0 1.134 0
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -967,64 +655,39 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseTyrone {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 4999.677 44.956 8966.667
   angleY 63.956
   m_sBaseName "#AR-MapLocation_Tyrone"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationTyrone"
   m_sSlotNameHQ "Tyrone_HQ"
   m_sSlotNameSupplies "Tyrone_Supply"
   m_sSlotNameArmory "Tyrone_Armory"
-  m_sSlotNameRepair "Tyrone_Repair"
+  m_sSlotNameLightVehicleDepot "Tyrone_Repair"
+  m_sSlotNameBarracks "Tyrone_Barracks"
   m_sSlotNameRadioAntenna "Tyrone_Antenna"
   m_iFreqWest 60
   m_iFreqEast 44
   m_iBaseID 21
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -12.676 -1.172 14.284
-    angleY -144.2
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 23.516 1.147 13.708
-    angleY 65.491
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 14.816 1.519 -9.087
-    angleX 1.574
-    angleY -175.609
-    angleZ -0.852
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 6.238 0.378 26.822
-    angleY -61.33
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 1.558 0.498 14.672
+    coords -16.822 -2.359 26.339
     angleY 177.624
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 8.822 0.754 10.126
+    angleY -144.2
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
     coords -13.06 -0.073 11.419
-    angleY -144.2
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords 8.822 0.754 10.126
     angleY -144.2
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1039,64 +702,33 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseVernon {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 9124.488 76.184 2279.959
   angleY -78.508
   m_sBaseName "#AR-MapLocation_Vernon"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
-  m_eStartingBaseOwner OPFOR
   m_sMapLocationName "LocationVernon"
   m_sSlotNameHQ "Vernon_HQ"
   m_sSlotNameSupplies "Vernon_Supply"
   m_sSlotNameArmory "Vernon_Armory"
-  m_sSlotNameRepair "Vernon_Repair"
+  m_sSlotNameLightVehicleDepot "Vernon_Repair"
+  m_sSlotNameBarracks "Vernon_Barracks"
   m_sSlotNameRadioAntenna "Vernon_Antenna"
   m_iFreqWest 40
   m_iFreqEast 52
   m_iBaseID 22
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    components {
-     Hierarchy "{5474D9D097CF79AF}" {
-     }
-    }
-    coords -21.626 -0.044 0.196
-    angleY -126.572
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -40.447 -3.896 -16.088
-    angleY 112.019
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-     }
-    }
-    coords 22.581 1.619 2.092
-    angleY 112.019
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-     }
-    }
-    coords -20.13 -1.631 -28.64
-    angleY 112.019
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords -5.033 -0.148 9.375
+    coords 5.436 1.58 15.164
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords -10.602 -1.372 -12.991
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
@@ -1104,10 +736,6 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
      Hierarchy "{52D8C7C341E5515C}" {
      }
     }
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords -10.602 -1.372 -12.991
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1121,57 +749,37 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseVileneuf {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 2879.096 83.012 6493.427
   angleY -20.171
   m_sBaseName "#AR-MapLocation_Villeneuf"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationVilleneuf"
   m_sSlotNameHQ "Villeneuve_HQ"
   m_sSlotNameSupplies "Villeneuve_Supply"
   m_sSlotNameArmory "Villeneuve_Armory"
-  m_sSlotNameRepair "Villeneuve_Repair"
+  m_sSlotNameLightVehicleDepot "Villeneuve_Repair"
+  m_sSlotNameBarracks "Villeneuve_Barracks"
   m_sSlotNameRadioAntenna "Villeneuve_Antenna"
   m_iFreqWest 36
   m_iFreqEast 40
   m_iBaseID 23
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -32.827 -3.262 -8.452
-    angleY -11.814
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -25.537 -3.181 -24.26
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -8.046 -4.272 -13.775
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -38.104 -3.151 5.515
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords -15.185 -4.772 5.462
+    coords -19.303 -4.615 -1.73
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords -1.332 0 7.177
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
     coords 0.692 -4.723 0.976
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords -1.332 0 7.177
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1185,48 +793,27 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseGravette {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 3992.149 31.97 7876.639
   angleY -40.15
   m_sBaseName "#AR-MapLocation_Gravette"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
-  m_eStartingBaseOwner BLUFOR
   m_sMapLocationName "LocationGravette"
   m_sSlotNameHQ "Gravette_HQ"
   m_sSlotNameSupplies "Gravette_Supply"
   m_sSlotNameArmory "Gravette_Armory"
-  m_sSlotNameRepair "Gravette_Repair"
+  m_sSlotNameLightVehicleDepot "Gravette_Repair"
+  m_sSlotNameBarracks "Gravette_Barracks"
   m_sSlotNameRadioAntenna "Gravette_Antenna"
   m_iBaseID 3
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 14.312 -1.736 -6.709
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -35.392 -4.495 -0.528
-    angleY -54.088
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -21.219 -2.616 -9.593
-    angleY -92.908
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -18.059 -4.005 44.253
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 2.689 -0.761 12.196
+    coords 8.417 -0.438 14.404
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1240,6 +827,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseMine {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 8790.147 197.099 3895.101
   angleY 162.727
   m_sBaseName "#AR-Campaign_MapLocation_Quarry"
@@ -1248,51 +841,27 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "MineSlotHQ"
   m_sSlotNameSupplies "MineSlotSupply"
   m_sSlotNameArmory "MineSlotArmory"
-  m_sSlotNameRepair "MineSlotRepair"
+  m_sSlotNameLightVehicleDepot "MineSlotRepair"
+  m_sSlotNameBarracks "MineSlotBarracks"
   m_sSlotNameRadioAntenna "MineSlotAntenna"
   m_iBaseID 39
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -3.997 2.165 -77.713
-    angleY 123.344
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -23.523 3.034 -84.544
-    angleY -149.946
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 15.292 -1.387 -15.561
+   SCR_CampaignRemnantsSpawnPoint {
+    coords -14.258 1.837 -56.561
     angleY -162.727
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -15.558 2.467 -35.56
-    angleY -76.33
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55AE8A0D75B9C25F"
-    coords 7.815 -0.336 -6.237
+    coords 0.001 -0.817 12
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 10.503 -0.482 -3.911
     angleY -162.727
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
     coords 0.582 0.523 -0.75
-    angleY -162.727
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords 10.502 -0.07 -3.911
     angleY -162.727
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1307,6 +876,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseBlackLake {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 9453.143 209.122 2950.767
   angleY 16.517
   m_sBaseName "#AR-MapLocation_BlackLake"
@@ -1314,37 +889,13 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "BlackLake_HQ"
   m_sSlotNameSupplies "BlackLake_Supply"
   m_sSlotNameArmory "BlackLake_Armory"
-  m_sSlotNameRepair "BlackLake_Repair"
+  m_sSlotNameLightVehicleDepot "BlackLake_Repair"
+  m_sSlotNameBarracks "BlackLake_Barracks"
   m_sSlotNameRadioAntenna "BlackLake_Antenna"
   m_iBaseID 27
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 3.894 -1.399 -13.875
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 1.545 2.451 -54.057
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -24.629 -1.164 -7.815
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -21.502 -0.059 -34.717
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 11.169 -0.57 7.879
+    coords 20.617 0.278 -2.633
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1358,6 +909,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBasePennantsPass {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 8242.425 223.125 2166.514
   angleY 146.111
   m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
@@ -1365,51 +922,23 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "PennantsPass_HQ"
   m_sSlotNameSupplies "PennantsPass_Supply"
   m_sSlotNameArmory "PennantsPass_Armory"
-  m_sSlotNameRepair "PennantsPass_Repair"
+  m_sSlotNameLightVehicleDepot "PennantsPass_Repair"
+  m_sSlotNameBarracks "PennantsPass_Barracks"
   m_sSlotNameRadioAntenna "PennantsPass_Antenna"
   m_iBaseID 28
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 12.387 0.104 -41.206
-    angleY 47.427
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 43.158 -1.59 -40.679
-    angleY 23.347
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 10.456 -1.397 18.63
-    angleY -163.801
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 11.873 -0.203 -15.48
-    angleY 123.188
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 17.927 0 -11.697
+    coords -7.596 1 -12.025
+    angleY -146.111
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
     angleY -146.111
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
     coords 2.456 1.357 -1.464
-    angleY -146.111
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords 0 0 0
     angleY -146.111
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1424,6 +953,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseSimonsWood {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6579.463 81.998 5135.611
   angleY 18.504
   m_sBaseName "#AR-MapLocation_SimonsWood"
@@ -1431,36 +966,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "SimonsWood_HQ"
   m_sSlotNameSupplies "SimonsWood_Supply"
   m_sSlotNameArmory "SimonsWood_Armory"
-  m_sSlotNameRepair "SimonsWood_Repair"
+  m_sSlotNameLightVehicleDepot "SimonsWood_Repair"
+  m_sSlotNameBarracks "SimonsWood_Barracks"
   m_sSlotNameRadioAntenna "SimonsWood_Antenna"
   m_iBaseID 29
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -0.001 -0.995 -14.749
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -19.448 2.033 26.005
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -24.559 -0.571 -30.641
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -34.604 2.922 29.716
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
     coords 0.001 0.721 11.999
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1477,44 +988,25 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseRichemont {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 4539.218 64.1 4993.633
   m_sBaseName "#AR-Campaign_MapLocation_Richemont"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
   m_sSlotNameHQ "Richmond_HQ"
   m_sSlotNameSupplies "Richmond_Supply"
   m_sSlotNameArmory "Richmond_Armory"
-  m_sSlotNameRepair "Richmond_Repair"
+  m_sSlotNameLightVehicleDepot "Richmond_Repair"
+  m_sSlotNameBarracks "Richmond_Barracks"
   m_sSlotNameRadioAntenna "Richmond_Antenna"
   m_iBaseID 30
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -1.699 0 -16.671
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -3.626 -1.078 57.74
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 8.181 -1.234 32.871
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -17.205 -0.11 39.184
-    angleY 85.804
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords -7.029 -0.527 8.805
+    coords -14.822 -0.533 6.483
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1527,43 +1019,25 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseShepherds {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 3288.781 119.33 4467.846
   m_sBaseName "#AR-MapLocation_ShepherdsPond"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_ShepherdsPond-UC"
   m_sSlotNameHQ "Shepherds_HQ"
   m_sSlotNameSupplies "Shepherds_Supply"
   m_sSlotNameArmory "Shepherds_Armory"
-  m_sSlotNameRepair "Shepherds_Repair"
+  m_sSlotNameLightVehicleDepot "Shepherds_Repair"
+  m_sSlotNameBarracks "Shepherds_Barracks"
   m_sSlotNameRadioAntenna "Shepherds_Antenna"
   m_iBaseID 31
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -4.519 -0.624 14.865
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -13.858 -1.717 -22.583
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -6.754 -1.797 -41.195
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 12.454 0.97 -31.237
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 3.538 0.592 12.053
+    coords -0.896 0.252 -8.189
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1576,6 +1050,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseLake {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 4440.033 58.831 6240.32
   angleY 145.199
   m_sBaseName "#AR-MapLocation_PinewoodLake"
@@ -1583,38 +1063,13 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "Lake_HQ"
   m_sSlotNameSupplies "Lake_Supply"
   m_sSlotNameArmory "Lake_Armory"
-  m_sSlotNameRepair "Lake_Repair"
+  m_sSlotNameLightVehicleDepot "Lake_Repair"
+  m_sSlotNameBarracks "Lake_Barracks"
   m_sSlotNameRadioAntenna "Lake_Antenna"
   m_iBaseID 32
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 40.794 -2.141 -6.074
-    angleY 93.307
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 24.152 -1 19.511
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 23.758 -1.587 -20.165
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 45.968 -1.937 12.826
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 2.605 -0.151 11.342
+    coords 1.094 -0.221 20.917
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1630,43 +1085,25 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseTillersFind {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 3789.583 59.781 6997.688
   m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
   m_sSlotNameHQ "TillersFind_HQ"
   m_sSlotNameSupplies "TillersFind_Supply"
   m_sSlotNameArmory "TillersFind_Armory"
-  m_sSlotNameRepair "TillersFind_Repair"
+  m_sSlotNameLightVehicleDepot "TillersFind_Repair"
+  m_sSlotNameBarracks "TillersFind_Barracks"
   m_sSlotNameRadioAntenna "TillersFind_Antenna"
   m_iBaseID 33
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -11.49 0 9.674
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 6.141 -0.159 45.16
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 27.794 0 20.417
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -24.329 -0.298 19.931
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 0 12
+    coords 0.972 0 11.873
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1679,6 +1116,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  TownBaseKermovan {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6458.134 9.157 9652.447
   angleY -101.598
   m_sBaseName "#AR-MapLocation_Kermovan"
@@ -1686,51 +1129,23 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "Kermovan_HQ"
   m_sSlotNameSupplies "Kermovan_Supply"
   m_sSlotNameArmory "Kermovan_Armory"
-  m_sSlotNameRepair "Kermovan_Repair"
+  m_sSlotNameLightVehicleDepot "Kermovan_Repair"
+  m_sSlotNameBarracks "Kermovan_Barracks"
   m_sSlotNameRadioAntenna "Kermovan_Antenna"
   m_iBaseID 34
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -15.139 0.117 -13.019
-    angleY -92.399
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords -22.847 -2.125 24.116
+   SCR_CampaignRemnantsSpawnPoint {
+    coords -15.098 -0.501 5.486
     angleY 122.026
    }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 13.917 -1.691 -18.271
-    angleY 78.89
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -3.082 1.018 -22.88
-    angleY 158.043
-   }
-   SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 1.452 0.204 -8.475
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 4.148 0.306 -11.71
     angleY 122.026
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
     coords -1.499 0.157 -5.151
-    angleY 122.026
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
-    coords 4.148 0.306 -11.71
     angleY 122.026
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1745,6 +1160,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseMaidensBay {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 5234.311 34.347 10689.157
   angleY -37.377
   m_sBaseName "#AR-MapLocation_MaidensBay"
@@ -1752,37 +1173,13 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "MaidensBay_HQ"
   m_sSlotNameSupplies "MaidensBay_Supply"
   m_sSlotNameArmory "MaidensBay_Armory"
-  m_sSlotNameRepair "MaidensBay_Repair"
+  m_sSlotNameLightVehicleDepot "MaidensBay_Repair"
+  m_sSlotNameBarracks "MaidensBay_Barracks"
   m_sSlotNameRadioAntenna "MaidensBay_Antenna"
   m_iBaseID 35
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 38.377 0 13.244
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 66.771 0.278 -10.937
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 2.74 0.228 19.815
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 56.408 0.204 3.568
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0.033 0.14 10.329
+    coords 39.732 1.109 -7.081
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
     components {
@@ -1796,46 +1193,27 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseHornbeamValley {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 5376.893 25.468 8334.043
   m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
   m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
   m_sSlotNameHQ "HornbeamValley_HQ"
   m_sSlotNameSupplies "HornbeamValley_Supply"
   m_sSlotNameArmory "HornbeamValley_Armory"
-  m_sSlotNameRepair "HornbeamValley_Repair"
+  m_sSlotNameLightVehicleDepot "HornbeamValley_Repair"
+  m_sSlotNameBarracks "HornbeamValley_Barracks"
   m_sSlotNameRadioAntenna "HornbeamValley_Antenna"
   m_iBaseID 36
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords -13.233 2.056 -8.425
-    angleY -40.112
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 13.877 -1.254 12.175
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -8.079 -2.173 44.26
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords -31.376 0.658 32.858
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0 0.185 12
+    coords -10.286 0.685 18.251
    }
-   SCR_SpawnPoint {
+   SCR_CampaignSpawnPointGroup {
     ID "56E085ABA7D45CE8"
     coords 0 -1.308 23.952
    }
@@ -1853,6 +1231,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseAndresBeacon {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6852.692 83.067 8200.103
   angleY -149.943
   m_sBaseName "#AR-MapLocation_AndresBeacon"
@@ -1860,44 +1244,20 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "AndresBeacon_HQ"
   m_sSlotNameSupplies "AndresBeacon_Supply"
   m_sSlotNameArmory "AndresBeacon_Armory"
-  m_sSlotNameRepair "AndresBeacon_Repair"
+  m_sSlotNameLightVehicleDepot "AndresBeacon_Repair"
+  m_sSlotNameBarracks "AndresBeacon_Barracks"
   m_sSlotNameRadioAntenna "AndresBeacon_Antenna"
   m_iBaseID 37
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 16.83 2.897 23.891
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 30.368 5.395 46.09
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords -16.798 0.397 -2.06
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 17.333 -0.173 11.564
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords -3.066 -0.646 9.921
+    coords -8.857 3.505 25
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56E085ABA7D45CE8"
+    coords 0 0 0
    }
    SCR_CampaignTriggerEntity {
     ID "52D8C7C2C1A51972"
-    coords 0 0 0
-   }
-   SCR_SpawnPoint {
-    ID "56E085ABA7D45CE8"
     coords 0 0 0
    }
    GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
@@ -1914,6 +1274,12 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   }
  }
  SmallBaseGoatbay {
+  components {
+   SCR_CampaignSeizingComponent "{5966874ED9A403C3}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+  }
   coords 6635.657 5.643 3122.448
   angleY -24.751
   m_sBaseName "#AR-MapLocation_GoatBay"
@@ -1921,40 +1287,15 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameHQ "GoatBaySlot_HQ"
   m_sSlotNameSupplies "GoatBaySlot_Supply"
   m_sSlotNameArmory "GoatBaySlot_Armory"
-  m_sSlotNameRepair "GoatBaySlot_Repair"
+  m_sSlotNameLightVehicleDepot "GoatBaySlot_Repair"
+  m_sSlotNameBarracks "GoatBaySlot_Barracks"
   m_sSlotNameRadioAntenna "GoatBaySlot_Antenna"
   m_iBaseID 38
   {
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E96E951451"
-    coords 7.163 2.348 -14.748
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EDCA1496"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B48038CF6A5}" {
-      Enabled 0
-     }
-    }
-    coords 4.856 2.769 -29.771
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EC813EF1"
-    coords 3.936 3.474 -46.808
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "54A10785EFC28B60"
-    coords 3.677 -0.427 20.466
-    angleY -179.197
-   }
    SCR_CampaignRemnantsSpawnPoint {
-    ID "55AE8A0D75B9C25F"
-    coords 0.001 -0.512 12
+    coords -13.928 -0.455 15.355
    }
-   SCR_SpawnPoint {
+   SCR_CampaignSpawnPointGroup {
     ID "56E085ABA7D45CE8"
     coords -7.343 0.343 -19.636
    }
@@ -1973,20 +1314,31 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
 }
 $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMajorBaseEntityFinal.et" {
  MajorBaseChotain {
+  components {
+   SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+   SCR_CampaignSuppliesComponent "{59865A0C4B20E6E4}" {
+    m_iSupplies 250
+    m_iSuppliesMax 500
+   }
+  }
   coords 7445.592 12.154 6686.761
   angleY -25.279
   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
-  m_eStartingBaseOwner OPFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationChotain_MilitaryBase"
   m_sSlotNameSupplies "ChotainHarbor_Supply"
-  m_sSlotNameRepair "ChotainHarbor_Repair"
+  m_sSlotNameArmory "ChotainHarbor_Armory"
+  m_sSlotNameBarracks "ChotainHarbor_Fuel"
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 60
   m_iFreqEast 44
   m_iBaseID 2
   {
-   SCR_CampaignDeliveryPoint {
+   GenericEntity {
     ID "524ED87DCD09FF64"
     components {
      MeshObject "{524EBE6BCFDADD79}" {
@@ -1994,6 +1346,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
      RigidBody "{524EBE6BCFDADD62}" {
       Enabled 0
+     }
+     SCR_CampaignEntitySpawnerComponent "{59E475A8B7EC7F93}" {
+      m_iEntitySpawnRange 2
+      m_vSpawnOffsetPosition -7.298 0 -1.629
      }
     }
     coords -12.173 -2.467 76.576
@@ -2092,69 +1448,6 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
     }
    }
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E95B395C8F"
-    components {
-     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
-     }
-    }
-    coords -51.457 -2.425 48.76
-    angleY 155.496
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "5490F720B549DDF4"
-    coords 21.744 -2.457 94.509
-    angleY -27.434
-   }
-   SCR_CampaignDeliveryPoint {
-    components {
-     Hierarchy "{5586ED5F1DDEE00B}" {
-     }
-    }
-    coords -4.289 3.188 -5.185
-    angleY -0.731
-    m_eType RADIO_ANTENNA
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AA180FA5C"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
-      Enabled 0
-     }
-    }
-    coords 31.252 -4.268 0.529
-    angleY 0.293
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4902CFCAA7"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
-      Enabled 0
-     }
-    }
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B494E9F1A0D"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
-      Enabled 0
-     }
-    }
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AFF7F0D47"
-    coords 107.901 -6.226 34.87
-    angleY -27.354
-   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
     coords -47.469 -2.436 38.959
@@ -2174,6 +1467,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     ID "58EA81AA3EEAEE82"
     coords 97.582 0 23.859
     m_iWaypointIndex 3
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56DEEDF0B121F0E8"
+    coords 14.654 -4.28 14.175
    }
    $grp SCR_DoorOpenerEntity {
     {
@@ -2227,9 +1524,9 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      m_fRadius 1
     }
    }
-   SCR_SpawnPoint {
-    ID "56DEEDF0B121F0E8"
-    coords 14.654 -4.28 14.175
+   GenericEntity : "{1AF9E0A02075CBB0}Prefabs/MP/Campaign/Bases/Campaign_Antenna_US.et" {
+    coords -4.295 3.188 -5.188
+    angleY -0.114
    }
    $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
     {
@@ -2293,7 +1590,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     coords -5.936 -4.278 6.771
     angleY 90.176
    }
-   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
     components {
      SCR_CampaignFlagComponent "{58F0B75377FDE34E}" {
       m_iBaseSearchRange 100
@@ -2305,20 +1602,30 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
   }
  }
  MajorBaseLamentin {
+  components {
+   SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+   SCR_CampaignSuppliesComponent "{59865A0C4B20E6E4}" {
+    m_iSupplies 250
+    m_iSuppliesMax 500
+   }
+  }
   coords 1081.803 7.091 6013.407
-  angleY 0
   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
-  m_eStartingBaseOwner BLUFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationLamentin_Harbour"
   m_sSlotNameSupplies "Lamentin_Supply"
-  m_sSlotNameRepair "Lamentin_Repair"
+  m_sSlotNameArmory "Lamentin_Armory"
+  m_sSlotNameBarracks "Lamentin_Fuel"
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 52
   m_iFreqEast 42
   m_iBaseID 4
   {
-   SCR_CampaignDeliveryPoint {
+   GenericEntity {
     ID "524ED87DCD09FF64"
     components {
      MeshObject "{524EBE6BCFDADD79}" {
@@ -2326,6 +1633,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
      RigidBody "{524EBE6BCFDADD62}" {
       Enabled 0
+     }
+     SCR_CampaignEntitySpawnerComponent "{59E475A8B7EC7F93}" {
+      m_iEntitySpawnRange 2
+      m_vSpawnOffsetPosition -7.136 0 -1.549
      }
     }
     coords -66.412 -4.257 -2.868
@@ -2410,67 +1721,6 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
     }
    }
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E95B395C8F"
-    coords 4.813 -4.301 21.604
-    angleY -114.987
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "5490F720B549DDF4"
-    coords -13.725 -4.279 1.565
-    angleY 179.877
-   }
-   SCR_CampaignDeliveryPoint {
-    components {
-     Hierarchy "{558894C5074114BE}" {
-     }
-    }
-    coords -4.014 3.199 -5.218
-    m_eType RADIO_ANTENNA
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AA180FA5C"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
-      Enabled 0
-     }
-    }
-    coords -13.309 -4.268 166.888
-    angleY -23.828
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4902CFCAA7"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
-      Enabled 0
-     }
-    }
-    coords -19.632 -4.3 169.759
-    angleY 152.151
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B494E9F1A0D"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
-      Enabled 0
-     }
-    }
-    coords 0 0.1 0
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AFF7F0D47"
-    coords -39.438 -4.3 195.953
-    angleY -177.16
-   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
     coords -10.931 -4.341 11.879
@@ -2490,6 +1740,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     ID "58EA81AA3EEAEE82"
     coords -66.784 0.1 15.386
     m_iWaypointIndex 3
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56DEEDF0B121F0E8"
+    coords -14.847 -3.307 23.849
    }
    SCR_CampaignTriggerEntity {
     ID "524ED87DCD09FE54"
@@ -2532,12 +1786,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     }
    }
    SCR_SlotDisablerEntity {
-    ID "56FCD95108C3414B"
     coords 0 0.1 0
    }
-   SCR_SpawnPoint {
-    ID "56DEEDF0B121F0E8"
-    coords -14.847 -3.307 23.849
+   GenericEntity : "{1AF9E0A02075CBB0}Prefabs/MP/Campaign/Bases/Campaign_Antenna_US.et" {
+    coords -4.04 3.199 -5.209
    }
    GenericEntity : "{3E4C223A92230572}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_base.et" {
     coords 6389.375 157.473 -1733.899
@@ -2627,7 +1879,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      angleY -171.141
     }
    }
-   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+   GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
     components {
      SCR_CampaignFlagComponent "{58F0B74DDB6D1C2E}" {
       m_iBaseSearchRange 100
@@ -2640,6 +1892,14 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
  }
  MajorBaseMorton {
   components {
+   SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+   SCR_CampaignSuppliesComponent "{59865A0C4B20E6E4}" {
+    m_iSupplies 250
+    m_iSuppliesMax 500
+   }
    SCR_MapDescriptorComponent "{524EBE6BCFD9511E}" {
    }
   }
@@ -2647,18 +1907,20 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
   angleY 32.894
   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
-  m_eStartingBaseOwner BLUFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationMorton"
   m_sSlotNameHQ "Morton_HQ"
   m_sSlotNameSupplies "Morton_Supply"
-  m_sSlotNameRepair "Morton_Repair"
+  m_sSlotNameArmory "Morton_Armory"
+  m_sSlotNameBarracks "Morton_Repair"
   m_sSlotNameRadioAntenna "Morton_Antenna"
+  m_bPrebuilt 1
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 52
   m_iFreqEast 42
   m_iBaseID 5
   {
-   SCR_CampaignDeliveryPoint {
+   GenericEntity {
     ID "524ED87DCD09FF64"
     components {
      MeshObject "{524EBE6BCFDADD79}" {
@@ -2666,6 +1928,10 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
      RigidBody "{524EBE6BCFDADD62}" {
       Enabled 0
+     }
+     SCR_CampaignEntitySpawnerComponent "{59E475A8B7EC7F93}" {
+      m_iEntitySpawnRange 2
+      m_vSpawnOffsetPosition 4.622 0 5.517
      }
     }
     coords -70.343 -0.053 44.665
@@ -2756,56 +2022,6 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
     }
    }
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E95B395C8F"
-    coords -17.87 0 -0.24
-    angleY -169.068
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "5490F720B549DDF4"
-    coords 9.93 0.001 -9.165
-    angleY 88.856
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AA180FA5C"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
-      Enabled 0
-     }
-    }
-    coords 49.627 -0.037 10.898
-    angleY -80.83
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B494E9F1A0D"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
-      Enabled 0
-     }
-    }
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AFF7F0D47"
-    coords -36.881 -0.059 -1.229
-    angleY -2.318
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4902CFCAA7"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
-      Enabled 0
-     }
-    }
-   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
     coords -11.312 0.001 8.403
@@ -2826,7 +2042,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     coords 35.369 0 15.412
     m_iWaypointIndex 3
    }
-   SCR_SpawnPoint {
+   SCR_CampaignSpawnPointGroup {
     ID "56DEEDF0B121F0E8"
     coords -11.555 0 17.272
    }
@@ -2839,21 +2055,32 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
    BaseRadioComponent "{524EBE6BCFD951EB}" {
     "Is relay" 1
    }
+   SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+   SCR_CampaignSuppliesComponent "{59865A0C4B20E6E4}" {
+    m_iSupplies 250
+    m_iSuppliesMax 500
+   }
   }
   coords 4430.563 6.314 11028.385
   angleY -59.28
   m_sBaseName "#AR-Campaign_MapLocation_HQ_North"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
   m_eStartingBaseOwner BLUFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationStPhillipe_Harbour"
   m_sSlotNameSupplies "SaintPhilip_Supply"
-  m_sSlotNameRepair "SaintPhilip_Repair"
+  m_sSlotNameArmory "SaintPhilip_Armory"
+  m_sSlotNameBarracks "SaintPhilip_LivingArea"
+  m_eType MAJOR
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 48
   m_iFreqEast 48
   m_iBaseID 26
   {
-   SCR_CampaignDeliveryPoint {
+   GenericEntity {
     ID "524ED87DCD09FF64"
     components {
      MeshObject "{524EBE6BCFDADD79}" {
@@ -2861,6 +2088,12 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      }
      RigidBody "{524EBE6BCFDADD62}" {
       Enabled 0
+     }
+     SCR_CampaignEntitySpawnerComponent "{59E475A8B7EC7F93}" {
+      m_iEntitySpawnRange 2
+      m_vSpawnOffsetPosition 2 0.217 -6.915
+      m_vSpawnOffsetRotation -90 0 0
+      m_fBaseSearchDistance 200
      }
     }
     coords 172.079 -0.527 55.645
@@ -2945,72 +2178,6 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      }
     }
    }
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E95B395C8F"
-    components {
-     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
-      m_fOperationalRadius 50
-     }
-    }
-    coords 178.452 -0.599 68.557
-    angleY -115.975
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "5490F720B549DDF4"
-    coords 135.649 -0.555 72.417
-    angleY -34.229
-   }
-   SCR_CampaignDeliveryPoint {
-    components {
-     Hierarchy "{556A9B0BF126BC17}" {
-     }
-    }
-    coords -3.81 3.21 -5.471
-    angleY -0.592
-    m_eType RADIO_ANTENNA
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4902CFCAA7"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
-      Enabled 0
-     }
-    }
-    coords -31.878 -4.72 36.452
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B494E9F1A0D"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
-      Enabled 0
-     }
-    }
-    coords 106.48 -4.773 12.208
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AA180FA5C"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
-      Enabled 0
-     }
-    }
-    coords 23.643 -4.711 54.941
-    angleY 59.523
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AFF7F0D47"
-    coords 59.727 -4.689 48.168
-    angleY 56.766
-   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE443E13E"
     coords 94.892 -4.721 81.439
@@ -3030,6 +2197,11 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
     ID "58EA81AA3EEAEE82"
     coords 111.384 -3.569 35.531
     m_iWaypointIndex 3
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56DEEDF0B121F0E8"
+    coords 167.436 -0.519 75.786
+    angleY -125.618
    }
    SCR_CampaignTriggerEntity {
     ID "524ED87DCD09FE54"
@@ -3097,12 +2269,11 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      m_fRadius 1
     }
    }
-   SCR_SpawnPoint {
-    ID "56DEEDF0B121F0E8"
-    coords 167.436 -0.519 75.786
-    angleY -125.618
+   GenericEntity : "{1AF9E0A02075CBB0}Prefabs/MP/Campaign/Bases/Campaign_Antenna_US.et" {
+    coords -3.834 3.181 -5.463
+    angleY -2.58
    }
-   $grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02_base.et" {
+   $grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
     {
      components {
       SCR_CampaignFlagComponent "{58F0B75DD9BB3EE3}" {
@@ -3205,7 +2376,7 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      angleY 2.621
     }
    }
-   StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+   SCR_DestructibleEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
     coords 7.26 -4.586 0.37
     angleY 59.28
    }
@@ -3216,21 +2387,32 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
    BaseRadioComponent "{524EBE6BCFD951EB}" {
     "Is relay" 1
    }
+   SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
+    m_fMaximumSeizingTime 60
+    m_fMinimumSeizingTime 40
+   }
+   SCR_CampaignSuppliesComponent "{59865A0C4B20E6E4}" {
+    m_iSupplies 250
+    m_iSuppliesMax 500
+   }
   }
   coords 10004.859 6.784 1551.675
   angleY 105.312
   m_sBaseName "#AR-Campaign_MapLocation_HQ_South"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
   m_eStartingBaseOwner OPFOR
+  m_bIsControlPoint 1
   m_sMapLocationName "LocationStPierre_Harbour"
   m_sSlotNameSupplies "SaintPierre_Supply"
-  m_sSlotNameRepair "SaintPierre_Repair"
+  m_sSlotNameArmory "SaintPierre_Armory"
+  m_sSlotNameBarracks "SaintPierre_Repair"
+  m_eType MAJOR
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 48
   m_iFreqEast 48
   m_iBaseID 1
   {
-   SCR_CampaignDeliveryPoint {
+   GenericEntity {
     ID "524ED87DCD09FF64"
     components {
      MeshObject "{524EBE6BCFDADD79}" {
@@ -3238,6 +2420,10 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      }
      RigidBody "{524EBE6BCFDADD62}" {
       Enabled 0
+     }
+     SCR_CampaignEntitySpawnerComponent "{59E475A8B7EC7F93}" {
+      m_iEntitySpawnRange 2
+      m_vSpawnOffsetPosition -6.882 0 -1.226
      }
     }
     coords -12.603 -4.242 53.792
@@ -3321,74 +2507,6 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      }
     }
    }
-   SCR_CampaignDeliveryPoint {
-    ID "5474B1E95B395C8F"
-    components {
-     SCR_CampaignSuppliesComponent "{549503C60B5D5840}" {
-      m_fOperationalRadius 50
-     }
-    }
-    coords -44.388 -3.991 43.023
-    angleY 89.488
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "5490F720B549DDF4"
-    coords -40.172 -4.103 14.231
-    angleY -179.91
-   }
-   SCR_CampaignDeliveryPoint {
-    components {
-     Hierarchy "{556A9B0BF126BC17}" {
-     }
-    }
-    coords -3.766 3.221 -5.521
-    angleY -1.056
-    m_eType RADIO_ANTENNA
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4902CFCAA7"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4977B8DD81}" {
-      Enabled 0
-     }
-    }
-    coords -43.04 -4.009 149.319
-    angleY 89.488
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B494E9F1A0D"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4ABCF18038}" {
-      Enabled 0
-     }
-    }
-    coords -11.907 -4.259 154.492
-    angleY 89.488
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AA180FA5C"
-    components {
-     Hierarchy "{5498F18766675F7A}" {
-      Enabled 0
-     }
-     SCR_CampaignServiceMapDescriptorComponent "{56367B4A99EF660D}" {
-      Enabled 0
-     }
-    }
-    coords -2.139 -4.259 128.613
-    angleY 175.351
-   }
-   SCR_CampaignDeliveryPoint {
-    ID "56367B4AFF7F0D47"
-    coords -27.838 -4.221 121.852
-    angleY -48.546
-   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE443E13E"
     coords -28.809 -4.259 22.321
@@ -3412,6 +2530,11 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
     coords 47.991 -4.682 -88.055
     angleY 89.488
     m_iWaypointIndex 3
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "56DEEDF0B121F0E8"
+    coords -4.449 -4.103 18.479
+    angleY 91.142
    }
    SCR_CampaignTriggerEntity {
     ID "524ED87DCD09FE54"
@@ -3442,14 +2565,8 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
     }
    }
    SCR_SlotDisablerEntity {
-    ID "56FCD95108C3414B"
     coords 2.434 0.031 -3.247
     angleY 89.488
-   }
-   SCR_SpawnPoint {
-    ID "56DEEDF0B121F0E8"
-    coords -44.495 -4.103 26.919
-    angleY 91.142
    }
    GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
     coords -3.558 -4.203 45.614
@@ -3505,6 +2622,10 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
       angleY -2.333
      }
     }
+   }
+   GenericEntity : "{1AF9E0A02075CBB0}Prefabs/MP/Campaign/Bases/Campaign_Antenna_US.et" {
+    coords -3.793 3.2 -5.533
+    angleY -0.241
    }
    $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
     {
@@ -3854,7 +2975,7 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
      angleZ 0.355
     }
    }
-   $grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02_V2.et" {
+   $grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
     {
      components {
       SCR_CampaignFlagComponent "{58EED7AD7F32A393}" {

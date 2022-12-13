@@ -1,6 +1,0 @@
-SCR_PrefabDeleterEntity {
- coords 4996.068 2.99 3833.433
- angleY -43.799
- m_fRadius 4
- m_ResourceToDelete "{038175C0596A575F}PrefabLibrary/Props/Construction/GravelPile_01_large.et"
-}

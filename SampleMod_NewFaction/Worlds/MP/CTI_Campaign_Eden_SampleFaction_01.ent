@@ -1,5 +1,5 @@
 SubScene {
- Parent "{597E75E2D375DC70}Worlds/MP/CTI_Campaign_Eden_SampleFaction_01.ent"
+ Parent "{597E75E2D375DC70}Worlds/MP/CTI_Campaign_Eden_base.ent"
 }
 Layer logic {
  Index 0

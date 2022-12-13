@@ -111,7 +111,7 @@ GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_ro
  angleY 77.675
  scale 1.2
 }
-$grp StaticModelEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+$grp SCR_DestructibleEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  {
   coords 5535.291 0.086 6037.239
   angleY -68.491

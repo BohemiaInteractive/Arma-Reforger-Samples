@@ -82,7 +82,7 @@ GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pi
  coords 4715.014 162.006 6972.225
  angleY 140.179
 }
-$grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_Long.et" {
+$grp SCR_DestructibleEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
  {
   coords 4736.708 -0.035 7001.542
   angleX -1.363
@@ -284,7 +284,7 @@ GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_en
  coords 4751.305 169.33 6992.885
  angleY -16.783
 }
-$grp StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+$grp SCR_DestructibleEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
  {
   coords 4729.415 0 7001.324
  }
@@ -350,7 +350,7 @@ $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_
   scale 1.2
  }
 }
-$grp StaticModelEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+$grp SCR_DestructibleEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  {
   coords 4735.805 -0.027 7001.855
   angleX 0.16

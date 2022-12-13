@@ -1,9 +1,6 @@
 SubScene {
  Parent "{853E92315D1D9EFE}worlds/Eden/Eden.ent"
 }
-Layer logic {
- Index 0
-}
 Layer AI {
  Index 4
 }
@@ -51,4 +48,10 @@ Layer slots_campaign {
 }
 Layer evacuation_posters {
  Index 16
+}
+Layer bases_start {
+ Index 17
+}
+Layer supply_depots {
+ Index 18
 }

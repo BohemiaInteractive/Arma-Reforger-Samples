@@ -1,0 +1,240 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 9071.751 118.074 2671.422
+  angleX -6.683
+  angleY -95.035
+  angleZ -4.757
+ }
+ {
+  coords 6912.457 57.718 4482.109
+  angleX 5.237
+  angleY 9.194
+  angleZ -9.891
+ }
+ {
+  coords 4759.701 53.696 5830.81
+  angleX -2.998
+  angleY 102.085
+  angleZ 1.187
+ }
+ {
+  coords 4995.1 25.473 9943.72
+  angleX -0.895
+ }
+ {
+  coords 4823.96 118.851 8157.907
+  angleX 2.686
+  angleY 158.742
+  angleZ -2.961
+ }
+ {
+  coords 6458.873 162.267 6496.987
+  angleX -1.957
+  angleY 165.525
+  angleZ -0.419
+ }
+ {
+  coords 3079.382 117.506 5184.799
+  angleX 4.398
+  angleY -31.517
+  angleZ -4.777
+ }
+ {
+  coords 7085.573 156.74 2086.481
+  angleX -1.596
+  angleY 153.657
+  angleZ -1.207
+ }
+}
+$grp GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ {
+  coords 9072.011 119.019 2688.397
+  angleX -0.083
+  angleY -73.245
+  angleZ -2.828
+ }
+ {
+  coords 9077.304 117.355 2658.213
+  angleX 4.385
+  angleY -84.077
+  angleZ -7.578
+ }
+ {
+  coords 6922.626 57.587 4472.136
+  angleX -13.552
+  angleY -125.222
+  angleZ -5.42
+ }
+ {
+  coords 4778.877 54.523 5821.062
+  angleX -2.934
+  angleY 121.79
+  angleZ 1.338
+ }
+ {
+  coords 5012.649 25.994 9980.759
+  angleX -0.151
+  angleY 126.374
+  angleZ 3.221
+ }
+ {
+  coords 4812.318 115.366 8181.125
+  angleX 5.84
+  angleY -120.233
+  angleZ 9.903
+ }
+ {
+  coords 3065.399 116.502 5177.665
+  angleX 6.925
+  angleY -5.472
+  angleZ -2.446
+ }
+ {
+  coords 7096.704 156.706 2070.845
+  angleX 1.59
+  angleY -26.376
+  angleZ 3.204
+ }
+}
+$grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+ {
+  coords 9077.304 120.038 2698.331
+ }
+ {
+  coords 9067.402 116.423 2655.201
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -27.153 21.045 282.02
+     m_bIsRespawn 1
+    }
+    {
+     coords -340.161 14.804 -200.074
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 6930.902 57.62 4468.461
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 273.545 65.282 -50.368
+     m_bIsRespawn 1
+    }
+    {
+     coords -224.832 -27.482 194.003
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 6918.662 59.153 4499.824
+ }
+ {
+  coords 4784.226 54.455 5824.872
+ }
+ {
+  coords 4744.702 54.408 5841.128
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 329.816 0.102 190.754
+     m_bIsRespawn 1
+    }
+    {
+     coords -193.153 4.994 -213.461
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 5002.812 25.427 9974.246
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 18.191 16.36 -407.608
+     m_bIsRespawn 1
+    }
+    {
+     coords 3.179 15.755 443.116
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 4803.99 116.197 8176.532
+ }
+ {
+  coords 4809.719 119.234 8159.968
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords 155.867 -7.963 422.02
+     m_bIsRespawn 1
+    }
+    {
+     coords -69.374 9.196 -297.991
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 6491.717 161.934 6512.522
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -344.118 5.29 114.913
+     m_bIsRespawn 1
+    }
+    {
+     coords 81.391 -25.794 417.06
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 3056.592 114.944 5172.048
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -397.602 -16.655 -116.628
+     m_bIsRespawn 1
+    }
+    {
+     coords 498.585 21.555 364.138
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+ {
+  coords 7103.593 156.084 2060.149
+  m_iGroupRespawnPeriod 600
+  {
+   $grp SCR_CampaignRemnantsSpawnPoint : "{DE7ABA5055B00185}Prefabs/MP/Campaign/Bases/CampaignRemnantsSpawnPointEntity.et" {
+    {
+     coords -123.255 -11.827 409.87
+     m_bIsRespawn 1
+    }
+    {
+     coords 353.378 2.71 307.089
+     m_bIsRespawn 1
+    }
+   }
+  }
+ }
+}

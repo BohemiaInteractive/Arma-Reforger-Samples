@@ -130,7 +130,7 @@ $grp StaticModelEntity : "{9834AC906ADB48F5}PrefabLibrary/Props/Military/Dragons
   angleY -53.534
  }
 }
-StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+SCR_DestructibleEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
  coords 5319.208 0.136 5401.354
 }
 GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
@@ -157,7 +157,7 @@ $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_
   scale 1.2
  }
 }
-$grp StaticModelEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+$grp SCR_DestructibleEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  {
   coords 5325.392 -0.511 5403.762
   angleY -33.103
