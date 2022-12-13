@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CC7D0075E1A10A1E}Configs/Weapons/Ammo/AIBT_545x39_Ball_Modded.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

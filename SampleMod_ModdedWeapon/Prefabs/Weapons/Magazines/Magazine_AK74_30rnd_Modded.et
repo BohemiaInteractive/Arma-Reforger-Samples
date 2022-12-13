@@ -4,8 +4,8 @@ GenericEntity : "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_545x39_AK_
   InventoryItemComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
-     Name "5.45×39mm 200rnd AK-74 (Special) Mag"
-     Description "Magazine loaded with high explosive cartridges"
+     Name "#SampleMod-Magazine_AK74_30rnd_Modded_Name"
+     Description "#SampleMod-Magazine_AK74_30rnd_Modded_Description"
     }
    }
   }
@@ -14,7 +14,7 @@ GenericEntity : "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_545x39_AK_
     Name "#SampleMod-Magazine_Magazine_AK74_30rnd_Modded_Name"
    }
    MaxAmmo 200
-   AmmoConfig "{91A3208022732A9A}Configs/Ammo/Ammo_545x39_Modded.conf"
+   AmmoConfig "{91A3208022732A9A}Configs/Weapons/Ammo/Ammo_545x39_Modded.conf"
   }
   MeshObject "{CA6BE4D6A23F8EF0}" {
    Materials {
