@@ -2,31 +2,36 @@ $animation "" {
  #version 1.0
  #fps 30
  #numFrames 3
- $node "w_slide" {
-  $keys t s {
-   $frame 0 3 {
-    #q 0 0 0 1
+ $node "w_bolt" {
+  $keys t q s {
+   $frame 0 {
+    #t -0 0.0649087 -0.1659564
    }
-  }
-  $node "w_hammer" {
-   $keys q s {
-    $frame 0 3 {
-     #t 0 0 0
-    }
+   $frame 1 {
+    #t -0 0.0649087 -0.2038487
    }
-  }
-  $node "w_slide_release" {
-   $keys t s {
-    $frame 0 3 {
-     #q 0 0 0 1
-    }
+   $frame 2 {
+    #t -0 0.0649087 -0.241741
+   }
+   $frame 3 {
    }
   }
   $node "w_trigger" {
+   $keys q s {
+    $frame 0 3 {
+     #t 0 0 0
+     #q 0.30730188 0 0 0.951612
+    }
+   }
+  }
+  $node "w_bolt_release" {
    $keys t q s {
     $frame 0 3 {
     }
    }
   }
+ }
+ $custProps {
+  #custProp "profile" "726_Weapon_Bolt_trigger"
  }
 }

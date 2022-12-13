@@ -24,6 +24,7 @@ GenericEntity : "{5C3C9FE480E417D7}Prefabs/Attachments/Optics/Optic_SampleIronsi
    }
    SightsPointRear PointInfo "{5848EDCB5FF26B20}" {
    }
+   SightsSwitchSkip 1
   }
  }
  coords 2253.313 51.001 2156.983

@@ -1,14 +1,31 @@
-ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
+SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
  ID "200D264F0EEA1A28"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
+   WeaponTemplate "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01_base.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{08155E701A949620}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+    }
+   }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{5A24CC173897B74F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+    }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
      PrefabsToSpawn {
-      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et"
+      "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5B027BCCDE55169D}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
      }
     }
    }

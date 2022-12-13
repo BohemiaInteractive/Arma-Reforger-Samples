@@ -15,6 +15,26 @@ MetaFileClass {
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
    }
+   MeshParams {
+    MeshParam body_01 {
+    }
+    MeshParam body_02 {
+    }
+    MeshParam ch_handle {
+    }
+    MeshParam dust_cover {
+    }
+    MeshParam fire_mode {
+    }
+    MeshParam gas_regulator {
+    }
+    MeshParam mag_release {
+    }
+    MeshParam muzzle_brake {
+    }
+    MeshParam trigger {
+    }
+   }
    GeometryParams {
     GeometryParam UTM_Weapon {
      LayerPreset "Weapon"

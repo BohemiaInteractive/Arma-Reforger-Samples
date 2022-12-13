@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{4F86ED24AAC95804}Assets/Weapons/Magazines/SampleWeapon_01/Data/Bullets_BCR.edds"
+ NMOMap "{775E56B673BE0A9A}Assets/Weapons/Magazines/SampleWeapon_01/Data/Bullets_NMO.edds"
 }

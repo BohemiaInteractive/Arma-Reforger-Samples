@@ -2,11 +2,27 @@ $animation "" {
  #version 1.0
  #fps 30
  #numFrames 2
- $node "w_topcover" {
-  $keys q s {
+ $node "w_trigger" {
+  $keys t q s {
    $frame 0 2 {
-    #t 0 0 0
+    #t -0.00517 0.0115051 0.018533
    }
   }
+  $node "w_fire_mode" {
+   $keys t q s {
+    $frame 0 {
+     #t -0.0010015 0.0244799 -0.013812
+    }
+    $frame 1 {
+     #q -0.30070066 -0.00177324 -0.00000001 0.95371687
+    }
+    $frame 2 {
+     #q -0.70709461 -0.00416976 0.00000006 0.70710677
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "701_Rifle_Idle"
  }
 }

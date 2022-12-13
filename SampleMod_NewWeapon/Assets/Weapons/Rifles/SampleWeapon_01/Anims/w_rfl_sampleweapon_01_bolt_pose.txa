@@ -1,17 +1,29 @@
 $animation "" {
  #version 1.0
  #fps 30
- #numFrames 2
+ #numFrames 3
  $node "w_bolt" {
   $keys t q s {
    $frame 0 {
-    #t 0 0.0649087 -0.1929489
+    #t -0 0.0649087 -0.1659564
    }
    $frame 1 {
-    #t 0 0.0649087 -0.2687843
+    #t -0 0.0649087 -0.2038487
    }
    $frame 2 {
+    #t -0 0.0649087 -0.241741
+   }
+   $frame 3 {
    }
   }
+  $node "w_bolt_release" {
+   $keys t q s {
+    $frame 0 3 {
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "724_Weapon_Bolt"
  }
 }

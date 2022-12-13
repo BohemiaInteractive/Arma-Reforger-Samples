@@ -18,6 +18,14 @@ MetaFileClass {
      AssignedMaterial "{EBDDC6F376995E88}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_lensglass.emat"
     }
    }
+   MeshParams {
+    MeshParam Carryhandle {
+    }
+    MeshParam PIP {
+    }
+    MeshParam glass {
+    }
+   }
    GeometryParams {
     GeometryParam UCX_Component1 {
      LayerPreset "Weapon"

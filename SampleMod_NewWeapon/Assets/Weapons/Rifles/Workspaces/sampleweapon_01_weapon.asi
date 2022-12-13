@@ -1,5 +1,5 @@
 AnimSetInstanceSource {
- Template "{BF2D7AC41D8D4977}Assets/Weapons/Rifles/workspaces/ak74.ast"
+ Template "{5CB30278D36EF298}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.ast"
  Lines {
   AnimSetInstanceSource_Line "Reload.Erc.Fire" {
    Resource "{D7DC014CA5420806}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_fire.anm"
@@ -14,22 +14,22 @@ AnimSetInstanceSource {
    Resource "{10F79006036E31C6}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_idle.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
-   Resource "{EAFBC4BA34CA179B}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_insert_mag.anm"
+   Resource "{DC259A49CE32DA82}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_mag_insert.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Reload_InsertMag" {
-   Resource "{EAFBC4BA34CA179B}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_insert_mag.anm"
+   Resource "{DC259A49CE32DA82}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_mag_insert.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_RemoveMag" {
-   Resource "{219FBB4EF2BC25F1}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_remove_mag.anm"
+   Resource "{2443A6A783B096F3}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_mag_remove.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Reload_RemoveMag" {
-   Resource "{219FBB4EF2BC25F1}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_remove_mag.anm"
+   Resource "{2443A6A783B096F3}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_mag_remove.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.ReloadActionBolt" {
-   Resource "{1A4828345FAB7CEA}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_rack_bolt.anm"
+   Resource "{6F305BD432445600}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_bolt_rack.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.ReloadActionBolt" {
-   Resource "{1A4828345FAB7CEA}Assets/Weapons/Rifles/AK74/anims/anm/w_rfl_ak74_erc_rack_bolt.anm"
+   Resource "{6F305BD432445600}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_bolt_rack.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Trigger" {
    Resource "{1FC728F3FBA7555B}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_trigger.anm"
@@ -85,5 +85,7 @@ AnimSetInstanceSource {
   AnimSetInstanceSource_Line "Reload.Pne.BoltPose" {
    Resource "{B6C69C2ED80BB498}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_bolt_pose.anm"
   }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5AD0A6B7CBB9A648}" {
  }
 }

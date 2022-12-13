@@ -1,5 +1,5 @@
 AnimSrcGraph {
- AnimSetTemplate "{BF2D7AC41D8D4977}Assets/Weapons/Rifles/workspaces/ak74.ast"
+ AnimSetTemplate "{5CB30278D36EF298}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.ast"
  ControlTemplate AnimSrcGCT "{51948690CD960CB9}" {
   Variables {
    AnimSrcGCTVarBool TriggerPulled {
@@ -50,25 +50,40 @@ AnimSrcGraph {
    }
    AnimSrcGCTCmd CMD_Weapon_Action_Interrupt {
    }
+   AnimSrcGCTCmd CMD_Weapon_Inspection {
+   }
   }
   IkChains {
    AnimSrcGCTIkChain LeftArm {
     Joints {
-     "leftarm" "leftarmtwist" "leftforearm" "leftforearmtwist" "lefthand"
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
     }
     MiddleJoint "leftforearm"
     ChainAxis "+y"
    }
    AnimSrcGCTIkChain RightArmProp {
     Joints {
-     "rightarm" "rightarmtwist" "rightforearm" "rightforearmtwist" "righthand" "righthandprop"
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+     "righthandprop"
     }
     MiddleJoint "rightforearm"
     ChainAxis "-y"
    }
    AnimSrcGCTIkChain RightArm {
     Joints {
-     "rightarm" "rightarmtwist" "rightforearm" "rightforearmtwist" "righthand"
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
     }
     MiddleJoint "rightforearm"
     ChainAxis "-y"
@@ -78,7 +93,7 @@ AnimSrcGraph {
  Debug AnimSrcGD "{519EDA3B7039E742}" {
  }
  GraphFilesResourceNames {
-  "{82D1027EB4EBF4B4}Assets/Weapons/Rifles/workspaces/ak74.agf"
+  "{614F7AC27A084F5B}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.agf"
  }
  DefaultRunNode "MasterControl"
 }

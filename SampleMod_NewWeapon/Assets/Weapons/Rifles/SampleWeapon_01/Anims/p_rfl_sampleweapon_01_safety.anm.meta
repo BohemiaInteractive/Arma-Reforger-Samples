@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7C7C94FAB2D52EC5}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_sampleweapon_safety.anm"
+ Name "{7C7C94FAB2D52EC5}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_safety.anm"
  Configurations {
   TXAResourceClass PC {
   }

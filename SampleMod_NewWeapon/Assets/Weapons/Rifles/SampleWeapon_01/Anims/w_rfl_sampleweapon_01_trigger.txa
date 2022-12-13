@@ -1,12 +1,16 @@
 $animation "" {
  #version 1.0
  #fps 30
- #numFrames 24
- $node "w_sight_zeroing" {
-  $keys t s {
-   $frame 0 24 {
-    #q 0 0 0 1
+ #numFrames 3
+ $node "w_trigger" {
+  $keys t q s {
+   $frame 0 3 {
+    #t -0.00517 0.0115052 0.0185331
+    #q 0.30730188 0 0 0.951612
    }
   }
+ }
+ $custProps {
+  #custProp "profile" "721_Weapon_Trigger"
  }
 }

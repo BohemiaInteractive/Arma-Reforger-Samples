@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F051D3CE7F3404C8}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_pne_bolt_rack.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

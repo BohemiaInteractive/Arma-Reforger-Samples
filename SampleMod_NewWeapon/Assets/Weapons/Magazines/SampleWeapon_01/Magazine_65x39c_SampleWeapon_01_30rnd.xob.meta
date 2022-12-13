@@ -3,6 +3,7 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    SourceFile "Magazine_65x39c_SampleWeapon_01_30rnd.fbx"
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{52D0FA226B9C451B}" {
      SourceMaterial "Bullets"
@@ -13,9 +14,15 @@ MetaFileClass {
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
    }
+   MeshParams {
+    MeshParam Bullets {
+    }
+    MeshParam Magazine {
+    }
+   }
    GeometryParams {
     GeometryParam UCX_Magazine {
-     LayerPreset "Weapon"
+     LayerPreset "FireGeo"
      SurfaceProperties {
       "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
      }
@@ -37,6 +44,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{52D0FA22B4EF219E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

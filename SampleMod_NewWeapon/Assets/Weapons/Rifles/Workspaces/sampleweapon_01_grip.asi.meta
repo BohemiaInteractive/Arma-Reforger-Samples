@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{64DA5A7DDD2806DD}Assets/Weapons/Rifles/Workspaces/sampleweapon_01_grip.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

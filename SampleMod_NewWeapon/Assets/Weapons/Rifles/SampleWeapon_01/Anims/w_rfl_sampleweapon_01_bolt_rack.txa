@@ -1,0 +1,65 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 36
+ $node "w_bolt" {
+  $keys t q s {
+   $frame 0 36 {
+    #t -0 0.0649087 -0.1659564
+   }
+  }
+  $node "w_charging_handle" {
+   $keys t q s {
+    $frame 0 18 {
+     #t -0.0010015 0.0827058 -0.0855459
+    }
+    $frame 19 {
+     #t -0.0010015 0.0827058 -0.1019571
+    }
+    $frame 20 {
+     #t -0.0010015 0.0827058 -0.138921
+    }
+    $frame 21 {
+     #t -0.0010015 0.0827058 -0.1780331
+    }
+    $frame 22 {
+     #t -0.0010015 0.0827058 -0.2008888
+    }
+    $frame 23 {
+     #t -0.0010015 0.0827058 -0.2059012
+    }
+    $frame 24 {
+     #t -0.0010015 0.0827058 -0.2066172
+    }
+    $frame 25 {
+     #t -0.0010015 0.0827058 -0.2032541
+    }
+    $frame 26 {
+     #t -0.0010015 0.0827058 -0.1931649
+    }
+    $frame 27 {
+     #t -0.0010015 0.0827058 -0.1763494
+    }
+    $frame 28 {
+     #t -0.0010015 0.0827058 -0.1528077
+    }
+    $frame 29 {
+     #t -0.0010015 0.0827058 -0.1225399
+    }
+    $frame 30 36 {
+    }
+   }
+  }
+ }
+ $events {
+  #event 0 "BlendIn" "" -1 0 ""
+  #event 0 "Weapon_EnableFire" "" -1 0 ""
+  #event 17 "Sound" "SOUND_RELOAD" 3 0 "" 1
+  #event 18 "Weapon_Rack_Bolt" "" -1 0 ""
+  #event 27 "Sound" "SOUND_RELOAD" 4 0 "" 1
+ }
+ $custProps {
+  #custProp "profile" "740_Rifle_Bolt_Rack"
+  #custProp "sourceFile" "SampleWeapon_01_Animations.blend"
+ }
+}

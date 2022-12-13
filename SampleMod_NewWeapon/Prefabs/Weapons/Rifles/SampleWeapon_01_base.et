@@ -1,9 +1,9 @@
 GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
  ID "CFBAA4B725411E45"
  components {
-  WeaponSoundComponent "{52D2EE71A32CB4FA}" {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
    Filenames {
-    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{5071D9019D052481}Sounds/Impacts/Impact_Weapons_Rifles_Impacts.acp" "{BFD8C39A140E182E}Sounds/Weapons/_SharedData/Weapon_Bullet_Casings_5_56mm.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp"
+    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{BFD8C39A140E182E}Sounds/Weapons/_SharedData/Weapon_Bullet_Casings_5_56mm.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp"
    }
   }
   MeshObject "{CFBAA4B701F95D69}" {
@@ -13,9 +13,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
    ModelGeometry 1
   }
   SCR_MeleeWeaponProperties "{52D2E00CDA6E8F6B}" {
-   m_aCollisionProbesPos {
-    0 0 -0.3 0 0 -0.45 0 0 -0.6
-   }
   }
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
    Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
@@ -31,6 +28,10 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
      AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
      AnimationIKPose "{141EE64890AF76FA}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_ik.anm"
+    }
+    CustomAttributes {
+     ItemOneHandAnimAttributes "{5AF8C0E6BACD10A9}" {
+     }
     }
    }
   }
@@ -54,6 +55,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      AttachmentType AttachmentOpticsRail1913 "{5962E5BAE630FC90}" {
      }
+     ShowInInspection 1
     }
     AttachmentSlotComponent "{52D0FA2008B57FF5}" {
      Enabled 1
@@ -123,9 +125,9 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
          0 0.5 0.033 0.641 0.049 0.892 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
         }
         "Curve Time Scale" 1.25
-        "Curve Magnitudes" 1 2.5 1
-        "Curve Mins" -1 0.5 1
-        "Curve Maxs" 1 0.6 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -1 1.25 1
+        "Curve Maxs" 1 1.5 1
        }
        TurnOffsetData RecoilData "{58789524E0951484}" {
         "Curve X" {
@@ -136,8 +138,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
         }
         "Curve Time Scale" 1
         "Curve Magnitudes" 1 1 0
-        "Curve Mins" -0.05 0.15 0
-        "Curve Maxs" 0.05 0.2 0
+        "Curve Mins" -1.5 4.5 0
+        "Curve Maxs" 1.5 6 0
         "Base Recoil Scale" 3
        }
       }
@@ -167,6 +169,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      SightsPointRear PointInfo "{5890FCB70851D7BB}" {
      }
+     SightsSwitchSkip 1
     }
     WeaponAnimationComponent "{52D2E009E7CB3826}" {
      AnimGraph "{4E416478E4AB266B}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.agr"
@@ -180,11 +183,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      BindWithInjection 1
     }
     AttachmentSlotComponent "{5848EDCA8A09E6F7}" {
-     Enabled 0
      AttachmentSlot InventoryStorageSlot optic {
-      PivotID "slot_optics"
-      Offset 0 0 0.0974
-      Prefab "{FD452BE0A3BF9341}Assets/Tests/Weapons/Kobra_collim/Optic_East_Kobra.et"
      }
     }
    }
@@ -194,10 +193,33 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
   }
   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
    ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0236 0.2203
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5AF0F8499684B5E4}" {
+      Offset 0 -0.051 -0.149
+     }
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{5AF0F849901AF024}" {
+      Offset 0 0.024 -0.0133
+     }
+    }
     UserActionContext "{5086F9ADF588DCA4}" {
      Position PointInfo "{5086F9ADE97650DF}" {
-      Offset 0 0.0528 -0.0286
+      Offset 0 0.0079 -0.0286
      }
+    }
+    UserActionContext "{5AF896EFFE8D407A}" {
+     ContextName "optic"
+     Position PointInfo "{5AF896EFC498AD9B}" {
+      PivotID "slot_optics"
+      Offset 0 0 0.0687
+     }
+     Radius 0.1
     }
    }
   }

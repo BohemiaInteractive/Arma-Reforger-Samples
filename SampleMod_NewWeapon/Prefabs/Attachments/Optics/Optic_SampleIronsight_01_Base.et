@@ -1,12 +1,6 @@
 GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
  ID "4BA426CBAED42A14"
  components {
-  SoundComponent "{52D0FA29000C2390}" {
-   Filenames {
-    "{12A94705DF2BFD25}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic.acp"
-   }
-   OnFrameUpdate 0
-  }
   InventoryItemComponent "{52627A1F45CD4EB6}" {
    Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
     CustomAttributes {

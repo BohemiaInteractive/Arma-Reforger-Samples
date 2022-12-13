@@ -1,0 +1,21 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 50
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 50 {
+   }
+  }
+ }
+ $events {
+  #event 1 "Sound" "SOUND_RELOAD" 2 0 "" 1
+  #event 9 "Sound" "SOUND_RELOAD" 5 0 "" 1
+  #event 11 "Sound" "SOUND_RELOAD" 0 0 "" 1
+  #event 35 "BlendOut"
+ }
+ $custProps {
+  #custProp "profile" "999_Empty"
+  #custProp "sourceFile" "SampleWeapon_01_Animations_debug.blend"
+ }
+}

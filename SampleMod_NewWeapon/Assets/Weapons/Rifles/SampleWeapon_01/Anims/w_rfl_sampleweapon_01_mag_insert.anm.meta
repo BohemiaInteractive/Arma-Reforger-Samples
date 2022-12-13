@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DC259A49CE32DA82}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_mag_insert.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

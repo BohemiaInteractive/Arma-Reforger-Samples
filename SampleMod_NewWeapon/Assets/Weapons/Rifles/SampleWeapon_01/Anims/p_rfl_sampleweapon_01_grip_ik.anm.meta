@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C64F006DB1A93A71}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_grip_ik.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

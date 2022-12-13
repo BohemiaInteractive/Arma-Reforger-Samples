@@ -9,7 +9,9 @@ MetaFileClass {
   }
   TGAResourceClass PS4 : PC {
   }
-  TGAResourceClass LINUX : PC {
+  TGAResourceClass HEADLESS : PC {
+  }
+  TGAResourceClass XBOX_SERIES : PC {
   }
  }
 }
