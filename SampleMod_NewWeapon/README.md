@@ -1,10 +1,13 @@
-Modding Samples for Arma Reforger
+Arma Reforger Sample New Weapon
 --------------------------------------------------------------------------------
+
+Full documentation can be found on https://community.bistudio.com/wiki/Arma_Reforger:Weapon_Creation page
 
 ## License
 Arma Public License (APL)
 Full text: https://www.bohemia.net/community/licenses/arma-public-license
 
-© 2022 BOHEMIA INTERACTIVE a.s. ARMA REFORGER®, ENFUSION®, and BOHEMIA INTERACTIVE® are registered trademarks of BOHEMIA INTERACTIVE a.s. All rights reserved.
+© 2022 Bohemia Interactive a.s. All rights reserved.
+
 
 See https://community.bistudio.com/wiki/Category:Arma_Reforger for more information
