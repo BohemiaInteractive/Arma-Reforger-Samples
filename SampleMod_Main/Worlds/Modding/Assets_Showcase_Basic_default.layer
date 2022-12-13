@@ -1,6 +1,11 @@
 Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
- coords -4.289 0 -14.388
- angleY 99.402
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 6364.39
+  }
+ }
+ coords 115.332 2 117.587
+ angleY 143.401
 }
 $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_Base.et" {
  {
@@ -18,7 +23,7 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
     }
    }
   }
-  coords 1.289 0.023 4.87
+  coords 115.941 2 134.817
   angleY -105.869
  }
  {
@@ -32,8 +37,8 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
     }
    }
   }
-  coords -2.842 0.023 8.478
-  angleY 173.512
+  coords 116.779 2 140.453
+  angleY 133.489
  }
  {
   components {
@@ -53,25 +58,66 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
     Enabled 0
    }
   }
-  coords -5.08 0.023 7.502
-  angleY 140.475
+  coords 115.598 2 137.36
+  angleY 179.629
+ }
+}
+$grp GenericEntity : "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" {
+ {
+  coords 122.861 3.024 128.094
+  angleX -0.094
+  angleY -179.694
+  angleZ -91.425
+ }
+ {
+  coords 122.86 3.024 127.989
+  angleX -0.094
+  angleY -179.694
+  angleZ -91.425
+ }
+ {
+  coords 122.859 3.024 127.876
+  angleX -0.094
+  angleY -179.694
+  angleZ -91.425
  }
 }
 GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_SampleMod.et" {
  components {
+  MeshObject "{5584D66370FCAEF1}" {
+  }
+  RigidBody "{5584D66370FCAEE9}" {
+   Enabled 0
+  }
   SCR_ArsenalDisplayComponent "{589F01C8E2FEDEE5}" {
    m_ItemDisplayConfig SCR_ArsenalItemDisplayConfig "{589F01C8FDDE9873}" : "{A29559DFB22589EE}Configs/Arsenal/WeaponRackDisplayConfig_SampleMod.conf" {
+    m_aItemDisplayData {
+     SCR_ArsenalItemDisplayData "{592C712C9B290899}" {
+      m_vItemOffset 0 0 -0.2
+     }
+     SCR_ArsenalItemDisplayData "{592C712C781682AA}" {
+      m_ItemResourceName "{87D09F47156059D2}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
+      m_vItemOffset 0 0 -0.2
+     }
+     SCR_ArsenalItemDisplayData "{592C712C79D9C296}" {
+      m_vItemOffset 0 0 -0.2
+     }
+     SCR_ArsenalItemDisplayData "{592C712C409939B2}" {
+      m_ItemResourceName "{87D09F47156059D2}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
+      m_vItemOffset 0 0 -0.2
+     }
+    }
    }
    m_eSupportedArsenalItemModes 126
   }
-  SCR_FactionControlComponent "{58C2BD51B93FA470}" {
-   m_DefaultFaction "FFA"
+  SCR_FactionAffiliationComponent "{5A50E76678BE335D}" {
+   "faction affiliation" "FFA"
   }
   RplComponent "{5948BC6A0325AFD0}" {
   }
  }
- coords -1.607 0 -4.773
- angleY -83.037
+ coords 118.014 2 127.202
+ angleY 84.965
  {
   SCR_WeaponRackSlotEntity {
    ID "589F01C8AEC06CB2"
@@ -114,9 +160,11 @@ GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRac
 }
 GenericEntity : "{EDE6EC8B05227E3E}Prefabs/Systems/Arsenal/ArsenalBoxes/USSR/ArsenalBox_USSR.et" {
  components {
-  SCR_FactionControlComponent "{58C2BD56A0A14062}" {
-   m_DefaultFaction "FFA"
+  SignalsManagerComponent "{5B027BC23B463E83}" {
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "FFA"
   }
  }
- coords -5.473 0 -2.722
+ coords 117.607 2 130.948
 }

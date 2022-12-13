@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7CFA98EB2B77C48E}Terrains/Common/Surfaces/Ground_Checker_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

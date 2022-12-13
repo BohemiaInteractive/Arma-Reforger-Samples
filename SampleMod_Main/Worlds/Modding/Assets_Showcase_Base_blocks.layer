@@ -2,7 +2,7 @@ $grp GenericEntity {
  {
   components {
    MeshObject "{5176FEAB0865CEF3}" {
-    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
     Materials {
      MaterialAssignClass "{5176FEAACD052F7A}" {
       SourceMaterial "metrics"
@@ -15,32 +15,12 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords -1.417 -0.053 -3.107
- }
- {
-  components {
-   MeshObject "{3B42A652AB430D4F}" {
-    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
-    Materials {
-     MaterialAssignClass "{517664EDE2CE661E}" {
-      SourceMaterial "metrics"
-      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
-     }
-    }
-   }
-   RigidBody "{3B42A6529393DAE5}" {
-    ModelGeometry 1
-    Static 1
-   }
-  }
-  coords 1.21 -20.027 -38.912
-  angleY -90
-  angleZ 90
+  coords 122.994 2.005 127.519
  }
  {
   components {
    MeshObject "{5176FEAB0865CEF3}" {
-    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
     Materials {
      MaterialAssignClass "{5176FEAACD052F7A}" {
       SourceMaterial "metrics"
@@ -53,12 +33,12 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords -1.417 -0.053 -1.122
+  coords 122.994 2.005 129.508
  }
  {
   components {
    MeshObject "{5176FEAB0865CEF3}" {
-    Object "{2AE2D6AA9D1ECE01}Assets/Tests/Metrics/box_1m.xob"
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
     Materials {
      MaterialAssignClass "{5176FEAACD052F7A}" {
       SourceMaterial "metrics"
@@ -71,12 +51,12 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords -1.417 -0.053 -2.112
+  coords 122.994 2.005 128.514
  }
  {
   components {
    MeshObject "{5176FEAB1FFE319C}" {
-    Object "{1C6F50CC78DFD6EB}Assets/Tests/Metrics/manual_on_200x150.xob"
+    Object "{1C6F50CC78DFD6EB}Assets/TestSite/manual_on_200x150.xob"
     Materials {
      MaterialAssignClass "{5176FEAAFBF17454}" {
       SourceMaterial "metrics"
@@ -89,12 +69,12 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords -5.789 -0.053 0.025
+  coords 122.975 2.002 124.504
  }
  {
   components {
    MeshObject "{5176FEAB1FFE319C}" {
-    Object "{1C6F50CC78DFD6EB}Assets/Tests/Metrics/manual_on_200x150.xob"
+    Object "{1C6F50CC78DFD6EB}Assets/TestSite/manual_on_200x150.xob"
     Materials {
      MaterialAssignClass "{5176FEAAFBF17454}" {
       SourceMaterial "metrics"
@@ -107,83 +87,125 @@ $grp GenericEntity {
     Static 1
    }
   }
-  coords -5.789 -0.053 -0.975
+  coords 122.975 2.002 123.504
  }
  {
   components {
-   MeshObject "{3B42A652AB430D4F}" {
-    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
     Materials {
-     MaterialAssignClass "{517664EDE2CE669E}" {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
       SourceMaterial "metrics"
-      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
      }
     }
    }
-   RigidBody "{3B42A6529393DAE5}" {
-    LayerPreset "Terrain"
+   RigidBody "{5176FEADF64BD8AE}" {
     ModelGeometry 1
     Static 1
    }
   }
-  coords 0.177 0 0
+  coords 162.906 1.961 127.346
+  scale 10
  }
  {
   components {
-   MeshObject "{3B42A652AB430D4F}" {
-    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
     Materials {
-     MaterialAssignClass "{517664EDE2CE6356}" {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
       SourceMaterial "metrics"
-      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
      }
     }
    }
-   RigidBody "{3B42A6529393DAE5}" {
+   RigidBody "{5176FEADF64BD8AE}" {
     ModelGeometry 1
     Static 1
    }
   }
-  coords -39.743 -17.471 0.01
+  coords 162.819 1.961 142.464
+  scale 5
+ }
+ {
+  components {
+   MeshObject "{5176FEAB0865CEF3}" {
+    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
+    Materials {
+     MaterialAssignClass "{5176FEAACD052F7A}" {
+      SourceMaterial "metrics"
+      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
+     }
+    }
+   }
+   RigidBody "{5176FEADF64BD8AE}" {
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 162.906 1.961 107.045
+  scale 10
+ }
+ {
+  components {
+   MeshObject "{5AFCDCD3DD8D4D37}" {
+    Object "{3E132E1BC16F2149}Assets/TestSite/platform_100m.xob"
+   }
+   RigidBody "{5AFCDCD3A445CF64}" {
+    LayerPreset "BuildingFireView"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 27.119 -83.543 128.195
   angleZ 90
+  scale 2.278
  }
  {
   components {
-   MeshObject "{3B42A652AB430D4F}" {
-    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
-    Materials {
-     MaterialAssignClass "{517664EDE2CE60C9}" {
-      SourceMaterial "metrics"
-      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
-     }
-    }
+   MeshObject "{5AFCDCD3DD8D4D37}" {
+    Object "{3E132E1BC16F2149}Assets/TestSite/platform_100m.xob"
    }
-   RigidBody "{3B42A6529393DAE5}" {
+   RigidBody "{5AFCDCD3A445CF64}" {
+    LayerPreset "BuildingFireView"
     ModelGeometry 1
     Static 1
    }
   }
-  coords 41.207 -17.521 -0.518
+  coords 237.824 -83.543 128.195
   angleZ 90
+  scale 2.278
  }
  {
   components {
-   MeshObject "{3B42A652AB430D4F}" {
-    Object "{3E132E1BC16F2149}Assets/Tests/Metrics/platform_100m.xob"
-    Materials {
-     MaterialAssignClass "{517664EDE2CE67B8}" {
-      SourceMaterial "metrics"
-      AssignedMaterial "{7BCD2A4EC85221C1}Common/Materials/TestSite_Panel_NoShadow.emat"
-     }
-    }
+   MeshObject "{5AFCDCD3DD8D4D37}" {
+    Object "{3E132E1BC16F2149}Assets/TestSite/platform_100m.xob"
    }
-   RigidBody "{3B42A6529393DAE5}" {
+   RigidBody "{5AFCDCD3A445CF64}" {
+    LayerPreset "BuildingFireView"
     ModelGeometry 1
     Static 1
    }
   }
-  coords -0.83 -17.491 42.106
-  angleY -90
+  coords 128.817 -83.543 238.293
+  angleY 90
   angleZ 90
+  scale 2.278
+ }
+ {
+  components {
+   MeshObject "{5AFCDCD3DD8D4D37}" {
+    Object "{3E132E1BC16F2149}Assets/TestSite/platform_100m.xob"
+   }
+   RigidBody "{5AFCDCD3A445CF64}" {
+    LayerPreset "BuildingFireView"
+    ModelGeometry 1
+    Static 1
+   }
+  }
+  coords 128.817 -83.543 27.299
+  angleY 90
+  angleZ 90
+  scale 2.278
  }
 }

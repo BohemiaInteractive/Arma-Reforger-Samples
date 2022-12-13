@@ -1,0 +1,9 @@
+TerrainMaterial {
+ SurfaceProperties "{B701566F3B8A0DF6}Common/Materials/Game/metal_sheet.gamemat"
+ BCRMap "{CEC22BEFF6039E37}Terrains/Common/Surfaces/Data/BasicSurface_checker_BCR.edds"
+ NHOMap "{E9F560ABF545D820}Terrains/Common/Surfaces/Data/BasicSurface_checker_NHO.edds"
+ WetnessScale 0
+ PorosityScale 0
+ WaterAccumDetail 0
+ WaterAccumMiddle 0
+}
