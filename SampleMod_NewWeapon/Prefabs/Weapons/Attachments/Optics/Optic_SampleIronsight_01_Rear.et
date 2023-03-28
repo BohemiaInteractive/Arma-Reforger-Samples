@@ -1,0 +1,50 @@
+GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5B0C9963BBDA92B8}" {
+     Name "#SampleMod-Optic_SampleIronsight_01_Rear_Name"
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{52D0FA29000C2398}" {
+      ADSSpeedLimit 1.5
+     }
+    }
+   }
+  }
+  MeshObject "{52D0FA29000C2394}" {
+   Object "{FE1AD43E4574C5D8}Assets/Weapons/Attachments/Optics/SampleIronSights_01/SampleIronSights_01_Rear.xob"
+  }
+  SightsComponent "{52D12AF10E9DE4CA}" {
+   SightsPosition PointInfo "{52D2CE640BD6D62E}" {
+    PivotID "eye"
+    Offset 0 0 0
+   }
+   SightsRanges {
+    SightRangeInfo "{5CC4B7D2E279755D}" {
+     Range 0 300
+    }
+   }
+   SightsFOVInfo SCR_FixedFOVInfo "{5848EDCB400A6244}" {
+   }
+   SightsPointFront PointInfo "{5848EDCB595E5536}" {
+   }
+   SightsPointRear PointInfo "{5848EDCB5FF26B20}" {
+   }
+   SightsSwitchSkip 1
+   ZeroingGenerator BaseZeroingGenerator "{5CC4B7D2E11081D6}" {
+   }
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      PivotID "snap_ironsight_rear"
+     }
+    }
+   }
+  }
+ }
+ coords 2253.313 51.001 2156.983
+}

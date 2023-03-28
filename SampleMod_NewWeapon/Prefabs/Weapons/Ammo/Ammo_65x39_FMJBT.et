@@ -1,0 +1,26 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  InventoryItemComponent "{52627A13050713F1}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1304978C38}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{5CDAB2AB1D6FDBE0}" {
+     Weight 0.022
+     SizeSetupStrategy Volume
+     ItemVolume 7
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 764
+   Mass 0.0071
+   BallisticTableConfig "{289CA983E795F1C5}Configs/Weapons/AIBallisiticTables/AIBT_65x39_FMJBT.conf"
+   AirDrag 0.000007
+   PenetrationDepth 5.7
+   PenetrationDensity 7.86
+   PenetrationSpeed 538
+  }
+ }
+ ProjectileModel "{F89C5D98963092FA}Assets/Weapons/Ammo/Bullets/762x51/Bullet_762x51_M62.xob"
+ CartridgeModel "{51EE5B70E22F70E3}Assets/Weapons/Ammo/Bullets/762x51/Cartridge_762x51_M62.xob"
+}

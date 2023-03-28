@@ -1,3 +1,9 @@
+GenericEntity : "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et" {
+ coords 122.86 3.024 127.989
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
+}
 Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
  components {
   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
@@ -42,6 +48,9 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
  }
  {
   components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 0
+   }
    SlotManagerComponent "{55BCB445DA7D6E35}" {
     Slots {
      EntitySlotInfo Lid_1 {
@@ -62,25 +71,17 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
   angleY 179.629
  }
 }
-$grp GenericEntity : "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" {
- {
-  coords 122.861 3.024 128.094
-  angleX -0.094
-  angleY -179.694
-  angleZ -91.425
- }
- {
-  coords 122.86 3.024 127.989
-  angleX -0.094
-  angleY -179.694
-  angleZ -91.425
- }
- {
-  coords 122.859 3.024 127.876
-  angleX -0.094
-  angleY -179.694
-  angleZ -91.425
- }
+GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Ball.et" {
+ coords 122.859 3.024 127.876
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
+}
+GenericEntity : "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" {
+ coords 122.861 3.024 128.094
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
 }
 GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_SampleMod.et" {
  components {

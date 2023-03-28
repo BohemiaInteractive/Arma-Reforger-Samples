@@ -13,6 +13,8 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     }
     SCR_PlaceableEntitiesRegistry "{56B8F1D62E989DA7}" : "{FE0586391D6DDABB}Configs/Editor/PlaceableEntities/Vehicles_SampleFaction.conf" {
     }
+    SCR_PlaceableEntitiesRegistry "{5C9E9AAAD0909C0D}" : "{3DC1F5025F24CD77}Configs/Editor/PlaceableEntities/Systems/Systems_SampleFaction.conf" {
+    }
     SCR_PlaceableEntitiesRegistry "{56B8F0B831E7C940}" {
     }
    }

@@ -118,7 +118,7 @@ Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modd
  coords 119.928 1.972 119.37
  angleY 137.738
 }
-GenericEntity : "{63DDF1EFECD7F988}Prefabs/Attachments/Optics/Optic_SampleOptic_01.et" {
+GenericEntity : "{63DDF1EFECD7F988}Prefabs/Weapons/Attachments/Optics/Optic_SampleOptic_01.et" {
  coords 122.861 3.011 127.582
 }
 GenericEntity : "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Full.et" {

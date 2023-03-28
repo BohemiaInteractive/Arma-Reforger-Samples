@@ -1,0 +1,7 @@
+TracerProjectile : "{8869D0503AC7740E}Prefabs/Weapons/Ammo/Ammo_65x39_FMJBT.et" {
+ ID "DA5C6308000CDEF2"
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+ "Tracer Burn Start After" 0.02
+ "Tracer Burn Time" 1.3
+}

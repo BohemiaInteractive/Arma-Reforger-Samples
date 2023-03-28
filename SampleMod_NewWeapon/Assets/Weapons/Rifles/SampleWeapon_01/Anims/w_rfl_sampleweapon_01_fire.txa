@@ -5,13 +5,14 @@ $animation "" {
  $node "w_bolt" {
   $keys t q s {
    $frame 0 {
-    #t -0 0.0649087 -0.1659564
+    #t -0 0.0649093 -0.1659539
+    #q 0.00000165 0 0 1
    }
    $frame 1 {
-    #t -0 0.0649087 -0.2038487
+    #t -0 0.0649096 -0.2524294
    }
    $frame 2 {
-    #t -0 0.0649087 -0.241741
+    #t -0 0.0649094 -0.2091917
    }
    $frame 3 {
    }
@@ -20,7 +21,7 @@ $animation "" {
    $keys q s {
     $frame 0 3 {
      #t 0 0 0
-     #q 0.30730188 0 0 0.951612
+     #q 0.2690222 0 0 0.96313393
     }
    }
   }
@@ -33,5 +34,6 @@ $animation "" {
  }
  $custProps {
   #custProp "profile" "726_Weapon_Bolt_trigger"
+  #custProp "sourceFile" "SampleWeapon_01.blend"
  }
 }

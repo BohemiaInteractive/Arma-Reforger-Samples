@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Ball.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

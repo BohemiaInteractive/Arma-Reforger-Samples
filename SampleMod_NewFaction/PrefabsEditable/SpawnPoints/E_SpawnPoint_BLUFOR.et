@@ -1,0 +1,18 @@
+SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et" {
+ ID "52E65E9446A3DC1D"
+ components {
+  SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+    m_Image "{634887D6ACE69536}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_USSR.edds"
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAuthoredLabels + {
+     30 15
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A5286F8ED58877B}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+ }
+ m_sFaction "SampleFactionBLUFOR"
+}

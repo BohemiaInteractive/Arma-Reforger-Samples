@@ -5,12 +5,13 @@ $animation "" {
  $node "w_trigger" {
   $keys t q s {
    $frame 0 3 {
-    #t -0.00517 0.0115052 0.0185331
-    #q 0.30730188 0 0 0.951612
+    #t -0.00517 0.011505 0.0185331
+    #q 0.2690222 0 0 0.96313393
    }
   }
  }
  $custProps {
   #custProp "profile" "721_Weapon_Trigger"
+  #custProp "sourceFile" "SampleWeapon_01.blend"
  }
 }

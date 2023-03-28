@@ -10,6 +10,12 @@ MetaFileClass {
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
    }
+   MeshParams {
+    MeshParam ironsight_rear {
+    }
+    MeshParam ironsight_rear_animated {
+    }
+   }
    GeometryParams {
     GeometryParam UBX_Collider {
      LayerPreset "Weapon"
@@ -34,6 +40,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{52D0FA2413AB8E43}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

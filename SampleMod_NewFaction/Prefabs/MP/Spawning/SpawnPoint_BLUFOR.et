@@ -1,0 +1,4 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ m_sFaction "SampleFactionGREENFOR"
+}

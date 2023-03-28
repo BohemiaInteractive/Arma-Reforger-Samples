@@ -2,14 +2,13 @@ MetaFileClass {
  Name "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
  Configurations {
   FBXResourceClass PC {
-   SourceFile "Magazine_65x39c_SampleWeapon_01_30rnd.fbx"
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{52D0FA226B9C451B}" {
+    MaterialAssignClass "{5CB0ABB0F3060F46}" {
      SourceMaterial "Bullets"
      AssignedMaterial "{F6339ED24FA7FB01}Assets/Weapons/Magazines/SampleWeapon_01/Data/Bullets.emat"
     }
-    MaterialAssignClass "{52D0FA226B9C4579}" {
+    MaterialAssignClass "{5CB0ABB0F3060FB0}" {
      SourceMaterial "msbs_02_co"
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
@@ -22,30 +21,32 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam UCX_Magazine {
-     LayerPreset "FireGeo"
+     LayerPreset "WeaponFire"
      SurfaceProperties {
-      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
      }
      Mass 0
      Margin 0
     }
    }
-   Common TXOCommonClass "{52D0FA22B4EF1C0F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{5CB0ABB0F33DDE28}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{52D0FA22B4EF2102}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
-   }
-  }
-  FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{52D0FA22B4EF2145}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
-   }
-  }
-  FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{52D0FA22B4EF219E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{5CB0ABB0F33DDD71}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5CB0ABB0F33DDD42}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5CB0ABB0F33DD3CC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5CB0ABB0F33DD217}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
   }
  }
 }

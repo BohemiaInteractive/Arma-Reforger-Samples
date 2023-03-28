@@ -1,6 +1,11 @@
 GenericEntity : "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Base.et" {
  ID "CA6BE4D6BB2D1077"
  components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   PriorityAgainstVehicles 35
+   UsedAgainst 7
+   IndirectlyUsedAgainst 1
+  }
   InventoryItemComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {

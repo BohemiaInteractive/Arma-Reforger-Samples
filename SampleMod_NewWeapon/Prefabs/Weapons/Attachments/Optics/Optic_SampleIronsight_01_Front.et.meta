@@ -1,0 +1,13 @@
+MetaFileClass {
+ Name "{5C3C9FE480E417D7}Prefabs/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

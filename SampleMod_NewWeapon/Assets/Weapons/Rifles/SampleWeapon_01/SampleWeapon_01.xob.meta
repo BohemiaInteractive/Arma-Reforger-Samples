@@ -4,7 +4,6 @@ MetaFileClass {
   FBXResourceClass PC {
    SourceFile "SampleWeapon_01.fbx"
    ExportSkinning 1
-   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{513ACCCE012E532D}" {
      SourceMaterial "msbs_01_co"

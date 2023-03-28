@@ -1,0 +1,54 @@
+GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5B0C9963BBDA92B8}" {
+     Name "#SampleMod-Optic_SampleIronsight_01_Base_Name"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5B0C996386B64CA1}" {
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 30
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+     }
+     CharacterModifierAttributes "{52D0FA29000C2398}" {
+      ADSSpeedLimit 1.5
+      SpeedLimitHighready 1.7
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{52D0FA29000C2394}" {
+   Object "{387BE10289056F53}Assets/Weapons/Attachments/Optics/SampleIronSights_01/SampleIronSights_01_Front.xob"
+  }
+  RigidBody "{52D0FA29000C2396}" {
+   LayerPreset "ItemFireView"
+   ModelGeometry 1
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      PivotID "snap_ironsight_front"
+     }
+    }
+   }
+   additionalActions {
+    SCR_AttachementAction "{5B0C9963C9AB3EB6}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo UIInfo "{5B0C9963D9BFB5D2}" {
+      Name "#AR-UserAction_Detach"
+     }
+    }
+   }
+  }
+ }
+ coords 2254.26 51.001 2156.391
+ Flags 4194307
+}

@@ -5,13 +5,14 @@ $animation "" {
  $node "w_bolt" {
   $keys t q s {
    $frame 0 {
-    #t -0 0.0649087 -0.1659564
+    #t -0 0.0649093 -0.1659539
+    #q 0.00000165 0 0 1
    }
    $frame 1 {
-    #t -0 0.0649087 -0.2038487
+    #t -0 0.0649096 -0.2524294
    }
    $frame 2 {
-    #t -0 0.0649087 -0.241741
+    #t -0 0.0649094 -0.2091917
    }
    $frame 3 {
    }
@@ -25,5 +26,6 @@ $animation "" {
  }
  $custProps {
   #custProp "profile" "724_Weapon_Bolt"
+  #custProp "sourceFile" "SampleWeapon_01.blend"
  }
 }

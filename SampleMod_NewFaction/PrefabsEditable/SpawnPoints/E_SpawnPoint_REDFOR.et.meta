@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E33006FB5760C054}PrefabsEditable/SpawnPoints/E_SpawnPoint_REDFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

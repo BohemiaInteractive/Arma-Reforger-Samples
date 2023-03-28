@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3DC1F5025F24CD77}Configs/Editor/PlaceableEntities/Systems/Systems_SampleFaction.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

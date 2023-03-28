@@ -1,7 +1,6 @@
 MatPBRBasic {
  Diffuse 0.314 0.314 0.314 1
  SpecularMul 1.437
- AlphaMul 1.049
  RoughnessScale 1.309
  MetalnessScale 0.252
  AOScale 2.5

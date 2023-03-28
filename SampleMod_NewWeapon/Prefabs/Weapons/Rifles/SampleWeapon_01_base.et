@@ -3,7 +3,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
  components {
   WeaponSoundComponent "{5A8685198A9AEEDD}" {
    Filenames {
-    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{BFD8C39A140E182E}Sounds/Weapons/_SharedData/Weapon_Bullet_Casings_5_56mm.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp"
+    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp"
    }
   }
   MeshObject "{CFBAA4B701F95D69}" {
@@ -13,6 +13,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
    ModelGeometry 1
   }
   SCR_MeleeWeaponProperties "{52D2E00CDA6E8F6B}" {
+   m_fDamage 35
   }
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
    Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
@@ -22,7 +23,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     ItemPhysAttributes ItemPhysicalAttributes "{52D2E00C19EF75C0}" {
      Weight 4
      SizeSetupStrategy Volume
-     ItemVolume 2500
+     ItemVolume 1200
      DimensionScaler 3000
     }
     ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
@@ -30,6 +31,9 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AnimationIKPose "{141EE64890AF76FA}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_ik.anm"
     }
     CustomAttributes {
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      CameraDistanceToItem 0.8
+     }
      ItemOneHandAnimAttributes "{5AF8C0E6BACD10A9}" {
      }
     }
@@ -42,7 +46,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot underbarrel {
       PivotID "slot_underbarrel"
       ChildPivotID "snap_underbarrel"
-      Prefab "{69F85A8F7C54F461}Prefabs/Attachments/Underbarrel/Grip_SampleGrip_01.et"
+      Prefab "{69F85A8F7C54F461}Prefabs/Weapons/Attachments/Underbarrel/Grip_SampleGrip_01.et"
      }
     }
     AttachmentSlotComponent "{5848EDCA8A09E6F7}" {
@@ -62,7 +66,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot ironsight_front {
       PivotID "slot_ironsight_front"
       ChildPivotID "snap_ironsight_front"
-      Prefab "{5C3C9FE480E417D7}Prefabs/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
+      Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
      }
     }
     AttachmentSlotComponent "{52D0FA2068EBA22F}" {
@@ -70,7 +74,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot ironsight {
       PivotID "slot_ironsight_rear"
       ChildPivotID "snap_ironsight_rear"
-      Prefab "{4842D1F1D47C9CD7}Prefabs/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
+      Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
@@ -78,6 +82,16 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       AttachmentSlotComponent "{4E2B66CBA589F625}" {
        AttachmentSlot InventoryStorageSlot suppressor {
        }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
+      }
+      CaseEjectingEffectComponent "{5CB6E23C9EB64496}" {
+       ParticleEffect "{63E173D6DFE79517}Particles/Weapon/Smoke_M16A2.ptc"
+       EffectPosition EntitySlotInfo Effect {
+        PivotID "barrel_muzzle"
+       }
+       HasSound 0
       }
       SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
        ParticleEffect "{6FC79968CA7F6FD2}Particles/Weapon/Muzzle_AK74.ptc"
@@ -154,7 +168,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" {
       }
      }
-     MagazineTemplate "{8483C43851C6C0C4}Prefabs/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et"
+     MagazineTemplate "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et"
     }
     SightsComponent "{BB23A637957CFFF8}" {
      SightsPosition PointInfo "{BB23A63796688E69}" {
@@ -210,7 +224,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     }
     UserActionContext "{5086F9ADF588DCA4}" {
      Position PointInfo "{5086F9ADE97650DF}" {
-      Offset 0 0.0079 -0.0286
+      Offset 0 0.0079 0.03
      }
     }
     UserActionContext "{5AF896EFFE8D407A}" {

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8869D0503AC7740E}Prefabs/Weapons/Core/Ammo_65x39_Grendel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

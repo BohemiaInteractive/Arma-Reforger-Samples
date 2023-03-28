@@ -1,0 +1,12 @@
+GenericEntity : "{2CF89ADA36CC318B}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5B0C9963BBDA92B8}" {
+     Name "#SampleMod-Optic_SampleIronsight_01_Front_Name"
+    }
+   }
+  }
+ }
+}
