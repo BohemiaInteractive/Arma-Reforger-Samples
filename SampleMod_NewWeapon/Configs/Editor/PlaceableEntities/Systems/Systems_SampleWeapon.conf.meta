@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FD74C82DECF02D01}Configs/Editor/PlaceableEntities/Systems/Systems_SampleWeapon.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

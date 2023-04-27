@@ -1,7 +1,7 @@
 GenericEntity : "{8483C43851C6C0C4}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" {
  ID "CA6BE4D6BB2D1077"
  components {
-  InventoryItemComponent "{51EED12B803954CC}" {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
      Name "#SampleMod-Magazine_65x39C_SampleWeapon_01_30rnd_Tracer_Name"
@@ -10,6 +10,12 @@ GenericEntity : "{8483C43851C6C0C4}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
    }
   }
   MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{52D0FA2677E2A45F}" {
+    Name ""
+    Description ""
+    m_sAmmoType ""
+    m_eAmmoTypeFlags TRACER
+   }
    AmmoMapping {
     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
    }

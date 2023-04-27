@@ -1,15 +1,24 @@
 AnimSetTemplateSource {
  Groups {
-  AnimSetTemplateSource_AnimationGroup "{5A0482788AF8BB51}" {
+  AnimSetTemplateSource_AnimationGroup "{59BA83C87D027DBB}" {
    Name "Inspection"
    Animations {
-    "InspectionIn"
-    "InspectionOut"
+    "Left2Right"
+    "LeftInspectionIn"
+    "LeftInspectionLoop"
+    "LeftInspectionOut"
+    "Right2Left"
+    "RightInspectionIn"
+    "RightInspectionLoop"
+    "RightInspectionOut"
    }
    Columns {
     "Cro"
+    "CroRas"
     "Erc"
+    "ErcRas"
     "Pne"
+    "PneRas"
    }
   }
   AnimSetTemplateSource_AnimationGroup "{51929D50BF59CBCC}" {
@@ -27,6 +36,8 @@ AnimSetTemplateSource {
     "ReloadActionBolt"
     "Safety"
     "Sight"
+    "Switch_Mode_Dep_Off"
+    "Switch_Mode_Dep_On"
     "Switch_Mode_Off"
     "Switch_Mode_On"
     "Trigger"

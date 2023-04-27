@@ -1,7 +1,7 @@
 GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
  ID "CA6BE4D6BB2D1077"
  components {
-  InventoryItemComponent "{51EED12B803954CC}" {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
      Name "#SampleMod-Magazine_65x39C_SampleWeapon_01_30rnd_Base_Name"
@@ -17,6 +17,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
     CustomAttributes {
      PreviewRenderAttributes "{594A65371BB8A5E1}" {
       CameraPreset Left
+      CameraDistanceToItem 0.19
      }
     }
    }
@@ -26,8 +27,9 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
    MagazineWell MagazineWell65x39C_SampleWeapon "{52D0FA2677E2A45D}" {
    }
    UIInfo MagazineUIInfo "{52D0FA2677E2A45F}" {
-    m_MagIndicator SCR_MagazineIndicatorConfiguration "{594A65349B1DEF85}" : "{1AA788302FE3C53A}Configs/WeaponInfo/MagazineIndicators/ak74_30.conf" {
-    }
+    Name ""
+    Description ""
+    m_bShowAmmoTypeText 1
    }
    ItemModel "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
    AmmoConfig "{6975B28177406355}Configs/Weapons/Ammo/Ammo_65x39.conf"
@@ -44,6 +46,7 @@ GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
      Position PointInfo "{5086F9AC96DB9752}" {
       Offset 0 -0.0389 -0.0383
      }
+     Radius 0.1
     }
    }
   }

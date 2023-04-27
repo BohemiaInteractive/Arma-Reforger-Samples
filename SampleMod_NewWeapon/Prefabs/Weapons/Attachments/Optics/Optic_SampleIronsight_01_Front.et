@@ -6,6 +6,12 @@ GenericEntity : "{2CF89ADA36CC318B}Prefabs/Weapons/Attachments/Optics/Optic_Samp
     ItemDisplayName UIInfo "{5B0C9963BBDA92B8}" {
      Name "#SampleMod-Optic_SampleIronsight_01_Front_Name"
     }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913IronsightFront "{5CF890C536B8C082}" {
+      }
+     }
+    }
    }
   }
  }

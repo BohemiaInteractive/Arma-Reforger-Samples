@@ -17,15 +17,21 @@ SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR
      TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
     }
     ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_rifleman.et"
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
      PrefabsToSpawn {
-      "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+      "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{5B027BCCDE55169D}" {
      TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88.et"
      PrefabsToSpawn {
       "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D16A211A701D833}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_GrenadePouch.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
    }

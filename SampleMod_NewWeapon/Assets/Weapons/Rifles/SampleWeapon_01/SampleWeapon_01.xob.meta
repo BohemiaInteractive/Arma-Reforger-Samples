@@ -38,7 +38,16 @@ MetaFileClass {
     GeometryParam UTM_Weapon {
      LayerPreset "Weapon"
      SurfaceProperties {
-      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat" "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_body {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
      }
      Mass 0
      Margin 0

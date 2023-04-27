@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5E540AA4741A9B74}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/USSR/E_ArsenalBox_SampleNewWeapon.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

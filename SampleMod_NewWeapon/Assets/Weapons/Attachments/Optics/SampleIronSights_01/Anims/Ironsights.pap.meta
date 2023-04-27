@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1E9205C552A8A256}Assets/Weapons/Attachments/Optics/SampleIronSights_01/Anims/Ironsights.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

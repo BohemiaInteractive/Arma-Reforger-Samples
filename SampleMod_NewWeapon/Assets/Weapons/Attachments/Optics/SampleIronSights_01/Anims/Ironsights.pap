@@ -1,0 +1,122 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 1028
+   name "Ironsight"
+   tl -392 -465
+   res "{F489E45B00EF54EB}Assets/Weapons/Attachments/Optics/SampleIronSights_01/Anims/Ironsights.siga"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 2054
+   name "Bone 2054"
+   version 0
+   tl -161 -574
+   outs {
+    3078
+   }
+   bone "w_ironsight_rear"
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 78 -471
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 4102
+   name "RotationMake 4102"
+   tl -150 -384
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+ }
+ model "{FE1AD43E4574C5D8}Assets/Weapons/Attachments/Optics/SampleIronSights_01/SampleIronSights_01_Rear.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   257 1 129
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 131072 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+  }
+  version 2
+  argsize 5
+ }
+}

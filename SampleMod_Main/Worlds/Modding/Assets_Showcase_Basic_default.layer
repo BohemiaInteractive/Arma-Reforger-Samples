@@ -16,6 +16,9 @@ Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/S
 $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_Base.et" {
  {
   components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 0
+   }
    SlotManagerComponent "{55BCB445DA7D6E35}" {
     Slots {
      EntitySlotInfo Wing_R {
@@ -28,12 +31,19 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
      }
     }
    }
+   ActionsManagerComponent "{5244BAE9EE937579}" {
+    additionalActions {
+    }
+   }
   }
   coords 115.941 2 134.817
   angleY -105.869
  }
  {
   components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    Static 0
+   }
    SlotManagerComponent "{55BCB445DA7D6E35}" {
     Slots {
      EntitySlotInfo Wing_L {
@@ -71,50 +81,19 @@ $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDes
   angleY 179.629
  }
 }
-GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Ball.et" {
- coords 122.859 3.024 127.876
- angleX -0.094
- angleY -179.694
- angleZ -91.425
-}
-GenericEntity : "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" {
- coords 122.861 3.024 128.094
- angleX -0.094
- angleY -179.694
- angleZ -91.425
-}
 GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_SampleMod.et" {
  components {
   MeshObject "{5584D66370FCAEF1}" {
   }
   RigidBody "{5584D66370FCAEE9}" {
-   Enabled 0
   }
   SCR_ArsenalDisplayComponent "{589F01C8E2FEDEE5}" {
-   m_ItemDisplayConfig SCR_ArsenalItemDisplayConfig "{589F01C8FDDE9873}" : "{A29559DFB22589EE}Configs/Arsenal/WeaponRackDisplayConfig_SampleMod.conf" {
-    m_aItemDisplayData {
-     SCR_ArsenalItemDisplayData "{592C712C9B290899}" {
-      m_vItemOffset 0 0 -0.2
-     }
-     SCR_ArsenalItemDisplayData "{592C712C781682AA}" {
-      m_ItemResourceName "{87D09F47156059D2}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
-      m_vItemOffset 0 0 -0.2
-     }
-     SCR_ArsenalItemDisplayData "{592C712C79D9C296}" {
-      m_vItemOffset 0 0 -0.2
-     }
-     SCR_ArsenalItemDisplayData "{592C712C409939B2}" {
-      m_ItemResourceName "{87D09F47156059D2}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
-      m_vItemOffset 0 0 -0.2
-     }
-    }
-   }
    m_eSupportedArsenalItemModes 126
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{5D16964AA50E71EC}" : "{353FE067AC009650}Configs/Arsenal/ArsenalConfig_SampleModdedWeapon.conf" {
+   }
   }
   SCR_FactionAffiliationComponent "{5A50E76678BE335D}" {
    "faction affiliation" "FFA"
-  }
-  RplComponent "{5948BC6A0325AFD0}" {
   }
  }
  coords 118.014 2 127.202

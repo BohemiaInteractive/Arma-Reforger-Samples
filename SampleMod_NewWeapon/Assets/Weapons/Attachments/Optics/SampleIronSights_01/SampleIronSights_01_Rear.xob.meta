@@ -3,7 +3,7 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    SourceFile "SampleIronSights_01_Rear.fbx"
-   ExportSceneHierarchy 1
+   ExportSkinning 1
    MaterialAssigns {
     MaterialAssignClass "{52D0FA269503CC9A}" {
      SourceMaterial "msbs_02_co"

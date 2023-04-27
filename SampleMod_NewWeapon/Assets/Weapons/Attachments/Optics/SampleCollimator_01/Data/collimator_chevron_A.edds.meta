@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2BBE7CC9FAEEC02B}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/collimator_chevron_A.edds"
+ Configurations {
+  TIFFResourceClass PC : "{6B149ECE3A72EF45}Configs/System/ResourceTypes/PC/TextureOneChannel.conf" {
+  }
+  TIFFResourceClass XBOX_ONE : "{DC95471339A9BC2B}Configs/System/ResourceTypes/XBOX_ONE/TextureOneChannel.conf" {
+  }
+  TIFFResourceClass XBOX_SERIES : "{C2F053ADC70F3804}Configs/System/ResourceTypes/XBOX_SERIES/TextureOneChannel.conf" {
+  }
+  TIFFResourceClass PS4 : "{19FBA5E0ACB1C98E}Configs/System/ResourceTypes/PS4/TextureOneChannel.conf" {
+  }
+  TIFFResourceClass HEADLESS : "{6866463573917E52}Configs/System/ResourceTypes/HEADLESS/TextureOneChannel.conf" {
+  }
+ }
+}

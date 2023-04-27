@@ -17,6 +17,7 @@ GenericEntity : "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_545x39_AK_
   MagazineComponent "{CA6BE4D6B4DAFD69}" {
    UIInfo MagazineUIInfo "{74AAA72E04A6249F}" {
     Name "#SampleMod-Magazine_Magazine_AK74_30rnd_Modded_Name"
+    m_eAmmoTypeFlags 137
    }
    MaxAmmo 200
    AmmoConfig "{91A3208022732A9A}Configs/Weapons/Ammo/Ammo_545x39_Modded.conf"

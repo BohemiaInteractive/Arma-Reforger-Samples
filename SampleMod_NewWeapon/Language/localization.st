@@ -1,6 +1,45 @@
 StringTable {
  ItemClassName "CustomStringTableItem"
  Items {
+  CustomStringTableItem "{5D0CCB25620357D0}" {
+   Id "SampleMod-EditableEntity_AmmoBox_SampleWeaponMagazines_Name"
+   Target_en_us "Sample New Weapon Ammo Crate"
+   Comment "Enity placed via the content Browser"
+   MaxLength 28
+   Modified 1561120984
+   Author "phammac"
+   LastChanged "phammac"
+   Labels {
+    300
+   }
+   SourceFile "{A7B20DD168C5ACF5}PrefabsEditable/Auto/Props/Military/AmmoBoxes/E_AmmoBox_SampleWeaponMagazines.et"
+  }
+  CustomStringTableItem "{5D0CCB25481B944A}" {
+   Id "SampleMod-EditableEntity_ArsenalBox_SampleNewWeapon_Name"
+   Target_en_us "Sample New Weapon Arsenal Box"
+   Comment "Enity placed via the content Browser"
+   MaxLength 28
+   Modified 1561121025
+   Author "phammac"
+   LastChanged "phammac"
+   Labels {
+    300
+   }
+   SourceFile "{5E540AA4741A9B74}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/USSR/E_ArsenalBox_SampleNewWeapon.et"
+  }
+  CustomStringTableItem "{5D0CCB256202353B}" {
+   Id "SampleMod-EditableEntity_EquipmentBoxWodden_SampleWeapon_Name"
+   Target_en_us "Sample New Weapon Crate"
+   Comment "Enity placed via the content Browser"
+   MaxLength 28
+   Modified 1561120984
+   Author "phammac"
+   LastChanged "phammac"
+   Labels {
+    300
+   }
+   SourceFile "{EEA866D6E77051C8}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWodden_SampleWeapon.et"
+  }
   CustomStringTableItem "{5AF89E61750D5833}" {
    Id "SampleMod-Magazine_65x39C_SampleWeapon_01_30rnd_Base_Description"
    Target_en_us "Magazine loaded with 6.5x39mm NATO rounds"
@@ -43,6 +82,28 @@ StringTable {
    Modified 1559134560
    Author "phammac"
    LastChanged "phammac"
+  }
+  CustomStringTableItem "{5D1AAB63A0F65921}" {
+   Id "SampleMod-Optic_SampleCollimator_01_Description"
+   Target_en_us "Small 1x collimator sight"
+   Modified 1562029024
+   Author "reyhard"
+   LastChanged "reyhard"
+   Labels {
+    0 1200
+   }
+   SourceFile "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et"
+  }
+  CustomStringTableItem "{5D1AAB63A0F6B656}" {
+   Id "SampleMod-Optic_SampleCollimator_01_Name"
+   Target_en_us "Sample Collimator"
+   Modified 1562029024
+   Author "reyhard"
+   LastChanged "reyhard"
+   Labels {
+    0 1200
+   }
+   SourceFile "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et"
   }
   CustomStringTableItem "{5CEEA1EABCF30DFB}" {
    Id "SampleMod-Optic_SampleIronsight_01_Base_Name"

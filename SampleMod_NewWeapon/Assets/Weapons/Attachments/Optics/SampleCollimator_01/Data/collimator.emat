@@ -1,0 +1,33 @@
+MatPBRBasic {
+ Color 1 0 0 1
+ Emissive 1 0 0 0
+ EmissiveLV 9.538
+ ApplyAlbedoToEmissive 1
+ Sort translucent
+ CastShadow 0
+ ReceiveShadow 0
+ TCModFuncs {
+  TCModShift "{5CDCD917EA1E1A1B}" {
+   ShiftU 0
+   ShiftV 0
+   Refs {
+   "ShiftU" "SCR_CollimatorControllerComponent.m_fUCoord"
+   "ShiftV" "SCR_CollimatorControllerComponent.m_fVCoord"
+   } 
+  }
+ }
+ AlphaTest 0.063
+ AlphaMul 2.542
+ BlendMode AlphaBlend
+ OpacityMap "{C9DCB787E3AA1C41}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/collimator_dot_A.edds" "{2BBE7CC9FAEEC02B}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/collimator_chevron_A.edds" clampu clampv anim( 0 )
+ Refs {
+  "Color"
+  "SCR_CollimatorControllerComponent.m_vColor"
+  "Emissive"
+  "SCR_CollimatorControllerComponent.m_vEmissive"
+  "EmissiveLV"
+  "SCR_CollimatorControllerComponent.m_fEmissiveLV"
+  "OpacityMap"
+  "SCR_CollimatorControllerComponent.m_ReticleMap"
+ }
+}

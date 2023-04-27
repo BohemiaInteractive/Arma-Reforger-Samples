@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A7B20DD168C5ACF5}PrefabsEditable/Auto/Props/Military/AmmoBoxes/E_AmmoBox_SampleWeaponMagazines.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

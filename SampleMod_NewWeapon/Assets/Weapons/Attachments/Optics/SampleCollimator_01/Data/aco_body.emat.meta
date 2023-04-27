@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DDFD59D1A13BA09C}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/aco_body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

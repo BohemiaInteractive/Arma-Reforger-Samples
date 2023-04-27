@@ -41,12 +41,36 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
   }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
+    AttachmentSlotComponent "{52D0FA2008B57FF5}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot ironsight_front {
+      PivotID "slot_ironsight_front"
+      ChildPivotID "snap_ironsight_front"
+      Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
+      Name "Front Ironsight"
+     }
+     AttachmentType AttachmentOpticsRIS1913IronsightFront "{5CF890C54755B783}" {
+     }
+    }
     AttachmentSlotComponent "{52D0FA201C0511E0}" {
      Enabled 0
      AttachmentSlot InventoryStorageSlot underbarrel {
       PivotID "slot_underbarrel"
       ChildPivotID "snap_underbarrel"
       Prefab "{69F85A8F7C54F461}Prefabs/Weapons/Attachments/Underbarrel/Grip_SampleGrip_01.et"
+     }
+     AttachmentType AttachmentUnderbarrelRIS1913 "{5D18A8C5495104D4}" {
+     }
+    }
+    AttachmentSlotComponent "{52D0FA2068EBA22F}" {
+     Enabled 1
+     AttachmentSlot InventoryStorageSlot ironsight {
+      PivotID "slot_ironsight_rear"
+      ChildPivotID "snap_ironsight_rear"
+      Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
+      Name "Rear Ironsight"
+     }
+     AttachmentType AttachmentOpticsRIS1913IronsightRear "{5CF890C54037718C}" {
      }
     }
     AttachmentSlotComponent "{5848EDCA8A09E6F7}" {
@@ -56,31 +80,40 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       Offset 0 0 0
       ChildPivotID "snap_optics"
       Prefab ""
+      Name "Optic"
      }
-     AttachmentType AttachmentOpticsRail1913 "{5962E5BAE630FC90}" {
+     AttachmentType AttachmentOpticsRIS1913 "{5962E5BAE630FC90}" {
      }
      ShowInInspection 1
     }
-    AttachmentSlotComponent "{52D0FA2008B57FF5}" {
-     Enabled 1
-     AttachmentSlot InventoryStorageSlot ironsight_front {
-      PivotID "slot_ironsight_front"
-      ChildPivotID "snap_ironsight_front"
-      Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
+    AttachmentSlotComponent "{5D168E76CE7C176C}" {
+     AttachmentSlot InventoryStorageSlot RIS_Left {
+      PivotID "slot_ris_left"
+      ChildPivotID "snap_attachment"
+      Name "RIS Left"
      }
+     AttachmentType AttachmentRIS1913 "{5D168E76C124A5D0}" {
+     }
+     ShowInInspection 1
     }
-    AttachmentSlotComponent "{52D0FA2068EBA22F}" {
-     Enabled 1
-     AttachmentSlot InventoryStorageSlot ironsight {
-      PivotID "slot_ironsight_rear"
-      ChildPivotID "snap_ironsight_rear"
-      Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
+    AttachmentSlotComponent "{5D168E76F4E59294}" {
+     AttachmentSlot InventoryStorageSlot RIS_Right {
+      PivotID "slot_ris_right"
+      ChildPivotID "snap_attachment"
+      Name "RIS Right"
      }
+     AttachmentType AttachmentRIS1913 "{5D168E76F211B286}" {
+     }
+     ShowInInspection 1
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
       AttachmentSlotComponent "{4E2B66CBA589F625}" {
        AttachmentSlot InventoryStorageSlot suppressor {
+        PivotID "barrel_muzzle"
+        Name "Muzzle"
+       }
+       AttachmentType AttachmentMuzzle65_39 "{5D168816DD5EF0CE}" {
        }
       }
       CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
@@ -196,10 +229,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      BindWithInjection 1
     }
-    AttachmentSlotComponent "{5848EDCA8A09E6F7}" {
-     AttachmentSlot InventoryStorageSlot optic {
-     }
-    }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
     Name "Sample Weapon"
@@ -234,6 +263,34 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       Offset 0 0 0.0687
      }
      Radius 0.1
+    }
+    UserActionContext "{5D16CD572EBFE7C3}" {
+     ContextName "ris_right"
+     Position PointInfo "{5D16CD572137E037}" {
+      PivotID "slot_ris_right"
+     }
+     Radius 0.05
+    }
+    UserActionContext "{5D16CD57294C5019}" {
+     ContextName "ris_left"
+     Position PointInfo "{5D16CD571FA0A3AC}" {
+      PivotID "slot_ris_left"
+     }
+     Radius 0.05
+    }
+    UserActionContext "{5D16CD5729B8BD31}" {
+     ContextName "ironsight_front"
+     Position PointInfo "{5D16CD5716C44FEF}" {
+      PivotID "slot_ironsight_front"
+     }
+     Radius 0.05
+    }
+    UserActionContext "{5D16CD57285E8439}" {
+     ContextName "ironsight_rear"
+     Position PointInfo "{5D16CD5709D41E82}" {
+      PivotID "slot_ironsight_rear"
+     }
+     Radius 0.05
     }
    }
   }

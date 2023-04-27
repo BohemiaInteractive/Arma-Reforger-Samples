@@ -1,3 +1,7 @@
 GenericEntity : "{8313841018EC1AB9}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_Base.et" {
  ID "589F01C8AEC1441E"
+ components {
+  MeshObject "{5584D66370FCAEF1}" {
+  }
+ }
 }

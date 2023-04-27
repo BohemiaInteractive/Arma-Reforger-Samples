@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1CB83C0827A7561E}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/aco_body_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+  }
+  TIFFResourceClass XBOX_ONE : "{7F6A4D372443A88D}Configs/System/ResourceTypes/XBOX_ONE/TextureNType.conf" {
+  }
+  TIFFResourceClass XBOX_SERIES : "{065D289C7FF8B20D}Configs/System/ResourceTypes/XBOX_SERIES/TextureNType.conf" {
+  }
+  TIFFResourceClass PS4 : "{29DF4A6CBBABE916}Configs/System/ResourceTypes/PS4/TextureNType.conf" {
+  }
+  TIFFResourceClass HEADLESS : "{AFD658E4D0EB5FBC}Configs/System/ResourceTypes/HEADLESS/TextureNType.conf" {
+  }
+ }
+}

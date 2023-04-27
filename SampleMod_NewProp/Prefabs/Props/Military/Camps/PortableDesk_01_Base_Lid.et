@@ -4,6 +4,8 @@ GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et
   MeshObject "{5872F0EB7FA40561}" {
    Object "{4E1983510AA96A0E}Assets/Props/Military/Camps/PortableDesk_01/PortableDesk_01_lid.xob"
   }
+  Hierarchy "{5CF673FDC703543E}" {
+  }
   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
    Enabled 1
    m_fBaseHealth 1

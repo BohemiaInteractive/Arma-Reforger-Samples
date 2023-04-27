@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C53421647C3D0D2E}Configs/Factions/FactionEntityData/USSR/USSR_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

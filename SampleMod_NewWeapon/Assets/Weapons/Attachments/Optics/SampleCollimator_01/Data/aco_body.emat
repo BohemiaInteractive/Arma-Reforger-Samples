@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{2460879AFED00480}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/aco_body_BCR.edds"
+ NMOMap "{1CB83C0827A7561E}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/aco_body_NMO.edds"
+}

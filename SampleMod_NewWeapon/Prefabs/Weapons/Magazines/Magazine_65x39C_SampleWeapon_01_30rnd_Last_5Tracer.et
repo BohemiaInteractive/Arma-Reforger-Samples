@@ -1,11 +1,18 @@
 GenericEntity : "{8483C43851C6C0C4}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Base.et" {
  ID "CA6BE4D6BB2D1077"
  components {
-  InventoryItemComponent "{51EED12B803954CC}" {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
    Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
     ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
      Description "#SampleMod-Magazine_65x39C_SampleWeapon_01_30rnd_LastTracer_Description"
     }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{52D0FA2677E2A45F}" {
+    m_sAmmoCaliber ""
+    m_sAmmoType "5 Last"
+    m_eAmmoTypeFlags FMJ
    }
   }
  }

@@ -1,0 +1,37 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{819ED3266EE5113B}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Weapon_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{5D0CBE168CFBCE9C}" {
+     SlotTemplate InventoryStorageSlot Weapon {
+      Prefab "{87D09F47156059D2}Prefabs/Weapons/Rifles/SampleWeapon_01.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{5D0CBE16601D812F}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Prefab "{E4162F9AFD96951C}Prefabs/Weapons/Rifles/SampleWeapon_01_Optics.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

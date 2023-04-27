@@ -2,7 +2,13 @@ SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/
  coords 127.628 2.658 200
  Factions {
   SCR_FreeForAllFaction "{56B491183BEFD56B}" {
-   m_ArsenalConfig SCR_ArsenalItemListConfig "{5948BC68B248D8DD}" : "{3A20018E5B4EAF20}Configs/Arsenal/ArsenalConfig_SampleMod.conf" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5D0CF19EF22026EC}" : "{C190B3B6C501B7DB}Configs/EntityCatalog/FactionLess/SampleMod_NewWeapon_InventoryItems.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5D0CF19EF5FCC9EE}" : "{CD1D4D47328060BB}Configs/EntityCatalog/FactionLess/SampleMod_ModdedWeapon_InventoryItems.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5D0CF3A2CB508B74}" : "{E13A9028862AD233}Configs/EntityCatalog/FactionLess/SampleMod_NewCharacter_InventoryItems.conf" {
+    }
    }
   }
  }
@@ -16,7 +22,7 @@ SCR_BaseGameMode GameMode_Deathmatch_Automatic1 : "{B00D51315A1C7150}Prefabs/MP/
  coords 125.919 2.446 200
 }
 SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
- coords 120.015 2.001 129.686
+ coords 121.088 2.001 128.094
  angleY 120.713
 }
 SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {

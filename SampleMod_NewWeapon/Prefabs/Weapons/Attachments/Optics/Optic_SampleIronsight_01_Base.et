@@ -1,10 +1,13 @@
 GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
  ID "4BA426CBAED42A14"
  components {
+  SignalsManagerComponent "{5D18CD4CD3F00D9C}" {
+  }
   InventoryItemComponent "{52627A1F45CD4EB6}" {
    Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
     ItemDisplayName UIInfo "{5B0C9963BBDA92B8}" {
      Name "#SampleMod-Optic_SampleIronsight_01_Base_Name"
+     Description "Small fodable picatinny ironsights"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{5B0C996386B64CA1}" {
      SizeSetupStrategy Manual
@@ -12,7 +15,13 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
      ItemVolume 30
     }
     CustomAttributes {
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      CameraDistanceToItem 0.3
+     }
      WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentRIS1913 "{5D1679C61509A0E1}" {
+      }
      }
      CharacterModifierAttributes "{52D0FA29000C2398}" {
       ADSSpeedLimit 1.5
@@ -29,22 +38,55 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    LayerPreset "ItemFireView"
    ModelGeometry 1
   }
+  ProcAnimComponent "{5D18CD4CCC26819A}" {
+   Parameters {
+    ProcAnimParams "{5D18CD4CBD12CFDC}" {
+     ResourceName "{1E9205C552A8A256}Assets/Weapons/Attachments/Optics/SampleIronSights_01/Anims/Ironsights.pap"
+     BoneNames {
+      "w_ironsight"
+     }
+    }
+   }
+  }
   ActionsManagerComponent "{5284E0EFF569AD07}" {
    ActionContexts {
     UserActionContext "{5284E0EFF4E818E9}" {
      Position PointInfo "{5284E0EFC526E6F0}" {
       PivotID "snap_ironsight_front"
      }
+     Radius 0.1
     }
    }
    additionalActions {
-    SCR_AttachementAction "{5B0C9963C9AB3EB6}" {
+    SCR_AttachItemFromInventoryAction "{5D16CD50FB733960}" {
+     ParentContextList {
+      "ironsight_front"
+     }
+     UIInfo UIInfo "{5D16CD50F02BED0F}" {
+      Name "#AR-UserAction_Attach"
+     }
+     Duration 1
+     "Inventory action" 1
+    }
+    SCR_FlipSignalUserAction "{5D18CAB535969E95}" {
      ParentContextList {
       "user"
      }
-     UIInfo UIInfo "{5B0C9963D9BFB5D2}" {
+     UIInfo UIInfo "{5D18CAB53127DB25}" {
+      Name "Flip"
+     }
+     m_sSignalName "Ironsight"
+     m_sStringActionOn "Flip sight"
+     m_sStringActionOff "Unflip sight"
+    }
+    SCR_AttachementAction "{5D1AAB62878B73D8}" {
+     ParentContextList {
+      "user"
+     }
+     UIInfo UIInfo "{5D1AAB6294254316}" {
       Name "#AR-UserAction_Detach"
      }
+     Duration 0.5
     }
    }
   }

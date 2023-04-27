@@ -13,7 +13,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     }
     CustomAttributes {
      WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
-      AttachmentType AttachmentUnderBarrelRail1913 "{5962E49CE186C84C}" {
+      AttachmentType AttachmentUnderbarrelRIS1913Short "{5D18B063CD6EF8FD}" {
       }
      }
     }

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F489E45B00EF54EB}Assets/Weapons/Attachments/Optics/SampleIronSights_01/Anims/Ironsights.siga"
+ Configurations {
+  ProcAnimSignalResourceClass PC {
+  }
+  ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimSignalResourceClass PS4 : PC {
+  }
+  ProcAnimSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

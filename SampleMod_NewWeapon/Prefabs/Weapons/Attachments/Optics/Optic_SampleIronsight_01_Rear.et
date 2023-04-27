@@ -7,6 +7,10 @@ GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_Samp
      Name "#SampleMod-Optic_SampleIronsight_01_Rear_Name"
     }
     CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913IronsightRear "{5CF890C536B8C082}" {
+      }
+     }
      CharacterModifierAttributes "{52D0FA29000C2398}" {
       ADSSpeedLimit 1.5
      }
@@ -15,6 +19,12 @@ GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_Samp
   }
   MeshObject "{52D0FA29000C2394}" {
    Object "{FE1AD43E4574C5D8}Assets/Weapons/Attachments/Optics/SampleIronSights_01/SampleIronSights_01_Rear.xob"
+  }
+  ProcAnimComponent "{5D18CD4CCC26819A}" {
+   Parameters {
+    ProcAnimParams "{5D18CD4CBD12CFDC}" {
+    }
+   }
   }
   SightsComponent "{52D12AF10E9DE4CA}" {
    SightsPosition PointInfo "{52D2CE640BD6D62E}" {
@@ -37,10 +47,10 @@ GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_Samp
    }
   }
   ActionsManagerComponent "{5284E0EFF569AD07}" {
-   ActionContexts {
-    UserActionContext "{5284E0EFF4E818E9}" {
-     Position PointInfo "{5284E0EFC526E6F0}" {
-      PivotID "snap_ironsight_rear"
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5D16CD50FB733960}" {
+     ParentContextList {
+      "ironsight_rear"
      }
     }
    }

@@ -1,0 +1,32 @@
+GenericEntity : "{70B8BDA4BE0E4215}Prefabs/Props/Military/AmmoBoxes/AmmoBox_SampleWeaponMagazines.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{5D0CCB27D677BACB}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#SampleMod-EditableEntity_AmmoBox_SampleWeaponMagazines_Name"
+    m_Image "{A3D157619860A564}UI/Textures/Editor/Attributes/Arsenal/Attribute_Arsenal_Magazines.edds"
+    m_aAuthoredLabels {
+     1001 27 80
+    }
+    m_aAutoLabels {
+     108 1 120
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5D0CCB27D66A8728}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{5D0CCB27D66A21DD}" {
+     m_iParentID -1
+     m_Mesh "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E13A9028862AD233}Configs/EntityCatalog/FactionLess/SampleMod_NewCharacter_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

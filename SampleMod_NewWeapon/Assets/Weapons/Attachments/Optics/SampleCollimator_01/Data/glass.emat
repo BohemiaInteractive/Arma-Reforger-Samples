@@ -1,0 +1,7 @@
+MatPBRBasicGlass {
+ Cull none
+ AlphaMul 0.748
+ BCRMap "{4183250D3B62B5A6}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/glass_BCR.edds"
+ OpacityMap "{AE7F470E001997A4}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/glass_A.edds"
+ NMOMap "{795B9E9FE215E738}Assets/Weapons/Attachments/Optics/SampleCollimator_01/Data/glass_NMO.edds"
+}

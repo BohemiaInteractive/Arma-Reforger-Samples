@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C190B3B6C501B7DC}Configs/EntityCatalog/FactionLess/SampleMod_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

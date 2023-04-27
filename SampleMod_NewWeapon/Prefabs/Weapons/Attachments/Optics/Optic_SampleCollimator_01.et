@@ -1,0 +1,123 @@
+GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5CF0DAB9517AF27F}" {
+     Name "#SampleMod-Optic_SampleCollimator_01_Name"
+     Description "#SampleMod-Optic_SampleCollimator_01_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CF0DAB9517AF277}" {
+     Weight 0.58
+     SizeSetupStrategy Manual
+     ItemDimensions 3 3 3
+     ItemVolume 100
+     RestingUP Right
+    }
+    CustomAttributes {
+     WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentOpticsRIS1913Short "{5D1AA1C0F389A9EE}" {
+      }
+     }
+     CharacterModifierAttributes "{5CF0DAB9517AF26E}" {
+      SpeedLimit 6
+      ADSSpeedLimit 4
+      SpeedLimitHighready 1.7
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      CameraDistanceToItem 0.32
+      ItemRenderRotation 10 -45 0
+      FOV 20
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{5CF0DAB9517AF267}" {
+   Object "{2735702BB79C0519}Assets/Weapons/Attachments/Optics/SampleCollimator_01/SampleColimator_01.xob"
+  }
+  RigidBody "{5CF0DAB9517AF263}" {
+   LayerPreset "ItemFireView"
+   ModelGeometry 1
+  }
+  SCR_CollimatorSightsComponent "{5CF0DAB93951A970}" {
+   components {
+    SCR_CollimatorControllerComponent "{5CF0DAB903773D82}" {
+    }
+   }
+   SightsPosition PointInfo "{5CF0DCE307FB9719}" {
+    PivotID "eye"
+   }
+   SightsPointFront PointInfo "{5CF0F0B7CC2552E7}" {
+    PivotID "eye"
+    Offset 0 0 0.2007
+   }
+   SightsPointRear PointInfo "{5CF0F0B7D74F3677}" {
+    PivotID "eye"
+    Offset 0 0 0.0977
+   }
+   SightsPriority 1
+   CollimatorTopLeft PointInfo "{5CF0DAB909047386}" {
+    PivotID "collimator_TL"
+   }
+   CollimatorBottomRight PointInfo "{5CF0DAB8E59B1363}" {
+    PivotID "collimator_BR"
+   }
+   CollimatorCenter PointInfo "{5CF0E5F804BFB63F}" {
+    PivotID "eye"
+    Offset 0 0 0.1964
+   }
+   m_fDaylightBrightness 11.361
+   m_ReticleColorArray {
+    SCR_ReticleColor "{5CF0E5F87CC29447}" {
+     m_vReticleColor 1 0 0
+     m_vGlowColor 0.502 0 0
+    }
+    SCR_ReticleColor "{5CF0E5F8093EB018}" {
+    }
+   }
+   m_iDefaultReticle 1
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0.0152 0.006
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5CF0DAB9517AF2BA}" {
+     ContextName "detach"
+     Position PointInfo "{5CF0DAB9517AF2B5}" {
+      Offset 0 0.0141 0
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_AttachementAction "{5CF0DAB9517AF2B3}" {
+     ParentContextList {
+      "detach"
+     }
+     UIInfo UIInfo "{5CF0DAB9517AF2AC}" {
+      Name "#AR-UserAction_Detach"
+     }
+     Duration 2
+    }
+    SCR_AttachItemFromInventoryAction "{5CF0DAB9517AF2AF}" {
+     ParentContextList {
+      "optic"
+     }
+     UIInfo UIInfo "{5CF0DAB9517AF2A9}" {
+      Name "#AR-UserAction_Attach"
+     }
+     Duration 2
+     "Inventory action" 1
+    }
+   }
+  }
+ }
+ coords 8.685 0.282 -2.43
+ Flags 4194307
+}

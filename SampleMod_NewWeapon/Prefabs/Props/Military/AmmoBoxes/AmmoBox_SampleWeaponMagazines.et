@@ -1,0 +1,60 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{5043F460C7AF4BD4}Assets/Props/Military/AmmoBox/AmmoBox_545x39_2160rnd/AmmoBox_545x39_2160rnd.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   LinearDamping 0.3
+   AngularDamping 0.3
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{58F8968452F049CA}" {
+     m_ModelPrefabs {
+      "{CEA3E9AEBE3C3492}Assets/Props/Debris/Wood/BeamWooden_dbr_01.xob" "{B83F6469D7CA3459}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_01.xob" "{2121DDF0CA2D05C9}Assets/Props/Debris/Wood/PlankWooden_Big_dbr_02.xob" "{68E2A8F815B4FD59}Assets/Props/Debris/Wood/PlankWooden_dbr_01.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5D0CBE16601D812F}" {
+     SlotTemplate InventoryStorageSlot Magazine {
+      Prefab "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{5D0CBE16545E74CE}" {
+     SlotTemplate InventoryStorageSlot Magazines_Tracer {
+      Prefab "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et"
+     }
+     NumSlots 25
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.0769 0
+     }
+    }
+   }
+  }
+ }
+ coords 3112.856 15.999 2743.287
+}

@@ -1,4 +1,9 @@
 GenericEntity : "{0C51231142DD368C}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Full.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 0
+  }
+ }
  coords 119.653 1.967 141.757
  angleY 166.078
 }
@@ -23,6 +28,11 @@ $grp GenericEntity : "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded
  }
 }
 GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_Base.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 0
+  }
+ }
  coords 125.856 1.99 136.002
  angleY -78.901
 }
@@ -30,7 +40,29 @@ GenericEntity : "{3CFE9B97C44C1671}Prefabs/Props/Military/Camps/PortableDesk_01_
  coords 125.103 2.867 133.181
  angleX 87.642
 }
+GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Ball.et" {
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_eAmmoTypeFlags 15
+   }
+  }
+ }
+ coords 122.859 3.024 127.876
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
+}
+GenericEntity : "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et" {
+ coords 123.235 2.997 127.247
+ angleY 21.44
+}
 GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Full.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 0
+  }
+ }
  coords 123.932 1.967 140.958
  angleY -140.776
 }
@@ -38,6 +70,16 @@ GenericEntity : "{568AEB65B0B08514}Prefabs/Props/Military/Camps/PortableDesk_01_
  coords 124.125 2.026 131.991
  angleY -90.879
  angleZ -46.44
+}
+GenericEntity : "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et" {
+ coords 122.861 3.024 128.094
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
+}
+GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
+ coords 123.168 2.997 127.348
+ angleY -20.212
 }
 Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modded.et" {
  components {
@@ -122,6 +164,11 @@ GenericEntity : "{63DDF1EFECD7F988}Prefabs/Weapons/Attachments/Optics/Optic_Samp
  coords 122.861 3.011 127.582
 }
 GenericEntity : "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Full.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 0
+  }
+ }
  coords 125.256 1.967 133.786
  angleY -67.198
 }
@@ -150,4 +197,17 @@ $grp GenericEntity : "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_
 }
 Projectile : "{A8422FD60F6F6E00}Prefabs/Weapons/Ammo/Ammo_545x39_ball_Modded.et" {
  coords 103.351 5.947 88.755
+}
+GenericEntity : "{B672853A6087B05A}PrefabsEditable/Auto/Systems/Arsenal/WeaponRacks/E_WeaponRackStandArsenal_FIA.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7661D447924}" {
+   "faction affiliation" "FFA"
+  }
+ }
+ coords 122.475 2.001 128.489
+ angleY -90.375
+}
+GenericEntity : "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et" {
+ coords 122.806 3.01 127.226
+ angleY -49.437
 }

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{289CA983E795F1C5}Configs/Weapons/AIBallisiticTables/AIBT_65x39_FMJBT.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

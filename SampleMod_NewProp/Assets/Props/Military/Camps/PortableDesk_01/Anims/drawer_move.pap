@@ -4,7 +4,7 @@ ProcAnimProjectClass {
    id 1028
    name "Signal 1"
    tl -102.584 80.674
-   res "{8B9F70AC623EC08F}Assets/Props/Military/Camps/PortableDesk_01/Anims/drawer_move.siga"
+   res "{FB92C9BAB6E27FF9}Assets/Props/Military/Camps/PortableDesk_01/Anims/drawer_move.siga"
    inputsport {
     1 5 7 8 9 10
    }

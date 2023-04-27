@@ -79,23 +79,149 @@ AnimSetInstanceSource {
   AnimSetInstanceSource_Line "Reload.Pne.Finger_trigger_in" {
    Resource "{5DF9283069B42ACD}Assets/Weapons/Rifles/AK74/anims/anm/p_ak74_trigger_finger_in.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Pne.InspectionOut" {
-   Resource "{FBF5025FC5758E67}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_pne_wpn_insp_out.anm"
+  AnimSetInstanceSource_Line "Inspection.Cro.LeftInspectionIn" {
+   Resource "{24116CD61B1AFAF2}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_in_ras.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Pne.InspectionIn" {
-   Resource "{F7773F40A9692CDD}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_pne_wpn_insp_in.anm"
+  AnimSetInstanceSource_Line "Inspection.CroRas.LeftInspectionIn" {
+   Resource "{24116CD61B1AFAF2}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_in_ras.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Erc.InspectionIn" {
-   Resource "{75E48C8AC81F9EFE}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_erc_wpn_insp_in.anm"
+  AnimSetInstanceSource_Line "Inspection.Cro.LeftInspectionLoop" {
+   Resource "{0427EC2CE41A01F7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_loop.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Erc.InspectionOut" {
-   Resource "{1B5DEE299D21B48C}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_erc_wpn_insp_out.anm"
+  AnimSetInstanceSource_Line "Inspection.CroRas.LeftInspectionLoop" {
+   Resource "{0427EC2CE41A01F7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_loop.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Cro.InspectionIn" {
-   Resource "{A62DE7FB14EBB23C}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_cro_wpn_insp_in.anm"
+  AnimSetInstanceSource_Line "Inspection.Cro.LeftInspectionOut" {
+   Resource "{E230B781E0D1BB29}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_out_ras.anm"
   }
-  AnimSetInstanceSource_Line "Inspection.Cro.InspectionOut" {
-   Resource "{5FE522E3948CFD34}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_cro_wpn_insp_out.anm"
+  AnimSetInstanceSource_Line "Inspection.CroRas.LeftInspectionOut" {
+   Resource "{E230B781E0D1BB29}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Cro.Left2Right" {
+   Resource "{93E2112A1595C90F}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.CroRas.Left2Right" {
+   Resource "{93E2112A1595C90F}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Cro.Right2Left" {
+   Resource "{A2D2DAE322D6E45A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.CroRas.Right2Left" {
+   Resource "{A2D2DAE322D6E45A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.LeftInspectionIn" {
+   Resource "{F7D807A7C7EED630}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.LeftInspectionIn" {
+   Resource "{F7D807A7C7EED630}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.LeftInspectionLoop" {
+   Resource "{2EE574B0789B6A32}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.LeftInspectionLoop" {
+   Resource "{2EE574B0789B6A32}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.LeftInspectionOut" {
+   Resource "{A6887B4BE97CF291}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.LeftInspectionOut" {
+   Resource "{A6887B4BE97CF291}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.Left2Right" {
+   Resource "{B818BF735CF2BCFF}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.Left2Right" {
+   Resource "{B818BF735CF2BCFF}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.Right2Left" {
+   Resource "{892874BA6BB191AA}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.Right2Left" {
+   Resource "{892874BA6BB191AA}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.LeftInspectionIn" {
+   Resource "{754BB46DA6986413}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.LeftInspectionIn" {
+   Resource "{754BB46DA6986413}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.LeftInspectionLoop" {
+   Resource "{C4A6E1B4B62D05FC}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.LeftInspectionLoop" {
+   Resource "{C4A6E1B4B62D05FC}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.LeftInspectionOut" {
+   Resource "{4620973DB128C87A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.LeftInspectionOut" {
+   Resource "{4620973DB128C87A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.Left2Right" {
+   Resource "{F071DF01BE5509C3}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.Left2Right" {
+   Resource "{F071DF01BE5509C3}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_left_to_right.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.Right2Left" {
+   Resource "{C14114C889162496}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.Right2Left" {
+   Resource "{C14114C889162496}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_to_left.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Cro.RightInspectionIn" {
+   Resource "{90C106C5F4AB78A4}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.CroRas.RightInspectionIn" {
+   Resource "{90C106C5F4AB78A4}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Cro.RightInspectionLoop" {
+   Resource "{27CB5D881F8151F7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.CroRas.RightInspectionLoop" {
+   Resource "{27CB5D881F8151F7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Cro.RightInspectionOut" {
+   Resource "{27D4AEEB9301FB0A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.CroRas.RightInspectionOut" {
+   Resource "{27D4AEEB9301FB0A}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_cro_right_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.RightInspectionIn" {
+   Resource "{D479CA0FFD06311C}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.RightInspectionIn" {
+   Resource "{D479CA0FFD06311C}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.RightInspectionLoop" {
+   Resource "{3EAE3FB6F0782BB1}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.RightInspectionLoop" {
+   Resource "{3EAE3FB6F0782BB1}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Erc.RightInspectionOut" {
+   Resource "{0C2E00B2DA668EFA}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.ErcRas.RightInspectionOut" {
+   Resource "{0C2E00B2DA668EFA}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_erc_right_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.RightInspectionIn" {
+   Resource "{34D12679A5520BF7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.RightInspectionIn" {
+   Resource "{34D12679A5520BF7}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_in_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.RightInspectionLoop" {
+   Resource "{8A39220FBFDB0F15}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.RightInspectionLoop" {
+   Resource "{8A39220FBFDB0F15}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_loop.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.Pne.RightInspectionOut" {
+   Resource "{444760C038C13BC6}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_out_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Inspection.PneRas.RightInspectionOut" {
+   Resource "{444760C038C13BC6}Assets/Weapons/Rifles/AK74/anims/anm/p_AK74_weapon_inspection_pne_right_out_ras.anm"
   }
  }
  RBF AnimSetInstanceSourceRBFArray "{5AD0A6B7CBB9A6BA}" {

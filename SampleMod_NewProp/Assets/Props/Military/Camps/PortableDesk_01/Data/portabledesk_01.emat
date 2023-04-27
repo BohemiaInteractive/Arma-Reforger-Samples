@@ -1,8 +1,6 @@
 MatPBRBasic {
- AlphaTest 0.721
- AlphaMul 1.129
- BlendMode AlphaBlend
- BCRMap "{81186BFD5A1392A1}Assets/Military/Camps/PortableDesk_01/Data/portabledesk_01_sand_BCR.edds" 
- OpacityMap "{8B47A41FF9495381}Assets/Military/Camps/PortableDesk_01/Data/portabledesk_01_sand_A.edds" 
- NMOMap "{B9C0D06F8364C03F}Assets/Military/Camps/PortableDesk_01/Data/portabledesk_01_sand_NMO.edds" 
+ AlphaTest 0.252
+ BCRMap "{81186BFD5A1392A1}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_BCR.edds"
+ OpacityMap "{8B47A41FF9495381}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_A.edds"
+ NMOMap "{B9C0D06F8364C03F}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01_NMO.edds"
 }

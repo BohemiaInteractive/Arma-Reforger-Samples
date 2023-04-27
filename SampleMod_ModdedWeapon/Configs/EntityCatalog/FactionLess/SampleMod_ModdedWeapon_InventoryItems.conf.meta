@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CD1D4D47328060BB}Configs/EntityCatalog/FactionLess/SampleMod_ModdedWeapon_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

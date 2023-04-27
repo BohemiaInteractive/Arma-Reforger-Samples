@@ -40,17 +40,23 @@ AnimSrcGraph {
    AnimSrcGCTVarBool Low {
     DefaultValue 0
    }
+   AnimSrcGCTVarInt WeaponInspectionState {
+    MinValue -2
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool WeaponDeployed {
+   }
    AnimSrcGCTVarFloat SightElevation {
     DefaultValue 0.1
     MaxValue 1
+   }
+   AnimSrcGCTVarFloat ADSAdjust {
    }
   }
   Commands {
    AnimSrcGCTCmd CMD_Weapon_Reload {
    }
    AnimSrcGCTCmd CMD_Weapon_Action_Interrupt {
-   }
-   AnimSrcGCTCmd CMD_Weapon_Inspection {
    }
   }
   IkChains {

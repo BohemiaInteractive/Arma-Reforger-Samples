@@ -15,7 +15,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     }
     CustomAttributes {
      WeaponAttachmentAttributes "{5284D858FFF9BE66}" {
-      AttachmentType AttachmentOpticsRail1913 "{5962E49CEEB3B0B5}" {
+      AttachmentType AttachmentOpticsRIS1913 "{5D18AE55F0055EEF}" {
       }
      }
      CharacterModifierAttributes "{52A87A377BE3739F}" {
@@ -62,7 +62,6 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     PivotID "optic_rear"
    }
    ADSTime 0.5
-   ADSUpdateOwnerActivateState 1
    CameraRecoilAmount -0.4
    SightsPriority 1
    SoundInt 10001
@@ -72,27 +71,22 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    m_bHasIllumination 1
    m_cReticleTextureIllumination 0 0.502 0.125 1
    m_fMagnification 4
-   m_iReticleTextureWidth 308
-   m_fReticleWidthRange 26
-   m_fVignetteTextureMultiplier 2.387
+   m_fReticleAngularSize 2.801
    m_iHudDeactivationDelay 0
    m_iAnimationEnterDelay 0
    m_fAnimationEnter 5
    m_fAnimationSpeedBlur 3
    m_fVignetteMoveSpeed 2
-   m_fObjectiveMoveSpeed 10
    m_fMotionBlurScale 10
    m_eZeroingType EPZ_NONE
    m_fReticleOffsetX 0.001
    m_fReticleOffsetY 0.06863
    m_fReticleOffsetInterpSpeed 40
    m_bShouldHideParentParentObject 1
-   m_vCameraPoint -0.001 0.054 0.14
    m_fRecoilScaleMax 1.5
    m_iCameraIndex 8
-   m_fMainCameraFOV 27.5
+   m_fMainCameraFOV 28
    m_fResolutionScale 1
-   m_fReticleAngularSize 2.801
    m_rScopeHDRMatrial "{49BE214ED0192C5E}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/Optic_SampleOptic_HDR.emat"
    m_fProjectionDifferenceScale 150
    m_fCenterDistance 0.017
@@ -125,6 +119,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
      Position PointInfo "{5284E0EFC526E6F0}" {
       Offset 0 0.0414 0.006
      }
+     Radius 0.22
     }
     UserActionContext "{5AF89E60FC72622F}" {
      ContextName "detach"
