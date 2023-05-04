@@ -1,0 +1,128 @@
+GenericEntity : "{5FB1FACD28970BAC}Prefabs/Systems/Arsenal/ArsenalBoxes/SampleFactionGREENFOR/ArsenalBox_SampleFactionGREENFOR.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_EditableSystemComponent "{5D32B2B71D59E98F}" : "{6FA0A85CFC5420AD}Prefabs/Editor/Components/Systems_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{58D2A1BEBFDC56CC}" {
+    Name "#AR-EditableEntity_ArsenalBox_FIA_Name"
+    Description "#AR-EditableEntity_ArsenalBox_Description"
+    Icon "{EA975C03DF5422AD}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal.edds"
+    m_Image "{7EDEAAC89131B224}UI/Textures/EditorPreviews/Auto/Systems/Arsenal/ArsenalBoxes/US/E_ArsenalBox_US.edds"
+    m_sFaction "SampleFactionGREENFOR"
+    m_aAuthoredLabels {
+     24 38 25 35 34 33 1001
+    }
+    m_aAutoLabels {
+     7 122 27 16
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{5D32B2B71D5D5788}" {
+      m_BudgetType PROPS
+      m_Value 9
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{5D32B2B71D45AADE}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{5D32B2B71D443178}" {
+     m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
+     m_vPosition -0.521 0 0.866
+     m_vAngles 0 -32.767 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D4627A9}" {
+     m_Prefab "{BB724A13B58925F5}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_02.et"
+     m_vPosition -0.247 0 1.267
+     m_vAngles 0 -43.2 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D482263}" {
+     m_Prefab "{B953D46315370387}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rubus_idaeus_small_01.et"
+     m_vPosition 0.7 0 -0.925
+     m_vAngles 8.524 95.056 0.751
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D4A0398}" {
+     m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
+     m_vPosition -1.205 0 -0.803
+     m_vAngles 11.788 -146.298 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D4CE61B}" {
+     m_Prefab "{D7267EF3094DAADB}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_01.et"
+     m_vPosition 0.704 0 0.788
+     m_vAngles 0 -20.222 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D4ED7A5}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition -0.725 0 -1.078
+     m_vAngles 19.518 -127.358 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D509B8B}" {
+     m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
+     m_vPosition 1.007 0 0.478
+     m_vAngles 0 -18.235 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D52A50B}" {
+     m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
+     m_vPosition 0.184 0 0.945
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{5D32B2B71D575272}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition 0.517 0 0.494
+     m_vAngles 0 -41.278 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D32A9A4D4D0A895"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A89C"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8C1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8CD"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8E0"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8E9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8EA"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8ED"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5D32A9A4D4D0A8EF"
+   Flags 1048576
+  }
+ }
+}

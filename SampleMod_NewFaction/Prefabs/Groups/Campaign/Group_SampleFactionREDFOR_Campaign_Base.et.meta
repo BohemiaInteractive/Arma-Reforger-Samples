@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{AC15E546F770B6B3}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_Campaign_Base.et"
+ Name "{AC15E546F770B6B3}Prefabs/Groups/Campaign/Group_SampleFactionREDFOR_Campaign_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
   }
  }
 }

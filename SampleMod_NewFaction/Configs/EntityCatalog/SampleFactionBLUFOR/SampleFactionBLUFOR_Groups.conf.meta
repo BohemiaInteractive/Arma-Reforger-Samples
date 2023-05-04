@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{77EC4F720ADA3607}Configs/EntityCatalog/SampleFactionBLUFOR/SampleFactionBLUFOR_Groups.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

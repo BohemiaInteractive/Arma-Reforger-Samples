@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{85E38F90C45E9DE4}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR_Campaign_Base.et"
+ Name "{85E38F90C45E9DE4}Prefabs/Groups/Campaign/Group_SampleFactionBLUFOR_Campaign_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
   }
  }
 }

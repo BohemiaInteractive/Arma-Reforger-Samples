@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{826626DE33315C04}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_wpn_insp_cro_right_loop.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

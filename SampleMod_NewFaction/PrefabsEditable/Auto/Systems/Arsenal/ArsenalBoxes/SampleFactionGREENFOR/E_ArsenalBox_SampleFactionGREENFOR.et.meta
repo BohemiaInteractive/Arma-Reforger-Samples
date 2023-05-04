@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2EB4E98CC997C303}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/SampleFactionGREENFOR/E_ArsenalBox_SampleFactionGREENFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

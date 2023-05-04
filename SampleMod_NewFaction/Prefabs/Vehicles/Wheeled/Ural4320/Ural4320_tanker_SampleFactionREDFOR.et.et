@@ -1,3 +1,8 @@
 Vehicle : "{4C81D7ED8F8C0D87}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_tanker.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+ }
 }

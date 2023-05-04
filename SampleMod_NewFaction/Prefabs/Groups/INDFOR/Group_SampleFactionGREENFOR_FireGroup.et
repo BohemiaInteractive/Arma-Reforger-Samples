@@ -1,5 +1,5 @@
 SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENFOR_Base.et" {
- ID "1"
+ ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
@@ -28,7 +28,6 @@ SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENF
      m_Flags 3
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -36,6 +35,6 @@ SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENF
   }
  }
  m_aUnitPrefabSlots {
-  "{AA694899565822AE}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_SL.et" "{95F6679C0A93945E}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_MG.et" "{1F49D0471D559EE1}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_AT.et" "{85DCA6D5396281FA}Prefabs/Characters/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.et"
+  "{AA694899565822AE}Prefabs/Characters/Factions/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_SL.et" "{95F6679C0A93945E}Prefabs/Characters/Factions/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_MG.et" "{1F49D0471D559EE1}Prefabs/Characters/Factions/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_AT.et" "{85DCA6D5396281FA}Prefabs/Characters/Factions/INDFOR/SampleFactionGREENFOR/Character_SampleFactionGREENFOR_Medic.et"
  }
 }

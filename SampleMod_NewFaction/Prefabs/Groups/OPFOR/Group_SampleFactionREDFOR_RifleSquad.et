@@ -14,7 +14,7 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
       m_Value 6
      }
     }
-    m_MilitarySymbol SCR_MilitarySymbol {
+    m_MilitarySymbol SCR_MilitarySymbol "{5D32E354CFD297DA}" {
      m_Identity OPFOR
      m_Dimension LAND
      m_Icons 0
@@ -31,7 +31,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 3
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -41,7 +40,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -51,7 +49,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 3 0 -3
      m_vAngles 0 0 0
     }
@@ -61,7 +58,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition -3 0 -3
      m_vAngles 0 0 0
     }
@@ -71,7 +67,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 6 0 -6
      m_vAngles 0 0 0
     }
@@ -81,7 +76,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition -6 0 -6
      m_vAngles 0 0 0
     }
@@ -91,7 +85,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
      m_Flags 0
      m_Shape PREFAB
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 9 0 -9
      m_vAngles 0 0 0
     }

@@ -1,0 +1,82 @@
+GenericEntity : "{54986385A6AF77B2}Prefabs/Systems/Arsenal/ArsenalBoxes/ArsenalBox_Base.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  MeshObject "{56F2C6D1431AD85A}" {
+   Object "{5172A6E151032216}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V1.xob"
+  }
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+ }
+ {
+  GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_01.et" {
+   ID "5D32A9A4DC2706B0"
+   components {
+    Hierarchy "{5D32A9A4DC270670}" {
+     Enabled 1
+    }
+   }
+   coords -0.349 0 0.866
+   angleY -45.82
+  }
+  GenericEntity : "{1EC801E208CB16C6}Prefabs/Vegetation/Cuttings/Rubus_idaeus_small_01.et" {
+   ID "5D32A9A4DC2706BC"
+   coords 0.811 0 -1.143
+   angleX 7.117
+   angleY 97.794
+   angleZ -1.702
+  }
+  GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_small_01.et" {
+   ID "5D32A9A4DC2706B9"
+   coords -1.461 0 -0.781
+   angleX 30.705
+   angleY -127.202
+   angleZ -21.186
+  }
+  GenericEntity : "{620E2BD5E8C26FAB}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V6_covered.et" {
+   ID "5D32A9A4DC2706A5"
+   coords -1.132 0 -0.057
+   angleY 89.179
+  }
+  GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
+   ID "5D32A9A4DC2706A2"
+   coords -0.856 0 -0.923
+   angleX 11.144
+   angleY -118.209
+  }
+  GenericEntity : "{9DD476816836FFED}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V5_covered.et" {
+   ID "5D32A9A4DC2706AF"
+   coords 0.036 0 -1.064
+   angleY 177.707
+  }
+  $grp GenericEntity : "{A04DC55EB7C367F8}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_US_02.et" {
+   {
+    ID "5D32A9A4DC2706AA"
+    components {
+     Hierarchy "{5D32A9A4DC270668}" {
+      Enabled 1
+     }
+    }
+    coords 1.104 0 0.282
+    angleY 39.419
+   }
+   {
+    ID "5D32A9A4DC2706AB"
+    components {
+     Hierarchy "{5D32A9A4DC270663}" {
+      Enabled 1
+     }
+    }
+    coords 0.533 0 0.922
+    angleY -19.083
+   }
+  }
+  GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_01.et" {
+   ID "5D32A9A4DC27065D"
+   coords 0.438 0 0.315
+   angleY 54.557
+  }
+ }
+}

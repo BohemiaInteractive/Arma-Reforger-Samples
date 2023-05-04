@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{700680D741E8CED7}PrefabsEditable/Auto/Systems/Arsenal/ArsenalBoxes/SampleFactionBLUFOR/E_ArsenalBox_SampleFactionBLUFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

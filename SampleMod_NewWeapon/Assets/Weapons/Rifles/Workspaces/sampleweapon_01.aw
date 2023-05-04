@@ -18,34 +18,15 @@ BaseSource {
    Enabled 1
    Model "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
    Bone "slot_magazine"
-   Parent "{CEF64051BB82B9EB}Assets/Weapons/Rifles/SampleWeapon_01/SampleWeapon_01.xob"
+   Parent "{588902AFC784CD97}"
   }
   AnimSrcWorkspaceChildPreviewModel "{588902AFC784CC1E}" {
    Enabled 1
    Model "{CEF64051BB82B9EB}Assets/Weapons/Rifles/SampleWeapon_01/SampleWeapon_01.xob"
    Bone "RightHandProp"
-   Parent "{7297BDBDE223627F}Assets/Characters/Animation/AnimTestChar_USSR_01.xob"
-  }
-  AnimSrcWorkspaceChildPreviewModel "{5AE0EA91FC2D043F}" {
-   Enabled 0
-   Model "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
-   Bone "LeftHandProp"
-   Parent "{7297BDBDE223627F}Assets/Characters/Animation/AnimTestChar_USSR_01.xob"
-  }
-  AnimSrcWorkspaceChildPreviewModel "{5CF890FA6A5E73AC}" {
-   Enabled 1
-   Model "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
-   Bone "slot_magazine"
-   Parent "{588902AFC784CD97}"
-   ChildBone "snap_weapon"
-  }
-  AnimSrcWorkspaceChildPreviewModel "{5D16C40AFCF17482}" {
-   Enabled 1
-   Model "{CEF64051BB82B9EB}Assets/Weapons/Rifles/SampleWeapon_01/SampleWeapon_01.xob"
-   Bone "RightHandProp"
    Parent "{563EF338E13AB791}"
   }
-  AnimSrcWorkspaceChildPreviewModel "{5D16C40AFA8D7686}" {
+  AnimSrcWorkspaceChildPreviewModel "{5AE0EA91FC2D043F}" {
    Enabled 1
    Model "{AF09C182ADFE3F26}Assets/Weapons/Magazines/SampleWeapon_01/Magazine_65x39c_SampleWeapon_01_30rnd.xob"
    Bone "LeftHandProp"

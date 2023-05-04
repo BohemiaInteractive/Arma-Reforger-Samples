@@ -1,5 +1,5 @@
 SCR_AIGroup : "{9D20C53ED84D6961}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR_Base.et" {
- ID "1"
+ ID "0000000000000001"
  components {
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
@@ -28,7 +28,6 @@ SCR_AIGroup : "{9D20C53ED84D6961}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR
      m_Flags 3
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }

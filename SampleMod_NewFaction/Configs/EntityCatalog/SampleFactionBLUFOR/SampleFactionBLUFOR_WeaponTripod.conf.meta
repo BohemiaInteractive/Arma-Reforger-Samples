@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B4CB5A7F6306CD4B}Configs/EntityCatalog/SampleFactionBLUFOR/SampleFactionBLUFOR_WeaponTripod.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

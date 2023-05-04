@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{082927EC4785A901}Prefabs/Systems/Arsenal/ArsenalBoxes/USSR/ArsenalBox_SampleFactionREDFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

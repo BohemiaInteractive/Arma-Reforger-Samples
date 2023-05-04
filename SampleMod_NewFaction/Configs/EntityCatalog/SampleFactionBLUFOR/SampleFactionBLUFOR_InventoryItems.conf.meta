@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B8A10D1A2E7F91DC}Configs/EntityCatalog/SampleFactionBLUFOR/SampleFactionBLUFOR_InventoryItems.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

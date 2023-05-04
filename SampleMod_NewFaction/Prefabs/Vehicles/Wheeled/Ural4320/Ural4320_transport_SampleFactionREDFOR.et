@@ -1,3 +1,8 @@
 Vehicle : "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+ }
 }

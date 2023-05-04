@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{576D8FB5D80A6FAC}Configs/EntityCatalog/SampleFactionBLUFOR/SampleFactionBLUFOR_Characters.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

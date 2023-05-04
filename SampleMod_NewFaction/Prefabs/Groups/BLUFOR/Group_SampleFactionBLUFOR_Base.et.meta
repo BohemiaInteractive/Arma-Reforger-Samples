@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9D20C53ED84D6961}Prefabs/Groups/OPFOR/Group_SampleFactionBLUFOR_Base.et"
+ Name "{9D20C53ED84D6961}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
   }
  }
 }

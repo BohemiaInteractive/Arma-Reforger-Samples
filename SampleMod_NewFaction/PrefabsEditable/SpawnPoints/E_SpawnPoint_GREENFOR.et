@@ -6,7 +6,7 @@ SCR_SpawnPoint : "{987991DCED3DC197}PrefabsEditable/SpawnPoints/E_SpawnPoint.et"
     m_Image "{634887D6ACE69536}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_USSR.edds"
     m_sFaction "SampleFactionGREENFOR"
     m_aAuthoredLabels + {
-     30 16
+     30 16 1001
     }
    }
   }
