@@ -2,10 +2,14 @@ This folder contains example helmet implemented in game and few files which are 
 # Content
 
 ## Sample helmet
+
  ![](documentation/example_headgear.jpg)
+ 
 [Headgear_Example.fbx](https://github.com/BohemiaInteractive/Arma-Reforger-Samples/blob/main/SampleMod_NewCharacter/Assets/Characters/SampleCharacter/Headgear_Example.fbx "Headgear_Example.fbx")
-[Headgear_Example_item.fbx](https://github.com/BohemiaInteractive/Arma-Reforger-Samples/blob/main/SampleMod_NewCharacter/Assets/Characters/SampleCharacter/Headgear_Example_item.fbx "Headgear_Example_item.fbx") 
+
 ![](documentation/example_headgear_item.jpg)
+
+[Headgear_Example_item.fbx](https://github.com/BohemiaInteractive/Arma-Reforger-Samples/blob/main/SampleMod_NewCharacter/Assets/Characters/SampleCharacter/Headgear_Example_item.fbx "Headgear_Example_item.fbx") 
 
 ## Character template
 [Character_Template.fbx](https://github.com/BohemiaInteractive/Arma-Reforger-Samples/blob/main/SampleMod_NewCharacter/Assets/Characters/SampleCharacter/Character_Template.fbx "Character_Template.fbx")  contains mesh of the [Basebody_Male_01.xob](https://enfusionengine.com/api/redirect?to=enfusion://ResourceManager/~ArmaReforger:Assets/Characters/Basebody/Basebody_Male_01.xob) , which is in principle in-game base character mesh without any gear whatosover. This mesh is without the head, since factions are randomizing which head meshes are assigned.
