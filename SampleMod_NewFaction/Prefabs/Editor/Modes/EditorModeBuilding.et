@@ -1,0 +1,12 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "518A34314C7CB324"
+ components {
+  SCR_CampaignBuildingPlacingEditorComponent "{5A0ACCCCDF0C0F65}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{5D6F04E817BF4EA5}" : "{55FDC76A634DDD70}Configs/Campaign/Building_Conflict_SampleNewFaction.conf" {
+     m_sAddon "SampleMod_NewFaction"
+    }
+   }
+  }
+ }
+}

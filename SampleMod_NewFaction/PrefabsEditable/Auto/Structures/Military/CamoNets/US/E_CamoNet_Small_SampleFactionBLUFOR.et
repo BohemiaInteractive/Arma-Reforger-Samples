@@ -1,0 +1,16 @@
+GenericEntity : "{D0315073F7B22594}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Small_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RigidBody "{52F0B4B05F6D4CE2}" {
+   Static 1
+  }
+  SCR_EditableEntityComponent "{58EEFD4A7EAC764C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAuthoredLabels {
+     15
+    }
+   }
+  }
+ }
+}

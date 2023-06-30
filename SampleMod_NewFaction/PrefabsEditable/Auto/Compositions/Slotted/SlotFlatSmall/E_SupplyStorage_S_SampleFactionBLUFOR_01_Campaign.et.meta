@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{551ECE9F42A6CFB8}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyStorage_S_SampleFactionBLUFOR_01_Campaign.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

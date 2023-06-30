@@ -5,7 +5,7 @@ $animation "" {
  $node "w_bolt" {
   $keys t q s {
    $frame 0 36 {
-    #t -0 0.0649087 -0.1659564
+    #t 0 0.0649087 -0.1659564
    }
   }
   $node "w_charging_handle" {
@@ -52,11 +52,11 @@ $animation "" {
   }
  }
  $events {
-  #event 0 "BlendIn" "" -1 0 ""
-  #event 0 "Weapon_EnableFire" "" -1 0 ""
-  #event 17 "Sound" "SOUND_RELOAD" 3 0 "" 1
-  #event 18 "Weapon_Rack_Bolt" "" -1 0 ""
-  #event 27 "Sound" "SOUND_RELOAD" 4 0 "" 1
+  #event 0 "Weapon_EnableFire" "" -1 0 "" 0
+  #event 0 "BlendIn" "" -1 0 "" 0
+  #event 17 "Sound" "SOUND_RELOAD_BOLT_PULL" 3 0 "" 1
+  #event 18 "Weapon_Rack_Bolt" "" -1 0 "" 0
+  #event 27 "Sound" "SOUND_RELOAD_BOLT_RELEASE" 4 0 "" 1
  }
  $custProps {
   #custProp "profile" "740_Rifle_Bolt_Rack"

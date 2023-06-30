@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EC0DF17C66E316C5}Prefabs/MP/Campaign/Bases/Campaign_ArmoryDepot_BLUFOR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

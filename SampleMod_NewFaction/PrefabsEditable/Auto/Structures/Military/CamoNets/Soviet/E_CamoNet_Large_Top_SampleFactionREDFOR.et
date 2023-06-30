@@ -1,0 +1,8 @@
+GenericEntity : "{5D2D5DA8DE6E6F5D}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Large_Top_Soviet.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RigidBody "{52F0B4B05F6D4CE2}" {
+   Static 1
+  }
+ }
+}

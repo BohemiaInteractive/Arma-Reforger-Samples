@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FEC1AB6ACC6BA5DF}Configs/Workbench/BatchPrefab/SetFactionBLUFOR.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

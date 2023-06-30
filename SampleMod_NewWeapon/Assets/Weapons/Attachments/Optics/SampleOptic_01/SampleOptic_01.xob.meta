@@ -9,13 +9,13 @@ MetaFileClass {
      SourceMaterial "msbs_02_co"
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
-    MaterialAssignClass "{584EC1101EB4CF65}" {
-     SourceMaterial "Optic_PSO1_pip"
-     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
+    MaterialAssignClass "{5DBA864E2ED0E81D}" {
+     SourceMaterial "Optic_lensglass"
+     AssignedMaterial "{39C2A3A521FE9A1B}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_Lensglass.emat"
     }
-    MaterialAssignClass "{584EC1101EB4CF5D}" {
-     SourceMaterial "Optic_PSO1_lensglass"
-     AssignedMaterial "{EBDDC6F376995E88}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_lensglass.emat"
+    MaterialAssignClass "{5DBA864E2ED0E821}" {
+     SourceMaterial "Optic_pip"
+     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
     }
    }
    MeshParams {
@@ -31,6 +31,14 @@ MetaFileClass {
      LayerPreset "Weapon"
      SurfaceProperties {
       "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FireGeo {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
      }
      Mass 0
      Margin 0

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2A4AAC61C7020F9B}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Checkpoint_L_US_01_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -420,7 +420,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   }
   BaseVehicleNodeComponent "{20FB66C5B2237133}" {
    components {
-    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+    SCR_CarControllerComponent_SA "{20FB66C5BC92275B}" {
      ThrottleCurve {
       4000 0.8 5000 0.5 7000 0
      }
@@ -684,29 +684,22 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   }
   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_sDestructionParticle "{0A70EB725D13F963}Particles/Vehicle/Vehicle_explosion_M151A2_01.ptc"
+    }
     ScriptedHitZone Engine_01 {
      ColliderNames {
       "UCX_FG_Engine"
      }
     }
-    ScriptedHitZone FuelTank_01 {
+    ScriptedHitZone Gearbox_01 {
      ColliderNames {
-      "UCX_FG_FuelTank"
-     }
-    }
-    ScriptedHitZone Battery_01 {
-     ColliderNames {
-      "UCX_FG_Battery"
+      "UCX_FG_Gearbox"
      }
     }
     SCR_WheelHitZone Wheel_L01 {
      ColliderNames {
       "UTM_FG_Wheel_L01"
-     }
-    }
-    ScriptedHitZone Gearbox_01 {
-     ColliderNames {
-      "UCX_FG_Gearbox"
      }
     }
     SCR_WheelHitZone Wheel_L02 {
@@ -722,6 +715,16 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     SCR_WheelHitZone Wheel_R02 {
      ColliderNames {
       "UTM_FG_Wheel_R02"
+     }
+    }
+    ScriptedHitZone FuelTank_01 {
+     ColliderNames {
+      "UCX_FG_FuelTank"
+     }
+    }
+    ScriptedHitZone Battery_01 {
+     ColliderNames {
+      "UCX_FG_Battery"
      }
     }
     SCR_LightHitZone Light_FL : "{32A3DB66843965D3}Prefabs/Vehicles/Core/Configs/HitZones/Light.conf" {
@@ -747,7 +750,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
    }
    m_fVehicleDestroyDamage 6364.39
   }
-  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     SolverType V1
     SolverUpdateRate 275

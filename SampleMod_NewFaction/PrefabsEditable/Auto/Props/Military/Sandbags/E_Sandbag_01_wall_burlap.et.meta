@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CA22B2C20475CFC6}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_burlap_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{E80B669168285FAD}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadSmall/E_Checkpoint_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5A6A9DB7B66D448F}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

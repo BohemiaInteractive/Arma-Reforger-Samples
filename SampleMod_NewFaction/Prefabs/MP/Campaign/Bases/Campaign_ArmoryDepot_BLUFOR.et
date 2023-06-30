@@ -1,0 +1,301 @@
+GenericEntity {
+ ID "5D6E9D2EEE76E198"
+ components {
+  Hierarchy "{5D6E9D2EEE76DFBF}" {
+  }
+  RplComponent "{5D6E9D2EEE76DFC5}" {
+  }
+ }
+ coords 4439.308 5.814 11198.646
+ angleY -89.478
+ {
+  GenericEntity : "{6B961D615D79D6B6}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/US/EquipmentBoxStack_US_01_V3.et" {
+   ID "5D6E9D2EEE76E197"
+   components {
+    Hierarchy "{5D6E9D2EEE76DFCA}" {
+    }
+    SCR_CampaignArmoryStorageComponent "{5D6E9D2EEE76DFCC}" {
+     Attributes SCR_ItemAttributeCollection "{5D6E9D2EEE76DFD0}" {
+      ItemDisplayName UIInfo "{5D6E9D2EEE76DFD2}" {
+       Name "#AR-Campaign_Equipment_Storage_Name"
+       Description "#AR-Campaign_Equipment_Storage_Description"
+      }
+      ItemPhysAttributes ItemPhysicalAttributes "{5D6E9D2EEE76DFD4}" {
+       Weight 10000
+      }
+      CustomAttributes {
+       PreviewRenderAttributes "{5D6E9D2EEE76DFD7}" {
+        CameraOrbitAngles 330 30 0
+        CameraDistanceToItem 2.5
+        PreviewModel "{BF6677F0B846FCF6}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V3.xob"
+       }
+      }
+      m_Size SLOT_2x2
+      m_SlotType SLOT_LOADOUT_STORAGE
+     }
+     Priority 1000
+     m_eSupportedItemTypes 228480
+     m_eArsenalAmmunitionMode DEFAULT
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     Enabled 1
+     ActionContexts {
+      UserActionContext "{5476B36C47B0461A}" {
+       Position PointInfo "{5D6E9D2EEE76DFDF}" {
+        Offset 0 0.7971 0
+       }
+       Radius 1.5
+      }
+     }
+     additionalActions {
+      SCR_OpenStorageAction "{5476DE57AA50402F}" {
+       UIInfo UIInfo "{52E6EC759A11C684}" {
+        Name "#AR-Inventory_OpenEquipmentBox"
+       }
+      }
+     }
+    }
+    RplComponent "{5476B36C54387F41}" {
+     Enabled 1
+    }
+   }
+   coords 9.396 -0.014 -0.702
+   angleY 90
+  }
+  $grp StaticModelEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+   {
+    ID "5D6E9D2EEE76DFAE"
+    coords 9.502 -0.014 0.958
+    angleY -90
+   }
+   {
+    ID "5D6E9D2EEE76E193"
+    coords 9.502 -0.014 2.278
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
+   {
+    ID "5D6E9D2EEE76DFAF"
+    components {
+     Hierarchy "{5D6E9D2EEE76DFE8}" {
+     }
+     SCR_CampaignArmoryStorageComponent "{5D6E9D2EEE76DFE9}" {
+      Attributes SCR_ItemAttributeCollection "{5D6E9D2EEE773501}" {
+       ItemDisplayName UIInfo "{5D6E9D2EEE773503}" {
+        Name "#AR-Campaign_Ammo_Storage_Name"
+        Description "#AR-Campaign_Ammo_Storage_Description"
+       }
+       ItemPhysAttributes ItemPhysicalAttributes "{5D6E9D2EEE773504}" {
+        Weight 10000
+        SizeSetupStrategy Manual
+        ItemVolume 100
+       }
+       CustomAttributes {
+        PreviewRenderAttributes "{5D6E9D2EEE773505}" {
+         CameraOrbitAngles 330 30 0
+         CameraDistanceToItem 2.5
+         PreviewModel "{D8120C87FF4216B2}Assets/Props/Military/Camps/PalletAmmo_01/PalletAmmo_01_US.xob"
+        }
+       }
+       m_Size SLOT_2x2
+       m_SlotType SLOT_LOADOUT_STORAGE
+      }
+      Priority 1000
+      m_eSupportedItemTypes 310
+      m_eArsenalAmmunitionMode AMMUNITION
+     }
+     ActionsManagerComponent "{5D6E9D2EEE773507}" {
+      ActionContexts {
+       UserActionContext "{5D6E9D2EEE773519}" {
+        ContextName "default"
+        Position PointInfo "{5D6E9D2EEE775DFB}" {
+         Offset 0 0.5 0
+        }
+        Radius 1.5
+       }
+      }
+      additionalActions {
+       SCR_OpenStorageAction "{5D6E9D2EEE775DF9}" {
+        ParentContextList {
+         "default"
+        }
+        UIInfo UIInfo "{5D6E9D2EEE775DFE}" {
+         Name "#AR-Inventory_OpenAmmoBox"
+        }
+       }
+      }
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 1
+     }
+    }
+    coords 1.03 -0.014 -0.84
+   }
+   {
+    ID "5D6E9D2EEE76DFB0"
+    components {
+     Hierarchy "{5D6E9D2EEE775DFC}" {
+     }
+     SCR_CampaignArmoryStorageComponent "{5D6E9D2EEE775DFD}" {
+      Attributes SCR_ItemAttributeCollection "{5D6E9D2EEE775DF2}" {
+       ItemDisplayName UIInfo "{5D6E9D2EEE775DF3}" {
+        Name "#AR-Campaign_Ammo_Storage_Name"
+        Description "#AR-Campaign_Ammo_Storage_Description"
+       }
+       ItemPhysAttributes ItemPhysicalAttributes "{5D6E9D2EEE775DF0}" {
+        Weight 10000
+        SizeSetupStrategy Manual
+        ItemVolume 10000
+       }
+       CustomAttributes {
+        PreviewRenderAttributes "{5D6E9D2EEE775DF1}" {
+         CameraOrbitAngles 330 30 0
+         CameraDistanceToItem 2.5
+         PreviewModel "{D8120C87FF4216B2}Assets/Props/Military/Camps/PalletAmmo_01/PalletAmmo_01_US.xob"
+        }
+       }
+       m_Size SLOT_2x2
+       m_SlotType SLOT_LOADOUT_STORAGE
+      }
+      Priority 1000
+      m_eSupportedItemTypes 310
+      m_eArsenalAmmunitionMode AMMUNITION
+     }
+     ActionsManagerComponent "{5D6E9D2EEE775DF6}" {
+      ActionContexts {
+       UserActionContext "{5D6E9D2EEE775DF7}" {
+        ContextName "default"
+        Position PointInfo "{5D6E9D2EEE775DF4}" {
+         Offset 0 0.5 0
+        }
+        Radius 1.5
+       }
+      }
+      additionalActions {
+       SCR_OpenStorageAction "{5D6E9D2EEE775DF5}" {
+        ParentContextList {
+         "default"
+        }
+        UIInfo UIInfo "{5D6E9D2EEE775C0A}" {
+         Name "#AR-Inventory_OpenAmmoBox"
+        }
+       }
+      }
+     }
+     RplComponent "{5624A88DC2D9928D}" {
+      Enabled 1
+     }
+    }
+    coords 1.03 -0.014 1.605
+   }
+  }
+  GenericEntity : "{B3BCE4B6920ED5C0}Prefabs/Structures/Signs/Military/Sign_AmmoStorage_US_01.et" {
+   ID "5D6E9D2EEE76DFB3"
+   coords 4.7 -0.15 -1.5
+   angleY 180
+  }
+  GenericEntity : "{B8BA01645C9D3476}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Explosives_01_US.et" {
+   ID "5D6E9D2EEE76DFB6"
+   components {
+    Hierarchy "{5D6E9D2EEE775C09}" {
+    }
+    SCR_CampaignArmoryStorageComponent "{5D6E9D2EEE775C0E}" {
+     Attributes SCR_ItemAttributeCollection "{5D6E9D2EEE779C35}" {
+      ItemDisplayName UIInfo "{5D6E9D2EEE779C34}" {
+       Name "#AR-Campaign_Equipment_Storage_Name"
+       Description "#AR-Campaign_Equipment_Storage_Description"
+      }
+      ItemPhysAttributes ItemPhysicalAttributes "{5D6E9D2EEE779C37}" {
+       Weight 10000
+      }
+      CustomAttributes {
+       PreviewRenderAttributes "{5D6E9D2EEE779C36}" {
+        CameraOrbitAngles 330 30 0
+        CameraDistanceToItem 2.5
+        PreviewModel "{BF6677F0B846FCF6}Assets/Props/Military/AmmoBox/EquipmentBoxStack/EquipmentBoxStack_01_V3.xob"
+       }
+      }
+      m_Size SLOT_2x2
+      m_SlotType SLOT_LOADOUT_STORAGE
+     }
+     Priority 1000
+     m_eSupportedItemTypes 520
+     m_eArsenalAmmunitionMode DEFAULT
+    }
+    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     ActionContexts {
+      UserActionContext "{5476B36C47B0461A}" {
+       Position PointInfo "{5476B36C45ADDA89}" {
+        Offset 0 0.1847 0
+       }
+      }
+     }
+     additionalActions {
+      SCR_OpenStorageAction "{5476DE57AA50402F}" {
+       UIInfo UIInfo "{52E6EC759A11C684}" {
+        Name "#AR-Inventory_OpenExplosivesBox"
+       }
+      }
+     }
+    }
+   }
+   coords 9.485 0.886 2.271
+   angleY -90
+  }
+  GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
+   ID "5D6E9D2EEE76DFB7"
+   components {
+    Hierarchy "{5D6E9D2EEE779C3E}" {
+    }
+    SCR_CampaignArmoryStorageComponent "{5D6E9D2EEE77CE13}" {
+     Attributes SCR_ItemAttributeCollection "{5D6E9D2EEE77CE0C}" {
+      ItemDisplayName UIInfo "{5D6E9D2EEE77CE0D}" {
+       Name "#AR-Campaign_Medical_Storage_Name"
+       Description "#AR-Campaign_Medical_Storage_Description"
+      }
+      ItemPhysAttributes ItemPhysicalAttributes "{5D6E9D2EEE77CE0E}" {
+       Weight 10000
+      }
+      CustomAttributes {
+       PreviewRenderAttributes "{5D6E9D2EEE77CE0F}" {
+        CameraOrbitAngles 330 30 0
+        CameraDistanceToItem 2
+        PreviewModel "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+       }
+      }
+      m_Size SLOT_2x2
+      m_SlotType SLOT_LOADOUT_STORAGE
+     }
+     Priority 1000
+     m_eSupportedItemTypes HEAL
+     m_eArsenalAmmunitionMode CONSUMABLE
+    }
+    SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{5476B36C403D4CC0}" {
+     ActionContexts {
+      UserActionContext "{5476B36C47B0461A}" {
+       Position PointInfo "{5476B36C45ADDA89}" {
+        Offset 0 0.2676 0
+       }
+      }
+     }
+     additionalActions {
+      SCR_OpenStorageAction "{5476DE57AA50402F}" {
+       UIInfo UIInfo "{52E6EC759A11C684}" {
+        Name "#AR-Inventory_OpenMedicalBox"
+       }
+      }
+     }
+    }
+   }
+   coords 9.524 0.882 0.944
+   angleY -90
+  }
+ }
+}

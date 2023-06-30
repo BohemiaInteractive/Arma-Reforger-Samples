@@ -1,0 +1,16 @@
+GenericEntity : "{36B86BBFA26ABBF8}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_US_01_Campaign.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5A5E741476C42B89}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

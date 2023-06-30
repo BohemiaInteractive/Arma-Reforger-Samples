@@ -41,13 +41,6 @@ GenericEntity : "{3CFE9B97C44C1671}Prefabs/Props/Military/Camps/PortableDesk_01_
  angleX 87.642
 }
 GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Ball.et" {
- components {
-  MagazineComponent "{CA6BE4D6B4DAFD69}" {
-   UIInfo MagazineUIInfo "{57126733AA401586}" {
-    m_eAmmoTypeFlags 15
-   }
-  }
- }
  coords 122.859 3.024 127.876
  angleX -0.094
  angleY -179.694
@@ -82,81 +75,6 @@ GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_Samp
  angleY -20.212
 }
 Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modded.et" {
- components {
-  FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     FuelType Diesel
-     MaxFuel 69
-    }
-    SCR_FuelNode "{5628CA85F51FEF87}" {
-     FuelType Diesel
-     MaxFuel 69
-    }
-   }
-  }
-  MeshObject "{51DAA09FEFBFC0E7}" {
-   Materials {
-    MaterialAssignClass "{5224B5F1923C76BB}" {
-     SourceMaterial "UAZ469_Body"
-     AssignedMaterial "{62B42B998E960AD7}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Modded.emat"
-    }
-   }
-  }
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#SampleMod-EditableEntity_UAZ469_Modded_Name"
-    m_Image "{B22FE30F1EAD4009}UI/Textures/EditorPreviews/Vehicles/Wheeled/UAZ469_Modded.edds"
-    m_sFaction "USSR"
-    m_aAutoLabels +{
-    }
-   }
-  }
-  SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
-   m_fFuelConsumption 145
-  }
-  SCR_MotorExhaustEffectGeneralComponent "{2122A74B00AC1C3A}" {
-   ParticleEffect "{804290CEC6889C3F}Particles/Vehicle/Vehicle_smoke_car_exhaust_normal_modded.ptc"
-   EffectPosition EntitySlotInfo "{2122A7485A2AD09C}" {
-    Offset 0 0 0
-   }
-  }
-  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
-   m_fHeight 2.4
-  }
-  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
-   m_fVehicleDestroyDamage 8582.14
-  }
-  VehicleWheeledSimulation "{731B26FCA2F19855}" {
-   Simulation Wheeled "{4D8B26DEA5F25978}" {
-    Engine Engine Engine {
-     MaxPower 255
-     MaxTorque 172
-    }
-    Axles {
-     Axle "{4D8B26DF957A8E1C}" {
-      Suspension Suspension "{4D8B26DFF8859A7B}" {
-       MaxSteeringAngle 48
-      }
-     }
-    }
-   }
-  }
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo Turret {
-     PivotID "v_root"
-     Offset 0 1.0213 0
-     Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
-     RegisterActions 1
-     RegisterDamage 1
-     RegisterControllers 1
-     RegisterWeapons 1
-     RegisterCompartments 1
-    }
-   }
-  }
- }
  coords 119.928 1.972 119.37
  angleY 137.738
 }

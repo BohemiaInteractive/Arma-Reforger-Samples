@@ -141,6 +141,22 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "SampleFactionREDFOR"
   }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{ED9943EF82ECC5B8}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/Red/UAZ469_door_L01_Red.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{EE19CB5E0DE5BE28}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/Red/UAZ469_door_R01_Red.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{5F4E0104DD4EF620}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/Red/UAZ469_door_L02_Red.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{5CCE89B552478DB0}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/Red/UAZ469_door_R02_Red.et"
+    }
+   }
+  }
  }
  coords 2863.72 71.745 1667.009
 }

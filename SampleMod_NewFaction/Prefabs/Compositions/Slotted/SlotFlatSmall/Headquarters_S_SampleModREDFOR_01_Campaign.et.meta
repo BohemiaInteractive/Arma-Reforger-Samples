@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{995091B72ECC4B92}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_SampleModREDFOR_01_Campaign.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{41B78BCA4CB6605A}PrefabsEditable/Auto/Props/Military/Fortification/E_CzechHedgehog_01_painted_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

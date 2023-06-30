@@ -9,10 +9,10 @@ $animation "" {
   }
  }
  $events {
-  #event 1 "Sound" "SOUND_RELOAD" 2 0 "" 1
-  #event 9 "Sound" "SOUND_RELOAD" 5 0 "" 1
-  #event 11 "Sound" "SOUND_RELOAD" 0 0 "" 1
-  #event 35 "BlendOut"
+  #event 1 "Sound" "SOUND_RELOAD_MAG_HANDLING" 2 0 "" 1
+  #event 9 "Sound" "SOUND_RELOAD_MAG_GRAB" 5 0 "" 1
+  #event 11 "Sound" "SOUND_RELOAD_MAG_REMOVE" 0 0 "" 1
+  #event 35 "BlendOut" "" -1 0 "" 0
  }
  $custProps {
   #custProp "profile" "999_Empty"

@@ -45,7 +45,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Enabled 1
      AttachmentSlot InventoryStorageSlot ironsight_front {
       PivotID "slot_ironsight_front"
-      ChildPivotID "snap_ironsight_front"
+      ChildPivotID "snap_weapon"
       Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
       Name "Front Ironsight"
      }
@@ -56,7 +56,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Enabled 0
      AttachmentSlot InventoryStorageSlot underbarrel {
       PivotID "slot_underbarrel"
-      ChildPivotID "snap_underbarrel"
+      ChildPivotID "snap_weapon"
       Prefab "{69F85A8F7C54F461}Prefabs/Weapons/Attachments/Underbarrel/Grip_SampleGrip_01.et"
      }
      AttachmentType AttachmentUnderbarrelRIS1913 "{5D18A8C5495104D4}" {
@@ -66,7 +66,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Enabled 1
      AttachmentSlot InventoryStorageSlot ironsight {
       PivotID "slot_ironsight_rear"
-      ChildPivotID "snap_ironsight_rear"
+      ChildPivotID "snap_weapon"
       Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
       Name "Rear Ironsight"
      }
@@ -78,7 +78,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot optic {
       PivotID "slot_optics"
       Offset 0 0 0
-      ChildPivotID "snap_optics"
+      ChildPivotID "snap_weapon"
       Prefab ""
       Name "Optic"
      }
@@ -89,7 +89,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     AttachmentSlotComponent "{5D168E76CE7C176C}" {
      AttachmentSlot InventoryStorageSlot RIS_Left {
       PivotID "slot_ris_left"
-      ChildPivotID "snap_attachment"
+      ChildPivotID "snap_weapon"
       Name "RIS Left"
      }
      AttachmentType AttachmentRIS1913 "{5D168E76C124A5D0}" {
@@ -99,7 +99,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     AttachmentSlotComponent "{5D168E76F4E59294}" {
      AttachmentSlot InventoryStorageSlot RIS_Right {
       PivotID "slot_ris_right"
-      ChildPivotID "snap_attachment"
+      ChildPivotID "snap_weapon"
       Name "RIS Right"
      }
      AttachmentType AttachmentRIS1913 "{5D168E76F211B286}" {

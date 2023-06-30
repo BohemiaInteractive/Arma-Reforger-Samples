@@ -1,0 +1,7 @@
+GenericEntity {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5D6ED563AF6489DC}" {
+  }
+ }
+}

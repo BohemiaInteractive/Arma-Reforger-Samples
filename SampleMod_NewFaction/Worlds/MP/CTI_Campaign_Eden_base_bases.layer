@@ -20,6 +20,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 52
   m_iBaseID 6
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -16.772 0
+    angleX 7.479
+    angleY -88.002
+    angleZ 15.006
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -20.335 150
+    angleX 10.859
+    angleY -121.437
+    angleZ -7.584
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -4.114 -150
+    angleX -1.223
+    angleY -60.007
+    angleZ 0.328
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -0.048 0
+    angleX -6.188
+    angleY 90.582
+    angleZ -5.387
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -4.043 150
+    angleX -3.218
+    angleY 119.988
+    angleZ 0.208
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 1.476 -150
+    angleX 1.895
+    angleY 60.169
+    angleZ 5.089
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -19.27 -1.641 -18.058
    }
@@ -46,6 +88,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqWest 44
   m_iBaseID 7
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -16.798 0
+    angleX 7.093
+    angleY -88.9
+    angleZ 8.839
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -2.245 150.001
+    angleX -0.719
+    angleY -120.003
+    angleZ 0.246
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 259.999 3.552 -150
+    angleX -4.141
+    angleY -60.338
+    angleZ 4.674
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -168.901 0
+    angleX 8.705
+    angleY 85.333
+    angleZ 151.656
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 2.313 150
+    angleX 16.722
+    angleY 118.183
+    angleZ -6.293
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 47.198 -150.001
+    angleX -16.689
+    angleY 61.124
+    angleZ -3.908
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 0 -4.468 11.999
    }
@@ -94,7 +178,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
      angleY 87.995
     }
     {
-     coords -4.63 -4.346 5.795
+     coords -3.776 -4.346 5.973
      angleY -93.208
     }
    }
@@ -121,11 +205,11 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
     }
    }
    GenericEntity : "{7B4CD0B54AA169AA}Prefabs/Props/Military/Sandbags/Sandbag_01_long_base.et" {
-    coords -5.196 -4.417 8.196
+    coords -4.342 -4.417 8.374
     angleY 78.209
    }
    GenericEntity : "{86BA5E5CD528D5BC}Prefabs/Props/Military/Sandbags/Sandbag_01_end_plastic.et" {
-    coords -5.651 -4.359 5.692
+    coords -4.214 -4.359 5.896
     angleY -92.579
    }
    $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
@@ -154,15 +238,15 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
      angleY 88.518
     }
     {
-     coords 2.913 -4.209 5.589
+     coords 3.767 -4.209 5.767
      angleY 179.503
     }
     {
-     coords 0.093 -4.209 5.565
+     coords 0.946 -4.209 5.743
      angleY 179.503
     }
     {
-     coords -2.694 -4.209 5.539
+     coords -1.84 -4.209 5.717
      angleY 179.503
     }
    }
@@ -202,6 +286,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 44
   m_iBaseID 8
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -43.707 0
+    angleX 5.354
+    angleY -89.916
+    angleZ 0.899
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -39.52 150
+    angleX 0.855
+    angleY -120.085
+    angleZ -5.649
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -32.915 -150
+    angleX 5.25
+    angleY -59.528
+    angleZ 5.14
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -30.243 0
+    angleX 7.987
+    angleY 90.377
+    angleZ 2.71
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -31.034 150
+    angleX 3.99
+    angleY 120.017
+    angleZ 0.241
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -27.747 -150
+    angleX -62.257
+    angleY 34.729
+    angleZ -151.924
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -3.297 -0.084 17.79
    }
@@ -229,6 +355,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 46
   m_iBaseID 9
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 54.054 0
+    angleX -0.895
+    angleY -89.986
+    angleZ -0.895
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 44.017 150
+    angleX -6.91
+    angleY -120.488
+    angleZ 4.051
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 45.91 -150
+    angleX -3.543
+    angleY -59.937
+    angleZ -1.017
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -15.916 0
+    angleX 8.776
+    angleY 90.967
+    angleZ 6.316
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -15.916 150
+    angleX 20.816
+    angleY 121.261
+    angleZ 3.546
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -15.916 -150
+    angleX 1.454
+    angleY 60.11
+    angleZ 4.317
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -16.854 -0.677 9.449
    }
@@ -260,6 +428,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 54
   m_iBaseID 10
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 18.921 0
+    angleX 0.449
+    angleY -90.02
+    angleZ -2.49
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -120.754 150
+    angleX -0.945
+    angleY -119.997
+    angleZ -0.19
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -8.22 -150
+    angleX 12.943
+    angleY -63.368
+    angleZ -14.721
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -4.363 0
+    angleX -0.615
+    angleY 89.983
+    angleZ 1.601
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -20.329 150
+    angleX 5.628
+    angleY 119.333
+    angleZ -6.767
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -22.897 -150.001
+    angleX 9.174
+    angleY 60.87
+    angleZ 5.444
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 0.609 -0.864 19.825
    }
@@ -293,7 +503,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   angleY -10.699
   m_sBaseName "#AR-MapLocation_Durras"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
-  m_sMapLocationName "LocationDurras"
+  m_sMapLocationName "C_LocationDurras"
   m_sSlotNameHQ "Duras_HQ"
   m_sSlotNameSupplies "Duras_Supply"
   m_sSlotNameArmory "Duras_Armory"
@@ -304,6 +514,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 44
   m_iBaseID 11
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300.001 74.452 0
+    angleX -23.298
+    angleY -86.555
+    angleZ -8.653
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260.001 50.758 150
+    angleX -16.296
+    angleY -121.485
+    angleZ 5.278
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260.001 -96.553 -150
+    angleX -12.807
+    angleY -61.76
+    angleZ -172.107
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -299.999 36.495 0
+    angleX -14.012
+    angleY 90.915
+    angleZ -3.772
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 30.265 150
+    angleX -8.064
+    angleY 120.539
+    angleZ -3.836
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 43.507 -150
+    angleX -15.224
+    angleY 60.838
+    angleZ -3.19
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 11.914 0.189 7.198
    }
@@ -340,6 +592,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 40
   m_iBaseID 12
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -38.757 0
+    angleX 21.129
+    angleY -94.123
+    angleZ -11.31
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -18.241 150
+    angleX 4.319
+    angleY -120.814
+    angleZ -10.685
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -36.662 -150
+    angleX 3.779
+    angleY -59.99
+    angleZ 0.153
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300.001 -30.357 0
+    angleX 6.351
+    angleY 91.15
+    angleZ 10.287
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -8.579 150
+    angleX -1.463
+    angleY 118.042
+    angleZ 53.241
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -29.74 -150
+    angleX 7.017
+    angleY 59.848
+    angleZ -1.24
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 2.909 0.449 15.343
    }
@@ -375,6 +669,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 50
   m_iBaseID 13
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 20.951 0
+    angleX -4.428
+    angleY -89.584
+    angleZ -5.372
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 20.094 150
+    angleX -9.143
+    angleY -120.865
+    angleZ 5.425
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 21.242 -150
+    angleX -12.009
+    angleY -60.697
+    angleZ 3.347
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 3.591 0
+    angleX 1.788
+    angleY 89.944
+    angleZ -1.791
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 0.344 150
+    angleX -1.875
+    angleY 120.069
+    angleZ -2.118
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 0.47 -150
+    angleX 1.785
+    angleY 60.097
+    angleZ 3.1
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -4.108 0.59 -19.557
    }
@@ -410,6 +746,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 42
   m_iBaseID 14
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300.001 2.542 0
+    angleX 3.677
+    angleY -90.017
+    angleZ -0.258
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260.001 3.013 150
+    angleX 1.793
+    angleY -120.063
+    angleZ -1.997
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260.001 1.703 -150
+    angleX 2.811
+    angleY -60.016
+    angleZ -0.32
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -299.999 -34.986 0
+    angleX 2.647
+    angleY 90.524
+    angleZ 11.211
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 9.084 150
+    angleX -7.417
+    angleY 117.84
+    angleZ 16.287
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -31.093 -150
+    angleX -20.49
+    angleY 75.087
+    angleZ -37.6
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 0.001 -1.819 12
    }
@@ -445,6 +823,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqWest 44
   m_iBaseID 15
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 8.251 0
+    angleX -5.298
+    angleY -89.582
+    angleZ -4.517
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -15.102 150
+    angleX 4.844
+    angleY -119.263
+    angleZ 8.655
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 29.443 -150
+    angleX -2.407
+    angleY -60.283
+    angleZ 6.708
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 6.422 0
+    angleX -5.734
+    angleY 90.171
+    angleZ -1.714
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -4.485 150
+    angleX -5.943
+    angleY 119.928
+    angleZ 0.697
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 8.992 -150
+    angleX -7.967
+    angleY 60.364
+    angleZ -2.624
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -15.726 -3.354 9.593
    }
@@ -481,6 +901,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 40
   m_iBaseID 16
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 18.845 0
+    angleX -2.436
+    angleY -89.617
+    angleZ -8.942
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 30.366 149.999
+    angleX -6.051
+    angleY -119.813
+    angleZ -1.775
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 4.469 -150
+    angleX 6.062
+    angleY -60.715
+    angleZ -6.738
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -6.927 0
+    angleY 90
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 -11.831 149.999
+    angleX -2.641
+    angleY 119.307
+    angleZ 14.719
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 -7.939 -150
+    angleX -1.568
+    angleY 59.976
+    angleZ 0.863
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -0.002 -0.495 16.425
    }
@@ -517,6 +977,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 54
   m_iBaseID 17
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 0.597 -0.001
+    angleX -0.817
+    angleY -90.014
+    angleZ 0.967
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 9.673 149.999
+    angleX -5.194
+    angleY -120.032
+    angleZ 0.349
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260.001 -6.454 -150.001
+    angleX 1.142
+    angleY -60.048
+    angleZ -2.429
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -6.449 -0.001
+    angleX -0.966
+    angleY 90.014
+    angleZ -0.818
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -12.247 149.999
+    angleX -0.81
+    angleY 120.005
+    angleZ -0.382
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 2.788 -150.001
+    angleY 60
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 19.437 -1.067 7.762
    }
@@ -553,6 +1053,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 42
   m_iBaseID 18
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -49.074 0
+    angleX 10.189
+    angleY -90.709
+    angleZ -4.002
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -16.457 150.001
+    angleX -1.408
+    angleY -119.765
+    angleZ -9.49
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -48.697 -149.999
+    angleX 15.135
+    angleY -59.146
+    angleZ 3.269
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -6.751 0.001
+    angleX -27.671
+    angleY 102.536
+    angleZ 154.415
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -13.646 150
+    angleX 3.639
+    angleY 120.037
+    angleZ 0.587
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -9.436 -149.999
+    angleX 0.012
+    angleY 60
+    angleZ 0.051
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -17.296 0.795 -8.513
    }
@@ -582,7 +1124,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   angleY -65.438
   m_sBaseName "#AR-MapLocation_Provins"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
-  m_sMapLocationName "LocationProvins"
+  m_sMapLocationName "C_LocationProvins"
   m_sSlotNameHQ "Provins_HQ"
   m_sSlotNameSupplies "Provins_Supply"
   m_sSlotNameArmory "Provins_Armory"
@@ -592,6 +1134,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 46
   m_iBaseID 19
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 27.856 0
+    angleX -12.228
+    angleY -92.966
+    angleZ 13.746
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 10.051 150
+    angleX -0.976
+    angleY -119.986
+    angleZ -0.806
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 39.308 -150
+    angleX -8.472
+    angleY -59.114
+    angleZ -5.991
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -6.944 0
+    angleX 3.386
+    angleY 89.685
+    angleZ -5.322
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -23.135 149.999
+    angleX 13.566
+    angleY 119.479
+    angleZ -2.222
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -3.135 -150
+    angleX -0.169
+    angleY 60.005
+    angleZ -1.782
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 15.496 0.139 7.127
    }
@@ -617,7 +1201,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   angleY -102.454
   m_sBaseName "#AR-MapLocation_Regina"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
-  m_sMapLocationName "LocationRegina"
+  m_sMapLocationName "C_LocationRegina"
   m_sSlotNameHQ "Regina_HQ"
   m_sSlotNameSupplies "Regina_Supply"
   m_sSlotNameArmory "Regina_Armory"
@@ -628,6 +1212,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 50
   m_iBaseID 20
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 1.551 0
+    angleX -1.715
+    angleY -89.956
+    angleZ -1.454
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 9.103 150
+    angleX -7.917
+    angleY -119.334
+    angleZ -4.827
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 4.232 -150
+    angleX -12.838
+    angleY -61.402
+    angleZ 6.285
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -18.725 0
+    angleX 11.758
+    angleY 85.553
+    angleZ -20.89
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -47.077 150
+    angleY 120
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -28.535 -150
+    angleX 14.886
+    angleY 63.222
+    angleZ 12.36
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 21.169 -0.605 -17.36
    }
@@ -665,7 +1289,7 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   angleY 63.956
   m_sBaseName "#AR-MapLocation_Tyrone"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
-  m_sMapLocationName "LocationTyrone"
+  m_sMapLocationName "C_LocationTyrone"
   m_sSlotNameHQ "Tyrone_HQ"
   m_sSlotNameSupplies "Tyrone_Supply"
   m_sSlotNameArmory "Tyrone_Armory"
@@ -676,6 +1300,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 44
   m_iBaseID 21
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 17.997 0
+    angleX -3.787
+    angleY -91.19
+    angleZ 17.461
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -17.365 150
+    angleX 8.238
+    angleY -119.024
+    angleZ 6.782
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 48.6 -150
+    angleX -13.366
+    angleY -60.629
+    angleZ 2.718
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -9.304 0
+    angleX 1.197
+    angleY 90.009
+    angleZ 0.411
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -8.099 150
+    angleX 1.532
+    angleY 120.099
+    angleZ 3.692
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -17.416 -150
+    angleX 5.938
+    angleY 59.745
+    angleZ -2.467
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -16.822 -2.359 26.339
     angleY 177.624
@@ -723,6 +1389,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 52
   m_iBaseID 22
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -76.184 0
+    angleX 7.563
+    angleY -87.702
+    angleZ -163.045
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 19.473 149.999
+    angleX 0.014
+    angleY -119.997
+    angleZ 11.18
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -76.184 -150
+    angleX 28.501
+    angleY -68.777
+    angleZ 162.07
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 35.182 0
+    angleX -30.803
+    angleY 91.426
+    angleZ -2.783
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 52.139 150
+    angleX -26.821
+    angleY 126.441
+    angleZ -14.047
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -16.074 -150
+    angleX -0.781
+    angleY 59.803
+    angleZ 14.146
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 5.436 1.58 15.164
    }
@@ -770,6 +1478,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_iFreqEast 40
   m_iBaseID 23
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -6.939 -0.001
+    angleX 30.764
+    angleY -53.596
+    angleZ -124.748
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -28.089 150
+    angleX 9.802
+    angleY -119.168
+    angleZ 4.878
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -2.876 -150
+    angleX -6.54
+    angleY -60.805
+    angleZ 7.033
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -24.925 0
+    angleX 5.91
+    angleY 89.277
+    angleZ -6.983
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -28.458 150
+    angleX 11.756
+    angleY 119.863
+    angleZ -0.674
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -7.096 -150
+    angleX 6.319
+    angleY 59.302
+    angleZ -6.315
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -19.303 -4.615 -1.73
    }
@@ -812,6 +1562,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "Gravette_Antenna"
   m_iBaseID 3
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 37.874 0
+    angleX -11.093
+    angleY -91.429
+    angleZ 7.39
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 20.234 150
+    angleX -3.774
+    angleY -120.349
+    angleZ 5.283
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 52.051 -150.001
+    angleX -3.262
+    angleY -59.826
+    angleZ -3.054
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -31.97 -0.001
+    angleX 3.111
+    angleY 89.6
+    angleZ -7.326
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -31.97 150
+    angleY 120
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 -11.691 -150
+    angleX -0.695
+    angleY 60.072
+    angleZ -5.943
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 8.417 -0.438 14.404
    }
@@ -846,6 +1636,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "MineSlotAntenna"
   m_iBaseID 39
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300.001 -23.876 0
+    angleX -1.859
+    angleY -90.385
+    angleZ 11.695
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260.001 -27.765 150
+    angleX 9.641
+    angleY -121.143
+    angleZ -6.793
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260.001 -197.099 -150
+    angleX 9.173
+    angleY -66.91
+    angleZ 142.756
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 61.404 0
+    angleX -8.218
+    angleY 92.44
+    angleZ -16.599
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 39.387 150
+    angleX -0.478
+    angleY 120.016
+    angleZ -1.943
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 59.392 -150
+    angleX -14.777
+    angleY 59.507
+    angleZ 1.931
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -14.258 1.837 -56.561
     angleY -162.727
@@ -894,6 +1726,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "BlackLake_Antenna"
   m_iBaseID 27
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300.001 37.923 0
+    angleX -3.307
+    angleY -89.565
+    angleZ -7.505
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -209.122 149.999
+    angleX 47.702
+    angleY -162.472
+    angleZ 128.938
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 37.413 -150.001
+    angleX -5.772
+    angleY -60.944
+    angleZ 9.307
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300.001 -12.974 -0.001
+    angleX -8.877
+    angleY 86.538
+    angleZ 21.41
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -209.122 150
+    angleX 3.542
+    angleY 118.463
+    angleZ 156.523
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -54.017 -150
+    angleX -0.351
+    angleY 59.992
+    angleZ 1.393
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 20.617 0.278 -2.633
    }
@@ -927,6 +1801,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "PennantsPass_Antenna"
   m_iBaseID 28
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 299.999 -57.123 0
+    angleX -4.667
+    angleY -90.346
+    angleZ 4.244
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 259.999 -68.372 150
+    angleX 17.752
+    angleY -120.944
+    angleZ -3.093
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 259.999 -32.378 -150
+    angleX 14.297
+    angleY -58.426
+    angleZ 6.348
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -223.125 0
+    angleX -17.559
+    angleY 73.041
+    angleZ -134.692
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 68.859 150
+    angleX -13.443
+    angleY 122.559
+    angleZ -10.88
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 8.26 -150
+    angleX 2.814
+    angleY 60.117
+    angleZ 2.381
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -7.596 1 -12.025
     angleY -146.111
@@ -971,6 +1887,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "SimonsWood_Antenna"
   m_iBaseID 29
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 7.194 -0.001
+    angleX -16.182
+    angleY -88.926
+    angleZ -3.848
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 17.571 150.001
+    angleX -5.602
+    angleY -119.933
+    angleZ -0.687
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -9.23 -150.001
+    angleX -2.599
+    angleY -59.618
+    angleZ -8.357
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 25.572 0.001
+    angleX -4.5
+    angleY 90.268
+    angleZ -3.409
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 14.943 150
+    angleX 4.229
+    angleY 119.363
+    angleZ -8.573
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 22.691 -150
+    angleX 2.459
+    angleY 60.135
+    angleZ 3.152
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 0.001 0.721 11.999
    }
@@ -1005,6 +1963,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "Richmond_Antenna"
   m_iBaseID 30
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 10.773 0
+    angleX 3.573
+    angleY -89.888
+    angleZ 1.793
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -4.996 150
+    angleX 1.011
+    angleY -119.937
+    angleZ 3.545
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 20.775 -150
+    angleX -9.891
+    angleY -59.895
+    angleZ -0.609
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 2.502 0
+    angleX -2.668
+    angleY 89.791
+    angleZ 4.472
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 15.621 150
+    angleX -4.982
+    angleY 119.712
+    angleZ 3.318
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -4.67 -150
+    angleX -1.669
+    angleY 60.032
+    angleZ -1.103
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -14.822 -0.533 6.483
    }
@@ -1036,6 +2036,47 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "Shepherds_Antenna"
   m_iBaseID 31
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 25.693 0
+    angleX -6.242
+    angleY -90
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 8.992 150
+    angleX 4.731
+    angleY -119.46
+    angleZ 6.524
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 9.806 -150
+    angleX 4.986
+    angleY -61.616
+    angleZ -17.983
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -12.079 0
+    angleX -0.907
+    angleY 89.98
+    angleZ 1.258
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -31.959 150
+    angleX 16.88
+    angleY 118.979
+    angleZ -3.512
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -32.613 -150
+    angleX 6.854
+    angleY 60.143
+    angleZ 1.199
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -0.896 0.252 -8.189
    }
@@ -1068,6 +2109,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "Lake_Antenna"
   m_iBaseID 32
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 4.265 0
+    angleX -8.095
+    angleY -91.613
+    angleZ 11.309
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -8.119 150
+    angleY -120
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 18.931 -150
+    angleX -15.154
+    angleY -61.574
+    angleZ 5.999
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -299.999 18.866 0
+    angleX 1.062
+    angleY 89.682
+    angleZ -16.674
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 2.26 150
+    angleX -1.858
+    angleY 120.024
+    angleZ -0.743
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 48.28 -150
+    angleX -6.45
+    angleY 60.571
+    angleZ -5.07
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 1.094 -0.221 20.917
    }
@@ -1102,6 +2183,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "TillersFind_Antenna"
   m_iBaseID 33
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -59.781 0
+    angleX -3.592
+    angleY -90.265
+    angleZ -175.771
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 2.819 150
+    angleX 2.604
+    angleY -119.46
+    angleZ 11.716
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 45.286 -150
+    angleX -8.567
+    angleY -60.647
+    angleZ 4.332
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -21.671 0
+    angleX 10.201
+    angleY 87.905
+    angleZ -11.669
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -35.675 150
+    angleX 10.427
+    angleY 119.6
+    angleZ -2.209
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 1.802 -150
+    angleX 2.688
+    angleY 59.389
+    angleZ -12.802
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 0.972 0 11.873
    }
@@ -1134,6 +2257,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "Kermovan_Antenna"
   m_iBaseID 34
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300.001 -9.157 0
+    angleX -2.987
+    angleY -89.937
+    angleZ -1.215
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260.001 -2.741 150
+    angleX 42.256
+    angleY -58.323
+    angleZ 70.078
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 -9.157 -150
+    angleX -2.823
+    angleY -59.861
+    angleZ -2.83
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -9.157 0
+    angleX 0.309
+    angleY 89.96
+    angleZ -7.335
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -259.999 -9.157 150
+    angleX 1.967
+    angleY 120.185
+    angleZ 5.365
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 -9.157 -150
+    angleX 5.899
+    angleY 59.578
+    angleZ -4.1
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -15.098 -0.501 5.486
     angleY 122.026
@@ -1178,6 +2343,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "MaidensBay_Antenna"
   m_iBaseID 35
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 7.684 -0.001
+    angleY -90
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 17.231 149.999
+    angleX 5.76
+    angleY -120.035
+    angleZ -0.352
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 6.777 -150.001
+    angleX 2.546
+    angleY -60.055
+    angleZ -1.234
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 3.605 0
+    angleX -3.415
+    angleY 90.18
+    angleZ -3.016
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -7.201 150
+    angleX 2.227
+    angleY 120.129
+    angleZ 3.32
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 4.849 -150
+    angleX 2.681
+    angleY 59.916
+    angleZ -1.792
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords 39.732 1.109 -7.081
    }
@@ -1210,6 +2415,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "HornbeamValley_Antenna"
   m_iBaseID 36
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 25.801 0
+    angleX -3.521
+    angleY -90.441
+    angleZ 7.139
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 -15.798 150
+    angleX 3.421
+    angleY -119.198
+    angleZ 13.206
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 46.923 -150
+    angleX -8.146
+    angleY -60.503
+    angleZ 3.548
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 56.682 0
+    angleX -12.327
+    angleY 89.609
+    angleZ 1.832
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 58.303 150
+    angleX -24.371
+    angleY 120.706
+    angleZ -1.711
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -260 42.218 -150
+    angleX -14.641
+    angleY 60.708
+    angleZ -2.798
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -10.286 0.685 18.251
    }
@@ -1249,6 +2496,46 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "AndresBeacon_Antenna"
   m_iBaseID 37
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 -33.021 0
+    angleY -90
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 4.037 150
+    angleX 2.573
+    angleY -120.563
+    angleZ -12.349
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 259.999 -18.847 -150
+    angleX -0.408
+    angleY -59.995
+    angleZ -0.72
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -6.589 0
+    angleX -4.589
+    angleY 103.526
+    angleZ -71.604
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 32.9 150
+    angleX -9.453
+    angleY 119.773
+    angleZ 1.384
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 -30.8 -150
+    angleX 11.042
+    angleY 57.731
+    angleZ -11.69
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -8.857 3.505 25
    }
@@ -1292,6 +2579,48 @@ $grp SCR_CampaignBase : "{9245753CBCFEF607}Prefabs/MP/Campaign/Bases/CampaignSma
   m_sSlotNameRadioAntenna "GoatBaySlot_Antenna"
   m_iBaseID 38
   {
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A20B10302"
+    coords 300 38.224 0
+    angleX -10.944
+    angleY -94.804
+    angleZ 23.88
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A226AAD34"
+    coords 260 2.948 150
+    angleX 5.799
+    angleY -119.58
+    angleZ 4.148
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A25C13FBB"
+    coords 260 63.009 -150
+    angleX -11.966
+    angleY -61.475
+    angleZ 7.079
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2722C878"
+    coords -300 -5.643 0
+    angleX -2.232
+    angleY 90.19
+    angleZ -4.87
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2C09C56A"
+    coords -260 -5.643 150
+    angleX 1.864
+    angleY 119.976
+    angleZ -0.728
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A2E771753"
+    coords -259.999 -5.643 -150
+    angleX -4.046
+    angleY 60.359
+    angleZ -5.078
+   }
    SCR_CampaignRemnantsSpawnPoint {
     coords -13.928 -0.455 15.355
    }
@@ -1324,7 +2653,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     m_iSuppliesMax 500
    }
   }
-  coords 7445.592 12.154 6686.761
+  coords 7445.53 12.154 6686.893
   angleY -25.279
   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
@@ -1417,12 +2746,43 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
      GenericEntity {
       ID "524ED87DCD09FCD3"
-      coords -0.215 0.002 0.168
+      coords -0.037 0.079 0.316
       angleY -2.43
       {
        GenericEntity {
         ID "524ED87DCD09FCD5"
         coords -0.001 1.1 -0.49
+        {
+         $grp GenericEntity : "{B58C34611D93DCA4}Prefabs/Logic/EntitySpawnerSlot.et" {
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -7.16 -1.1 -2.37
+           angleY -177.937
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -13.969 -1.1 -2.232
+           angleY -177.937
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -20.27 -1.1 -2.307
+           angleY -177.937
+          }
+         }
+        }
        }
        GenericEntity {
         ID "5614CBDBA3BC8E8D"
@@ -1447,6 +2807,48 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
       }
      }
     }
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A621AFF80"
+    coords 300 -12.154 0
+    angleX 6.225
+    angleY -89.46
+    angleZ 4.964
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A68183D40"
+    coords 260 -12.154 150
+    angleX -2.134
+    angleY -119.823
+    angleZ -4.749
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6C56A8A9"
+    coords 260 -12.154 -150
+    angleX 2.071
+    angleY -60.124
+    angleZ -3.42
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6FAF6B02"
+    coords -300 61.95 0
+    angleX -4.98
+    angleY 87.499
+    angleZ 26.71
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A94FF78E5"
+    coords -260 81.28 150
+    angleX -7.162
+    angleY 121.092
+    angleZ -8.696
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A965AFB85"
+    coords -260 25.21 -150
+    angleX -12.053
+    angleY 56.602
+    angleZ 15.873
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
@@ -1552,7 +2954,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      angleY 0.802
     }
     {
-     coords -2.984 -4.271 5.506
+     coords -2.518 -4.271 5.5
      angleY 0.802
     }
     {
@@ -1587,8 +2989,8 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
     angleY 134.417
    }
    GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
-    coords -5.936 -4.278 6.771
-    angleY 90.176
+    coords -4.718 -4.278 10.677
+    angleY -178.656
    }
    GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
     components {
@@ -1695,6 +3097,35 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
           ID "56EEE9F9F28F9B8D"
           coords 0 0 0
          }
+         $grp GenericEntity : "{B58C34611D93DCA4}Prefabs/Logic/EntitySpawnerSlot.et" {
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -7.112 -1.147 -2.513
+           angleY 1.557
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -13.533 -1.147 -2.72
+           angleY 1.557
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -19.895 -1.147 -2.806
+           angleY 1.557
+          }
+         }
         }
        }
        GenericEntity {
@@ -1720,6 +3151,48 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
       }
      }
     }
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A621AFF80"
+    coords 300 -7.091 0
+    angleX 7.588
+    angleY -91.157
+    angleZ 171.305
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A68183D40"
+    coords 260 -7.091 150
+    angleX -17.961
+    angleY -116.472
+    angleZ 168.693
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6C56A8A9"
+    coords 260 35.381 -150
+    angleX -4.76
+    angleY -59.943
+    angleZ -0.69
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6FAF6B02"
+    coords -300 -7.091 0
+    angleX 17.819
+    angleY 92.591
+    angleZ 8.411
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A94FF78E5"
+    coords -260 -7.091 150
+    angleX 1.785
+    angleY 119.903
+    angleZ -3.1
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A965AFB85"
+    coords -260 -7.091 -150
+    angleX 15.429
+    angleY 64.151
+    angleZ 15.258
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
@@ -1826,7 +3299,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
    }
    $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
     {
-     coords -5.425 -4.34 5.555
+     coords 4.33 -4.34 8.521
      angleY -177.403
     }
     {
@@ -1997,6 +3470,34 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
        GenericEntity {
         ID "524ED87DCD09FCD5"
         coords -0.026 1.264 -0.576
+        {
+         $grp GenericEntity : "{B58C34611D93DCA4}Prefabs/Logic/EntitySpawnerSlot.et" {
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+            }
+           }
+           coords -9.755 -1.226 5.339
+           angleY 179.21
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+            }
+           }
+           coords 5.1 -1.124 5.315
+           angleY 177.242
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+            }
+           }
+           coords -4.518 -1.226 5.112
+           angleY 178.923
+          }
+         }
+        }
        }
        GenericEntity {
         ID "5614CBDBA3BC8E8D"
@@ -2022,6 +3523,48 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
      }
     }
    }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A621AFF80"
+    coords 300 -2.187 0
+    angleX -2.3
+    angleY -89.682
+    angleZ -7.87
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A68183D40"
+    coords 260 -2.187 150
+    angleX -5.349
+    angleY -119.975
+    angleZ -0.272
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6C56A8A9"
+    coords 260 -2.187 -150
+    angleX 12.221
+    angleY -59.418
+    angleZ 2.746
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6FAF6B02"
+    coords -300 10.414 0.001
+    angleX -7.372
+    angleY 91.047
+    angleZ -8.104
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A94FF78E5"
+    coords -260 22.088 150
+    angleX -9.909
+    angleY 119.983
+    angleZ 0.096
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A965AFB85"
+    coords -260 23.957 -150
+    angleX -12.367
+    angleY 59.943
+    angleZ 0.268
+   }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE2F28160"
     coords -11.312 0.001 8.403
@@ -2044,7 +3587,7 @@ $grp SCR_CampaignBase : "{D7A0BA9CA33E64A9}Prefabs/MP/Campaign/Bases/CampaignMaj
    }
    SCR_CampaignSpawnPointGroup {
     ID "56DEEDF0B121F0E8"
-    coords -11.555 0 17.272
+    coords 11.126 0 -5.273
    }
   }
  }
@@ -2053,7 +3596,6 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
  MainBaseNorth {
   components {
    BaseRadioComponent "{524EBE6BCFD951EB}" {
-    "Is relay" 1
    }
    SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
     m_fMaximumSeizingTime 60
@@ -2074,7 +3616,7 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
   m_sSlotNameSupplies "SaintPhilip_Supply"
   m_sSlotNameArmory "SaintPhilip_Armory"
   m_sSlotNameBarracks "SaintPhilip_LivingArea"
-  m_eType MAJOR
+  m_eType BASE
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 48
   m_iFreqEast 48
@@ -2093,7 +3635,6 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
       m_iEntitySpawnRange 2
       m_vSpawnOffsetPosition 2 0.217 -6.915
       m_vSpawnOffsetRotation -90 0 0
-      m_fBaseSearchDistance 200
      }
     }
     coords 172.079 -0.527 55.645
@@ -2152,6 +3693,35 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
           ID "56EEE9F9F28F9B8D"
           coords 0 0 0.001
          }
+         $grp GenericEntity : "{B58C34611D93DCA4}Prefabs/Logic/EntitySpawnerSlot.et" {
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -6.87 -0.872 -1.502
+           angleY -1.451
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -13.996 -1.032 -1.906
+           angleY -1.451
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -20.351 -1.032 -1.907
+           angleY -1.451
+          }
+         }
         }
        }
        GenericEntity {
@@ -2177,6 +3747,46 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
       }
      }
     }
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A621AFF80"
+    coords 300 13.561 0
+    angleY -90
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A68183D40"
+    coords 259.999 -1.533 150
+    angleX 1.164
+    angleY -119.941
+    angleZ 2.901
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6C56A8A9"
+    coords 260 21.65 -150
+    angleX 0.781
+    angleY -60.006
+    angleZ -0.438
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6FAF6B02"
+    coords -300 -6.314 0
+    angleX 1.142
+    angleY 89.786
+    angleZ -10.631
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A94FF78E5"
+    coords -260 -6.314 150
+    angleX 1.588
+    angleY 119.776
+    angleZ -8.043
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A965AFB85"
+    coords -260.001 6.253 -150
+    angleX 0.895
+    angleY 60
+    angleZ 0.011
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE443E13E"
@@ -2323,11 +3933,11 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
    }
    $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
     {
-     coords -1.847 -4.611 5.309
+     coords -0.433 -4.611 5.318
      angleY -0.367
     }
     {
-     coords 0.894 -4.611 5.328
+     coords 2.309 -4.611 5.337
      angleY -0.367
     }
     {
@@ -2364,7 +3974,7 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
    }
    $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
     {
-     coords -4.957 -4.583 5.271
+     coords -2.969 -4.583 5.277
      angleY -0.168
     }
     {
@@ -2385,7 +3995,6 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
  MainBaseSouth {
   components {
    BaseRadioComponent "{524EBE6BCFD951EB}" {
-    "Is relay" 1
    }
    SCR_CampaignSeizingComponent "{5966874EF4BB3465}" {
     m_fMaximumSeizingTime 60
@@ -2406,7 +4015,7 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
   m_sSlotNameSupplies "SaintPierre_Supply"
   m_sSlotNameArmory "SaintPierre_Armory"
   m_sSlotNameBarracks "SaintPierre_Repair"
-  m_eType MAJOR
+  m_eType BASE
   m_bSpawnNoSlotComposition 1
   m_iFreqWest 48
   m_iFreqEast 48
@@ -2470,11 +4079,47 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
       {
        GenericEntity {
         ID "524ED87DCD09FCD5"
+        components {
+         SCR_CatalogEntitySpawnerComponent "{5CC6C93600A20934}" {
+          m_eType HEAVY_VEHICLE_DEPOT
+          m_bNeedAllLabels 0
+          m_bSuppliesConsumptionEnabled 1
+         }
+        }
         coords -0.003 1.1 -0.49
         {
          GenericEntity {
           ID "56EEE9F9F28F9B8D"
           coords -0.002 0 0
+         }
+         $grp GenericEntity : "{B58C34611D93DCA4}Prefabs/Logic/EntitySpawnerSlot.et" {
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -6.942 -1.055 -1.494
+           angleY 0.756
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -13.578 -1.055 -0.844
+           angleY 0.756
+          }
+          {
+           components {
+            SCR_EntitySpawnerSlotComponent "{5AF06EDF1887FB21}" {
+             m_bShowDebugShape 0
+            }
+           }
+           coords -19.985 -1.055 -1.722
+           angleY 0.756
+          }
          }
         }
        }
@@ -2506,6 +4151,48 @@ $grp SCR_CampaignBase : "{DEA36E19A8F6FDFD}Prefabs/MP/Campaign/Bases/CampaignMai
       }
      }
     }
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A621AFF80"
+    coords 300 -1.094 0
+    angleX -5.657
+    angleY -91.127
+    angleZ 11.289
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A68183D40"
+    coords 260 -6.784 150
+    angleX 8.348
+    angleY -120.46
+    angleZ -3.166
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6C56A8A9"
+    coords 260 7.698 -149.999
+    angleX -7.831
+    angleY -57.381
+    angleZ -18.561
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A6FAF6B02"
+    coords -300 64.351 0
+    angleX -18.451
+    angleY 91.447
+    angleZ -4.564
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A94FF78E5"
+    coords -260 -6.784 150
+    angleX -0.654
+    angleY 119.993
+    angleZ 0.599
+   }
+   SCR_CampaignContestedSpawnPoint {
+    ID "5A9A8A1A965AFB85"
+    coords -260 58.162 -150
+    angleX -20.013
+    angleY 58.331
+    angleZ 4.867
    }
    SCR_CampaignRemnantsSpawnPoint {
     ID "55A0956AE443E13E"

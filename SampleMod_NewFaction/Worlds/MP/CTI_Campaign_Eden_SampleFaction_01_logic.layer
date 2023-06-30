@@ -50,8 +50,9 @@ SCR_GameModeCampaignMP CampaignMPGameMode1 : "{59121DD52FF62112}Prefabs/MP/Campa
  m_sBLUFORFactionKey "SampleFactionBLUFOR"
  m_sOPFORFactionKey "SampleFactionREDFOR"
  m_sINDFORFactionKey "SampleFactionGREENFOR"
- m_iStartingHours 6
- m_iStartingMinutes 0
+ m_bApplyPresetOwners 0
+ m_iControlPointsThreshold 5
+ m_fVictoryTimer 300
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
  coords 20.291 0 5.837
@@ -74,6 +75,8 @@ ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
 }
 SCR_MapLocator {
  coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
 }
 BasePreloadManager CampaignPreloadManager1 : "{0ECEC6225B1326C2}Prefabs/MP/Campaign/CampaignPreloadManager.et" {
  coords 20.133 0 10.234
@@ -87,9 +90,19 @@ SCR_CampaignBuildingManagerEntity : "{1722294208A98906}Prefabs/MP/Campaign/Campa
 SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
 }
 SCR_CampaignGarbageManager : "{38018ED573ED2316}Prefabs/MP/Campaign/CampaignGarbageManager.et" {
+ CharacterLifetime 600
+ ItemLifetime 600
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  m_aPlayerLoadouts {
+  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
+   m_sLoadoutResource "{D61B79C1CA6073F6}Prefabs/Characters/Campaign/Campaign_SampleFactionBLUFOR_Player.et"
+   m_sAffiliatedFaction "SampleFactionBLUFOR"
+  }
+  SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
+   m_sLoadoutResource "{3662E10C98B526E8}Prefabs/Characters/Campaign/Campaign_SampleFactionREDFOR_Player.et"
+   m_sAffiliatedFaction "SampleFactionREDFOR"
+  }
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
    m_sLoadoutResource "{D61B79C1CA6073F6}Prefabs/Characters/Campaign/Campaign_SampleFactionBLUFOR_Player.et"
    m_sAffiliatedFaction "SampleFactionBLUFOR"

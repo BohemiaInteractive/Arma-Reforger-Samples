@@ -1,4 +1,4 @@
-GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOptic_Base.et" {
  ID "4BA426CBAED42A14"
  components {
   InventoryItemComponent "{52627A1F45CD4EB6}" {
@@ -22,24 +22,16 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
       ADSSpeedLimit 1.5
       SpeedLimitHighready 1.7
      }
-     PreviewRenderAttributes "{52D69389645B4E4D}" {
-      CameraPreset Right
-      CameraDistanceToItem 1
-      ItemRenderRotation 0 0 0
-      FOV 20
-     }
     }
-    m_Size SLOT_1x1
    }
   }
-  MeshObject "{52D2CE655E5287E8}" {
+  MeshObject "{5D0CC83435B55858}" {
    Object "{1EF2AF6CF820972F}Assets/Weapons/Attachments/Optics/SampleOptic_01/SampleOptic_01.xob"
   }
-  RigidBody "{52D2CE655E5287E5}" {
-   LayerPreset "ItemFireView"
+  RigidBody "{5D0CC83435B55857}" {
    ModelGeometry 1
   }
-  SCR_2DPIPSightsComponent "{584E83B41BD95B7D}" {
+  SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
    SightsPosition PointInfo "{584E83B41FD2B6D5}" {
     PivotID "eye"
     Offset 0 0 0
@@ -61,34 +53,22 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    SightsPointRear PointInfo "{584E83BC7F8BAFF3}" {
     PivotID "optic_rear"
    }
-   ADSTime 0.5
-   CameraRecoilAmount -0.4
    SightsPriority 1
    SoundInt 10001
    m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
-   m_sReticleTexture "{7185970FDF1B1051}UI/Textures/Sights/SampleOptic-black_blur1024_UI.edds"
-   m_sReticleGlowTexture "{365562D923ECF9C0}UI/Textures/Sights/SampleOptic-black_glow1024_UI.edds"
+   m_sReticleTexture "{7BF17A31FB368EE8}UI/Textures/Sights/SampleOptic_Reticle.edds"
+   m_sReticleGlowTexture "{7BF17A31FB368EE8}UI/Textures/Sights/SampleOptic_Reticle.edds"
    m_bHasIllumination 1
    m_cReticleTextureIllumination 0 0.502 0.125 1
    m_fMagnification 4
    m_fReticleAngularSize 2.801
-   m_iHudDeactivationDelay 0
-   m_iAnimationEnterDelay 0
-   m_fAnimationEnter 5
-   m_fAnimationSpeedBlur 3
-   m_fVignetteMoveSpeed 2
-   m_fMotionBlurScale 10
    m_eZeroingType EPZ_NONE
    m_fReticleOffsetX 0.001
    m_fReticleOffsetY 0.06863
    m_fReticleOffsetInterpSpeed 40
    m_bShouldHideParentParentObject 1
    m_fRecoilScaleMax 1.5
-   m_iCameraIndex 8
-   m_fMainCameraFOV 28
-   m_fResolutionScale 1
    m_rScopeHDRMatrial "{49BE214ED0192C5E}Assets/Weapons/Attachments/Optics/SampleOptic_01/Data/Optic_SampleOptic_HDR.emat"
-   m_fProjectionDifferenceScale 150
    m_fCenterDistance 0.017
    m_fDistanceMoveNear 0.6
    m_fDistanceMoveFar 0.45
@@ -121,37 +101,16 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
      }
      Radius 0.22
     }
-    UserActionContext "{5AF89E60FC72622F}" {
-     ContextName "detach"
-     Position PointInfo "{5AF89E60FB2DF475}" {
-      Offset 0 0.0396 0
-     }
-     Radius 0.1
-    }
    }
    additionalActions {
-    SCR_AttachementAction "{5AF89E6134D4CB32}" {
-     ParentContextList {
-      "detach"
-     }
-     UIInfo UIInfo "{5AF89E61318D91D2}" {
-      Name "#AR-UserAction_Detach"
-     }
-     Duration 2
-    }
-    SCR_AttachItemFromInventoryAction "{5AF2720EA92ED5B7}" {
+    SCR_AttachItemFromInventoryAction "{5D0CC83435B55B88}" {
      ParentContextList {
       "optic"
      }
-     UIInfo UIInfo "{5AF89E613E26C82C}" {
-      Name "#AR-UserAction_Attach"
-     }
-     Duration 2
-     "Inventory action" 1
     }
    }
   }
  }
- coords 8.685 0.282 -2.43
+ coords 0 0 0
  Flags 4194307
 }

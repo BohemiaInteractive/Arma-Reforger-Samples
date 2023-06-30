@@ -1,0 +1,16 @@
+GenericEntity : "{61FE810613D048FD}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyStorage_S_USSR_01_Campaign.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+  SCR_EditableEntityComponent "{5A5E74145577F6D0}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     14
+    }
+   }
+  }
+ }
+}

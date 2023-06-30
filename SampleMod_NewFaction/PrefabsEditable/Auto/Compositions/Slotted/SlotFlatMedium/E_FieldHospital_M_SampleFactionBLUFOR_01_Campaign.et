@@ -1,0 +1,16 @@
+GenericEntity : "{027C36165C988475}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_FieldHospital_M_US_01_Campaign.et" {
+ ID "52909E30B767FC4A"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5CD4B7282468DB19}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

@@ -10,8 +10,8 @@ $animation "" {
  }
  $events {
   #event 13 "BlendIn" "" -1 0 "" 0
-  #event 34 "Sound" "SOUND_RELOAD" 2 0 "" 1
-  #event 41 "Sound" "SOUND_RELOAD" 1 0 "" 1
+  #event 34 "Sound" "SOUND_RELOAD_MAG_HANDLING" 2 0 "" 1
+  #event 41 "Sound" "SOUND_RELOAD_MAG_INSERT" 1 0 "" 1
   #event 59 "BlendOut2" "" -1 0 "" 0
  }
  $custProps {

@@ -1,0 +1,92 @@
+GenericEntity : "{781A5361CCEA95FC}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_US_01.et" {
+ ID "528EB9D7D007E90B"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+ }
+ {
+  GenericEntity {
+   ID "568E94F52DCB2422"
+   components {
+    ActionsManagerComponent "{5D6EAD2B187FF9F4}" {
+     ActionContexts {
+      UserActionContext "{5D6EAD2B187FF9EC}" {
+       ContextName "building"
+       Position PointInfo "{5D6EAD2B187FF9EE}" {
+        Offset 0 1.2803 0.0353
+       }
+      }
+     }
+     additionalActions {
+      SCR_CampaignStartBuildingPreviewUserAction "{5D6EAD2B187FF9E5}" {
+       ParentContextList {
+        "building"
+       }
+       UIInfo UIInfo "{5D6EAD2B187FF9E7}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+      SCR_CampaignCloseBuildingPreviewUserAction "{5D6EAD2B187FF9E1}" {
+       ParentContextList {
+        "building"
+       }
+       UIInfo UIInfo "{5D6EAD2B187FF9E0}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+      SCR_CampaignBuildingStartUserAction "{5D6EAD2B187E2E72}" {
+       ParentContextList {
+        "building"
+       }
+       UIInfo UIInfo "{5D6EAD2B187E2E71}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "58B8CD4B379FB7CE"
+   components {
+    SCR_CampaignFlagComponent "{5D6EAD2B187E2E4D}" {
+    }
+    SlotManagerComponent "{55DAE04E55ECE7FA}" {
+     Slots {
+      EntitySlotInfo Flag {
+       Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+      }
+     }
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5704A24E3BC1D061"
+   {
+    GenericEntity {
+     ID "5704A24E35D58A95"
+     components {
+      SignalsManagerComponent "{5D6EAD2B187E2E49}" {
+      }
+      SoundComponent "{5D6EAD2B187E2E48}" {
+       Filenames {
+        "{4340FAB152ACD12D}Sounds/Compositions/Slotted/SlotFlatSmall/Compositions_Radio_Chatter.acp"
+       }
+       IncludeInactive 1
+      }
+      SCR_CampaignRadioRegisteringComponent "{5D6EAD2B187E2E45}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{8154532BBAD4C09C}Prefabs/MP/Campaign/Assets/CampaignRadioBox.et" {
+   ID "5D6EAD2B187FF988"
+   coords 1.2 0.906 0.75
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GenericEntity : "{087460535B1BAC83}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Large_Top_US.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  RigidBody "{52F0B4B05F6D4CE2}" {
+   Static 1
+  }
+ }
+}

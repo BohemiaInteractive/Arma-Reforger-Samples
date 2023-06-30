@@ -1,0 +1,16 @@
+GenericEntity : "{CADD301D2D3775D4}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_01_M60_Campaign.et" {
+ ID "52F07DE9010CEE6C"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5C5AE69E4233A940}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

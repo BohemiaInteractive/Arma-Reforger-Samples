@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7BF17A31FB368EE8}UI/Textures/Sights/SampleOptic_Reticle.edds"
+ Configurations {
+  TGAResourceClass PC : "{33F97FFE35E57E1D}Configs/System/ResourceTypes/PC/TextureReticle.conf" {
+  }
+  TGAResourceClass XBOX_ONE : "{0B42FA7CFD77120F}Configs/System/ResourceTypes/XBOX_ONE/TextureReticle.conf" {
+  }
+  TGAResourceClass PS4 : "{C1FA7DC8973FA4A1}Configs/System/ResourceTypes/PS4/TextureReticle.conf" {
+  }
+  TGAResourceClass HEADLESS : "{9664EF94CE7C4525}Configs/System/ResourceTypes/HEADLESS/TextureReticle.conf" {
+  }
+  TGAResourceClass XBOX_SERIES : "{A4AA0C6FDF186747}Configs/System/ResourceTypes/XBOX_SERIES/TextureReticle.conf" {
+  }
+ }
+}

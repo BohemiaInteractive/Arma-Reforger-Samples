@@ -1,0 +1,16 @@
+GenericEntity : "{A64B2BAE3808C4F9}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyStorage_S_US_01_Campaign.et" {
+ ID "52D6D6DB69F982D9"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5A5E741464429437}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

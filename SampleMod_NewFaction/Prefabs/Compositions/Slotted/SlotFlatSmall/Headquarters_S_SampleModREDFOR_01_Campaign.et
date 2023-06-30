@@ -1,0 +1,87 @@
+GenericEntity : "{2A3B53114DEAA60A}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "5616978A145BF5FA"
+   components {
+    ActionsManagerComponent "{5D6EAD2AF597BBDD}" {
+     ActionContexts {
+      UserActionContext "{5D6EAD2AF597BBD5}" {
+       ContextName "Building"
+       Position PointInfo "{5D6EAD2AF597BBD2}" {
+        Offset 0 1.2601 0.04
+       }
+      }
+     }
+     additionalActions {
+      SCR_CampaignStartBuildingPreviewUserAction "{5D6EAD2AF597BB2E}" {
+       ParentContextList {
+        "Building"
+       }
+       UIInfo UIInfo "{5D6EAD2AF597BB29}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+      SCR_CampaignCloseBuildingPreviewUserAction "{5D6EAD2AF597BB26}" {
+       ParentContextList {
+        "Building"
+       }
+       UIInfo UIInfo "{5D6EAD2AF597BB24}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+      SCR_CampaignBuildingStartUserAction "{5D6EAD2AF597BB23}" {
+       ParentContextList {
+        "Building"
+       }
+       UIInfo UIInfo "{5D6EAD2AF597BB21}" {
+       }
+       VisibilityRange 10
+       Duration 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "58B8CD4B167BCA06"
+   components {
+    SCR_CampaignFlagComponent "{5D6EAD2AF597BB3D}" {
+    }
+    SlotManagerComponent "{55DAE04E55ECE7FA}" {
+     Slots {
+      EntitySlotInfo Flag {
+       Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "5704A249D8D4CAA3"
+   {
+    GenericEntity {
+     ID "5704A249D21789BF"
+     components {
+      SignalsManagerComponent "{5D6EAD2AF597BB39}" {
+      }
+      SoundComponent "{5D6EAD2AF597BB37}" {
+       Filenames {
+        "{4340FAB152ACD12D}Sounds/Compositions/Slotted/SlotFlatSmall/Compositions_Radio_Chatter.acp"
+       }
+       IncludeInactive 1
+      }
+      SCR_CampaignRadioRegisteringComponent "{5D6EAD2AF597BB35}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{8154532BBAD4C09C}Prefabs/MP/Campaign/Assets/CampaignRadioBox.et" {
+   ID "5D6EAD2AF597BBF3"
+   coords 0.258 0.957 -1.581
+  }
+ }
+}

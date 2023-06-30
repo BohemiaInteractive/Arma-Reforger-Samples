@@ -1,0 +1,16 @@
+GenericEntity : "{C34EE2CFFDDF8181}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_USSR_03_Campaign.et" {
+ ID "560C734C3CF2CC79"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+  SCR_EditableEntityComponent "{5A6A905996A4BFAD}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     14
+    }
+   }
+  }
+ }
+}

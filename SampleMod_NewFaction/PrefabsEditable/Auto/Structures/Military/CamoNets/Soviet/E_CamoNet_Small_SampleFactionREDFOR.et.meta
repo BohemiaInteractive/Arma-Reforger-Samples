@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{57C271E75A54DBA4}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Soviet_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

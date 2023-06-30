@@ -1,0 +1,16 @@
+GenericEntity : "{B472718CA5F57355}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_USSR_01_Campaign.et" {
+ ID "5612E90D66C45BAA"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+  SCR_EditableEntityComponent "{5CC681C840346AD8}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     14
+    }
+   }
+  }
+ }
+}

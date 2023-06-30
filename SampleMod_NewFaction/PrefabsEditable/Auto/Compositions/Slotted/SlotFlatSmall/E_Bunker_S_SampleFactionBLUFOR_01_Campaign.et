@@ -1,0 +1,16 @@
+GenericEntity : "{86403DF70A1E49D1}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01_Campaign.et" {
+ ID "527A821AABE50F97"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionBLUFOR"
+  }
+  SCR_EditableEntityComponent "{5A609B29B43D61CA}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionBLUFOR"
+    m_aAutoLabels {
+     15
+    }
+   }
+  }
+ }
+}

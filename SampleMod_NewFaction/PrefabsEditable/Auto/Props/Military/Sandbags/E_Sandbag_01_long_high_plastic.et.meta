@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E85491A38D00710B}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

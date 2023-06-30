@@ -46,7 +46,13 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angleZ -1.207
  }
 }
-$grp GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+$grp GenericEntity : "{4885DEA01D687DB2}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_USSR_01.et" {
+ {
+  coords 6922.626 57.587 4472.136
+  angleX -13.552
+  angleY -125.222
+  angleZ -5.42
+ }
  {
   coords 9072.011 119.019 2688.397
   angleX -0.083
@@ -60,13 +66,7 @@ $grp GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSma
   angleZ -7.578
  }
  {
-  coords 6922.626 57.587 4472.136
-  angleX -13.552
-  angleY -125.222
-  angleZ -5.42
- }
- {
-  coords 4778.877 54.523 5821.062
+  coords 4778.876 54.523 5821.062
   angleX -2.934
   angleY 121.79
   angleZ 1.338
@@ -78,7 +78,7 @@ $grp GenericEntity : "{7492BAA88AFCEDCD}Prefabs/Compositions/Slotted/SlotFlatSma
   angleZ 3.221
  }
  {
-  coords 4812.318 115.366 8181.125
+  coords 4812.317 115.366 8181.125
   angleX 5.84
   angleY -120.233
   angleZ 9.903

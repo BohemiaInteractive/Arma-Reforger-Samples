@@ -1,0 +1,16 @@
+GenericEntity : "{1DF9835399B603EA}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Checkpoint_M_USSR_01.et" {
+ ID "560C73448CF83343"
+ components {
+  FactionAffiliationComponent "{56E0D915F82EB4E8}" {
+   "faction affiliation" "SampleFactionREDFOR"
+  }
+  SCR_EditableEntityComponent "{5A6A905934208287}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     14
+    }
+   }
+  }
+ }
+}

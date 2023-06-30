@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2ADEF70F451EA8D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_burlap_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

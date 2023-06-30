@@ -11,7 +11,7 @@ GenericWorldEntity world {
  CloudsPreset "{D3683C927920C51D}Terrains/Common/Sky/Clouds/Clouds_Volumetric.emat"
  LensFlaresConfig "{92489E4CCCB3D82F}Configs/LensFlares/LensFlares.conf"
 }
-GenericTerrainEntity Terrain {
+GenericTerrainEntity Terrain : "{221ABC927C672E4E}Prefabs/World/DefaultWorld/GenericTerrain_Default.et" {
 }
 SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {

@@ -19,16 +19,16 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
       AttachmentType AttachmentOpticsRIS1913Short "{5D1AA1C0F389A9EE}" {
       }
      }
-     CharacterModifierAttributes "{5CF0DAB9517AF26E}" {
-      SpeedLimit 6
-      ADSSpeedLimit 4
-      SpeedLimitHighready 1.7
-     }
      PreviewRenderAttributes "{52D69389645B4E4D}" {
       CameraPreset Right
       CameraDistanceToItem 0.32
       ItemRenderRotation 10 -45 0
       FOV 20
+     }
+     CharacterModifierAttributes "{5CF0DAB9517AF26E}" {
+      SpeedLimit 6
+      ADSSpeedLimit 4
+      SpeedLimitHighready 1.7
      }
     }
     m_Size SLOT_1x1
@@ -58,6 +58,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     Offset 0 0 0.0977
    }
    SightsPriority 1
+   SoundInt 10001
    CollimatorTopLeft PointInfo "{5CF0DAB909047386}" {
     PivotID "collimator_TL"
    }
@@ -68,16 +69,22 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     PivotID "eye"
     Offset 0 0 0.1964
    }
-   m_fDaylightBrightness 11.361
-   m_ReticleColorArray {
-    SCR_ReticleColor "{5CF0E5F87CC29447}" {
-     m_vReticleColor 1 0 0
-     m_vGlowColor 0.502 0 0
-    }
-    SCR_ReticleColor "{5CF0E5F8093EB018}" {
+   ReticleDefaultAngularSize 1.4
+   ReticleDefaultTexturePortion 0.522
+   ReticleColors {
+    BaseCollimatorReticleColor "{5DBA61F08E10C488}" {
+     ReticleColor 0 0.502 0.125 1
+     GlowColor 0 0.502 0.125 1
     }
    }
-   m_iDefaultReticle 1
+   ReticleInfos {
+    BaseCollimatorReticleInfo "{5DBA61F07D196F51}" {
+     ReticleIndex 1
+    }
+    BaseCollimatorReticleInfo "{5DBA61F07081D6A9}" {
+    }
+   }
+   m_fDaylightBrightness 15
   }
   ActionsManagerComponent "{5284E0EFF569AD07}" {
    ActionContexts {

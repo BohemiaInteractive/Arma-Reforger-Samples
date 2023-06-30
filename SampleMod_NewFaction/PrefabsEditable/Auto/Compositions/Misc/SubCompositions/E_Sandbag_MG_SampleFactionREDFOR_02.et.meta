@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C4EE6A0CFC59249D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_USSR_02_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{46467F682645A2C9}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_SampleFactionBLUFOR_01_Campaign.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

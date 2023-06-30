@@ -15,18 +15,6 @@ $grp GenericEntity {
       }
      }
     }
-    Airfield_Fuel {
-     coords 18.612 -1.215 -79.588
-     angleY -162.859
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0 0
-       angleX 0.999
-       angleZ 2.28
-      }
-     }
-    }
     Airfield_Supply {
      coords 14.638 -2.199 -62.046
      angleY -153.856
@@ -85,6 +73,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 31.743 -1.421 -62.636
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.045 0
+       angleX -2.225
+       angleZ -1.94
+      }
+     }
+    }
    }
   }
  }
@@ -140,18 +139,6 @@ $grp GenericEntity {
       }
      }
     }
-    AndresBeacon_Fuel {
-     coords 53.64 -3.277 18.745
-     angleY -68.536
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.174 0
-       angleX 0.026
-       angleZ -13.474
-      }
-     }
-    }
     AndresBeacon_Repair {
      coords 26.727 -8.733 -6.785
      angleY 97.95
@@ -173,6 +160,30 @@ $grp GenericEntity {
        coords 0 0.042 0
        angleX -7.771
        angleZ -5.325
+      }
+     }
+    }
+    {
+     coords -37.083 -8.044 -15.797
+     angleY 176.054
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.009 0
+       angleX 3.273
+       angleZ 1.313
+      }
+     }
+    }
+    {
+     coords -20.75 -5.676 29.347
+     angleY 176.054
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.004 0
+       angleX -2.416
+       angleZ 5.422
       }
      }
     }
@@ -220,18 +231,6 @@ $grp GenericEntity {
       }
      }
     }
-    BlackLake_Fuel {
-     coords -27.592 5.408 -53.263
-     angleY 49.965
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.096 0
-       angleX -2.707
-       angleZ -7.147
-      }
-     }
-    }
     BlackLake_Armory {
      coords -39.642 1.883 -1.827
      angleY -121.035
@@ -269,6 +268,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 26.444 2.267 -29.748
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.075 0
+       angleX -7.175
+       angleZ 1.398
+      }
+     }
+    }
+    {
+     coords -59.555 1.506 -13.48
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.09 0
+       angleX -0.505
+       angleZ -7.229
+      }
+     }
+    }
    }
   }
  }
@@ -287,19 +308,6 @@ $grp GenericEntity {
        angleX 9.986
        angleY 17.69
        angleZ -1.788
-      }
-     }
-    }
-    PennantsPass_Fuel {
-     coords 43.19 -3.246 -40.604
-     angleY -72.447
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.015 0
-       angleX 1.801
-       angleY -169.458
-       angleZ 1.229
       }
      }
     }
@@ -365,6 +373,30 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -57.656 3.675 -5.718
+     angleY -146.111
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.336 0
+       angleX 5.19
+       angleZ -6.12
+      }
+     }
+    }
+    {
+     coords 30.581 2.218 -91.282
+     angleY -146.111
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.027 0
+       angleX 6.887
+       angleZ 4.286
+      }
+     }
+    }
    }
   }
  }
@@ -393,19 +425,6 @@ $grp GenericEntity {
        coords 0 0.173 0
        angleX 3.905
        angleZ 6.649
-      }
-     }
-    }
-    GoatBaySlot_Fuel {
-     coords 2.282 0.504 7.718
-     angleY 73.422
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.071 0
-       angleX 7.549
-       angleY -7.354
-       angleZ -1.683
       }
      }
     }
@@ -456,6 +475,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -21.381 -3.033 -12.679
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.026 0
+       angleX -0.389
+       angleZ -6.881
+      }
+     }
+    }
+    {
+     coords -39.615 -5.116 62.544
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.006 0
+       angleX -1.143
+       angleZ -3.25
+      }
+     }
+    }
    }
   }
  }
@@ -463,18 +504,6 @@ $grp GenericEntity {
   coords 5565.063 39.868 8307.724
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
-    HornbeamValley_Fuel {
-     coords -174.197 -15.914 38.572
-     angleY 8.532
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.075 0
-       angleX -2.929
-       angleZ 7.635
-      }
-     }
-    }
     HornbeamValley_Repair {
      coords -219.414 -13.765 59.35
      angleY 48.368
@@ -546,6 +575,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -212.447 -8.477 -20.269
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.123 0
+       angleX -1.673
+       angleZ 7.183
+      }
+     }
+    }
+    {
+     coords -162.367 -19.749 68.317
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.08 0
+       angleX -4.938
+       angleZ 6.347
+      }
+     }
+    }
    }
   }
  }
@@ -607,19 +658,6 @@ $grp GenericEntity {
       }
      }
     }
-    TillersFind_Fuel {
-     coords 10.86 -0.145 36.375
-     angleY 141.938
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.01 0
-       angleX 5.084
-       angleY -0.546
-       angleZ -0.166
-      }
-     }
-    }
     TillersFind_Barracks {
      coords 32.078 -0.081 33.097
      angleY -135.518
@@ -629,6 +667,26 @@ $grp GenericEntity {
        coords 0 0.03 0
        angleX 0.739
        angleZ 0.384
+      }
+     }
+    }
+    {
+     coords -28.093 -1.942 24.231
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.048 0
+       angleX -6.969
+       angleZ -2.642
+      }
+     }
+    }
+    {
+     coords 48.9 -0.001 24.7
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
       }
      }
     }
@@ -661,18 +719,6 @@ $grp GenericEntity {
        angleX -10.177
        angleY -24.654
        angleZ -0.646
-      }
-     }
-    }
-    Shepherds_Fuel {
-     coords -25.837 -2.173 14.909
-     angleY 70.406
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.133 0
-       angleX 7.003
-       angleZ 1.137
       }
      }
     }
@@ -724,6 +770,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -26.849 -1.795 22.917
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.23 0
+       angleX 3.823
+       angleZ -3.675
+      }
+     }
+    }
+    {
+     coords 84.207 7.627 68.376
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.085 0
+       angleX -1.078
+       angleZ -5.382
+      }
+     }
+    }
    }
   }
  }
@@ -766,18 +834,6 @@ $grp GenericEntity {
       }
      }
     }
-    SaintPhilip_Fuel {
-     coords -453.923 -25.047 205.36
-     angleY 107.709
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.016 0
-       angleX 0.119
-       angleZ -0.239
-      }
-     }
-    }
     SaintPhilip_Armory {
      coords -390.959 -25.165 237.362
      angleY -142.92
@@ -797,18 +853,6 @@ $grp GenericEntity {
   coords 10152.744 2.532 1530.952
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
-    SaintPierre_Fuel {
-     coords -23.314 -0.001 -11.097
-     angleY -79.416
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.027 0
-       angleX -0.477
-       angleZ -0.207
-      }
-     }
-    }
     SaintPierre_Repair {
      coords -23.072 0.039 15.568
      angleY -80.466
@@ -887,18 +931,6 @@ $grp GenericEntity {
       }
      }
     }
-    BaseHospital_Fuel {
-     coords 23.53 -0.582 27.706
-     angleY -83.552
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.151 0
-       angleX -1.321
-       angleZ 1.447
-      }
-     }
-    }
     BaseHospital_Supply {
      coords 34.149 0.259 -14.083
      angleY -83.601
@@ -931,6 +963,28 @@ $grp GenericEntity {
        coords 0 0.007 0
        angleX -0.006
        angleZ -0.299
+      }
+     }
+    }
+    {
+     coords 36.552 -0.243 35.981
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.195 0
+       angleX -2.767
+       angleZ -3.14
+      }
+     }
+    }
+    {
+     coords -62.76 -3.197 36.877
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.175 0
+       angleX -3.482
+       angleZ -4.096
       }
      }
     }
@@ -989,18 +1043,6 @@ $grp GenericEntity {
       }
      }
     }
-    Lake_Fuel {
-     coords 12.585 0.554 -20.888
-     angleY -22.607
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.014 0
-       angleX 0.334
-       angleZ -2.312
-      }
-     }
-    }
     Lake_Supply {
      coords -18.496 -0.636 -14.402
      angleY 93.307
@@ -1022,6 +1064,17 @@ $grp GenericEntity {
        coords 0 0.033 0
        angleX -0.468
        angleZ 0.624
+      }
+     }
+    }
+    {
+     coords -36.197 -1.811 -47.903
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.531 0
+       angleX -0.593
+       angleZ -6.267
       }
      }
     }
@@ -1071,18 +1124,6 @@ $grp GenericEntity {
       }
      }
     }
-    Kermovan_Fuel {
-     coords 17.13 -0.113 -9.992
-     angleY 16.958
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.303 0
-       angleX 4.071
-       angleZ -1.198
-      }
-     }
-    }
     Kermovan_Supply {
      coords 52.056 2.18 5.349
      angleY -5.327
@@ -1122,6 +1163,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -6.013 -0.481 -9.132
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.108 0
+       angleX 2.269
+       angleZ -0.42
+      }
+     }
+    }
+    {
+     coords 47.934 2.545 62.158
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.018 0
+       angleX 2.26
+       angleZ 3.382
+      }
+     }
+    }
    }
   }
  }
@@ -1129,18 +1192,6 @@ $grp GenericEntity {
   coords 4463.785 63.035 4984.193
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
-    Richmond_Fuel {
-     coords 71.752 -0.025 67.827
-     angleY -167.855
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.04 0
-       angleX -0.232
-       angleZ 2.419
-      }
-     }
-    }
     Richmond_Antenna {
      coords 77.128 0.28 24.97
      angleY -90.461
@@ -1214,6 +1265,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 73.492 0.082 56.737
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.033 0
+       angleX 0.143
+       angleZ -0.297
+      }
+     }
+    }
    }
   }
  }
@@ -1230,17 +1292,6 @@ $grp GenericEntity {
        coords 0 0.007 0
        angleX -0.028
        angleZ 0.049
-      }
-     }
-    }
-    Lamentin_Fuel {
-     coords -205.344 -34.116 123.165
-     angleY -112.712
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.001 0
-       angleX -0.051
       }
      }
     }
@@ -1264,6 +1315,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -202.107 -31.104 -81.242
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.067 0
+       angleX -14.592
+       angleZ 2.628
+      }
+     }
+    }
    }
   }
  }
@@ -1271,18 +1333,6 @@ $grp GenericEntity {
   coords 5312.448 36.873 10668.739
   {
    $grp SCR_SiteSlotEntity : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
-    MaidensBay_Fuel {
-     coords -18.305 -2.252 51.969
-     angleY 141.162
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.081 0
-       angleX -0.647
-       angleZ -1.067
-      }
-     }
-    }
     MaidensBay_Repair {
      coords -35.353 -2.324 57.287
      angleY 158.801
@@ -1356,6 +1406,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -14.034 -0.527 25.084
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.223 0
+       angleX -3.557
+       angleZ -2.519
+      }
+     }
+    }
    }
   }
  }
@@ -1399,18 +1460,6 @@ $grp GenericEntity {
       }
      }
     }
-    SimonsWood_Fuel {
-     coords 5.492 1.162 37.599
-     angleY -149.855
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.166 0
-       angleX -3.139
-       angleZ -2.904
-      }
-     }
-    }
     SimonsWood_Antenna {
      coords 5.806 -2.773 -22.669
      angleY -160.859
@@ -1447,6 +1496,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -51.773 3.128 63.145
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.11 0
+       angleX 2.356
+       angleZ -0.049
+      }
+     }
+    }
+    {
+     coords 21.482 0.381 27.206
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.085 0
+       angleX 3.852
+       angleZ 0.239
+      }
+     }
+    }
    }
   }
  }
@@ -1475,18 +1546,6 @@ $grp GenericEntity {
        coords 0 -0.346 0
        angleX 8.217
        angleZ 4.325
-      }
-     }
-    }
-    BaseVilleneuveHill_Fuel {
-     coords 20.704 -1.218 -32.964
-     angleY -158.226
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.262 0
-       angleX -1.769
-       angleZ 0.882
       }
      }
     }
@@ -1538,6 +1597,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -33.884 -8.289 -69.249
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.021 0
+       angleX 3.327
+       angleZ -4.495
+      }
+     }
+    }
+    {
+     coords 87.903 -3.771 8.532
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.085 0
+       angleX -8.826
+       angleZ 7.967
+      }
+     }
+    }
    }
   }
  }
@@ -1566,18 +1647,6 @@ $grp GenericEntity {
        coords 0 -2.322 0
        angleX -0.29
        angleZ 4.169
-      }
-     }
-    }
-    Villeneuve_Fuel {
-     coords -5.962 0.5 -6.741
-     angleY 140.031
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -1.999 0
-       angleX -0.974
-       angleZ -7.162
       }
      }
     }
@@ -1629,6 +1698,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -5.309 -1.545 -9.401
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.192 0
+       angleX -2.59
+       angleZ 5.993
+      }
+     }
+    }
+    {
+     coords 3.318 -4.667 71.92
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.054 0
+       angleX -2.466
+       angleZ 4.765
+      }
+     }
+    }
    }
   }
  }
@@ -1658,18 +1749,6 @@ $grp GenericEntity {
        angleX -5.928
        angleY -4.215
        angleZ 0.193
-      }
-     }
-    }
-    Vernon_Fuel {
-     coords -108.649 5.245 53.102
-     angleY -14.917
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.026 0
-       angleX 2.683
-       angleZ 0.928
       }
      }
     }
@@ -1722,6 +1801,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -102.881 10.583 141.49
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.064 0
+       angleX 3.275
+       angleZ -0.408
+      }
+     }
+    }
+    {
+     coords -56.386 4.091 57.73
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.047 0
+       angleX 4.004
+       angleZ 2.082
+      }
+     }
+    }
    }
   }
  }
@@ -1749,19 +1850,6 @@ $grp GenericEntity {
        ID "52E8C3643526D54D"
        coords 0 0.048 0
        angleY -1.255
-      }
-     }
-    }
-    Tyrone_Fuel {
-     coords 29.857 -1.565 1.06
-     angleY -49.483
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.032 0
-       angleX -4.127
-       angleY 71.33
-       angleZ 1.055
       }
      }
     }
@@ -1814,6 +1902,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -50.92 0.574 -17.289
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.15 0
+       angleX -9.464
+       angleZ 0.114
+      }
+     }
+    }
    }
   }
  }
@@ -1842,18 +1941,6 @@ $grp GenericEntity {
        coords 0 0.073 0
        angleX -1.21
        angleZ 3.099
-      }
-     }
-    }
-    Regina_Fuel {
-     coords 100.876 -0.985 -219.251
-     angleY -117.85
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.175 0
-       angleX -3.102
-       angleZ -1.947
       }
      }
     }
@@ -1905,6 +1992,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 122.028 -0.725 -207.151
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.249 0
+       angleX -0.762
+       angleZ 0.688
+      }
+     }
+    }
    }
   }
  }
@@ -1934,18 +2032,6 @@ $grp GenericEntity {
        angleX -3.973
        angleY 2.355
        angleZ 1.459
-      }
-     }
-    }
-    Provins_Fuel {
-     coords -56.537 -7.206 -112.75
-     angleY 91.892
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.016 0
-       angleX -0.179
-       angleZ -0.119
       }
      }
     }
@@ -1998,6 +2084,16 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -55.157 -7.207 -107.88
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0 0
+       angleZ 0.14
+      }
+     }
+    }
    }
   }
  }
@@ -2035,18 +2131,6 @@ $grp GenericEntity {
       }
      }
     }
-    Morton_Fuel {
-     coords -102.696 -18.919 -299.549
-     angleY -39.225
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.011 0
-       angleX 0.157
-       angleZ 0.085
-      }
-     }
-    }
     Morton_Repair {
      coords -179.729 -18.919 -261.616
      angleY 31.573
@@ -2066,6 +2150,25 @@ $grp GenericEntity {
        coords 0 0.029 0
        angleX -0.015
        angleZ -0.224
+      }
+     }
+    }
+    {
+     coords -99.18 -17.939 -296.155
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.98 0
+       angleX -0.017
+      }
+     }
+    }
+    {
+     coords -201.922 -17.929 -249.023
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.989 0
       }
      }
     }
@@ -2098,18 +2201,6 @@ $grp GenericEntity {
        angleX 0.941
        angleY 175.377
        angleZ -4.721
-      }
-     }
-    }
-    Montignac_Fuel {
-     coords 323.653 4.671 -80.93
-     angleY 37.986
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.326 0
-       angleX 3.273
-       angleZ 0.315
       }
      }
     }
@@ -2161,6 +2252,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 302.006 5.851 -89.911
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.931 0
+       angleX 2.688
+       angleZ 2.212
+      }
+     }
+    }
    }
   }
  }
@@ -2191,18 +2293,6 @@ $grp GenericEntity {
        angleX -0.569
        angleY -90.447
        angleZ 1.465
-      }
-     }
-    }
-    MineSlotFuel {
-     coords -11.945 3.064 77.3
-     angleY -170.302
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.061 0
-       angleX -2.288
-       angleZ 2.233
       }
      }
     }
@@ -2258,6 +2348,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -20.894 -2.921 -37.342
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.44 0
+       angleX 0.503
+       angleZ -8.388
+      }
+     }
+    }
    }
   }
  }
@@ -2287,18 +2388,6 @@ $grp GenericEntity {
        angleX 0.282
        angleY 0.024
        angleZ -4.903
-      }
-     }
-    }
-    Meaux_Fuel {
-     coords 12.398 6.069 347.612
-     angleY -88.493
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.054 0
-       angleX -1.333
-       angleZ 0.342
       }
      }
     }
@@ -2351,6 +2440,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -26.449 3.635 362.896
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.038 0
+       angleX -3.764
+       angleZ -3.021
+      }
+     }
+    }
+    {
+     coords -66.599 3.584 341.371
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -1.221 0
+       angleX -3.706
+       angleZ -7.471
+      }
+     }
+    }
    }
   }
  }
@@ -2379,18 +2490,6 @@ $grp GenericEntity {
        coords 0 0.27 0
        angleX -7.666
        angleZ -0.147
-      }
-     }
-    }
-    Levie_Fuel {
-     coords 53.08 0.634 -8.188
-     angleY -122.694
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.041 0
-       angleX 1.85
-       angleZ 1.69
       }
      }
     }
@@ -2442,6 +2541,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 54.664 -1.449 16.755
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.014 0
+       angleX -2.14
+       angleZ -0.1
+      }
+     }
+    }
    }
   }
  }
@@ -2470,18 +2580,6 @@ $grp GenericEntity {
        coords 0 0.033 0
        angleX -2.25
        angleZ 7.682
-      }
-     }
-    }
-    LeMoule_Fuel {
-     coords -26.378 5.862 45.033
-     angleY -113.842
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.004 0
-       angleX 1.414
-       angleZ -8.141
       }
      }
     }
@@ -2533,6 +2631,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -134.908 16.013 50.625
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.08 0
+       angleX 3.953
+       angleZ 10.184
+      }
+     }
+    }
+    {
+     coords -31.079 -0.356 -8.104
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.245 0
+       angleX 3.25
+       angleZ 3.103
+      }
+     }
+    }
    }
   }
  }
@@ -2561,18 +2681,6 @@ $grp GenericEntity {
        coords 0 0.232 0
        angleX -5.708
        angleZ 4.313
-      }
-     }
-    }
-    Laruns_Fuel {
-     coords 17.828 -1.5 -13.369
-     angleY -24.212
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.064 0
-       angleX 0.525
-       angleZ 8.738
       }
      }
     }
@@ -2624,6 +2732,28 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 12.497 -0.477 -59.333
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.038 0
+       angleX -0.545
+       angleZ 8.88
+      }
+     }
+    }
+    {
+     coords -36.434 2.017 -7.631
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.108 0
+       angleX 0.834
+       angleZ 6.912
+      }
+     }
+    }
    }
   }
  }
@@ -2652,18 +2782,6 @@ $grp GenericEntity {
        coords 0 -0.213 0
        angleX -4.583
        angleZ -5.65
-      }
-     }
-    }
-    Gravette_Fuel {
-     coords -66.678 -5.681 -5.444
-     angleY 17.8
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.06 0
-       angleX 3.778
-       angleZ -6.376
       }
      }
     }
@@ -2716,6 +2834,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 3.039 2.745 49.08
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.562 0
+       angleX 2.078
+       angleZ -5.775
+      }
+     }
+    }
    }
   }
  }
@@ -2745,18 +2874,6 @@ $grp GenericEntity {
        angleX -1.777
        angleY -57.161
        angleZ -2.499
-      }
-     }
-    }
-    Figari_Fuel {
-     coords -226.848 -11.947 128.043
-     angleY 147.073
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 -0.037 0
-       angleX 0.335
-       angleZ -0.518
       }
      }
     }
@@ -2809,6 +2926,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -157.559 -9.382 83.881
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.152 0
+       angleX -1.986
+       angleZ 0.93
+      }
+     }
+    }
    }
   }
  }
@@ -2838,18 +2966,6 @@ $grp GenericEntity {
        angleX -4.016
        angleY -171.738
        angleZ -0.133
-      }
-     }
-    }
-    EntreDeux_Fuel {
-     coords 135.052 1.268 73.765
-     angleY -42.215
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.135 0
-       angleX 5.912
-       angleZ 2.568
       }
      }
     }
@@ -2902,6 +3018,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 94.637 4.766 140.954
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.054 0
+       angleX 0.084
+       angleZ 5.135
+      }
+     }
+    }
    }
   }
  }
@@ -2931,19 +3058,6 @@ $grp GenericEntity {
        angleX 1.706
        angleY -179.615
        angleZ -2.095
-      }
-     }
-    }
-    Duras_Fuel {
-     coords -2.352 -0.558 10.057
-     angleY 155.569
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.055 0
-       angleX 2.795
-       angleY -175.889
-       angleZ -0.373
       }
      }
     }
@@ -2995,6 +3109,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 11.677 -2.838 -94.494
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.021 0
+       angleX 4.152
+       angleZ -3.372
+      }
+     }
+    }
    }
   }
  }
@@ -3027,19 +3152,6 @@ $grp GenericEntity {
       }
      }
     }
-    Chotain_Fuel {
-     coords -153.967 4.622 72.432
-     angleY -121.685
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.93 0
-       angleX 1.874
-       angleY 0.019
-       angleZ -8.293
-      }
-     }
-    }
     Chotain_HQ {
      coords -108.577 2.114 52.426
      angleY -33.891
@@ -3059,9 +3171,9 @@ $grp GenericEntity {
       StaticModelEntity {
        ID "52E8C3643526D54D"
        coords 0 0.046 0
-       angleX 5.714
-       angleY -95.062
-       angleZ 4.217
+       angleX 3.037
+       angleY -94.772
+       angleZ -6.144
       }
      }
     }
@@ -3074,18 +3186,6 @@ $grp GenericEntity {
        coords 0 0.187 0
        angleX 4.281
        angleZ 0.035
-      }
-     }
-    }
-    ChotainHarbor_Fuel {
-     coords 378.035 -110.883 694.13
-     angleY -19.923
-     {
-      StaticModelEntity {
-       ID "52E8C3643526D54D"
-       coords 0 0.014 0
-       angleX -0.882
-       angleZ 1.463
       }
      }
     }
@@ -3135,6 +3235,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords -146.175 1.698 30.953
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 0.03 0
+       angleX 2.76
+       angleZ 3.762
+      }
+     }
+    }
    }
   }
  }
@@ -3174,6 +3285,17 @@ $grp GenericEntity {
       }
      }
     }
+    {
+     coords 25.032 -0.032 -11.183
+     {
+      StaticModelEntity {
+       ID "52E8C3643526D54D"
+       coords 0 -0.391 0
+       angleX 1.956
+       angleZ -4.229
+      }
+     }
+    }
    }
   }
  }
@@ -3210,12 +3332,12 @@ $grp GenericEntity {
      }
     }
     StartingPos01_HQ {
-     coords -0.169 -0.001 0.06
+     coords -0.169 0 0.06
      angleY -155.805
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords -0.002 0.096 0.005
+       coords -0.002 0.095 0.005
        angleX 2.191
        angleZ 2.211
       }
@@ -3405,7 +3527,7 @@ $grp GenericEntity {
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
-       coords -0.007 0.074 -0.001
+       coords -0.007 0.073 -0.001
        angleX -0.992
        angleZ 5.453
       }
@@ -3495,13 +3617,13 @@ $grp GenericEntity {
      }
     }
     StartingPos04_HQ {
-     coords -0.168 0.001 0.058
+     coords -0.168 0.001 0.057
      angleY -155.806
      {
       StaticModelEntity {
        ID "52E8C3643526D54D"
        coords -0.001 0.03 -0.002
-       angleX -2.672
+       angleX -2.671
        angleZ 2.46
       }
      }
@@ -3552,6 +3674,444 @@ $grp GenericEntity {
        angleX -2.693
        angleZ 3.975
       }
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos05 {
+  coords 9902.314 296.245 2574.217
+  angleY 48.206
+  {
+   SCR_SiteSlotEntity StartingPos05_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 3.313 -2.681 -0.64
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 0.144 0
+      angleX -12.149
+      angleZ 2.384
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos07 {
+  coords 8360.193 238.162 4777.269
+  angleX -3.105
+  angleY -108.616
+  angleZ 1.988
+  {
+   SCR_SiteSlotEntity StartingPos07_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 1.734 0.181 3.836
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 -0.015 -0.001
+      angleX 1.61
+      angleZ 2.408
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos09 {
+  coords 7548.5 6.052 6054.194
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos09_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.844 -0.36 0.548
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.003 0.076 -0.004
+      angleX 2.797
+      angleZ -0.084
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos10 {
+  coords 7278.354 45.003 7734.357
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos10_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 77.563 -5.415 -34.789
+    angleY -56.841
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0.001 0.017 0
+      angleX 0.13
+      angleZ 6.95
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos11 {
+  coords 5469.586 1.031 8762.344
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos11_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.853 -0.165 0.56
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.002 0.049 -0.003
+      angleX -0.928
+      angleZ -0.173
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos12 {
+  coords 5385.513 42.421 11060.404
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos12_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.85 -0.26 0.553
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.001 0.031 -0.002
+      angleX 2.303
+      angleZ -0.294
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos13 {
+  coords 4630.339 9.753 11564.571
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos13_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.852 -0.207 0.554
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0.001 -0.023 0.001
+      angleX -6.314
+      angleZ -7.62
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos14 {
+  coords 4178.079 18.757 9106.356
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos14_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.866 0.035 0.562
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.004 0.117 -0.006
+      angleX -0.26
+      angleZ 5.089
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos15 {
+  coords 3199.097 6.818 7140.74
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos15_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.871 0.131 0.565
+    angleY 17.031
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 -0.002 0
+      angleX 1.435
+      angleZ -5.792
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos16 {
+  coords 2115.013 1.257 6648.484
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos16_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 0.003 -0.027 0.562
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.019 0.538 -0.029
+      angleX -0.461
+      angleZ 0.034
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos17 {
+  coords 2484.29 83.075 6092.028
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos17_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 0.932 0.389 1.127
+    angleY -28.532
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0.002 0.027 0
+      angleX 0.768
+      angleZ -2.096
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos18 {
+  coords 1886.398 71.114 5070.859
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos18_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.852 -0.221 0.554
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.004 0.105 -0.006
+      angleX -6.28
+      angleZ -4.855
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos19 {
+  coords 2491.843 10.192 4241.037
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos19_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.867 0.038 0.563
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 -0.009 0
+      angleX -0.072
+      angleZ -0.099
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos20 {
+  coords 3778.133 122.468 5411.218
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos20_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.855 -0.172 0.557
+    angleY -37.029
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0.002 0.027 0
+      angleX 2.689
+      angleZ -1.534
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos21 {
+  coords 5654.7 40.372 4212.437
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos21_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.84 -0.481 0.549
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 0 0
+      angleX 2.177
+      angleZ -6.153
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos22 {
+  coords 9204.55 203.722 1158.873
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos22_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.788 -1.435 0.518
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.003 0.078 -0.004
+      angleX -0.464
+      angleZ -6.097
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos23 {
+  coords 6439.336 106.676 5939.54
+  angleX 1.935
+  angleY 45.664
+  angleZ -3.138
+  {
+   SCR_SiteSlotEntity StartingPos23_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.867 0.007 0.565
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.002 0.047 -0.003
+      angleX -9.699
+      angleZ -2.217
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos24 {
+  coords 6582.334 5.991 2350.123
+  angleX 0.717
+  angleY 25.24
+  angleZ -3.616
+  {
+   SCR_SiteSlotEntity StartingPos24_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.877 0.113 0.557
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0.003 -0.065 0.002
+      angleX -1.234
+      angleZ 6.562
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos25 {
+  coords 3322.46 8.712 3507.858
+  angleX 0.717
+  angleY 25.24
+  angleZ -3.616
+  {
+   SCR_SiteSlotEntity StartingPos25_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.868 -0.041 0.554
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.001 0.025 -0.001
+      angleX -3.143
+      angleZ 0.818
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos26 {
+  coords 6336.871 75.707 8453.755
+  angleX 0.717
+  angleY 25.24
+  angleZ -3.616
+  {
+   SCR_SiteSlotEntity StartingPos26_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.861 -0.15 0.553
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.002 0.035 -0.001
+      angleX 0.917
+      angleZ 2.088
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos27 {
+  coords 5419.95 28.316 9386.877
+  angleX 0.717
+  angleY 25.24
+  angleZ -3.616
+  {
+   SCR_SiteSlotEntity StartingPos27_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.881 0.174 0.557
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords -0.004 0.078 -0.003
+      angleX -2.122
+      angleZ 6.037
+     }
+    }
+   }
+  }
+ }
+ CampaignSlots_StartingPos28 {
+  coords 5803.448 1.395 9556.405
+  angleX 0.717
+  angleY 25.24
+  angleZ -3.616
+  {
+   SCR_SiteSlotEntity StartingPos28_HQ : "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et" {
+    coords 2.866 -0.068 0.554
+    angleY -155.806
+    {
+     StaticModelEntity {
+      ID "52E8C3643526D54D"
+      coords 0 0.006 0
+      angleX 0.226
+      angleZ 1.373
      }
     }
    }

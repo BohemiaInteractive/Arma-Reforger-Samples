@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{511DF2B2877B938B}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Medium_US_inherited.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

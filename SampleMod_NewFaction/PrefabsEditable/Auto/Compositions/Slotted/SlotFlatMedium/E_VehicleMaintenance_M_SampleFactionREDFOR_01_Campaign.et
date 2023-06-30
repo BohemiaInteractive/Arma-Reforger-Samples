@@ -1,0 +1,13 @@
+GenericEntity : "{88CA457F762112FE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_USSR_01_Campaign.et" {
+ ID "59DA795A6D5E9695"
+ components {
+  SCR_EditableEntityComponent "{5CC4E26C8796C07F}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "SampleFactionREDFOR"
+    m_aAutoLabels {
+     14
+    }
+   }
+  }
+ }
+}
