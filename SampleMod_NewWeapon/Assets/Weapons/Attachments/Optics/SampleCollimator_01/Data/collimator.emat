@@ -11,19 +11,23 @@ MatPBRBasic {
    ShiftU 0
    ShiftV 0
    Refs {
-   "ShiftU" "SCR_CollimatorControllerComponent.m_fUCoord"
-   "ShiftV" "SCR_CollimatorControllerComponent.m_fVCoord"
-   } 
+    "ShiftU"
+    "SCR_CollimatorControllerComponent.m_fUCoord"
+    "ShiftV"
+    "SCR_CollimatorControllerComponent.m_fVCoord"
+   }
   }
   TCModScale "{5D60B8B11F689A05}" {
-    ScaleU 1
-    ScaleV 1
-    CenterU 0.5
-    CenterV 0.5
-    Refs {
-      "ScaleU" "SCR_CollimatorControllerComponent.m_fUScale"
-      "ScaleV" "SCR_CollimatorControllerComponent.m_fVScale"
-    }
+   CenterU 0.5
+   CenterV 0.5
+   ScaleU 1
+   ScaleV 1
+   Refs {
+    "ScaleU"
+    "SCR_CollimatorControllerComponent.m_fUScale"
+    "ScaleV"
+    "SCR_CollimatorControllerComponent.m_fVScale"
+   }
   }
  }
  AlphaTest 0.088

@@ -7,10 +7,12 @@ GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_
      PivotID "socket_wing_01"
      Angles 0 0 0
      Prefab "{6861905C52805C1A}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Wing.et"
+     DisablePhysicsInteraction 0
     }
     EntitySlotInfo Wing_R {
      PivotID "socket_wing_02"
      Prefab "{6861905C52805C1A}Prefabs/Props/Military/Camps/PortableDesk_01_Base_Wing.et"
+     DisablePhysicsInteraction 0
     }
     EntitySlotInfo Lid_1 {
      PivotID "socket_lid_01"

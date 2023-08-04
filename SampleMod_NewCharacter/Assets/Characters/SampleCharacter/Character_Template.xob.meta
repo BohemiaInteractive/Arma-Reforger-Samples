@@ -22,8 +22,74 @@ MetaFileClass {
      AssignedMaterial "{9516284630B6C716}Assets/Characters/SampleCharacter/data/Basebody_01_Male_Body_wound.emat"
     }
    }
+   MeshParams {
+    MeshParam Basebody_ArmUpper_L {
+    }
+    MeshParam Basebody_ArmUpper_L_wound {
+    }
+    MeshParam Basebody_ArmUpper_R {
+    }
+    MeshParam Basebody_ArmUpper_R_wound {
+    }
+    MeshParam Basebody_Arm_L {
+    }
+    MeshParam Basebody_Arm_L_wound {
+    }
+    MeshParam Basebody_Arm_R {
+    }
+    MeshParam Basebody_Arm_R_wound {
+    }
+    MeshParam Basebody_CalfLower_L {
+    }
+    MeshParam Basebody_CalfLower_L_wound {
+    }
+    MeshParam Basebody_CalfLower_R {
+    }
+    MeshParam Basebody_CalfLower_R_wound {
+    }
+    MeshParam Basebody_Calf_L {
+    }
+    MeshParam Basebody_Calf_L_wound {
+    }
+    MeshParam Basebody_Calf_R {
+    }
+    MeshParam Basebody_Calf_R_wound {
+    }
+    MeshParam Basebody_Foot_L {
+    }
+    MeshParam Basebody_Foot_L_wound {
+    }
+    MeshParam Basebody_Foot_R {
+    }
+    MeshParam Basebody_Foot_R_wound {
+    }
+    MeshParam Basebody_Groin {
+    }
+    MeshParam Basebody_Groin_wound {
+    }
+    MeshParam Basebody_Hand_L {
+    }
+    MeshParam Basebody_Hand_L_wound {
+    }
+    MeshParam Basebody_Hand_R {
+    }
+    MeshParam Basebody_Hand_R_wound {
+    }
+    MeshParam Basebody_Leg_L {
+    }
+    MeshParam Basebody_Leg_L_wound {
+    }
+    MeshParam Basebody_Leg_R {
+    }
+    MeshParam Basebody_Leg_R_wound {
+    }
+    MeshParam Basebody_Torso {
+    }
+    MeshParam Basebody_Torso_wound {
+    }
+   }
    GeometryParams {
-    GeometryParam UTM_Arm_L {
+    GeometryParam UCS_Arm_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -31,7 +97,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Arm_R {
+    GeometryParam UCS_Arm_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -39,7 +105,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Belly {
+    GeometryParam UCS_Calf_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -47,7 +113,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_ButtockArea_L {
+    GeometryParam UCS_Calf_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -55,7 +121,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_ButtockArea_R {
+    GeometryParam UCS_Forearm_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -63,7 +129,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Buttocks_L {
+    GeometryParam UCS_Forearm_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -71,7 +137,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Buttocks_R {
+    GeometryParam UCS_Neck {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -79,7 +145,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Calf_L {
+    GeometryParam UCS_Thigh_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -87,7 +153,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Calf_R {
+    GeometryParam UCS_Thigh_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -95,7 +161,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Chest {
+    GeometryParam UCX_Belly {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -103,7 +169,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Foot_L {
+    GeometryParam UCX_Buttocks {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -111,7 +177,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Foot_R {
+    GeometryParam UCX_Chest {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -119,7 +185,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Forearm_L {
+    GeometryParam UCX_Foot_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -127,7 +193,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Forearm_R {
+    GeometryParam UCX_Foot_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -135,7 +201,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Hand_L {
+    GeometryParam UCX_Hand_L {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -143,7 +209,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Hand_R {
+    GeometryParam UCX_Hand_R {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
@@ -151,151 +217,7 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_Head {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Hips {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Knee_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Knee_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Neck {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_NeckArea_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_NeckArea_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Ribcage {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Shin_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Shin_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Shoulder_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Shoulder_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_ShoulderArea_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_ShoulderArea_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Thigh_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Thigh_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Toe_L {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Toe_R {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Waist {
+    GeometryParam UCX_Head {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{DA94EA1EF2914EB7}Common/Materials/Game/flesh.gamemat"

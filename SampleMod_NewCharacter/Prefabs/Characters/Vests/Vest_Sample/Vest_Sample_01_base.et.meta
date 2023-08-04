@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_6B2/Vest_Sample_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

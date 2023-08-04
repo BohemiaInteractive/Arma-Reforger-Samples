@@ -42,9 +42,6 @@ TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeath
  "Internal subvariant 0" 0
  "Internal subvariant 1" 0
 }
-RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
- coords 118.86 2.001 135.366
-}
 ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
  coords 115.888 2.001 149.297
 }

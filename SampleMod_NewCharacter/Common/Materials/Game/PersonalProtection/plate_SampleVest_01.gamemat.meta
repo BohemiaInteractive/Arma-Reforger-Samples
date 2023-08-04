@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

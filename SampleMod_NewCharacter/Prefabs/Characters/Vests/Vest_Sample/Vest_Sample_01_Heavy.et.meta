@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C56F92DAD17C2C91}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_Heavy.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

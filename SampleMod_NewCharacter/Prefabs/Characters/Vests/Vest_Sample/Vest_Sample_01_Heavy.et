@@ -1,0 +1,34 @@
+GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5DEA801DB692FA3E}" {
+   Attributes SCR_ItemAttributeCollection "{5DEA801DB692FA33}" {
+    ItemDisplayName UIInfo "{5DEA801DB692FA2D}" {
+     Name "Sample Vest (Heavy)"
+     Description "Sample Vest with IV class of NIJ protection"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DEA801DB692FA2A}" {
+      CameraDistanceToItem 4.9
+     }
+     SCR_ArmoredClothItemData "{5DEA801DB692FA27}" {
+      m_aProtectedHitZones + {
+       "LArm" "RArm"
+      }
+      m_eProtection CUSTOM_04
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Addon {
+     Prefab "{C37ED37F67F49061}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_Addon.et"
+     InheritParentSkeleton 1
+     ActivatePhysicsOnDetaching 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+ }
+}

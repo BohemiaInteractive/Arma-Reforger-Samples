@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5DEA80D04E960731}" {
+     SourceMaterial "SampleVest_01"
+     AssignedMaterial "{E568A873DE483899}Assets/Characters/Vests/Vest_Sample/Data/SampleVest_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Object {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Item {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5DEA80D04E8F3205}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DEA80D04E8F31EA}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DEA80D04E8F302F}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DEA80D04E8F307C}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DEA80D04E8F3048}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

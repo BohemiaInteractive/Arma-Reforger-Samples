@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1F9B1EF71C02CCF6}Common/Materials/Game/PersonalProtection/hard_aramid_10mm.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

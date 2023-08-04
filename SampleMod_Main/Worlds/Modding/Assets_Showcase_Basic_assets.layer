@@ -55,6 +55,18 @@ GenericEntity : "{4D21D0074457A070}Prefabs/Props/Military/Camps/PortableDesk_01_
   RigidBody "{5872F0EB7DFB5A9D}" {
    Static 0
   }
+  SlotManagerComponent "{55BCB445DA7D6E35}" {
+   Slots {
+    EntitySlotInfo Wing_L {
+     ChildPivotID "snap_wing"
+     DisablePhysicsInteraction 0
+    }
+    EntitySlotInfo Wing_R {
+     ChildPivotID "snap_wing"
+     DisablePhysicsInteraction 0
+    }
+   }
+  }
  }
  coords 123.932 1.967 140.958
  angleY -140.776
@@ -87,7 +99,7 @@ GenericEntity : "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_
    Static 0
   }
  }
- coords 125.256 1.967 133.786
+ coords 125.256 1.996 133.786
  angleY -67.198
 }
 GenericEntity : "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01_base.et" {

@@ -26,7 +26,7 @@ SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
  angleY 120.713
 }
 SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
- coords 123.472 2.739 132.154
+ coords 119.566 2 125.407
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{571AEEE48823548E}" {
    m_sLoadoutResource "{18E4A0EE45C47165}Prefabs/Characters/OPFOR/USSR_Army/Character_SampleWeapon.et"

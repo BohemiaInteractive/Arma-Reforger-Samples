@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{A68D7A0E8123DAD2}Assets/Characters/Vests/Vest_Sample/Data/SampleVest_01_BCR.edds"
+ NMOMap "{9E55C19C5854884C}Assets/Characters/Vests/Vest_Sample/Data/SampleVest_01_NMO.edds"
+}

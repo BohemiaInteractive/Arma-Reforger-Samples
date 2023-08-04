@@ -18,9 +18,7 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
       AttachmentType AttachmentOpticsRIS1913 "{5D18AE55F0055EEF}" {
       }
      }
-     CharacterModifierAttributes "{52A87A377BE3739F}" {
-      ADSSpeedLimit 1.5
-      SpeedLimitHighready 1.7
+     CharacterModifierAttributes "{5D0CC83435B5585C}" {
      }
     }
    }
@@ -34,7 +32,6 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
   SCR_2DPIPSightsComponent "{5D0CC83435B55855}" {
    SightsPosition PointInfo "{584E83B41FD2B6D5}" {
     PivotID "eye"
-    Offset 0 0 0
    }
    SightsRanges {
     SightRangeInfo "{5B02A7682F75C02C}" {
@@ -44,11 +41,10 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
    SightsFOVInfo SCR_SightsZoomFOVInfo "{584E83B41719648C}" {
     m_fBaseZoom 4
     m_fZoomMax 4
-    m_fInterpolationSpeed 50
+    m_fInterpolationSpeed 6
    }
    SightsPointFront PointInfo "{584E83BC7A32CEE7}" {
     PivotID "optic_front"
-    Offset 0 0 0
    }
    SightsPointRear PointInfo "{584E83BC7F8BAFF3}" {
     PivotID "optic_rear"
@@ -61,7 +57,10 @@ GenericEntity : "{966B4E5523D2F166}Prefabs/Weapons/Attachments/Optics/WeaponOpti
    m_bHasIllumination 1
    m_cReticleTextureIllumination 0 0.502 0.125 1
    m_fMagnification 4
-   m_fReticleAngularSize 2.801
+   m_fReticleAngularSize 2.2
+   m_fReticlePortion 0.96
+   m_fReticleBaseZoom 4
+   m_fObjectiveFov 4.9
    m_eZeroingType EPZ_NONE
    m_fReticleOffsetX 0.001
    m_fReticleOffsetY 0.06863

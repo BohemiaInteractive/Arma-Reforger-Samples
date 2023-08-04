@@ -8,9 +8,13 @@ MetaFileClass {
      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
     }
    }
+   MeshParams {
+    MeshParam model {
+    }
+   }
    GeometryParams {
     GeometryParam UBX_coll1 {
-     LayerPreset "Main"
+     LayerPreset "BuildingFireView"
      SurfaceProperties {
       "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
      }

@@ -55,7 +55,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    }
    SightsPointRear PointInfo "{5CF0F0B7D74F3677}" {
     PivotID "eye"
-    Offset 0 0 0.0977
+    Offset 0 0 0.1873
    }
    SightsPriority 1
    SoundInt 10001
@@ -84,7 +84,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     BaseCollimatorReticleInfo "{5DBA61F07081D6A9}" {
     }
    }
-   m_fDaylightBrightness 15
+   m_fDaylightBrightness 12
   }
   ActionsManagerComponent "{5284E0EFF569AD07}" {
    ActionContexts {

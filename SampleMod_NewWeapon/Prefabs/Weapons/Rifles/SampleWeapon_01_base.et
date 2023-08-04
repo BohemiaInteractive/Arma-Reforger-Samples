@@ -10,6 +10,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
    Object "{CEF64051BB82B9EB}Assets/Weapons/Rifles/SampleWeapon_01/SampleWeapon_01.xob"
   }
   RigidBody "{52D2E00CD210FEB6}" {
+   Mass 4
    ModelGeometry 1
   }
   SCR_MeleeWeaponProperties "{52D2E00CDA6E8F6B}" {
@@ -31,6 +32,17 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AnimationIKPose "{141EE64890AF76FA}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_ik.anm"
     }
     CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{5DC8939FFDB55DD2}" {
+        "Point info" DeploymentPointInfo deploy {
+         PivotID "Scene_Root"
+         Offset 0 0.0246 0.2555
+        }
+        StabilizationSize 0.05 0.1 0.3
+       }
+      }
+     }
      PreviewRenderAttributes "{52BAB5E48C906DB8}" {
       CameraDistanceToItem 0.8
      }
@@ -106,6 +118,21 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      ShowInInspection 1
     }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{52D2E00E3899C5E4}" {
+       Range 0 300
+      }
+     }
+     SightsPointFront PointInfo "{5890FCB70A5D6244}" {
+     }
+     SightsPointRear PointInfo "{5890FCB70851D7BB}" {
+     }
+     SightsSwitchSkip 1
+    }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
       AttachmentSlotComponent "{4E2B66CBA589F625}" {
@@ -145,6 +172,10 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      MagazineWell MagazineWell65x39C_SampleWeapon "{5464E0EAAF7815B4}" {
      }
      WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Lower Translation" 0.03 0 0
+       "Lower Rotation" -12 -8 -10
+      }
       RecoilWeaponAimModifier "{55349E9229B55D9A}" {
        LinearData RecoilData "{58789524E765774D}" {
         "Curve X" {
@@ -192,31 +223,24 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       }
       ZeroingWeaponAimModifier "{55349E9229B55D9C}" {
       }
-      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
-       "Lower Translation" 0.03 0 0
-       "Lower Rotation" -12 -8 -10
-      }
      }
      UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
       m_MagIndicator SCR_MagazineIndicatorConfiguration "{565ECB55D6F6D63D}" {
       }
      }
-     MagazineTemplate "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et"
-    }
-    SightsComponent "{BB23A637957CFFF8}" {
-     SightsPosition PointInfo "{BB23A63796688E69}" {
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      PivotID "slot_magazine"
+      Offset 0 0 -0.0319
+      Angles 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo rht {
+      PivotID "snap_hand_right"
       Offset 0 0 0
      }
-     SightsRanges {
-      SightRangeInfo "{52D2E00E3899C5E4}" {
-       Range 0 300
-      }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo bt {
+      Offset 0 0.043 -0.3274
      }
-     SightsPointFront PointInfo "{5890FCB70A5D6244}" {
-     }
-     SightsPointRear PointInfo "{5890FCB70851D7BB}" {
-     }
-     SightsSwitchSkip 1
+     MagazineTemplate "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et"
     }
     WeaponAnimationComponent "{52D2E009E7CB3826}" {
      AnimGraph "{4E416478E4AB266B}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.agr"
@@ -230,31 +254,35 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      BindWithInjection 1
     }
    }
+   obstructionTestAddedLength -0.09
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
     Name "Sample Weapon"
    }
   }
   ActionsManagerComponent "{A29AE67FF4D82B0F}" {
    ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0079 0.1154
+     }
+    }
     UserActionContext "{5956E32BAAADE657}" {
      Position PointInfo "{5956E329E6B11261}" {
       Offset 0 0.0236 0.2203
      }
+     Radius 0.05
     }
     UserActionContext "{5A1E58F7B04F9BE5}" {
      Position PointInfo "{5AF0F8499684B5E4}" {
       Offset 0 -0.051 -0.149
      }
+     Radius 0.07
     }
     UserActionContext "{5A1E58F7AED270D4}" {
      Position PointInfo "{5AF0F849901AF024}" {
       Offset 0 0.024 -0.0133
      }
-    }
-    UserActionContext "{5086F9ADF588DCA4}" {
-     Position PointInfo "{5086F9ADE97650DF}" {
-      Offset 0 0.0079 0.03
-     }
+     Radius 0.05
     }
     UserActionContext "{5AF896EFFE8D407A}" {
      ContextName "optic"
@@ -262,35 +290,35 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       PivotID "slot_optics"
       Offset 0 0 0.0687
      }
-     Radius 0.1
+     Radius 0.08
     }
     UserActionContext "{5D16CD572EBFE7C3}" {
      ContextName "ris_right"
      Position PointInfo "{5D16CD572137E037}" {
       PivotID "slot_ris_right"
      }
-     Radius 0.05
+     Radius 0.03
     }
     UserActionContext "{5D16CD57294C5019}" {
      ContextName "ris_left"
      Position PointInfo "{5D16CD571FA0A3AC}" {
       PivotID "slot_ris_left"
      }
-     Radius 0.05
+     Radius 0.03
     }
     UserActionContext "{5D16CD5729B8BD31}" {
      ContextName "ironsight_front"
      Position PointInfo "{5D16CD5716C44FEF}" {
       PivotID "slot_ironsight_front"
      }
-     Radius 0.05
+     Radius 0.03
     }
     UserActionContext "{5D16CD57285E8439}" {
      ContextName "ironsight_rear"
      Position PointInfo "{5D16CD5709D41E82}" {
       PivotID "slot_ironsight_rear"
      }
-     Radius 0.05
+     Radius 0.03
     }
    }
   }

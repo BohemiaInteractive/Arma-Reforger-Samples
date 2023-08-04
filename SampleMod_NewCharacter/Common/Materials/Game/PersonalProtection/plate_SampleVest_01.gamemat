@@ -1,0 +1,16 @@
+GameMaterial : "{A11A27E71B4CFD76}Common/Materials/Game/Core/hard_aramid_base.gamemat" {
+ SoundInfo SoundInfo "{5D6CD1C18594314C}" {
+ }
+ HitEffectInfo HitEffectInfo "{5D6CD1C18594314A}" {
+  DecalMaterial "{D09E755049807DD9}Assets/Decals/Fabric/Impact/Data/Decal_Impact_Kevlar_01.emat"
+  DecalScale 0.4
+ }
+ BallisticInfo BallisticInfo "{5D6CD1C185943177}" {
+  Density 2.5
+  KineticPenetrationResistance 2
+  ThicknessOverride Value
+  Thickness 24.9
+ }
+ ParticleEffectInfo ParticleEffectInfo "{5DF67756C748A2F3}" {
+ }
+}

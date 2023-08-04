@@ -1,0 +1,62 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  ClothNodeStorageComponent "{5DEA801DB692FA3E}" {
+   Attributes SCR_ItemAttributeCollection "{5DEA801DB692FA33}" {
+    ItemDisplayName UIInfo "{5DEA801DB692FA2D}" {
+     Name "Sample Vest"
+     Description "Sample Vest with IV class of NIJ protection"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DEA801DB692FA2E}" {
+     Weight 4.2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DEA801DB692FA2A}" {
+      CameraDistanceToItem 3.7
+      FOV 10
+      PreviewWornModel 1
+     }
+     SCR_ArmoredClothItemData "{5DEA801DB692FA27}" {
+      m_aProtectedHitZones {
+       "Chest" "Abdomen" "Neck"
+      }
+      m_aProtectedDamageTypes {
+       3 5 4 2
+      }
+      m_eProtection CUSTOM_04
+     }
+    }
+    m_Size SLOT_2x2
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   ModelGeometry 1
+   Static 1
+   Kinematic 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType LoadoutArmoredVestSlotArea "{5A6ACB3232E440C7}" {
+   }
+   WornModel "{E79E09C2BC2BB6F2}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01.xob"
+   ItemModel "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   DepthFront 0.03
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+   ActionContexts {
+    UserActionContext "{5315328F7AEDED0B}" {
+     Position PointInfo "{5315328F7AEDED30}" {
+      Offset 0 0 0
+     }
+    }
+   }
+  }
+ }
+}
