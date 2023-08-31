@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C37ED37F67F49061}Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SampleVest_01_Addon.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

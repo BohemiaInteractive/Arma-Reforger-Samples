@@ -15,7 +15,6 @@ GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sam
       m_aProtectedHitZones + {
        "LArm" "RArm"
       }
-      m_eProtection CUSTOM_04
      }
     }
    }
@@ -23,7 +22,7 @@ GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sam
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo Addon {
-     Prefab "{C37ED37F67F49061}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_Addon.et"
+     Prefab "{C37ED37F67F49061}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_Addon.et"
      InheritParentSkeleton 1
      ActivatePhysicsOnDetaching 1
      DeactivatePhysicsOnAtaching 1

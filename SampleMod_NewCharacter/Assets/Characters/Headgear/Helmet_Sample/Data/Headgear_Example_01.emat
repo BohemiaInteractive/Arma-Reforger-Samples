@@ -1,0 +1,8 @@
+MatPBRBasic {
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ RoughnessScale 1.191
+ BCRMap "{EF74C522F18EFB64}Assets/Characters/SampleCharacter/data/Headgear_Example_01_BCR.edds"
+ OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
+ NMOMap "{D7AC7EB028F9A9FA}Assets/Characters/SampleCharacter/data/Headgear_Example_01_NMO.edds"
+}

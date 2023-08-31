@@ -1,4 +1,4 @@
-GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+GenericEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" {
  ID "50D8C49B3558F152"
  components {
   ClothNodeStorageComponent "{5DEA801DB692FA3E}" {
@@ -8,9 +8,9 @@ GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
      Description "Sample Vest with IV class of NIJ protection"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{5DEA801DB692FA2E}" {
-     Weight 4.2
+     Weight 10
      SizeSetupStrategy Manual
-     ItemDimensions 20 20 20
+     ItemDimensions 55 35 5
      ItemVolume 5000
     }
     CustomAttributes {
@@ -26,7 +26,7 @@ GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
       m_aProtectedDamageTypes {
        3 5 4 2
       }
-      m_eProtection CUSTOM_04
+      m_eProtection TYPE_IIA
      }
     }
     m_Size SLOT_2x2
@@ -36,13 +36,9 @@ GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
    Object "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
   }
   RigidBody "{5312D798AF7A9E28}" {
-   ModelGeometry 1
-   Static 1
    Kinematic 1
   }
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
-   AreaType LoadoutArmoredVestSlotArea "{5A6ACB3232E440C7}" {
-   }
    WornModel "{E79E09C2BC2BB6F2}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01.xob"
    ItemModel "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
    PhysicsOnWearEnabled 1
@@ -50,13 +46,6 @@ GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
    DepthFront 0.03
   }
   ActionsManagerComponent "{53153A1F9AB97FF6}" {
-   ActionContexts {
-    UserActionContext "{5315328F7AEDED0B}" {
-     Position PointInfo "{5315328F7AEDED30}" {
-      Offset 0 0 0
-     }
-    }
-   }
   }
  }
 }

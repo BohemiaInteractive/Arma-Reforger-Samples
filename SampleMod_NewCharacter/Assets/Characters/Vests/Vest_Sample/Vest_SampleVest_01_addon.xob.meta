@@ -22,6 +22,38 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
+    GeometryParam UTM_Armor1 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Armor2 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Armor3 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Armor4 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
    }
    Common TXOCommonClass "{5DF6B30AB0101702}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }

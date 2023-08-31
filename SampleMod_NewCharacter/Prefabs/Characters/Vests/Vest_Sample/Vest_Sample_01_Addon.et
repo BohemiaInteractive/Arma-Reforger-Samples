@@ -1,0 +1,53 @@
+GenericEntity : "{09DEA8153A0C312D}Prefabs/Characters/Core/EquipmentPart_Base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Object "{7D422D9B5ED4FC4C}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_addon_item.xob"
+  }
+  RigidBody "{51ECC3F9B51DDE22}" {
+   Static 1
+  }
+  SCR_EquipmentStorageComponent "{5222CB03D1147687}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB03CBA95936}" {
+    ItemDisplayName UIInfo "{5222CB03C0C44D6C}" {
+     Name "Sample Vest (Addon)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD25D8B867D}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1
+      FOV 10
+      PreviewModel "{D83B1637391C3C96}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_addon.xob"
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1
+   MaxCumulativeVolume 200
+   MaxItemSize 5 5 5
+  }
+  SCR_SoundDataComponent "{5B18D20CB58D1DD7}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{927BE973F8A2D7FA}Sounds/Items/_SharedData/PickUp/Items_PickUp_Cloth.acp"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D7267AE8BC4A}" : "{2B73E7D11406DC4D}Prefabs/Characters/Core/BaseLoadoutCloth_Base.ct" {
+   WornModel "{D83B1637391C3C96}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_addon.xob"
+   ItemModel "{7D422D9B5ED4FC4C}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_addon_item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+  }
+ }
+ coords 0 0 0
+}

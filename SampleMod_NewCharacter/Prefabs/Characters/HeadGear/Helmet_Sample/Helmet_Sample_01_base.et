@@ -1,19 +1,54 @@
-GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01.et" {
+GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
  ID "51EEB2C2B64FA646"
  components {
   InventoryItemComponent "{5244E4431E28A759}" {
    Attributes SCR_ItemAttributeCollection "{52C8D60155B2B512}" {
     ItemDisplayName UIInfo "{52C8D6014BB412DD}" {
-     Name "Sample Head Gear"
+     Name "Sample Helmet"
+     Description "Sample helmet providing basic ballistic protection. Helmet includes throat microphone"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52C8D60148D60362}" {
+     Weight 3.5
+     SizeSetupStrategy Manual
+     ItemDimensions 27 25 20
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{56EEADEF0DC2EE48}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.8
+      FOV 10
+     }
     }
    }
   }
   MeshObject "{5112706CD4157AE0}" {
-   Object "{233CB9BFBCDD11A7}Assets/Characters/SampleCharacter/Headgear_Example_item.xob"
+   Object "{233CB9BFBCDD11A7}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample_item.xob"
+  }
+  SCR_SoundDataComponent "{5B18D20B1F8073E0}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{0737072109E39224}Sounds/Items/_SharedData/Drop/Items_Drop_Helmet.acp"
+    }
+   }
   }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
-   WornModel "{2486133257F3E4F3}Assets/Characters/SampleCharacter/Headgear_Example.xob"
-   ItemModel "{233CB9BFBCDD11A7}Assets/Characters/SampleCharacter/Headgear_Example_item.xob"
+   AreaType LoadoutHeadCoverArea "{5A68DCDCE6554A05}" {
+   }
+   WornModel "{2486133257F3E4F3}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample.xob"
+   ItemModel "{233CB9BFBCDD11A7}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample_item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   SoundInt 120
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{5112706CD4157AF3}" {
+     Position PointInfo "{5112706CD4157AF0}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
   }
  }
 }
