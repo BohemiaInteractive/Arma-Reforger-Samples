@@ -901,6 +901,42 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     EntitySlotInfo glass_rr {
      Prefab "{63B101CE8FA7F8EF}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RR.et"
     }
+    EntitySlotInfo ShadowAO {
+     PivotID "v_body"
+     Offset 0 -0.1914 0.0203
+     Angles 90 0 0
+     Prefab "{AFDAD45B988D6AFA}Prefabs/Vehicles/Wheeled/SampleCar_01/VehParts/SampleCar_01_shadow.et"
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     PivotID "v_wheel_l01"
+     Prefab "{02CBBCB9922CA006}Prefabs/Vehicles/Wheeled/SampleCar_01/VehParts/SampleCar_01_wheel.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 0
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     PivotID "v_wheel_l02"
+     Prefab "{02CBBCB9922CA006}Prefabs/Vehicles/Wheeled/SampleCar_01/VehParts/SampleCar_01_wheel.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 2
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     PivotID "v_wheel_r01"
+     Angles 0 180 0
+     Prefab "{02CBBCB9922CA006}Prefabs/Vehicles/Wheeled/SampleCar_01/VehParts/SampleCar_01_wheel.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 1
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     PivotID "v_wheel_r02"
+     Angles 0 180 0
+     Prefab "{02CBBCB9922CA006}Prefabs/Vehicles/Wheeled/SampleCar_01/VehParts/SampleCar_01_wheel.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+     m_iWheelIndex 3
+    }
    }
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
@@ -1053,11 +1089,6 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
    }
    additionalActions {
-    SCR_FuelReceiverUserAction "{555676C2336957D8}" {
-     ParentContextList {
-      "fuel_cap"
-     }
-    }
     SCR_EngineAction "{555676DDCF450808}" {
      ParentContextList {
       "starter_switch"

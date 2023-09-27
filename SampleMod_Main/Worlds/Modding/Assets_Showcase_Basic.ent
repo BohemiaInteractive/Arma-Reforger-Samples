@@ -1,9 +1,3 @@
 SubScene {
  Parent "{950F7FA8E622A07B}Worlds/Modding/Assets_Showcase_Base.ent"
 }
-Layer default {
- Index 0
-}
-Layer assets {
- Index 1
-}

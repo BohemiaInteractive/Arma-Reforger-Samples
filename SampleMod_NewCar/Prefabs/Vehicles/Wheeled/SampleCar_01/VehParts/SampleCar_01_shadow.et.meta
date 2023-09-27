@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AFDAD45B988D6AFA}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/VehParts/SampleCar_01_shadow.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

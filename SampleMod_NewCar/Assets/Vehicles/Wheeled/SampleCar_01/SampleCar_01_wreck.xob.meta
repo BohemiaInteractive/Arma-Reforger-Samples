@@ -1,42 +1,27 @@
 MetaFileClass {
- Name "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
+ Name "{E2AB13F268CA367D}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_wreck.xob"
  Configurations {
   FBXResourceClass PC {
-   SourceFile "SampleCar_01.fbx"
-   MergeMeshes 0
-   ExportSkinning 1
    MaterialAssigns {
-    MaterialAssignClass "{5B0488A48511655E}" {
-     SourceMaterial "SampleCar_01_body"
-     AssignedMaterial "{E567E521FFBAD9A6}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_body.emat"
-    }
-    MaterialAssignClass "{5B0488A485116542}" {
-     SourceMaterial "SampleCar_01_Glass2"
-     AssignedMaterial "{91C739C15824B263}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass2.emat"
-    }
-    MaterialAssignClass "{5B0488A4851165BB}" {
+    MaterialAssignClass "{5E5061C408D9FA28}" {
      SourceMaterial "SampleCar_01_undercarriage"
-     AssignedMaterial "{090526960161DB8E}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage.emat"
+     AssignedMaterial "{8A9427ED54B0A04C}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_wreck.emat"
     }
-    MaterialAssignClass "{5B0488A4851165A5}" {
+    MaterialAssignClass "{5E5061C408D9FA10}" {
+     SourceMaterial "SampleCar_01_body"
+     AssignedMaterial "{AEC152D259A00F03}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_body_wreck.emat"
+    }
+    MaterialAssignClass "{5E5061C408D9FA0C}" {
      SourceMaterial "SampleCar_01_interior_02"
-     AssignedMaterial "{AB7820475F08E45E}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_02.emat"
+     AssignedMaterial "{A8D8FC83FDCC6435}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_02_wreck.emat"
     }
-    MaterialAssignClass "{5B0488A4851165AC}" {
+    MaterialAssignClass "{5E5061C408D9FA08}" {
      SourceMaterial "SampleCar_01_interior_01"
-     AssignedMaterial "{F5900904E0856A51}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01.emat"
+     AssignedMaterial "{5702A1D77D38F473}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_wreck.emat"
     }
    }
    MeshParams {
     MeshParam body {
-    }
-    MeshParam glass2 {
-    }
-    MeshParam interior {
-    }
-    MeshParam interior2 {
-    }
-    MeshParam undercarriage {
     }
    }
    GeometryParams {
@@ -112,6 +97,46 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
+    GeometryParam UCX_MainCol_02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_MT_L01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_MT_L02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_MT_R01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_MT_R02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
     GeometryParam UTM_FG_Body_01 {
      LayerPreset "FireGeo"
      SurfaceProperties {
@@ -123,8 +148,8 @@ MetaFileClass {
     GeometryParam UTM_FG_Body_02 {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
       "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
      }
      Mass 0
      Margin 0
@@ -186,63 +211,25 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UCX_MainCol_02 {
-     LayerPreset "Vehicle"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_L01 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_L02 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_R01 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_R02 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
    }
-   Common TXOCommonClass "{51B4FA36D24B0BA8}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{5E5061C4B5343577}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{51B4FA36D24B1096}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
-   }
-  }
-  FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{51B4FA36D24B19CA}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
-   }
-  }
-  FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{51B4FA36D24B227D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{5E5061C4B534342E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E5061C4B5343403}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E5061C4B534345D}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E5061C4B53434BC}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
   }
  }
 }

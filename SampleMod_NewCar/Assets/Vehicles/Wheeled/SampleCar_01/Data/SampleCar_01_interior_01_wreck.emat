@@ -1,0 +1,16 @@
+MatPBR2Layers {
+ Color 1 1 1 1
+ Diffuse 0.059 0.059 0.059 1
+ SpecularMul 0.312
+ RoughnessScale 3.784
+ MetalnessScale 2.721
+ AOScale 0.405
+ DielectricReflectance 0.07
+ BCRMap "{9BA7217AA4E3A614}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_BCR.edds"
+ NMOMap "{A37F9AE87D94F48A}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_interior_01_NMO.edds"
+ MaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ BCRMap2 "{9B97AA81EF1AAA3C}Assets/_SharedData/Dirt/ST_destruct_rust_BCR.edds"
+ NormalPower2 2.398
+ NMOMap2 "{A34F1113366DF8A2}Assets/_SharedData/Dirt/ST_destruct_rust_NMO.edds"
+ MetalnessScale2 3.17
+}

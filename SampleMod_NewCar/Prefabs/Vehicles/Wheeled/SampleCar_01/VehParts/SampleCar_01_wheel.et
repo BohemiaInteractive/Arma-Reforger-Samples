@@ -1,0 +1,18 @@
+GenericEntity : "{8DB4EEC64B2C8A08}Prefabs/Vehicles/Core/VehicleWheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{A77786B3327E995D}Assets/Vehicles/Wheeled/SampleCar_01/VehParts/Wheels/SampleCar_01_wheel.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_WheelHitZone Wheel : "{47C1960CC52E85C0}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_Offroad.conf" {
+     HZDefault 1
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5E48F99DF73EEE8C}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+  }
+ }
+}

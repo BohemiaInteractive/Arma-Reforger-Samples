@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8A9427ED54B0A04C}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_wreck.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+MatPBR2Layers {
+ BCRMap "{2F3F1DB909FF1B95}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_BCR.edds"
+ NMOMap "{17E7A62BD088490B}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_undercarriage_NMO.edds"
+ MaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ BCRMap2 "{9B97AA81EF1AAA3C}Assets/_SharedData/Dirt/ST_destruct_rust_BCR.edds"
+ BCRMap2UVTransform MatUVTransform "{5E5061C363FC0B67}" {
+  TilingV 3
+ }
+ NormalPower2 1.364
+ NMOMap2 "{A34F1113366DF8A2}Assets/_SharedData/Dirt/ST_destruct_rust_NMO.edds"
+}

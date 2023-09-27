@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{02CBBCB9922CA006}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Wheels/SampleCar_01_wheel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

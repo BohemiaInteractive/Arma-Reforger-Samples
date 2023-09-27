@@ -1,9 +1,0 @@
-Layer default {
- Index 0
-}
-Layer mission {
- Index 1
-}
-Layer blocks {
- Index 2
-}

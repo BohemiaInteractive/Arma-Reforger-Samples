@@ -25,9 +25,9 @@ MetaFileClass {
    }
    GeometryParams {
     GeometryParam UTM_Geometry {
-     LayerPreset "Prop"
+     LayerPreset "ItemFireView"
      SurfaceProperties {
-      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
      }
      Mass 0
      Margin 0

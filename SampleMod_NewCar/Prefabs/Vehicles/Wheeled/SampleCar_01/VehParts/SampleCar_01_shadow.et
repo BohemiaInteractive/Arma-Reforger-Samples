@@ -1,0 +1,11 @@
+DeferredDecalEntity : "{2E838C00E0B47DA5}Prefabs/Vehicles/Core/Vehicle_shadow_base.et" {
+ ID "5C7AF48B23DD1093"
+ coords 1582.828 37.521 2576.428
+ angleX 90
+ angleY 90
+ angleZ -90
+ Box BoundingVolume "{5E489443B2428092}" {
+  Size 3.2 6 2
+ }
+ Material "{803671986C620359}Assets/Vehicles/Wheeled/M998/Data/M998_shadow.emat"
+}

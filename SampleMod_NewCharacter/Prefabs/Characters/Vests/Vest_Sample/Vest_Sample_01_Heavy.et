@@ -5,7 +5,6 @@ GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sam
    Attributes SCR_ItemAttributeCollection "{5DEA801DB692FA33}" {
     ItemDisplayName UIInfo "{5DEA801DB692FA2D}" {
      Name "Sample Vest (Heavy)"
-     Description "Sample Vest with IV class of NIJ protection"
     }
     CustomAttributes {
      PreviewRenderAttributes "{5DEA801DB692FA2A}" {
@@ -24,8 +23,6 @@ GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sam
     LoadoutSlotInfo Addon {
      Prefab "{C37ED37F67F49061}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_Addon.et"
      InheritParentSkeleton 1
-     ActivatePhysicsOnDetaching 1
-     DeactivatePhysicsOnAtaching 1
     }
    }
   }
