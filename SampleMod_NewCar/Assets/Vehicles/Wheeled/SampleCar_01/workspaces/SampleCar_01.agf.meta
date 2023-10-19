@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{27D37E55D16AF1BA}Assets/Vehicles/Wheeled/UAZ469/workspaces/SampleCar_01.agf"
+ Configurations {
+  AnimGraphFileResourceClass PC {
+  }
+  AnimGraphFileResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphFileResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphFileResourceClass PS4 : PC {
+  }
+  AnimGraphFileResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,122 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 1028
+   name "Signal 1"
+   tl 394.546 -820.455
+   res "{D9D4F4C0CDFA95F5}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_trunk.siga"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+ }
+ funcs {
+  RotationSetClass {
+   id 2054
+   name "RotationSet 2054"
+   tl 884.545 -862.727
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 3078
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationMakeClass {
+   id 3078
+   name "RotationMake 3078"
+   tl 660 -814.545
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 1028
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    2054
+   }
+  }
+  BoneClass {
+   id 4102
+   name "Bone 4102"
+   version 0
+   tl 652.727 -1014.545
+   outs {
+    2054
+   }
+   bone "v_trunk"
+  }
+ }
+ model "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   257 129 1
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     0 4 131072 0 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 0 0
+    }
+   }
+  }
+  version 2
+  argsize 5
+ }
+}

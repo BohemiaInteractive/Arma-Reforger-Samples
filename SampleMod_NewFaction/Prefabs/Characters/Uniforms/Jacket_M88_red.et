@@ -21,6 +21,7 @@ GameEntity : "{9F546CCA2582D16F}Prefabs/Characters/Uniforms/Jacket_M88.et" {
   BaseLoadoutClothComponent "{5104869D194C627A}" {
    WornModel "{3AB221033CD6C3FA}Prefabs/Characters/Uniforms/Jacket_M88_Wear_red.et"
    ItemModel "{BCD6BBD65323DD68}Prefabs/Characters/Uniforms/Jacket_M88_item_red.et"
+   DeflatedModel "{7EAD5D19BE7BA3CD}Prefabs/Characters/Uniforms/Jacket_M88_Wear_Deflated_red.et"
   }
  }
 }

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6ECF1A5EDC3EF938}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_trunk.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

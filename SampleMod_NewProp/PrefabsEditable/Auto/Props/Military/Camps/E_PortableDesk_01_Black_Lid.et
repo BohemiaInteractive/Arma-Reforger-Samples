@@ -22,7 +22,6 @@ GenericEntity : "{3118A554CF13813D}Prefabs/Props/Military/Camps/PortableDesk_01_
      m_Flags 0
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }

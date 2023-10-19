@@ -1,0 +1,39 @@
+SCR_ResourceComponent {
+ m_aContainers {
+  SCR_ResourceContainer "{5E94DAE3EFD10682}" {
+   m_eResourceRights FACTION
+   m_eStorageType CARGO_VEHICLE
+  }
+ }
+ m_aEncapsulators {
+  SCR_ResourceEncapsulator "{5E94DAE3EFD1068A}" {
+   m_sDebugName "Encapsulator - UAZ469"
+   m_eResourceRights ALL
+   m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{5DB899306BE05B60}" : "{F214C17E1F29E70A}Configs/Resources/Supplies/ContainerQueues/Encapsulator/Queue_Encapsulator_Vehicle.conf" {
+   }
+   m_aActions {
+    SCR_ResourceEncapsulatorActionChangeDecay "{5E94DAE3EFD10695}" {
+    }
+    SCR_ResourceEncapsulatorActionChangeGain "{5E94DAE3EFD10697}" {
+    }
+    SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{5E94DAE3EFD10691}" {
+     m_eOnEmptyBehavior HIDE
+    }
+    SCR_ResourceEncapsulatorActionChangeResourceValue "{5E94DAE3EFD10692}" {
+    }
+   }
+  }
+ }
+ m_aConsumers {
+  SCR_ResourceConsumer "{5DB89931113F7D07}" : "{4126DC9D9F44E513}Configs/Resources/Supplies/Consumers/Consumer_VehicleLoad.conf" {
+  }
+  SCR_ResourceConsumer "{5DB899311187CE27}" : "{3FF0B8C036F14239}Configs/Resources/Supplies/Consumers/Consumer_VehicleUnload.conf" {
+  }
+ }
+ m_aGenerators {
+  SCR_ResourceGenerator "{5DB89931290977A9}" : "{48782547A13061E2}Configs/Resources/Supplies/Generators/Generator_VehicleLoad.conf" {
+  }
+  SCR_ResourceGenerator "{5DB899312996DFD9}" : "{F8496BD9E1CE43B3}Configs/Resources/Supplies/Generators/Generator_VehicleUnload.conf" {
+  }
+ }
+}

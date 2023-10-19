@@ -128,7 +128,7 @@ $grp GenericEntity : "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_
 Projectile : "{A8422FD60F6F6E00}Prefabs/Weapons/Ammo/Ammo_545x39_ball_Modded.et" {
  coords 103.351 5.947 88.755
 }
-GenericEntity : "{B672853A6087B05A}PrefabsEditable/Auto/Systems/Arsenal/WeaponRacks/E_WeaponRackStandArsenal_FIA.et" {
+GenericEntity : "{B672853A6087B05A}PrefabsEditable/Auto/Props/Military/Arsenal/WeaponRacks/E_WeaponRackStandArsenal_FIA.et" {
  components {
   SCR_FactionAffiliationComponent "{5A50E7661D447924}" {
    "faction affiliation" "FFA"

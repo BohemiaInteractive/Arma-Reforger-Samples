@@ -1,0 +1,164 @@
+AnimSrcGraph {
+ AnimSetTemplate "{1A2F06EF780C4C79}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01.ast"
+ ControlTemplate AnimSrcGCT "{524EB33ADDB24C4E}" {
+  Variables {
+   AnimSrcGCTVarFloat VehicleSteering {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleThrottle {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleClutch {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleBrake {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationFB {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat VehicleAccelerationLR {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat LookX {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat LookY {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarInt SeatPositionType {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 15
+   }
+   AnimSrcGCTVarFloat AimY {
+    DefaultValue 0
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarFloat AimX {
+    DefaultValue 0
+    MinValue -100
+    MaxValue 100
+   }
+   AnimSrcGCTVarBool Horn {
+   }
+   AnimSrcGCTVarFloat VehicleHandBrake {
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool IsDriver {
+   }
+   AnimSrcGCTVarFloat SpineAccelerationFB {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat SpineAccelerationLR {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Vehicle_Wobble {
+    MaxValue 1
+    Synchronized 0
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Vehicle_SwitchSeat {
+   }
+   AnimSrcGCTCmd CMD_Unconscious {
+   }
+   AnimSrcGCTCmd CMD_Unconscious_Exit {
+   }
+   AnimSrcGCTCmd CMD_Death {
+   }
+   AnimSrcGCTCmd CMD_OpenDoor {
+   }
+   AnimSrcGCTCmd CMD_Wheeled_Action {
+   }
+   AnimSrcGCTCmd CMD_Lights {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetIn {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GetOut {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_GearSwitch {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_Engine_StartStop {
+   }
+   AnimSrcGCTCmd CMD_HandBrake {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain LeftLeg {
+    Joints {
+     "leftleg"
+     "leftlegtwist"
+     "leftknee"
+     "leftkneetwist"
+     "leftfoot"
+    }
+    MiddleJoint "leftknee"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightLeg {
+    Joints {
+     "rightleg"
+     "rightlegtwist"
+     "rightknee"
+     "rightkneetwist"
+     "rightfoot"
+    }
+    MiddleJoint "rightknee"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+   AnimSrcGCTIkChain RightArm {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+  }
+  GlobalTags {
+   "VEHICLE"
+   "WHEELED"
+   "UAZ469"
+  }
+ }
+ Debug AnimSrcGD "{524EB33ADDB24DC7}" {
+ }
+ GraphFilesResourceNames {
+  "{27D37E55D16AF1BA}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

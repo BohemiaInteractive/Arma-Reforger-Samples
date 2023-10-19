@@ -22,7 +22,6 @@ GenericEntity : "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_
      m_Flags 0
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -32,7 +31,6 @@ GenericEntity : "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_
      m_Flags 0
      m_Shape MESH
      m_iPivotID "socket_wing_01"
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -42,7 +40,6 @@ GenericEntity : "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_
      m_Flags 0
      m_Shape MESH
      m_iPivotID "socket_wing_02"
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
@@ -52,7 +49,6 @@ GenericEntity : "{6DE1A5D6BFED9F41}Prefabs/Props/Military/Camps/PortableDesk_01_
      m_Flags 0
      m_Shape MESH
      m_iPivotID "socket_lid_01"
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }

@@ -4,7 +4,6 @@ SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENF
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_FireTeamLight"
-    m_Image "{DABCD0D11EDFED4A}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_LightFireTeam.edds"
     m_aAutoLabels {
      71
     }

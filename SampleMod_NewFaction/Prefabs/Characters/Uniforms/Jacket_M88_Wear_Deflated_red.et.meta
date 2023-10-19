@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7EAD5D19BE7BA3CD}Prefabs/Characters/Uniforms/Jacket_M88_Wear_Deflated_red.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

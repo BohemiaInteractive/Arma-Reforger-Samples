@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{08DD60EF4FC9988A}Assets/Vehicles/Wheeled/UAZ469/workspaces/SampleCar_01.agr"
+ Configurations {
+  AnimGraphResourceClass PC {
+  }
+  AnimGraphResourceClass XBOX_ONE : PC {
+  }
+  AnimGraphResourceClass XBOX_SERIES : PC {
+  }
+  AnimGraphResourceClass PS4 : PC {
+  }
+  AnimGraphResourceClass HEADLESS : PC {
+  }
+ }
+}

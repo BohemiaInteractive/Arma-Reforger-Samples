@@ -21,6 +21,19 @@ $grp GenericEntity {
   coords 122.595 2.997 127.7
  }
 }
+GenericEntity : "{024ADA8FA4FC92E0}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_medium_item.et" {
+ components {
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 5000
+     m_fResourceValueMax 5000
+    }
+   }
+  }
+ }
+ coords 117.68 2.903 130.725
+}
 GenericEntity : "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et" {
  coords 122.86 3.024 127.989
  angleX -0.094
@@ -28,11 +41,6 @@ GenericEntity : "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
  angleZ -91.425
 }
 Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
- components {
-  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
-   m_fVehicleDestroyDamage 6364.39
-  }
- }
  coords 115.332 2 117.587
  angleY 143.401
 }
@@ -212,12 +220,27 @@ GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRac
   }
  }
 }
-GenericEntity : "{EDE6EC8B05227E3E}Prefabs/Systems/Arsenal/ArsenalBoxes/USSR/ArsenalBox_USSR.et" {
+GenericEntity : "{EDE6EC8B05227E3E}Prefabs/Props/Military/Arsenal/ArsenalBoxes/USSR/ArsenalBox_USSR.et" {
  components {
   SignalsManagerComponent "{5B027BC23B463E83}" {
   }
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
    "faction affiliation" "FFA"
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E5AE189C57A9FD7}" {
+     m_fBuyMultiplier 0
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5E5ECCF59701966C}" {
+     m_fResourceMultiplier 0
+    }
+   }
   }
  }
  coords 117.607 2 130.948

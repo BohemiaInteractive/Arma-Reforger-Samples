@@ -28,61 +28,51 @@ GenericEntity : "{67CC3987A55EF161}Prefabs/Systems/Arsenal/ArsenalBoxes/USSR/Ars
      m_Prefab "{BB724A13B58925F5}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_02.et"
      m_vPosition 0.991 0 0.184
      m_vAngles 0 28.758 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC8743ED0}" {
      m_Prefab "{BB724A13B58925F5}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_02.et"
      m_vPosition 0.121 0 0.886
      m_vAngles 0 46.867 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC875E694}" {
      m_Prefab "{B953D46315370387}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rubus_idaeus_small_01.et"
      m_vPosition 0.751 0 -1.006
      m_vAngles 9.326 84.224 -0.939
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC875CF38}" {
      m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
      m_vPosition -1.287 -0.004 -0.919
      m_vAngles 26.678 -139.475 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC875B233}" {
      m_Prefab "{7BDF8DD58178DD89}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V6_covered.et"
      m_vPosition -1.122 0 -0.062
      m_vAngles 0 90.511 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC8759842}" {
      m_Prefab "{D7267EF3094DAADB}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_01.et"
      m_vPosition -0.411 0 0.852
      m_vAngles 0 -54.501 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC8754FEC}" {
      m_Prefab "{D7267EF3094DAADB}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_01.et"
      m_vPosition 0.816 0 0.665
      m_vAngles 0 -34.828 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC8753760}" {
      m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
      m_vPosition -0.729 -0.014 -1.019
      m_vAngles 10.371 -88.629 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC8751EFC}" {
      m_Prefab "{8405D081018C4DCF}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V5_covered.et"
      m_vPosition 0.059 0 -1.049
      m_vAngles 0 176.71 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D0CA84CC86AC5B5}" {
      m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
      m_vPosition 0.479 0 0.493
      m_vAngles 0 22.901 0
-     m_fScale 1
     }
    }
   }

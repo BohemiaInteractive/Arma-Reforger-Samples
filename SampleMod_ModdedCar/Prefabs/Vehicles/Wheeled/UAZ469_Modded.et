@@ -1,18 +1,6 @@
 Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  ID "44EC665ABD2FF04B"
  components {
-  FuelManagerComponent "{5622A70CD78A9E2C}" {
-   FuelNodes {
-    SCR_FuelNode "{5622A70CD4036C5A}" {
-     FuelType Diesel
-     MaxFuel 69
-    }
-    SCR_FuelNode "{5628CA85F51FEF87}" {
-     FuelType Diesel
-     MaxFuel 69
-    }
-   }
-  }
   MeshObject "{51DAA09FEFBFC0E7}" {
    Materials {
     MaterialAssignClass "{5224B5F1923C76BB}" {
@@ -35,6 +23,18 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
   }
   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
    m_fFuelConsumption 145
+  }
+  SCR_FuelManagerComponent "{5622A70CD78A9E2C}" {
+   FuelNodes {
+    SCR_FuelNode "{5622A70CD4036C5A}" {
+     FuelType Diesel
+     MaxFuel 69
+    }
+    SCR_FuelNode "{5628CA85F51FEF87}" {
+     FuelType Diesel
+     MaxFuel 69
+    }
+   }
   }
   SCR_MotorExhaustEffectGeneralComponent "{5AD4F813E67ECB71}" {
    ParticleEffect "{804290CEC6889C3F}Particles/Vehicle/Vehicle_smoke_car_exhaust_normal_modded.ptc"

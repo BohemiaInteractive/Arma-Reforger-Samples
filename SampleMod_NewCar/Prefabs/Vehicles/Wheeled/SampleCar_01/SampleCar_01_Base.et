@@ -682,17 +682,61 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   Attributes SCR_ItemAttributeCollection "{5AD4F813E67ECB5B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5AD4F813E67ECB58}" {
+     Name "#AR-Inventory_Trunk"
+     m_aItemHints {
+      SCR_SupplyStoredItemHintUIInfo "{5E72C5B85CBA3EC3}" : "{1E7BDD22DCA4EA90}Configs/Inventory/ItemHints/VehicleSupplyStored_ItemHint.conf" {
+      }
+      SCR_SupplyMoveItemHintUIInfo "{5E72C5B85A4E658E}" : "{C78AD2189E57B6E7}Configs/Inventory/ItemHints/VehicleSupplyMove_ItemHint.conf" {
+      }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5AD4F813E67ECB56}" {
+      CameraOrbitAngles -15 -35 0
+      CameraDistanceToItem 6
+      CameraOffset -0.3 -0.2 0
+      FOV 40
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{5AD4F813E67ECB54}" {
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_bDraggable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 60000
+   MaxItemSize 35 35 35
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{5E86A8C9C339E7A1}" : "{D4D77296529174B9}Configs/Inventory/InventoryItem_Jerrycan.conf" {
+    }
+   }
+   m_fMaxWeight 300
+  }
   SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
     SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{E2AB13F268CA367D}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_wreck.xob"
+      m_iWreckDelay 1
+     }
      m_sDestructionParticle "{0A70EB725D13F963}Particles/Vehicle/Vehicle_explosion_M151A2_01.ptc"
     }
-    ScriptedHitZone Engine_01 {
+    SCR_EngineHitZone Engine_01 : "{DB320D81F22770CA}Prefabs/Vehicles/Core/Configs/HitZones/Engine_Offroad.conf" {
      ColliderNames {
       "UCX_FG_Engine"
      }
     }
-    ScriptedHitZone Gearbox_01 {
+    SCR_GearboxHitZone Gearbox_01 : "{106D4BF77CC9DA12}Prefabs/Vehicles/Core/Configs/HitZones/Gearbox_Offroad.conf" {
      ColliderNames {
       "UCX_FG_Gearbox"
      }
@@ -717,12 +761,12 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       "UTM_FG_Wheel_R02"
      }
     }
-    ScriptedHitZone FuelTank_01 {
+    SCR_FuelHitZone FuelTank_01 : "{156AA0C3CAAA880F}Prefabs/Vehicles/Core/Configs/HitZones/FuelTank_Offroad.conf" {
      ColliderNames {
       "UCX_FG_FuelTank"
      }
     }
-    ScriptedHitZone Battery_01 {
+    SCR_BatteryHitZone Battery_01 : "{AA309D7C68080A94}Prefabs/Vehicles/Core/Configs/HitZones/Battery.conf" {
      ColliderNames {
       "UCX_FG_Battery"
      }
@@ -879,6 +923,12 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       "v_dashboard_speed" "v_dashboard_rpm" "v_dashboard_fuel" "v_dashboard_coolant_temp"
      }
     }
+    ProcAnimParams "{5E94DAEB73280A4C}" {
+     ResourceName "{6ECF1A5EDC3EF938}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_trunk.pap"
+     BoneNames {
+      "v_trunk"
+     }
+    }
    }
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
@@ -887,18 +937,28 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Prefab "{35063E41D3F9A106}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_F.et"
     }
     EntitySlotInfo glass_fl {
+     PivotID "v_door_l01"
+     ChildPivotID "snap_glass"
      Prefab "{7EF462082F070F4F}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FL.et"
     }
     EntitySlotInfo glass_fr {
+     PivotID "v_door_r01"
+     ChildPivotID "snap_glass"
      Prefab "{03EC8EF04A9433D6}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_FR.et"
     }
     EntitySlotInfo glass_r {
+     PivotID "v_trunk"
+     ChildPivotID "snap_glass"
      Prefab "{63168911951B89E8}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_R.et"
     }
     EntitySlotInfo glass_rl {
+     PivotID "v_door_l02"
+     ChildPivotID "snap_glass"
      Prefab "{1EA9ED36EA34C476}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RL.et"
     }
     EntitySlotInfo glass_rr {
+     PivotID "v_door_r02"
+     ChildPivotID "snap_glass"
      Prefab "{63B101CE8FA7F8EF}Prefabs/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_glass_RR.et"
     }
     EntitySlotInfo ShadowAO {
@@ -936,6 +996,14 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      DisablePhysicsInteraction 1
      RegisterDamage 1
      m_iWheelIndex 3
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     PivotID "v_body"
+     Offset 0.009 0.302 -1.5987
+     Angles 0 3 0
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
     }
    }
   }
@@ -1087,6 +1155,20 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      }
      Radius 0.1
     }
+    UserActionContext "{5E94DAEE4FF5311C}" {
+     ContextName "trunk"
+     Position PointInfo "{5E94DAEE45E3BB34}" {
+      PivotID "v_trunk"
+      Offset 0 -0.5949 -0.3985
+     }
+    }
+    UserActionContext "{5E96ACA123D93C4A}" {
+     ContextName "trunk_inside"
+     Position PointInfo "{5E96ACA11863D4D4}" {
+      PivotID "v_body"
+      Offset 0 0.2847 -1.6586
+     }
+    }
    }
    additionalActions {
     SCR_EngineAction "{555676DDCF450808}" {
@@ -1097,13 +1179,42 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       Name "#AR-UserAction_Engine"
      }
     }
+    SCR_TrunkUserAction "{5E94DAEE692798CC}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{5E94DAEE6BE61C84}" {
+      Name "ope"
+     }
+     m_sSignalName "Trunk"
+    }
+    SCR_OpenVehicleStorageAction "{5E96ACA13AFCD3B7}" : "{4758882BA3638A5D}Prefabs/Vehicles/Core/Configs/Actions/OpenVehicleStorageAction.conf" {
+     ParentContextList {
+      "trunk_inside"
+     }
+    }
+    SCR_ResourceContainerVehicleLoadAction "{5E96ACA147105024}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "trunk_inside"
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5E96ACA1460FB6DA}" : "{F10C4B3E2E87F15B}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Unload.conf" {
+     ParentContextList {
+      "trunk_inside"
+     }
+    }
    }
   }
   VehicleAnimationComponent "{50B803EAA459B0AF}" {
-   AnimInstance "{FD177FE07D433CEA}Assets/Vehicles/Wheeled/Workspaces/Vehicles_Wheeled_SampleCar_01.asi"
+   AnimGraph "{08DD60EF4FC9988A}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01.agr"
+   AnimInstance "{7B6FE5B98D0852F6}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01_Vehicle.asi"
+   StartNode "VehicleMasterControl"
    AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
-    AnimInstance "{B4ACB8319AC7721C}Assets/Vehicles/Wheeled/Workspaces/Player_Wheeled_SampleCar_01.asi"
+    AnimGraph "{08DD60EF4FC9988A}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01.agr"
+    AnimInstance "{D281B7A3F44B4B0A}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01_Player.asi"
    }
+  }
+  SCR_ResourceComponent "{5E94DAE2B30FE9B1}" : "{4359E4B0891EB28C}Prefabs/Vehicles/Wheeled/Vehicle_ResourceComponent.ct" {
   }
  }
  coords 1299.607 50.97 1312.159

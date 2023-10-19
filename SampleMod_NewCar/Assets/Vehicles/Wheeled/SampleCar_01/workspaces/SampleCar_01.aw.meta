@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{984E8CC7A92EFF88}Assets/Vehicles/Wheeled/UAZ469/workspaces/SampleCar_01.aw"
+ Configurations {
+  AnimWorkspaceResourceClass PC {
+  }
+  AnimWorkspaceResourceClass XBOX_ONE : PC {
+  }
+  AnimWorkspaceResourceClass XBOX_SERIES : PC {
+  }
+  AnimWorkspaceResourceClass PS4 : PC {
+  }
+  AnimWorkspaceResourceClass HEADLESS : PC {
+  }
+ }
+}

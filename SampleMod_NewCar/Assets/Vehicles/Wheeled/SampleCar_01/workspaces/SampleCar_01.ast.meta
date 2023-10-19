@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1A2F06EF780C4C79}Assets/Vehicles/Wheeled/UAZ469/workspaces/SampleCar_01.ast"
+ Configurations {
+  AnimSetTemplateResourceClass PC {
+  }
+  AnimSetTemplateResourceClass XBOX_ONE : PC {
+  }
+  AnimSetTemplateResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetTemplateResourceClass PS4 : PC {
+  }
+  AnimSetTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

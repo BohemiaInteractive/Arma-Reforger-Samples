@@ -1,0 +1,113 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{516A92E7BD217B34}" {
+   Name "Gunner"
+   Animations {
+    "Aimspace"
+    "AimspaceFront"
+    "AimspaceFrontToLeft"
+    "AimspaceFrontToRight"
+    "AimspaceLeft"
+    "AimspaceLeft02"
+    "AimspaceLeft02ToLeft"
+    "AimspaceLeftToFront"
+    "AimspaceLeftToLeft02"
+    "AimspaceRight"
+    "AimspaceRight02"
+    "AimspaceRight02ToRight"
+    "AimspaceRightToFront"
+    "AimspaceRightToRight02"
+    "Idle"
+    "IdleFront"
+    "IdleLeft"
+    "IdleLeft02"
+    "IdleRight"
+    "IdleRight02"
+    "TransitionFrontToLeft"
+    "TransitionFrontToRight"
+    "TransitionLeft02ToLeft"
+    "TransitionLeftToFront"
+    "TransitionLeftToLeft02"
+    "TransitionRight02ToRight"
+    "TransitionRightToFront"
+    "TransitionRightToRight02"
+   }
+   Columns {
+    "Default"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{50B29CACB38CA177}" {
+   Name "Vehicle"
+   Animations {
+    "AccelerationSpine"
+    "Aim"
+    "AimIdle"
+    "ClimbOut"
+    "ClimbOutL"
+    "ClimbOutR"
+    "CrawlOut"
+    "CrawlOutL"
+    "CrawlOutR"
+    "Death"
+    "GetIn"
+    "GetInL"
+    "GetInR"
+    "GetOut"
+    "GetOutL"
+    "GetOutR"
+    "HeadLook"
+    "Idle"
+    "Idle01"
+    "JumpOut"
+    "JumpOutL"
+    "JumpOutR"
+    "SpineBrakeHard"
+    "SpineBrakeSoft"
+    "SwitchIn"
+    "SwitchOut"
+    "UnconsciousDeath"
+    "UnconsciousIdle"
+    "UnconsciousIn"
+    "UnconsciousOut"
+    "Wobble"
+   }
+   Columns {
+    "CoDriver"
+    "Driver"
+    "Gunner"
+    "PassengerL"
+    "PassengerR"
+    "UniqueSeat"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{50B29CACB38CA2C7}" {
+   Name "VehicleActions"
+   Animations {
+    "Brake"
+    "Clutch"
+    "EngineStartIn"
+    "EngineStartLoop"
+    "EngineStartOut"
+    "EngineStop"
+    "HandBrakeIn"
+    "HandBrakeLoop"
+    "HandBrakeoff"
+    "HandBrakeOn"
+    "HandBrakeOut"
+    "HeadLook"
+    "HornIn"
+    "HornLoop"
+    "HornOut"
+    "LightsOff"
+    "LightsOn"
+    "ShiftGear"
+    "SteeringExtreme"
+    "SteeringMain"
+    "Throttle"
+   }
+   Columns {
+    "Veh/Play"
+   }
+  }
+ }
+}

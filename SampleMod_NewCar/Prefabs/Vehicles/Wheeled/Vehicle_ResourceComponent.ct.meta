@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4359E4B0891EB28C}Prefabs/Vehicles/Wheeled/Vehicle_ResourceComponent.ct"
+ Configurations {
+  ComponentTemplateResourceClass PC {
+  }
+  ComponentTemplateResourceClass XBOX_ONE : PC {
+  }
+  ComponentTemplateResourceClass XBOX_SERIES : PC {
+  }
+  ComponentTemplateResourceClass PS4 : PC {
+  }
+  ComponentTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

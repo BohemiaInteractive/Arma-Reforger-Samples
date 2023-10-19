@@ -1,0 +1,15 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 36
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 36 {
+   }
+  }
+ }
+ $custProps {
+  #custProp "sourceFile" "D:\00_My Work\Arma\Vehicles\jeep UAZ469\p_UAZ469_new_gadget pose.fbx"
+  #custProp "profile" "890_Vehicle_Empty"
+ }
+}

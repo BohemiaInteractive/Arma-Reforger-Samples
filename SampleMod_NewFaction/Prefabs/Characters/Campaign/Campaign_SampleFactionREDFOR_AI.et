@@ -1,7 +1,8 @@
-SCR_ChimeraCharacter : "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et" {
+SCR_ChimeraCharacter : "{6FC878979D2BD14F}Prefabs/Characters/Factions/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_CampaignInteractionsComponent "{56BAC7C16ADD0374}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  FactionAffiliationComponent "{5696DE47A90D2EF3}" {
+   "faction affiliation" "USSR"
   }
  }
 }

@@ -1,0 +1,538 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MilitaryBaseAirfield {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Airbase"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
+    m_sMapLocationName "LocationAirport"
+   }
+  }
+  coords 4887.966 26.486 12029.487
+  angleY 175.982
+ }
+ MilitaryBaseLevie {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+    m_sMapLocationName "LocationLevie_MilitaryBase"
+   }
+  }
+  coords 7449.13 164.562 4306.381
+  angleY 104.519
+ }
+ MilitaryBaseVilleneuf {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
+    m_sBaseNameUpper "#AR-MapLocation_CalvaryHill"
+    m_sMapLocationName "LocationMilitaryBase_AA"
+   }
+  }
+  coords 3512.013 181.915 5816.282
+  angleX -4.292
+  angleY -123.664
+  angleZ -1.89
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 13.096 -0.092 13.384
+   }
+  }
+ }
+ MilitaryHospital {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-MapLocation_MilitaryHospital"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
+    m_sMapLocationName "LocationTyrone_MilitaryHospital"
+   }
+  }
+  coords 3938.822 15.811 8455.689
+  angleY -85.707
+ }
+ TownBaseChotain {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Chotain"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Chotain-UC"
+    m_sMapLocationName "LocationChotain"
+   }
+  }
+  coords 6991.033 121.236 6075.385
+  angleY -132.859
+  angleZ -2.328
+ }
+ TownBaseDuras {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Durras"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
+    m_sMapLocationName "C_LocationDurras"
+   }
+  }
+  coords 8895.638 96.284 2709.183
+  angleY 67.698
+  angleZ -1.722
+ }
+ TownBaseEntre_Deux {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+    m_sMapLocationName "LocationEntreDeux"
+   }
+  }
+  coords 6014.631 216.689 7178.424
+  angleY -135.967
+  angleZ -2.553
+ }
+ TownBaseFigari {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Figari"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
+    m_sMapLocationName "LocationFigari"
+   }
+  }
+  coords 5125.889 52.666 5495.677
+  angleY 178.943
+ }
+ TownBaseLaruns {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Laruns"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
+    m_sMapLocationName "LocationLaruns"
+   }
+  }
+  coords 7403.191 114.351 5281.078
+  angleY 48.506
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.326 15
+   }
+  }
+ }
+ TownBaseLe_Moule {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_LeMoule"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+    m_sMapLocationName "LocationLeMoule"
+   }
+  }
+  coords 2439.405 104.159 5438.09
+  angleY 78.452
+  angleZ 3.946
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.066 -0.963 15
+   }
+  }
+ }
+ TownBaseLevie {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Levie"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie-UC"
+    m_sMapLocationName "LocationLevie"
+   }
+  }
+  coords 7459.733 131.284 4816.252
+  angleY 96.266
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.594 15
+   }
+  }
+ }
+ TownBaseMeaux {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Meaux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Meaux-UC"
+    m_sMapLocationName "LocationMeaux"
+   }
+  }
+  coords 4511.355 20.993 9770.459
+  angleZ -1.169
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.007 -0.372 15
+   }
+  }
+ }
+ TownBaseMontignac {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Montignac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+    m_sMapLocationName "LocationMontignac"
+   }
+  }
+  coords 5124.376 175.5 6980.63
+  angleX -1.591
+  angleY -91.148
+  angleZ -0.256
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.002 1.307 15.014
+   }
+  }
+ }
+ TownBaseProvins {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Provins"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
+    m_sMapLocationName "C_LocationProvins"
+   }
+  }
+  coords 5573.916 89.079 5895.073
+  angleY 9.853
+ }
+ TownBaseRegina {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
+    m_sMapLocationName "C_LocationRegina"
+   }
+  }
+  coords 7293.546 139.462 2175.333
+  angleY 0.084
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -1.059 15
+   }
+  }
+ }
+ TownBaseTyrone {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Tyrone"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
+    m_sMapLocationName "C_LocationTyrone"
+   }
+  }
+  coords 5007.142 49.293 8921.314
+  angleY 0.098
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 -1.64 15
+   }
+  }
+ }
+ TownBaseVernon {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Vernon"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
+    m_sMapLocationName "LocationVernon"
+   }
+  }
+  coords 9128.483 77.32 2292.273
+  angleY 173.643
+  angleZ -1.421
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.053 -2.135 15
+   }
+  }
+ }
+ TownBaseVileneuf {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Villeneuf"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
+    m_sMapLocationName "LocationVilleneuf"
+   }
+  }
+  coords 2909.824 76.063 6493.664
+  angleY -122.855
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0.308 14.999
+   }
+  }
+ }
+ TownBaseGravette {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Gravette"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
+    m_sMapLocationName "LocationGravette"
+   }
+  }
+  coords 4011.664 32.266 7883.362
+  angleY -56.275
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 -0.403 15
+   }
+  }
+ }
+ SmallBaseMine {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Quarry"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Quarry-UC"
+    m_sMapLocationName "LocationMine"
+   }
+  }
+  coords 8793.418 196.594 3897.421
+  angleY -89.149
+ }
+ SmallBaseBlackLake {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_BlackLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_BlackLake-UC"
+   }
+  }
+  coords 9452.499 209.48 2946.152
+  angleX -2
+  angleY 30.644
+  angleZ -0.842
+ }
+ SmallBasePennantsPass {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
+   }
+  }
+  coords 8237.663 223.129 2164.276
+  angleY -58.216
+ }
+ SmallBaseSimonsWood {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_SimonsWood"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+   }
+  }
+  coords 6579.463 81.999 5135.611
+  angleY -70.199
+  angleZ -3.464
+ }
+ SmallBaseRichemont {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Richemont"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
+   }
+  }
+  coords 4539.221 64.1 4993.633
+  angleY -89.382
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 -0.433 15
+   }
+  }
+ }
+ SmallBaseShepherds {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_ShepherdsPond"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_ShepherdsPond-UC"
+   }
+  }
+  coords 3294.714 120.147 4471.09
+  angleY 142.86
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 0.727 15
+   }
+  }
+ }
+ SmallBaseLake {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_PinewoodLake"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
+   }
+  }
+  coords 4439.679 58.718 6237.203
+  angleY 175.979
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 2.01 0.222 12.112
+    angleY 35.382
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -6.675 0.222 -0.117
+    angleY 35.382
+   }
+  }
+ }
+ SmallBaseTillersFind {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+   }
+  }
+  coords 3789.583 59.781 6997.688
+  angleY -49.512
+ }
+ TownBaseKermovan {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_Kermovan"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Kermovan-UC"
+   }
+  }
+  coords 6436.89 10.086 9667.346
+  angleY 140.857
+  angleZ -1.378
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.018 -0.762 15
+   }
+  }
+ }
+ SmallBaseMaidensBay {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_MaidensBay"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
+   }
+  }
+  coords 5228.621 34.428 10701.94
+  angleY 142.609
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.605 0 17.476
+   }
+  }
+ }
+ SmallBaseHornbeamValley {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+    m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+   }
+  }
+  coords 5376.891 25.469 8334.043
+  angleY -54.336
+ }
+ SmallBaseAndresBeacon {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_AndresBeacon"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_AndresBeacon-UC"
+   }
+  }
+  coords 6852.69 83.067 8200.086
+  angleX 2.869
+  angleY -172.862
+ }
+ SmallBaseGoatbay {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "#AR-MapLocation_GoatBay"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_GoatBay"
+   }
+  }
+  coords 6635.185 5.902 3119.359
+  angleY 169.959
+ }
+ MajorBaseChotain {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+   }
+  }
+  coords 7473.945 7.866 6694.601
+  angleY -18.505
+ }
+ MajorBaseLamentin {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+    m_sMapLocationName "LocationLamentin_Harbour"
+   }
+  }
+  coords 1089.461 2.781 6029.319
+  angleY -93.618
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 8.844 -0.062 18.807
+   }
+  }
+ }
+ MajorBaseMorton {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+    m_sMapLocationName "LocationMorton"
+   }
+  }
+  coords 4979.392 2.187 3841.487
+  angleY 29.698
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.152 0.001 21.832
+   }
+  }
+ }
+ MainBaseNorth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_HQ_North"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+   }
+  }
+  coords 4405.805 1.643 11035.317
+  angleY 30.231
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -21.936 -0.008 37.67
+   }
+  }
+ }
+ MainBaseSouth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "#AR-Campaign_MapLocation_HQ_South"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+    m_sMapLocationName "LocationStPierre_Harbour"
+   }
+  }
+  coords 10172.649 2.628 1539.541
+  angleY -76.653
+ }
+}

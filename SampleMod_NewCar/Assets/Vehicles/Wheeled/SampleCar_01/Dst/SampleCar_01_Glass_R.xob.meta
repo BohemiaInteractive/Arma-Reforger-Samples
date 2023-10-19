@@ -2,10 +2,15 @@ MetaFileClass {
  Name "{F66A6AE091CC3475}Assets/Vehicles/Wheeled/SampleCar_01/Dst/SampleCar_01_Glass_R.xob"
  Configurations {
   FBXResourceClass PC {
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{555320C6E1CDC9F9}" {
      SourceMaterial "SampleCar_01_Glass"
      AssignedMaterial "{FA986144D94A3970}Assets/Vehicles/Wheeled/SampleCar_01/Data/SampleCar_01_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam glass {
     }
    }
    GeometryParams {
@@ -32,6 +37,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{555320C6D8DC6241}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
   }
  }
 }

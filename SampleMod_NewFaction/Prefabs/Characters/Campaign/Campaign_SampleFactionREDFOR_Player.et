@@ -1,16 +1,26 @@
-SCR_ChimeraCharacter : "{6FC878979D2BD14F}Prefabs/Characters/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et" {
+SCR_ChimeraCharacter : "{6FC878979D2BD14F}Prefabs/Characters/Factions/OPFOR/SampleFactionREDFOR/Character_SampleFactionREDFOR_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
-  SCR_MapDescriptorComponent "{5902A44E904E5B68}" {
-   DescriptorVisible 0
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{FC7A7A9F92D1E225}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_RU.acp" "{7413663A6477A6AE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_1_RU.acp" "{C6C424D13BD59536}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_2_RU.acp" "{A8891A880EB47BBE}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_3_RU.acp" "{E19A40EC2D7BC495}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_4_RU.acp" "{8FD77EB5181A2A1D}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_5_RU.acp" "{F74F3305B3A080B9}Sounds/RadioProtocol/RadioProtocol_Campaign_SL_US.acp" "{B3121241CD2D1794}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_1_US.acp" "{769D43ACF046BF37}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_2_US.acp" "{01972B2404E45047}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_3_US.acp" "{D88FC72ACD99E54C}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_4_US.acp" "{B6C2F973F8F80BC4}Sounds/RadioProtocol/RadioProtocol_Campaign_HQ_5_US.acp"
+   }
+  }
+  FactionAffiliationComponent "{5696DE47A90D2EF3}" {
+   "faction affiliation" "USSR"
   }
   SCR_CampaignBuildingComponent "{56BAC7C146009D8E}" {
-   m_fBuildingRadius 500
-   m_PreviewEntityPrefab "{4FF075A21D258ABE}Prefabs/MP/Campaign/BuildPreview.et"
-   m_PreviewMaterial "{58F07022C12D0CF5}Assets/Editor/PlacingPreview/Preview.emat"
-   m_BuildingEntityPrefab "{15BEE7092B88B67D}Prefabs/MP/Campaign/BuildEntity.et"
   }
-  SCR_CampaignInteractionsComponent "{56BAC7C16ADD0374}" : "{3DB2C15A8AFF1927}Prefabs/Characters/Campaign/CampaignInteractions.ct" {
+  SCR_MapDescriptorComponent "{5902A44E904E5B68}" {
+   VisibleOnMap 0
+   MainType Unit
+   UnitType Infantry
+  }
+  SCR_ResourceComponent "{5E64858523DADCA4}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E6485852E650CC4}" : "{E77EA96D4FC48177}Configs/Resources/Supplies/Consumers/Generic/Consumer_Self.conf" {
+    }
+   }
   }
  }
 }

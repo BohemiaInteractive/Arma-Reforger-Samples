@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D9D4F4C0CDFA95F5}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01_trunk.siga"
+ Configurations {
+  ProcAnimSignalResourceClass PC {
+  }
+  ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimSignalResourceClass PS4 : PC {
+  }
+  ProcAnimSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

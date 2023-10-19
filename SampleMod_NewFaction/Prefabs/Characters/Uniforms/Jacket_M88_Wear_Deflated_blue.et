@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "5EA46470EDDB375B"
+ components {
+  MeshObject "{5EA46470EDDB3762}" {
+   Object "{A524D823B6CCD339}Assets/Characters/Uniforms/Jacket_M88/Jacket_M88_01_Deflated.xob"
+   Materials {
+    MaterialAssignClass "{5EA46470DA792C3D}" {
+     SourceMaterial "Jacket_M88"
+     AssignedMaterial "{79C188AE5B1FE96E}Assets/Characters/Uniforms/Jacket_M88/Data/Jacket_M88_01_blue.emat"
+    }
+   }
+  }
+ }
+ coords 2.923 3.925 -0.346
+}

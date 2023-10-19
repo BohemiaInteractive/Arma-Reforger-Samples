@@ -1,0 +1,22 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Relay4 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_Regina-UC"
+   }
+  }
+  coords 7689.868 342.063 3055.818
+  angleY 165.717
+ }
+ Relay15 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
+   }
+  }
+  coords 5858.849 237.39 7259.799
+  angleY 107.764
+ }
+}

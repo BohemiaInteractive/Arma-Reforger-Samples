@@ -28,55 +28,46 @@ GenericEntity : "{4A72F98C4AB85DA7}Prefabs/Systems/Arsenal/ArsenalBoxes/SampleFa
      m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
      m_vPosition -0.349 0 0.866
      m_vAngles 0 -45.82 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D76EF08}" {
      m_Prefab "{B953D46315370387}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rubus_idaeus_small_01.et"
      m_vPosition 0.811 0 -1.143
      m_vAngles 7.117 97.794 -1.702
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D76B364}" {
      m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
      m_vPosition -1.461 0 -0.781
      m_vAngles 30.705 -127.202 -21.186
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D797D4E}" {
      m_Prefab "{0B24DD72DAF499F4}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V6_covered.et"
      m_vPosition -1.132 0 -0.057
      m_vAngles 0 89.179 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D794270}" {
      m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
      m_vPosition -0.856 0 -0.923
      m_vAngles 11.144 -118.209 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D7916D5}" {
      m_Prefab "{F4FE80265A0009B2}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V5_covered.et"
      m_vPosition 0.036 0 -1.064
      m_vAngles 0 177.707 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D79D976}" {
      m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
      m_vPosition 1.104 0 0.282
      m_vAngles 0 39.419 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D79AEDD}" {
      m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
      m_vPosition 0.533 0 0.922
      m_vAngles 0 -19.083 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D787CD1}" {
      m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
      m_vPosition 0.438 0 0.315
      m_vAngles 0 54.557 0
-     m_fScale 1
     }
    }
   }

@@ -4,7 +4,6 @@ SCR_AIGroup : "{9D20C53ED84D6961}Prefabs/Groups/BLUFOR/Group_SampleFactionBLUFOR
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_Default"
-    m_Image "{727EE0D42D127173}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_SampleFactionBLUFOR_FireGroup.edds"
     m_aAutoLabels {
      71
     }

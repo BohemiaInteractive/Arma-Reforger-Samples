@@ -4,7 +4,6 @@ SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENF
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_Squad"
-    m_Image "{DAA1F3E9ECAB8A33}UI/Textures/EditorPreviews/Groups/INDFOR/Group_SampleFactionGREENFOR_RifleSquad.edds"
     m_aAutoLabels {
      72
     }
@@ -28,7 +27,6 @@ SCR_AIGroup : "{17973867A8AD2396}Prefabs/Groups/INDFOR/Group_SampleFactionGREENF
      m_Flags 3
      m_Shape MESH
      m_iPivotID ""
-     m_fScale 1
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }

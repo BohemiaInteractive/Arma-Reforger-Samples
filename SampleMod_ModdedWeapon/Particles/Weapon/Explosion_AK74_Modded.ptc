@@ -1,5 +1,5 @@
 EffectDef {
- MinFPS 30
+ Version 1
  Emitters {
   EmitterDef fire_1 {
    ShapeType Box
@@ -61,7 +61,7 @@ EffectDef {
    BirthRate 600
    Angles 0 0 0
    LocalTransform 0
-   Material "{2E26AC45902AB680}Particles/_Materials/Gas/Smoke_Base_Pillar_03.emat"
+   Material "{8FDD14C58C7E06E5}Particles/_Materials/Gas/Smoke_RPG7_black_N_01.emat"
    StreakFullUV 0
    SizeMultiplier 3
    SizeRND 3
@@ -230,7 +230,7 @@ EffectDef {
    BirthRate 100
    Angles 0 0 0
    LocalTransform 0
-   Material "{84C6C29E227A50FB}Particles/_Materials/Gas/Smoke_Base_Pillar_01.emat"
+   Material "{FB2FB00F02295531}Particles/_Materials/Gas/Smoke_Base_01.emat"
    StreakFullUV 0
    SizeMultiplier 10
    SizeRND 10
@@ -388,4 +388,5 @@ EffectDef {
    Repeat 0
   }
  }
+ MinFPS 30
 }

@@ -4,7 +4,6 @@ SCR_AIGroup : "{05953B80F1889C3F}Prefabs/Groups/OPFOR/Group_SampleFactionREDFOR_
   SCR_EditableGroupComponent "{50D291F6C83FA532}" {
    m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
     Name "#AR-Group_Squad"
-    m_Image "{FDD5D52F307F49EA}UI/Textures/EditorPreviews/Groups/OPFOR/Group_SampleFactionREDFOR_RifleSquad.edds"
     m_aAutoLabels {
      72
     }

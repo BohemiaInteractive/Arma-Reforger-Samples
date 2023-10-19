@@ -112,6 +112,46 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
+    GeometryParam UCX_MainCol_02 {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_L01 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_L02 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_R01 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCL_MT_wheel_R02 {
+     LayerPreset "MineTrigger"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
     GeometryParam UTM_FG_Body_01 {
      LayerPreset "FireGeo"
      SurfaceProperties {
@@ -123,8 +163,8 @@ MetaFileClass {
     GeometryParam UTM_FG_Body_02 {
      LayerPreset "FireGeo"
      SurfaceProperties {
-      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
       "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
      }
      Mass 0
      Margin 0
@@ -182,46 +222,6 @@ MetaFileClass {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MainCol_02 {
-     LayerPreset "Vehicle"
-     SurfaceProperties {
-      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_L01 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_L02 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_R01 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_MT_R02 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
      }
      Mass 0
      Margin 0

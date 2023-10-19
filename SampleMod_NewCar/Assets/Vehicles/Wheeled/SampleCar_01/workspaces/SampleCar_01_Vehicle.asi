@@ -1,0 +1,121 @@
+AnimSetInstanceSource "{5E92BE74EC2B0358}" {
+ Template "{1A2F06EF780C4C79}Assets/Vehicles/Wheeled/SampleCar_01/workspaces/SampleCar_01.ast"
+ Lines {
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringExtreme" {
+   Resource "{34E068B33B86BF50}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_steering_poses_main.anm"
+  }
+  AnimSetInstanceSource_Line "VehicleActions.Veh/Play.SteeringMain" {
+   Resource "{34E068B33B86BF50}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_steering_poses_main.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetIn" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetInL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetInR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOut" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutL" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.UniqueSeat.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerR.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.PassengerL.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Gunner.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.Driver.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Vehicle.CoDriver.GetOutR" {
+   Resource "{1629A3018EC06454}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_empty.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{5B047917FF9426E5}" {
+ }
+}

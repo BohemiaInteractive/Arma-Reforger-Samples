@@ -3,6 +3,15 @@ $object "" {
  #tag MergeMeshes "1"
  #tag Coords "XZY"
  #tag Scale "1.000000"
+ $node "Scene_Root" {
+  $frame {
+    1 0 0
+    0 1 0
+    0 0 1
+    0 0 0
+   
+  }
+ }
  $materials {
   $material "SampleCar_01_Glass" {
    #UVset 0

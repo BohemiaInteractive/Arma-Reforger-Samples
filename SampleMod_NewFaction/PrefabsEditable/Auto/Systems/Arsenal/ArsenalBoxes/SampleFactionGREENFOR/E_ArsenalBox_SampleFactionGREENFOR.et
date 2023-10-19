@@ -28,55 +28,46 @@ GenericEntity : "{5FB1FACD28970BAC}Prefabs/Systems/Arsenal/ArsenalBoxes/SampleFa
      m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
      m_vPosition -0.521 0 0.866
      m_vAngles 0 -32.767 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D4627A9}" {
      m_Prefab "{BB724A13B58925F5}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_02.et"
      m_vPosition -0.247 0 1.267
      m_vAngles 0 -43.2 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D482263}" {
      m_Prefab "{B953D46315370387}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rubus_idaeus_small_01.et"
      m_vPosition 0.7 0 -0.925
      m_vAngles 8.524 95.056 0.751
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D4A0398}" {
      m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
      m_vPosition -1.205 0 -0.803
      m_vAngles 11.788 -146.298 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D4CE61B}" {
      m_Prefab "{D7267EF3094DAADB}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_USSR_01.et"
      m_vPosition 0.704 0 0.788
      m_vAngles 0 -20.222 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D4ED7A5}" {
      m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
      m_vPosition -0.725 0 -1.078
      m_vAngles 19.518 -127.358 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D509B8B}" {
      m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
      m_vPosition 1.007 0 0.478
      m_vAngles 0 -18.235 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D52A50B}" {
      m_Prefab "{37DA28FE40409097}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_02.et"
      m_vPosition 0.184 0 0.945
      m_vAngles 0 0 0
-     m_fScale 1
     }
     SCR_EditorLinkEntry "{5D32B2B71D575272}" {
      m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
      m_vPosition 0.517 0 0.494
      m_vAngles 0 -41.278 0
-     m_fScale 1
     }
    }
   }
