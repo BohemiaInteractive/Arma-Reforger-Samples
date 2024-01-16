@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{2FA9896E2CF9B855}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_passenger_unconscious_idle.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "102_FullBodyABS_camera"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

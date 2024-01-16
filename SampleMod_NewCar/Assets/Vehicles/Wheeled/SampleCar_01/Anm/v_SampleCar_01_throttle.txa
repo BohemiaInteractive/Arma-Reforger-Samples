@@ -1,0 +1,40 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 1
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 1 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 1 {
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 1 {
+      #t 0 0.2717182 0.0352391
+     }
+    }
+    $node "v_pedal_throttle" {
+     $keys t q s {
+      $frame 0 {
+       #t -0.1591051 -0.0040368 0.6533405
+       #q -0.00145997 -0.00160607 -0.00052623 0.99999756
+      }
+      $frame 1 {
+       #t -0.1735148 -0.0460909 0.6898854
+       #q 0.09147019 -0.00155022 -0.00067319 0.99580652
+      }
+     }
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "sourceFile" "SampleCar_01_Animations4.blend"
+  #custProp "profile" "840_Vehicle_Throttle"
+ }
+}

@@ -12,7 +12,7 @@ class SCR_TrunkUserAction : ScriptedUserAction
 	//! Signal manager to pass signals into proc anim
 	private SignalsManagerComponent m_SignalsManager;
 	//! Sound component
-	private SoundComponent m_SoundComponent;
+	private SCR_VehicleSoundComponent m_SoundComponent;
 
 	//------------------------------------------------------------------------------------------------
 	override bool CanBeShownScript(IEntity user)
@@ -46,11 +46,11 @@ class SCR_TrunkUserAction : ScriptedUserAction
 		{
 			if(targetValue > 0)
 			{
-				m_SoundComponent.SoundEvent("SOUND_TRUNK_OPEN");
+				m_SoundComponent.SoundEvent("SOUND_CONTAINER_OPEN");
 			}
 			else
 			{
-				m_SoundComponent.SoundEvent("SOUND_TRUNK_CLOSE");
+				m_SoundComponent.SoundEvent("SOUND_CONTAINER_CLOSE");
 			}
 		}
 	}
@@ -72,6 +72,6 @@ class SCR_TrunkUserAction : ScriptedUserAction
 	override void Init(IEntity pOwnerEntity, GenericComponent pManagerComponent)
 	{
 		m_SignalsManager = SignalsManagerComponent.Cast(pOwnerEntity.FindComponent(SignalsManagerComponent));
-		m_SoundComponent = SoundComponent.Cast(pOwnerEntity.FindComponent(SoundComponent));
+		m_SoundComponent = SCR_VehicleSoundComponent.Cast(pOwnerEntity.FindComponent(SCR_VehicleSoundComponent));
 	}
 }

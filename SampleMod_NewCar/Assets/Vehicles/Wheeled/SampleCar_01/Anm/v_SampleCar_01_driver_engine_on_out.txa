@@ -1,0 +1,17 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 16
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 16 {
+   }
+  }
+ }
+ $events {
+  #event 1 "Sound" "SOUND_VEHICLE_IGNITIONKEY_OFF" -1 0 "" 1
+ }
+ $custProps {
+  #custProp "profile" "999_Empty"
+ }
+}

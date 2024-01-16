@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{46CC93C7A608C426}Prefabs/Vehicles/Core/Configs/HitZones/Light_NoDst.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

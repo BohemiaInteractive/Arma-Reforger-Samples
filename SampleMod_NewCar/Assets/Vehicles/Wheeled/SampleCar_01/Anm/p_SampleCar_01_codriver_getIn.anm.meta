@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{BC8CA2B06F77F758}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_codriver_getIn.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "102_FullBodyABS_camera"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

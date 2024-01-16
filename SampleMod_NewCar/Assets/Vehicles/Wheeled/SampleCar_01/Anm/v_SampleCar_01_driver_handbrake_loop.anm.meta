@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{69090559F416B5D9}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_driver_handbrake_loop.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "846_Vehicle_Handbrake"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

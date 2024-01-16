@@ -57,6 +57,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Enabled 1
      AttachmentSlot InventoryStorageSlot ironsight_front {
       PivotID "slot_ironsight_front"
+      MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
       Name "Front Ironsight"
@@ -78,6 +79,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Enabled 1
      AttachmentSlot InventoryStorageSlot ironsight {
       PivotID "slot_ironsight_rear"
+      MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
       Name "Rear Ironsight"
@@ -90,6 +92,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot optic {
       PivotID "slot_optics"
       Offset 0 0 0
+      MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab ""
       Name "Optic"
@@ -101,6 +104,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     AttachmentSlotComponent "{5D168E76CE7C176C}" {
      AttachmentSlot InventoryStorageSlot RIS_Left {
       PivotID "slot_ris_left"
+      MergePhysics 1
       ChildPivotID "snap_weapon"
       Name "RIS Left"
      }
@@ -111,6 +115,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     AttachmentSlotComponent "{5D168E76F4E59294}" {
      AttachmentSlot InventoryStorageSlot RIS_Right {
       PivotID "slot_ris_right"
+      MergePhysics 1
       ChildPivotID "snap_weapon"
       Name "RIS Right"
      }
@@ -171,6 +176,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      MagazineWell MagazineWell65x39C_SampleWeapon "{5464E0EAAF7815B4}" {
      }
+     DispersionDiameter 0.058
+     DispersionRange 100
      WeaponAimModifiers {
       SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
        "Lower Translation" 0.03 0 0

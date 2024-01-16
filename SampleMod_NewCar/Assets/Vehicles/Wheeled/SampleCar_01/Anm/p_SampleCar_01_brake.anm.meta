@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F50C34A2F27BAEDA}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_brake.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01_Animations4.blend"
+   SourceProfile "Vehicles_Throttle"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

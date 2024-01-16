@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{587598722227B7D4}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_clutch.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01_Animations4.blend"
+   SourceProfile "Vehicles_Clutch"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

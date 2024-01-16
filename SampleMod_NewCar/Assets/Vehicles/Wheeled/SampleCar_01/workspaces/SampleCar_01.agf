@@ -1933,13 +1933,13 @@ AnimSrcGraphFile {
      Tags {
       "TagItemUpdateColliders"
      }
-     EditorPos -2.868 -91.074
+     EditorPos -2.8 -91.1
      states {
       AnimSrcNodeState GetIn {
        Tags {
         "TagVehicleGetIn"
        }
-       EditorPos -0.268 -89.974
+       EditorPos -0.2 -90
        Child "FLGetInAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetIn ) && "\
        "GetCommandIb(CMD_Vehicle_GetIn) == 1"\
@@ -1951,7 +1951,7 @@ AnimSrcGraphFile {
        Tags {
         "TagGetOut"
        }
-       EditorPos -0.268 -89.174
+       EditorPos -0.2 -89.2
        Child "FLGetOutAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 1 && SeatPositionType != 4"
@@ -1959,7 +1959,7 @@ AnimSrcGraphFile {
        IsExit 0
       }
       AnimSrcNodeState CrawlOut {
-       EditorPos 2.632 -89.174
+       EditorPos 2.7 -89.2
        Child "CrawlOutDriver"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 2 && SeatPositionType != 4"
@@ -1967,7 +1967,7 @@ AnimSrcGraphFile {
        IsExit 1
       }
       AnimSrcNodeState JumpOut {
-       EditorPos 5.432 -89.174
+       EditorPos 5.5 -89.2
        Child "JumpOutDriver"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 3 && SeatPositionType != 4"
@@ -1975,7 +1975,7 @@ AnimSrcGraphFile {
        IsExit 1
       }
       AnimSrcNodeState ClimbOut {
-       EditorPos 8.532 -89.174
+       EditorPos 8.6 -89.2
        Child "ClimbOutDriver"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 4 && SeatPositionType != 4"
@@ -1986,7 +1986,7 @@ AnimSrcGraphFile {
        Tags {
         "TagExited"
        }
-       EditorPos -0.268 -88.174
+       EditorPos -0.2 -88.2
        Child "FLGetOutAnim"
        StartCondition ""
        TimeStorage "Real Time"
@@ -1996,7 +1996,7 @@ AnimSrcGraphFile {
        Tags {
         "TagVehicleGetIn"
        }
-       EditorPos 11.432 -89.874
+       EditorPos 11.5 -89.9
        Child "FLGetInUSAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetIn ) && "\
        "GetCommandIb(CMD_Vehicle_GetIn) == 1 && SeatPositionType == 4"
@@ -2007,7 +2007,7 @@ AnimSrcGraphFile {
        Tags {
         "TagGetOut"
        }
-       EditorPos 11.432 -88.774
+       EditorPos 11.5 -88.8
        Child "FLGetOutUSAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 1 && SeatPositionType == 4"
@@ -2015,7 +2015,7 @@ AnimSrcGraphFile {
        IsExit 0
       }
       AnimSrcNodeState CrawlOutUS {
-       EditorPos 14.132 -88.774
+       EditorPos 14.2 -88.8
        Child "FLCrawlOutUSAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 2 && SeatPositionType == 4"
@@ -2023,7 +2023,7 @@ AnimSrcGraphFile {
        IsExit 1
       }
       AnimSrcNodeState JumpOutUS {
-       EditorPos 17.332 -88.774
+       EditorPos 17.4 -88.8
        Child "FLJumpOutUSAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 3 && SeatPositionType == 4"
@@ -2031,7 +2031,7 @@ AnimSrcGraphFile {
        IsExit 1
       }
       AnimSrcNodeState ClimbOutUS {
-       EditorPos 20.432 -88.774
+       EditorPos 20.5 -88.8
        Child "FLClimbOutUSAnim"
        StartCondition "IsCommand(CMD_Vehicle_GetOut ) && "\
        "GetCommandIb(CMD_Vehicle_GetOut) == 4 && SeatPositionType == 4"
@@ -2042,7 +2042,7 @@ AnimSrcGraphFile {
        Tags {
         "TagExited"
        }
-       EditorPos 11.432 -87.874
+       EditorPos 11.5 -87.9
        Child "FLGetOutUSAnim"
        StartCondition ""
        TimeStorage "Real Time"
@@ -2245,7 +2245,7 @@ AnimSrcGraphFile {
      Tags {
       "TagFPCamera"
      }
-     EditorPos 10.832 -69.174
+     EditorPos 10.9 -69.2
      Source "Vehicle.UniqueSeat.GetInR"
      Looptype "No Loop"
      Predictions {
@@ -2264,7 +2264,7 @@ AnimSrcGraphFile {
      Tags {
       "TagFPCamera"
      }
-     EditorPos -0.268 -91.674
+     EditorPos -0.2 -91.7
      Source "Vehicle.Driver.GetIn"
      Looptype "No Loop"
      Predictions {
@@ -2353,7 +2353,7 @@ AnimSrcGraphFile {
      Tags {
       "TagFPCamera"
      }
-     EditorPos -0.268 -86.174
+     EditorPos -0.3 -86.2
      Source "Vehicle.Driver.GetOut"
      Looptype "No Loop"
     }
@@ -2495,7 +2495,7 @@ AnimSrcGraphFile {
      Tags {
       "TagFPCamera"
      }
-     EditorPos 11.532 -77.274
+     EditorPos 11.5 -77.3
      Source "Vehicle.UniqueSeat.GetInL"
      Looptype "No Loop"
      Predictions {
@@ -2703,7 +2703,7 @@ AnimSrcGraphFile {
      Looptype "No Loop"
     }
     AnimSrcNodePose "HandBrakeLoopPose 13361" {
-     EditorPos -19.088 -72.06
+     EditorPos -18.8 -77.1
      Source "VehicleActions.Veh/Play.HandBrakeLoop"
     }
     AnimSrcNodeSource "EngineStartStopLoopAnim 37209" {
@@ -2717,10 +2717,10 @@ AnimSrcGraphFile {
      Looptype "No Loop"
     }
     AnimSrcNodeStateMachine "HandBrakeSTM 11130" {
-     EditorPos -26.4 -74.7
+     EditorPos -26.1 -79.7
      states {
       AnimSrcNodeState HandBrakeOn {
-       EditorPos -27.388 -73.66
+       EditorPos -27.1 -78.7
        Child "HandBrakeOnAnim 37898"
        StartCondition "IsCommand(CMD_HandBrake) && "\
        "GetCommandI(CMD_HandBrake) == 1"
@@ -2728,27 +2728,27 @@ AnimSrcGraphFile {
        IsExit 1
       }
       AnimSrcNodeState HandBrakeOff {
-       EditorPos -24.088 -73.66
+       EditorPos -23.8 -78.7
        Child "HandBrakeOffAnim 35819"
        StartCondition "IsCommand(CMD_HandBrake) && "\
        "GetCommandI(CMD_HandBrake) == 2"
        IsExit 1
       }
       AnimSrcNodeState HandBrakeIn {
-       EditorPos -21.5 -73.7
+       EditorPos -21.2 -78.7
        Child "HandBrakeInAnim 35358"
        StartCondition "IsCommand(CMD_HandBrake) && "\
        "GetCommandI(CMD_HandBrake) == 3"
        TimeStorage "Real Time"
       }
       AnimSrcNodeState HandBrakeLoop {
-       EditorPos -19.1 -73.2
+       EditorPos -18.8 -78.2
        Child "HandBrakeLoopPose 13361"
        StartCondition "IsCommand(CMD_HandBrake) && "\
        "GetCommandI(CMD_HandBrake) == 4"
       }
       AnimSrcNodeState HandBrakeOut {
-       EditorPos -16.588 -73.66
+       EditorPos -16.3 -78.7
        Child "HandBrakeOutAnim 39339"
        TimeStorage "Real Time"
        IsExit 1
@@ -2779,11 +2779,11 @@ AnimSrcGraphFile {
      }
     }
     AnimSrcNodeSource "HandBrakeOffAnim 35819" {
-     EditorPos -24.088 -72.06
+     EditorPos -23.8 -77.1
      Source "VehicleActions.Veh/Play.HandBrakeoff"
     }
     AnimSrcNodeQueue "GearShiftQ 37391" {
-     EditorPos -31.688 -69.76
+     EditorPos -31.4 -74.8
      Child "SteeringMainIKT 25677"
      QueueItems {
       AnimSrcNodeQueueItem "{5190B003BFBBD969}" {
@@ -2797,10 +2797,6 @@ AnimSrcGraphFile {
        IsReentrant 1
       }
      }
-    }
-    AnimSrcNodeSource "LightsOffAnim 36222" {
-     EditorPos -25.888 -78.06
-     Source "VehicleActions.Veh/Play.LightsOff"
     }
     AnimSrcNodeBlend "SteeringMainB 10717" {
      EditorPos -30.588 -60.76
@@ -2819,7 +2815,7 @@ AnimSrcGraphFile {
      OptimizeMax 0
     }
     AnimSrcNodeSource "HandBrakeInAnim 35358" {
-     EditorPos -21.488 -72.06
+     EditorPos -21.2 -77.1
      Source "VehicleActions.Veh/Play.HandBrakeIn"
     }
     AnimSrcNodeBlend "SteeringExtremeB 17463" {
@@ -2831,12 +2827,12 @@ AnimSrcGraphFile {
      OptimizeMax 0
     }
     AnimSrcNodeSource "GearShiftAnim 10955" {
-     EditorPos -28.488 -68.56
+     EditorPos -28.2 -73.6
      Source "VehicleActions.Veh/Play.ShiftGear"
      Looptype "No Loop"
     }
     AnimSrcNodeSource "HandBrakeOnAnim 37898" {
-     EditorPos -27.388 -72.06
+     EditorPos -27.1 -77.1
      Source "VehicleActions.Veh/Play.HandBrakeOn"
     }
     AnimSrcNodeStateMachine "HornSTM 40929" {
@@ -2892,13 +2888,9 @@ AnimSrcGraphFile {
      Source "VehicleActions.Veh/Play.Brake"
      Time "0.0"
     }
-    AnimSrcNodeSource "LightsOnAnim 11862" {
-     EditorPos -28.388 -78.06
-     Source "VehicleActions.Veh/Play.LightsOn"
-    }
     AnimSrcNodeQueue "VehicleBrakeQ 18850" {
      EditorPos -31.488 -85.86
-     Child "LightsQ 14679"
+     Child "HandbrakeQ 42154"
      QueueItems {
       AnimSrcNodeQueueItem "{5190B003BFBBD23A}" {
        Child "VehicleBRakeB 24968"
@@ -2913,7 +2905,7 @@ AnimSrcGraphFile {
      }
     }
     AnimSrcNodeSource "HandBrakeOutAnim 39339" {
-     EditorPos -16.588 -72.06
+     EditorPos -16.3 -77.1
      Source "VehicleActions.Veh/Play.HandBrakeOut"
     }
     AnimSrcNodeStateMachine "SteeringSTM 27687" {
@@ -2988,7 +2980,7 @@ AnimSrcGraphFile {
      OptimizeMax 0
     }
     AnimSrcNodeQueue "HandbrakeQ 42154" {
-     EditorPos -31.888 -76.76
+     EditorPos -31.6 -81.8
      Child "DriverGRP 22755"
      QueueItems {
       AnimSrcNodeQueueItem "{5256C36BE3D792CE}" {
@@ -3018,31 +3010,12 @@ AnimSrcGraphFile {
       }
      }
     }
-    AnimSrcNodeStateMachine "LightsSTM 36257" {
-     EditorPos -27.388 -80.76
-     states {
-      AnimSrcNodeState LightsOn {
-       EditorPos -28.388 -79.66
-       Child "LightsOnAnim 11862"
-       StartCondition "IsCommand(CMD_Lights ) && "\
-       "GetCommandI(CMD_Lights) == 1"
-       IsExit 1
-      }
-      AnimSrcNodeState LightsOff {
-       EditorPos -25.888 -79.66
-       Child "LightsOffAnim 36222"
-       StartCondition "IsCommand(CMD_Lights ) && "\
-       "GetCommandI(CMD_Lights) == 2"
-       IsExit 1
-      }
-     }
-    }
     AnimSrcNodeSource "HornInAnim 12409" {
      EditorPos -17.388 -62.66
      Source "VehicleActions.Veh/Play.HornIn"
     }
     AnimSrcNodeGroupSelect "DriverGRP 22755" {
-     EditorPos -31.788 -71.86
+     EditorPos -31.5 -76.9
      Child "GearShiftQ 37391"
      Group "Vehicle"
      Column "Driver"
@@ -3151,20 +3124,6 @@ AnimSrcGraphFile {
      EditorPos -14.388 -86.56
      Source "VehicleActions.Veh/Play.EngineStop"
     }
-    AnimSrcNodeQueue "LightsQ 14679" {
-     EditorPos -31.888 -82.46
-     Child "HandbrakeQ 42154"
-     QueueItems {
-      AnimSrcNodeQueueItem "{51ACB8772DE511B8}" {
-       Child "LightsSTM 36257"
-       StartExpr "IsCommand(CMD_Lights ) && "\
-       "GetCommandI(CMD_Lights) != -2"
-       InterruptExpr "IsCommand(CMD_Lights ) && "\
-       "GetCommandI(CMD_Lights) == -2"
-       IsReentrant 1
-      }
-     }
-    }
     AnimSrcNodeQueue "Queue 24914" {
      EditorPos -30.988 -92.36
      Child "VehicleBrakeQ 18850"
@@ -3187,8 +3146,8 @@ AnimSrcGraphFile {
      Time "VehicleClutch"
     }
     AnimSrcNodeIK2Target "SteeringMainIKT 25677" {
-     EditorPos -31.788 -66.96
-     Child "HornQ 40913"
+     EditorPos -31.3 -73
+     Child "VehicleIK_1_1"
      Chains {
       AnimSrcIkTargetBinding "{52C4E32EA69C687C}" {
        IkTarget "LHandIKTarget"
@@ -3205,6 +3164,72 @@ AnimSrcGraphFile {
      EditorPos -27.188 -55.26
      Source "VehicleActions.Veh/Play.Throttle"
      Time "VehicleThrottle"
+    }
+    AnimSrcNodeSource "LightsOffAnim 36222" {
+     EditorPos -25.1 -67.2
+     Source "VehicleActions.Veh/Play.LightsOff"
+    }
+    AnimSrcNodeSource "LightsOnAnim 11862" {
+     EditorPos -27.6 -67.2
+     Source "VehicleActions.Veh/Play.LightsOn"
+    }
+    AnimSrcNodeQueue "LightsQ 14679" {
+     EditorPos -31.3 -70.4
+     Child "SteeringMainIKT_1_1"
+     QueueItems {
+      AnimSrcNodeQueueItem "{51ACB8772DE511B8}" {
+       Child "LightsSTM 36257"
+       StartExpr "IsCommand(CMD_Lights ) && "\
+       "GetCommandI(CMD_Lights) != -2"
+       InterruptExpr "IsCommand(CMD_Lights ) && "\
+       "GetCommandI(CMD_Lights) == -2"
+       IsReentrant 1
+      }
+     }
+    }
+    AnimSrcNodeStateMachine "LightsSTM 36257" {
+     EditorPos -26.6 -69.8
+     states {
+      AnimSrcNodeState LightsOn {
+       EditorPos -27.6 -68.7
+       Child "LightsOnAnim 11862"
+       StartCondition "IsCommand(CMD_Lights ) && "\
+       "GetCommandI(CMD_Lights) == 1"
+       IsExit 1
+      }
+      AnimSrcNodeState LightsOff {
+       EditorPos -25.1 -68.7
+       Child "LightsOffAnim 36222"
+       StartCondition "IsCommand(CMD_Lights ) && "\
+       "GetCommandI(CMD_Lights) == 2"
+       IsExit 1
+      }
+     }
+    }
+    AnimSrcNodeIK2 VehicleIK_1_1 {
+     EditorPos -31.3 -71.6
+     Child "LightsQ 14679"
+     Chains {
+      AnimSrcIkBinding "{52C4E32E740EC1BF}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+     }
+     Solver AnimSrcNodeIK2TwoBoneSolver "{5AA4DB5A1AB1CFF9}" {
+      SnapRotation 1
+      AllowStretching 0
+     }
+     Version 1
+    }
+    AnimSrcNodeIK2Target SteeringMainIKT_1_1 {
+     EditorPos -31.4 -67.8
+     Child "HornQ 40913"
+     Chains {
+      AnimSrcIkTargetBinding "{52C4E32E740EC095}" {
+       IkTarget "RHandIKTarget"
+       IkChain "RightArm"
+      }
+     }
     }
    }
   }

@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{835BA7C7931E58C7}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_driver_handbrake_in.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "102_FullBodyABS_camera"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+ }
+}

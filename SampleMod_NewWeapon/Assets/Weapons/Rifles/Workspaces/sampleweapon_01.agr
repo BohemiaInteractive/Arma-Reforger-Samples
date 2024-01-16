@@ -40,23 +40,27 @@ AnimSrcGraph {
    AnimSrcGCTVarBool Low {
     DefaultValue 0
    }
+   AnimSrcGCTVarFloat SightElevation {
+    DefaultValue 0.1
+    MaxValue 1
+   }
    AnimSrcGCTVarInt WeaponInspectionState {
+    DefaultValue 0
     MinValue -2
     MaxValue 2
    }
    AnimSrcGCTVarBool WeaponDeployed {
    }
-   AnimSrcGCTVarFloat SightElevation {
-    DefaultValue 0.1
-    MaxValue 1
-   }
    AnimSrcGCTVarFloat ADSAdjust {
+    MaxValue 1
    }
   }
   Commands {
    AnimSrcGCTCmd CMD_Weapon_Reload {
    }
    AnimSrcGCTCmd CMD_Weapon_Action_Interrupt {
+   }
+   AnimSrcGCTCmd CMD_Weapon_Inspection {
    }
   }
   IkChains {
@@ -94,6 +98,11 @@ AnimSrcGraph {
     MiddleJoint "rightforearm"
     ChainAxis "-y"
    }
+  }
+  GlobalTags {
+   "WEAPON"
+   "RIFLE"
+   "AK74"
   }
  }
  Debug AnimSrcGD "{519EDA3B7039E742}" {

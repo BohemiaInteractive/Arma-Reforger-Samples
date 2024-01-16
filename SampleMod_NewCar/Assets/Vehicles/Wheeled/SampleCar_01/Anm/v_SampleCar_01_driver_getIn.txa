@@ -1,0 +1,128 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 91
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 91 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 91 {
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 91 {
+      #t 0 0.2717182 0.0352391
+     }
+    }
+    $node "v_door_L01" {
+     $keys q s {
+      $frame 0 15 {
+       #t 0 0 0
+      }
+      $frame 16 {
+       #t 0 0 0
+       #q 0 0.00047398 0 0.99999988
+      }
+      $frame 17 {
+       #t 0 0 0
+       #q 0 0.00379334 0 0.99999285
+      }
+      $frame 18 {
+       #t 0 0 0
+       #q 0 0.01281579 0 0.99991786
+      }
+      $frame 19 {
+       #t 0 0 0
+       #q 0 0.03043242 0 0.99953681
+      }
+      $frame 20 {
+       #t 0 0 0
+       #q 0 0.05957319 0 0.9982239
+      }
+      $frame 21 {
+       #t 0 0 0
+       #q 0 0.10312767 0 0.99466819
+      }
+      $frame 22 {
+       #t 0 0 0
+       #q 0 0.16364987 0.00000001 0.9865185
+      }
+      $frame 23 {
+       #t 0 0 0
+       #q 0 0.24266222 -0.00000006 0.97011077
+      }
+      $frame 24 {
+       #t 0 0 0
+       #q 0 0.36641717 -0.00000006 0.9304508
+      }
+      $frame 25 73 {
+       #t 0 0 0
+       #q 0 0.44444191 -0.00000012 0.89580768
+      }
+      $frame 74 {
+       #t 0 0 0
+       #q 0 0.43068913 -0.00000011 0.90250039
+      }
+      $frame 75 {
+       #t 0 0 0
+       #q 0 0.39289352 -0.0000001 0.91958398
+      }
+      $frame 76 {
+       #t 0 0 0
+       #q 0 0.33600813 -0.00000009 0.94185919
+      }
+      $frame 77 {
+       #t 0 0 0
+       #q 0 0.26592898 -0.00000007 0.96399266
+      }
+      $frame 78 {
+       #t 0 0 0
+       #q 0 0.19021739 -0.00000005 0.98174196
+      }
+      $frame 79 {
+       #t 0 0 0
+       #q 0 0.11760288 -0.00000003 0.99306077
+      }
+      $frame 80 {
+       #t 0 0 0
+       #q 0 0.05674448 -0.00000002 0.99838871
+      }
+      $frame 81 {
+       #t 0 0 0
+       #q 0 0.01529431 0 0.99988306
+      }
+      $frame 82 91 {
+       #t 0 0 0
+      }
+     }
+     $node "v_door_L01" {
+      $keys t q s {
+       $frame 0 91 {
+       }
+      }
+     }
+     $node "v_door_L01_interior" {
+      $keys t q s {
+       $frame 0 91 {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 16 "Sound" "SOUND_VEHICLE_DOOR_OPEN_START.v_door_L01" 0 0 "" 1
+  #event 34 "Sound" "SOUND_VEHICLE_DOOR_OPEN_FINISH.v_door_L01" 1 0 "" 1
+  #event 86 "Sound" "SOUND_VEHICLE_DOOR_MOVEMENT.v_door_L01" 3 0 "" 1
+  #event 89 "Sound" "SOUND_VEHICLE_DOOR_CLOSE_FINISH.v_door_L01" 2 0 "" 1
+ }
+ $custProps {
+  #custProp "sourceFile" "SampleCar_01_Animations2.blend"
+  #custProp "profile" "801_Vehicle_Door_L01"
+ }
+}

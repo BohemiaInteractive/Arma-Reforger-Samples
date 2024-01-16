@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F5D242C8BE33CC7F}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_throttle.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01_Animations4.blend"
+   SourceProfile "840_Vehicle_Throttle"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

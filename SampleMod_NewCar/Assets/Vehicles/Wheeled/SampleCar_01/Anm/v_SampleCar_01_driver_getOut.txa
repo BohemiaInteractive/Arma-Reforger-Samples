@@ -1,0 +1,100 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 75
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 75 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 75 {
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 75 {
+      #t 0 0.2717182 0.0352391
+     }
+    }
+    $node "v_door_L01" {
+     $keys q s {
+      $frame 0 13 {
+       #t 0 0 0
+      }
+      $frame 14 {
+       #t 0 0 0
+       #q 0 0.03044929 0 0.99953628
+      }
+      $frame 15 {
+       #t 0 0 0
+       #q 0 0.1077542 0 0.99417752
+      }
+      $frame 16 {
+       #t 0 0 0
+       #q 0 0.20890807 0.00000001 0.97793537
+      }
+      $frame 17 {
+       #t 0 0 0
+       #q 0 0.30786914 0.00000001 0.95142871
+      }
+      $frame 18 {
+       #t 0 0 0
+       #q 0 0.38061607 0.00000002 0.9247331
+      }
+      $frame 19 60 {
+       #t 0 0 0
+       #q 0 0.40859705 0.00000002 0.9127149
+      }
+      $frame 61 {
+       #t 0 0 0
+       #q 0 0.38814968 0.00000002 0.92159635
+      }
+      $frame 62 {
+       #t 0 0 0
+       #q 0 0.37433708 0.00000002 0.92729264
+      }
+      $frame 63 {
+       #t 0 0 0
+       #q 0 0.29574636 0.00000001 0.95526654
+      }
+      $frame 64 {
+       #t 0 0 0
+       #q 0 0.16778009 0.00000001 0.98582447
+      }
+      $frame 65 {
+       #t 0 0 0
+       #q 0 0.05013157 0 0.99874264
+      }
+      $frame 66 75 {
+       #t 0 0 0
+      }
+     }
+     $node "v_door_L01" {
+      $keys t q s {
+       $frame 0 75 {
+       }
+      }
+     }
+     $node "v_door_L01_interior" {
+      $keys t q s {
+       $frame 0 75 {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 8 "Sound" "SOUND_VEHICLE_DOOR_OPEN_START.v_door_L01" 0 0 "" 1
+  #event 31 "Sound" "SOUND_VEHICLE_DOOR_OPEN_FINISH.v_door_L01" 1 0 "" 1
+  #event 55 "Sound" "SOUND_VEHICLE_DOOR_MOVEMENT.v_door_L01" 3 0 "" 1
+  #event 68 "Sound" "SOUND_VEHICLE_DOOR_CLOSE_FINISH.v_door_L01" 2 0 "" 1
+ }
+ $custProps {
+  #custProp "sourceFile" "SampleCar_01_Animations5.blend"
+  #custProp "profile" "801_Vehicle_Door_L01"
+ }
+}

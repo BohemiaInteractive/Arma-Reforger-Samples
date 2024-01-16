@@ -50,6 +50,9 @@ ProcAnimSignalResClass {
      port 0
     }
    }
+   "Fade In Time" 500
+   "Fade In Type" "Power of 3"
+   "Fade Out Type" "Power of 2"
   }
  }
  Outputs {

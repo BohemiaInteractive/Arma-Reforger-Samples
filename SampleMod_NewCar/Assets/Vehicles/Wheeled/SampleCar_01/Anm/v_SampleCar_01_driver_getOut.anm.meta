@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5148CA7181A086B5}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_driver_getOut.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01_Animations5.blend"
+   SourceProfile "801_Vehicle_Door_L01"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+ }
+}

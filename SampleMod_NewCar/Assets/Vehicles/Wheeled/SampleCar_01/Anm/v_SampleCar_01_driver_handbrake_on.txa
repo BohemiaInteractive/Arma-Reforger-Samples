@@ -1,0 +1,47 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 25
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 25 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 25 {
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 25 {
+      #t 0 0.2717182 0.0352391
+     }
+    }
+    $node "v_handbrake" {
+     $keys t q s {
+      $frame 0 9 {
+       #t 0.0130396 0.1296457 -0.2930269
+       #q -0.00105765 -0.00116346 -0.00052624 0.99999869
+      }
+      $frame 10 {
+       #q -0.05889444 -0.00113108 -0.00059265 0.99826342
+      }
+      $frame 11 {
+       #q -0.16629609 -0.00106051 -0.00071127 0.98607516
+      }
+      $frame 12 25 {
+       #q -0.22305098 -0.00101759 -0.00077141 0.97480595
+      }
+     }
+    }
+   }
+  }
+ }
+ $events {
+  #event 11 "Sound" "SOUND_VEHICLE_HANDBRAKE_ON" 0 0 "" 1
+ }
+ $custProps {
+  #custProp "profile" "846_Vehicle_Handbrake"
+ }
+}

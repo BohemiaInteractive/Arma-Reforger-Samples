@@ -1,0 +1,14 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 8
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 8 {
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "999_Empty"
+ }
+}

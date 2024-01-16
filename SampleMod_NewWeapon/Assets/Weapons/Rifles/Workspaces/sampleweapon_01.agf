@@ -5,7 +5,7 @@ AnimSrcGraphFile {
     AnimSrcNodePose SafetyPose {
      EditorPos -19.8 14.6
      Source "Reload.Safety"
-     Time "0"
+     Time "0.0"
     }
     AnimSrcNodeSource FireAnim {
      EditorPos -5.5 9.2
@@ -90,14 +90,14 @@ AnimSrcGraphFile {
        FromState "Idle"
        ToState "Buffer3"
        Duration "0.3"
-       Condition "IsCommand(CMD_Weapon_Reload)"
+       Condition "IsCommand(CMD_Weapon_Reload) && GetCommandI(CMD_Weapon_Reload) != -2"
        BlendFn S
       }
       AnimSrcNodeTransition "{54DECEFBBF4FBBFB}" {
        FromState "Reload"
        ToState "Buffer4"
        Duration "0.3"
-       Condition "(RemainingTimeLess(0.01)|| IsCommand(CMD_Weapon_Action_Interrupt)) && WeaponInspectionState == 0"
+       Condition "(RemainingTimeLess(0.01)|| GetCommandI(CMD_Weapon_Reload) == -2) && WeaponInspectionState == 0"
        BlendFn S
        PostEval 1
       }
@@ -112,7 +112,7 @@ AnimSrcGraphFile {
        FromState "Idle"
        ToState "Buffer2"
        Duration "0.3"
-       Condition "WeaponInspectionState != 0"
+       Condition "WeaponInspectionState != 0 && WeaponInspectionState != -2"
       }
       AnimSrcNodeTransition "{5A06E215E9BCEDFF}" {
        FromState "Buffer2"
@@ -125,26 +125,26 @@ AnimSrcGraphFile {
        FromState "WeaponInspection"
        ToState "Buffer1"
        Duration "0.8"
-       Condition "RemainingTimeLess(0.5) || IsCommand(CMD_Weapon_Action_Interrupt)"
+       Condition "RemainingTimeLess(0.5) || WeaponInspectionState == -2"
        PostEval 1
       }
       AnimSrcNodeTransition "{5C689B481F24AD32}" {
        FromState "WeaponInspection"
        ToState "Buffer3"
        Duration "0.3"
-       Condition "IsCommand(CMD_Weapon_Reload)"
+       Condition "IsCommand(CMD_Weapon_Reload) && GetCommandI(CMD_Weapon_Reload) != -2"
       }
       AnimSrcNodeTransition "{5C689B481F24AD26}" {
        FromState "Buffer4"
        ToState "WeaponInspection"
        Duration "0.3"
-       Condition "WeaponInspectionState != 0"
+       Condition "WeaponInspectionState != 0 && WeaponInspectionState != -2"
       }
       AnimSrcNodeTransition "{5C689B481F24AD54}" {
        FromState "Reload"
        ToState "Buffer4"
        Duration "0.3"
-       Condition "(RemainingTimeLess(0.5) || IsCommand(CMD_Weapon_Action_Interrupt)) && WeaponInspectionState != 0"
+       Condition "(RemainingTimeLess(0.5) || GetCommandI(CMD_Weapon_Reload) == -2) && WeaponInspectionState != 0"
        BlendFn S
        PostEval 1
       }
@@ -334,12 +334,12 @@ AnimSrcGraphFile {
     AnimSrcNodePose SemiPose {
      EditorPos -17 14.6
      Source "Reload.Safety"
-     Time "0.5"
+     Time "1.0"
     }
     AnimSrcNodePose AutoPose {
      EditorPos -14.4 14.6
      Source "Reload.Safety"
-     Time "1"
+     Time "0.5"
     }
     AnimSrcNodeBlend MasterControl {
      EditorPos 2.3 -10.1
@@ -540,7 +540,7 @@ AnimSrcGraphFile {
       AnimSrcNodeState Burst {
        EditorPos -14.3 12.9
        Child "AutoPose"
-       StartCondition "State == 2"
+       StartCondition "State == 1"
       }
       AnimSrcNodeState SafetyTimer {
        EditorPos -19.7 11.5
@@ -687,7 +687,7 @@ AnimSrcGraphFile {
      states {
       AnimSrcNodeState InspectionInLeft {
        Tags {
-        ""
+        "TagTransitionADSIn" "TagInspectionTransition"
        }
        EditorPos -29.4 1.1
        Child "Sound_Inspect_In"
@@ -706,7 +706,7 @@ AnimSrcGraphFile {
       }
       AnimSrcNodeState InspectionOutLeft {
        Tags {
-        ""
+        "TagTransitionADSOut" "TagInspectionTransition"
        }
        EditorPos -24.9 1.1
        Child "InspectionOut"
@@ -725,7 +725,7 @@ AnimSrcGraphFile {
       }
       AnimSrcNodeState InspectionOutRight {
        Tags {
-        ""
+        "TagInspectionTransition"
        }
        EditorPos -38.4 0.9
        Child "InspectionOut 26449"
@@ -979,12 +979,14 @@ AnimSrcGraphFile {
      Version 1
     }
     AnimSrcNodeBlendT "Blend T 28564" {
-     EditorPos -21.074 -7.617
+     EditorPos -21.1 -7.6
      BlendTime "0.3"
      BlendFn S
      Condition "Stance == 1"
      Child0 "Procedural 12138"
      Child1 "Procedural 16614"
+     OptimizeMin 1
+     OptimizeMax 1
     }
     AnimSrcNodeBlend "Blend 37113" {
      EditorPos -20.674 -1.317

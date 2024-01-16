@@ -1,18 +1,39 @@
 AudioClass {
  signals {
   SignalClass {
-   id 7181
-   name "Signal 1"
-   tl -302.697 -127.333
-   res "{63CE53388AF9EF01}Sounds/_SharedData/Signals/OneSignal/animSelector.sig"
+   id 18445
+   name "Signal 18"
+   tl -90.219 -233.198
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
    inputsport {
-    3
+    30 32 45 55 57 94 103
    }
    outputsport {
-    4
+    2 40 43 47 50 74
    }
    inputvalues {
-    0
+    0 0 0 0 0 400 1000
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 10000 10000
+   }
+  }
+  SignalClass {
+   id 25613
+   name "Signal 23"
+   tl 110.909 -117.273
+   res "{6A92ECFA84F929B3}Sounds/_SharedData/Signals/OneSignal/HornState.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1
    }
    inputvaluesmin {
     0
@@ -22,63 +43,40 @@ AudioClass {
    }
   }
   SignalClass {
-   id 18445
-   name "Signal 18"
-   tl 87.463 -283.547
-   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+   id 31757
+   name "Signal Reverb"
+   tl 358.583 -219.667
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
    inputsport {
-    30 32 45 55 57 94 103
+    1 35 40
    }
    outputsport {
-    2 40 43 47 50 74
+    34 39 105
    }
    inputvalues {
-    0 1 1 0 0 400 1000
+    40 1 1
    }
    inputvaluesmin {
-    0 0 0 0 0 0 0
+    0 0 0
    }
    inputvaluesmax {
-    1 1 1 1 1 10000 10000
-   }
-  }
- }
- filters {
-  FilterClass : "{F7147E886D6CD57F}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Engine_Interior_OBSOLETE.conf" {
-   id 17430
-   name "Filter 17"
-   version 5
-   tl 292.536 -183.452
-   parent "{F7147E886D6CD57F}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Engine_Interior_OBSOLETE.conf"
-   ins {
-    ConnectionsClass connections {
-     id 0
-     links {
-      ConnectionClass connection {
-       id 18445
-       port 2
-      }
-     }
-    }
-   }
-   pi {
-    3
+    100 1 1
    }
   }
  }
  sounds {
   SoundClass {
    id 2057
-   name "SOUND_VEHICLE_HORN"
-   version 0
-   tl 87 -41
+   name "SOUND_VEHICLE_HORN_LP"
+   version 5
+   tl 112.54 -40
    ins {
     ConnectionsClass connections {
-     id 2
+     id 0
      links {
       ConnectionClass connection {
-       id 17430
-       port 65
+       id 25613
+       port 2
       }
      }
     }
@@ -93,66 +91,13 @@ AudioClass {
     }
    }
    pi {
-    4
+    1
    }
    outState 5131
    outStatePort 17415
-   noInAudible 0
-   bypassVolumeTest 1
+   delayTime 200
    transformation Bone
-  }
- }
- selectors {
-  SelectorClass {
-   id 6150
-   name "Selector 1"
-   version 5
-   tl -307 -41
-   ins {
-    ConnectionsClass connections {
-     id 0
-     links {
-      ConnectionClass connection {
-       id 7181
-       port 4
-      }
-     }
-    }
-    ConnectionsClass connections {
-     id 215688922
-     links {
-      ConnectionClass connection {
-       id 13316
-       port 65
-      }
-      ConnectionClass connection {
-       id 14340
-       port 65
-      }
-     }
-    }
-    ConnectionsClass connections {
-     id 215688923
-     links {
-      ConnectionClass connection {
-       id 15364
-       port 65
-      }
-     }
-    }
-   }
-   pi {
-    1
-   }
-   ports {
-    PortClass port1 {
-     max 1
-    }
-    PortClass port2 {
-     min 1
-     max 2
-    }
-   }
+   boneName "v_axle_01"
   }
  }
  mixers {
@@ -160,7 +105,7 @@ AudioClass {
    id 5131
    name "OutputState"
    version 4
-   tl 300 -292
+   tl 358.118 142
    res "{B764D803219C775E}Sounds/FinalMix.afm"
    ins {
     ConnectionsClass connections {
@@ -172,9 +117,27 @@ AudioClass {
       }
      }
     }
+    ConnectionsClass connections {
+     id 152583
+     links {
+      ConnectionClass connection {
+       id 23581
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 197639
+     links {
+      ConnectionClass connection {
+       id 26653
+       port 65
+      }
+     }
+    }
    }
    pi {
-    256
+    33685760
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
@@ -208,17 +171,26 @@ AudioClass {
      }
     }
     ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 32789
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
      id 64
      links {
       ConnectionClass connection {
-       id 6150
+       id 24580
        port 65
       }
      }
     }
    }
    pi {
-    3
+    7
    }
    ITD 0
   }
@@ -226,53 +198,51 @@ AudioClass {
  amplitudes {
   AmplitudeClass : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf" {
    id 4115
-   name "Amplitude"
    version 5
-   tl -97.727 -117.182
+   tl -90.98 -380.833
    parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 32789
+   version 5
+   tl -92.54 -306.508
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 18445
+       port 74
+      }
+     }
+    }
+   }
+   pi {
+    16
+   }
+   pu {
+    16
+   }
   }
  }
  banks_local {
   BankLocalClass {
-   id 13316
-   name "UAZ469_Horn_In"
-   version 0
-   tl -540 -127
-   Volume -8
-   "Fade out time" 0
-   Samples {
-    AudioBankSampleClass Sample {
-     Filename "{754B781E2FA548CA}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Horn_In.wav"
-    }
-   }
-  }
-  BankLocalClass {
-   id 14340
-   name "UAZ469_Horn_Loop"
-   version 0
-   tl -540 -19
-   Volume -8
+   id 24580
+   name "Horn"
+   version 7
+   tl -317.174 -40.795
+   Volume -21
    "Loop count" 255
+   "Loop begin" 3382
+   "Loop length" 4655
    "Infinite loop" 1
-   "Fade in time" 100
-   "Fade out time" 100
-   "Disable streaming" 1
+   "Terminate Loop" 0
    Samples {
     AudioBankSampleClass Sample {
-     Filename "{B366D43B9929AE4D}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Horn_Loop.wav"
-    }
-   }
-  }
-  BankLocalClass {
-   id 15364
-   name "UAZ469_Horn_Out"
-   version 0
-   tl -540 89
-   Volume -10
-   "Fade out time" 0
-   Samples {
-    AudioBankSampleClass Sample {
-     Filename "{437CF0F5761DEBF3}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Horn_Out.wav"
+     Filename "{04827CEDFC30A7D4}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/SampleCar_01_Horn_In_Loop_Out.wav"
     }
    }
   }
@@ -280,11 +250,89 @@ AudioClass {
  spatialities {
   SpatialityClass {
    id 16412
+   name "Spatiality"
    version 5
-   tl -97 -199
+   tl -90.253 -457.096
    spatialFactor 1
   }
  }
+ auxOuts {
+  AuxOutClass {
+   id 23581
+   name "AuxOut Reverb INT"
+   version 5
+   tl 359.936 -100.955
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 2057
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 31757
+       port 34
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 31757
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+   pu {
+    6
+   }
+   OSPort 152583
+  }
+  AuxOutClass {
+   id 26653
+   name "AuxOut Reverb EXT"
+   version 5
+   tl 358.118 21.148
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 2057
+       port 5
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 31757
+       port 105
+      }
+     }
+    }
+   }
+   pi {
+    3
+   }
+   pu {
+    2
+   }
+   OSPort 197639
+  }
+ }
  version 1
- sourcesLimit 1
+ listenerWindowModel "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
 }

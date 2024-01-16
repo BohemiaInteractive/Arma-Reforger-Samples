@@ -610,7 +610,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 39945
    name "SOUND_ENGINE_LP"
-   version 0
+   version 5
    tl 374.166 -1317.913
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -656,7 +656,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 118793
    name "SOUND_TIMING_BELT"
-   version 0
+   version 5
    tl 343.845 1330.705
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -690,7 +690,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 134153
    name "SOUND_ENGINE_RATTLE_LP"
-   version 0
+   version 5
    tl 334.754 1649.035
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -723,7 +723,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 145417
    name "SOUND_BACK_FIRE"
-   version 0
+   version 5
    tl 332.416 1937.639
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -759,7 +759,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 160777
    name "SOUND_ENGINE_STARTER_LP"
-   version 0
+   version 5
    tl 350 -416.037
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -779,7 +779,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 163849
    name "SOUND_ENGINE_START_FAILED"
-   version 0
+   version 5
    tl 350 -211.904
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -799,7 +799,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 171017
    name "SOUND_ENGINE_STOP"
-   version 0
+   version 5
    tl 350 145
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -819,7 +819,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 177161
    name "SOUND_ENGINE_START"
-   version 0
+   version 5
    tl 350 -625.833
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -839,7 +839,7 @@ AudioClass {
   SoundClass : "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf" {
    id 189449
    name "SOUND_EXHAUST_SUBMERGED_LP"
-   version 0
+   version 5
    tl 346.571 2265.31
    parent "{72EBD61C4DB7E5F8}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Engine_base.conf"
    ins {
@@ -1695,7 +1695,7 @@ AudioClass {
   BankLocalClass {
    id 103428
    name "UAZ469_Engine_RPM0"
-   version 0
+   version 7
    tl -27.611 -1512.245
    ins {
     ConnectionsClass connections {
@@ -1725,8 +1725,8 @@ AudioClass {
    }
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1737,7 +1737,7 @@ AudioClass {
   BankLocalClass {
    id 104452
    name "UAZ469_Engine_RPM1"
-   version 0
+   version 7
    tl -27.611 -1412.399
    ins {
     ConnectionsClass connections {
@@ -1768,8 +1768,8 @@ AudioClass {
    Volume 3
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1780,7 +1780,7 @@ AudioClass {
   BankLocalClass {
    id 105476
    name "UAZ469_Engine_RPM2"
-   version 0
+   version 7
    tl -27.611 -1310.552
    ins {
     ConnectionsClass connections {
@@ -1811,8 +1811,8 @@ AudioClass {
    Volume 10
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1823,7 +1823,7 @@ AudioClass {
   BankLocalClass {
    id 106500
    name "UAZ469_Engine_RPM3"
-   version 0
+   version 7
    tl -27.611 -1209.706
    ins {
     ConnectionsClass connections {
@@ -1854,9 +1854,9 @@ AudioClass {
    Volume 10.5
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Random start offset" 1
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1867,7 +1867,7 @@ AudioClass {
   BankLocalClass {
    id 107524
    name "UAZ469_Engine_RPM4"
-   version 0
+   version 7
    tl -27.611 -1110.859
    ins {
     ConnectionsClass connections {
@@ -1898,8 +1898,8 @@ AudioClass {
    Volume 9.5
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1910,7 +1910,7 @@ AudioClass {
   BankLocalClass {
    id 108548
    name "UAZ469_Engine_RPM5"
-   version 0
+   version 7
    tl -27.611 -1008.013
    ins {
     ConnectionsClass connections {
@@ -1941,8 +1941,8 @@ AudioClass {
    Volume 8
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1953,7 +1953,7 @@ AudioClass {
   BankLocalClass {
    id 109572
    name "UAZ469_Engine_RPM6"
-   version 0
+   version 7
    tl -27.611 -907.166
    ins {
     ConnectionsClass connections {
@@ -1984,8 +1984,8 @@ AudioClass {
    Volume 9
    "Loop count" 255
    "Infinite loop" 1
+   "Termination Fade Out" 200
    "Fade in time" 500
-   "Fade out time" 200
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1996,7 +1996,7 @@ AudioClass {
   BankLocalClass {
    id 135172
    name "EngineRattle Offload"
-   version 0
+   version 7
    tl -31.02 1713.969
    ins {
     ConnectionsClass connections {
@@ -2027,7 +2027,7 @@ AudioClass {
   BankLocalClass {
    id 136196
    name "Fast"
-   version 0
+   version 7
    tl -35.111 1276.333
    ins {
     ConnectionsClass connections {
@@ -2081,7 +2081,7 @@ AudioClass {
   BankLocalClass {
    id 137220
    name "Slow"
-   version 0
+   version 7
    tl -35.111 1395.248
    ins {
     ConnectionsClass connections {
@@ -2127,7 +2127,7 @@ AudioClass {
   BankLocalClass {
    id 143364
    name "Exhaust BackFire"
-   version 0
+   version 7
    tl -30.111 1939.167
    ins {
     ConnectionsClass connections {
@@ -2198,11 +2198,10 @@ AudioClass {
   BankLocalClass {
    id 155652
    name "UAZ469_EngineStart_Rattle"
-   version 0
+   version 7
    tl -27.726 -572.487
    Volume -13
    Selection Random
-   "Fade out time" 0
    Samples {
     AudioBankSampleClass Sample {
      Filename "{F593B3DAA0664D75}Sounds/Vehicles/Wheeled/UAZ469/Samples/Stress/UAZ469_EngineStart_Rattle_1.wav"
@@ -2215,12 +2214,12 @@ AudioClass {
   BankLocalClass {
    id 156676
    name "UAZ469_Engine_Star_Out"
-   version 0
+   version 7
    tl -26.495 -675.067
    Volume -9
+   "Termination Fade Out" 200
    Selection Random
    "Fade in time" 100
-   "Fade out time" 200
    Samples {
     AudioBankSampleClass Sample {
      Filename "{D294F9F12D0EED2B}Sounds/Vehicles/Wheeled/SampleCar_01/Samples/Engine/SampleCar_01_Engine_Start.wav"
@@ -2230,7 +2229,7 @@ AudioClass {
   BankLocalClass {
    id 157700
    name "UAZ469_Engine_Start_In"
-   version 0
+   version 7
    tl -20.507 -444.188
    Volume -3
    Selection Random
@@ -2246,14 +2245,14 @@ AudioClass {
   BankLocalClass {
    id 159748
    name "UAZ469_Engine_Start_Loop "
-   version 0
+   version 7
    tl -22.46 -343.797
    Volume -11
    Pitch -2
    "Loop count" 4
+   "Termination Fade Out" 300
    "Random start offset" 1
    "Fade in time" 200
-   "Fade out time" 300
    Samples {
     AudioBankSampleClass Sample {
      Filename "{36376CEF49BBA43C}Sounds/Vehicles/Wheeled/M151A2/Samples/Engine/M151A2_Engine_Start_Loop.wav"
@@ -2263,11 +2262,11 @@ AudioClass {
   BankLocalClass {
    id 164868
    name "UAZ469_Engine_Stop_NoFuel"
-   version 0
+   version 7
    tl -270.567 4.578
    Volume -4
+   "Termination Fade Out" 200
    "Fade in time" 100
-   "Fade out time" 200
    Samples {
     AudioBankSampleClass Sample {
      Filename "{8E0AE3D25D20B51D}Sounds/Vehicles/Wheeled/UAZ469/Samples/Engine/UAZ469_Engine_Stop_NoFuel.wav"
@@ -2277,12 +2276,12 @@ AudioClass {
   BankLocalClass {
    id 165892
    name "UAZ469_Engine_Stop"
-   version 0
+   version 7
    tl -274.076 179.198
    Volume -2
+   "Termination Fade Out" 200
    Selection Random
    "Fade in time" 100
-   "Fade out time" 200
    Samples {
     AudioBankSampleClass Sample {
      Filename "{5BE36EF98869D69E}Sounds/Vehicles/Wheeled/UAZ469/Samples/Engine/UAZ469_Engine_Stop_1.wav"
@@ -2295,11 +2294,11 @@ AudioClass {
   BankLocalClass {
    id 166916
    name "_Shared_EngineCoolDown"
-   version 0
+   version 7
    tl -276.536 279.737
    Volume -35
+   "Termination Fade Out" 200
    Selection Random
-   "Fade out time" 200
    Samples {
     AudioBankSampleClass Sample {
      Filename "{0BF9CD99AF425F80}Sounds/Vehicles/_SharedData/EngineCooldown/Engine_Cooldown_1.wav"
@@ -2312,7 +2311,7 @@ AudioClass {
   BankLocalClass {
    id 172036
    name "EngineRattle Onload"
-   version 0
+   version 7
    tl -31.545 1595.697
    ins {
     ConnectionsClass connections {
@@ -2344,7 +2343,7 @@ AudioClass {
   BankLocalClass {
    id 197636
    name "Submerged Low"
-   version 0
+   version 7
    tl -39.345 2266.932
    ins {
     ConnectionsClass connections {
@@ -2485,5 +2484,5 @@ AudioClass {
  }
  version 1
  sourcesLimit 6
- listenerWindowModel "{B80903BACFCDCCB6}Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob"
+ listenerWindowModel "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
 }

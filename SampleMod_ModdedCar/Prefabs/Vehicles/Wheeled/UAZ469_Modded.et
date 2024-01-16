@@ -85,6 +85,7 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
     RegisteringComponentSlotInfo Turret {
      PivotID "v_root"
      Offset 0 1.0213 0
+     MergePhysics 1
      Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
      RegisterActions 1
      RegisterDamage 1

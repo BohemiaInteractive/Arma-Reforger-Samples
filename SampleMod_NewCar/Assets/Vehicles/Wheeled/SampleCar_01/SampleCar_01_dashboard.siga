@@ -28,19 +28,19 @@ ProcAnimSignalResClass {
   IOPItemInputClass {
    id 62
    name "fuel1"
-   tl -962.222 282.222
+   tl -934.222 296.222
    children {
-    64
+    72
    }
   }
   IOPInputValueClass {
    id 65
    name "Value 65"
-   tl -787.778 397.778
+   tl -821.778 442.778
    children {
-    64
+    72
    }
-   value 5
+   value 2.2
   }
   IOPItemInputClass {
    id 66
@@ -96,24 +96,6 @@ ProcAnimSignalResClass {
    "Fade In Type" "S-curve"
    "Fade Out Type" "S-curve"
   }
-  IOPItemOpDivClass {
-   id 64
-   name "Div 64"
-   tl -553.333 285.556
-   children {
-    63
-   }
-   inputs {
-    ConnectionClass connection {
-     id 65
-     port 1
-    }
-    ConnectionClass connection {
-     id 62
-     port 0
-    }
-   }
-  }
   IOPItemOpMulClass {
    id 68
    name "Mul 68"
@@ -166,6 +148,24 @@ ProcAnimSignalResClass {
    "Y min" -16
    "Y max" 260
   }
+  IOPItemOpMulClass {
+   id 72
+   name "Mul 72"
+   tl -541 292
+   children {
+    63
+   }
+   inputs {
+    ConnectionClass connection {
+     id 65
+     port 0
+    }
+    ConnectionClass connection {
+     id 62
+     port 0
+    }
+   }
+  }
  }
  Outputs {
   IOPItemOutputClass {
@@ -182,9 +182,9 @@ ProcAnimSignalResClass {
   }
   IOPItemOutputClass {
    id 63
-   name "fuel1"
-   tl -83.333 284.444
-   input 64
+   name "fuel"
+   tl -83.333 290.444
+   input 72
   }
   IOPItemOutputClass {
    id 67
@@ -195,7 +195,7 @@ ProcAnimSignalResClass {
  }
  compiled IOPCompiledClass {
   visited {
-   773 645 395 519 390 517 389 263 262 261 647 135 134 133 5 11 6
+   773 645 267 391 390 517 389 651 262 261 519 135 134 133 5 11 6
   }
   ins {
    IOPCompiledIn {
@@ -206,6 +206,16 @@ ProcAnimSignalResClass {
    IOPCompiledIn {
     data {
      1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 262147
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 327683
     }
    }
    IOPCompiledIn {
@@ -223,16 +233,6 @@ ProcAnimSignalResClass {
      1 131075
     }
    }
-   IOPCompiledIn {
-    data {
-     1 196611
-    }
-   }
-   IOPCompiledIn {
-    data {
-     1 196611
-    }
-   }
   }
   ops {
    IOPCompiledOp {
@@ -242,27 +242,27 @@ ProcAnimSignalResClass {
    }
    IOPCompiledOp {
     data {
-     1 65538 2 327681 0
+     1 65538 2 262145 0
     }
    }
    IOPCompiledOp {
     data {
-     1 131074 4 262144 1 196608 0
+     1 196611 4 327680 0 393216 0
     }
    }
    IOPCompiledOp {
     data {
-     1 262147 4 327680 0 393216 0
-    }
-   }
-   IOPCompiledOp {
-    data {
-     1 196610 2 196609 0
+     1 196610 2 131073 0
     }
    }
    IOPCompiledOp {
     data {
      1 65539 2 131072 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 262144 0 196608 0
     }
    }
   }
@@ -291,7 +291,7 @@ ProcAnimSignalResClass {
   processed 17
   version 2
   ops_reeval_list {
-   1 4
+   1 3
   }
  }
 }

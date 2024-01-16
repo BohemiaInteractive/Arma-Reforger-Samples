@@ -244,5 +244,7 @@ MetaFileClass {
   }
   FBXResourceClass XBOX_SERIES : PC {
   }
+  FBXResourceClass PS5 : PC {
+  }
  }
 }

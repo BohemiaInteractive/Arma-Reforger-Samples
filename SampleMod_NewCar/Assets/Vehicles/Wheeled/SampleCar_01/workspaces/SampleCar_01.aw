@@ -10,7 +10,7 @@ BaseSource {
    Model "{790CB9C809DE64B8}Assets/Characters/Animation/AnimTestChar_US_01.xob"
   }
   AnimSrcWorkspacePreviewModel "{563EF338E13AB792}" {
-   Model "{B80903BACFCDCCB6}Assets/Vehicles/Wheeled/UAZ469/UAZ469_base.xob"
+   Model "{52FC8657E80F3085}Assets/Vehicles/Wheeled/SampleCar_01/SampleCar_01.xob"
   }
  }
  AudioTesting AnimSrcWorkspaceAudioTesting "{58B2B32789FAA7C3}" {

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7A9DC98CB658795D}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_horn_out.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "SampleCar_01_Animations4.blend"
+   SourceProfile "Vehicles_horn"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+ }
+}

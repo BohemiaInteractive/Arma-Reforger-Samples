@@ -1,0 +1,35 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 1
+ $node "Scene_Root" {
+  $keys t q s {
+   $frame 0 1 {
+   }
+  }
+  $node "v_root" {
+   $keys t q s {
+    $frame 0 1 {
+    }
+   }
+   $node "v_body" {
+    $keys t q s {
+     $frame 0 1 {
+      #t 0 0.2717182 0.0352391
+     }
+    }
+    $node "v_handbrake" {
+     $keys t q s {
+      $frame 0 1 {
+       #t 0.0130396 0.1296457 -0.2930269
+       #q -0.22305098 -0.00101759 -0.00077141 0.97480595
+      }
+     }
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "846_Vehicle_Handbrake"
+ }
+}
