@@ -9,7 +9,7 @@ class SampleWorldEditorTool: WorldEditorTool
 	
 	ref DebugTextScreenSpace m_text;
 	ref DebugTextScreenSpace m_crossHair;
-	ref array<IEntity> m_arrayOfEntities;
+	ref array<IEntitySource> m_arrayOfEntities;
 
 	vector m_previousTraceEnd;
 
@@ -38,7 +38,7 @@ class SampleWorldEditorTool: WorldEditorTool
 		
 		// Delete all entities created by this tool
 		m_API.BeginEntityAction("Changing scale of entities");
-		foreach (int currentIndex, IEntity entity: m_arrayOfEntities)
+		foreach (int currentIndex, IEntitySource entity: m_arrayOfEntities)
 		{
 			m_API.ModifyEntityKey(entity, "scale", (Math.RandomFloat(0.5,2)).ToString());
 		}
@@ -85,7 +85,7 @@ class SampleWorldEditorTool: WorldEditorTool
 			m_API.BeginEntityAction("Processing " + traceEnd);
 		
 			// Create entity using one of the selected random prefabs
-			IEntity entity = m_API.CreateEntity(m_PrefabVariants.GetRandomElement(), "", m_API.GetCurrentEntityLayerId(), null, traceEnd, vector.Zero);
+			IEntitySource entity = m_API.CreateEntity(m_PrefabVariants.GetRandomElement(), "", m_API.GetCurrentEntityLayerId(), null, traceEnd, vector.Zero);
 			m_arrayOfEntities.Insert(entity);
 			
 			if(m_RandomScale)
@@ -106,7 +106,7 @@ class SampleWorldEditorTool: WorldEditorTool
 			return;
 		
 		// Get last modified entity
-		IEntity entity = m_arrayOfEntities.Get(m_arrayOfEntities.Count()-1);
+		IEntitySource entity = m_arrayOfEntities.Get(m_arrayOfEntities.Count()-1);
 		
 		// Exit if it was i.e. already deleted
 		if(!entity)
@@ -154,7 +154,7 @@ class SampleWorldEditorTool: WorldEditorTool
 	{
 		m_text = DebugTextScreenSpace.Create(m_API.GetWorld(), "", 0, 100, 100, 14, ARGBF(1, 1, 1, 1), 0x00000000);
 		m_crossHair = DebugTextScreenSpace.Create(m_API.GetWorld(), "", 0, 0, 0, 30, ARGBF(1, 1, 1, 1), 0x00000000);
-		m_arrayOfEntities = new array<IEntity>;
+		m_arrayOfEntities = new array<IEntitySource>;
 	}
 
 	override void OnDeActivate()

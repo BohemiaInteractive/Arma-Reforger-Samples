@@ -13,5 +13,7 @@ MetaFileClass {
   }
   TXAResourceClass HEADLESS : PC {
   }
+  TXAResourceClass PS5 : PC {
+  }
  }
 }

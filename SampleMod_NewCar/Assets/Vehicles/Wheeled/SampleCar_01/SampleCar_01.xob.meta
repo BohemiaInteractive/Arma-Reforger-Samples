@@ -177,14 +177,6 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_FG_Doors {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
     GeometryParam UTM_FG_Hood {
      LayerPreset "FireGeo"
      SurfaceProperties {
@@ -219,6 +211,38 @@ MetaFileClass {
      Margin 0
     }
     GeometryParam UTM_FG_undercarriage {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Door_L01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Door_L02 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Door_R01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Door_R02 {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"

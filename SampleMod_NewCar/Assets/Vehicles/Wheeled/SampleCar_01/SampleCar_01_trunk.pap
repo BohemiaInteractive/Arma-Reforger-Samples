@@ -57,6 +57,7 @@ ProcAnimProjectClass {
      }
     }
    }
+   UpdateCollider 1
   }
   RotationMakeClass {
    id 3078
