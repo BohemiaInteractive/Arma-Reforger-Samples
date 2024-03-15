@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2182CC675ECACAFA}Assets/Weapons/Rifles/AK74_Modded/Data/AK74_Receiver1_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

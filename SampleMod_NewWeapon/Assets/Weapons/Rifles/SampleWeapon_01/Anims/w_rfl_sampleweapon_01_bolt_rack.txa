@@ -3,13 +3,13 @@ $animation "" {
  #fps 30
  #numFrames 36
  $node "w_bolt" {
-  $keys t q s {
+  $keys t q {
    $frame 0 36 {
-    #t 0 0.0649087 -0.1659564
+    #t -0 0.0649087 -0.1659564
    }
   }
   $node "w_charging_handle" {
-   $keys t q s {
+   $keys t q {
     $frame 0 18 {
      #t -0.0010015 0.0827058 -0.0855459
     }

@@ -1,9 +1,6 @@
 RadioManagerEntity {
  coords 2884.968 91.924 6293.253
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
- coords 19.876 0 4.538
-}
 SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  components {
   SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {

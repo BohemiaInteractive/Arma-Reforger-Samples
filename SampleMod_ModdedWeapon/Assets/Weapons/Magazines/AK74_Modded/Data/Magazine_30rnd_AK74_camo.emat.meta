@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E0B85B68EFAE6F8A}Assets/Weapons/Magazines/AK74/Data/Magazine_30rnd_AK74_camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

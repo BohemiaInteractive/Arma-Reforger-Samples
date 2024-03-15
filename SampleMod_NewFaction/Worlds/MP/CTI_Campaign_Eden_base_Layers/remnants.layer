@@ -741,7 +741,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords -11.629 0.66 -116.534
     }
     {
-     coords -0.062 -0.004 0.06
+     coords 5.521 0.189 0.307
     }
    }
   }
@@ -828,10 +828,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords -328.108 29.626 305.955
     }
     {
-     coords -153.032 25.559 285.924
+     coords -148.573 19.738 293.687
     }
     {
-     coords 36.427 7.366 77.143
+     coords 38.061 -0.309 75.65
     }
    }
   }
@@ -846,10 +846,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords -150.109 0.505 -3.189
+     coords -152.637 -13.338 6.977
     }
     {
-     coords -339.125 -24.034 -6.591
+     coords -338.317 -37.515 2.231
     }
     {
      coords -466.556 -56.297 -31.163
@@ -900,7 +900,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords -48.23 7.03 31.025
+     coords -47.14 3.797 34.278
     }
     {
      coords -87.049 7.495 57.486
@@ -917,17 +917,17 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_fAILimitThreshold 0.33
    }
   }
-  coords 8104.546 205.583 3870.904
+  coords 8104.546 205.582 3870.904
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
      coords 44.917 -1.955 66.818
     }
     {
-     coords 110.532 -9.257 111.902
+     coords 110.532 -5.31 111.902
     }
     {
-     coords 191.37 -3.053 132.613
+     coords 168.346 -2.456 124.346
     }
    }
   }
@@ -1023,19 +1023,19 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords -42.083 -22.88 -90.88
+     coords -42.083 -5.731 -90.88
     }
     {
-     coords -54.898 -34.903 -146.16
+     coords -54.898 -11.987 -146.16
     }
     {
      coords 9.815 -9.475 -95.264
     }
     {
-     coords 60.615 -15.162 16.558
+     coords 60.615 -3.329 16.558
     }
     {
-     coords 9.541 -3.051 43.41
+     coords 9.541 1.834 43.41
     }
    }
   }
@@ -1050,22 +1050,22 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords 42.772 22.275 -11.77
+     coords 42.772 6.176 -11.77
     }
     {
-     coords 129.284 30.269 -11.1
+     coords 129.284 12.45 -11.1
     }
     {
-     coords 215.087 30.603 17.986
+     coords 215.087 16.371 17.986
     }
     {
-     coords 254.541 33.01 53.368
+     coords 254.541 19.782 53.368
     }
     {
-     coords 87.821 0.459 64.869
+     coords 82.099 6.514 59.844
     }
     {
-     coords -31.058 -6.293 13.71
+     coords -31.058 -5.358 13.71
     }
    }
   }
@@ -1080,25 +1080,25 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords -79.157 -6.126 94.102
+     coords -79.157 -3.211 94.102
     }
     {
-     coords -160.355 -13.74 123.701
+     coords -160.355 -5.928 123.701
     }
     {
-     coords -270.273 -4.242 128.952
+     coords -270.273 -7.613 128.952
     }
     {
-     coords -331.022 -3.404 157.694
+     coords -331.022 -11.381 157.694
     }
     {
-     coords -386.539 -2.696 232.709
+     coords -386.539 -14.983 232.709
     }
     {
-     coords -153.194 9.229 241.542
+     coords -153.194 -5.424 241.542
     }
     {
-     coords -39.635 -7.329 162.546
+     coords -39.635 0.825 162.546
     }
    }
   }
@@ -1116,13 +1116,13 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords -20.879 -1.413 -83.461
     }
     {
-     coords -56.762 21.881 -112.724
+     coords -56.762 0.349 -112.724
     }
     {
      coords -137.799 -0.15 -96.62
     }
     {
-     coords -170.91 -4.11 -38.449
+     coords -170.91 -2.124 -38.449
     }
     {
      coords -111.012 2.881 36.81
@@ -1161,10 +1161,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords 239.985 -30.665 -169.807
     }
     {
-     coords 224.871 -21.785 -209.624
+     coords 221.933 -28.723 -211.293
     }
     {
-     coords 217.774 -23.106 -283.794
+     coords 215.156 -30.587 -283.229
     }
    }
   }
@@ -1239,7 +1239,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords 56.828 4.356 -49.828
     }
     {
-     coords 50.956 26.298 -28.731
+     coords 49.296 4.621 -23.931
     }
    }
   }
@@ -1740,10 +1740,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords -70.496 -3.277 106.681
     }
     {
-     coords -63.666 -2.741 151.521
+     coords -63.666 -2.74 151.521
     }
     {
-     coords -36.698 6.872 118.308
+     coords -36.698 6.871 118.308
     }
     {
      coords 30.964 13.741 111.292
@@ -1779,7 +1779,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords 80.819 -5.28 19.115
     }
     {
-     coords 95.453 -5.399 14.386
+     coords 129.117 -4.762 20.551
     }
    }
   }
@@ -1932,7 +1932,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords -44.973 -17.826 -108.841
     }
     {
-     coords -66.5 -27.09 71.633
+     coords -66.5 -25.911 71.633
     }
     {
      coords 38.623 7.281 17.75
@@ -1963,9 +1963,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     }
     {
      coords -306.05 88.432 243.21
-    }
-    {
-     coords -92.232 12.023 -7.851
     }
    }
   }
@@ -2187,7 +2184,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_fAILimitThreshold 0.66
    }
   }
-  coords 3825.896 5.659 7762.046
+  coords 3825.896 3.844 7762.046
  }
  {
   components {
@@ -2343,7 +2340,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords 111.164 20.091 -199.349
     }
     {
-     coords -160.416 -4.433 -276.24
+     coords -157.581 -2.666 -271.094
     }
     {
      coords 306.859 9.313 -58.917
@@ -2430,7 +2427,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
      coords 77.811 6.913 165.771
     }
     {
-     coords 110.521 -5.153 19.036
+     coords 110.758 -3.934 29.928
     }
    }
   }
@@ -2466,13 +2463,13 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   {
    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
     {
-     coords 101.49 -2.136 26.247
+     coords 105.56 0.489 15.581
     }
     {
      coords 102.318 0.249 -28.13
     }
     {
-     coords 29.829 1.674 50.372
+     coords 29.829 0.582 50.372
     }
    }
   }

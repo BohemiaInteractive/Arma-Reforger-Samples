@@ -14,6 +14,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
     m_sMapLocationName "LocationLevie_MilitaryBase"
@@ -45,6 +46,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-MapLocation_MilitaryHospital"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
     m_sMapLocationName "LocationTyrone_MilitaryHospital"
@@ -461,6 +463,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
     m_sMapLocationName "LocationChotain_MilitaryBase"
@@ -473,6 +476,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
     m_sMapLocationName "LocationLamentin_Harbour"
@@ -491,6 +495,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
     m_sMapLocationName "LocationMorton"
@@ -509,6 +514,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_HQ_North"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
     m_sMapLocationName "LocationStPhillipe_Harbour"
@@ -527,6 +533,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
+    m_bIsSupplyHub 1
     m_sBaseName "#AR-Campaign_MapLocation_HQ_South"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
     m_sMapLocationName "LocationStPierre_Harbour"

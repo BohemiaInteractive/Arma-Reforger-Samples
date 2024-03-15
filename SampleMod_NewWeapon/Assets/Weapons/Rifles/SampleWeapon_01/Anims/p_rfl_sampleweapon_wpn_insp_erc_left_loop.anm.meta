@@ -2,6 +2,8 @@ MetaFileClass {
  Name "{075C3517B02376DB}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_wpn_insp_erc_left_loop.anm"
  Configurations {
   TXAResourceClass PC {
+   SourcePath "SampleWeapon_01_Inspection_Animations.blend"
+   SourceProfile "240_UpperbodyADD_HeadADD_ArmsABS"
   }
   TXAResourceClass XBOX_ONE : PC {
   }
@@ -10,6 +12,8 @@ MetaFileClass {
   TXAResourceClass PS4 : PC {
   }
   TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
   }
  }
 }

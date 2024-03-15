@@ -2,6 +2,7 @@ MetaFileClass {
  Name "{1051DEEDAEAFC4D2}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_erc_bolt_rack.anm"
  Configurations {
   TXAResourceClass PC {
+   SourceProfile "252_UpperbodyADD_ArmsABS"
   }
   TXAResourceClass XBOX_ONE : PC {
   }
@@ -10,6 +11,8 @@ MetaFileClass {
   TXAResourceClass PS4 : PC {
   }
   TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
   }
  }
 }

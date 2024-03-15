@@ -24,9 +24,9 @@ GenericEntity : "{63C1E699345B24F9}Prefabs/Weapons/Magazines/Magazine_545x39_AK_
   }
   MeshObject "{CA6BE4D6A23F8EF0}" {
    Materials {
-    MaterialAssignClass "{50CAD55D8753A06D}" {
-     SourceMaterial "ak74_body2"
-     AssignedMaterial "{C18E407219DC8273}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body2_camo1.emat"
+    MaterialAssignClass "{60D0C3165AC1E19A}" {
+     SourceMaterial "Magazine_30rnd_AK74"
+     AssignedMaterial "{E0B85B68EFAE6F8A}Assets/Weapons/Magazines/AK74/Data/Magazine_30rnd_AK74_camo.emat"
     }
    }
   }

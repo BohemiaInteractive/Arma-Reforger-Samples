@@ -430,7 +430,7 @@ GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airp
 }
 $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  {
-  coords 4968.146 28.281 11955.396
+  coords 4931.403 28.469 11986.469
   angleY -179.952
  }
  {
@@ -446,11 +446,46 @@ $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 16.881
  }
  {
-  coords 1026.787 2.813 6209.603
-  angleY 64.621
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1058.127 2.877 6054.715
+  angleX -0.008
+  angleY 35.835
+  angleZ -0.675
+  {
+   GenericEntity {
+    ID "5D1ED92353BB9FF4"
+    coords 3.51 -0.106 -2.945
+    angleY 0.819
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F82"
+    coords 3.196 -0.131 1.629
+    angleY -90
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9F95"
+    coords 3.296 -0.103 0.133
+    angleY -88.159
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9FE3"
+    coords 3.357 -0.104 -1.785
+    angleY 176.173
+   }
+   GenericEntity {
+    ID "5D1ED92353BB9E3E"
+    coords 5.03 -0.129 0.146
+    angleY 4.513
+   }
+  }
  }
  {
-  coords 3817.18 12.063 8455.979
+  coords 3917.112 15.312 8418.873
+  angleY -82.588
  }
  {
   coords 7624.807 166.844 4315.112
@@ -467,8 +502,8 @@ $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSma
 }
 $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
  {
-  coords 4976.926 28.281 11952.284
-  angleY 178.999
+  coords 4938.753 28.5 11983.813
+  angleY -93.119
  }
  {
   coords 4409.018 1.594 11211.245
@@ -2781,8 +2816,8 @@ $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 36.956
  }
  {
-  coords 3739.476 1.313 8538.549
-  angleY 158.297
+  coords 3892.086 15.243 8417.533
+  angleY -85.364
  }
  {
   coords 7608.631 166.812 4320.824
@@ -2985,7 +3020,48 @@ $grp GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLar
   angleY -65.152
  }
 }
-$grp GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
+ coords 2838.686 86.345 6339.803
+}
+$grp GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ {
+  coords 3890.944 14.208 8508.7
+ }
+ {
+  coords 4449.026 64.383 5025.768
+  angleY -54.078
+ }
+ {
+  coords 9169.689 74.493 2256.207
+  angleY 153.944
+  angleZ -5.635
+ }
+}
+GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
+ coords 2615.962 92.06 5378.784
+}
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ coords 4578.684 68.593 4974.128
+ angleY 71.088
+ {
+  GenericEntity {
+   ID "5CCCBECA91C25D11"
+   coords -3.767 -0.107 -0.863
+   angleX 3.605
+   angleY 79.836
+  }
+ }
+}
+GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
+ coords 4502.756 14.702 10771.987
+ {
+  GenericEntity {
+   ID "5E6ACA2329696EE2"
+   Flags 1049603
+  }
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
  {
   coords 4868.331 25.179 12046.349
   angleX 0.04
@@ -3000,8 +3076,10 @@ $grp GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
  {
-  coords 3432.623 175.225 5834.696
-  angleY -63.375
+  coords 3452.369 177.177 5812.386
+  angleX -7.832
+  angleY -102.017
+  angleZ 1.661
  }
  {
   coords 6846.407 81.463 8224.989
@@ -3116,46 +3194,203 @@ $grp GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSma
   coords 2983.557 79.38 6518.584
   angleY 66.994
  }
-}
-GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
- coords 2838.686 86.345 6339.803
-}
-$grp GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
  {
-  coords 3890.944 14.208 8508.7
+  coords 3479.802 179.377 5845.189
+  angleX -9.408
+  angleY -45.055
+  angleZ 1.882
  }
  {
-  coords 4449.026 64.383 5025.768
-  angleY -54.078
+  coords 3491.229 178.057 5774.495
+  angleX -10.908
+  angleY -170.296
+  angleZ 0.821
  }
  {
-  coords 9169.689 74.493 2256.207
-  angleY 153.944
-  angleZ -5.635
+  coords 6879.067 83.791 8201.157
+  angleX -1.947
+  angleY 122.947
+  angleZ 3.001
  }
-}
-GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
- coords 2615.962 92.06 5378.784
-}
-GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
- coords 4578.684 68.593 4974.128
- angleY 71.088
  {
-  GenericEntity {
-   ID "5CCCBECA91C25D11"
-   coords -3.767 -0.107 -0.863
-   angleX 3.605
-   angleY 79.836
-  }
+  coords 6826.265 85.235 8185.012
+  angleX 8.11
+  angleY -134.172
+  angleZ 4.495
  }
-}
-GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
- coords 4502.756 14.702 10771.987
  {
-  GenericEntity {
-   ID "5E6ACA2329696EE2"
-   Flags 1049603
-  }
+  coords 9451.466 210.981 2929.624
+  angleX 5.246
+  angleY -155.546
+  angleZ 1.403
+ }
+ {
+  coords 9499.939 209.407 2939.396
+  angleX 4.33
+  angleY 106.313
+  angleZ -5.231
+ }
+ {
+  coords 6625.931 4.906 3140.567
+  angleX 1.877
+  angleY 52.047
+  angleZ -4.856
+ }
+ {
+  coords 5348.062 26.403 8362.666
+  angleX -5.335
+  angleY -0.334
+  angleZ 3.592
+ }
+ {
+  coords 5406.823 22.004 8343.621
+  angleX -5.019
+  angleY 38.523
+  angleZ 0.569
+ }
+ {
+  coords 4451.532 58.59 6219.109
+  angleX 1.224
+  angleY 133.133
+  angleZ -1.306
+ }
+ {
+  coords 4401.476 56.703 6229.549
+  angleX -0.944
+  angleY -93.24
+  angleZ -0.843
+ }
+ {
+  coords 8801.993 198.234 3917.803
+  angleX 3.572
+  angleY -15.796
+  angleZ -3.79
+ }
+ {
+  coords 4508.125 62.702 5044.994
+  angleX -0.27
+  angleY -32.687
+  angleZ 1.237
+ }
+ {
+  coords 3316.16 121.634 4434.044
+  angleX -0.324
+  angleY 152.079
+  angleZ 3.208
+ }
+ {
+  coords 6546.949 81.585 5118.614
+  angleX 1.953
+  angleY -124.233
+  angleZ -3.489
+ }
+ {
+  coords 3801.033 62.871 6975.661
+  angleX 0.041
+  angleY 152.265
+  angleZ 2.001
+ }
+ {
+  coords 3754.238 58.643 7022.48
+  angleX -5.5
+  angleY -48.107
+  angleZ 3.449
+ }
+ {
+  coords 6954.135 124.538 6091.853
+  angleX 6.753
+  angleY -40.294
+  angleZ 0.675
+ }
+ {
+  coords 5993.533 217.374 7154.284
+  angleX 2.151
+  angleY -126.835
+  angleZ -6.059
+ }
+ {
+  coords 5981.554 218.517 7177.866
+  angleX 5.946
+  angleY -107.778
+  angleZ -1.903
+ }
+ {
+  coords 5113.487 54.228 5457.415
+  angleX 0.841
+  angleY -159.995
+  angleZ 0.306
+ }
+ {
+  coords 4037.564 34.843 7905.49
+  angleX 6.389
+  angleY 63.893
+  angleZ -1.143
+ }
+ {
+  coords 3971.645 27.676 7856.045
+  angleX -6.279
+  angleY -145.047
+  angleZ 4.297
+ }
+ {
+  coords 6441.117 11.045 9693.714
+  angleX 3.185
+  angleY -24.723
+  angleZ 0.502
+ }
+ {
+  coords 6430.021 6.728 9626.195
+  angleX 0.902
+  angleY -52.982
+  angleZ -2.681
+ }
+ {
+  coords 7429.288 112.639 5318.843
+  angleX -4.278
+  angleY 29.3
+  angleZ 5.772
+ }
+ {
+  coords 7446.674 111.59 5298.952
+  angleX -10.031
+  angleY 67.919
+  angleZ 1.194
+ }
+ {
+  coords 7508.583 133.001 4800.065
+  angleX 1.679
+  angleY 96.331
+  angleZ -6.982
+ }
+ {
+  coords 5577.302 90.044 5921.642
+  angleX 3.761
+  angleY 52.415
+  angleZ 0.489
+ }
+ {
+  coords 5022.903 46.118 8950.792
+  angleX -6.1
+  angleY 30.299
+  angleZ 1.597
+ }
+ {
+  coords 9123.673 74.62 2256.648
+  angleX -1.807
+  angleY 178.872
+  angleZ -0.859
+ }
+ {
+  coords 2878.605 78.109 6467.65
+  angleX 1.483
+  angleY 152.032
+  angleZ -4.829
+ }
+ {
+  coords 2853.55 78.389 6521.846
+  angleX 1.543
+  angleY -59.561
+  angleZ 0.907
  }
 }
 $grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
@@ -4424,12 +4659,22 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
   angleY 175.303
  }
  {
-  coords 1072.75 2.855 6178.853
-  angleY -115.008
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1075.962 2.905 6084.289
+  angleY -56.136
  }
  {
-  coords 1043.668 2.813 6219.565
-  angleY 155.854
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1047.79 2.857 6047.054
+  angleY -6.102
  }
  {
   coords 5022.725 15.375 3946.365
@@ -4446,8 +4691,8 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
  {
-  coords 3828.01 12.063 8467.627
-  angleY -90
+  coords 3905.828 15.219 8416.606
+  angleY -84.701
  }
  {
   coords 7595.885 166.832 4325.688

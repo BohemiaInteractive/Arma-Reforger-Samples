@@ -1,0 +1,13 @@
+MatPBRCamo {
+ BCRMap "{E9D67AF1792855E2}Assets/Weapons/Magazines/AK74/Data/Magazine_30rnd_AK74_BCR.edds"
+ NMOMap "{D10EC163A05F077C}Assets/Weapons/Magazines/AK74/Data/Magazine_30rnd_AK74_NMO.edds"
+ CamoAlbedoMap "{8B5F4592F48AFE98}Common/Textures/Camouflage/T_CamoSpray_07_BC.edds"
+ CamoAlbedoMapUVTransform MatUVTransform "{60D0C313D4EF63E8}" {
+  TilingU 0.5
+  TilingV 1.2
+ }
+ CamoCRMMap "{129D4B971C7F37A3}Assets/Weapons/Magazines/AK74_Modded/Data/Magazine_30rnd_AK74_camo_MASK.edds"
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0
+ CamoMetalnessOpacity 0
+}

@@ -1,0 +1,7 @@
+MatPBRCamo {
+ BCRMap "{F186DD5E978B92C6}Assets/Weapons/Rifles/AK74/Data/AK74_Receiver2_BCR.edds"
+ NMOMap "{C95E66CC4EFCC058}Assets/Weapons/Rifles/AK74/Data/AK74_Receiver2_NMO.edds"
+ CamoAlbedoMap "{8B5F4592F48AFE98}Common/Textures/Camouflage/T_CamoSpray_07_BC.edds"
+ CamoCRMMap "{20CD1B570BBB9D01}Assets/Weapons/Rifles/AK74_Modded/Data/AK74_Receiver2_camo1_MASK.edds"
+ CammNormalOpacity 0
+}

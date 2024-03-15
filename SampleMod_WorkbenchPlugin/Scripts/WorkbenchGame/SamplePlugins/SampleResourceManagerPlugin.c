@@ -79,7 +79,7 @@ class SampleResourceManagerPlugin: ResourceManagerPlugin
 		
 		// Find any .et (prefab) files in selected location
 		array<string> files = {};
-		System.FindFiles(files.Insert, param, ".et");
+		FileIO.FindFiles(files.Insert, param, ".et");
 		int numberOfFiles = files.Count();
 		
 		// Print number of all files to Log Console

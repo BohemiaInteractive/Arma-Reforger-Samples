@@ -8,13 +8,17 @@ GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
   }
   MeshObject "{CFBAA4B701F95D69}" {
    Materials {
-    MaterialAssignClass "{50C8940AC171861B}" {
-     SourceMaterial "ak74_body1"
-     AssignedMaterial "{3E541D2699281235}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body1_camo1.emat"
+    MaterialAssignClass "{60C87AFAEF3E1B32}" {
+     SourceMaterial "AK74_Barrel"
+     AssignedMaterial "{A5E387BD34DB7206}Assets/Weapons/Rifles/AK74/Data/AK74_Barrel_camo.emat"
     }
-    MaterialAssignClass "{50C8940AC171860C}" {
-     SourceMaterial "ak74_body2"
-     AssignedMaterial "{C18E407219DC8273}Assets/Weapons/Rifles/AK74_Modded/Data/ak74_body2_camo1.emat"
+    MaterialAssignClass "{60C87AFAEF3E1B19}" {
+     SourceMaterial "AK74_Receiver1"
+     AssignedMaterial "{2182CC675ECACAFA}Assets/Weapons/Rifles/AK74/Data/AK74_Receiver1_camo.emat"
+    }
+    MaterialAssignClass "{60C87AFAEF3E1B0D}" {
+     SourceMaterial "AK74_Receiver2"
+     AssignedMaterial "{0BA6EBC4A824ACD5}Assets/Weapons/Rifles/AK74/Data/AK74_Receiver2_camo.emat"
     }
    }
   }
@@ -29,6 +33,9 @@ GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
    components {
     MuzzleComponent "{CA6BE4D6B867541F}" {
      FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 200
+      }
       BaseFireMode "{506B20D1476BA99E}" {
        RoundsPerMinute 200
       }
@@ -36,9 +43,6 @@ GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
        MaxBurst 2
        RoundsPerMinute 200
        UIName "Burst"
-      }
-      BaseFireMode "{B80A64F4A8EF8333}" {
-       RoundsPerMinute 200
       }
      }
      MagazineTemplate "{A4317E2621586AE3}Prefabs/Weapons/Magazines/Magazine_AK74_30rnd_Modded.et"

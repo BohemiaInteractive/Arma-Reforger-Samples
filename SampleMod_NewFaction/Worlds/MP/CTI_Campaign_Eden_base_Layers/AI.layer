@@ -14,7 +14,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
   }
  }
  coords 4772.179 26.323 10658.781
- "Max budget of AI characters" 180
+ m_iActiveAILimit 180
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344

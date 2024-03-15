@@ -1,0 +1,9 @@
+MatPBRCamo {
+ BCRMap "{01AE205C3B3111C3}Assets/Weapons/Rifles/AK74/Data/AK74_Barrel_BCR.edds"
+ NMOMap "{39769BCEE246435D}Assets/Weapons/Rifles/AK74/Data/AK74_Barrel_NMO.edds"
+ CamoAlbedoMap "{8B5F4592F48AFE98}Common/Textures/Camouflage/T_CamoSpray_07_BC.edds"
+ CamoCRMMap "{CE8AE120CA19AD2F}Assets/Weapons/Rifles/AK74_Modded/Data/AK74_Barrel_camo1_MASK.edds"
+ CammNormalOpacity 0
+ CamoRoughnessOpacity 0
+ CamoMetalnessOpacity 0
+}
