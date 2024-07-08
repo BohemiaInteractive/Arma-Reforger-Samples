@@ -14,6 +14,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 5438.156 17.963 10011.485
   angleY -151.09
@@ -38,6 +41,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 2946.001 90.617 4839.52
@@ -64,6 +70,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 6068.622 96.801 5390.118
   angleY -106.714
@@ -89,6 +98,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 7841.894 151.571 4675.13
   angleY -106.76
@@ -113,6 +125,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 9900.162 292.833 2573.038
@@ -140,6 +155,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 8355.991 237.817 4765.673
   angleY 95.846
@@ -164,6 +182,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 7545.375 6.253 6055.137
@@ -190,6 +211,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 7306.169 42.909 7652.432
   angleY -12.215
@@ -214,6 +238,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 5493.17 1.095 8749.016
@@ -244,6 +271,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 5384.56 42.452 11059.561
   angleY -106.828
@@ -268,6 +298,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 4631.512 9.467 11562.355
@@ -294,6 +327,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 4174.956 18.575 9107.178
   angleY -106.49
@@ -318,6 +354,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 3198.338 6.768 7140.297
@@ -344,6 +383,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 2112.23 1.336 6649.768
   angleY -106.329
@@ -368,6 +410,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 2481.562 83.393 6091.053
@@ -395,6 +440,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 1883.111 71.079 5071.709
   angleY 9.453
@@ -419,6 +467,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 2490.57 10.406 4240.69
@@ -445,6 +496,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 3775.095 122.41 5412.004
   angleY 1.897
@@ -469,6 +523,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 5652.349 40.368 4210.594
@@ -495,6 +552,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 6437.161 106.295 5938.728
   angleY -107.257
@@ -520,6 +580,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 6561.718 3.705 2365.285
   angleY 129.83
@@ -544,6 +607,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 3323.721 8.967 3516.163
@@ -575,6 +641,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 6331.261 75.492 8452.521
   angleY 143.861
@@ -604,6 +673,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
+   }
   }
   coords 5414.663 27.889 9389.231
   angleY -142.961
@@ -628,6 +700,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iSupplies 3000
     m_iSuppliesMax 3000
     m_fOperationalRadius 50
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    m_bIsSource 1
    }
   }
   coords 5798.188 1.106 9558.522

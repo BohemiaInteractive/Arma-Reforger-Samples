@@ -6645,6 +6645,7 @@ $animation "" {
  $events {
   #event 0 "Sound" "SOUND_CHAR_MOVEMENT" 0 0 "" 1
   #event 1 "Sound" "SOUND_CHAR_VEHICLE" 5 0 "" 1
+  #event 18 "Event_Vehicle_CanFinishAction" "" 2 0 "" 1
   #event 19 "Sound" "SOUND_CHAR_VEHICLE" 4 0 "" 1
  }
  $custProps {

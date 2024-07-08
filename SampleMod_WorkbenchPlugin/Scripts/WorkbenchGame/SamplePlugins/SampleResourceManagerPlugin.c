@@ -117,8 +117,7 @@ class SampleResourceManagerPlugin: ResourceManagerPlugin
 		
 		// Get list of currently selected resources
 		array<ResourceName> selection = new array<ResourceName>;
-		SCR_WorkbenchSearchResourcesCallbackArray context = new SCR_WorkbenchSearchResourcesCallbackArray(selection);
-		resourceManager.GetResourceBrowserSelection(context.Insert, true);
+		resourceManager.GetResourceBrowserSelection(selection.Insert, true);
 		
 		
 		// Verify if something is selected - if no, exit method & print error message

@@ -1,4 +1,4 @@
-GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
+GenericEntity : "{78689FF321194268}Prefabs/Weapons/Attachments/Optics/WeaponCollimator_Base.et" {
  ID "4BA426CBAED42A14"
  components {
   InventoryItemComponent "{52627A1F45CD4EB6}" {
@@ -34,19 +34,19 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
     m_Size SLOT_1x1
    }
   }
-  MeshObject "{5CF0DAB9517AF267}" {
+  MeshObject "{5D369D0F663A1234}" {
    Object "{2735702BB79C0519}Assets/Weapons/Attachments/Optics/SampleCollimator_01/SampleColimator_01.xob"
   }
-  RigidBody "{5CF0DAB9517AF263}" {
+  RigidBody "{5D369D0F663A1233}" {
    LayerPreset "ItemFireView"
    ModelGeometry 1
   }
-  SCR_CollimatorSightsComponent "{5CF0DAB93951A970}" {
+  SCR_CollimatorSightsComponent "{5D369D0BB77FCCE8}" {
    components {
-    SCR_CollimatorControllerComponent "{5CF0DAB903773D82}" {
+    SCR_CollimatorControllerComponent "{5D369D0BB1149DFD}" {
     }
    }
-   SightsPosition PointInfo "{5CF0DCE307FB9719}" {
+   SightsPosition PointInfo "{5D369D0BB9E9A7C9}" {
     PivotID "eye"
    }
    SightsPointFront PointInfo "{5CF0F0B7CC2552E7}" {

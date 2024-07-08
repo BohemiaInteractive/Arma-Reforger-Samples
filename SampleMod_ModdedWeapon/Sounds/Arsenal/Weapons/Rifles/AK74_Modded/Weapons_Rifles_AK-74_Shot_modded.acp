@@ -6,20 +6,21 @@ AudioClass {
    tl -1094.996 1044.374
    res "{6DFC123D28CCC546}Sounds/_SharedData/Signals/Weapons/Weapon_Occlusion.sig"
    inputsport {
-    1 2 8 10 36 53 54
+    1 2 8 10 36 53 54 100
    }
    outputsport {
     5 42
    }
    inputvalues {
-    0 0 0 0 0 400 800
+    0 0 0 0 0 400 800 0
    }
    inputvaluesmin {
-    0 0 0 0 0 0 0
+    0 0 0 0 0 0 0 0
    }
    inputvaluesmax {
-    1 1 1 1 1 10000 10000
+    1 1 1 1 1 10000 10000 1
    }
+   path "{6DFC123D28CCC546}Sounds/_SharedData/Signals/Weapons/Weapon_Occlusion.sig"
   }
   SignalClass {
    id 116749
@@ -71,6 +72,7 @@ AudioClass {
    inputvaluesmax {
     1 1 1 1
    }
+   path "{8A11B1E11E2A595D}Sounds/_SharedData/Signals/Weapons/Weapon_EarFatigueComp_Wetness.sig"
   }
   SignalClass {
    id 186381
@@ -136,6 +138,7 @@ AudioClass {
    inputvaluesmax {
     1 1 1 1 1 1 1 1 1
    }
+   path "{C035FD06551DA8EB}Sounds/_SharedData/Signals/Weapons/Weapon_EnvLayerManager_NewCrossfade.sig"
   }
   SignalClass {
    id 220173
@@ -157,6 +160,7 @@ AudioClass {
    inputvaluesmax {
     1 800 1
    }
+   path "{3A46DB30EA321604}Sounds/_SharedData/Signals/Weapons/Weapon_MeadowsToHillsRatio.sig"
   }
   SignalClass {
    id 282637
@@ -264,6 +268,7 @@ AudioClass {
    inputvaluesmax {
     1 1 1 1 1 1 1
    }
+   path "{0569C96D6F61CF6E}Sounds/_SharedData/Signals/Weapons/Weapons_AutoFireTimeToOffset.sig"
   }
   SignalClass {
    id 305165
@@ -318,7 +323,7 @@ AudioClass {
     1 7 21 28 31 34 36
    }
    outputsport {
-    2 6 8 9 12 26 30 33 40 43
+    2 6 8 9 12 26 30 33 40 43 45 46
    }
    inputvalues {
     0 1 0 0 0 0 0
@@ -329,6 +334,7 @@ AudioClass {
    inputvaluesmax {
     1 1 9999 1 1 1 1
    }
+   path "{B0940E284D98C2C1}Sounds/_SharedData/Signals/Weapons/Weapon_UnderPlayerControl_1p_3p_Cam.sig"
   }
   SignalClass {
    id 334861
@@ -366,20 +372,21 @@ AudioClass {
     }
    }
    inputsport {
-    1 114 115 116 125 162 178
+    1 114 116 125 162 178 209 228
    }
    outputsport {
-    6 7 8 58 59 104 111 121 123 158 161
+    6 7 8 58 59 104 121 123 158 212 214 227 229 230
    }
    inputvalues {
-    0 0 0 1 1 0 1
+    0 0 1 1 0 1 203 0.5
    }
    inputvaluesmin {
-    0 0 0 0 0 -1 0
+    0 0 0 0 -1 0 0 0
    }
    inputvaluesmax {
-    999 1 1 1 1 1 1
+    999 1 1 1 1 1 10000 1
    }
+   path "{99482B186481AD82}Sounds/_SharedData/Signals/Weapons/Weapon_BodyManager_3_Distances.sig"
   }
   SignalClass {
    id 393229
@@ -431,11 +438,12 @@ AudioClass {
    inputvaluesmax {
     1 1
    }
+   path "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
   }
   SignalClass {
    id 403469
    name "Signal 394"
-   tl -1293.112 767.666
+   tl -1314.362 768.916
    res "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
    inputsport {
     1
@@ -452,6 +460,7 @@ AudioClass {
    inputvaluesmax {
     500
    }
+   path "{43C50EB8DB8DE747}Sounds/_SharedData/Signals/Weapons/Weapon_Shooting_Directivity.sig"
   }
   SignalClass {
    id 405517
@@ -473,6 +482,7 @@ AudioClass {
    inputvaluesmax {
     1
    }
+   path "{FBFE5A427917A8B8}Sounds/_SharedData/Signals/Weapons/Weapon_Distance_HighPass_Global.sig"
   }
   SignalClass {
    id 407565
@@ -510,6 +520,7 @@ AudioClass {
    inputvaluesmax {
     12
    }
+   path "{FBD98737879FB9A0}Sounds/_SharedData/Signals/SimpleHelpers/PitchStToGain_01.sig"
   }
  }
  filters {
@@ -530,7 +541,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
   }
   FilterClass {
@@ -539,7 +550,7 @@ AudioClass {
    version 5
    tl 366.525 1910.724
    pi {
-    1
+    1 0
    }
    wetDry 0
    DSPObject Equalizer4DSPTypeClass dsp {
@@ -572,7 +583,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
    wetDry 0
    DSPObject CompressorDSPTypeClass dsp {
@@ -580,7 +591,6 @@ AudioClass {
     ratio 2.1
     attack 30
     release 291
-    clip 1
    }
   }
   FilterClass {
@@ -589,7 +599,7 @@ AudioClass {
    version 5
    tl -60.987 1810.31
    pi {
-    1
+    1 0
    }
    DSPObject Equalizer4DSPTypeClass dsp {
     gain1 -1
@@ -616,7 +626,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
   }
   FilterClass {
@@ -636,7 +646,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
    DSPObject BiquadDSPTypeClass dsp {
     biquadType PeakingEQ
@@ -651,7 +661,7 @@ AudioClass {
    ctl 0 -21
    parent "{13961E4C7CBDD9DE}Sounds/_SharedData/Configs/Filter/Weapons/Filter_Weapons_SlapBack_Small_LoCut.conf"
    pi {
-    1
+    1 0
    }
   }
  }
@@ -682,7 +692,7 @@ AudioClass {
     }
    }
    pi {
-    6
+    6 0
    }
   }
   FilterChainClass {
@@ -711,14 +721,14 @@ AudioClass {
     }
    }
    pi {
-    6
+    6 0
    }
   }
  }
  sounds {
   SoundClass : "{13C278F132A459F4}Sounds/_SharedData/Configs/Sound/Weapons/Sound_Weapons_Shot_556.conf" {
    id 5129
-   version 0
+   version 5
    tl 1541.63 921.962
    ctl 0 -21
    parent "{13C278F132A459F4}Sounds/_SharedData/Configs/Sound/Weapons/Sound_Weapons_Shot_556.conf"
@@ -781,7 +791,7 @@ AudioClass {
     }
    }
    pi {
-    127
+    127 0
    }
    outState 119819
    outStatePort 7175
@@ -791,7 +801,7 @@ AudioClass {
   BusClass {
    id 90119
    name "Body Bus"
-   version 5
+   version 7
    tl 358.954 -607.116
    ctl 0 -21
    ins {
@@ -836,14 +846,14 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "1"
   }
   BusClass {
    id 169991
    name "Forest Close EQ"
-   version 5
+   version 7
    tl -60.987 1897.382
    ins {
     ConnectionsClass connections {
@@ -866,14 +876,14 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
   }
   BusClass {
    id 197639
    name "EnvLayer Far Bus"
-   version 5
+   version 7
    tl -80.987 1060.614
    ctl 0 -21
    ins {
@@ -900,14 +910,14 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
   }
   BusClass {
    id 231431
    name "EnvLayer Bus"
-   version 5
+   version 7
    tl 361.525 639.783
    ctl -2.5 -23.5
    ins {
@@ -926,14 +936,14 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
   }
   BusClass {
    id 343047
    name "Narrow Tails Bus"
-   version 5
+   version 7
    tl 366.525 2205.002
    ctl 0 -21
    ins {
@@ -978,16 +988,16 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
    sampleRate "48000"
-   resampler FIR4
+   resampler Point
   }
   BusClass {
    id 345095
    name "Wide Tails Bus"
-   version 5
+   version 7
    tl 366.525 1992.886
    ctl 0 -21
    ins {
@@ -1032,16 +1042,16 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
    sampleRate "48000"
-   resampler FIR4
+   resampler Point
   }
   BusClass {
    id 388103
    name "SlapBack EQ Bus"
-   version 5
+   version 7
    tl 512.96 3070.812
    ins {
     ConnectionsClass connections {
@@ -1080,14 +1090,14 @@ AudioClass {
     }
    }
    pi {
-    3
+    3 0
    }
    channels "2"
   }
   BusClass {
    id 408583
    name "EnvLayer Close Bus"
-   version 5
+   version 7
    tl -65 657
    ins {
     ConnectionsClass connections {
@@ -1133,11 +1143,11 @@ AudioClass {
     }
    }
    pi {
-    8
+    2 0
    }
    path "{B764D803219C775E}Sounds/FinalMix.afm"
    inputs {
-    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct"
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large"
    }
   }
  }
@@ -1321,7 +1331,7 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
   }
   ShaderClass {
@@ -1368,7 +1378,7 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
   }
   ShaderClass {
@@ -1415,7 +1425,7 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
    ITD 0
   }
@@ -1468,7 +1478,7 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
   }
   ShaderClass {
@@ -1515,7 +1525,7 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
    ITD 0
   }
@@ -1563,18 +1573,18 @@ AudioClass {
     }
    }
    pi {
-    23
+    23 0
    }
    ITD 0
   }
  }
  amplitudes {
-  AmplitudeClass : "{0D21136AFB782262}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_14-15.conf" {
+  AmplitudeClass : "{0D21136AFB782262}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-16LUFS_to_-15LUFS.conf" {
    id 6163
    version 5
    tl -1101 671.373
    ctl 0 -21
-   parent "{0D21136AFB782262}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_14-15.conf"
+   parent "{0D21136AFB782262}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-16LUFS_to_-15LUFS.conf"
   }
   AmplitudeClass : "{778C82C228A55EF9}Sounds/_SharedData/Configs/Amplitude/Weapons/Amplitude_Weapons_Mechanics_Smallarms.conf" {
    id 285715
@@ -1601,7 +1611,7 @@ AudioClass {
     }
    }
    pi {
-    16
+    16 0
    }
   }
   FrequencyClass : "{F76ACB5CC9912D9E}Sounds/_SharedData/Configs/Frequency/Weapons/Frequency_Weapons_BodyLayer_Directivity.conf" {
@@ -1630,7 +1640,7 @@ AudioClass {
     }
    }
    pi {
-    20
+    20 0
    }
    directivityFactor 0.5
   }
@@ -1659,7 +1669,7 @@ AudioClass {
     }
    }
    pi {
-    20
+    20 0
    }
   }
  }
@@ -1667,7 +1677,7 @@ AudioClass {
   BankLocalClass {
    id 166916
    name "Tail Forest Close"
-   version 0
+   version 7
    tl -246.114 1897.305
    ins {
     ConnectionsClass connections {
@@ -1699,12 +1709,12 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 1
    "Pitch variance" 1
+   "Termination Fade Out" 334
    "Fade in time" 200
-   "Fade out time" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -1724,7 +1734,7 @@ AudioClass {
   BankLocalClass {
    id 167940
    name "Tail Hills Close"
-   version 0
+   version 7
    tl -246.114 2211.559
    ins {
     ConnectionsClass connections {
@@ -1756,10 +1766,10 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 1
-   "Fade out time" 334
+   "Termination Fade Out" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -1779,7 +1789,7 @@ AudioClass {
   BankLocalClass {
    id 168964
    name "EL Houses Close"
-   version 0
+   version 7
    tl -246.114 942.09
    ins {
     ConnectionsClass connections {
@@ -1811,11 +1821,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 1.521
+   "Termination Fade Out" 47
    Resampler FIR_4
-   "Fade out time" 47
    "Disable streaming" 1
    Samples {
     AudioBankSampleClass Sample {
@@ -1842,7 +1852,7 @@ AudioClass {
   BankLocalClass {
    id 171012
    name "Tail Meadows Close"
-   version 0
+   version 7
    tl -246.114 1602.095
    ins {
     ConnectionsClass connections {
@@ -1874,11 +1884,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume -0.75
    "Pitch variance" 1
-   "Fade out time" 334
+   "Termination Fade Out" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -1898,7 +1908,7 @@ AudioClass {
   BankLocalClass {
    id 177156
    name "EL Forest Close"
-   version 0
+   version 7
    tl -246.114 711.986
    ctl 0 -21
    ins {
@@ -1931,11 +1941,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 1.012
+   "Termination Fade Out" 47
    Resampler FIR_4
-   "Fade out time" 47
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -1963,7 +1973,7 @@ AudioClass {
   BankLocalClass {
    id 178180
    name "EL Forest Far"
-   version 0
+   version 7
    tl -246.114 1186.373
    ins {
     ConnectionsClass connections {
@@ -1995,7 +2005,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 0.7
    "Fade in time" 10
@@ -2026,7 +2036,7 @@ AudioClass {
   BankLocalClass {
    id 179204
    name "Tail Houses Close"
-   version 0
+   version 7
    tl -246.114 2509.964
    ins {
     ConnectionsClass connections {
@@ -2058,12 +2068,12 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 1.3
    "Pitch variance" 1
+   "Termination Fade Out" 334
    Resampler FIR_4
-   "Fade out time" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2083,7 +2093,7 @@ AudioClass {
   BankLocalClass {
    id 182276
    name "Tail Meadows Far"
-   version 0
+   version 7
    tl -246.114 1722.238
    ins {
     ConnectionsClass connections {
@@ -2115,12 +2125,12 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 8.35
    "Pitch variance" 1
+   "Termination Fade Out" 334
    "Fade in time" 200
-   "Fade out time" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2140,7 +2150,7 @@ AudioClass {
   BankLocalClass {
    id 188420
    name "EL Houses Far"
-   version 0
+   version 7
    tl -246.114 1420.215
    ins {
     ConnectionsClass connections {
@@ -2172,7 +2182,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Volume variance" 0.2
    "Pitch variance" 0.7
@@ -2203,7 +2213,7 @@ AudioClass {
   BankLocalClass {
    id 190468
    name "Tail Hills Far"
-   version 0
+   version 7
    tl -246.114 2331.154
    ins {
     ConnectionsClass connections {
@@ -2235,11 +2245,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 7
    "Pitch variance" 1
-   "Fade out time" 334
+   "Termination Fade Out" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2259,7 +2269,7 @@ AudioClass {
   BankLocalClass {
    id 192516
    name "EL Hills Far"
-   version 0
+   version 7
    tl -246.114 1305.557
    ins {
     ConnectionsClass connections {
@@ -2291,7 +2301,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Volume variance" 0.2
    "Pitch variance" 0.7
@@ -2322,7 +2332,7 @@ AudioClass {
   BankLocalClass {
    id 193540
    name "EL Meadows Far"
-   version 0
+   version 7
    tl -246.114 1061.781
    ins {
     ConnectionsClass connections {
@@ -2354,7 +2364,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Volume variance" 0.3
    "Pitch variance" 0.7
@@ -2385,7 +2395,7 @@ AudioClass {
   BankLocalClass {
    id 194564
    name "Tail Forest Far"
-   version 0
+   version 7
    tl -246.114 2017.424
    ins {
     ConnectionsClass connections {
@@ -2417,12 +2427,12 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 6
    "Pitch variance" 1
+   "Termination Fade Out" 334
    "Fade in time" 200
-   "Fade out time" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2442,7 +2452,7 @@ AudioClass {
   BankLocalClass {
    id 195588
    name "EL Hills Close"
-   version 0
+   version 7
    tl -246.114 827.038
    ins {
     ConnectionsClass connections {
@@ -2474,11 +2484,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 2.012
+   "Termination Fade Out" 47
    Resampler FIR_4
-   "Fade out time" 47
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2506,7 +2516,7 @@ AudioClass {
   BankLocalClass {
    id 196612
    name "Tail Houses Far"
-   version 0
+   version 7
    tl -246.114 2647.416
    ins {
     ConnectionsClass connections {
@@ -2538,11 +2548,11 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 1
+   "Termination Fade Out" 334
    Resampler FIR_4
-   "Fade out time" 334
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2562,7 +2572,7 @@ AudioClass {
   BankLocalClass {
    id 210948
    name "Body FP"
-   version 0
+   version 7
    tl -246.114 -669.696
    ins {
     ConnectionsClass connections {
@@ -2576,7 +2586,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
    Volume 12.71
    "Volume variance" 0.5
@@ -2606,7 +2616,7 @@ AudioClass {
   BankLocalClass {
    id 217092
    name "AL InteriorTail"
-   version 0
+   version 7
    tl -246.114 120.735
    ctl 0 -21
    ins {
@@ -2630,7 +2640,7 @@ AudioClass {
     }
    }
    pi {
-    17
+    17 0
    }
    Volume -7
    Pitch 1.3
@@ -2656,7 +2666,7 @@ AudioClass {
   BankLocalClass {
    id 218116
    name "Mechanics"
-   version 0
+   version 7
    tl -246.114 -1359.481
    ctl 2 0
    ins {
@@ -2680,14 +2690,13 @@ AudioClass {
     }
    }
    pi {
-    33
+    33 0
    }
    Volume -2
    "Volume variance" 1
    "Pitch variance" 0.65
    Resampler FIR_4
    "Fade in function" SCurve
-   "Fade out time" 0
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2707,7 +2716,7 @@ AudioClass {
   BankLocalClass {
    id 300036
    name "AL AK Close"
-   version 0
+   version 7
    tl -246.114 -823.258
    ctl 1.607 -19
    ins {
@@ -2731,7 +2740,7 @@ AudioClass {
     }
    }
    pi {
-    33
+    33 0
    }
    Volume -17.344
    "Pitch variance" 2
@@ -2747,7 +2756,7 @@ AudioClass {
   BankLocalClass {
    id 309252
    name "EL Meadows Close"
-   version 0
+   version 7
    tl -246.114 587.486
    ins {
     ConnectionsClass connections {
@@ -2779,12 +2788,12 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    "Pitch variance" 1.012
+   "Termination Fade Out" 47
    Resampler FIR_4
    "Fade in function" SCurve
-   "Fade out time" 47
    "Disable streaming" 1
    Preload 1
    Samples {
@@ -2813,7 +2822,7 @@ AudioClass {
    id 313348
    name "Body Mid"
    comment "-28.5 LUFS, default 12.2 dB"
-   version 0
+   version 7
    tl -246.114 -567.892
    ctl 0 -21
    ins {
@@ -2828,7 +2837,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
    Volume 12.712
    "Volume variance" 1
@@ -2858,7 +2867,7 @@ AudioClass {
   BankLocalClass {
    id 314372
    name "Body Far"
-   version 0
+   version 7
    tl -246.114 -442.088
    ctl 0 -21
    ins {
@@ -2873,7 +2882,7 @@ AudioClass {
     }
    }
    pi {
-    1
+    1 0
    }
    Volume 12.712
    "Volume variance" 1.5
@@ -2903,7 +2912,7 @@ AudioClass {
   BankLocalClass {
    id 319492
    name "DistZap Lo"
-   version 0
+   version 7
    tl -246.114 -340.284
    ins {
     ConnectionsClass connections {
@@ -2926,7 +2935,7 @@ AudioClass {
     }
    }
    pi {
-    33
+    33 0
    }
    Volume -12.5
    "Volume variance" 2
@@ -2969,7 +2978,7 @@ AudioClass {
   BankLocalClass {
    id 385028
    name "SlapBack Urban Small"
-   version 0
+   version 7
    tl 270.858 3106.436
    ins {
     ConnectionsClass connections {
@@ -3001,7 +3010,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume 3
    Pitch 3.586
@@ -3027,7 +3036,7 @@ AudioClass {
   BankLocalClass {
    id 386052
    name "SlapBack Urban Small"
-   version 0
+   version 7
    tl 270.858 3225.756
    ins {
     ConnectionsClass connections {
@@ -3059,7 +3068,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Pitch 3.586
    "Pitch variance" 2
@@ -3084,7 +3093,7 @@ AudioClass {
   BankLocalClass {
    id 387076
    name "SlapBack Hills Small"
-   version 0
+   version 7
    tl 270.858 3345.073
    ins {
     ConnectionsClass connections {
@@ -3116,7 +3125,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume -1
    "Pitch variance" 2
@@ -3141,7 +3150,7 @@ AudioClass {
   BankLocalClass {
    id 389124
    name "SlapBack Meadows Small"
-   version 0
+   version 7
    tl 270.858 2867.799
    ins {
     ConnectionsClass connections {
@@ -3173,7 +3182,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume -4
    "Pitch variance" 2
@@ -3198,7 +3207,7 @@ AudioClass {
   BankLocalClass {
    id 391172
    name "SlapBack Forest Small"
-   version 0
+   version 7
    tl 270.858 2987.117
    ins {
     ConnectionsClass connections {
@@ -3230,7 +3239,7 @@ AudioClass {
     }
    }
    pi {
-    35
+    35 0
    }
    Volume -2.7
    "Pitch variance" 2
@@ -3270,7 +3279,8 @@ AudioClass {
      }
     }
    }
-   pi +{
+   pi + {
+    0
    }
   }
   SpatialityClass : "{06EE9E12D2EEF99E}Sounds/_SharedData/Configs/Spatiality/Weapons/Spatiality_Weapons_InteriorTails_Default.conf" {

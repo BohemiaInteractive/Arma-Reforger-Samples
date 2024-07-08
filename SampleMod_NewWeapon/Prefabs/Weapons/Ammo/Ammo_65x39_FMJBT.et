@@ -1,16 +1,6 @@
 Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
  ID "DA5C6308000CDEF2"
  components {
-  InventoryItemComponent "{52627A13050713F1}" {
-   Attributes SCR_ItemAttributeCollection "{52627A1304978C38}" {
-    ItemPhysAttributes ItemPhysicalAttributes "{5CDAB2AB1D6FDBE0}" {
-     Weight 0.022
-     SizeSetupStrategy Volume
-     ItemVolume 7
-    }
-    m_Size SLOT_1x1
-   }
-  }
   ShellMoveComponent "{851AA4A2AE0A5691}" {
    InitSpeed 764
    Mass 0.0071

@@ -9,7 +9,7 @@ GenericEntity : "{AB84E597273FAECA}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Li
     }
    }
   }
-  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+  BaseLoadoutClothComponent "{521AC04910AB9954}" {
    WornModel "{532D2C3B04A0DFA5}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_Wear_red.et"
    ItemModel "{D549B6EE6B55C137}Prefabs/Characters/Vests/Vest_Lifchik/Vest_Lifchik_item_red.et"
   }

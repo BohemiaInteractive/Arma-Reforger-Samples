@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{66D34E673169E4BA}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_driver_out_closeDoor.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

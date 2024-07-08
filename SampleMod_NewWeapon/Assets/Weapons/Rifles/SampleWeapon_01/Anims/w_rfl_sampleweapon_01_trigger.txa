@@ -3,10 +3,10 @@ $animation "" {
  #fps 30
  #numFrames 3
  $node "w_trigger" {
-  $keys t q s {
+  $keys t q {
    $frame 0 3 {
     #t -0.00517 0.011505 0.0185331
-    #q 0.2690222 0 0 0.96313393
+    #q 0.26902226 0 0 0.96313405
    }
   }
  }

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9B8093A6AA6E159F}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_codriver_out_getIn.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

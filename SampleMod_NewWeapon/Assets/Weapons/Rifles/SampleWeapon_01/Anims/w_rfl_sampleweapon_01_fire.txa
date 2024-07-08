@@ -3,9 +3,9 @@ $animation "" {
  #fps 30
  #numFrames 3
  $node "w_bolt" {
-  $keys t q s {
+  $keys t q {
    $frame 0 {
-    #t -0 0.0649093 -0.1659539
+    #t -0 0.0649093 -0.165954
     #q 0.00000165 0 0 1
    }
    $frame 1 {
@@ -18,16 +18,16 @@ $animation "" {
    }
   }
   $node "w_trigger" {
-   $keys q s {
+   $keys q {
     $frame 0 3 {
-     #t 0 0 0
-     #q 0.2690222 0 0 0.96313393
+     #q 0.26902226 0 0 0.96313405
     }
    }
   }
   $node "w_bolt_release" {
-   $keys t q s {
+   $keys q {
     $frame 0 3 {
+     #q 0.00000166 0 0 1
     }
    }
   }

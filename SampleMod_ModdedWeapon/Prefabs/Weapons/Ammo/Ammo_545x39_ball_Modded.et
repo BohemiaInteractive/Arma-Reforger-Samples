@@ -14,15 +14,14 @@ Projectile : "{1D9DDE1632F33A9E}Prefabs/Weapons/Ammo/Ammo_545x39_Ball_7N6.et" {
   ShellMoveComponent "{851AA4A2AE0A5691}" {
    InitSpeed 80
    ProjectileEffects {
-    HitSoundEffect "{2FC22748C7ABD466}" {
-     Filename "{7C7B05A4A4637553}Sounds/Arsenal/_SharedData/BulletHits/BulletHits_modded.acp"
-    }
     BaseDamageEffect "{5168BBF3DBD79134}" {
-     DamageValue 268
     }
     ExplosionEffect "{85DB664DDCA5D5B0}" {
      EffectPrefab "{C207A6BA934F5200}Prefabs/Weapons/Warheads/Warhead_Shell_HE_545x39_Modded.et"
      ParticleEffect "{D6FA58614EED464A}Particles/Weapon/Explosion_AK74_Modded.ptc"
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{7C7B05A4A4637553}Sounds/Arsenal/_SharedData/BulletHits/BulletHits_modded.acp"
     }
    }
   }

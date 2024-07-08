@@ -4,7 +4,7 @@ AnimSrcGraphFile {
    Nodes {
     AnimSrcNodePose SafetyPose {
      EditorPos -19.8 14.6
-     Source "Reload.Safety"
+     Source "Reload.Erc.Safety"
      Time "0.0"
     }
     AnimSrcNodeSource FireAnim {
@@ -90,7 +90,7 @@ AnimSrcGraphFile {
        FromState "Idle"
        ToState "Buffer3"
        Duration "0.3"
-       Condition "IsCommand(CMD_Weapon_Reload) && GetCommandI(CMD_Weapon_Reload) != -2"
+       Condition "IsCommand(CMD_Weapon_Reload) && !inRange(GetCommandI(CMD_Weapon_Reload), 7, 9) && GetCommandI(CMD_Weapon_Reload) != -2"
        BlendFn S
       }
       AnimSrcNodeTransition "{54DECEFBBF4FBBFB}" {
@@ -125,14 +125,14 @@ AnimSrcGraphFile {
        FromState "WeaponInspection"
        ToState "Buffer1"
        Duration "0.8"
-       Condition "RemainingTimeLess(0.5) || WeaponInspectionState == -2"
+       Condition "RemainingTimeLess(0.5) || WeaponInspectionState == -3"
        PostEval 1
       }
       AnimSrcNodeTransition "{5C689B481F24AD32}" {
        FromState "WeaponInspection"
        ToState "Buffer3"
        Duration "0.3"
-       Condition "IsCommand(CMD_Weapon_Reload) && GetCommandI(CMD_Weapon_Reload) != -2"
+       Condition "IsCommand(CMD_Weapon_Reload) && !inRange(GetCommandI(CMD_Weapon_Reload), 7, 9) && GetCommandI(CMD_Weapon_Reload) != -2"
       }
       AnimSrcNodeTransition "{5C689B481F24AD26}" {
        FromState "Buffer4"
@@ -144,7 +144,7 @@ AnimSrcGraphFile {
        FromState "Reload"
        ToState "Buffer4"
        Duration "0.3"
-       Condition "(RemainingTimeLess(0.5) || GetCommandI(CMD_Weapon_Reload) == -2) && WeaponInspectionState != 0"
+       Condition "(RemainingTimeLess(0.4) || GetCommandI(CMD_Weapon_Reload) == -2) && WeaponInspectionState != 0"
        BlendFn S
        PostEval 1
       }
@@ -334,12 +334,12 @@ AnimSrcGraphFile {
     AnimSrcNodePose SemiPose {
      EditorPos -17 14.6
      Source "Reload.Safety"
-     Time "1.0"
+     Time "0.5"
     }
     AnimSrcNodePose AutoPose {
      EditorPos -14.4 14.6
      Source "Reload.Safety"
-     Time "0.5"
+     Time "1"
     }
     AnimSrcNodeBlend MasterControl {
      EditorPos 2.3 -10.1
@@ -491,10 +491,16 @@ AnimSrcGraphFile {
       AnimSrcIkTargetBinding "{551C9263EBA2B7C7}" {
        IkTarget "RPropTarget"
        IkChain "RightArmProp"
-       TargetOffsetPose "Reload.IKOffset"
-       TargetOffsetPoseFromBone "righthandprop"
-       TargetOffsetPoseToBone "lefthand"
-       TargetOffsetPoseInModelSpace 0
+       LocalSpaceOffset AnimSrcTransformOffset "{60DCB7D6EF179454}" {
+        Position 0 0 0
+        Rotation 0 0 0
+        Pose "Reload.IKOffset"
+        FromBone "righthandprop"
+        ToBone "lefthand"
+        FromFrame 0
+        ToFrame 0
+        BonesAreInModelSpace 0
+       }
       }
      }
     }
@@ -700,7 +706,7 @@ AnimSrcGraphFile {
        }
        EditorPos -27 2.4
        Child "InspectionInS 28548"
-       StartCondition "WeaponInspectionState == -1"
+       StartCondition "WeaponInspectionState == -1 || abs(WeaponInspectionState == -1)"
        TimeStorage "Real Time"
        IsExit 0
       }
@@ -740,7 +746,7 @@ AnimSrcGraphFile {
        }
        EditorPos -40.3 2.1
        Child "InspectionInS 20930"
-       StartCondition "WeaponInspectionState == -2 || abs(WeaponInspectionState == 2)"
+       StartCondition "WeaponInspectionState == -2 || abs(WeaponInspectionState == -2)"
        TimeStorage "Real Time"
        IsExit 0
       }
@@ -1050,7 +1056,7 @@ AnimSrcGraphFile {
     }
     AnimSrcNodeBufferUse "Buffer Use 16140" {
      EditorPos -17.674 1.783
-     BufferName "FullbodyGadget"
+     BufferName "FullBody"
     }
    }
   }

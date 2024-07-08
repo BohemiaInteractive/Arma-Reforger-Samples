@@ -53,7 +53,7 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
    CollisionVelocityThreshold 1
    m_fVehicleDestroyDamage 11880.1
   }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     Engine Engine Engine {
      MaxPower 255
@@ -85,7 +85,7 @@ Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
     RegisteringComponentSlotInfo Turret {
      PivotID "v_root"
      Offset 0 1.0213 0
-     MergePhysics 1
+     MergePhysics 0
      Prefab "{69CCF922A74FB962}Prefabs/Vehicles/Wheeled/Turret_M2_Modded.et"
      RegisterActions 1
      RegisterDamage 1

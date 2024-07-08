@@ -2,6 +2,8 @@ MetaFileClass {
  Name "{6844A122E55C506F}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_safety.anm"
  Configurations {
   TXAResourceClass PC {
+   SourcePath "SampleWeapon_01.blend"
+   SourceProfile "701_Rifle_Idle"
   }
   TXAResourceClass XBOX_ONE : PC {
   }
@@ -10,6 +12,8 @@ MetaFileClass {
   TXAResourceClass HEADLESS : PC {
   }
   TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS5 : PC {
   }
  }
 }

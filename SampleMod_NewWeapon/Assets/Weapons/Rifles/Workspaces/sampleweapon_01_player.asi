@@ -1,4 +1,4 @@
-AnimSetInstanceSource {
+AnimSetInstanceSource "{61C8C0D9E319DD0E}" {
  Template "{5CB30278D36EF298}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.ast"
  Lines {
   AnimSetInstanceSource_Line "Reload.Erc.Fire" {

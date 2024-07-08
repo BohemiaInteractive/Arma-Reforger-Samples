@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A6264931DEC007A3}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_passengerL_in_getOut.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

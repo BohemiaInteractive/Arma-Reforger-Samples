@@ -46,7 +46,7 @@ GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
  angleY -179.694
  angleZ -91.425
 }
-GenericEntity : "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et" {
+GameEntity : "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et" {
  coords 123.235 2.997 127.247
  angleY 21.44
 }
@@ -82,15 +82,15 @@ GenericEntity : "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
  angleY -179.694
  angleZ -91.425
 }
-GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
+GameEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
  coords 123.168 2.997 127.348
  angleY -20.212
 }
 Vehicle UAZ469_Modded1 : "{602B59AB3DF39462}Prefabs/Vehicles/Wheeled/UAZ469_Modded.et" {
- coords 119.928 1.972 119.37
+ coords 119.928 2 119.37
  angleY 137.738
 }
-GenericEntity : "{63DDF1EFECD7F988}Prefabs/Weapons/Attachments/Optics/Optic_SampleOptic_01.et" {
+GameEntity : "{63DDF1EFECD7F988}Prefabs/Weapons/Attachments/Optics/Optic_SampleOptic_01.et" {
  coords 122.861 3.011 127.582
 }
 GenericEntity : "{73CAAB3EA667797E}Prefabs/Props/Military/Camps/PortableDesk_01_Olive_Full.et" {
@@ -137,7 +137,7 @@ GenericEntity : "{B672853A6087B05A}PrefabsEditable/Auto/Props/Military/Arsenal/W
  coords 122.475 2.001 128.489
  angleY -90.375
 }
-GenericEntity : "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et" {
+GameEntity : "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et" {
  coords 122.806 3.01 127.226
  angleY -49.437
 }

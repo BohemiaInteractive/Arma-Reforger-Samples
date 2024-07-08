@@ -17,6 +17,7 @@ HDREffect {
  VignetteMode Scope
  VignetteColor 0 0 0 0
  ReticleMap "{7BF17A31FB368EE8}UI/Textures/Sights/SampleOptic_Reticle.edds"
+ ReticleMove 0
  LensDistort 0.125
  MaxChromAbberation 1
  LensFlaresEnabled 1

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{755FE3C59EC9547F}Assets/Vehicles/Wheeled/SampleCar_01/Anm/v_SampleCar_01_driver_in_openDoor.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

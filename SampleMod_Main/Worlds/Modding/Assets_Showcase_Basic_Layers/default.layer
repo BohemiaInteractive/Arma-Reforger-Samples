@@ -1,26 +1,3 @@
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{5176FEAB0865CEF3}" {
-    Object "{2AE2D6AA9D1ECE01}Assets/TestSite/box_1m.xob"
-    Materials {
-     MaterialAssignClass "{5176FEAACD052F7A}" {
-      SourceMaterial "metrics"
-      AssignedMaterial "{AC49D84B724B30E3}Common/Materials/TestSite_Panel_Small.emat"
-     }
-    }
-   }
-   RigidBody "{5176FEADF64BD8AE}" {
-    ModelGeometry 1
-    Static 1
-   }
-  }
-  coords 122.994 2.005 130.499
- }
- {
-  coords 122.595 2.997 127.7
- }
-}
 GenericEntity : "{024ADA8FA4FC92E0}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_medium_item.et" {
  components {
   SCR_ResourceComponent "{5D247A59598D71AE}" {

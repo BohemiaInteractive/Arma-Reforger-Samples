@@ -2,6 +2,8 @@ MetaFileClass {
  Name "{1FC728F3FBA7555B}Assets/Weapons/Rifles/SampleWeapon_01/Anims/w_rfl_sampleweapon_01_trigger.anm"
  Configurations {
   TXAResourceClass PC {
+   SourcePath "SampleWeapon_01.blend"
+   SourceProfile "721_Weapon_Trigger"
   }
   TXAResourceClass XBOX_ONE : PC {
   }
@@ -10,6 +12,8 @@ MetaFileClass {
   TXAResourceClass HEADLESS : PC {
   }
   TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS5 : PC {
   }
  }
 }

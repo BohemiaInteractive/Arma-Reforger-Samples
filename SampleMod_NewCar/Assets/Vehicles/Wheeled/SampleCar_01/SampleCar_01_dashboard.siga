@@ -28,7 +28,7 @@ ProcAnimSignalResClass {
   IOPItemInputClass {
    id 62
    name "fuel1"
-   tl -934.222 296.222
+   tl -945.472 296.222
    children {
     72
    }
@@ -129,7 +129,6 @@ ProcAnimSignalResClass {
    }
    "Fade In Time" 120000
    "Fade Out Time" 120000
-   ResetTimerOnNewInput 1
   }
   IOPItemOpInterpolateClass {
    id 71

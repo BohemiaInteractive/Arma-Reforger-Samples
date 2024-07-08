@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B0C2ECDA8A8ACF19}Assets/Vehicles/Wheeled/SampleCar_01/Anm/p_SampleCar_01_passengerR_in_closeDoor.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

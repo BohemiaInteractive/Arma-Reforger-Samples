@@ -6768,6 +6768,13 @@ $animation "" {
    }
   }
  }
+ $events {
+  #event 0 "Sound" "SOUND_CHAR_FOOTSTEP_OFFSTEP_GEAR" -1 0 "" 1
+  #event 8 "Sound" "SOUND_CHAR_MOVEMENT_FOOT.rightfoot" -1 0 "" 1
+  #event 8 "Sound" "SOUND_CHAR_FOOTSTEP_ONSTEP_GEAR" -1 0 "" 1
+  #event 13 "Sound" "SOUND_CHAR_VEHICLE" 38 0 "S105 - GetUp" 1
+  #event 21 "Event_Vehicle_CanFinishAction" "" 2 0 "" 1
+ }
  $custProps {
   #custProp "profile" "102_FullBodyABS_camera"
  }

@@ -227,6 +227,13 @@ $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMed
   }
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{6160980DF3FD3F2C}" {
+    Points {
+     0 0 -8 -7 0 -2 -7 0 2 2 0 8
+    }
+   }
+  }
   coords 4392.816 1.593 11045.454
   angleY -151.936
  }
@@ -734,6 +741,13 @@ $grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSma
   }
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{6160981E15015C5D}" {
+    Points {
+     -3 0 4 -5 0 0 -3 0 -4
+    }
+   }
+  }
   coords 3826.151 11.48 8496.094
   angleX -3.905
   angleY -58.981
@@ -886,6 +900,13 @@ $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMed
   angleY -89.262
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{61609812EEC8E880}" {
+    Points {
+     0 0 9 7 0 3 4 0 -7
+    }
+   }
+  }
   coords 8193.315 220.896 2213.693
   angleY 33.149
  }
@@ -1035,6 +1056,13 @@ GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_Mont
 }
 $grp GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
  {
+  components {
+   RoadNetworkBridgeComponent "{6160980834246132}" {
+    Points + {
+     0 0 -20
+    }
+   }
+  }
   coords 4451.8 1.887 11055.726
   angleY 120.204
   {
@@ -1694,9 +1722,20 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angleY -30.772
  }
  {
-  coords 2982.901 28.323 6961.399
+  coords 2982.901 28.323 6961.398
   angleY -10.631
   angleZ 8.598
+  {
+   GenericEntity {
+    ID "5CC6ADB1E43AEBF8"
+    {
+     DecalEntity {
+      ID "56E0B29E17039037"
+      coords 0 0 0
+     }
+    }
+   }
+  }
  }
  {
   coords 2994.963 28.27 6954.054
@@ -1794,6 +1833,13 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angleY -177.529
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{6160981B98B30B7F}" {
+    Points {
+     -8 0 10 -1 0 -6
+    }
+   }
+  }
   coords 4070.744 32.822 7839.666
   angleY 127.526
  }
@@ -2720,6 +2766,13 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   angleY 6.122
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{615B048AD76FB3E0}" {
+    Points {
+     -2 0 -16 -2 0 -3 2 0 3 0 0 8
+    }
+   }
+  }
   coords 9503.95 221.785 2859.97
   angleX 8.527
   angleY 135.997
@@ -4187,20 +4240,10 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
 }
 $grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
  {
-  components {
-   Hierarchy "{5CCCBEF0E798F257}" {
-    Enabled 1
-   }
-  }
   coords 7097.957 0 5426.217
   angleY -93.048
  }
  {
-  components {
-   Hierarchy "{5CCCBEF0E79469BC}" {
-    Enabled 1
-   }
-  }
   coords 4032.151 -0.152 6711.98
   angleX 9.05
   angleY -148.634
@@ -4215,6 +4258,13 @@ $grp GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSma
   angleZ 1.102
  }
  {
+  components {
+   RoadNetworkBridgeComponent "{61609813A43CCAE8}" {
+    Points {
+     0 0 9 9 0 3 7 0 -5
+    }
+   }
+  }
   coords 8178.215 221.407 2175.938
   angleY -98.944
  }

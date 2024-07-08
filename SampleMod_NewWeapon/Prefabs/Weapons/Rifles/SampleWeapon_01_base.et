@@ -249,7 +249,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      MagazineTemplate "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Last_5Tracer.et"
     }
-    WeaponAnimationComponent "{52D2E009E7CB3826}" {
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
      AnimGraph "{4E416478E4AB266B}Assets/Weapons/Rifles/Workspaces/sampleweapon_01.agr"
      AnimInstance "{58CFBA64E686C110}Assets/Weapons/Rifles/Workspaces/sampleweapon_01_weapon.asi"
      AlwaysActive 1
@@ -261,7 +261,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      BindWithInjection 1
     }
    }
-   obstructionTestAddedLength -0.09
+   obstructionTestAddedLength 0.14
+   obstructionTestBBScale 0.05 0.06 0.025
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
     Name "Sample Weapon"
    }

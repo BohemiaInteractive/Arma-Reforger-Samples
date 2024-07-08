@@ -7130,6 +7130,7 @@ $animation "" {
   #event 0 "Sound" "SOUND_CHAR_MOVEMENT" 0 0 "" 0
   #event 7 "Sound" "SOUND_CHAR_VEHICLE" 5 0 "" 0
   #event 20 "Sound" "SOUND_CHAR_VEHICLE" 4 0 "" 0
+  #event 21 "Event_Vehicle_CanFinishAction" "" 2 0 "" 1
  }
  $custProps {
   #custProp "profile" "102_FullBodyABS_camera"

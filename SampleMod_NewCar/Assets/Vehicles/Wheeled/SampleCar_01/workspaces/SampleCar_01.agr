@@ -64,17 +64,89 @@ AnimSrcGraph {
    }
    AnimSrcGCTVarBool IsDriver {
    }
-   AnimSrcGCTVarFloat SpineAccelerationFB {
+   AnimSrcGCTVarFloat SpineAccelerationLR {
     MinValue -1
     MaxValue 1
    }
-   AnimSrcGCTVarFloat SpineAccelerationLR {
+   AnimSrcGCTVarFloat SpineAccelerationFB {
     MinValue -1
     MaxValue 1
    }
    AnimSrcGCTVarFloat Vehicle_Wobble {
     MaxValue 1
     Synchronized 0
+   }
+   AnimSrcGCTVarFloat IsInVehicle {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_0 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_1 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_2 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat suspension_3 {
+    MinValue -1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat POWER_IO {
+    DefaultValue 1
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat ENGINE_RPM_0 {
+    MaxValue 8000
+   }
+   AnimSrcGCTVarFloat GEARBOX_RPM_0 {
+    MaxValue 8000
+   }
+   AnimSrcGCTVarFloat SPEED {
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat FUEL {
+    MaxValue 30
+   }
+   AnimSrcGCTVarFloat WIPERS_IO {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat steering {
+    MinValue -50
+    MaxValue 50
+   }
+   AnimSrcGCTVarFloat wheel_0 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_1 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_2 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat wheel_3 {
+    MinValue -360
+    MaxValue 360
+   }
+   AnimSrcGCTVarFloat ENGINE_RPM_delay {
+    MinValue 0
+    MaxValue 4000
+   }
+   AnimSrcGCTVarFloat ENGINE_RPM_delay2 {
+    MaxValue 1100
+   }
+   AnimSrcGCTVarFloat VehicleSpeed {
+    MaxValue 100
+    Synchronized 0
+   }
+   AnimSrcGCTVarFloat RandomIdle {
+    MaxValue 1
    }
   }
   Commands {
@@ -101,6 +173,12 @@ AnimSrcGraph {
    AnimSrcGCTCmd CMD_Vehicle_Engine_StartStop {
    }
    AnimSrcGCTCmd CMD_HandBrake {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_OpenDoor {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_FinishActionQueue {
+   }
+   AnimSrcGCTCmd CMD_Vehicle_CloseDoor {
    }
   }
   IkChains {
@@ -147,6 +225,153 @@ AnimSrcGraph {
     }
     MiddleJoint "rightforearm"
     ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain suspension0 {
+    Joints {
+     "v_suspension_01"
+    }
+   }
+   AnimSrcGCTIkChain suspension1 {
+    Joints {
+     "v_suspension_02"
+    }
+   }
+   AnimSrcGCTIkChain suspension2 {
+    Joints {
+     "v_suspension_03"
+    }
+   }
+   AnimSrcGCTIkChain suspension3 {
+    Joints {
+     "v_suspension_04"
+    }
+   }
+   AnimSrcGCTIkChain spring0 {
+    Joints {
+     "v_spring_0"
+    }
+   }
+   AnimSrcGCTIkChain spring1 {
+    Joints {
+     "v_spring_1"
+    }
+   }
+   AnimSrcGCTIkChain spring2 {
+    Joints {
+     "v_spring_2"
+    }
+   }
+   AnimSrcGCTIkChain spring3 {
+    Joints {
+     "v_spring_3"
+    }
+   }
+   AnimSrcGCTIkChain frontLeftUpper {
+    Joints {
+     "v_suspension_upper_01"
+    }
+   }
+   AnimSrcGCTIkChain frontLeftAxis {
+    Joints {
+     "v_suspension_axis_01"
+    }
+   }
+   AnimSrcGCTIkChain frontRightUpper {
+    Joints {
+     "v_suspension_upper_02"
+    }
+   }
+   AnimSrcGCTIkChain frontRightAxis {
+    Joints {
+     "v_suspension_axis_02"
+    }
+   }
+   AnimSrcGCTIkChain leftTorsion {
+    Joints {
+     "v_suspension_rivet_up_01"
+    }
+   }
+   AnimSrcGCTIkChain rightTorsion {
+    Joints {
+     "v_suspension_rivet_up_02"
+    }
+   }
+   AnimSrcGCTIkChain leftAxle {
+    Joints {
+     "v_axle_joint_0"
+    }
+   }
+   AnimSrcGCTIkChain rightAxle {
+    Joints {
+     "v_axle_joint_1"
+    }
+   }
+  }
+  BoneMasks {
+   AnimSrcGCTBoneMask chassis {
+    Bones {
+     "suspension_01"
+     "suspension_02"
+     "suspension_03"
+     "suspension_04"
+     "v_wheel_L01_rotator"
+     "v_wheel_L01"
+     "v_wheel_R01_rotator"
+     "v_wheel_R01"
+     "v_wheel_L02"
+     "v_wheel_R02"
+     "v_suspension_rivet_01"
+     "v_suspension_rivet_02"
+     "v_axle_joint_0"
+     "v_axle_joint_1"
+     "v_engine"
+     "v_exhaust"
+     "v_spring_0_ikTarget"
+     "v_spring_1_ikTarget"
+     "v_spring_2_ikTarget"
+     "v_spring_3_ikTarget"
+     "v_steering_ikTarget"
+     "v_suspension_01"
+     "v_suspension_02"
+     "v_suspension_03"
+     "v_suspension_04"
+     "v_suspension_axis_ikTarget_01"
+     "v_suspension_axis_ikTarget_02"
+     "v_suspension_rivet_up_ikTarget_01"
+     "v_suspension_rivet_up_ikTarget_02"
+     "v_suspension_upper_01"
+     "v_suspension_upper_02"
+     "v_axle_0"
+     "v_axle_1"
+     "v_spring_0"
+     "v_suspension_axis_01"
+     "v_suspension_rivet_up_01"
+     "v_suspension_rivet_01_ikTarget"
+     "v_steering_axis_0"
+     "v_spring_1"
+     "v_suspension_axis_02"
+     "v_suspension_rivet_up_02"
+     "v_suspension_rivet_02_ikTarget"
+     "v_steering_axis_1"
+     "v_axle_0_ikTarget"
+     "v_spring_2"
+     "v_axle_1_ikTarget"
+     "v_spring_3"
+    }
+   }
+   AnimSrcGCTBoneMask body {
+    Bones {
+     "v_dashboard_fuel"
+     "v_dashboard_oil_temp"
+     "v_dashboard_rpm"
+     "v_dashboard_speed"
+     "v_mirror_interior_upper"
+     "v_wiper_L"
+     "v_wiper_R"
+     "v_mirror_L01"
+     "v_mirror_R01"
+     "v_mirror_interior_bottom"
+    }
    }
   }
   GlobalTags {

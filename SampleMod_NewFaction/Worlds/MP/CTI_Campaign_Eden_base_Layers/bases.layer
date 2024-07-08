@@ -350,8 +350,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseShepherds {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_ShepherdsPond"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_ShepherdsPond-UC"
+    m_sBaseName "#AR-Campaign_MapLocation_ShepherdsPond"
+    m_sBaseNameUpper "#AR-MapLocation_OldWood"
    }
   }
   coords 3294.714 120.147 4471.09
@@ -415,7 +415,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseMaidensBay {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_MaidensBay"
+    m_sBaseName "#AR-Campaign_MapLocation_MaidensBay"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
    }
   }
@@ -452,7 +452,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseGoatbay {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "#AR-MapLocation_GoatBay"
+    m_sBaseName "#AR-MapLocation_Camurac"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_GoatBay"
    }
   }
@@ -515,7 +515,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bIsSupplyHub 1
-    m_sBaseName "#AR-Campaign_MapLocation_HQ_North"
+    m_sBaseName "#AR-MapLocation_StPhillipe"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
     m_sMapLocationName "LocationStPhillipe_Harbour"
    }
@@ -534,7 +534,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
     m_bIsSupplyHub 1
-    m_sBaseName "#AR-Campaign_MapLocation_HQ_South"
+    m_sBaseName "#AR-MapLocation_StPierre"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
     m_sMapLocationName "LocationStPierre_Harbour"
    }

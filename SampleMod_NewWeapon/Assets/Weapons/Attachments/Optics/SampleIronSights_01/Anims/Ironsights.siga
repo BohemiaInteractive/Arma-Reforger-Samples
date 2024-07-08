@@ -55,7 +55,6 @@ ProcAnimSignalResClass {
    "Fade Out Time" 300
    "Fade In Type" "S-curve"
    "Fade Out Type" "S-curve"
-   ResetTimerOnNewInput 1
   }
  }
  Outputs {
