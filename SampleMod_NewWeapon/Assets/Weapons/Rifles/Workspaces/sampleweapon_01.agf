@@ -178,7 +178,7 @@ AnimSrcGraphFile {
        FromState "RemoveMag"
        ToState "InsertMag"
        Duration "0.3"
-       StartTime "GetEventTime(\"Reload.Erc.Reload_InsertMag\", \"BlendIn\")"
+       StartTime "GetEventTime(anim.Reload.Erc.Reload_InsertMag, \"BlendIn\")"
        Condition "IsEvent(\"BlendOut\")"
        BlendFn S
        PostEval 1
@@ -311,23 +311,25 @@ AnimSrcGraphFile {
       AnimSrcNodeQueueItem "{5196ADA7F769B195}" {
        Child "FireAnim"
        StartExpr "Firing && HasVariableChanged(Firing) && !Empty"
+       EnqueueMethod Enqueue
       }
       AnimSrcNodeQueueItem "{5196D6D78E2DA956}" {
        Child "FireEmptyAnim"
        StartExpr "Firing && HasVariableChanged(Firing) && Empty"
+       EnqueueMethod Enqueue
       }
       AnimSrcNodeQueueItem "{5518A9E9CAF869F8}" {
        Child "ModeIK 2"
        StartExpr "HasVariableChanged(State)"
        BlendInTime 0
        BlendOutTime 0
-       IsReentrant 1
+       EnqueueMethod Ignore
       }
       AnimSrcNodeQueueItem "{55B0D52E4D675724}" {
        Child "BoltClosed"
        StartExpr "true"
        InterruptExpr "Firing && HasVariableChanged(Firing) || HasVariableChanged(State)"
-       IsReentrant 1
+       EnqueueMethod Ignore
       }
      }
     }

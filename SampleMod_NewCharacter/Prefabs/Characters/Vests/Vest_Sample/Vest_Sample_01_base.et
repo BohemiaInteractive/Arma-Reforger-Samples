@@ -45,7 +45,16 @@ GenericEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" 
    AnimateCollidersOnWear 1
    DepthFront 0.03
   }
-  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+  SCR_ArmorDamageManagerComponent "{6246C0756C663F3C}" {
+   "Additional hit zones" {
+    HitZone Vest {
+     ColliderNames {
+      "UTM_Armor1"
+     }
+     HZDefault 1
+     MaxHealth 10000
+    }
+   }
   }
  }
 }

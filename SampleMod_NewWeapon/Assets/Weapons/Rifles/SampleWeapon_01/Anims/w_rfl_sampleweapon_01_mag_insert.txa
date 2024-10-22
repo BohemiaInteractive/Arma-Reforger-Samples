@@ -3,7 +3,7 @@ $animation "" {
  #fps 30
  #numFrames 60
  $node "Scene_Root" {
-  $keys t q s {
+  $keys t q {
    $frame 0 60 {
    }
   }

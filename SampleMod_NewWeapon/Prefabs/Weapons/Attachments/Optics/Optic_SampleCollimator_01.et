@@ -41,7 +41,7 @@ GenericEntity : "{78689FF321194268}Prefabs/Weapons/Attachments/Optics/WeaponColl
    LayerPreset "ItemFireView"
    ModelGeometry 1
   }
-  SCR_CollimatorSightsComponent "{5D369D0BB77FCCE8}" {
+  SCR_CollimatorSightsComponent "{5D0CC83435B55855}" {
    components {
     SCR_CollimatorControllerComponent "{5D369D0BB1149DFD}" {
     }
