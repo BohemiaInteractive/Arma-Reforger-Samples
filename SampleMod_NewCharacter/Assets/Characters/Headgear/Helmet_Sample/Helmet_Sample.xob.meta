@@ -1,12 +1,12 @@
 MetaFileClass {
- Name "{2486133257F3E4F3}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample.xob"
+ Name "{2486133257F3E4F3}Assets/Characters/Headgear/Helmet_Sample/Helmet_Sample.xob"
  Configurations {
   FBXResourceClass PC {
    ExportSkinning 1
    MaterialAssigns {
     MaterialAssignClass "{59626C620F7A5AE5}" {
      SourceMaterial "Headgear_Example_01"
-     AssignedMaterial "{717DFAB220180810}Assets/Characters/SampleCharacter/data/Headgear_Example_01.emat"
+     AssignedMaterial "{717DFAB220180810}Assets/Characters/Headgear/Helmet_Sample/Data/Headgear_Example_01.emat"
     }
    }
    MeshParams {
@@ -41,6 +41,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{59626C6127BFCCF4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass PS5 : PC {
   }
  }
 }

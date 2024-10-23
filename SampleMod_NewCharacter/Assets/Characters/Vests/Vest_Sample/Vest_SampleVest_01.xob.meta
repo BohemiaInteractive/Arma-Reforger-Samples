@@ -67,5 +67,7 @@ MetaFileClass {
    Common TXOCommonClass "{5DE6AAB0D07B6889}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
   }
+  FBXResourceClass PS5 : PC {
+  }
  }
 }
