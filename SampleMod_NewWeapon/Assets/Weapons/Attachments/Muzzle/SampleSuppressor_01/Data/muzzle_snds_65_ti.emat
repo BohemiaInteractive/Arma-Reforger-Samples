@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.429 0.429 0.429 1
+ SpecularMul 0.88
+ RoughnessScale 1.153
+ BCRMap "{54014E5DFEC13666}Assets/Weapons/Attachments/Muzzle/SampleSuppressor_01/Data/muzzle_snds_65_ti_BCR.edds"
+ NMOMap "{6CD9F5CF27B664F8}Assets/Weapons/Attachments/Muzzle/SampleSuppressor_01/Data/muzzle_snds_65_ti_NMO.edds"
+}

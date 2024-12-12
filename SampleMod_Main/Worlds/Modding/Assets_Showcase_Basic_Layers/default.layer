@@ -11,22 +11,6 @@ GenericEntity : "{024ADA8FA4FC92E0}Prefabs/Props/Military/SupplyBox/SupplyPortab
  }
  coords 117.68 2.903 130.725
 }
-GenericEntity : "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et" {
- coords 122.86 3.024 127.989
- angleX -0.094
- angleY -179.694
- angleZ -91.425
-}
-Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
- coords 115.332 2 117.587
- angleY 143.401
-}
-GenericEntity : "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et" {
- coords 123.298 3.479 128.233
- angleX 0.151
- angleY -4.084
- angleZ 2.213
-}
 $grp GenericEntity : "{3C85501E4350E5AC}Prefabs/Props/Military/Camps/PortableDesk_01_Base.et" {
  {
   components {
@@ -128,21 +112,9 @@ $grp SCR_ChimeraCharacter : "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR
     }
    }
   }
-  coords 117.325 2 133.827
+  coords 117.374 2 134.001
   angleY 105.639
  }
-}
-GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_base.et" {
- coords 122.774 2.999 130.199
- angleY -88.868
-}
-GenericEntity : "{C56F92DAD17C2C91}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_Heavy.et" {
- coords 123.049 3.005 130.719
- angleY -85.736
-}
-GameEntity : "{D1B241E965B734F5}Prefabs/Characters/Headgear/Helmet_Sample/Helmet_Sample_01_base.et" {
- coords 123.282 3.005 130.225
- angleY -97.048
 }
 GenericEntity : "{EB9B246188C1BB04}Prefabs/Systems/Arsenal/WeaponRacks/WeaponRackCabinetArsenal_SampleMod.et" {
  components {

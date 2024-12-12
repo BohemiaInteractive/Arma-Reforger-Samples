@@ -40,6 +40,34 @@ StringTable {
    }
    SourceFile "{EEA866D6E77051C8}PrefabsEditable/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWodden_SampleWeapon.et"
   }
+  CustomStringTableItem "{6306D0D13768E567}" {
+   Id "SampleMod-Item_SampleSuppressor_01_Description"
+   Target_en_us "6.5mm tactical suppressor"
+   ActorGender NONE
+   Terminology NONE
+   MaxLength 0
+   Modified 1661392611
+   Author "phammac"
+   LastChanged "phammac"
+   Labels {
+    2
+   }
+   SourceFile "{F26CE8ACE04E6CCA}Prefabs/Weapons/Attachments/Muzzle/SampleSuppressor_01_base.et"
+  }
+  CustomStringTableItem "{6306D0D131189C54}" {
+   Id "SampleMod-Item_SampleSuppressor_01_Name"
+   Target_en_us "Sample Suppresor 6.5mm"
+   ActorGender NONE
+   Terminology NONE
+   MaxLength 0
+   Modified 1661392611
+   Author "phammac"
+   LastChanged "phammac"
+   Labels {
+    2
+   }
+   SourceFile "{F26CE8ACE04E6CCA}Prefabs/Weapons/Attachments/Muzzle/SampleSuppressor_01_base.et"
+  }
   CustomStringTableItem "{5AF89E61750D5833}" {
    Id "SampleMod-Magazine_65x39C_SampleWeapon_01_30rnd_Base_Description"
    Target_en_us "Magazine loaded with 6.5x39mm NATO rounds"

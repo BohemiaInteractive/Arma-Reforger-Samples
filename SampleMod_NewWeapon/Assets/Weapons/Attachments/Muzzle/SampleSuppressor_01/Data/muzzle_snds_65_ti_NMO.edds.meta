@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6CD9F5CF27B664F8}Assets/Weapons/Attachments/Muzzle/SampleSuppressor_01/Data/muzzle_snds_65_ti_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
+  }
+  TIFFResourceClass XBOX_ONE : "{7F6A4D372443A88D}Configs/System/ResourceTypes/XBOX_ONE/TextureNType.conf" {
+  }
+  TIFFResourceClass XBOX_SERIES : "{065D289C7FF8B20D}Configs/System/ResourceTypes/XBOX_SERIES/TextureNType.conf" {
+  }
+  TIFFResourceClass PS4 : "{29DF4A6CBBABE916}Configs/System/ResourceTypes/PS4/TextureNType.conf" {
+  }
+  TIFFResourceClass PS5 : "{DED3C8CA8494EA99}configs/ResourceTypes/PS5/TextureNType.conf" {
+  }
+  TIFFResourceClass HEADLESS : "{AFD658E4D0EB5FBC}Configs/System/ResourceTypes/HEADLESS/TextureNType.conf" {
+  }
+ }
+}

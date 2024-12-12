@@ -1,3 +1,9 @@
+GenericEntity : "{0A5D78CC62154D9F}Prefabs/Weapons/Magazines/Magazine_65x39C_SampleWeapon_01_30rnd_Tracer.et" {
+ coords 122.86 3.024 127.989
+ angleX -0.094
+ angleY -179.694
+ angleZ -91.425
+}
 GenericEntity : "{0C51231142DD368C}Prefabs/Props/Military/Camps/PortableDesk_01_Black_Full.et" {
  components {
   RigidBody "{5872F0EB7DFB5A9D}" {
@@ -6,6 +12,10 @@ GenericEntity : "{0C51231142DD368C}Prefabs/Props/Military/Camps/PortableDesk_01_
  }
  coords 119.653 1.967 141.757
  angleY 166.078
+}
+Vehicle SampleCar_1 : "{1398A24AB596FFE1}Prefabs/Vehicles/Wheeled/SampleCar_01/SampleCar_01.et" {
+ coords 115.332 2 117.587
+ angleY 143.401
 }
 $grp GenericEntity : "{3C399F23FE9B2E7F}Prefabs/Weapons/Rifles/Rifle_AK74_Modded.et" {
  {
@@ -46,7 +56,7 @@ GenericEntity : "{45DEFBAC498E8101}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
  angleY -179.694
  angleZ -91.425
 }
-GameEntity : "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et" {
+GenericEntity : "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et" {
  coords 123.235 2.997 127.247
  angleY 21.44
 }
@@ -82,7 +92,7 @@ GenericEntity : "{5AF02D4CBD78F26E}Prefabs/Weapons/Magazines/Magazine_65x39C_Sam
  angleY -179.694
  angleZ -91.425
 }
-GameEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
+GenericEntity : "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et" {
  coords 123.168 2.997 127.348
  angleY -20.212
 }
@@ -137,7 +147,22 @@ GenericEntity : "{B672853A6087B05A}PrefabsEditable/Auto/Props/Military/Arsenal/W
  coords 122.475 2.001 128.489
  angleY -90.375
 }
-GameEntity : "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et" {
+GenericEntity : "{C0B1D8A4E67A2771}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_base.et" {
+ coords 122.774 2.999 130.199
+ angleY -88.868
+}
+GenericEntity : "{C56F92DAD17C2C91}Prefabs/Characters/Vests/Vest_Sample/Vest_Sample_01_Heavy.et" {
+ coords 123.049 3.005 130.719
+ angleY -85.736
+}
+GenericEntity : "{C84595BF6F321B09}Prefabs/Weapons/Attachments/Optics/Optic_SampleCollimator_01.et" {
  coords 122.806 3.01 127.226
  angleY -49.437
+}
+GameEntity : "{D1B241E965B734F5}Prefabs/Characters/Headgear/Helmet_Sample/Helmet_Sample_01_base.et" {
+ coords 123.282 3.005 130.225
+ angleY -97.048
+}
+GenericEntity : "{D1D2382222FC41C1}Prefabs/Weapons/Attachments/Muzzle/SampleSuppressor_01.et" {
+ coords 122.529 3.026 127.474
 }

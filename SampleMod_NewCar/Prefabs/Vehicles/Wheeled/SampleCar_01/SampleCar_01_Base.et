@@ -3,7 +3,7 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
  components {
   SCR_VehicleSoundComponent "{55C2E66AD4EF2CA6}" {
    Filenames {
-    "{EF8CA6FF5BA35046}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine.acp" "{306D7467339A1577}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Animations.acp" "{D90F39F89E7BAADF}Sounds/Vehicles/Wheeled/UAZ469/Vehicles_UAZ469_Dampers.acp" "{7A5D78E3381DF66D}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Horn.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{0E29FA31A7D0A498}Sounds/Vehicles/Wheeled/S105/Vehicles_S105_Rain.acp" "{D2DF25DD8B4A4B62}Sounds/Destruction/Multiphase/Destruction_Multiphase_Glass_Vehicle_Medium.acp" "{465B31754AAAE693}Sounds/Vehicles/_SharedData/Crashes/Cars/Vehicles_Crashes_Cars.acp"
+    "{EF8CA6FF5BA35046}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Engine.acp" "{306D7467339A1577}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Animations.acp" "{D90F39F89E7BAADF}Sounds/Vehicles/Wheeled/UAZ469/Vehicles_UAZ469_Dampers.acp" "{7A5D78E3381DF66D}Sounds/Vehicles/Wheeled/SampleCar_01/Vehicles_SampleCar_01_Horn.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{0E29FA31A7D0A498}Sounds/Vehicles/Wheeled/S105/Vehicles_S105_Rain.acp" "{D2DF25DD8B4A4B62}Sounds/Destruction/Multiphase/Destruction_Multiphase_Vehicle.acp" "{465B31754AAAE693}Sounds/Vehicles/_SharedData/Crashes/Cars/Vehicles_Crashes_Cars.acp"
    }
    ScriptCallbacks 1
    Wheels {
@@ -339,30 +339,6 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
     SCR_LightsPresenceUserAction "{51F8D0F2AF395105}" : "{543FB4FCD60B1B36}Prefabs/Vehicles/Core/Lights/UA_Lights.conf" {
      ParentContextList +{
-     }
-    }
-   }
-  }
-  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
-   components {
-    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
-     ThrottleCurve {
-      4000 0.8 5000 0.5 7000 0
-     }
-     ClutchUncoupleRpm 1000
-     Latency 0.3
-     UpShiftRpm 2500
-     DownShiftRpm 1800
-    }
-    SCR_BaseHUDComponent "{37C2676694790BC7}" {
-     InfoDisplays {
-      SCR_InfoDisplay "{50E6E6F81354B90F}" {
-       InfoDisplays {
-        SCR_AnalogGauge "{50E6E9C4280A17FE}" {
-         m_fValueMax 260
-        }
-       }
-      }
      }
     }
    }
@@ -855,7 +831,6 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
   }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
-    SolverType V1
     SolverUpdateRate 275
     Engine Engine Engine {
      Inertia 0.45
@@ -947,6 +922,35 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      DragCoefficient 0.31
     }
     Pacejka Pacejka "{5556CB505315D501}" : "{FE6D317BB79B59AA}Prefabs/Vehicles/Core/Configs/PacejkaTire_Offroad.conf" {
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_BaseHUDComponent "{37C2676694790BC7}" {
+     InfoDisplays {
+      SCR_InfoDisplay "{50E6E6F81354B90F}" {
+       InfoDisplays {
+        SCR_AnalogGauge "{50E6E9C4280A17FE}" {
+         m_fValueMax 260
+        }
+       }
+      }
+     }
+    }
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     AirIntakes {
+      PointInfo "{6314B88F5F2D6173}" {
+       Offset 0 0.832 1.3323
+      }
+     }
+     ThrottleCurve {
+      4000 0.8 5000 0.5 7000 0
+     }
+     ClutchUncoupleRpm 1000
+     Latency 0.3
+     UpShiftRpm 2500
+     DownShiftRpm 1800
     }
    }
   }

@@ -3,7 +3,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
  components {
   WeaponSoundComponent "{5A8685198A9AEEDD}" {
    Filenames {
-    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp"
+    "{2C3081D1EE023D68}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{5D9EB1EFB7097850}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Shot_Suppressed_SuperSonic.acp"
    }
   }
   MeshObject "{CFBAA4B701F95D69}" {
@@ -51,6 +51,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     }
    }
   }
+  SCR_WeaponStatsManagerComponent "{6306878B08CAD325}" {
+  }
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     AttachmentSlotComponent "{52D0FA2008B57FF5}" {
@@ -60,7 +62,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab "{5C3C9FE480E417D7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Front.et"
-      Name "Front Ironsight"
      }
      AttachmentType AttachmentOpticsRIS1913IronsightFront "{5CF890C54755B783}" {
      }
@@ -82,7 +83,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab "{4842D1F1D47C9CD7}Prefabs/Weapons/Attachments/Optics/Optic_SampleIronsight_01_Rear.et"
-      Name "Rear Ironsight"
      }
      AttachmentType AttachmentOpticsRIS1913IronsightRear "{5CF890C54037718C}" {
      }
@@ -95,7 +95,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       MergePhysics 1
       ChildPivotID "snap_weapon"
       Prefab ""
-      Name "Optic"
      }
      AttachmentType AttachmentOpticsRIS1913 "{5962E5BAE630FC90}" {
      }
@@ -106,7 +105,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       PivotID "slot_ris_left"
       MergePhysics 1
       ChildPivotID "snap_weapon"
-      Name "RIS Left"
      }
      AttachmentType AttachmentRIS1913 "{5D168E76C124A5D0}" {
      }
@@ -117,7 +115,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       PivotID "slot_ris_right"
       MergePhysics 1
       ChildPivotID "snap_weapon"
-      Name "RIS Right"
      }
      AttachmentType AttachmentRIS1913 "{5D168E76F211B286}" {
      }
@@ -142,21 +139,15 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      components {
       AttachmentSlotComponent "{4E2B66CBA589F625}" {
        AttachmentSlot InventoryStorageSlot suppressor {
-        PivotID "barrel_muzzle"
-        Name "Muzzle"
+        PivotID "slot_barrel_muzzle"
+        ChildPivotID "snap_weapon"
        }
        AttachmentType AttachmentMuzzle65_39 "{5D168816DD5EF0CE}" {
        }
+       ShowInInspection 1
       }
       CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
        ParticleEffect "{6A0F068A792EA37C}Particles/Weapon/Casing_762x51.ptc"
-      }
-      CaseEjectingEffectComponent "{5CB6E23C9EB64496}" {
-       ParticleEffect "{63E173D6DFE79517}Particles/Weapon/Smoke_M16A2.ptc"
-       EffectPosition EntitySlotInfo Effect {
-        PivotID "barrel_muzzle"
-       }
-       HasSound 0
       }
       SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
        ParticleEffect "{6FC79968CA7F6FD2}Particles/Weapon/Muzzle_AK74.ptc"
