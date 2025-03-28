@@ -163,6 +163,6 @@ GameEntity : "{D1B241E965B734F5}Prefabs/Characters/Headgear/Helmet_Sample/Helmet
  coords 123.282 3.005 130.225
  angleY -97.048
 }
-GenericEntity : "{D1D2382222FC41C1}Prefabs/Weapons/Attachments/Muzzle/SampleSuppressor_01.et" {
+GenericEntity : "{D1D2382222FC41C1}Prefabs/Weapons/Attachments/Muzzle/Suppressor_SampleSuppresor_01/Suppressor_SampleSuppressor_01.et" {
  coords 122.529 3.026 127.474
 }

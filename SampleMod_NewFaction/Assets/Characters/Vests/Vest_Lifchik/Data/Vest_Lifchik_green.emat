@@ -4,7 +4,7 @@ MatPBRCamo {
  NMOMap "{B253A6942ADD0D68}Assets/Characters/Vests/Vest_Lifchik/Data/Vest_Lifchik_NMO.edds" 
  CamoColor 0 0.502 0.125 1
  CamoOpacity 0.26
- CammNormalOpacity 0
+ CamoNormalOpacity 0
  CamoRoughnessOpacity 0
  CamoMetalnessOpacity 0
 }

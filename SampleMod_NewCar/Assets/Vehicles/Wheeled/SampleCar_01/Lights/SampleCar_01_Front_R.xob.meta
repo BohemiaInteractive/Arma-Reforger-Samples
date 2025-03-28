@@ -8,6 +8,20 @@ MetaFileClass {
      AssignedMaterial "{F7118B1B4A80904D}Assets/Vehicles/Wheeled/SampleCar_01/Lights/data/SampleCar_01_Glass.emat"
     }
    }
+   MeshParams {
+    MeshParam glass_001 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_glass_001 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{8D1F0255D835F302}Common/Materials/Game/Glass/glass_2mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
    Common TXOCommonClass "{5554C3F9E61B4051}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
   }
@@ -22,6 +36,10 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{5554C3F9E61B4716}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS5 : PC {
   }
  }
 }

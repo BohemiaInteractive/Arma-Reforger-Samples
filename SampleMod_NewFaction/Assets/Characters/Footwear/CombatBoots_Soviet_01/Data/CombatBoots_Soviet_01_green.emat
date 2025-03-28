@@ -6,7 +6,7 @@ MatPBRCamo {
  NMOMap "{4F7D2036AF8A8DA4}Assets/Characters/Footwear/CombatBoots_Soviet_01/Data/T_CombatBoots_Soviet_01_NMO.edds" 
  CamoColor 0 0.5 0.125 1
  CamoOpacity 0.308
- CammNormalOpacity 0.166
+ CamoNormalOpacity 0.166
  CamoRoughnessOpacity 0.571
  CamoMetalnessOpacity 0.156
 }

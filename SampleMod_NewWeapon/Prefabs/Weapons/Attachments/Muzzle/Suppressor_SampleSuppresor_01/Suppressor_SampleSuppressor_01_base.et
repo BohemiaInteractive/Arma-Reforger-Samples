@@ -1,0 +1,63 @@
+GenericEntity : "{491CEF88656BE6C2}Prefabs/Weapons/Core/Suppressor_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{5CB8A09828130AD1}" {
+     Name "#SampleMod-Item_SampleSuppressor_01_Name"
+     Description "#SampleMod-Item_SampleSuppressor_01_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5CB8A0982952AAE5}" {
+     Weight 0.61
+     SizeSetupStrategy Manual
+     ItemVolume 200
+    }
+    CustomAttributes {
+     SCR_WeaponAttachmentSuppressorAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentMuzzle65_39 "{618A843CE28C7529}" {
+      }
+      m_fMuzzleSpeedCoefficient 1.01
+      m_fMuzzleDispersionFactor 0.9
+      m_fExtraObstructionLength 0.18
+      m_vLinearFactors 1.1 1.1 0.8
+      m_vAngularFactors 0.7 0.7 0.7
+      m_vTurnFactors 0.8 0.8 1
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      ItemRenderRotation 0 0 45
+      FOV 15
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{5C46D45E03D7AD12}" {
+   Object "{1B29CF5ADB81C1B9}Assets/Weapons/Attachments/Muzzle/SampleSuppressor_01/SampleSuppressor_01.xob"
+  }
+  SCR_MuzzleEffectComponent "{618AE28914F3CB8B}" {
+   ParticleEffect "{0D9400A03DDEA9AC}Particles/Weapon/Attachments/Suppressor_Carbine.ptc"
+   EffectPosition EntitySlotInfo "{630687834DDEBE3D}" {
+    PivotID "Scene_Root"
+    Offset 0 0 0.1646
+   }
+   ResetOnFire 0
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{5284E0EFF4E818E9}" {
+     Position PointInfo "{5284E0EFC526E6F0}" {
+      Offset 0 0 0.07
+     }
+    }
+    UserActionContext "{618A8427BADA3E0B}" {
+     Position PointInfo "{618A8426906822BF}" {
+      Offset 0 0 0.07
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

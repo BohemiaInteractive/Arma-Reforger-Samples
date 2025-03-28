@@ -80,38 +80,6 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UCX_FG_Light_FL {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_FG_Light_FR {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_FG_Light_RL {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UCX_FG_Light_RR {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
     GeometryParam UCX_MainCol_02 {
      LayerPreset "Vehicle"
      SurfaceProperties {

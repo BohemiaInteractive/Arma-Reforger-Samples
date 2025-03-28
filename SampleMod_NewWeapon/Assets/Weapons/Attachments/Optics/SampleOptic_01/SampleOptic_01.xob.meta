@@ -5,17 +5,17 @@ MetaFileClass {
    SourceFile "SampleOptic_01.fbx"
    ExportSceneHierarchy 1
    MaterialAssigns {
-    MaterialAssignClass "{584EC1101EB4CF06}" {
+    MaterialAssignClass "{64D8DB5A34E93F6E}" {
      SourceMaterial "msbs_02_co"
      AssignedMaterial "{398B2C21BB25774F}Assets/Weapons/Rifles/SampleWeapon_01/Data/SampleWeapon_01_Camo2.emat"
     }
-    MaterialAssignClass "{5DBA864E2ED0E81D}" {
+    MaterialAssignClass "{64D8DB5A34E93F49}" {
      SourceMaterial "Optic_lensglass"
      AssignedMaterial "{39C2A3A521FE9A1B}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_Lensglass.emat"
     }
-    MaterialAssignClass "{5DBA864E2ED0E821}" {
+    MaterialAssignClass "{64D8DB5A34E93FB1}" {
      SourceMaterial "Optic_pip"
-     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
+     AssignedMaterial "{41E4B66721D5F07B}Assets/Weapons/Attachments/Optics/PSO1/Data/Optic_PSO1_PIPMaterial.emat"
     }
    }
    MeshParams {
@@ -60,6 +60,8 @@ MetaFileClass {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS5 : PC {
   }
  }
 }

@@ -4,7 +4,7 @@ MatPBRCamo {
  NMOMap "{6940E4C7F31FE513}Assets/Characters/Uniforms/Pants_M88/Data/Pants_m88_01_NMO.edds" 
  CamoColor 0 0.502 0.125 1
  CamoOpacity 0.288
- CammNormalOpacity 0
+ CamoNormalOpacity 0
  CamoRoughnessOpacity 0
  CamoMetalnessOpacity 0
 }

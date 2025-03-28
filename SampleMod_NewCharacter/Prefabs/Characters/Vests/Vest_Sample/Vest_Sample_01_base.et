@@ -19,15 +19,6 @@ GenericEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" 
       FOV 10
       PreviewWornModel 1
      }
-     SCR_ArmoredClothItemData "{5DEA801DB692FA27}" {
-      m_aProtectedHitZones {
-       "Chest" "Abdomen" "Neck"
-      }
-      m_aProtectedDamageTypes {
-       3 5 4 2
-      }
-      m_eProtection TYPE_IIA
-     }
     }
     m_Size SLOT_2x2
    }
@@ -37,13 +28,6 @@ GenericEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" 
   }
   RigidBody "{5312D798AF7A9E28}" {
    Kinematic 1
-  }
-  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
-   WornModel "{E79E09C2BC2BB6F2}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01.xob"
-   ItemModel "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
-   PhysicsOnWearEnabled 1
-   AnimateCollidersOnWear 1
-   DepthFront 0.03
   }
   SCR_ArmorDamageManagerComponent "{62D6849E44DF20AC}" {
    "Additional hit zones" {
@@ -55,6 +39,13 @@ GenericEntity : "{AA074754692261B1}Prefabs/Characters/Core/VestArmored_Base.et" 
      MaxHealth 10000
     }
    }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{E79E09C2BC2BB6F2}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01.xob"
+   ItemModel "{1626D3D540B936A5}Assets/Characters/Vests/Vest_Sample/Vest_SampleVest_01_item.xob"
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   DepthFront 0.03
   }
  }
 }

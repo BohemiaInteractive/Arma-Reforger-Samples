@@ -1,4 +1,4 @@
-GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
+GameEntity : "{EC0071079B219026}Prefabs/Characters/Core/Headgear_Helmet_Base.et" {
  ID "51EEB2C2B64FA646"
  components {
   InventoryItemComponent "{5244E4431E28A759}" {
@@ -23,7 +23,7 @@ GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
    }
   }
   MeshObject "{5112706CD4157AE0}" {
-   Object "{233CB9BFBCDD11A7}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample_item.xob"
+   Object "{233CB9BFBCDD11A7}Assets/Characters/Headgear/Helmet_Sample/Helmet_Sample_item.xob"
   }
   SCR_SoundDataComponent "{5B18D20B1F8073E0}" {
    m_aAudioSourceConfiguration {
@@ -33,10 +33,8 @@ GameEntity : "{17F335BF60DD2550}Prefabs/Characters/Core/Headgear_Base.et" {
    }
   }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
-   AreaType LoadoutHeadCoverArea "{5A68DCDCE6554A05}" {
-   }
-   WornModel "{2486133257F3E4F3}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample.xob"
-   ItemModel "{233CB9BFBCDD11A7}Assets/Characters/HeadGear/Helmet_Sample/Helmet_Sample_item.xob"
+   WornModel "{2486133257F3E4F3}Assets/Characters/Headgear/Helmet_Sample/Helmet_Sample.xob"
+   ItemModel "{233CB9BFBCDD11A7}Assets/Characters/Headgear/Helmet_Sample/Helmet_Sample_item.xob"
    PhysicsOnWearEnabled 1
    AnimateCollidersOnWear 1
    SoundInt 120

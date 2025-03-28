@@ -7,7 +7,7 @@ MatPBRCamo {
   TilingV 1.2
  }
  CamoCRMMap "{129D4B971C7F37A3}Assets/Weapons/Magazines/AK74_Modded/Data/Magazine_30rnd_AK74_camo_MASK.edds"
- CammNormalOpacity 0
+ CamoNormalOpacity 0
  CamoRoughnessOpacity 0
  CamoMetalnessOpacity 0
 }

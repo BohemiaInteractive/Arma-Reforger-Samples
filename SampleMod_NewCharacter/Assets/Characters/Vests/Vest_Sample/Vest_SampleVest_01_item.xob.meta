@@ -17,6 +17,7 @@ MetaFileClass {
      LayerPreset "ItemFireView"
      SurfaceProperties {
       "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+      "{1ED0756213BE41E4}Common/Materials/Game/PersonalProtection/soft_aramid_6.5mm.gamemat"
      }
      Mass 0
      Margin 0
@@ -40,6 +41,8 @@ MetaFileClass {
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{5DEA80D04E8F3048}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
+  }
+  FBXResourceClass PS5 : PC {
   }
  }
 }

@@ -148,8 +148,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
     }
    }
    EmissiveSurfaceSlots {
-    EmissiveLightSurfaceSlot Light_Indicator_FL {
+    SCR_EmissiveLightSurfaceSlot Light_Indicator_FL {
      Prefab "{13E0B66886AC6B12}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Indicator_FL.et"
+     RegisterDamage 1
      LightType 256
      LightSide 0
      ConfigurationsOverride {
@@ -160,8 +161,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Indicator_FR {
+    SCR_EmissiveLightSurfaceSlot Light_Indicator_FR {
      Prefab "{078927CA39484E20}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Indicator_FR.et"
+     RegisterDamage 1
      LightType 256
      LightSide 1
      ConfigurationsOverride {
@@ -172,8 +174,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Indicator_RL {
+    SCR_EmissiveLightSurfaceSlot Light_Indicator_RL {
      Prefab "{B6C0398C8880CB6A}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Indicator_RL.et"
+     RegisterDamage 1
      LightType 256
      LightSide 0
      ConfigurationsOverride {
@@ -184,8 +187,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Indicator_RR {
+    SCR_EmissiveLightSurfaceSlot Light_Indicator_RR {
      Prefab "{CBD8D574ED13F7F3}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Indicator_RR.et"
+     RegisterDamage 1
      LightType 256
      LightSide 1
      ConfigurationsOverride {
@@ -196,8 +200,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Rear_L {
+    SCR_EmissiveLightSurfaceSlot Light_Rear_L {
      Prefab "{229635A57E001307}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Rear_L.et"
+     RegisterDamage 1
      LightType 18
      EmissiveOnMultiplier 528
      ConfigurationsOverride {
@@ -208,8 +213,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Rear_R {
+    SCR_EmissiveLightSurfaceSlot Light_Rear_R {
      Prefab "{B478C75F6EAC941C}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Rear_R.et"
+     RegisterDamage 1
      LightType 18
      EmissiveOnMultiplier 150
      ConfigurationsOverride {
@@ -220,8 +226,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_LB_L {
+    SCR_EmissiveLightSurfaceSlot Light_LB_L {
      Prefab "{CF764F4E22C22849}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_LB_L.et"
+     RegisterDamage 1
      LightType 10
      EmissiveOnMultiplier 160
      ConfigurationsOverride {
@@ -231,23 +238,27 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_LB_R {
+    SCR_EmissiveLightSurfaceSlot Light_LB_R {
      Prefab "{B26EA3B6475114D0}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_LB_R.et"
+     RegisterDamage 1
      LightType 10
      EmissiveOnMultiplier 60
     }
-    EmissiveLightSurfaceSlot Light_HB_L {
+    SCR_EmissiveLightSurfaceSlot Light_HB_L {
      Prefab "{17552F050DA57FCC}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_HB_L.et"
+     RegisterDamage 1
      LightType 512
      EmissiveOnMultiplier 120
     }
-    EmissiveLightSurfaceSlot Light_HB_R {
+    SCR_EmissiveLightSurfaceSlot Light_HB_R {
      Prefab "{6A4DC3FD68364355}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_HB_R.et"
+     RegisterDamage 1
      LightType 512
      EmissiveOnMultiplier 120
     }
-    EmissiveLightSurfaceSlot Light_Front_L {
+    SCR_EmissiveLightSurfaceSlot Light_Front_L {
      Prefab "{8B1810F65BC38CED}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Front_L.et"
+     RegisterDamage 1
      LightType 514
      ConfigurationsOverride {
       SurfaceLightConfigItem "{5554C5B3E26B950E}" {
@@ -261,8 +272,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Front_R {
+    SCR_EmissiveLightSurfaceSlot Light_Front_R {
      Prefab "{F600FC0E3E50B074}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Front_R.et"
+     RegisterDamage 1
      LightType 514
      ConfigurationsOverride {
       SurfaceLightConfigItem "{5554C5B3DC952FF0}" {
@@ -276,8 +288,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Brake_L {
+    SCR_EmissiveLightSurfaceSlot Light_Brake_L {
      Prefab "{9109C128D1E88D57}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Brake_L.et"
+     RegisterDamage 1
      LightType 64
      ConfigurationsOverride {
       SurfaceLightConfigItem "{5556A06A100CE914}" {
@@ -287,8 +300,9 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Brake_R {
+    SCR_EmissiveLightSurfaceSlot Light_Brake_R {
      Prefab "{EC112DD0B47BB1CE}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Brake_R.et"
+     RegisterDamage 1
      LightType 64
      ConfigurationsOverride {
       SurfaceLightConfigItem "{5556A06A234B0E08}" {
@@ -298,17 +312,51 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       }
      }
     }
-    EmissiveLightSurfaceSlot Light_Reverse_L {
+    SCR_EmissiveLightSurfaceSlot Light_Reverse_L {
      Prefab "{AD046636C3FB83A9}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Reverse_L.et"
+     RegisterDamage 1
      LightType 32
     }
-    EmissiveLightSurfaceSlot Light_Reverse_R {
+    SCR_EmissiveLightSurfaceSlot Light_Reverse_R {
      Prefab "{D01C8ACEA668BF30}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Reverse_R.et"
+     RegisterDamage 1
      LightType 32
     }
-    EmissiveLightSurfaceSlot Light_Interior {
+    SCR_EmissiveLightSurfaceSlot Light_Interior {
      Prefab "{340822BCFB845F16}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Interior.et"
+     RegisterDamage 1
      LightType 128
+    }
+    SCR_EmissiveLightSurfaceSlot Dashboard_Daylights {
+     Prefab "{761E361EDA6AD707}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Dashboard_Daylights.et"
+     RegisterDamage 1
+     LightType 522
+    }
+    SCR_EmissiveLightSurfaceSlot Dashboard_Indicator_L {
+     Prefab "{ABBCEC3B0F9F9EAC}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Dashboard_Indicator_L.et"
+     RegisterDamage 1
+     LightType 256
+     LightSide 0
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{5556685D780DC0EE}" {
+       ForLightType 256
+       EmissiveMultiplier 3
+       EmissiveColorTint 1 0.248 0.027 1
+      }
+     }
+    }
+    SCR_EmissiveLightSurfaceSlot Dashboard_Indicator_R {
+     Prefab "{D6A400C36A0CA235}Prefabs/Vehicles/Wheeled/SampleCar_01/Lights/SampleCar_01_ES_Dashboard_Indicator_R.et"
+     RegisterDamage 1
+     LightType 256
+     LightSide 1
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{5556685CD6A993A9}" {
+       ForLightType 256
+       EmissiveMultiplier 3
+       EmissiveColorTint 1 0.248 0.027 1
+      }
+     }
     }
    }
    LightAction {
@@ -803,26 +851,6 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
       "UCX_FG_Battery"
      }
     }
-    SCR_LightHitZone Light_FL : "{46CC93C7A608C426}Prefabs/Vehicles/Core/Configs/HitZones/Light_NoDst.conf" {
-     ColliderNames {
-      "UCX_FG_Light_FL"
-     }
-    }
-    SCR_LightHitZone Light_FR : "{46CC93C7A608C426}Prefabs/Vehicles/Core/Configs/HitZones/Light_NoDst.conf" {
-     ColliderNames {
-      "UCX_FG_Light_FR"
-     }
-    }
-    SCR_LightHitZone Light_RL : "{46CC93C7A608C426}Prefabs/Vehicles/Core/Configs/HitZones/Light_NoDst.conf" {
-     ColliderNames {
-      "UCX_FG_Light_RL"
-     }
-    }
-    SCR_LightHitZone Light_RR : "{46CC93C7A608C426}Prefabs/Vehicles/Core/Configs/HitZones/Light_NoDst.conf" {
-     ColliderNames {
-      "UCX_FG_Light_RR"
-     }
-    }
    }
    m_fVehicleDestroyDamage 6364.39
   }
@@ -1269,8 +1297,23 @@ Vehicle : "{1F9BB80C3EC3C891}Prefabs/Vehicles/Core/Wheeled_Car_Base.et" {
      Height 0
      Omnidirectional 0
     }
+    UserActionContext "{624A8AD479D185A2}" {
+     UIInfo SCR_ActionContextUIInfo "{624A8AD41153E501}" {
+     }
+     ContextName "handbrake"
+     Position PointInfo "{624A8AD4600D4A31}" {
+      PivotID "v_handbrake"
+      Offset 0 0.0671 0.0991
+     }
+     Radius 0.15
+    }
    }
    additionalActions {
+    SCR_PushVehicleAction "{60DA85DB5FFC6E4F}" {
+     ParentContextList {
+      "hood_repair" "trunk"
+     }
+    }
     SCR_EngineAction "{555676DDCF450808}" {
      ParentContextList {
       "starter_switch"

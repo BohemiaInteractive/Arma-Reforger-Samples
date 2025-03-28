@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Emissive 0.028 0.07 0.191 1
+ EmissiveLV 2.231
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ SpecularMul 0.79
+ RoughnessScale 1.904
+ MetalnessScale 2.469
+ AOScale 0.59
+ BCRMap "{DEA4E85D17C558C1}Assets/Vehicles/Wheeled/SampleCar_01/Lights/data/SampleCar_01_DashboardLights_BCR.edds"
+}

@@ -15,34 +15,11 @@ MetaFileClass {
     }
    }
    GeometryParams {
-    GeometryParam UTM_Armor1 {
+    GeometryParam UTM_Armor {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Armor2 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Armor3 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Armor4 {
-     LayerPreset "FireGeo"
-     SurfaceProperties {
-      "{D9DF1E4F8B642820}Common/Materials/Game/PersonalProtection/plate_SampleVest_01.gamemat"
+      "{1ED0756213BE41E4}Common/Materials/Game/PersonalProtection/soft_aramid_6.5mm.gamemat"
      }
      Mass 0
      Margin 0

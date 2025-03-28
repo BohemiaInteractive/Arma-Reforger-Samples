@@ -311,19 +311,19 @@ AnimSrcGraphFile {
       AnimSrcNodeQueueItem "{5196ADA7F769B195}" {
        Child "FireAnim"
        StartExpr "Firing && HasVariableChanged(Firing) && !Empty"
-       EnqueueMethod Enqueue
+       InterruptOthers 1
       }
       AnimSrcNodeQueueItem "{5196D6D78E2DA956}" {
        Child "FireEmptyAnim"
        StartExpr "Firing && HasVariableChanged(Firing) && Empty"
-       EnqueueMethod Enqueue
+       InterruptOthers 1
       }
       AnimSrcNodeQueueItem "{5518A9E9CAF869F8}" {
        Child "ModeIK 2"
        StartExpr "HasVariableChanged(State)"
        BlendInTime 0
        BlendOutTime 0
-       EnqueueMethod Ignore
+       InterruptOthers 1
       }
       AnimSrcNodeQueueItem "{55B0D52E4D675724}" {
        Child "BoltClosed"
