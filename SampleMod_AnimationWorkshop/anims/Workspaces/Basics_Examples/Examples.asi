@@ -1,0 +1,64 @@
+AnimSetInstanceSource "{64CE7D8C0D207068}" {
+ Template "{EE162A3216C2482A}Examples.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Idle.Erc.Idle01" {
+   Resource "{57580A077694023B}anims/anm/player/locomotion/rifles/IdleTurns/p_rfl_erc_idle_low_breath.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Erc.Idle02" {
+   Resource "{C53617E95EBBE164}anims/anm/player/locomotion/rifles/IdleTurns/IdleVar/p_rfl_erc_idle_low_var01.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Erc.Idle03" {
+   Resource "{5BEF542125DA6A37}anims/anm/player/locomotion/rifles/IdleTurns/IdleVar/p_rfl_erc_idle_low_var05.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.ErcAdj.Idle01" {
+   Resource "{D4FD2666FBABAE93}anims/anm/player/locomotion/rifles/IdleTurns/p_rfl_adj_idle_adj_breath.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion.Erc.RunF" {
+   Resource "{5F9A2DA745128B26}anims/anm/player/locomotion/rifles/p_rfl_erc_runF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion Cro.Run.F" {
+   Resource "{B99CB88C61650192}anims/anm/player/locomotion/rifles/p_rfl_cro_runF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion Erc.Run.F" {
+   Resource "{5F9A2DA745128B26}anims/anm/player/locomotion/rifles/p_rfl_erc_runF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion.Cro.RunF" {
+   Resource "{B99CB88C61650192}anims/anm/player/locomotion/rifles/p_rfl_cro_runF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion Cro.Walk.F" {
+   Resource "{6739480049910D18}anims/anm/player/locomotion/rifles/p_rfl_cro_walkF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion.Cro.WalkF" {
+   Resource "{6739480049910D18}anims/anm/player/locomotion/rifles/p_rfl_cro_walkF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion.Erc.WalkF" {
+   Resource "{4DFBD09CD51066DD}anims/anm/player/locomotion/rifles/p_rfl_erc_walkF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Locomotion Erc.Walk.F" {
+   Resource "{4DFBD09CD51066DD}anims/anm/player/locomotion/rifles/p_rfl_erc_walkF_low.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Erc.BreathADD" {
+   Resource "{E943DE6DD7518FE4}anims/anm/player/layered/breath/p_rfl_breathing_erc_low.anm"
+  }
+  AnimSetInstanceSource_Line "Gesture.Default.Gesture01" {
+   Resource "{29003AEF491015D0}anims/anm/player/actions/gestures/p_erc_gest_salute_FB.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Cro.Idle01" {
+   Resource "{7027968C4414A0F7}anims/anm/player/locomotion/rifles/IdleTurns/p_rfl_cro_idle_low_breath_ADD.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Cro.Idle02" {
+   Resource "{7027968C4414A0F7}anims/anm/player/locomotion/rifles/IdleTurns/p_rfl_cro_idle_low_breath_ADD.anm"
+  }
+  AnimSetInstanceSource_Line "Idle.Cro.Idle03" {
+   Resource "{7027968C4414A0F7}anims/anm/player/locomotion/rifles/IdleTurns/p_rfl_cro_idle_low_breath_ADD.anm"
+  }
+  AnimSetInstanceSource_Line "Transition.Erc.GoCro" {
+   Resource "{684DE33CE022257A}anims/anm/player/locomotion/rifles/transitions/p_rfl_erc_trans_cro_low.anm"
+  }
+  AnimSetInstanceSource_Line "Transition.Cro.GoErc" {
+   Resource "{2F861302B345A3BC}anims/anm/player/locomotion/rifles/transitions/p_rfl_cro_trans_erc_low.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{64CE7D8E0CE10424}" {
+ }
+}

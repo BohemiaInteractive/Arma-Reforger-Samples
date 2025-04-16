@@ -1,0 +1,69 @@
+AnimSetTemplateSource {
+ Groups {
+  AnimSetTemplateSource_AnimationGroup "{64CED7F1BFE17159}" {
+   Name "Gesture"
+   Animations {
+    "Gesture01"
+   }
+   Columns {
+    "Default"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{64CE7D838BC7D8DD}" {
+   Name "Idle"
+   Animations {
+    "BreathADD"
+    "Idle01"
+    "Idle02"
+    "Idle03"
+   }
+   Columns {
+    "Cro"
+    "Erc"
+    "ErcAdj"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{64CE7D9B6295D21B}" {
+   Name "Locomotion"
+   Animations {
+    "RunF"
+    "WalkF"
+   }
+   Columns {
+    "Cro"
+    "Erc"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{64CE7D9B6295D275}" {
+   Name "Locomotion Cro"
+   Animations {
+    "F"
+   }
+   Columns {
+    "Run"
+    "Walk"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{64CE7D9B6295D243}" {
+   Name "Locomotion Erc"
+   Animations {
+    "F"
+   }
+   Columns {
+    "Run"
+    "Walk"
+   }
+  }
+  AnimSetTemplateSource_AnimationGroup "{64CEB9D2A9B61462}" {
+   Name "Transition"
+   Animations {
+    "GoCro"
+    "GoErc"
+   }
+   Columns {
+    "Cro"
+    "Erc"
+   }
+  }
+ }
+}

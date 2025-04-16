@@ -1,0 +1,192 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 81
+ $node "w_mag_release" {
+  $keys t q s {
+   $frame 0 1 {
+    #t 0 0.0167464 0.0483412
+   }
+   $frame 2 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 3 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 4 {
+   }
+   $frame 5 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 6 {
+   }
+   $frame 7 {
+    #t 0 0.0167463 0.0483413
+   }
+   $frame 8 {
+    #t 0 0.0167464 0.0483411
+   }
+   $frame 9 10 {
+    #t 0 0.0167466 0.0483412
+   }
+   $frame 11 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 12 {
+   }
+   $frame 13 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 14 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 15 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 16 {
+   }
+   $frame 17 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 18 20 {
+   }
+   $frame 21 {
+    #t 0 0.0167463 0.0483413
+   }
+   $frame 22 23 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 24 27 {
+   }
+   $frame 28 30 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 31 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 32 37 {
+   }
+   $frame 38 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 39 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 40 41 {
+   }
+   $frame 42 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 43 {
+    #t 0 0.0167462 0.0483412
+    #q -0.13409927 0.02676718 -0.01581377 0.9904803
+   }
+   $frame 44 {
+    #t 0 0.0167463 0.0483412
+    #q -0.22411723 0.03281662 -0.01553605 0.9738856
+   }
+   $frame 45 {
+    #t 0 0.0167462 0.0483413
+    #q -0.31005242 0.02870843 -0.01056976 0.9502272
+   }
+   $frame 46 {
+    #q -0.36629376 0.01833949 -0.00552921 0.93030226
+   }
+   $frame 47 {
+    #t 0 0.0167463 0.0483412
+    #q -0.36915272 0.00691431 -0.00206085 0.92934078
+   }
+   $frame 48 {
+    #q -0.29271433 0 0 0.9562
+   }
+   $frame 49 {
+    #t 0 0.0167464 0.0483413
+   }
+   $frame 50 {
+   }
+   $frame 51 {
+    #t 0 0.0167463 0.0483413
+   }
+   $frame 52 53 {
+    #t 0 0.0167465 0.0483413
+   }
+   $frame 54 {
+    #t -0.0000001 0.0167464 0.0483413
+   }
+   $frame 55 {
+   }
+   $frame 56 {
+    #t -0.0000001 0.0167463 0.0483413
+   }
+   $frame 57 {
+    #t -0.0000001 0.0167465 0.0483412
+   }
+   $frame 58 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 59 {
+    #t -0.0000001 0.0167465 0.0483413
+   }
+   $frame 60 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 61 63 {
+   }
+   $frame 64 {
+    #t 0 0.0167465 0.0483411
+   }
+   $frame 65 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 66 72 {
+   }
+   $frame 73 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 74 {
+   }
+   $frame 75 76 {
+    #t 0 0.0167463 0.0483412
+   }
+   $frame 77 {
+    #t 0 0.0167465 0.0483412
+   }
+   $frame 78 81 {
+   }
+  }
+ }
+ $events {
+  #event 29 "Weapon_SpawnMagazine" "AnimSrcEventGeneric \"{64D50818623F4D11}\" {
+ Name \"Weapon_SpawnMagazine\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 42 "Weapon_MagRelease" "AnimSrcEventGeneric \"{64D50818623F4D7C}\" {
+ Name \"Weapon_MagRelease\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 43 "Weapon_DetachMagazine_2" "AnimSrcEventGeneric \"{64D50818623F4D68}\" {
+ Name \"Weapon_DetachMagazine_2\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 65 "Weapon_AttachMagazine" "AnimSrcEventGeneric \"{64D50818623F4D99}\" {
+ Name \"Weapon_AttachMagazine\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+ $custProps {
+  #custProp "profile" "722_Weapon_MagRelease"
+  #custProp "sourceFile" "M:\A4Sources\Animations\ARMA_Reforger\Player\weapons\AK-74\p_AK74_reload06.fbx"
+ }
+}

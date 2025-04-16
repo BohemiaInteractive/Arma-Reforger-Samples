@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{F8762E0BEA91BB5E}TacticoolReload_Finished/anm/p_rfl_ak74_erc_insert_mag_tacticool.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "M:\A4Sources\Animations\ARMA_Reforger\Player\weapons\AK-74\p_AK74_reload06.fbx"
+   SourceProfile "252_UpperbodyADD_ArmsABS"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

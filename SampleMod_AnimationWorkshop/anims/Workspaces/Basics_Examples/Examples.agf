@@ -1,0 +1,858 @@
+AnimSrcGraphFile {
+ Sheets {
+  AnimSrcGraphSheet Master {
+   Nodes {
+    AnimSrcNodeSource AnimSrc {
+     EditorPos -48.4 -32.3
+     NodeGroup "Sources"
+     Source "Locomotion Erc.Run.F"
+    }
+    AnimSrcNodePose AnimPose {
+     EditorPos -45.4 -32.3
+     NodeGroup "Sources"
+     Source "Locomotion.Erc.RunF"
+     Time "0.5"
+    }
+    AnimSrcNodeSource BreathAddBlendAnim {
+     EditorPos -34 -32.2
+     NodeGroup "Blends"
+     Source "Idle.Erc.BreathADD"
+     Looptype Loop
+    }
+    AnimSrcNodePose IdlePoseBlendPose {
+     EditorPos -37 -32.2
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle01"
+    }
+    AnimSrcNodeBlend BlendExample {
+     EditorPos -35.5 -33.5
+     NodeGroup "Blends"
+     BlendWeight "Float01"
+     Child0 "IdlePoseBlendPose"
+     Child1 "BreathAddBlendAnim"
+     Optimization "Always eval left"
+    }
+    AnimSrcNodeSource Idle01BlendTAnim01 {
+     EditorPos -28.6 -32.2
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Idle02BlendTAnim01 {
+     EditorPos -25.6 -32.2
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle03"
+     Looptype Loop
+    }
+    AnimSrcNodeBlendT "Blend T 25251" {
+     EditorPos -27.1 -33.5
+     NodeGroup "Blends"
+     BlendTime "0.0"
+     Condition "Int01 == 1"
+     Child0 "Idle01BlendTAnim01"
+     Child1 "Idle02BlendTAnim01"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeBlendT "Blend T 39323" {
+     EditorPos -27.2 -28.9
+     NodeGroup "Blends"
+     BlendTime "0.0"
+     TriggerOn "HasVariableChangedTo(Int01, 1)"
+     TriggerOff "RemainingTimeLess(0.1)"
+     Child0 "Idle01BlendTAnim03"
+     Child1 "TimeStorageTS"
+     Optimization "Skip blended out"
+     PostEval 1
+    }
+    AnimSrcNodeSource Idle02BlendTAnim03 {
+     EditorPos -25.6 -26.7
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle03"
+    }
+    AnimSrcNodeSource Idle01BlendTAnim03 {
+     EditorPos -28.7 -27.6
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeTimeScale TimeStorageTS {
+     EditorPos -25.6 -27.6
+     NodeGroup "Blends"
+     Child "Idle02BlendTAnim03"
+     TimeExpr "1"
+     TimeStorage "Real Time"
+    }
+    AnimSrcNodeBlendT "Blend T 29314" {
+     EditorPos -35.5 -28.9
+     NodeGroup "Blends"
+     BlendTime "0.0"
+     TriggerOn "Int01 == 1"
+     TriggerOff "Int01 == 0"
+     Child0 "Idle01BlendTAnim02"
+     Child1 "Idle02BlendTAnim02"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeSource Idle02BlendTAnim02 {
+     EditorPos -34 -27.6
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle03"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Idle01BlendTAnim02 {
+     EditorPos -37 -27.6
+     NodeGroup "Blends"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeBlendT BlendTGroupSelectB {
+     EditorPos 13.4 -33.4
+     NodeGroup "Group Select"
+     Condition "Int01 == 1"
+     Child0 "IdleErcGroupSelectG01"
+     Child1 "IdleErcAdjGroupSelectG01"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeBlend BlendGroupSelectB {
+     EditorPos 20.1 -33.3
+     NodeGroup "Group Select"
+     BlendWeight "Float01"
+     Child0 "IdleErcGroupSelectG02"
+     Child1 "IdleErcAdjGroupSelectG02"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodePose IdleGroupSelectPose02 {
+     EditorPos 20.1 -30.3
+     NodeGroup "Group Select"
+     Source "Idle.Idle01"
+    }
+    AnimSrcNodeGroupSelect IdleErcGroupSelectG02 {
+     EditorPos 18.9 -32
+     NodeGroup "Group Select"
+     Child "IdleGroupSelectPose02"
+     Group "Idle"
+     Column "Erc"
+    }
+    AnimSrcNodeGroupSelect IdleErcAdjGroupSelectG02 {
+     EditorPos 21.4 -32
+     NodeGroup "Group Select"
+     Child "IdleGroupSelectPose02"
+     Group "Idle"
+     Column "ErcAdj"
+    }
+    AnimSrcNodePose IdleGroupSelectPose01 {
+     EditorPos 13.4 -30.3
+     NodeGroup "Group Select"
+     Source "Idle.Idle01"
+    }
+    AnimSrcNodeGroupSelect IdleErcAdjGroupSelectG01 {
+     EditorPos 14.7 -32
+     NodeGroup "Group Select"
+     Child "IdleGroupSelectPose01"
+     Group "Idle"
+     Column "ErcAdj"
+    }
+    AnimSrcNodeGroupSelect IdleErcGroupSelectG01 {
+     EditorPos 12.2 -32
+     NodeGroup "Group Select"
+     Child "IdleGroupSelectPose01"
+     Group "Idle"
+     Column "Erc"
+    }
+    AnimSrcNodeQueue QueueQ01 {
+     EditorPos -18.3 -33.5
+     NodeGroup "Queue"
+     Child "Idle01QueueAnim01"
+     QueueItems {
+      AnimSrcNodeQueueItem "{64CEBD556059C46C}" {
+       Child "Idle02QueueAnim01"
+       StartExpr "Bool01 == true"
+       EnqueueMethod Ignore
+      }
+     }
+    }
+    AnimSrcNodeSource Idle01QueueAnim01 {
+     EditorPos -18.4 -29.8
+     NodeGroup "Queue"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Idle02QueueAnim01 {
+     EditorPos -17 -31.8
+     NodeGroup "Queue"
+     Source "Idle.Erc.Idle03"
+    }
+    AnimSrcNodeSource Idle01QueueAnim02 {
+     EditorPos -12.3 -29.7
+     NodeGroup "Queue"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeQueue "Queue 27632" {
+     EditorPos -12.3 -33.5
+     NodeGroup "Queue"
+     Child "Idle01QueueAnim02"
+     QueueItems {
+      AnimSrcNodeQueueItem "{64CEBD556059C46C}" {
+       Child "Idle02QueueAnim02"
+       StartExpr "HasVariableChangedTo(Bool01, true)"
+       EnqueueMethod Ignore
+      }
+      AnimSrcNodeQueueItem "{64CEBD57904A34D2}" {
+       Child "Idle03QueueAnim01"
+       StartExpr "HasVariableChangedTo(Bool02, true)"
+       EnqueueMethod Enqueue
+      }
+     }
+    }
+    AnimSrcNodeSource Idle02QueueAnim02 {
+     EditorPos -11 -31.7
+     NodeGroup "Queue"
+     Source "Idle.Erc.Idle03"
+    }
+    AnimSrcNodeSource Idle03QueueAnim01 {
+     EditorPos -8.2 -31.7
+     NodeGroup "Queue"
+     Source "Idle.Erc.Idle02"
+    }
+    AnimSrcNodeStateMachine StatemachineSTM01 {
+     EditorPos 31.8 -33.5
+     NodeGroup "State Machine"
+     states {
+      AnimSrcNodeState Idle {
+       EditorPos 29.9 -32.4
+       NodeGroup "State Machine"
+       Child "Idle01STateMachineAnim01"
+       StartCondition "true"
+      }
+      AnimSrcNodeState Walk {
+       EditorPos 33.9 -32.4
+       NodeGroup "State Machine"
+       Child "Run01StateMachineAnim01"
+       StartCondition "false"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CEBD5EF49DCC80}" {
+       FromState "Idle"
+       ToState "Walk"
+       Duration "0.3"
+       Condition "Int01 > 0"
+      }
+      AnimSrcNodeTransition "{64CEBD5EE35D1A63}" {
+       FromState "Walk"
+       ToState "Idle"
+       Duration "0.3"
+       Condition "Int01 == 0"
+      }
+     }
+    }
+    AnimSrcNodeSource Run01StateMachineAnim01 {
+     EditorPos 33.9 -30.4
+     NodeGroup "State Machine"
+     Source "Locomotion Erc.Run.F"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Idle01STateMachineAnim01 {
+     EditorPos 29.9 -30.4
+     NodeGroup "State Machine"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Idle01STateMachineAnim02 {
+     EditorPos 39 -30.4
+     NodeGroup "State Machine"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeSource Gesture01StateMachineAnim01 {
+     EditorPos 43 -30.4
+     NodeGroup "State Machine"
+     Source "Gesture.Default.Gesture01"
+    }
+    AnimSrcNodeStateMachine StatemachineSTM02 {
+     EditorPos 40.9 -33.5
+     NodeGroup "State Machine"
+     states {
+      AnimSrcNodeState Idle {
+       EditorPos 39 -32.4
+       NodeGroup "State Machine"
+       Child "Idle01STateMachineAnim02"
+       StartCondition "true"
+      }
+      AnimSrcNodeState Gesture {
+       EditorPos 43 -32.4
+       NodeGroup "State Machine"
+       Child "Gesture01StateMachineAnim01"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CEBD5EF49DCC80}" {
+       FromState "Idle"
+       ToState "Gesture"
+       Duration "0.2"
+       Condition "HasVariableChangedTo(Bool01, true)"
+      }
+      AnimSrcNodeTransition "{64CEBD5EE35D1A63}" {
+       FromState "Gesture"
+       ToState "Idle"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.2)"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeStateMachine StatemachineSTM03 {
+     EditorPos 49.7 -33.5
+     NodeGroup "State Machine"
+     states {
+      AnimSrcNodeState Idle {
+       EditorPos 47.8 -32.4
+       NodeGroup "State Machine"
+       Child "Idle01STateMachineAnim03"
+       StartCondition "true"
+      }
+      AnimSrcNodeState Gesture {
+       EditorPos 51.8 -32.4
+       NodeGroup "State Machine"
+       Child "Gesture01StateMachineAnim02"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CEBD5EE35D1A63}" {
+       FromState "Gesture"
+       ToState "Idle"
+       Duration "0.2"
+       Condition "RemainingTimeLess(0.2)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{64CED7F1839200BA}" {
+       FromState ""
+       ToState "Gesture"
+       Duration "0.2"
+       Condition "HasVariableChangedTo(Bool01, true)"
+      }
+     }
+    }
+    AnimSrcNodeSource Gesture01StateMachineAnim02 {
+     EditorPos 51.8 -30.4
+     NodeGroup "State Machine"
+     Source "Gesture.Default.Gesture01"
+    }
+    AnimSrcNodeSource Idle01STateMachineAnim03 {
+     EditorPos 47.8 -30.4
+     NodeGroup "State Machine"
+     Source "Idle.Erc.Idle01"
+     Looptype Loop
+    }
+    AnimSrcNodeSwitch Switch {
+     EditorPos 1.9 -33.4
+     NodeGroup "Switch"
+     BlendTime 0.2
+     FirstProbabilities "100"
+     SwitchItems {
+      AnimSrcNodeSwitchItem "{64CED7F24E1B5C76}" {
+       Child "Idle01SwitchAnim01"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EB68ADA}" {
+       Child "Idle02SwitchAnim01"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EEC522F}" {
+       Child "Idle03SwitchAnim01"
+      }
+     }
+    }
+    AnimSrcNodeSource Idle01SwitchAnim01 {
+     EditorPos -1.1 -31.4
+     NodeGroup "Switch"
+     Source "Idle.Erc.Idle01"
+    }
+    AnimSrcNodeSource Idle03SwitchAnim01 {
+     EditorPos 4.7 -31.4
+     NodeGroup "Switch"
+     Source "Idle.Erc.Idle02"
+    }
+    AnimSrcNodeSource Idle02SwitchAnim01 {
+     EditorPos 1.9 -31.4
+     NodeGroup "Switch"
+     Source "Idle.Erc.Idle03"
+    }
+    AnimSrcNodeSource "Idle03SwitchAnim 14142" {
+     EditorPos 101.8 -14.7
+     NodeGroup ""
+     Source "Idle.Idle03"
+    }
+    AnimSrcNodeSource "Idle01SwitchAnim 16581" {
+     EditorPos 98 -14.7
+     NodeGroup ""
+     Source "Idle.Idle01"
+    }
+    AnimSrcNodeSource "Idle02SwitchAnim 28617" {
+     EditorPos 99.9 -13.9
+     NodeGroup ""
+     Source "Idle.Idle02"
+    }
+    AnimSrcNodeSwitch "Switch 37928" {
+     EditorPos 99.9 -15.8
+     NodeGroup ""
+     BlendTime 0.2
+     FirstProbabilities "100"
+     SwitchItems {
+      AnimSrcNodeSwitchItem "{64CED7F24E1B5C76}" {
+       Child "Idle01SwitchAnim 16581"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EB68ADA}" {
+       Child "Idle02SwitchAnim 28617"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EEC522F}" {
+       Child "Idle03SwitchAnim 14142"
+      }
+     }
+    }
+    AnimSrcNodeStateMachine MainSTM {
+     EditorPos 101.2 -32.1
+     states {
+      AnimSrcNodeState Idle {
+       EditorPos 100 -31.1
+       Child "IdleStanceSTM"
+       StartCondition "true"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState StanceTransition {
+       EditorPos 111.6 -31.1
+       Child "StanceTransitionsSTM"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState Locomotion {
+       EditorPos 105.5 -28.9
+       Child "LocomotionStanceSTM"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CED7E9F27BCFD7}" {
+       FromState "Idle"
+       ToState "StanceTransition"
+       Duration "0.2"
+       Condition "HasVariableChanged(Stance)"
+      }
+      AnimSrcNodeTransition "{64CED7E9F58C72E3}" {
+       FromState "StanceTransition"
+       ToState "Idle"
+       Duration "0.1"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{64CED7E95BA97F07}" {
+       FromState "Idle"
+       ToState "Locomotion"
+       Duration "0.2"
+       Condition "MovementSpeed > 0"
+      }
+      AnimSrcNodeTransition "{64CED7E951F0D257}" {
+       FromState "Locomotion"
+       ToState "Idle"
+       Duration "0.3"
+       Condition "MovementSpeed == 0"
+      }
+      AnimSrcNodeTransition "{64CED7E956E062EF}" {
+       FromState "StanceTransition"
+       ToState "Locomotion"
+       Duration "0.2"
+       Condition "MovementSpeed > 0"
+      }
+     }
+    }
+    AnimSrcNodeStateMachine IdleStanceSTM {
+     EditorPos 100.1 -20.4
+     states {
+      AnimSrcNodeState Erc {
+       EditorPos 98.4 -19.6
+       Child "IdleErcG"
+       StartCondition "Stance == 0"
+      }
+      AnimSrcNodeState Cro {
+       EditorPos 101.3 -19.6
+       Child "IdleCroG 34787"
+       StartCondition "Stance == 1"
+      }
+     }
+    }
+    AnimSrcNodeGroupSelect IdleErcG {
+     EditorPos 98.4 -18.1
+     Child "Switch 37928"
+     Group "Idle"
+     Column "Erc"
+    }
+    AnimSrcNodeGroupSelect "IdleCroG 34787" {
+     EditorPos 101.3 -18.1
+     Child "Switch 37928"
+     Group "Idle"
+     Column "Cro"
+    }
+    AnimSrcNodeStateMachine StanceTransitionsSTM {
+     EditorPos 111.6 -20.2
+     states {
+      AnimSrcNodeState CroToErc {
+       EditorPos 110 -19.2
+       Child "CroToErcAnim"
+       StartCondition "Stance == 0"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState ErcToCro {
+       EditorPos 112.8 -19.2
+       Child "ErcToCroAnim"
+       StartCondition "Stance == 1"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+     }
+    }
+    AnimSrcNodeSource CroToErcAnim {
+     EditorPos 110 -17.4
+     Source "Transition.Cro.GoErc"
+    }
+    AnimSrcNodeSource ErcToCroAnim {
+     EditorPos 113 -17.4
+     Source "Transition.Erc.GoCro"
+    }
+    AnimSrcNodeStateMachine LocomotionStanceSTM {
+     EditorPos 105.4 -27.4
+     states {
+      AnimSrcNodeState Erc {
+       EditorPos 104.1 -26.5
+       Child "LocomotionErcSpeedB"
+       TimeStorage "Normalized Time"
+      }
+      AnimSrcNodeState Cro {
+       EditorPos 108.8 -26.5
+       Child "LocomotionCroSpeedB"
+       TimeStorage "Normalized Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CED7E840D4D2F8}" {
+       FromState "Erc"
+       ToState "Cro"
+       Duration "0.25"
+       StartTime "GetLowerTime()"
+       Condition "Stance == 1"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{64CED7EBB29EEA66}" {
+       FromState "Cro"
+       ToState "Erc"
+       Duration "0.25"
+       StartTime "GetLowerTime()"
+       Condition "Stance == 0"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeBlendT LocomotionErcSpeedB {
+     EditorPos 104 -25
+     BlendTime "0.25"
+     Condition "MovementSpeed == 2"
+     Child0 "WalkErcG"
+     Child1 "RunErcG"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeGroupSelect WalkErcG {
+     EditorPos 102.6 -23.5
+     Child "LocomotionErcAnim"
+     Group "Locomotion Erc"
+     Column "Walk"
+    }
+    AnimSrcNodeGroupSelect RunErcG {
+     EditorPos 105.2 -23.5
+     Child "LocomotionErcAnim"
+     Group "Locomotion Erc"
+     Column "Run"
+    }
+    AnimSrcNodeSource LocomotionErcAnim {
+     EditorPos 104 -21.5
+     Source "Locomotion Erc.F"
+     Looptype Loop
+    }
+    AnimSrcNodeGroupSelect RunCroG {
+     EditorPos 110.1 -23.5
+     Child "LocomotionCroAnim"
+     Group "Locomotion Cro"
+     Column "Run"
+    }
+    AnimSrcNodeGroupSelect WalkCroG {
+     EditorPos 107.5 -23.5
+     Child "LocomotionCroAnim"
+     Group "Locomotion Cro"
+     Column "Walk"
+    }
+    AnimSrcNodeSource LocomotionCroAnim {
+     EditorPos 108.9 -21.5
+     Source "Locomotion Cro.F"
+     Looptype Loop
+    }
+    AnimSrcNodeBlendT LocomotionCroSpeedB {
+     EditorPos 108.9 -25
+     BlendTime "0.25"
+     Condition "MovementSpeed == 2"
+     Child0 "WalkCroG"
+     Child1 "RunCroG"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeGroupSelect "IdleCroG 22405" {
+     EditorPos 122.4 -18.2
+     Child "Switch 34485"
+     Group "Idle"
+     Column "Cro"
+    }
+    AnimSrcNodeSource "LocomotionCroAnim 34268" {
+     EditorPos 130 -21.6
+     Source "Locomotion.RunF"
+     Looptype Loop
+    }
+    AnimSrcNodeGroupSelect "WalkCroG 22255" {
+     EditorPos 128.7 -23.6
+     Child "LocomotionCroAnim 34268"
+     Group "Locomotion"
+     Column "Erc"
+    }
+    AnimSrcNodeBlendT "LocomotionCroSpeedB 33508" {
+     EditorPos 130 -25.1
+     BlendTime "0.25"
+     Condition "Stance == 1"
+     Child0 "WalkCroG 22255"
+     Child1 "RunCroG 37416"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeSource "Idle02SwitchAnim 18219" {
+     EditorPos 121 -14
+     NodeGroup ""
+     Source "Idle.Idle02"
+    }
+    AnimSrcNodeSource "Idle01SwitchAnim 28882" {
+     EditorPos 119.1 -14.8
+     NodeGroup ""
+     Source "Idle.Idle01"
+    }
+    AnimSrcNodeGroupSelect "WalkCroG 45678" {
+     EditorPos 126.3 -23.6
+     Child "LocomotionErcAnim 34322"
+     Group "Locomotion"
+     Column "Cro"
+    }
+    AnimSrcNodeStateMachine "MainSTM 33399" {
+     EditorPos 122.3 -32.2
+     states {
+      AnimSrcNodeState Idle {
+       EditorPos 121.1 -31.2
+       Child "IdleStanceSTM 20167"
+       StartCondition "true"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState StanceTransition {
+       EditorPos 132.7 -31.2
+       Child "StanceTransitionsSTM 32259"
+       StartCondition "false"
+       TimeStorage "Real Time"
+      }
+      AnimSrcNodeState Locomotion {
+       EditorPos 126.6 -29
+       Child "LocomotionStanceSTM 25685"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CED7E9F27BCFD7}" {
+       FromState "Idle"
+       ToState "StanceTransition"
+       Duration "0.2"
+       Condition "HasVariableChanged(Stance)"
+      }
+      AnimSrcNodeTransition "{64CED7E9F58C72E3}" {
+       FromState "StanceTransition"
+       ToState "Idle"
+       Duration "0.1"
+       Condition "RemainingTimeLess(0.1)"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{64CED7E95BA97F07}" {
+       FromState "Idle"
+       ToState "Locomotion"
+       Duration "0.2"
+       Condition "MovementSpeed > 0"
+      }
+      AnimSrcNodeTransition "{64CED7E951F0D257}" {
+       FromState "Locomotion"
+       ToState "Idle"
+       Duration "0.3"
+       Condition "MovementSpeed == 0"
+      }
+      AnimSrcNodeTransition "{64CED7E956E062EF}" {
+       FromState "StanceTransition"
+       ToState "Locomotion"
+       Duration "0.2"
+       Condition "MovementSpeed > 0"
+      }
+     }
+    }
+    AnimSrcNodeGroupSelect "WalkErcG 11510" {
+     EditorPos 123.7 -23.6
+     Child "LocomotionErcAnim 34322"
+     Group "Locomotion"
+     Column "Erc"
+    }
+    AnimSrcNodeGroupSelect "RunCroG 37416" {
+     EditorPos 131.2 -23.6
+     Child "LocomotionCroAnim 34268"
+     Group "Locomotion"
+     Column "Cro"
+    }
+    AnimSrcNodeSwitch "Switch 34485" {
+     EditorPos 121 -15.9
+     NodeGroup ""
+     BlendTime 0.2
+     FirstProbabilities "100"
+     SwitchItems {
+      AnimSrcNodeSwitchItem "{64CED7F24E1B5C76}" {
+       Child "Idle01SwitchAnim 28882"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EB68ADA}" {
+       Child "Idle02SwitchAnim 18219"
+       NextProbabilities "50 25 25"
+      }
+      AnimSrcNodeSwitchItem "{64CED7F24EEC522F}" {
+       Child "Idle03SwitchAnim 21659"
+      }
+     }
+    }
+    AnimSrcNodeSource "LocomotionErcAnim 34322" {
+     EditorPos 125.1 -21.6
+     Source "Locomotion.WalkF"
+     Looptype Loop
+    }
+    AnimSrcNodeSource "Idle03SwitchAnim 21659" {
+     EditorPos 122.9 -14.8
+     NodeGroup ""
+     Source "Idle.Idle03"
+    }
+    AnimSrcNodeSource "ErcToCroAnim 38928" {
+     EditorPos 134.1 -17.5
+     Source "Transition.Erc.GoCro"
+    }
+    AnimSrcNodeSource "CroToErcAnim 16821" {
+     EditorPos 131.1 -17.5
+     Source "Transition.Cro.GoErc"
+    }
+    AnimSrcNodeBlendT LocomotionErcStanceB {
+     EditorPos 125.1 -25.1
+     BlendTime "0.25"
+     Condition "Stance == 1"
+     Child0 "WalkErcG 11510"
+     Child1 "WalkCroG 45678"
+     Optimization "Skip blended out"
+    }
+    AnimSrcNodeStateMachine "LocomotionStanceSTM 25685" {
+     EditorPos 126.5 -27.5
+     states {
+      AnimSrcNodeState Walk {
+       EditorPos 125.2 -26.6
+       Child "LocomotionErcStanceB"
+       TimeStorage "Normalized Time"
+      }
+      AnimSrcNodeState Run {
+       EditorPos 129.9 -26.6
+       Child "LocomotionCroSpeedB 33508"
+       TimeStorage "Normalized Time"
+      }
+     }
+     transitions {
+      AnimSrcNodeTransition "{64CED7E840D4D2F8}" {
+       FromState "Walk"
+       ToState "Run"
+       Duration "0.25"
+       StartTime "GetLowerTime()"
+       Condition "MovementSpeed == 2"
+       PostEval 1
+      }
+      AnimSrcNodeTransition "{64CED7EBB29EEA66}" {
+       FromState "Run"
+       ToState "Walk"
+       Duration "0.25"
+       StartTime "GetLowerTime()"
+       Condition "MovementSpeed == 1"
+       PostEval 1
+      }
+     }
+    }
+    AnimSrcNodeGroupSelect "IdleErcG 35372" {
+     EditorPos 119.5 -18.2
+     Child "Switch 34485"
+     Group "Idle"
+     Column "Erc"
+    }
+    AnimSrcNodeStateMachine "IdleStanceSTM 20167" {
+     EditorPos 121.2 -20.5
+     states {
+      AnimSrcNodeState Erc {
+       EditorPos 119.5 -19.7
+       Child "IdleErcG 35372"
+       StartCondition "Stance == 0"
+      }
+      AnimSrcNodeState Cro {
+       EditorPos 122.4 -19.7
+       Child "IdleCroG 22405"
+       StartCondition "Stance == 1"
+      }
+     }
+    }
+    AnimSrcNodeStateMachine "StanceTransitionsSTM 32259" {
+     EditorPos 132.7 -20.3
+     states {
+      AnimSrcNodeState CroToErc {
+       EditorPos 131.1 -19.3
+       Child "CroToErcAnim 16821"
+       StartCondition "Stance == 0"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+      AnimSrcNodeState ErcToCro {
+       EditorPos 133.9 -19.3
+       Child "ErcToCroAnim 38928"
+       StartCondition "Stance == 1"
+       TimeStorage "Real Time"
+       IsExit 1
+      }
+     }
+    }
+   }
+   NodeGroups {
+    AnimSrcGraphNodeGroup Sources {
+     EditorColor 0.314 0.431 0.294 255
+    }
+    AnimSrcGraphNodeGroup Blends {
+     EditorColor 0.4118 0.4314 0.4118 255
+    }
+    AnimSrcGraphNodeGroup "Group Select" {
+     EditorColor 0.3529 0.451 0.3333 255
+    }
+    AnimSrcGraphNodeGroup Queue {
+     EditorColor 0.4902 0.451 0.3529 255
+    }
+    AnimSrcGraphNodeGroup "State Machine" {
+     EditorColor 0.451 0.3922 0.2745 255
+    }
+    AnimSrcGraphNodeGroup Switch {
+     EditorColor 0.451 0.3137 0.451 255
+    }
+   }
+  }
+ }
+}

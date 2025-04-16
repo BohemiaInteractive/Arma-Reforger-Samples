@@ -1,0 +1,31 @@
+AnimSrcGraph {
+ AnimSetTemplate "{EE162A3216C2482A}Examples.ast"
+ ControlTemplate AnimSrcGCT "{64CE7D8C0D3F28C4}" {
+  Variables {
+   AnimSrcGCTVarFloat Float01 {
+    MaxValue 1
+   }
+   AnimSrcGCTVarFloat Float02 {
+    MaxValue 5
+   }
+   AnimSrcGCTVarInt Int01 {
+    MaxValue 3
+   }
+   AnimSrcGCTVarBool Bool01 {
+   }
+   AnimSrcGCTVarBool Bool02 {
+   }
+   AnimSrcGCTVarInt Stance {
+    MaxValue 1
+   }
+   AnimSrcGCTVarInt MovementSpeed {
+    MaxValue 2
+   }
+  }
+ }
+ Debug AnimSrcGD "{64CE7D8C0D3F28C8}" {
+ }
+ GraphFilesResourceNames {
+  "{D3EA5288BFA4F5E9}Examples.agf"
+ }
+}

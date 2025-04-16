@@ -1,0 +1,8 @@
+GameProject {
+ ID "SampleMod_AnimationWorkshop"
+ GUID "5DA70AC5ACCB3E76"
+ TITLE "Sample Mod - Animation Workshop"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
